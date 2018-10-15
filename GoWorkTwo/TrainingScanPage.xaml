@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="GoWorkTwo.TrainingScanPage">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical">
+            <StackLayout Padding="10,10,10,5" VerticalOptions="CenterAndExpand">
+                <!--StackLayout>
+                    <Label Text="Current Day:" HorizontalTextAlignment="Center" />
+                </StackLayout-->
+                <StackLayout>
+                    <Label FontSize="24" FontAttributes="Bold" HorizontalTextAlignment="Center" Text="Day 1" />
+                    <Label FontSize="18" HorizontalTextAlignment="Center" Text="16 August 2018"/>
+                    <Label FontSize="18" HorizontalTextAlignment="Center" Text="Tuesday"/>
+                </StackLayout>
+            </StackLayout>
+            <StackLayout Padding="10,5,10,5" VerticalOptions="StartAndExpand">
+                <StackLayout>
+                    <Label Text="Current Training:" HorizontalTextAlignment="Center" />
+                </StackLayout>
+                <StackLayout>
+                    <Label FontSize="30" FontAttributes="Bold" HorizontalTextAlignment="Center" Text="Registration and Briefing " />
+                    <Label FontSize="18" HorizontalTextAlignment="Center" Text="1230 hrs - 1430 hrs"/>
+                </StackLayout>
+            </StackLayout>
+            <StackLayout Padding="10,5,10,5" VerticalOptions="EndAndExpand">
+                <StackLayout x:Name="slScanningPanel" >
+                    <Label Text="Confirm your presence by scanning QR code. Please ask your secretariat." FontAttributes="Italic" HorizontalTextAlignment="Center" />
+                    <Button Text="Confirm Attend" Clicked="OnScanTappedHandler" />
+                </StackLayout>
+                <StackLayout x:Name="slScannedVerified" IsVisible="false">
+                    <Label Text="Verified!" FontSize="40" HorizontalTextAlignment="Center" />
+                </StackLayout>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

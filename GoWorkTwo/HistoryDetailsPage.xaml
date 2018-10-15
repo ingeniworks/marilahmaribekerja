@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="GoWorkTwo.HistoryDetailsPage">
+    <ContentPage.Content>
+        <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" Margin="20,20,20,20">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="150" />
+                    <RowDefinition Height="30" />
+                    <RowDefinition Height="30" />
+                    <RowDefinition Height="30" />
+                    <RowDefinition Height="30" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Label x:Name="lblHDPStateLabel" FontSize="16" Text="State: " Grid.Row="0" Grid.Column="0" />
+                <Label x:Name="lblHDPStateStatus" FontSize="16" Text="{Binding HistoryPunch}" Grid.Row="0" Grid.Column="1" />
+                <Label x:Name="lblHDPLocationLabel" FontSize="16" Text="Location: " Grid.Row="1" Grid.Column="0" />
+                <Label x:Name="lblHDPLocationStatus" FontSize="16" Text="{Binding HistoryLocation}" Grid.Row="1" Grid.Column="1" />
+                <Label x:Name="lblHDPLatitudeLabel" FontSize="16" Text="Latitude: " Grid.Row="2" Grid.Column="0" />
+                <Label x:Name="lblHDPLatitudeStatus" FontSize="16" Text="{Binding HistoryLatitude}" Grid.Row="2" Grid.Column="1" />
+                <Label x:Name="lblHDPLongitudeLabel" FontSize="16" Text="Longitude: " Grid.Row="3" Grid.Column="0" />
+                <Label x:Name="lblHDPLongitudeStatus" FontSize="16" Text="{Binding HistoryLongitude}" Grid.Row="3" Grid.Column="1" />
+                <Label x:Name="lblHDPDateLabel" FontSize="16" Text="Date: " Grid.Row="4" Grid.Column="0" />
+                <Label x:Name="lblHDPDateStatus" FontSize="16" Text="{Binding HistoryDate}" Grid.Row="4" Grid.Column="1" />
+                <Label x:Name="lblHDPTimeLabel" FontSize="16" Text="Time: " Grid.Row="5" Grid.Column="0" />
+                <Label x:Name="lblHDPTimeStatus" FontSize="16" Text="{Binding HistoryTime}" Grid.Row="5" Grid.Column="1" />
+                <Label x:Name="lblHDPSyncedLabel" FontSize="16" Text="Synced: " Grid.Row="6" Grid.Column="0" />
+                <Label x:Name="lblHDPSyncedStatus" FontSize="16" Text="{Binding HistorySynced}" Grid.Row="6" Grid.Column="1" />
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

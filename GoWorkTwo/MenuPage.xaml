@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="GoWorkTwo.MenuPage">
+    <ContentPage.Content>
+        <StackLayout x:Name="slMPContent" BackgroundColor="Blue" >
+            <StackLayout x:Name="slMPHeader" Orientation="Vertical" BackgroundColor="Maroon" HeightRequest="150">
+                <StackLayout VerticalOptions="EndAndExpand" Margin="10,10,10,10">
+                    <Label x:Name="lblMPUserName" TextColor="White" Text="Welcome, User" />
+                    <Label x:Name="lblMPStaffNo" TextColor="White" Text="ING-000" />
+                </StackLayout>
+            </StackLayout>
+            <ListView x:Name="lvMPMenuListForm" 
+                      ItemsSource="{Binding MenuItems}" 
+                      VerticalOptions="FillAndExpand" 
+                      HasUnevenRows="true"
+                      ItemSelected="OnMenuListSelected"
+                      BackgroundColor="Transparent">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextCell Text="{Binding MenuName}" TextColor="Black"></TextCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

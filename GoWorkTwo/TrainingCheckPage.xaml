@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="GoWorkTwo.TrainingCheckPage">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout x:Name="slTCPSchedules" HorizontalOptions="FillAndExpand">
+                <StackLayout Orientation="Vertical">
+                        <StackLayout HorizontalOptions="FillAndExpand" BackgroundColor="White" Margin="10,-5,10,0" Padding="5,10,5,10">
+                            <Label x:Name="lblTCPTrainingTitle" FontSize="24" FontAttributes="Bold" Text="Title" HorizontalTextAlignment="Center" HorizontalOptions="CenterAndExpand" TextColor="Black" />
+                            <Label x:Name="lblTCPTrainingDate" FontSize="16" Text="Date" HorizontalOptions="CenterAndExpand" TextColor="Black" HorizontalTextAlignment="Center" />
+                            <Label x:Name="lblTCPTrainingVenue" FontSize="16" Text="Place" HorizontalOptions="CenterAndExpand" TextColor="Black" HorizontalTextAlignment="Center" />
+                        </StackLayout>
+                </StackLayout>
+                <!--StackLayout Orientation="Vertical">
+                    <StackLayout HorizontalOptions="FillAndExpand" BackgroundColor="Black" Margin="10,10,10,0" Padding="5,5,5,5">
+                        <Label Text="Day 2" HorizontalOptions="StartAndExpand" />
+                    </StackLayout>
+                    <StackLayout HorizontalOptions="FillAndExpand" BackgroundColor="White" Margin="10,-5,10,0" Padding="5,10,5,10">
+                        <StackLayout Orientation="Horizontal" Margin="0,5,0,5" Padding="30,0,30,0">
+                            <Label FontSize="20" FontAttributes="Bold" Text="Sesi Pagi" HorizontalTextAlignment="Center" HorizontalOptions="StartAndExpand" TextColor="Black"/>
+                            <Label FontSize="16" Text="Belum daftar" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" HorizontalOptions="EndAndExpand" TextColor="Black" />
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal" Margin="0,5,0,5" Padding="30,0,30,0">
+                            <Label FontSize="20" FontAttributes="Bold" Text="Sesi Petang" HorizontalTextAlignment="Center" HorizontalOptions="StartAndExpand" TextColor="Black"/>
+                            <Label FontSize="16" Text="Belum daftar" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" HorizontalOptions="EndAndExpand" TextColor="Black" />
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal" Margin="0,5,0,5" Padding="30,0,30,0">
+                            <Label FontSize="20" FontAttributes="Bold" Text="Sesi Malam" HorizontalTextAlignment="Center" HorizontalOptions="StartAndExpand" TextColor="Black"/>
+                            <Label FontSize="16" Text="Belum daftar" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" HorizontalOptions="EndAndExpand" TextColor="Black" />
+                        </StackLayout>
+                    </StackLayout>
+                </StackLayout>
+                <StackLayout Orientation="Vertical">
+                    <StackLayout HorizontalOptions="FillAndExpand" BackgroundColor="Black" Margin="10,10,10,0" Padding="5,5,5,5">
+                        <Label Text="Day 3" HorizontalOptions="StartAndExpand" />
+                    </StackLayout>
+                    <StackLayout HorizontalOptions="FillAndExpand" BackgroundColor="White" Margin="10,-5,10,0" Padding="5,10,5,10">
+                        <StackLayout Orientation="Horizontal" Margin="0,5,0,5" Padding="30,0,30,0">
+                            <Label FontSize="20" FontAttributes="Bold" Text="Sesi Pagi" HorizontalTextAlignment="Center" HorizontalOptions="StartAndExpand" TextColor="Black"/>
+                            <Label FontSize="16" Text="Belum daftar" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" HorizontalOptions="EndAndExpand" TextColor="Black" />
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal" Margin="0,5,0,5" Padding="30,0,30,0">
+                            <Label FontSize="20" FontAttributes="Bold" Text="Sesi Petang" HorizontalTextAlignment="Center" HorizontalOptions="StartAndExpand" TextColor="Black"/>
+                            <Label FontSize="16" Text="Belum daftar" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" HorizontalOptions="EndAndExpand" TextColor="Black" />
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal" Margin="0,5,0,5" Padding="30,0,30,0">
+                            <Label FontSize="20" FontAttributes="Bold" Text="Sesi Malam" HorizontalTextAlignment="Center" HorizontalOptions="StartAndExpand" TextColor="Black"/>
+                            <Label FontSize="16" Text="Belum daftar" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" HorizontalOptions="EndAndExpand" TextColor="Black" />
+                        </StackLayout>
+                    </StackLayout>
+                </StackLayout>
+                <StackLayout Orientation="Vertical">
+                    <StackLayout HorizontalOptions="FillAndExpand" BackgroundColor="Black" Margin="10,10,10,0" Padding="5,5,5,5">
+                        <Label Text="Day 4" HorizontalOptions="StartAndExpand" />
+                    </StackLayout>
+                    <StackLayout HorizontalOptions="FillAndExpand" BackgroundColor="White" Margin="10,-5,10,0" Padding="5,10,5,10">
+                        <StackLayout Orientation="Horizontal" Margin="0,5,0,5" Padding="30,0,30,0">
+                            <Label FontSize="20" FontAttributes="Bold" Text="Sesi Pagi" HorizontalTextAlignment="Center" HorizontalOptions="StartAndExpand" TextColor="Black" />
+                            <Label FontSize="16" Text="Belum daftar" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" HorizontalOptions="EndAndExpand" TextColor="Black" />
+                        </StackLayout>
+                    </StackLayout>
+                </StackLayout-->
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

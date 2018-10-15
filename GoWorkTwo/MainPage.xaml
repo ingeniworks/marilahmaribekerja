@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:local="clr-namespace:GoWorkTwo" 
+             x:Class="GoWorkTwo.MainPage">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Orientation="Vertical" BackgroundColor="White">
+                <Frame CornerRadius="10" BackgroundColor="#BBDEFB" Margin="10,10,10,5" Padding="10,10,10,10">
+                    <StackLayout Orientation="Vertical"  >
+                        <StackLayout Orientation="Horizontal">
+                            <Label x:Name="lblGWPCheckInOutMenuTitle" 
+                                   FontSize="20" 
+                                   FontAttributes="Bold" 
+                                   Text="Track your attendance:"></Label>
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal">
+                            <Label x:Name="lblGWPCheckInOutDesc" 
+                                   LineBreakMode="WordWrap" 
+                                   HorizontalTextAlignment="Start"
+                                   Text="Tap on Check In to punch in your attendance. Then, tap on Check Out to punch out."></Label>
+                        </StackLayout>
+                        <StackLayout Orientation="Vertical" x:Name="slMPInOutLegend">
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                                <Label x:Name="lblMPInLabel" Text="Masuk:" />
+                                <Label x:Name="lblMPInStated" Text="12 September 2018, 10:10 PM" />
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                                <Label x:Name="lblMPOutLabel" Text="Keluar:" />
+                                <Label x:Name="lblMPOutStated" Text="12 September 2018, 10:10 PM" />
+                            </StackLayout>
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal" x:Name="slLoadingIndicator">
+                            <ActivityIndicator x:Name="aiMPLoadingIndicator" Color="White" IsRunning="true" HorizontalOptions="FillAndExpand" />
+                            <Label x:Name="lblMPLoadingMessage" Text="Checking attendance..." HorizontalOptions="FillAndExpand" VerticalTextAlignment="Center"/>
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal"  x:Name="slCheckButtons">
+                            <Button x:Name="GWPCheckInBtn" HorizontalOptions="FillAndExpand" Text="Check In" Clicked="CheckInPageHandler" IsEnabled="false"></Button>
+                            <Button x:Name="GWPCheckOutBtn" HorizontalOptions="FillAndExpand" Text="Check Out" Clicked="CheckOutPageHandler" IsEnabled="false"></Button>
+                        </StackLayout>
+                    </StackLayout>
+                </Frame>
+                <Frame CornerRadius="10" BackgroundColor="#BBDEFB" Margin="10,5,10,5" Padding="10,10,10,10" IsVisible="false">
+                    <StackLayout Orientation="Vertical">
+                        <StackLayout Orientation="Horizontal">
+                            <Label x:Name="lblGWPTrainingTitle" 
+                                   FontSize="20" 
+                                   FontAttributes="Bold" 
+                                   Text="Training Report:"></Label>
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal">
+                            <Label x:Name="lblGWPTrainingDesc" 
+                                   LineBreakMode="WordWrap"
+                                   HorizontalTextAlignment="Start"
+                                   Text="Record your training here. Scan QR Code provided by Facilitator for training attendance record."></Label>
+                        </StackLayout>
+                        <StackLayout Orientation="Vertical" x:Name="slMPTrainingLegend">
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand">
+                                <Label x:Name="lblMPTrainingSessionOneLabel" Text="Sesi 1:" HorizontalTextAlignment="Start" />
+                                <Label x:Name="lblMPTrainingSessionOneStated" Text="12 September 2018, 10:10 PM" HorizontalTextAlignment="Start" />
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand">
+                                <Label x:Name="lblMPTrainingSessionTwoLabel" Text="Sesi 2:" HorizontalTextAlignment="Start" />
+                                <Label x:Name="lblMPTrainingSessionTwoStated" Text="12 September 2018, 10:10 PM" HorizontalTextAlignment="Start" />
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand">
+                                <Label x:Name="lblMPTrainingSessionThreeLabel" Text="Sesi 3:" HorizontalTextAlignment="Start" />
+                                <Label x:Name="lblMPTrainingSessionThreeStated" Text="12 September 2018, 10:10 PM" HorizontalTextAlignment="Start" />
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand">
+                                <Label x:Name="lblMPTrainingSessionFourLabel" Text="Sesi 4:" HorizontalTextAlignment="Start" />
+                                <Label x:Name="lblMPTrainingSessionFourStated" Text="12 September 2018, 10:10 PM" HorizontalTextAlignment="Start" />
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal"  x:Name="slTrainingCheckButtons" HorizontalOptions="FillAndExpand">
+                                <Button x:Name="btnMPTrainingCheck" HorizontalOptions="FillAndExpand" Text="Check In" Clicked="TrainingPageHandler" />
+                            </StackLayout>
+                        </StackLayout>
+                    </StackLayout>
+                </Frame>
+                <Frame CornerRadius="10" BackgroundColor="#BBDEFB" Margin="10,5,10,5" Padding="10,10,10,10">
+                    <StackLayout Orientation="Vertical">
+                        <StackLayout Orientation="Horizontal">
+                            <Label x:Name="lblGWPSyncingTitle" 
+                                   FontSize="20" 
+                                   FontAttributes="Bold" 
+                                   Text="Syncing:"></Label>
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal">
+                            <Label x:Name="lblGWPSyncingDesc" 
+                                   LineBreakMode="WordWrap"
+                                   HorizontalTextAlignment="Start"
+                                   Text="Your attendance will be tracked even you are on offline mode. However, you are required to connect to the Internet in order to sync with the iHR server."></Label>
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal" x:Name="slMPSyncActivity" Margin="10,10,10,10">
+                            <ActivityIndicator x:Name="aiMPCheckSyncIndicator" Color="White" IsRunning="true" HorizontalOptions="FillAndExpand" />
+                            <Label x:Name="lMPSyncLoadingLabel" Text="Loading..." HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand"/>
+                        </StackLayout>
+                        <StackLayout Orientation="Vertical" HorizontalOptions="Center" VerticalOptions="Center" x:Name="slMPSyncPanel" Margin="0,5,0,5">
+                            <Label x:Name="LGWPSyncStatLabel" 
+                                   LineBreakMode="WordWrap" 
+                                   HorizontalOptions="CenterAndExpand"
+                                   HorizontalTextAlignment="Center"
+                                   Text="You have 0 data not sync to server."
+                                   Margin="0,5,0,5"></Label>
+                            <Label x:Name="lblGWPSyncInstruction" 
+                                   LineBreakMode="WordWrap" 
+                                   HorizontalTextAlignment="Center"
+                                   HorizontalOptions="CenterAndExpand" 
+                                   Text="Tap on Sync button to perform syncing."
+                                   Margin="0,5,0,5"></Label>
+                            <Button x:Name="GWPSyncBtn" Text="Sync" Clicked="SyncToServerHandler" />
+                        </StackLayout>
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

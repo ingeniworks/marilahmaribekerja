@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="GoWorkTwo.Demos.IntroDemo">
+    <ContentPage>
+        <ContentPage.Content>
+            <StackLayout Orientation="Vertical">
+                <StackLayout Orientation="Vertical" VerticalOptions="CenterAndExpand">
+                   <Image x:Name="iIDFirstImage" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" />
+                </StackLayout>
+                <StackLayout Orientation="Vertical" VerticalOptions="CenterAndExpand">
+                    <Label x:Name="lIDFirstPageTitle" Text="FirstPageTitle" TextColor="White" FontSize="26" HorizontalOptions="CenterAndExpand" />
+                    <Label x:Name="lIDFirstPageDesc" Text="FirstPageDesc" TextColor="White" HorizontalOptions="CenterAndExpand" />
+                </StackLayout>
+                <StackLayout Orientation="Vertical" VerticalOptions="EndAndExpand">
+                    <Label x:Name="lIDFirstPageInstruction" Text="FirstPageInstruction" TextColor="White" FontAttributes="Italic" FontSize="10" HorizontalOptions="CenterAndExpand" />
+                </StackLayout>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+    <ContentPage>
+        <ContentPage.Content>
+            <StackLayout Orientation="Vertical">
+                <StackLayout Orientation="Vertical" VerticalOptions="CenterAndExpand">
+                   <Image x:Name="iIDSecondImage" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" />
+                </StackLayout>
+                <StackLayout Orientation="Vertical" VerticalOptions="CenterAndExpand">
+                    <Label x:Name="lIDSecondPageTitle" Text="SecondPageTitle" TextColor="White" FontSize="26" HorizontalOptions="CenterAndExpand" />
+                    <Label x:Name="lIDSecondPageDesc" Text="SecondPageDesc" 
+                           TextColor="White" 
+                           HorizontalOptions="CenterAndExpand" 
+                           Margin="10,0,10,0"
+                           HorizontalTextAlignment="Center"/>
+                </StackLayout>
+                <StackLayout x:Name="slIDSecondPagePermission" Orientation="Vertical" VerticalOptions="CenterAndExpand" IsVisible="true">
+                    <Button x:Name="btnIDSecondPagePermission" Text="SecondPageButton" VerticalOptions="Center" Margin="20,0,20,0" Clicked="GPSUsePermissionHandler"  />
+                </StackLayout>
+                <StackLayout x:Name="slIDSecondPageStatus" Orientation="Vertical" VerticalOptions="CenterAndExpand" IsVisible="false">
+                    <Label x:Name="lIDSecondPagePermStatus" TextColor="White"  Text="SecondPagePermStatus" HorizontalTextAlignment="Center" />
+                    <Label x:Name="lIDSecondPageInstruction" Text="SecondPageInstruction" TextColor="White" FontSize="10" FontAttributes="Italic" HorizontalTextAlignment="Center" />
+                </StackLayout>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+    <ContentPage>
+        <ContentPage.Content>
+            <StackLayout Orientation="Vertical">
+                <StackLayout Orientation="Vertical" VerticalOptions="CenterAndExpand">
+                   <Image x:Name="iIDThirdImage" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" />
+                </StackLayout>
+                <StackLayout Orientation="Vertical" VerticalOptions="CenterAndExpand">
+                    <Label x:Name="lIDThirdPageTitle" Text="ThirdPageTitle" TextColor="White" FontSize="26" HorizontalOptions="CenterAndExpand" />
+                    <Label x:Name="lIDThirdPageDesc" Text="ThirdPageDesc" 
+                           TextColor="White" 
+                           HorizontalOptions="CenterAndExpand" 
+                           Margin="10,0,10,0"
+                           HorizontalTextAlignment="Center"/>
+                </StackLayout>
+                <StackLayout x:Name="slIDThirdPagePermission" Orientation="Vertical" VerticalOptions="CenterAndExpand">
+                    <Button x:Name="btnIDThirdPagePermission" Text="ThirdPageButton" VerticalOptions="Center" Margin="20,0,20,0" Clicked="MemoryUsePermissionHandler"  />
+                </StackLayout>
+                <StackLayout  x:Name="slIDThirdPageStatus" Orientation="Vertical" VerticalOptions="CenterAndExpand" IsVisible="false">
+                    <Label x:Name="lIDThirdPagePermStatus" TextColor="White" Text="ThirdPagePermStatus" HorizontalTextAlignment="Center" />
+                    <Label x:Name="lIDThirdPageInstruction" Text="ThirdPageInstruction" TextColor="White" FontSize="10" FontAttributes="Italic" HorizontalTextAlignment="Center" />
+                </StackLayout>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+    <ContentPage>
+        <ContentPage.Content>
+            <StackLayout Orientation="Vertical">
+                <StackLayout Orientation="Vertical" VerticalOptions="CenterAndExpand">
+                   <Image x:Name="iIDFourthImage" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" />
+                </StackLayout>
+                <StackLayout Orientation="Vertical" VerticalOptions="CenterAndExpand">
+                    <Label x:Name="lIDFourthPageTitle" Text="FourthPageTitle" TextColor="White" FontSize="26" HorizontalOptions="CenterAndExpand" />
+                    <Label x:Name="lIDFourthPageDesc" Text="FourthPageDesc" 
+                           TextColor="White" 
+                           HorizontalOptions="CenterAndExpand" 
+                           Margin="10,0,10,0"
+                           HorizontalTextAlignment="Center"/>
+                </StackLayout>
+                <StackLayout x:Name="slIDFourthPageStatus" Orientation="Vertical" VerticalOptions="CenterAndExpand">
+                    <Label x:Name="lIDFourthPageInstruction" Text="FourthPageInstruction" TextColor="White" FontSize="10" FontAttributes="Italic" HorizontalTextAlignment="Center" />
+                </StackLayout>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+    <ContentPage>
+        <ContentPage.Content>
+            <StackLayout Orientation="Vertical">
+                <StackLayout Orientation="Vertical" VerticalOptions="CenterAndExpand">
+                   <Image x:Name="iIDFifthImage" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" />
+                </StackLayout>
+                <StackLayout Orientation="Vertical" VerticalOptions="CenterAndExpand">
+                    <Label x:Name="lIDFifthPageTitle" Text="FifthPageTitle" TextColor="White" FontSize="26" HorizontalOptions="CenterAndExpand" />
+                    <Label x:Name="lIDFifthPageDesc" Text="FifthPageDesc" 
+                           TextColor="White" 
+                           HorizontalOptions="CenterAndExpand" 
+                           Margin="10,0,10,0"
+                           HorizontalTextAlignment="Center"/>
+                </StackLayout>
+                <StackLayout x:Name="slIDFifthPagePermission" Orientation="Vertical" VerticalOptions="CenterAndExpand">
+                    <Button x:Name="btnIDFifthPagePermission" Text="FifthPagePermissionButton" VerticalOptions="Center" Margin="20,0,20,0" Clicked="TelephonyUsePermissionHandler"  />
+                </StackLayout>
+                <StackLayout x:Name="slIDFifthPagePermStatus" Orientation="Vertical" VerticalOptions="CenterAndExpand" IsVisible="false">
+                    <Label x:Name="lIDFifthPagePermStatus" TextColor="White" Text="FifthPagePermStatus" HorizontalTextAlignment="Center" />
+                    <Label x:Name="lIDFifthPageInstruction" Text="FifthPagePermInstruction" TextColor="White" FontSize="10" FontAttributes="Italic" HorizontalTextAlignment="Center" />
+                </StackLayout>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+    <ContentPage>
+        <ContentPage.Content>
+            <StackLayout Orientation="Vertical">
+                <StackLayout Orientation="Vertical" VerticalOptions="CenterAndExpand">
+                   <Image x:Name="iIDSixthImage" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" />
+                </StackLayout>
+                <StackLayout Orientation="Vertical" VerticalOptions="CenterAndExpand">
+                    <Label x:Name="lIDSixthPageTitle" Text="SixthPageTitle" TextColor="White" FontSize="26" HorizontalOptions="CenterAndExpand" />
+                    <Label x:Name="lIDSixthPageDesc" Text="SixthPageDesc" 
+                           TextColor="White" 
+                           HorizontalOptions="CenterAndExpand" 
+                           Margin="10,0,10,0"
+                           HorizontalTextAlignment="Center"/>
+                </StackLayout>
+                <StackLayout x:Name="slIDSixthPagePermission" Orientation="Vertical" VerticalOptions="CenterAndExpand" IsVisible="true">
+                    <Button x:Name="btnIDSixthPagePermission" Text="SixthPagePermission" VerticalOptions="Center" Margin="20,0,20,0" Clicked="FinishPermissionHandler" />
+                </StackLayout>
+                <StackLayout x:Name="slIDSixthPagePermStatus" Orientation="Vertical" VerticalOptions="CenterAndExpand" IsVisible="false">
+                    <Label x:Name="lIDSixthPagePermStatus" Text="SixthPagePermStatus" HorizontalTextAlignment="Center" TextColor="White" />
+                    <Label x:Name="lIDSixthPageInstruction" Text="SixthPagePermInstruction" FontSize="10" FontAttributes="Italic" HorizontalTextAlignment="Center" TextColor="White" />
+                </StackLayout>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+</CarouselPage>

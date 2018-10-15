@@ -1,0 +1,42 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>pdbonly</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="3.1.0.697729" />
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+    <PackageReference Include="ZXing.Net.Mobile.Forms" Version="2.4.1" />
+    <PackageReference Include="ZXing.Net.Mobile" Version="2.4.1" />
+    <PackageReference Include="HockeySDK.Xamarin" Version="5.1.2" />
+    <PackageReference Include="sqlite-net-pcl" Version="1.4.118" />
+    <PackageReference Include="Xam.Plugin.Geolocator" Version="4.5.0.6" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Classes\" />
+    <Folder Include="Images\" />
+    <Folder Include="Demos\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Images\GwIcon.png" />
+    <None Remove="Images\attdico_nocircle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\GwIcon.png">
+      <LogicalName>GwIcon.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\attdico_nocircle.png">
+      <LogicalName>attdico_nocircle.png</LogicalName>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="CheckInOutPage.xaml.cs" />
+    <Compile Remove="IAndroidBridge.cs" />
+  </ItemGroup>
+</Project>

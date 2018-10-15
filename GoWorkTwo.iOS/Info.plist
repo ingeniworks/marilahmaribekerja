@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UIDeviceFamily</key>
+	<array>
+		<integer>1</integer>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>MinimumOSVersion</key>
+	<string>10.0</string>
+	<key>CFBundleDisplayName</key>
+	<string>Khije</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.ingeniworks.goworkios</string>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>XSAppIconAssets</key>
+	<string>Assets.xcassets/AppIcon.appiconset</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+		<key>NSExceptionDomains</key>
+		<dict>
+			<key>hrv2.msd.net.my</key>
+			<dict>
+				<key>NSIncludesSubdomains</key>
+				<true/>
+				<key>NSTemporaryExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+				<key>NSTemporaryExceptionMinimumTLSVersion</key>
+				<string>TLSv1.1</string>
+				<key>NSExceptionRequiresForwardSecrecy</key>
+				<true/>
+			</dict>
+		</dict>
+	</dict>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Aplikasi ini sentiasa menggunakan lokasi untuk mengetahui tempat</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Aplikasi ini menggunakan lokasi apabila diperlukan untuk mengetahui tempat</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Aplikasi ini memerlukan kebenaran penggunaan kamera untuk mengimbas kod QR</string>
+	<key>CFBundleName</key>
+	<string>Khije</string>
+	<key>CFBundleShortVersionString</key>
+	<string> 0.1.4</string>
+	<key>XSLaunchImageAssets</key>
+	<string>Assets.xcassets/LaunchImage.launchimage</string>
+	<key>NSCalendarsUsageDescription</key>
+	<string>Aplikasi ini menggunakan kalendar untuk mengakses tarikh dan masa</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Aplikasi ini menggunakan Photo Library untuk mengakses gambar</string>
+	<key>CFBundleVersion</key>
+	<string>10</string>
+</dict>
+</plist>

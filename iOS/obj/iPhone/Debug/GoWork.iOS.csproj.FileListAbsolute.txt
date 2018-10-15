@@ -1,8 +1,0 @@
-/Users/zul/Documents/Kerja_MSD/Xamarin/GoWork/iOS/obj/iPhone/Debug/ibtool/_BundleResourceWithLogicalName.items
-/Users/zul/Documents/Kerja_MSD/Xamarin/GoWork/iOS/obj/iPhone/Debug/actool/_PartialAppManifest.items
-/Users/zul/Documents/Kerja_MSD/Xamarin/GoWork/iOS/obj/iPhone/Debug/actool/_BundleResourceWithLogicalName.items
-/Users/zul/Documents/Kerja_MSD/Xamarin/GoWork/iOS/obj/iPhone/Debug/coremlc/_PartialAppManifest.items
-/Users/zul/Documents/Kerja_MSD/Xamarin/GoWork/iOS/obj/iPhone/Debug/coremlc/_BundleResourceWithLogicalName.items
-/Users/zul/Documents/Kerja_MSD/Xamarin/GoWork/iOS/obj/iPhone/Debug/optimized/
-/Users/zul/Documents/Kerja_MSD/Xamarin/GoWork/iOS/obj/iPhone/Debug/GoWork.iOS.csprojAssemblyReference.cache
-/Users/zul/Documents/Kerja_MSD/Xamarin/GoWork/iOS/obj/iPhone/Debug/GoWork.iOS.csproj.CoreCompileInputs.cache

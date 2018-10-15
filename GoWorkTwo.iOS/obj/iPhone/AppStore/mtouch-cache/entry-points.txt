@@ -1,0 +1,72 @@
+Function=xamarin_timezone_get_data
+	/Users/zul/Documents/Kerja_MSD/Xamarin/GoWorkTwo/GoWorkTwo.iOS/obj/iPhone/AppStore/mtouch-cache/32/1-Link/mscorlib.dll
+Function=xamarin_GetFolderPath
+	/Users/zul/Documents/Kerja_MSD/Xamarin/GoWorkTwo/GoWorkTwo.iOS/obj/iPhone/AppStore/mtouch-cache/32/1-Link/mscorlib.dll
+Function=xamarin_log
+	/Users/zul/Documents/Kerja_MSD/Xamarin/GoWorkTwo/GoWorkTwo.iOS/obj/iPhone/AppStore/mtouch-cache/32/1-Link/mscorlib.dll
+Function=xamarin_start_wwan
+	/Users/zul/Documents/Kerja_MSD/Xamarin/GoWorkTwo/GoWorkTwo.iOS/obj/iPhone/AppStore/mtouch-cache/32/1-Link/System.dll
+Function=CreateZStream
+	/Users/zul/Documents/Kerja_MSD/Xamarin/GoWorkTwo/GoWorkTwo.iOS/obj/iPhone/AppStore/mtouch-cache/32/1-Link/System.dll
+Function=CloseZStream
+	/Users/zul/Documents/Kerja_MSD/Xamarin/GoWorkTwo/GoWorkTwo.iOS/obj/iPhone/AppStore/mtouch-cache/32/1-Link/System.dll
+Function=Flush
+	/Users/zul/Documents/Kerja_MSD/Xamarin/GoWorkTwo/GoWorkTwo.iOS/obj/iPhone/AppStore/mtouch-cache/32/1-Link/System.dll
+Function=ReadZStream
+	/Users/zul/Documents/Kerja_MSD/Xamarin/GoWorkTwo/GoWorkTwo.iOS/obj/iPhone/AppStore/mtouch-cache/32/1-Link/System.dll
+Function=WriteZStream
+	/Users/zul/Documents/Kerja_MSD/Xamarin/GoWorkTwo/GoWorkTwo.iOS/obj/iPhone/AppStore/mtouch-cache/32/1-Link/System.dll
+Function=xamarin_find_protocol_wrapper_type
+	/Users/zul/Documents/Kerja_MSD/Xamarin/GoWorkTwo/GoWorkTwo.iOS/obj/iPhone/AppStore/mtouch-cache/32/1-Link/Xamarin.iOS.dll
+Function=xamarin_get_block_descriptor
+	/Users/zul/Documents/Kerja_MSD/Xamarin/GoWorkTwo/GoWorkTwo.iOS/obj/iPhone/AppStore/mtouch-cache/32/1-Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSend_IntPtr
+	/Users/zul/Documents/Kerja_MSD/Xamarin/GoWorkTwo/GoWorkTwo.iOS/obj/iPhone/AppStore/mtouch-cache/32/1-Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSendSuper_IntPtr
+	/Users/zul/Documents/Kerja_MSD/Xamarin/GoWorkTwo/GoWorkTwo.iOS/obj/iPhone/AppStore/mtouch-cache/32/1-Link/Xamarin.iOS.dll
+Function=UIApplicationMain
+	/Users/zul/Documents/Kerja_MSD/Xamarin/GoWorkTwo/GoWorkTwo.iOS/obj/iPhone/AppStore/mtouch-cache/32/1-Link/Xamarin.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_BITHockeyManager
+	/Users/zul/Documents/Kerja_MSD/Xamarin/GoWorkTwo/GoWorkTwo.iOS/obj/iPhone/AppStore/mtouch-cache/32/1-Link/HockeySDK.iOSBindings.dll
+ObjectiveCClass=OBJC_CLASS_$_BITAuthenticator
+	/Users/zul/Documents/Kerja_MSD/Xamarin/GoWorkTwo/GoWorkTwo.iOS/obj/iPhone/AppStore/mtouch-cache/32/1-Link/HockeySDK.iOSBindings.dll
+ObjectiveCClass=OBJC_CLASS_$_BITCrashAttachment
+	/Users/zul/Documents/Kerja_MSD/Xamarin/GoWorkTwo/GoWorkTwo.iOS/obj/iPhone/AppStore/mtouch-cache/32/1-Link/HockeySDK.iOSBindings.dll
+ObjectiveCClass=OBJC_CLASS_$_BITCrashDetails
+	/Users/zul/Documents/Kerja_MSD/Xamarin/GoWorkTwo/GoWorkTwo.iOS/obj/iPhone/AppStore/mtouch-cache/32/1-Link/HockeySDK.iOSBindings.dll
+ObjectiveCClass=OBJC_CLASS_$_BITCrashManager
+	/Users/zul/Documents/Kerja_MSD/Xamarin/GoWorkTwo/GoWorkTwo.iOS/obj/iPhone/AppStore/mtouch-cache/32/1-Link/HockeySDK.iOSBindings.dll
+ObjectiveCClass=OBJC_CLASS_$_BITCrashMetaData
+	/Users/zul/Documents/Kerja_MSD/Xamarin/GoWorkTwo/GoWorkTwo.iOS/obj/iPhone/AppStore/mtouch-cache/32/1-Link/HockeySDK.iOSBindings.dll
+ObjectiveCClass=OBJC_CLASS_$_BITFeedbackActivity
+	/Users/zul/Documents/Kerja_MSD/Xamarin/GoWorkTwo/GoWorkTwo.iOS/obj/iPhone/AppStore/mtouch-cache/32/1-Link/HockeySDK.iOSBindings.dll
+ObjectiveCClass=OBJC_CLASS_$_BITFeedbackComposeViewController
+	/Users/zul/Documents/Kerja_MSD/Xamarin/GoWorkTwo/GoWorkTwo.iOS/obj/iPhone/AppStore/mtouch-cache/32/1-Link/HockeySDK.iOSBindings.dll
+ObjectiveCClass=OBJC_CLASS_$_BITFeedbackListViewController
+	/Users/zul/Documents/Kerja_MSD/Xamarin/GoWorkTwo/GoWorkTwo.iOS/obj/iPhone/AppStore/mtouch-cache/32/1-Link/HockeySDK.iOSBindings.dll
+ObjectiveCClass=OBJC_CLASS_$_BITFeedbackManager
+	/Users/zul/Documents/Kerja_MSD/Xamarin/GoWorkTwo/GoWorkTwo.iOS/obj/iPhone/AppStore/mtouch-cache/32/1-Link/HockeySDK.iOSBindings.dll
+ObjectiveCClass=OBJC_CLASS_$_BITHockeyAttachment
+	/Users/zul/Documents/Kerja_MSD/Xamarin/GoWorkTwo/GoWorkTwo.iOS/obj/iPhone/AppStore/mtouch-cache/32/1-Link/HockeySDK.iOSBindings.dll
+ObjectiveCClass=OBJC_CLASS_$_BITHockeyBaseManager
+	/Users/zul/Documents/Kerja_MSD/Xamarin/GoWorkTwo/GoWorkTwo.iOS/obj/iPhone/AppStore/mtouch-cache/32/1-Link/HockeySDK.iOSBindings.dll
+ObjectiveCClass=OBJC_CLASS_$_BITHockeyBaseViewController
+	/Users/zul/Documents/Kerja_MSD/Xamarin/GoWorkTwo/GoWorkTwo.iOS/obj/iPhone/AppStore/mtouch-cache/32/1-Link/HockeySDK.iOSBindings.dll
+ObjectiveCClass=OBJC_CLASS_$_BITMetricsManager
+	/Users/zul/Documents/Kerja_MSD/Xamarin/GoWorkTwo/GoWorkTwo.iOS/obj/iPhone/AppStore/mtouch-cache/32/1-Link/HockeySDK.iOSBindings.dll
+ObjectiveCClass=OBJC_CLASS_$_BITStoreUpdateManager
+	/Users/zul/Documents/Kerja_MSD/Xamarin/GoWorkTwo/GoWorkTwo.iOS/obj/iPhone/AppStore/mtouch-cache/32/1-Link/HockeySDK.iOSBindings.dll
+ObjectiveCClass=OBJC_CLASS_$_BITUpdateManager
+	/Users/zul/Documents/Kerja_MSD/Xamarin/GoWorkTwo/GoWorkTwo.iOS/obj/iPhone/AppStore/mtouch-cache/32/1-Link/HockeySDK.iOSBindings.dll
+ObjectiveCClass=OBJC_CLASS_$_BITUpdateViewController
+	/Users/zul/Documents/Kerja_MSD/Xamarin/GoWorkTwo/GoWorkTwo.iOS/obj/iPhone/AppStore/mtouch-cache/32/1-Link/HockeySDK.iOSBindings.dll
+Field=kBITAuthenticatorErrorDomain
+	/Users/zul/Documents/Kerja_MSD/Xamarin/GoWorkTwo/GoWorkTwo.iOS/obj/iPhone/AppStore/mtouch-cache/32/1-Link/HockeySDK.iOSBindings.dll
+Field=kBITCrashErrorDomain
+	/Users/zul/Documents/Kerja_MSD/Xamarin/GoWorkTwo/GoWorkTwo.iOS/obj/iPhone/AppStore/mtouch-cache/32/1-Link/HockeySDK.iOSBindings.dll
+Field=kBITFeedbackErrorDomain
+	/Users/zul/Documents/Kerja_MSD/Xamarin/GoWorkTwo/GoWorkTwo.iOS/obj/iPhone/AppStore/mtouch-cache/32/1-Link/HockeySDK.iOSBindings.dll
+Field=kBITHockeyErrorDomain
+	/Users/zul/Documents/Kerja_MSD/Xamarin/GoWorkTwo/GoWorkTwo.iOS/obj/iPhone/AppStore/mtouch-cache/32/1-Link/HockeySDK.iOSBindings.dll
+Field=kBITUpdateErrorDomain
+	/Users/zul/Documents/Kerja_MSD/Xamarin/GoWorkTwo/GoWorkTwo.iOS/obj/iPhone/AppStore/mtouch-cache/32/1-Link/HockeySDK.iOSBindings.dll
