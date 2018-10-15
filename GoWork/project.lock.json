@@ -11,7 +11,7 @@
           "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/HockeySDK.dll": {}
         }
       },
-      "Microsoft.NETCore.Platforms/2.1.0": {
+      "Microsoft.NETCore.Platforms/2.1.1": {
         "type": "package",
         "compile": {
           "lib/netstandard1.0/_._": {}
@@ -180,10 +180,10 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "sqlite-net-pcl/1.5.166-beta": {
+      "sqlite-net-pcl/1.5.231": {
         "type": "package",
         "dependencies": {
-          "SQLitePCLRaw.bundle_green": "1.1.8"
+          "SQLitePCLRaw.bundle_green": "1.1.11"
         },
         "compile": {
           "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLite-net.dll": {}
@@ -305,7 +305,7 @@
           "lib/portable-net45+win8+wp8+wpa81/_._": {}
         }
       },
-      "System.Net.Http/4.3.3": {
+      "System.Net.Http/4.3.4": {
         "type": "package",
         "compile": {
           "ref/portable-net45+win8+wpa81/_._": {}
@@ -504,7 +504,7 @@
           "lib/portable-net45+win8+wp8+wpa81/Validation.dll": {}
         }
       },
-      "Xam.Plugin.Media/4.0.1.1": {
+      "Xam.Plugin.Media/4.0.1.5": {
         "type": "package",
         "dependencies": {
           "NETStandard.Library": "1.6.1",
@@ -517,7 +517,7 @@
           "lib/netstandard1.0/Plugin.Media.dll": {}
         }
       },
-      "Xamarin.Forms/3.1.0.697729": {
+      "Xamarin.Forms/3.2.0.871581": {
         "type": "package",
         "compile": {
           "lib/netstandard1.0/Xamarin.Forms.Core.dll": {},
@@ -534,10 +534,10 @@
           "build/netstandard1.0/Xamarin.Forms.targets": {}
         }
       },
-      "Xamarin.Forms.Maps/3.1.0.697729": {
+      "Xamarin.Forms.Maps/3.2.0.871581": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Forms": "3.1.0.697729"
+          "Xamarin.Forms": "3.2.0.871581"
         },
         "compile": {
           "lib/netstandard1.0/Xamarin.Forms.Maps.Design.dll": {},
@@ -643,16 +643,16 @@
         "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/HockeySDK.dll"
       ]
     },
-    "Microsoft.NETCore.Platforms/2.1.0": {
-      "sha512": "TT+QCi9LcxGTjBssH7S7n5+8DVcwfG4DYgXX7Dk7+BfZ4oVHj8Q0CbYk9glzAlHLsSt3bYzol+fOdra2iu6GOw==",
+    "Microsoft.NETCore.Platforms/2.1.1": {
+      "sha512": "iXcQc19h5oECLVokgt6hvLOOPP/d9kYQh9miF9zbcxGVZenuTN9IMB+f+gP26/+Rc5r2KLES5Of45Qdqo0NJeA==",
       "type": "package",
-      "path": "microsoft.netcore.platforms/2.1.0",
+      "path": "microsoft.netcore.platforms/2.1.1",
       "files": [
         ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "lib/netstandard1.0/_._",
-        "microsoft.netcore.platforms.2.1.0.nupkg.sha512",
+        "microsoft.netcore.platforms.2.1.1.nupkg.sha512",
         "microsoft.netcore.platforms.nuspec",
         "runtime.json",
         "useSharedDesignerContext.txt",
@@ -901,19 +901,18 @@
         "runtime.native.system.nuspec"
       ]
     },
-    "sqlite-net-pcl/1.5.166-beta": {
-      "sha512": "a7VbroGBauEKY+UJeP1Z5UyrSHagigKgJGa5pVOyKDOI5/cPuCN2YUP4lhLReZdn73CrPqz2U7jsmZBoyZ0kXA==",
+    "sqlite-net-pcl/1.5.231": {
+      "sha512": "Sy+K+Wm2RZ+4b1uLHsaXvfR92Or71XxPXa2Id6msSOVkZKh+c+PUk/HQOAgxyhm3lhvysL0mK6Gd6mI69NJ9AA==",
       "type": "package",
-      "path": "sqlite-net-pcl/1.5.166-beta",
+      "path": "sqlite-net-pcl/1.5.231",
       "files": [
+        ".signature.p7s",
         "lib/netstandard1.1/SQLite-net.deps.json",
         "lib/netstandard1.1/SQLite-net.dll",
-        "lib/netstandard1.1/SQLite-net.pdb",
         "lib/netstandard1.1/SQLite-net.xml",
         "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLite-net.dll",
-        "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLite-net.pdb",
         "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/SQLite-net.xml",
-        "sqlite-net-pcl.1.5.166-beta.nupkg.sha512",
+        "sqlite-net-pcl.1.5.231.nupkg.sha512",
         "sqlite-net-pcl.nuspec"
       ]
     },
@@ -1693,11 +1692,12 @@
         "system.linq.expressions.nuspec"
       ]
     },
-    "System.Net.Http/4.3.3": {
-      "sha512": "7rCqIbkC/P2+A00NoDH5gnvFhADmX7Dc4INvsOajbU1MVhktE9vZNrjPtF82N6Uo7obK+yzlrPUv/M+snnN/9w==",
+    "System.Net.Http/4.3.4": {
+      "sha512": "Fj7e73NNHwof97gFPTJuq8gv6G895yxkZt14DVnZdEh4gvKl8WrksCwNjIp/JeYX/yu/qxM/iOv9ai+ZY3Fp7Q==",
       "type": "package",
-      "path": "system.net.http/4.3.3",
+      "path": "system.net.http/4.3.4",
       "files": [
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/Xamarinmac20/_._",
@@ -1729,7 +1729,7 @@
         "runtimes/win/lib/net46/System.Net.Http.dll",
         "runtimes/win/lib/netcore50/System.Net.Http.dll",
         "runtimes/win/lib/netstandard1.3/System.Net.Http.dll",
-        "system.net.http.4.3.3.nupkg.sha512",
+        "system.net.http.4.3.4.nupkg.sha512",
         "system.net.http.nuspec"
       ]
     },
@@ -2987,10 +2987,10 @@
         "validation.nuspec"
       ]
     },
-    "Xam.Plugin.Media/4.0.1.1": {
-      "sha512": "AtXsjiiipz6mBgqGfiBCoHKs7w7jxIZ1xJ5EmfOtoGXL0jT33u4hZwWqYpR1dBiF9ByG/ZmMnKfKdnhDMiq1Eg==",
+    "Xam.Plugin.Media/4.0.1.5": {
+      "sha512": "a5l/M2Tl06BqBX/uhM/pr+q1jDkh2tRQr5Ne9rjAuD9VYn5STE+7kVFTzIUNPMnMr9PZLJkWP5WAr/tBN5oepw==",
       "type": "package",
-      "path": "xam.plugin.media/4.0.1.1",
+      "path": "xam.plugin.media/4.0.1.5",
       "files": [
         "lib/monoandroid71/Plugin.Media.dll",
         "lib/monoandroid71/Plugin.Media.xml",
@@ -3006,14 +3006,14 @@
         "lib/xamarinios10/Plugin.Media.dll",
         "lib/xamarinios10/Plugin.Media.xml",
         "readme.txt",
-        "xam.plugin.media.4.0.1.1.nupkg.sha512",
+        "xam.plugin.media.4.0.1.5.nupkg.sha512",
         "xam.plugin.media.nuspec"
       ]
     },
-    "Xamarin.Forms/3.1.0.697729": {
-      "sha512": "YlFOM9u8onIRxJwYJ3l+O0wFKqzzrDjDrgnoBr1rct+eaQKU77vFydxvTP+WxYlYzR14hYvyLNC65L84+6ke6w==",
+    "Xamarin.Forms/3.2.0.871581": {
+      "sha512": "1yKOnOHYR1v4Afa5XIkpPfdIG3A3Tu0gT5TX4923xG5DV+8dJw+beSPuLagSJoU33NzV023t73R5iSbMoSF7qQ==",
       "type": "package",
-      "path": "xamarin.forms/3.1.0.697729",
+      "path": "xamarin.forms/3.2.0.871581",
       "files": [
         ".signature.p7s",
         "build/netstandard1.0/Mono.Cecil.Mdb.dll",
@@ -3155,14 +3155,14 @@
         "lib/uap10.0/Xamarin.Forms.Platform.dll",
         "lib/uap10.0/Xamarin.Forms.Xaml.dll",
         "lib/uap10.0/Xamarin.Forms.Xaml.xml",
-        "xamarin.forms.3.1.0.697729.nupkg.sha512",
+        "xamarin.forms.3.2.0.871581.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
     },
-    "Xamarin.Forms.Maps/3.1.0.697729": {
-      "sha512": "X+qjn+UBlXFhP9XwdnEN1AFF+hFG58JS6DW3u6BPKq/87etFtGLsb8qHftucjMTJKNhwYqXx/v7W0ARvZSP3EA==",
+    "Xamarin.Forms.Maps/3.2.0.871581": {
+      "sha512": "7+S1hnT5Ibo3LCKOXU97vesjyBa9PhVD++EASxTgTSPGnM82PVM5B5XB+pAwsPWjZmQ99OsOuNnEU3dWjGj3LA==",
       "type": "package",
-      "path": "xamarin.forms.maps/3.1.0.697729",
+      "path": "xamarin.forms.maps/3.2.0.871581",
       "files": [
         ".signature.p7s",
         "lib/MonoAndroid10/Xamarin.Forms.Maps.Android.dll",
@@ -3186,7 +3186,7 @@
         "lib/uap10.0/Xamarin.Forms.Maps.UWP.dll",
         "lib/uap10.0/Xamarin.Forms.Maps.UWP.pri",
         "lib/uap10.0/Xamarin.Forms.Maps.dll",
-        "xamarin.forms.maps.3.1.0.697729.nupkg.sha512",
+        "xamarin.forms.maps.3.2.0.871581.nupkg.sha512",
         "xamarin.forms.maps.nuspec"
       ]
     },
@@ -3289,7 +3289,7 @@
   "projectFileDependencyGroups": {
     "": [
       "HockeySDK.Xamarin >= 5.1.2",
-      "Microsoft.NETCore.Platforms >= 2.1.0",
+      "Microsoft.NETCore.Platforms >= 2.1.1",
       "Microsoft.NETCore.Targets >= 2.1.0",
       "Newtonsoft.Json >= 11.0.2",
       "PCLCrypto >= 2.0.147",
@@ -3310,7 +3310,7 @@
       "System.IO.Compression >= 4.3.0",
       "System.Linq >= 4.3.0",
       "System.Linq.Expressions >= 4.3.0",
-      "System.Net.Http >= 4.3.3",
+      "System.Net.Http >= 4.3.4",
       "System.Net.Primitives >= 4.3.0",
       "System.ObjectModel >= 4.3.0",
       "System.Reflection >= 4.3.0",
@@ -3330,9 +3330,9 @@
       "System.Xml.ReaderWriter >= 4.3.1",
       "System.Xml.XDocument >= 4.3.0",
       "Validation >= 2.4.18",
-      "Xam.Plugin.Media >= 4.0.1.1",
-      "Xamarin.Forms >= 3.1.0.697729",
-      "Xamarin.Forms.Maps >= 3.1.0.697729",
+      "Xam.Plugin.Media >= 4.0.1.5",
+      "Xamarin.Forms >= 3.2.0.871581",
+      "Xamarin.Forms.Maps >= 3.2.0.871581",
       "Xamarin.Forms.Theme.Base >= 1.0.0.43-pre1",
       "Xamarin.Forms.Theme.Dark >= 1.0.0.43-pre1",
       "Xamarin.Forms.Theme.Light >= 1.0.0.43-pre1",
@@ -3340,7 +3340,7 @@
       "ZXing.Net.Mobile.Forms >= 2.4.1",
       "modernhttpclient >= 2.4.2",
       "runtime.native.System >= 4.3.1",
-      "sqlite-net-pcl >= 1.5.166-beta"
+      "sqlite-net-pcl >= 1.5.231"
     ],
     ".NETPortable,Version=v4.5,Profile=Profile111": []
   },
@@ -3349,10 +3349,10 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "/Users/zul/Documents/Kerja_MSD/Xamarin/GoWork/GoWork/GoWork.csproj",
+      "projectUniqueName": "/Users/zul/Documents/Kerja_MSD/Xamarin/marilahmaribekerja/GoWork/GoWork.csproj",
       "projectName": "GoWork",
-      "projectPath": "/Users/zul/Documents/Kerja_MSD/Xamarin/GoWork/GoWork/GoWork.csproj",
-      "projectJsonPath": "/Users/zul/Documents/Kerja_MSD/Xamarin/GoWork/GoWork/project.json",
+      "projectPath": "/Users/zul/Documents/Kerja_MSD/Xamarin/marilahmaribekerja/GoWork/GoWork.csproj",
+      "projectJsonPath": "/Users/zul/Documents/Kerja_MSD/Xamarin/marilahmaribekerja/GoWork/project.json",
       "packagesPath": "/Users/zul/.nuget/packages/",
       "projectStyle": "ProjectJson",
       "configFilePaths": [
@@ -3364,7 +3364,7 @@
     },
     "dependencies": {
       "HockeySDK.Xamarin": "5.1.2",
-      "Microsoft.NETCore.Platforms": "2.1.0",
+      "Microsoft.NETCore.Platforms": "2.1.1",
       "Microsoft.NETCore.Targets": "2.1.0",
       "modernhttpclient": "2.4.2",
       "Newtonsoft.Json": "11.0.2",
@@ -3375,7 +3375,7 @@
       "PInvoke.Windows.Core": "0.5.155",
       "Rg.Plugins.Popup": "1.1.4.168",
       "runtime.native.System": "4.3.1",
-      "sqlite-net-pcl": "1.5.166-beta",
+      "sqlite-net-pcl": "1.5.231",
       "SQLitePCLRaw.bundle_green": "1.1.11",
       "SQLitePCLRaw.core": "1.1.11",
       "System.Collections": "4.3.0",
@@ -3388,7 +3388,7 @@
       "System.IO.Compression": "4.3.0",
       "System.Linq": "4.3.0",
       "System.Linq.Expressions": "4.3.0",
-      "System.Net.Http": "4.3.3",
+      "System.Net.Http": "4.3.4",
       "System.Net.Primitives": "4.3.0",
       "System.ObjectModel": "4.3.0",
       "System.Reflection": "4.3.0",
@@ -3408,9 +3408,9 @@
       "System.Xml.ReaderWriter": "4.3.1",
       "System.Xml.XDocument": "4.3.0",
       "Validation": "2.4.18",
-      "Xam.Plugin.Media": "4.0.1.1",
-      "Xamarin.Forms": "3.1.0.697729",
-      "Xamarin.Forms.Maps": "3.1.0.697729",
+      "Xam.Plugin.Media": "4.0.1.5",
+      "Xamarin.Forms": "3.2.0.871581",
+      "Xamarin.Forms.Maps": "3.2.0.871581",
       "Xamarin.Forms.Theme.Base": "1.0.0.43-pre1",
       "Xamarin.Forms.Theme.Dark": "1.0.0.43-pre1",
       "Xamarin.Forms.Theme.Light": "1.0.0.43-pre1",
