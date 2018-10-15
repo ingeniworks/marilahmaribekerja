@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="GoWork.Settings">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Orientation="Vertical" Margin="10,20,10,20">
+            <StackLayout Margin="0,10,0,10">
+                <Label x:Name="lblSLanguageTitle" FontSize="20" FontAttributes="Bold" Text="Tetapan Bahasa" />
+                <Label x:Name="lblSLanguageDesc" Text="Sila pilih bahasa untuk aplikasi ini." />
+                <Picker x:Name="pSLanguagePicker" Title="Pilih Tetapan Bahasa">
+                    <Picker.Items>
+                        <x:String>Bahasa Malaysia</x:String>
+                        <x:String>English</x:String>
+                    </Picker.Items>
+                </Picker>
+                <Label x:Name="lblSLanguageDetails" Text="Buat masa ini, pilihan bahasa adalah Bahasa Malaysia." />
+            </StackLayout>
+            <StackLayout Margin="0,10,0,10">
+                <Label x:Name="lblSDiagnosticTitle" FontSize="20" FontAttributes="Bold" Text="Hantar Diagnostik" />
+                <Label x:Name="lblSDiagnosticDesc" Text="Bantu kami" />
+                <Switch x:Name="sSDiagnosticSwitch"></Switch>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

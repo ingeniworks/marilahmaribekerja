@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionName="20180720.0.1.6-pilot" package="com.ingeniworks.gowork" android:versionCode="6">
+  <!--suppress UsesMinSdkAttributes-->
+  <uses-sdk android:minSdkVersion="15" />
+  <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+  <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+  <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.CAMERA" />
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+  <uses-permission android:name="android.permission.NFC" />
+  <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+  <uses-feature android:name="android.hardware.nfc" android:required="true" />
+  <uses-feature android:name="android.hardware.camera" android:required="true" />
+  <uses-feature android:name="android.hardware.camera.autofocus" android:required="true" />
+  <application android:icon="@drawable/gwicon" android:label="Khije" android:name="android.app.Application" android:allowBackup="true">
+    <!--mapskey: AIzaSyBhB67pfex8dGrrgEicELTwh9my3EzegNU -->
+    <meta-data android:name="com.google.android.geo.API_KEY" android:value="AIzaSyBhB67pfex8dGrrgEicELTwh9my3EzegNU" />
+    <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
+    <service android:name=".IXFormToAndroidConnector" android:process=":my_service" />
+    <provider android:name="android.support.v4.content.FileProvider" android:grantUriPermissions="true" android:exported="false" android:authorities="com.ingeniworks.gowork.fileprovider">
+      <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_paths" />
+    </provider>
+    <activity android:name=".MainActivity"></activity>
+    <!--receiver android:name=".TimeChangeDetector">
+            <intent-filter>
+                <action android:name="android.intent.action.TIME_SET"/>
+            </intent-filter>
+        </receiver-->
+    <activity android:configChanges="orientation|screenSize" android:icon="@drawable/gwicon" android:label="Khije" android:theme="@style/MyTheme" android:name="md5c96ffd73b2669e3e9e52b9327ba3393c.MainActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+      <intent-filter>
+        <action android:name="android.nfc.action.TAG_DISCOVERED" />
+        <category android:name="android.intent.category.DEFAULT" />
+        <data android:mimeType="text/plain" />
+      </intent-filter>
+    </activity>
+    <receiver android:label="TimeChangeDetector" android:name="md5c96ffd73b2669e3e9e52b9327ba3393c.TimeChangeDetector">
+      <intent-filter>
+        <action android:name="android.intent.action.TIME_SET" />
+      </intent-filter>
+    </receiver>
+    <service android:exported="false" android:name="com.ingeniworks.GoWork.NotifyUserService" />
+    <receiver android:label="TimeTickReceiver" android:name="md5c96ffd73b2669e3e9e52b9327ba3393c.TimeTickReceiver">
+      <intent-filter>
+        <action android:name="android.intent.action.ACTION_TIME_TICK" />
+        <action android:name="android.intent.action.ACTION_TIMEZONE_CHANGED" />
+        <action android:name="android.intent.action.ACTION_TIME_CHANGED" />
+      </intent-filter>
+    </receiver>
+    <activity android:configChanges="orientation|screenSize" android:name="md54cd65ac53ae710bff80022afc423e0f3.MediaPickerActivity" />
+    <activity android:configChanges="keyboardHidden|orientation|screenLayout" android:label="Scanner" android:name="md5bb098716dd46c8e113564e6b42b7cde9.ZxingActivity" />
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="com.ingeniworks.gowork.mono.MonoRuntimeProvider.__mono_init__" />
+    <provider android:name="mono.MonoRuntimeProvider_1" android:exported="false" android:initOrder="2147483647" android:process=":my_service" android:authorities="com.ingeniworks.gowork.mono.MonoRuntimeProvider_1.__mono_init__" />
+    <activity android:name="net.hockeyapp.android.UpdateActivity" />
+    <activity android:name="net.hockeyapp.android.FeedbackActivity" android:windowSoftInputMode="adjustResize|stateVisible" />
+    <activity android:name="net.hockeyapp.android.PaintActivity" />
+    <activity android:name="net.hockeyapp.android.LoginActivity" />
+    <activity android:name="net.hockeyapp.android.ExpiryInfoActivity" />
+    <activity android:name="com.google.android.gms.common.api.GoogleApiActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar" android:exported="false" />
+  </application>
+  <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+</manifest>

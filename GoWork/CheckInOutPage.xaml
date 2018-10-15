@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="GoWork.CheckInOutPage">
+    <ContentPage.Content>
+        <StackLayout x:Name="slCIOPMainStack">
+             <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" VerticalOptions="Center">
+                <StackLayout Orientation="Vertical" HorizontalOptions="CenterAndExpand" Padding="10,5,10,5">
+                    <Label x:Name="lblCIOPCurrTimeTitle" 
+                           Text="Your current time (realtime): " 
+                           HorizontalOptions="CenterAndExpand" />
+                    <Label x:Name="LCIOPTime" 
+                           Text="{Binding PunchDate}" 
+                           HorizontalOptions="CenterAndExpand" 
+                           FontSize="32" 
+                           FontAttributes="Bold" />
+                </StackLayout>
+                <StackLayout Orientation="Vertical" HorizontalOptions="CenterAndExpand" Padding="10,5,10,5">
+                    <Label x:Name="lclCIOPCurrLocTitle" 
+                           Text="Your current location: " 
+                           HorizontalOptions="CenterAndExpand"/>
+                    <Label x:Name="LCIOPLocation" 
+                           Text="{Binding Location}" 
+                           HorizontalOptions="CenterAndExpand" 
+                           FontSize="Medium" 
+                           HorizontalTextAlignment="Center" />
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Padding="10,10,10,10">
+                        <Button x:Name="BCIOPScan" Text="Scan Barcode/QRCode" Clicked="ScanCodeHandler" />
+                        <Button x:Name="BCIOPLocate" Text="Locate" Clicked="GetLocationHandler" />
+                    </StackLayout>
+                </StackLayout>
+                <StackLayout x:Name="slCIOPCategoryLayout" Orientation="Vertical" Padding="10,5,10,5">
+                    <Picker x:Name="pCIOPCategorySelect" Title="Pilih Kategori">
+                        <Picker.Items>
+                            <x:String>Urusan Pusat Internet: Acara</x:String>
+                            <x:String>Urusan Pusat Internet: Latihan</x:String>
+                            <x:String>Urusan Pusat Internet: Bank</x:String>
+                            <x:String>Urusan Pusat Internet: Klinik/Hospital</x:String>
+                            <x:String>Urusan Pusat Internet: Bil</x:String>
+                            <x:String>Urusan Peribadi: Bank</x:String>
+                            <x:String>Urusan Peribadi: Klinik/Hospital</x:String>
+                            <x:String>Urusan Peribadi: Lain-lain</x:String>
+                        </Picker.Items>
+                    </Picker>
+                </StackLayout>
+                <StackLayout Orientation="Vertical" Padding="10,5,10,5">
+                    <Label x:Name="lblCIOPRemarksTitle" 
+                           Text="Remarks: " HorizontalOptions="CenterAndExpand"/>
+                    <Entry x:Name="ECIOPComments" 
+                           Text="{Binding Description}"
+                           Placeholder="Nyatakan tujuan dan sebab jika ada"/>
+                </StackLayout>
+                <StackLayout Orientation="Vertical" Padding="10,5,10,5" HorizontalOptions="Center">
+                    <Label x:Name="LCIOPNotice" 
+                           HorizontalTextAlignment="Center" 
+                           Text="Be sure you have checked before performing Check In. This app cannot undo on what you have submitted." 
+                           HorizontalOptions="Center"/>
+                    <Button x:Name="LCIOPSubmit" Text="Check In" Clicked="SubmitFormHandler"  />
+                </StackLayout>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

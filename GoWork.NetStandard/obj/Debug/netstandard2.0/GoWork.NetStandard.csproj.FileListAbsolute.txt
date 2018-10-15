@@ -1,0 +1,9 @@
+/Users/zul/Documents/Kerja_MSD/Xamarin/GoWork/GoWork.NetStandard/bin/Debug/netstandard2.0/GoWork.NetStandard.deps.json
+/Users/zul/Documents/Kerja_MSD/Xamarin/GoWork/GoWork.NetStandard/bin/Debug/netstandard2.0/GoWork.NetStandard.dll
+/Users/zul/Documents/Kerja_MSD/Xamarin/GoWork/GoWork.NetStandard/bin/Debug/netstandard2.0/GoWork.NetStandard.pdb
+/Users/zul/Documents/Kerja_MSD/Xamarin/GoWork/GoWork.NetStandard/obj/Debug/netstandard2.0/GoWork.NetStandard.csprojAssemblyReference.cache
+/Users/zul/Documents/Kerja_MSD/Xamarin/GoWork/GoWork.NetStandard/obj/Debug/netstandard2.0/GoWork.NetStandard.csproj.CoreCompileInputs.cache
+/Users/zul/Documents/Kerja_MSD/Xamarin/GoWork/GoWork.NetStandard/obj/Debug/netstandard2.0/GoWork.NetStandard.AssemblyInfoInputs.cache
+/Users/zul/Documents/Kerja_MSD/Xamarin/GoWork/GoWork.NetStandard/obj/Debug/netstandard2.0/GoWork.NetStandard.AssemblyInfo.cs
+/Users/zul/Documents/Kerja_MSD/Xamarin/GoWork/GoWork.NetStandard/obj/Debug/netstandard2.0/GoWork.NetStandard.dll
+/Users/zul/Documents/Kerja_MSD/Xamarin/GoWork/GoWork.NetStandard/obj/Debug/netstandard2.0/GoWork.NetStandard.pdb

@@ -1,0 +1,4 @@
+﻿Colors as reference:
+
+Light blue
+* #0D47A1

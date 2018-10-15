@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage 
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:GoWork;assembly=GoWork"
+    x:Class="GoWork.Login">
+    <ContentPage.Content>
+        <StackLayout Spacing="10" x:Name="MainLayout" Orientation="Vertical" VerticalOptions="CenterAndExpand">
+            <StackLayout x:Name="slLUserNameLayout" IsVisible="true">
+                <StackLayout Orientation="Vertical">
+                    <!--Label x:Name="lblLoginAppTitle" HorizontalTextAlignment="Center" 
+                           Text="GoWork" 
+                           BackgroundColor="Transparent" 
+                           HorizontalOptions="FillAndExpand"
+                           FontSize="32"/-->
+                    <Image x:Name="iLTitleImage" />
+                </StackLayout>
+                <StackLayout Orientation="Vertical" Padding="10" Margin="20,80,20,20">
+                    <Entry Placeholder="Site ID" x:Name="eGWLUserName" />
+                    <Entry Placeholder="Kata Laluan" IsPassword="true" x:Name="eGWLPassWord" />
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" BackgroundColor="Transparent" HorizontalOptions="CenterAndExpand">
+                    <Button Text="Login" x:Name="btnGWLLogin" />
+                    <!--Button Text="Register" x:Name="btnGWLRegister" /-->
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" BackgroundColor="Transparent" HorizontalOptions="CenterAndExpand">
+                    <Label x:Name="lblLoginCopyright"
+                           HorizontalTextAlignment="Center" 
+                           Text="(C) 2018" 
+                           BackgroundColor="Transparent" 
+                           HorizontalOptions="FillAndExpand"
+                           FontSize="Small"/>
+                </StackLayout>
+            </StackLayout>
+            <StackLayout x:Name="slLLoadingLayout" 
+                         Orientation="Vertical" 
+                         VerticalOptions="CenterAndExpand" 
+                         HorizontalOptions="CenterAndExpand"
+                         IsVisible="false">
+                <ActivityIndicator x:Name="aiLLoadingIndicator" IsRunning="true" />
+                <Label x:Name="lLLoadingText" Text="Sila tunggu..." TextColor="Black" HorizontalTextAlignment="Center" />
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
