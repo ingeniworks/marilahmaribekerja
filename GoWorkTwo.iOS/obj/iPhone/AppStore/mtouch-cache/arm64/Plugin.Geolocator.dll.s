@@ -30553,7 +30553,7 @@ _mono_aot_file_info:
 	.long 616,12528,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0
-	.byte 66,242,170,167,199,173,179,180,66,37,91,72,76,147,176,95
+	.byte 149,234,121,223,10,76,156,145,50,49,223,211,182,143,25,189
 	.globl _mono_aot_module_Plugin_Geolocator_info
 	.align 3
 _mono_aot_module_Plugin_Geolocator_info:

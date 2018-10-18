@@ -642,11 +642,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/zul/Documents/Kerja_MSD/Xamarin/GoWorkTwo/GoWorkTwo/GoWorkTwo.csproj",
+      "projectUniqueName": "/Users/zul/Documents/Kerja_MSD/Xamarin/marilahmaribekerja/GoWorkTwo/GoWorkTwo.csproj",
       "projectName": "GoWorkTwo",
-      "projectPath": "/Users/zul/Documents/Kerja_MSD/Xamarin/GoWorkTwo/GoWorkTwo/GoWorkTwo.csproj",
+      "projectPath": "/Users/zul/Documents/Kerja_MSD/Xamarin/marilahmaribekerja/GoWorkTwo/GoWorkTwo.csproj",
       "packagesPath": "/Users/zul/.nuget/packages/",
-      "outputPath": "/Users/zul/Documents/Kerja_MSD/Xamarin/GoWorkTwo/GoWorkTwo/obj",
+      "outputPath": "/Users/zul/Documents/Kerja_MSD/Xamarin/marilahmaribekerja/GoWorkTwo/obj",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

@@ -121,7 +121,7 @@ jit_code_start:
 	.align 2
 	.no_dead_strip GoWorkTwo_iOS_Application_Main_string__
 GoWorkTwo_iOS_Application_Main_string__:
-.file 1 "/Users/zul/Documents/Kerja_MSD/Xamarin/GoWorkTwo/GoWorkTwo.iOS/Main.cs"
+.file 1 "/Users/zul/Documents/Kerja_MSD/Xamarin/marilahmaribekerja/GoWorkTwo.iOS/Main.cs"
 .loc 1 14 0 prologue_end
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,5,223,77,226,8,0,141,229,0,0,159,229,0,0,0,234
@@ -160,7 +160,7 @@ Lme_1:
 	.align 2
 	.no_dead_strip GoWorkTwo_iOS_AppDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary
 GoWorkTwo_iOS_AppDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary:
-.file 2 "/Users/zul/Documents/Kerja_MSD/Xamarin/GoWorkTwo/GoWorkTwo.iOS/AppDelegate.cs"
+.file 2 "/Users/zul/Documents/Kerja_MSD/Xamarin/marilahmaribekerja/GoWorkTwo.iOS/AppDelegate.cs"
 .loc 2 28 0 prologue_end
 
 	.byte 128,64,45,233,13,112,160,225,16,1,45,233,16,223,77,226,12,0,141,229,16,16,141,229,20,32,141,229,0,0,159,229
@@ -283,7 +283,7 @@ Lme_4:
 	.align 2
 	.no_dead_strip GoWorkTwo_iOS_IXFReceiver__ctor
 GoWorkTwo_iOS_IXFReceiver__ctor:
-.file 3 "/Users/zul/Documents/Kerja_MSD/Xamarin/GoWorkTwo/GoWorkTwo.iOS/IXFReceiver.cs"
+.file 3 "/Users/zul/Documents/Kerja_MSD/Xamarin/marilahmaribekerja/GoWorkTwo.iOS/IXFReceiver.cs"
 .loc 3 22 0 prologue_end
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,5,223,77,226,8,0,141,229,0,0,159,229,0,0,0,234
@@ -976,7 +976,7 @@ Lme_d:
 	.align 2
 	.no_dead_strip GoWorkTwo_iOS_Libraries_Security__ctor
 GoWorkTwo_iOS_Libraries_Security__ctor:
-.file 4 "/Users/zul/Documents/Kerja_MSD/Xamarin/GoWorkTwo/GoWorkTwo.iOS/Libraries/Security.cs"
+.file 4 "/Users/zul/Documents/Kerja_MSD/Xamarin/marilahmaribekerja/GoWorkTwo.iOS/Libraries/Security.cs"
 .loc 4 10 0 prologue_end
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,5,223,77,226,8,0,141,229,0,0,159,229,0,0,0,234
@@ -4302,7 +4302,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "0C54F0F1-4AF1-4E59-8558-1F9F644B9C11"
+	.asciz "43A905D9-1381-4E86-94D6-DA29A8F58980"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -4387,7 +4387,7 @@ _mono_aot_file_info:
 	.long 128,3536,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0
-	.byte 45,84,238,12,20,85,183,101,3,119,149,83,142,232,248,53
+	.byte 158,23,244,73,66,148,192,41,210,74,66,66,27,104,94,42
 	.globl _mono_aot_module_GoWorkTwo_iOS_info
 	.align 2
 _mono_aot_module_GoWorkTwo_iOS_info:

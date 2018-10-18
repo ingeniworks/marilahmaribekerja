@@ -29339,7 +29339,7 @@ _mono_aot_file_info:
 	.long 920,6312,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0
-	.byte 95,242,1,224,110,230,103,32,183,80,18,83,62,236,178,172
+	.byte 119,22,233,190,73,188,23,99,58,178,59,194,101,1,186,87
 	.globl _mono_aot_module_HockeySDK_iOSBindings_info
 	.align 3
 _mono_aot_module_HockeySDK_iOSBindings_info:

@@ -1180,7 +1180,7 @@ _mono_aot_file_info:
 	.long 40,840,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0
-	.byte 137,14,208,220,94,150,3,5,182,244,174,84,29,185,71,11
+	.byte 28,159,230,202,67,125,147,134,199,115,237,32,22,127,244,224
 	.globl _mono_aot_module_GetiOSModel_info
 	.align 2
 _mono_aot_module_GetiOSModel_info:

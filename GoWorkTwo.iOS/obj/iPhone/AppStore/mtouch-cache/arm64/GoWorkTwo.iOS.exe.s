@@ -6389,7 +6389,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "6F48BDBC-18D2-4462-B74B-564BE2B670B3"
+	.asciz "0D775A69-8543-43AF-B218-0635B1D4EFAF"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -6474,7 +6474,7 @@ _mono_aot_file_info:
 	.long 128,3360,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0
-	.byte 221,0,246,125,113,3,56,253,149,195,12,51,223,82,175,148
+	.byte 239,33,84,30,45,29,38,109,204,83,70,144,188,90,222,26
 	.globl _mono_aot_module_GoWorkTwo_iOS_info
 	.align 3
 _mono_aot_module_GoWorkTwo_iOS_info:

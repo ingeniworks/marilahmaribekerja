@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{17193ABC-9459-4E34-9DAA-06DB974D46FB}|Default">
+  <MonoDevelop.Ide.ItemProperties.GoWorkTwo.Android PreferredExecutionTarget="Android.SelectDevice" AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="GoWorkTwo/MainPage.xaml.cs">
+    <Files>
+      <File FileName="GoWorkTwo/CheckPage.xaml.cs" Line="8" Column="21" />
+      <File FileName="GoWorkTwo/MainPage.xaml.cs" Line="96" Column="51" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="GoWorkTwo" expanded="True">
+            <Node name="GoWorkTwo" expanded="True">
+              <Node name="Classes" expanded="True" />
+              <Node name="CheckPage.xaml" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True">
+                <Node name="MainPage.xaml.cs" selected="True" />
+              </Node>
+            </Node>
+            <Node name="GoWorkTwo.iOS" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.GoWorkTwo.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.46c9023108cc86632d6417bf2437dab115d0a0e7" automaticSigning="False" />
+</Properties>

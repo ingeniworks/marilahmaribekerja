@@ -1,4 +1,4 @@
-/Users/zul/Documents/Kerja_MSD/Xamarin/GoWorkTwo/GoWorkTwo.iOS/bin/iPhone/Debug/GoWorkTwo.iOS.exe
+/Users/zul/Documents/Kerja_MSD/Xamarin/marilahmaribekerja/GoWorkTwo.iOS/bin/iPhone/Debug/GoWorkTwo.iOS.exe
 /Library/Frameworks/Xamarin.iOS.framework/Versions/12.0.0.15/lib/mono/Xamarin.iOS/mscorlib.dll
 /Users/zul/.nuget/packages/xamarin.forms/3.1.0.697729/lib/Xamarin.iOS10/Xamarin.Forms.Core.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/12.0.0.15/lib/mono/Xamarin.iOS/Facades/netstandard.dll
@@ -29,7 +29,7 @@
 /Users/zul/.nuget/packages/xamarin.forms/3.1.0.697729/lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll
 /Users/zul/.nuget/packages/xamarin.forms/3.1.0.697729/lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll
 /Users/zul/.nuget/packages/hockeysdk.xamarin/5.1.2/lib/Xamarin.iOS10/HockeySDK.iOSBindings.dll
-/Users/zul/Documents/Kerja_MSD/Xamarin/GoWorkTwo/GoWorkTwo/bin/Debug/netstandard2.0/GoWorkTwo.dll
+/Users/zul/Documents/Kerja_MSD/Xamarin/marilahmaribekerja/GoWorkTwo/bin/Debug/netstandard2.0/GoWorkTwo.dll
 /Users/zul/.nuget/packages/xamarin.forms/3.1.0.697729/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll
 /Users/zul/.nuget/packages/zxing.net.mobile/2.4.1/lib/Xamarin.iOS10/ZXing.Net.Mobile.Core.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/12.0.0.15/lib/mono/Xamarin.iOS/Facades/System.Runtime.dll

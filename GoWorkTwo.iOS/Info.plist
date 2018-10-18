@@ -56,6 +56,6 @@
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>Aplikasi ini menggunakan Photo Library untuk mengakses gambar</string>
 	<key>CFBundleVersion</key>
-	<string>10</string>
+	<string>11</string>
 </dict>
 </plist>

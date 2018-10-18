@@ -8065,7 +8065,7 @@ _mono_aot_file_info:
 	.long 216,5464,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0
-	.byte 188,103,72,252,239,156,151,174,38,91,166,247,237,95,186,2
+	.byte 255,168,132,86,217,59,249,4,119,70,25,167,72,229,19,87
 	.globl _mono_aot_module_HockeySDK_info
 	.align 2
 _mono_aot_module_HockeySDK_info:

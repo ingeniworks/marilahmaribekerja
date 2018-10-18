@@ -25253,7 +25253,7 @@ _mono_aot_file_info:
 	.long 712,5560,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0
-	.byte 99,245,68,254,102,238,241,96,161,189,121,29,138,246,191,205
+	.byte 239,25,163,18,10,233,224,232,136,190,67,188,145,182,25,27
 	.globl _mono_aot_module_Mono_Security_info
 	.align 2
 _mono_aot_module_Mono_Security_info:

@@ -25,29 +25,29 @@ namespace GoWorkTwo
 
             App.MainPageInstance = this;
 
-            lblGWPCheckInOutMenuTitle.Text = Lang.MainMenu_CheckInOutMenuTitle_MS;
-            lblGWPCheckInOutDesc.Text = Lang.MainMenu_CheckInOutMenuDesc_MS;
-            GWPCheckInBtn.Text = Lang.MainMenu_CheckInButtonTitle_MS;
-            GWPCheckOutBtn.Text = Lang.MainMenu_CheckOutButtonTitle_MS;
-            lblGWPSyncingTitle.Text = Lang.MainMenu_SyncTitle_MS;
-            lblGWPSyncingDesc.Text = Lang.MainMenu_SyncDesc_MS;
-            LGWPSyncStatLabel.Text = Lang.MainMenu_SyncStatFinished_MS;
-            lblGWPSyncInstruction.Text = Lang.MainMenu_SyncInstruction_MS;
-            GWPSyncBtn.Text = Lang.MainMenu_SyncButtonTitle_MS;
+            //lblGWPCheckInOutMenuTitle.Text = Lang.MainMenu_CheckInOutMenuTitle_MS;
+            //lblGWPCheckInOutDesc.Text = Lang.MainMenu_CheckInOutMenuDesc_MS;
+            //GWPCheckInBtn.Text = Lang.MainMenu_CheckInButtonTitle_MS;
+            //GWPCheckOutBtn.Text = Lang.MainMenu_CheckOutButtonTitle_MS;
+            //lblGWPSyncingTitle.Text = Lang.MainMenu_SyncTitle_MS;
+            //lblGWPSyncingDesc.Text = Lang.MainMenu_SyncDesc_MS;
+            //LGWPSyncStatLabel.Text = Lang.MainMenu_SyncStatFinished_MS;
+            //lblGWPSyncInstruction.Text = Lang.MainMenu_SyncInstruction_MS;
+            //GWPSyncBtn.Text = Lang.MainMenu_SyncButtonTitle_MS;
 
             //lblGWPSyncInstruction.IsVisible = false;
             //GWPSyncBtn.IsVisible = false;
-            slMPSyncPanel.IsVisible = false;
-            slMPSyncActivity.IsVisible = true;
+            //slMPSyncPanel.IsVisible = false;
+            //slMPSyncActivity.IsVisible = true;
 
-            GWPCheckInBtn.IsEnabled = false;
-            GWPCheckOutBtn.IsEnabled = false;
+            //GWPCheckInBtn.IsEnabled = false;
+            //GWPCheckOutBtn.IsEnabled = false;
 
-            slLoadingIndicator.IsVisible = true;
-            slCheckButtons.IsVisible = false;
-            lblMPLoadingMessage.Text = Lang.MainMenu_RecordCheckTitle_MS;
-            lblMPInStated.Text = Lang.MainMenu_RecordInCheckTitle_MS;
-            lblMPOutStated.Text = Lang.MainMenu_RecordOutCheckTitle_MS;
+            //slLoadingIndicator.IsVisible = true;
+            //slCheckButtons.IsVisible = false;
+            //lblMPLoadingMessage.Text = Lang.MainMenu_RecordCheckTitle_MS;
+            //lblMPInStated.Text = Lang.MainMenu_RecordInCheckTitle_MS;
+            //lblMPOutStated.Text = Lang.MainMenu_RecordOutCheckTitle_MS;
 
             btnMPTrainingCheck.IsEnabled = true;
 
@@ -58,37 +58,144 @@ namespace GoWorkTwo
                 Debug.WriteLine($"Loggedindataname: {App.LoggedInData.user.Name}");
             }
 
-            if (Device.RuntimePlatform == Device.iOS){ IOSInterfaceSetup(); }
-
+            V2InterfaceSetupInit();
 
         }
 
         private void IOSInterfaceSetup()
         {
-            lblGWPCheckInOutMenuTitle.FontSize = 20.0f;
-            lblGWPCheckInOutDesc.FontSize = 14.0f;
-            GWPCheckInBtn.FontSize = 16.0f;
-            GWPCheckInBtn.BackgroundColor = Color.White;
-            GWPCheckInBtn.Margin = new Thickness(5, 5, 5, 5);
-            GWPCheckOutBtn.FontSize = 16.0f;
-            GWPCheckOutBtn.Margin = new Thickness(5, 5, 5, 5);
-            GWPCheckOutBtn.BackgroundColor = Color.White;
+            //lblGWPCheckInOutMenuTitle.FontSize = 20.0f;
+           //lblGWPCheckInOutDesc.FontSize = 14.0f;
+            //GWPCheckInBtn.FontSize = 16.0f;
+            //GWPCheckInBtn.BackgroundColor = Color.White;
+            //GWPCheckInBtn.Margin = new Thickness(5, 5, 5, 5);
+            //GWPCheckOutBtn.FontSize = 16.0f;
+            //GWPCheckOutBtn.Margin = new Thickness(5, 5, 5, 5);
+            //GWPCheckOutBtn.BackgroundColor = Color.White;
 
-            lblGWPSyncingTitle.FontSize = 20.0f;
-            lblGWPSyncingDesc.FontSize = 14.0f;
-            LGWPSyncStatLabel.FontSize = 16.0f;
-            lblGWPSyncInstruction.FontSize = 14.0f;
-            GWPSyncBtn.BackgroundColor = Color.White;
-            GWPSyncBtn.FontSize = 16.0f;
+            //lblGWPSyncingTitle.FontSize = 20.0f;
+            //lblGWPSyncingDesc.FontSize = 14.0f;
+            //LGWPSyncStatLabel.FontSize = 16.0f;
+            //lblGWPSyncInstruction.FontSize = 14.0f;
+            //GWPSyncBtn.BackgroundColor = Color.White;
+            //GWPSyncBtn.FontSize = 16.0f;
+        }
+
+        private void V2InterfaceSetupInit(string syncValue = "0")
+        {
+            //Attendance
+            lblMPAttTitleText.Text = $"Kedatangan";
+            lblMPAttTitleText.FontSize = 24.0;
+            slMPAttLoadIndicator.IsVisible = true;
+            aiMPAttLoadIndicator.IsRunning = true;
+            lblMPAttLoadText.Text = $"Sedang memuatkan...";
+            slMPAttPanel.IsVisible = false;
+            lblMPAttCheckInText.Text = $"Masuk";
+            lblMPAttCheckOutText.Text = $"Keluar";
+            lblMPAttCheckInTime.Text = $"0:00AM";
+            lblMPAttCheckOutTime.Text = $"0:00AM";
+            btnMPGotoCheckPage.Text = $"Daftar Masuk";
+
+            //Sync
+            lblMPSynchTitle.Text = $"Penyelarasan";
+            lblMPSynchTitle.FontSize = 24.0;
+            slMPSynchLoadIndicator.IsVisible = true;
+            aiMPSynchLoadIndicator.IsRunning = true;
+            lblMPSynchLoadText.Text = $"Sedang memuatkan...";
+            slMPSynchPanel.IsVisible = false;
+            slMPSynchPerformIndicator.IsVisible = true;
+            aiMPSynchPerformIndicator.IsRunning = true;
+            lblMPSynchPerformText.Text = $"Sedang menyelaras...";
+            lblMPSynchNotSyncText.Text = $"Belum selaras";
+            lblMPSynchNotSyncValue.Text = syncValue;
+            btnMPSynchDoSync.Text = $"Selaraskan";
+
+            if (Device.RuntimePlatform == Device.iOS)
+            {
+                lblMPAttLoadText.FontSize = 16.0;
+                lblMPSynchLoadText.FontSize = 16.0;
+            }
+            else
+            {
+                lblMPAttLoadText.FontSize = 20.0;
+                lblMPSynchLoadText.FontSize = 20.0;
+            }
+        }
+
+        private void V2InterfaceAndroidAttendanceCheckComplete(string checkInTime, string checkOutTime, string checkState = "")
+        {
+            lblMPAttTitleText.Text = $"Kedatangan";
+            slMPAttLoadIndicator.IsVisible = false;
+            aiMPAttLoadIndicator.IsRunning = false;
+            lblMPAttLoadText.Text = $"Sedang memuatkan...";
+            slMPAttPanel.IsVisible = true;
+            lblMPAttCheckInText.Text = $"Masuk";
+            lblMPAttCheckOutText.Text = $"Keluar";
+            lblMPAttCheckInTime.Text = checkInTime;
+            lblMPAttCheckOutTime.Text = checkOutTime;
+            if (checkState != "") {
+                btnMPGotoCheckPage.IsVisible = true;
+                btnMPGotoCheckPage.Text = checkState;
+            }
+            else
+            {
+                btnMPGotoCheckPage.IsVisible = false;
+            }
+
+        }
+
+        private void V2InterfaceAndroidSyncing()
+        {
+            lblMPSynchTitle.Text = $"Penyelarasan";
+            slMPSynchLoadIndicator.IsVisible = false;
+            aiMPSynchLoadIndicator.IsRunning = false;
+            lblMPSynchLoadText.Text = $"Sedang memuatkan...";
+            slMPSynchPanel.IsVisible = true;
+            slMPSynchPerformIndicator.IsVisible = true;
+            aiMPSynchPerformIndicator.IsRunning = true;
+            lblMPSynchPerformText.Text = $"Sedang menyelaras...";
+            slMPSynchInfo.IsVisible = false;
+            slMPSynchPerformIndicator.IsVisible = true;
+            lblMPSynchNotSyncText.Text = $"Belum selaras";
+            //lblMPSynchNotSyncValue.Text = notSyncedValue;
+            btnMPSynchDoSync.Text = $"Selaraskan";
+            btnMPSynchDoSync.IsEnabled = false;
+        }
+
+        private void V2InterfaceAndroidSyncComplete(string notSyncedValue = "0")
+        {
+            lblMPSynchTitle.Text = $"Penyelarasan";
+            slMPSynchLoadIndicator.IsVisible = false;
+            aiMPSynchLoadIndicator.IsRunning = false;
+            lblMPSynchLoadText.Text = $"Sedang memuatkan...";
+            slMPSynchPanel.IsVisible = true;
+            slMPSynchPerformIndicator.IsVisible = false;
+            aiMPSynchPerformIndicator.IsRunning = false;
+            lblMPSynchPerformText.Text = $"Sedang menyelaras...";
+            slMPSynchInfo.IsVisible = true;
+            slMPSynchPerformIndicator.IsVisible = false;
+            lblMPSynchNotSyncText.Text = $"Belum selaras";
+            lblMPSynchNotSyncValue.Text = notSyncedValue;
+            btnMPSynchDoSync.Text = $"Selaraskan";
+            if(notSyncedValue != $"0")
+            {
+                btnMPSynchDoSync.IsEnabled = true;
+                btnMPSynchDoSync.IsVisible = true;
+            }
+            else
+            {
+                btnMPSynchDoSync.IsEnabled = false;
+                btnMPSynchDoSync.IsVisible = false;
+            }
         }
 
         protected async override void OnAppearing()
         {
             base.OnAppearing();
 
-            slLoadingIndicator.IsVisible = true;
-            slCheckButtons.IsVisible = false;
-            lblMPLoadingMessage.Text = Lang.MainMenu_RecordCheckTitle_MS;
+            //slLoadingIndicator.IsVisible = true;
+            //slCheckButtons.IsVisible = false;
+            //lblMPLoadingMessage.Text = Lang.MainMenu_RecordCheckTitle_MS;
 
             if (Device.RuntimePlatform == Device.iOS)
             {
@@ -185,14 +292,19 @@ namespace GoWorkTwo
         public async void CheckInPageHandler(object sender, EventArgs e)
         {
             //App.masterDetailPage.Detail = new NavigationPage(new CheckInOutPage(true));
-            GWPCheckInBtn.IsEnabled = false;
+            //GWPCheckInBtn.IsEnabled = false;
             await Navigation.PushAsync(new CheckPage());
         }
 
         public async void CheckOutPageHandler(object sender, EventArgs e)
         {
             //App.masterDetailPage.Detail = new NavigationPage(new CheckInOutPage(false));
-            GWPCheckOutBtn.IsEnabled = false;
+            //GWPCheckOutBtn.IsEnabled = false;
+            await Navigation.PushAsync(new CheckPage());
+        }
+
+        public async void CheckPageHandler(object sender, EventArgs e)
+        {
             await Navigation.PushAsync(new CheckPage());
         }
 
@@ -264,13 +376,16 @@ namespace GoWorkTwo
                     !string.IsNullOrEmpty(attStatus.Message) && 
                     attStatus.Message == "att_check_empty")
                 {
-                    slCheckButtons.IsVisible = true;
-                    slLoadingIndicator.IsVisible = false;
-                    GWPCheckInBtn.IsEnabled = true;
-                    GWPCheckOutBtn.IsEnabled = false;
+                    //slCheckButtons.IsVisible = true;
+                    //slLoadingIndicator.IsVisible = false;
+                    //GWPCheckInBtn.IsEnabled = true;
+                    //GWPCheckOutBtn.IsEnabled = false;
                     Application.Current.Properties["isCheckIn"] = false;
-                    lblMPInStated.Text = Lang.MainMenu_RecordInNoRecordMessage_MS;
-                    lblMPOutStated.Text = Lang.MainMenu_RecordOutNoRecordMessage_MS;
+                    //lblMPInStated.Text = Lang.MainMenu_RecordInNoRecordMessage_MS;
+                    //lblMPOutStated.Text = Lang.MainMenu_RecordOutNoRecordMessage_MS;
+                    V2InterfaceAndroidAttendanceCheckComplete(Lang.MainMenu_RecordInNoRecordMessage_MS, 
+                                                           Lang.MainMenu_RecordOutNoRecordMessage_MS, 
+                                                           Lang.MainMenu_CheckInButtonTitle_MS);
 
                 }
                 else if (!string.IsNullOrEmpty(attStatus.AttendanceIn) && 
@@ -279,13 +394,16 @@ namespace GoWorkTwo
                          !string.IsNullOrEmpty(attStatus.Message) && 
                          attStatus.Message == "att_check_incomplete")
                 {
-                    slCheckButtons.IsVisible = true;
-                    slLoadingIndicator.IsVisible = false;
-                    GWPCheckInBtn.IsEnabled = false;
-                    GWPCheckOutBtn.IsEnabled = true;
+                    //slCheckButtons.IsVisible = true;
+                    //slLoadingIndicator.IsVisible = false;
+                    //GWPCheckInBtn.IsEnabled = false;
+                    //GWPCheckOutBtn.IsEnabled = true;
                     Application.Current.Properties["isCheckIn"] = true;
-                    lblMPInStated.Text = Convert.ToDateTime(attStatus.AttendanceIn).ToString("h:mm:ss tt");
-                    lblMPOutStated.Text = Lang.MainMenu_RecordOutNoRecordMessage_MS;
+                    //lblMPInStated.Text = Convert.ToDateTime(attStatus.AttendanceIn).ToString("h:mm:ss tt");
+                    //lblMPOutStated.Text = Lang.MainMenu_RecordOutNoRecordMessage_MS;
+                    V2InterfaceAndroidAttendanceCheckComplete(Convert.ToDateTime(attStatus.AttendanceIn).ToString("h:mm:ss tt"), 
+                                                              Lang.MainMenu_RecordOutNoRecordMessage_MS, 
+                                                              Lang.MainMenu_CheckOutButtonTitle_MS);
                 }
                 else if (!string.IsNullOrEmpty(attStatus.AttendanceIn) && 
                          !string.IsNullOrEmpty(attStatus.AttendanceOut) && 
@@ -293,40 +411,48 @@ namespace GoWorkTwo
                          !string.IsNullOrEmpty(attStatus.Message) && 
                          attStatus.Message == "att_check_complete")
                 {
-                    slCheckButtons.IsVisible = false;
-                    slLoadingIndicator.IsVisible = false;
-                    lblMPLoadingMessage.Text = Lang.MainMenu_RecordCheckSuccessTitle_MS;
-                    aiMPLoadingIndicator.IsVisible = false;
-                    GWPCheckInBtn.IsEnabled = false;
-                    GWPCheckOutBtn.IsEnabled = false;
+                    //slCheckButtons.IsVisible = false;
+                    //slLoadingIndicator.IsVisible = false;
+                    //lblMPLoadingMessage.Text = Lang.MainMenu_RecordCheckSuccessTitle_MS;
+                    //aiMPLoadingIndicator.IsVisible = false;
+                    //GWPCheckInBtn.IsEnabled = false;
+                    //GWPCheckOutBtn.IsEnabled = false;
                     Application.Current.Properties["isCheckIn"] = false;
-                    lblMPInStated.Text = Convert.ToDateTime(attStatus.AttendanceIn).ToString("h:mm:ss tt"); 
-                    lblMPOutStated.Text = Convert.ToDateTime(attStatus.AttendanceOut).ToString("h:mm:ss tt"); 
+                    //lblMPInStated.Text = Convert.ToDateTime(attStatus.AttendanceIn).ToString("h:mm:ss tt"); 
+                    //lblMPOutStated.Text = Convert.ToDateTime(attStatus.AttendanceOut).ToString("h:mm:ss tt");
+                    V2InterfaceAndroidAttendanceCheckComplete(Convert.ToDateTime(attStatus.AttendanceIn).ToString("h:mm:ss tt"), 
+                                                           Convert.ToDateTime(attStatus.AttendanceOut).ToString("h:mm:ss tt"));
                 }
                 else if (string.IsNullOrEmpty(attStatus.AttendanceIn) && 
                          string.IsNullOrEmpty(attStatus.AttendanceOut) && 
                          !string.IsNullOrEmpty(attStatus.Error) && 
                          string.IsNullOrEmpty(attStatus.Message))
                 {
-                    slCheckButtons.IsVisible = false;
-                    slLoadingIndicator.IsVisible = false;
-                    lblMPLoadingMessage.Text = Lang.MainMenu_RecordCheckFailureTitle_MS;
-                    aiMPLoadingIndicator.IsVisible = false;
-                    GWPCheckInBtn.IsEnabled = false;
-                    GWPCheckOutBtn.IsEnabled = false;
+                    //slCheckButtons.IsVisible = false;
+                    //slLoadingIndicator.IsVisible = false;
+                    //lblMPLoadingMessage.Text = Lang.MainMenu_RecordCheckFailureTitle_MS;
+                    //aiMPLoadingIndicator.IsVisible = false;
+                    //GWPCheckInBtn.IsEnabled = false;
+                    //GWPCheckOutBtn.IsEnabled = false;
                     Application.Current.Properties["isCheckIn"] = false;
-                    lblMPInStated.Text = Lang.MainMenu_RecordInNoRecordMessage_MS;
-                    lblMPOutStated.Text = Lang.MainMenu_RecordOutNoRecordMessage_MS;
+                    //lblMPInStated.Text = Lang.MainMenu_RecordInNoRecordMessage_MS;
+                    //lblMPOutStated.Text = Lang.MainMenu_RecordOutNoRecordMessage_MS;
+                    V2InterfaceAndroidAttendanceCheckComplete(Lang.MainMenu_RecordInNoRecordMessage_MS,
+                                                              Lang.MainMenu_RecordOutNoRecordMessage_MS,
+                                                              Lang.MainMenu_CheckInButtonTitle_MS);
                     await DisplayAlert(Lang.App_DataFailureMsg_Title_MS, Lang.MainMenu_RecordCheckFailureMessage_MS, Lang.App_General_OKButton_MS);
                 }
             }
             else
             {
-                slCheckButtons.IsVisible = false;
-                slLoadingIndicator.IsVisible = true;
-                lblMPLoadingMessage.Text = Lang.MainMenu_RecordCheckFailureTitle_MS;
-                aiMPLoadingIndicator.IsVisible = false;
-                slMPInOutLegend.IsVisible = false;
+                //slCheckButtons.IsVisible = false;
+                //slLoadingIndicator.IsVisible = true;
+                //lblMPLoadingMessage.Text = Lang.MainMenu_RecordCheckFailureTitle_MS;
+                //aiMPLoadingIndicator.IsVisible = false;
+                //slMPInOutLegend.IsVisible = false;
+                V2InterfaceAndroidAttendanceCheckComplete(Lang.MainMenu_RecordInNoRecordMessage_MS,
+                                                              Lang.MainMenu_RecordOutNoRecordMessage_MS,
+                                                              Lang.MainMenu_CheckInButtonTitle_MS);
                 await DisplayAlert(Lang.App_DataFailureMsg_Title_MS, Lang.MainMenu_RecordCheckFailureMessage_MS, Lang.App_General_OKButton_MS);
                 if (Device.RuntimePlatform == Device.Android) { DependencyService.Get<IAndroidNativeBridgeConnector>().CloseApplication(); }
             }
@@ -403,35 +529,43 @@ namespace GoWorkTwo
 
             if(checkIn == new DateTime() && checkOut == new DateTime())
             {
-                slCheckButtons.IsVisible = true;
-                slLoadingIndicator.IsVisible = false;
-                GWPCheckInBtn.IsEnabled = true;
-                GWPCheckOutBtn.IsEnabled = false;
+                //slCheckButtons.IsVisible = true;
+                //slLoadingIndicator.IsVisible = false;
+                //GWPCheckInBtn.IsEnabled = true;
+                //GWPCheckOutBtn.IsEnabled = false;
                 Application.Current.Properties["isCheckIn"] = false;
-                lblMPInStated.Text = Lang.MainMenu_RecordInNoRecordMessage_MS;
-                lblMPOutStated.Text = Lang.MainMenu_RecordOutNoRecordMessage_MS;
+                //lblMPInStated.Text = Lang.MainMenu_RecordInNoRecordMessage_MS;
+                //lblMPOutStated.Text = Lang.MainMenu_RecordOutNoRecordMessage_MS;
+                V2InterfaceAndroidAttendanceCheckComplete(Lang.MainMenu_RecordInNoRecordMessage_MS,
+                                                           Lang.MainMenu_RecordOutNoRecordMessage_MS,
+                                                           Lang.MainMenu_CheckInButtonTitle_MS);
             }
             else if(checkIn != new DateTime() && checkOut == new DateTime())
             {
-                slCheckButtons.IsVisible = true;
-                slLoadingIndicator.IsVisible = false;
-                GWPCheckInBtn.IsEnabled = false;
-                GWPCheckOutBtn.IsEnabled = true;
+                //slCheckButtons.IsVisible = true;
+                //slLoadingIndicator.IsVisible = false;
+                //GWPCheckInBtn.IsEnabled = false;
+                //GWPCheckOutBtn.IsEnabled = true;
                 Application.Current.Properties["isCheckIn"] = true;
-                lblMPInStated.Text = Convert.ToDateTime(checkIn).ToString("h:mm:ss tt");
-                lblMPOutStated.Text = Lang.MainMenu_RecordOutNoRecordMessage_MS;
+                //lblMPInStated.Text = Convert.ToDateTime(checkIn).ToString("h:mm:ss tt");
+                //lblMPOutStated.Text = Lang.MainMenu_RecordOutNoRecordMessage_MS;
+                V2InterfaceAndroidAttendanceCheckComplete(Convert.ToDateTime(checkIn).ToString("h:mm:ss tt"),
+                                                           Lang.MainMenu_RecordOutNoRecordMessage_MS,
+                                                           Lang.MainMenu_CheckOutButtonTitle_MS);
             }
             else if (checkIn != new DateTime() && checkOut != new DateTime())
             {
-                slCheckButtons.IsVisible = false;
-                slLoadingIndicator.IsVisible = false;
-                lblMPLoadingMessage.Text = Lang.MainMenu_RecordCheckSuccessTitle_MS;
-                aiMPLoadingIndicator.IsVisible = false;
-                GWPCheckInBtn.IsEnabled = false;
-                GWPCheckOutBtn.IsEnabled = false;
+                //slCheckButtons.IsVisible = false;
+                //slLoadingIndicator.IsVisible = false;
+                //lblMPLoadingMessage.Text = Lang.MainMenu_RecordCheckSuccessTitle_MS;
+                //aiMPLoadingIndicator.IsVisible = false;
+                //GWPCheckInBtn.IsEnabled = false;
+                //GWPCheckOutBtn.IsEnabled = false;
                 Application.Current.Properties["isCheckIn"] = false;
-                lblMPInStated.Text = Convert.ToDateTime(checkIn).ToString("h:mm:ss tt");
-                lblMPOutStated.Text = Convert.ToDateTime(checkOut).ToString("h:mm:ss tt");
+                //lblMPInStated.Text = Convert.ToDateTime(checkIn).ToString("h:mm:ss tt");
+                //lblMPOutStated.Text = Convert.ToDateTime(checkOut).ToString("h:mm:ss tt");
+                V2InterfaceAndroidAttendanceCheckComplete(Convert.ToDateTime(checkIn).ToString("h:mm:ss tt"),
+                                                          Convert.ToDateTime(checkOut).ToString("h:mm:ss tt"));
             }
         }
 
@@ -499,11 +633,12 @@ namespace GoWorkTwo
 
         public async void PerformSyncData(bool silentSync)
         {
-            slMPSyncPanel.IsVisible = false;
-            slMPSyncActivity.IsVisible = true;
-            aiMPCheckSyncIndicator.IsRunning = true;
-            lMPSyncLoadingLabel.Text = Lang.MainMenu_SyncingTitle_MS;
-            
+            //slMPSyncPanel.IsVisible = false;
+            //slMPSyncActivity.IsVisible = true;
+            //aiMPCheckSyncIndicator.IsRunning = true;
+            //lMPSyncLoadingLabel.Text = Lang.MainMenu_SyncingTitle_MS;
+            V2InterfaceAndroidSyncing();
+
             DSTSKeys syncProcess = await new Synchronization().DifferSyncToServer();
             if (syncProcess.SyncFinish == true && silentSync == false)
             {
@@ -538,19 +673,20 @@ namespace GoWorkTwo
         public void SyncedDataRefresh()
         {
             int syncedRecord = new List<GoWorkDatabaseEntity>(App.Databases.GetItemsNotSyncedAsync().Result).Count;
+            V2InterfaceAndroidSyncComplete(syncedRecord.ToString());
             if (syncedRecord != 0)
             {
-                slMPSyncPanel.IsVisible = true;
-                slMPSyncActivity.IsVisible = false;
-                LGWPSyncStatLabel.Text = $"{Lang.MainMenu_SyncStatPending_Head_MS} {syncedRecord} {Lang.MainMenu_SyncStatPending_Tail_MS}";
+                //slMPSyncPanel.IsVisible = true;
+                //slMPSyncActivity.IsVisible = false;
+                //LGWPSyncStatLabel.Text = $"{Lang.MainMenu_SyncStatPending_Head_MS} {syncedRecord} {Lang.MainMenu_SyncStatPending_Tail_MS}";
             }
             else
             {
-                slMPSyncPanel.IsVisible = false;
-                slMPSyncActivity.IsVisible = true;
-                lMPSyncLoadingLabel.Text = Lang.MainMenu_SyncStatFinished_MS;
-                lMPSyncLoadingLabel.HorizontalTextAlignment = TextAlignment.Center;
-                aiMPCheckSyncIndicator.IsVisible = false;
+                //slMPSyncPanel.IsVisible = false;
+                //slMPSyncActivity.IsVisible = true;
+                //lMPSyncLoadingLabel.Text = Lang.MainMenu_SyncStatFinished_MS;
+                //lMPSyncLoadingLabel.HorizontalTextAlignment = TextAlignment.Center;
+                //aiMPCheckSyncIndicator.IsVisible = false;
             }
         }
     }

@@ -7,6 +7,83 @@
         <ScrollView>
             <StackLayout Orientation="Vertical" BackgroundColor="White">
                 <Frame CornerRadius="10" BackgroundColor="#BBDEFB" Margin="10,10,10,5" Padding="10,10,10,10">
+                    <StackLayout>
+                        <StackLayout Orientation="Horizontal" Margin="0,5,0,10">
+                            <Label x:Name="lblMPAttTitleText" 
+                                   Text="Kedatangan" 
+                                   TextColor="Blue" 
+                                   HorizontalOptions="CenterAndExpand"
+                                   FontAttributes="Bold"
+                                   />
+                        </StackLayout>
+                        <StackLayout x:Name="slMPAttLoadIndicator" Orientation="Horizontal" Margin="0,5,0,10">
+                            <ActivityIndicator x:Name="aiMPAttLoadIndicator" 
+                                               Color="White" 
+                                               IsRunning="true" 
+                                               HorizontalOptions="EndAndExpand" />
+                            <Label x:Name="lblMPAttLoadText" 
+                                   Text="Sedang memuatkan..."
+                                   HorizontalOptions="StartAndExpand" 
+                                   VerticalTextAlignment="Center" />
+                        </StackLayout>
+                        <StackLayout x:Name="slMPAttPanel" Orientation="Vertical" Margin="0,5,0,5">
+                            <StackLayout Orientation="Horizontal" Margin="0,5,0,5">
+                                <Label x:Name="lblMPAttCheckInText" 
+                                       Text="Masuk" 
+                                       FontSize="16" 
+                                       HorizontalOptions="CenterAndExpand"/>
+                                <Label x:Name="lblMPAttCheckOutText" 
+                                       Text="Keluar" 
+                                       FontSize="16" 
+                                       HorizontalOptions="CenterAndExpand"/>
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal" Margin="0,5,0,5">
+                                <Label x:Name="lblMPAttCheckInTime" 
+                                       Text="8:00PM" 
+                                       FontAttributes="Bold" 
+                                       FontSize="20" 
+                                       HorizontalOptions="CenterAndExpand"/>
+                                <Label x:Name="lblMPAttCheckOutTime" 
+                                       Text="5:00PM" 
+                                       FontAttributes="Bold" 
+                                       FontSize="20" 
+                                       HorizontalOptions="CenterAndExpand"/>
+                            </StackLayout>
+                            <StackLayout Margin="0,5,0,5">
+                                <Button x:Name="btnMPGotoCheckPage" Text="Check In" Clicked="CheckPageHandler"/>
+                            </StackLayout>
+                        </StackLayout>
+                    </StackLayout>
+                </Frame>
+                <Frame CornerRadius="10" BackgroundColor="#BBDEFB" Margin="10,10,10,5" Padding="10,10,10,10">
+                    <StackLayout>
+                        <StackLayout Orientation="Horizontal" Margin="0,5,0,10">
+                            <Label x:Name="lblMPSynchTitle" 
+                                   Text="Penyelarasan" 
+                                   TextColor="Blue" 
+                                   HorizontalOptions="CenterAndExpand"
+                                   FontAttributes="Bold"/>
+                        </StackLayout>
+                        <StackLayout x:Name="slMPSynchLoadIndicator" Orientation="Horizontal" Margin="0,5,0,10">
+                            <ActivityIndicator x:Name="aiMPSynchLoadIndicator" Color="White" IsRunning="true" HorizontalOptions="EndAndExpand" />
+                            <Label x:Name="lblMPSynchLoadText" Text="Sedang memuatkan..." FontSize="20" HorizontalOptions="StartAndExpand" VerticalTextAlignment="Center" />
+                        </StackLayout>
+                        <StackLayout x:Name="slMPSynchPanel" Orientation="Vertical">
+                            <StackLayout x:Name="slMPSynchPerformIndicator" Orientation="Horizontal" Margin="0,5,0,10">
+                                <ActivityIndicator x:Name="aiMPSynchPerformIndicator" Color="White" IsRunning="true" HorizontalOptions="EndAndExpand" />
+                                <Label x:Name="lblMPSynchPerformText" Text="Sedang memuatkan..." FontSize="20" HorizontalOptions="StartAndExpand" VerticalTextAlignment="Center" />
+                            </StackLayout>
+                            <StackLayout x:Name="slMPSynchInfo" Orientation="Horizontal" Margin="0,5,0,5">
+                                <Label x:Name="lblMPSynchNotSyncText" Text="Belum Selaras" FontSize="16" HorizontalOptions="CenterAndExpand" VerticalTextAlignment="Center"/>
+                                <Label x:Name="lblMPSynchNotSyncValue" Text="0" FontSize="18" HorizontalOptions="StartAndExpand" VerticalTextAlignment="Center"/>
+                            </StackLayout>
+                            <StackLayout Orientation="Vertical" Margin="0,5,0,5">
+                                <Button x:Name="btnMPSynchDoSync" Text="Selaraskan" Clicked="SyncToServerHandler"/>
+                            </StackLayout>
+                        </StackLayout>
+                    </StackLayout>
+                </Frame>
+                <!--Frame CornerRadius="10" BackgroundColor="#BBDEFB" Margin="10,10,10,5" Padding="10,10,10,10">
                     <StackLayout Orientation="Vertical"  >
                         <StackLayout Orientation="Horizontal">
                             <Label x:Name="lblGWPCheckInOutMenuTitle" 
@@ -39,7 +116,7 @@
                             <Button x:Name="GWPCheckOutBtn" HorizontalOptions="FillAndExpand" Text="Check Out" Clicked="CheckOutPageHandler" IsEnabled="false"></Button>
                         </StackLayout>
                     </StackLayout>
-                </Frame>
+                </Frame-->
                 <Frame CornerRadius="10" BackgroundColor="#BBDEFB" Margin="10,5,10,5" Padding="10,10,10,10" IsVisible="false">
                     <StackLayout Orientation="Vertical">
                         <StackLayout Orientation="Horizontal">
@@ -77,7 +154,7 @@
                         </StackLayout>
                     </StackLayout>
                 </Frame>
-                <Frame CornerRadius="10" BackgroundColor="#BBDEFB" Margin="10,5,10,5" Padding="10,10,10,10">
+                <!--Frame CornerRadius="10" BackgroundColor="#BBDEFB" Margin="10,5,10,5" Padding="10,10,10,10">
                     <StackLayout Orientation="Vertical">
                         <StackLayout Orientation="Horizontal">
                             <Label x:Name="lblGWPSyncingTitle" 
@@ -111,7 +188,7 @@
                             <Button x:Name="GWPSyncBtn" Text="Sync" Clicked="SyncToServerHandler" />
                         </StackLayout>
                     </StackLayout>
-                </Frame>
+                </Frame-->
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

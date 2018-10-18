@@ -1249,11 +1249,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/zul/Documents/Kerja_MSD/Xamarin/GoWorkTwo/GoWorkTwo.Android/GoWorkTwo.Android.csproj",
+      "projectUniqueName": "/Users/zul/Documents/Kerja_MSD/Xamarin/marilahmaribekerja/GoWorkTwo.Android/GoWorkTwo.Android.csproj",
       "projectName": "GoWorkTwo.Android",
-      "projectPath": "/Users/zul/Documents/Kerja_MSD/Xamarin/GoWorkTwo/GoWorkTwo.Android/GoWorkTwo.Android.csproj",
+      "projectPath": "/Users/zul/Documents/Kerja_MSD/Xamarin/marilahmaribekerja/GoWorkTwo.Android/GoWorkTwo.Android.csproj",
       "packagesPath": "/Users/zul/.nuget/packages/",
-      "outputPath": "/Users/zul/Documents/Kerja_MSD/Xamarin/GoWorkTwo/GoWorkTwo.Android/obj",
+      "outputPath": "/Users/zul/Documents/Kerja_MSD/Xamarin/marilahmaribekerja/GoWorkTwo.Android/obj",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/zul/.config/NuGet/NuGet.Config"
@@ -1267,8 +1267,8 @@
       "frameworks": {
         "monoandroid81": {
           "projectReferences": {
-            "/Users/zul/Documents/Kerja_MSD/Xamarin/GoWorkTwo/GoWorkTwo/GoWorkTwo.csproj": {
-              "projectPath": "/Users/zul/Documents/Kerja_MSD/Xamarin/GoWorkTwo/GoWorkTwo/GoWorkTwo.csproj"
+            "/Users/zul/Documents/Kerja_MSD/Xamarin/marilahmaribekerja/GoWorkTwo/GoWorkTwo.csproj": {
+              "projectPath": "/Users/zul/Documents/Kerja_MSD/Xamarin/marilahmaribekerja/GoWorkTwo/GoWorkTwo.csproj"
             }
           }
         }

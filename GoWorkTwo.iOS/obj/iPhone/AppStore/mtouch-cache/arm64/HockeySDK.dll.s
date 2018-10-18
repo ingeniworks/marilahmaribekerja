@@ -11039,7 +11039,7 @@ _mono_aot_file_info:
 	.long 208,5192,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0
-	.byte 122,74,147,237,199,31,70,51,107,92,55,23,7,194,194,243
+	.byte 219,123,174,178,107,191,19,170,48,15,216,89,72,182,117,98
 	.globl _mono_aot_module_HockeySDK_info
 	.align 3
 _mono_aot_module_HockeySDK_info:
