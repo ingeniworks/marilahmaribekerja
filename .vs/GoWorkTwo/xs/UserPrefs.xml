@@ -1,8 +1,8 @@
 ﻿<Properties StartupConfiguration="{A4B02708-53E5-401D-A975-3DE27CC74D68}|Default">
   <MonoDevelop.Ide.ItemProperties.GoWorkTwo.Android PreferredExecutionTarget="Android.SelectDevice" AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="GoWorkTwo/V1/CheckPage.xaml.cs">
+  <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="GoWorkTwo/V1/CheckPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="GoWorkTwo/V1/CheckPage.xaml.cs" Line="5" Column="1" />
       <File FileName="GoWorkTwo/V1/CheckPage.xaml" Line="29" Column="1" />
       <File FileName="GoWorkTwo/V1/MainPage.xaml" Line="77" Column="1" />
     </Files>

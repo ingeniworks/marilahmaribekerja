@@ -6,7 +6,6 @@
 /Users/zul/Documents/Kerja_MSD/Xamarin/marilahmaribekerja/GoWorkTwo.iOS/bin/iPhone/Debug/Newtonsoft.Json.dll
 /Users/zul/Documents/Kerja_MSD/Xamarin/marilahmaribekerja/GoWorkTwo.iOS/bin/iPhone/Debug/Plugin.Permissions.dll
 /Users/zul/Documents/Kerja_MSD/Xamarin/marilahmaribekerja/GoWorkTwo.iOS/bin/iPhone/Debug/SQLite-net.dll
-/Users/zul/Documents/Kerja_MSD/Xamarin/marilahmaribekerja/GoWorkTwo.iOS/bin/iPhone/Debug/SQLite-net.pdb
 /Users/zul/Documents/Kerja_MSD/Xamarin/marilahmaribekerja/GoWorkTwo.iOS/bin/iPhone/Debug/SQLitePCLRaw.batteries_green.dll
 /Users/zul/Documents/Kerja_MSD/Xamarin/marilahmaribekerja/GoWorkTwo.iOS/bin/iPhone/Debug/SQLitePCLRaw.batteries_v2.dll
 /Users/zul/Documents/Kerja_MSD/Xamarin/marilahmaribekerja/GoWorkTwo.iOS/bin/iPhone/Debug/SQLitePCLRaw.core.dll

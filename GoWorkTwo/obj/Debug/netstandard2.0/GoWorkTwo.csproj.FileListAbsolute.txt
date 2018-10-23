@@ -35,6 +35,7 @@
 /Users/zul/Documents/Kerja_MSD/Xamarin/marilahmaribekerja/GoWorkTwo/obj/Debug/netstandard2.0/SettingsPage.xaml.g.cs
 /Users/zul/Documents/Kerja_MSD/Xamarin/marilahmaribekerja/GoWorkTwo/obj/Debug/netstandard2.0/TrainingCheckPage.xaml.g.cs
 /Users/zul/Documents/Kerja_MSD/Xamarin/marilahmaribekerja/GoWorkTwo/obj/Debug/netstandard2.0/TrainingScanPage.xaml.g.cs
+/Users/zul/Documents/Kerja_MSD/Xamarin/marilahmaribekerja/GoWorkTwo/obj/Debug/netstandard2.0/V1/CheckPage.xaml.g.cs
 /Users/zul/Documents/Kerja_MSD/Xamarin/marilahmaribekerja/GoWorkTwo/obj/Debug/netstandard2.0/V1/MainPage.xaml.g.cs
 /Users/zul/Documents/Kerja_MSD/Xamarin/marilahmaribekerja/GoWorkTwo/obj/Debug/netstandard2.0/GoWorkTwo.csproj.CoreCompileInputs.cache
 /Users/zul/Documents/Kerja_MSD/Xamarin/marilahmaribekerja/GoWorkTwo/obj/Debug/netstandard2.0/GoWorkTwo.AssemblyInfoInputs.cache
@@ -42,4 +43,3 @@
 /Users/zul/Documents/Kerja_MSD/Xamarin/marilahmaribekerja/GoWorkTwo/obj/Debug/netstandard2.0/XamlC.stamp
 /Users/zul/Documents/Kerja_MSD/Xamarin/marilahmaribekerja/GoWorkTwo/obj/Debug/netstandard2.0/GoWorkTwo.dll
 /Users/zul/Documents/Kerja_MSD/Xamarin/marilahmaribekerja/GoWorkTwo/obj/Debug/netstandard2.0/GoWorkTwo.pdb
-/Users/zul/Documents/Kerja_MSD/Xamarin/marilahmaribekerja/GoWorkTwo/obj/Debug/netstandard2.0/GoWorkTwo.csprojAssemblyReference.cache

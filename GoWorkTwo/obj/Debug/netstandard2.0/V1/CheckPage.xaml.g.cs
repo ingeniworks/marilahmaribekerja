@@ -16,7 +16,7 @@ namespace GoWorkTwo.V1 {
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("V1/CheckPage.xaml")]
     public partial class CheckPage : global::Xamarin.Forms.ContentPage {
         
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(CheckPage));
         }

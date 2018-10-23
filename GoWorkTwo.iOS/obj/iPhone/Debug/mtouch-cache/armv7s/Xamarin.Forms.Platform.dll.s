@@ -625,7 +625,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "418A85E6-B746-47F0-9BE3-8DBC4A94C2F3"
+	.asciz "322342A9-2919-41DF-8CA5-B9CE1A611F0B"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -710,7 +710,7 @@ _mono_aot_file_info:
 	.long 56,912,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0
-	.byte 192,78,53,60,170,8,33,1,194,51,16,142,204,113,219,35
+	.byte 240,164,121,153,42,145,246,72,4,134,27,218,188,46,27,93
 	.globl _mono_aot_module_Xamarin_Forms_Platform_info
 	.align 2
 _mono_aot_module_Xamarin_Forms_Platform_info:

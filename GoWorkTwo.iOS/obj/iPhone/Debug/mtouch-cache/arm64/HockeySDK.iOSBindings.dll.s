@@ -4260,7 +4260,7 @@ bl _p_36
 .word 0xf9402ba1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf9417430
+.word 0xf9417830
 .word 0xd63f0200
 .word 0xf9402fb1
 .word 0xf9445631
@@ -4510,7 +4510,7 @@ bl _p_41
 .word 0xf9402ba1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf9417430
+.word 0xf9417830
 .word 0xd63f0200
 .word 0xf9402fb1
 .word 0xf9480e31
@@ -7787,7 +7787,7 @@ ldr x16, [x16, #1480]
 .word 0xf94013a1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf940e430
+.word 0xf940e830
 .word 0xd63f0200
 .word 0xaa0003f9
 .word 0xf94017b1
@@ -7860,7 +7860,7 @@ ldr x16, [x16, #1496]
 .word 0xf9400fa1
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf940e050
+.word 0xf940e450
 .word 0xd63f0200
 .word 0xf94013b1
 .word 0xf9407e31
@@ -30163,7 +30163,7 @@ ldr x16, [x16, #3104]
 .word 0xf94013a1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf941fc30
+.word 0xf9421030
 .word 0xd63f0200
 .word 0xaa0003f9
 .word 0xf94017b1
@@ -30236,7 +30236,7 @@ ldr x16, [x16, #3120]
 .word 0xf9400fa1
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf941f850
+.word 0xf9420c50
 .word 0xd63f0200
 .word 0xf94013b1
 .word 0xf9407e31
@@ -75224,13 +75224,13 @@ _mono_aot_file_info:
 	.align 3
 	.quad unbox_trampoline_addresses
 
-	.long 759,8168,262,665,70,387000831,0,114852
-	.long 128,8,8,8,0,25,122360,7496
+	.long 759,8168,262,665,70,387000831,0,115015
+	.long 128,8,8,8,0,25,122520,7496
 	.long 7216,3936,0,5680,7040,4672,0,3128
 	.long 920,7488,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0
-	.byte 249,94,91,151,67,9,73,47,174,9,221,43,25,115,251,87
+	.byte 29,58,49,167,80,138,18,141,165,82,229,132,82,139,248,173
 	.globl _mono_aot_module_HockeySDK_iOSBindings_info
 	.align 3
 _mono_aot_module_HockeySDK_iOSBindings_info:

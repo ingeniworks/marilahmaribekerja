@@ -199,7 +199,7 @@ bl _p_1
 .word 0xf94023a1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf9411030
+.word 0xf9411430
 .word 0xd63f0200
 .word 0xf9001fa0
 .word 0xf9400fb1
@@ -209,7 +209,7 @@ bl _p_1
 .word 0xf9401fa1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf9410c30
+.word 0xf9411030
 .word 0xd63f0200
 .word 0x53001c00
 .word 0xf9001ba0
@@ -272,7 +272,7 @@ bl _p_1
 .word 0xf94027a1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf9411030
+.word 0xf9411430
 .word 0xd63f0200
 .word 0xf90023a0
 .word 0xf94013b1
@@ -283,7 +283,7 @@ bl _p_1
 .word 0x394063a1
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf9410850
+.word 0xf9410c50
 .word 0xd63f0200
 .word 0xf94013b1
 .word 0xf940be31
@@ -339,7 +339,7 @@ bl _p_1
 .word 0xf94027a1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf9411030
+.word 0xf9411430
 .word 0xd63f0200
 .word 0xf90023a0
 .word 0xf94013b1
@@ -350,7 +350,7 @@ bl _p_1
 .word 0xf9400fa1
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf9411450
+.word 0xf9411850
 .word 0xd63f0200
 .word 0xf94013b1
 .word 0xf940be31
@@ -848,7 +848,7 @@ bl _p_1
 .word 0xf940c7a1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf9411030
+.word 0xf9411430
 .word 0xd63f0200
 .word 0xf900c3a0
 .word 0xf94023b1
@@ -863,7 +863,7 @@ bl _p_1
 .word 0xaa1703e2
 .word 0xaa1603e3
 .word 0xf9400084
-.word 0xf9411090
+.word 0xf9411490
 .word 0xd63f0200
 .word 0xf94023b1
 .word 0xf9478631
@@ -965,7 +965,7 @@ bl _p_1
 .word 0xf94023a1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf9415c30
+.word 0xf9416030
 .word 0xd63f0200
 .word 0xf9001fa0
 .word 0xf9400fb1
@@ -975,7 +975,7 @@ bl _p_1
 .word 0xf9401fa1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf9412c30
+.word 0xf9413030
 .word 0xd63f0200
 .word 0x53001c00
 .word 0xf9001ba0
@@ -19921,7 +19921,7 @@ _mono_aot_file_info:
 	.long 216,5472,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0
-	.byte 31,53,7,124,124,102,125,228,214,186,190,111,142,84,99,37
+	.byte 41,248,72,62,234,189,102,199,255,52,250,127,226,115,131,250
 	.globl _mono_aot_module_HockeySDK_info
 	.align 3
 _mono_aot_module_HockeySDK_info:

@@ -181,7 +181,7 @@ bl _p_2
 	.byte 0,224,157,229,192,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,52,32,157,229,2,0,160,225,0,16,159,229
 	.byte 0,0,0,234
 	.long mono_aot_GoWorkTwo_iOS_got - . + 104
-	.byte 1,16,159,231,2,0,160,225,0,32,146,229,15,224,160,225,132,241,146,229,0,224,157,229,252,224,158,229,0,0,94,227
+	.byte 1,16,159,231,2,0,160,225,0,32,146,229,15,224,160,225,136,241,146,229,0,224,157,229,252,224,158,229,0,0,94,227
 	.byte 0,224,158,21,0,0,160,225
 .loc 2 31 0
 
@@ -192,8 +192,8 @@ bl _p_3
 .loc 2 32 0
 
 	.byte 0,224,157,229,72,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,4,16,160,225,1,0,160,225,0,16,145,229
-	.byte 15,224,160,225,100,241,145,229,48,0,141,229,0,224,157,229,116,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225
-	.byte 48,16,157,229,1,0,160,225,0,16,145,229,15,224,160,225,84,241,145,229,0,224,157,229,156,225,158,229,0,0,94,227
+	.byte 15,224,160,225,104,241,145,229,48,0,141,229,0,224,157,229,116,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225
+	.byte 48,16,157,229,1,0,160,225,0,16,145,229,15,224,160,225,88,241,145,229,0,224,157,229,156,225,158,229,0,0,94,227
 	.byte 0,224,158,21,0,0,160,225
 .loc 2 34 0
 
@@ -222,7 +222,7 @@ bl _p_7
 bl _p_8
 
 	.byte 36,0,141,229,0,224,157,229,108,226,158,229,0,0,94,227,0,224,158,21,0,0,160,225,36,16,157,229,1,0,160,225
-	.byte 0,16,145,229,15,224,160,225,240,240,145,229,32,0,141,229,0,224,157,229,152,226,158,229,0,0,94,227,0,224,158,21
+	.byte 0,16,145,229,15,224,160,225,244,240,145,229,32,0,141,229,0,224,157,229,152,226,158,229,0,0,94,227,0,224,158,21
 	.byte 0,0,160,225,32,16,157,229,1,0,160,225,0,16,145,229,15,224,160,225,36,240,145,229,28,0,141,229,0,224,157,229
 	.byte 196,226,158,229,0,0,94,227,0,224,158,21,0,0,160,225,28,16,157,229,0,0,159,229,0,0,0,234
 	.long mono_aot_GoWorkTwo_iOS_got - . + 112
@@ -348,7 +348,7 @@ GoWorkTwo_iOS_IXFReceiver_GetDeviceUUID:
 bl _p_8
 
 	.byte 28,0,141,229,0,224,157,229,144,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,28,16,157,229,1,0,160,225
-	.byte 0,16,145,229,15,224,160,225,240,240,145,229,24,0,141,229,0,224,157,229,188,224,158,229,0,0,94,227,0,224,158,21
+	.byte 0,16,145,229,15,224,160,225,244,240,145,229,24,0,141,229,0,224,157,229,188,224,158,229,0,0,94,227,0,224,158,21
 	.byte 0,0,160,225,24,16,157,229,1,0,160,225,0,16,145,229,15,224,160,225,36,240,145,229,20,0,141,229,0,224,157,229
 	.byte 232,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,20,0,157,229,16,0,141,229,0,160,160,225
 .loc 3 35 0
@@ -549,7 +549,7 @@ bl _p_25
 	.byte 104,0,139,229,0,224,155,229,76,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,104,32,155,229,0,16,159,229
 	.byte 0,0,0,234
 	.long mono_aot_GoWorkTwo_iOS_got - . + 188
-	.byte 1,16,159,231,2,0,160,225,0,32,146,229,15,224,160,225,240,240,146,229,100,0,139,229,0,224,155,229,136,225,158,229
+	.byte 1,16,159,231,2,0,160,225,0,32,146,229,15,224,160,225,244,240,146,229,100,0,139,229,0,224,155,229,136,225,158,229
 	.byte 0,0,94,227,0,224,158,21,0,0,160,225,100,16,155,229,1,0,160,225,0,16,145,229,15,224,160,225,36,240,145,229
 	.byte 96,0,139,229,0,224,155,229,180,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,96,0,155,229,8,0,139,229
 .loc 3 77 0
@@ -560,7 +560,7 @@ bl _p_25
 	.byte 92,0,139,229,0,224,155,229,236,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,92,32,155,229,0,16,159,229
 	.byte 0,0,0,234
 	.long mono_aot_GoWorkTwo_iOS_got - . + 192
-	.byte 1,16,159,231,2,0,160,225,0,32,146,229,15,224,160,225,240,240,146,229,88,0,139,229,0,224,155,229,40,226,158,229
+	.byte 1,16,159,231,2,0,160,225,0,32,146,229,15,224,160,225,244,240,146,229,88,0,139,229,0,224,155,229,40,226,158,229
 	.byte 0,0,94,227,0,224,158,21,0,0,160,225,88,16,155,229,1,0,160,225,0,16,145,229,15,224,160,225,36,240,145,229
 	.byte 84,0,139,229,0,224,155,229,84,226,158,229,0,0,94,227,0,224,158,21,0,0,160,225,84,0,155,229,12,0,139,229
 .loc 3 78 0
@@ -574,7 +574,7 @@ bl _p_26
 bl _p_8
 
 	.byte 80,0,139,229,0,224,155,229,188,226,158,229,0,0,94,227,0,224,158,21,0,0,160,225,80,16,155,229,1,0,160,225
-	.byte 0,16,145,229,15,224,160,225,232,240,145,229,76,0,139,229,0,224,155,229,232,226,158,229,0,0,94,227,0,224,158,21
+	.byte 0,16,145,229,15,224,160,225,236,240,145,229,76,0,139,229,0,224,155,229,232,226,158,229,0,0,94,227,0,224,158,21
 	.byte 0,0,160,225,68,0,155,229,72,16,155,229,76,32,155,229
 bl _p_27
 
@@ -1025,42 +1025,42 @@ bl _p_49
 	.byte 20,0,141,229,0,224,157,229,60,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,20,32,157,229,0,16,159,229
 	.byte 0,0,0,234
 	.long mono_aot_GoWorkTwo_iOS_got - . + 240
-	.byte 1,16,159,231,2,0,160,225,0,32,146,229,15,224,160,225,228,240,146,229,255,0,0,226,16,0,141,229,0,224,157,229
+	.byte 1,16,159,231,2,0,160,225,0,32,146,229,15,224,160,225,232,240,146,229,255,0,0,226,16,0,141,229,0,224,157,229
 	.byte 124,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,16,0,157,229,0,15,80,227,170,0,0,26
 bl _p_49
 
 	.byte 20,0,141,229,0,224,157,229,164,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,20,32,157,229,0,16,159,229
 	.byte 0,0,0,234
 	.long mono_aot_GoWorkTwo_iOS_got - . + 244
-	.byte 1,16,159,231,2,0,160,225,0,32,146,229,15,224,160,225,228,240,146,229,255,0,0,226,16,0,141,229,0,224,157,229
+	.byte 1,16,159,231,2,0,160,225,0,32,146,229,15,224,160,225,232,240,146,229,255,0,0,226,16,0,141,229,0,224,157,229
 	.byte 228,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,16,0,157,229,0,15,80,227,144,0,0,26
 bl _p_49
 
 	.byte 20,0,141,229,0,224,157,229,12,226,158,229,0,0,94,227,0,224,158,21,0,0,160,225,20,32,157,229,0,16,159,229
 	.byte 0,0,0,234
 	.long mono_aot_GoWorkTwo_iOS_got - . + 248
-	.byte 1,16,159,231,2,0,160,225,0,32,146,229,15,224,160,225,228,240,146,229,255,0,0,226,16,0,141,229,0,224,157,229
+	.byte 1,16,159,231,2,0,160,225,0,32,146,229,15,224,160,225,232,240,146,229,255,0,0,226,16,0,141,229,0,224,157,229
 	.byte 76,226,158,229,0,0,94,227,0,224,158,21,0,0,160,225,16,0,157,229,0,15,80,227,118,0,0,26
 bl _p_49
 
 	.byte 20,0,141,229,0,224,157,229,116,226,158,229,0,0,94,227,0,224,158,21,0,0,160,225,20,32,157,229,0,16,159,229
 	.byte 0,0,0,234
 	.long mono_aot_GoWorkTwo_iOS_got - . + 252
-	.byte 1,16,159,231,2,0,160,225,0,32,146,229,15,224,160,225,228,240,146,229,255,0,0,226,16,0,141,229,0,224,157,229
+	.byte 1,16,159,231,2,0,160,225,0,32,146,229,15,224,160,225,232,240,146,229,255,0,0,226,16,0,141,229,0,224,157,229
 	.byte 180,226,158,229,0,0,94,227,0,224,158,21,0,0,160,225,16,0,157,229,0,15,80,227,92,0,0,26
 bl _p_49
 
 	.byte 20,0,141,229,0,224,157,229,220,226,158,229,0,0,94,227,0,224,158,21,0,0,160,225,20,32,157,229,0,16,159,229
 	.byte 0,0,0,234
 	.long mono_aot_GoWorkTwo_iOS_got - . + 256
-	.byte 1,16,159,231,2,0,160,225,0,32,146,229,15,224,160,225,228,240,146,229,255,0,0,226,16,0,141,229,0,224,157,229
+	.byte 1,16,159,231,2,0,160,225,0,32,146,229,15,224,160,225,232,240,146,229,255,0,0,226,16,0,141,229,0,224,157,229
 	.byte 28,227,158,229,0,0,94,227,0,224,158,21,0,0,160,225,16,0,157,229,0,15,80,227,66,0,0,26
 bl _p_49
 
 	.byte 20,0,141,229,0,224,157,229,68,227,158,229,0,0,94,227,0,224,158,21,0,0,160,225,20,32,157,229,0,16,159,229
 	.byte 0,0,0,234
 	.long mono_aot_GoWorkTwo_iOS_got - . + 260
-	.byte 1,16,159,231,2,0,160,225,0,32,146,229,15,224,160,225,228,240,146,229,255,0,0,226,16,0,141,229,0,224,157,229
+	.byte 1,16,159,231,2,0,160,225,0,32,146,229,15,224,160,225,232,240,146,229,255,0,0,226,16,0,141,229,0,224,157,229
 	.byte 132,227,158,229,0,0,94,227,0,224,158,21,0,0,160,225,16,0,157,229,0,15,80,227,40,0,0,26
 bl _p_50
 
@@ -1075,7 +1075,7 @@ bl _p_51
 bl _p_52
 
 	.byte 0,224,157,229,244,227,158,229,0,0,94,227,0,224,158,21,0,0,160,225,20,16,157,229,24,32,157,229,2,0,160,225
-	.byte 0,32,146,229,15,224,160,225,44,241,146,229,255,0,0,226,16,0,141,229,0,224,157,229,40,228,158,229,0,0,94,227
+	.byte 0,32,146,229,15,224,160,225,60,241,146,229,255,0,0,226,16,0,141,229,0,224,157,229,40,228,158,229,0,0,94,227
 	.byte 0,224,158,21,0,0,160,225,16,0,157,229,0,160,160,225,1,0,0,234,64,3,160,227,64,163,160,227,10,0,160,225
 	.byte 255,0,10,226,10,160,205,229,255,0,10,226,0,15,80,227,33,0,0,10
 .loc 4 25 0
@@ -4302,7 +4302,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "07CCE3EB-FD44-417C-A9C0-7EF7807BF5C1"
+	.asciz "C0C728D7-7FAC-45A4-B71B-5222693FC4E1"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -4381,13 +4381,13 @@ _mono_aot_file_info:
 	.align 2
 	.long unbox_trampoline_addresses
 
-	.long 155,1024,101,82,70,387000831,0,16367
-	.long 128,4,4,8,0,25,19920,3544
+	.long 155,1024,101,82,70,387000831,0,16371
+	.long 128,4,4,8,0,25,19928,3544
 	.long 2608,2128,0,2408,2576,2184,0,1648
 	.long 128,3536,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0
-	.byte 222,128,130,119,70,24,139,136,203,56,127,109,87,11,210,10
+	.byte 245,211,186,180,95,56,97,134,235,61,154,48,93,144,30,254
 	.globl _mono_aot_module_GoWorkTwo_iOS_info
 	.align 2
 _mono_aot_module_GoWorkTwo_iOS_info:
@@ -9162,7 +9162,7 @@ LTDIE_129_REFERENCE:
 	.byte 14
 LDIFF_SYM802=LTDIE_129 - Ldebug_info_start
 	.long LDIFF_SYM802
-LTDIE_131:
+LTDIE_134:
 
 	.byte 17
 	.asciz "System_Collections_Generic_IList`1"
@@ -9170,17 +9170,17 @@ LTDIE_131:
 	.byte 8,7
 	.asciz "System_Collections_Generic_IList`1"
 
-LDIFF_SYM803=LTDIE_131 - Ldebug_info_start
+LDIFF_SYM803=LTDIE_134 - Ldebug_info_start
 	.long LDIFF_SYM803
-LTDIE_131_POINTER:
+LTDIE_134_POINTER:
 
 	.byte 13
-LDIFF_SYM804=LTDIE_131 - Ldebug_info_start
+LDIFF_SYM804=LTDIE_134 - Ldebug_info_start
 	.long LDIFF_SYM804
-LTDIE_131_REFERENCE:
+LTDIE_134_REFERENCE:
 
 	.byte 14
-LDIFF_SYM805=LTDIE_131 - Ldebug_info_start
+LDIFF_SYM805=LTDIE_134 - Ldebug_info_start
 	.long LDIFF_SYM805
 LTDIE_133:
 
@@ -9193,7 +9193,7 @@ LDIFF_SYM806=LTDIE_1 - Ldebug_info_start
 	.byte 2,35,0,6
 	.asciz "items"
 
-LDIFF_SYM807=LTDIE_96_REFERENCE - Ldebug_info_start
+LDIFF_SYM807=LTDIE_134_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM807
 	.byte 2,35,8,6
 	.asciz "_syncRoot"
@@ -9215,7 +9215,7 @@ LTDIE_133_REFERENCE:
 	.byte 14
 LDIFF_SYM811=LTDIE_133 - Ldebug_info_start
 	.long LDIFF_SYM811
-LTDIE_134:
+LTDIE_135:
 
 	.byte 5
 	.asciz "_SimpleMonitor"
@@ -9231,17 +9231,17 @@ LDIFF_SYM813=LDIE_I4 - Ldebug_info_start
 	.byte 2,35,8,0,7
 	.asciz "_SimpleMonitor"
 
-LDIFF_SYM814=LTDIE_134 - Ldebug_info_start
+LDIFF_SYM814=LTDIE_135 - Ldebug_info_start
 	.long LDIFF_SYM814
-LTDIE_134_POINTER:
+LTDIE_135_POINTER:
 
 	.byte 13
-LDIFF_SYM815=LTDIE_134 - Ldebug_info_start
+LDIFF_SYM815=LTDIE_135 - Ldebug_info_start
 	.long LDIFF_SYM815
-LTDIE_134_REFERENCE:
+LTDIE_135_REFERENCE:
 
 	.byte 14
-LDIFF_SYM816=LTDIE_134 - Ldebug_info_start
+LDIFF_SYM816=LTDIE_135 - Ldebug_info_start
 	.long LDIFF_SYM816
 LTDIE_132:
 
@@ -9264,7 +9264,7 @@ LDIFF_SYM819=LTDIE_14_REFERENCE - Ldebug_info_start
 	.byte 2,35,20,6
 	.asciz "_monitor"
 
-LDIFF_SYM820=LTDIE_134_REFERENCE - Ldebug_info_start
+LDIFF_SYM820=LTDIE_135_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM820
 	.byte 2,35,24,0,7
 	.asciz "System_Collections_ObjectModel_ObservableCollection`1"
@@ -9281,655 +9281,812 @@ LTDIE_132_REFERENCE:
 	.byte 14
 LDIFF_SYM823=LTDIE_132 - Ldebug_info_start
 	.long LDIFF_SYM823
+LTDIE_131:
+
+	.byte 5
+	.asciz "Xamarin_Forms_View"
+
+	.byte 228,1,16
+LDIFF_SYM824=LTDIE_98 - Ldebug_info_start
+	.long LDIFF_SYM824
+	.byte 2,35,0,6
+	.asciz "_gestureRecognizers"
+
+LDIFF_SYM825=LTDIE_132_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM825
+	.byte 3,35,220,1,6
+	.asciz "_compositeGestureRecognizers"
+
+LDIFF_SYM826=LTDIE_132_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM826
+	.byte 3,35,224,1,0,7
+	.asciz "Xamarin_Forms_View"
+
+LDIFF_SYM827=LTDIE_131 - Ldebug_info_start
+	.long LDIFF_SYM827
+LTDIE_131_POINTER:
+
+	.byte 13
+LDIFF_SYM828=LTDIE_131 - Ldebug_info_start
+	.long LDIFF_SYM828
+LTDIE_131_REFERENCE:
+
+	.byte 14
+LDIFF_SYM829=LTDIE_131 - Ldebug_info_start
+	.long LDIFF_SYM829
+LTDIE_136:
+
+	.byte 17
+	.asciz "System_Collections_Generic_IList`1"
+
+	.byte 8,7
+	.asciz "System_Collections_Generic_IList`1"
+
+LDIFF_SYM830=LTDIE_136 - Ldebug_info_start
+	.long LDIFF_SYM830
+LTDIE_136_POINTER:
+
+	.byte 13
+LDIFF_SYM831=LTDIE_136 - Ldebug_info_start
+	.long LDIFF_SYM831
+LTDIE_136_REFERENCE:
+
+	.byte 14
+LDIFF_SYM832=LTDIE_136 - Ldebug_info_start
+	.long LDIFF_SYM832
+LTDIE_138:
+
+	.byte 5
+	.asciz "System_Collections_ObjectModel_Collection`1"
+
+	.byte 16,16
+LDIFF_SYM833=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM833
+	.byte 2,35,0,6
+	.asciz "items"
+
+LDIFF_SYM834=LTDIE_96_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM834
+	.byte 2,35,8,6
+	.asciz "_syncRoot"
+
+LDIFF_SYM835=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM835
+	.byte 2,35,12,0,7
+	.asciz "System_Collections_ObjectModel_Collection`1"
+
+LDIFF_SYM836=LTDIE_138 - Ldebug_info_start
+	.long LDIFF_SYM836
+LTDIE_138_POINTER:
+
+	.byte 13
+LDIFF_SYM837=LTDIE_138 - Ldebug_info_start
+	.long LDIFF_SYM837
+LTDIE_138_REFERENCE:
+
+	.byte 14
+LDIFF_SYM838=LTDIE_138 - Ldebug_info_start
+	.long LDIFF_SYM838
+LTDIE_139:
+
+	.byte 5
+	.asciz "_SimpleMonitor"
+
+	.byte 12,16
+LDIFF_SYM839=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM839
+	.byte 2,35,0,6
+	.asciz "_busyCount"
+
+LDIFF_SYM840=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM840
+	.byte 2,35,8,0,7
+	.asciz "_SimpleMonitor"
+
+LDIFF_SYM841=LTDIE_139 - Ldebug_info_start
+	.long LDIFF_SYM841
+LTDIE_139_POINTER:
+
+	.byte 13
+LDIFF_SYM842=LTDIE_139 - Ldebug_info_start
+	.long LDIFF_SYM842
+LTDIE_139_REFERENCE:
+
+	.byte 14
+LDIFF_SYM843=LTDIE_139 - Ldebug_info_start
+	.long LDIFF_SYM843
+LTDIE_137:
+
+	.byte 5
+	.asciz "System_Collections_ObjectModel_ObservableCollection`1"
+
+	.byte 28,16
+LDIFF_SYM844=LTDIE_138 - Ldebug_info_start
+	.long LDIFF_SYM844
+	.byte 2,35,0,6
+	.asciz "CollectionChanged"
+
+LDIFF_SYM845=LTDIE_35_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM845
+	.byte 2,35,16,6
+	.asciz "PropertyChanged"
+
+LDIFF_SYM846=LTDIE_14_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM846
+	.byte 2,35,20,6
+	.asciz "_monitor"
+
+LDIFF_SYM847=LTDIE_139_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM847
+	.byte 2,35,24,0,7
+	.asciz "System_Collections_ObjectModel_ObservableCollection`1"
+
+LDIFF_SYM848=LTDIE_137 - Ldebug_info_start
+	.long LDIFF_SYM848
+LTDIE_137_POINTER:
+
+	.byte 13
+LDIFF_SYM849=LTDIE_137 - Ldebug_info_start
+	.long LDIFF_SYM849
+LTDIE_137_REFERENCE:
+
+	.byte 14
+LDIFF_SYM850=LTDIE_137 - Ldebug_info_start
+	.long LDIFF_SYM850
 LTDIE_97:
 
 	.byte 5
 	.asciz "Xamarin_Forms_Page"
 
-	.byte 160,2,16
-LDIFF_SYM824=LTDIE_98 - Ldebug_info_start
-	.long LDIFF_SYM824
+	.byte 164,2,16
+LDIFF_SYM851=LTDIE_98 - Ldebug_info_start
+	.long LDIFF_SYM851
 	.byte 2,35,0,6
 	.asciz "_platformConfigurationRegistry"
 
-LDIFF_SYM825=LTDIE_129_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM825
+LDIFF_SYM852=LTDIE_129_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM852
 	.byte 3,35,220,1,6
 	.asciz "_allocatedFlag"
 
-LDIFF_SYM826=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM826
-	.byte 3,35,248,1,6
+LDIFF_SYM853=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM853
+	.byte 3,35,252,1,6
 	.asciz "_containerArea"
 
-LDIFF_SYM827=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM827
-	.byte 3,35,252,1,6
+LDIFF_SYM854=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM854
+	.byte 3,35,128,2,6
 	.asciz "_containerAreaSet"
 
-LDIFF_SYM828=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM828
-	.byte 3,35,156,2,6
+LDIFF_SYM855=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM855
+	.byte 3,35,160,2,6
 	.asciz "_hasAppeared"
 
-LDIFF_SYM829=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM829
-	.byte 3,35,157,2,6
+LDIFF_SYM856=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM856
+	.byte 3,35,161,2,6
 	.asciz "_logicalChildren"
 
-LDIFF_SYM830=LTDIE_95_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM830
+LDIFF_SYM857=LTDIE_95_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM857
 	.byte 3,35,224,1,6
+	.asciz "_titleView"
+
+LDIFF_SYM858=LTDIE_131_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM858
+	.byte 3,35,228,1,6
 	.asciz "<ToolbarItems>k__BackingField"
 
-LDIFF_SYM831=LTDIE_131_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM831
-	.byte 3,35,228,1,6
+LDIFF_SYM859=LTDIE_136_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM859
+	.byte 3,35,232,1,6
 	.asciz "<InternalChildren>k__BackingField"
 
-LDIFF_SYM832=LTDIE_132_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM832
-	.byte 3,35,232,1,6
+LDIFF_SYM860=LTDIE_137_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM860
+	.byte 3,35,236,1,6
 	.asciz "LayoutChanged"
 
-LDIFF_SYM833=LTDIE_22_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM833
-	.byte 3,35,236,1,6
+LDIFF_SYM861=LTDIE_22_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM861
+	.byte 3,35,240,1,6
 	.asciz "Appearing"
 
-LDIFF_SYM834=LTDIE_22_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM834
-	.byte 3,35,240,1,6
+LDIFF_SYM862=LTDIE_22_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM862
+	.byte 3,35,244,1,6
 	.asciz "Disappearing"
 
-LDIFF_SYM835=LTDIE_22_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM835
-	.byte 3,35,244,1,0,7
+LDIFF_SYM863=LTDIE_22_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM863
+	.byte 3,35,248,1,0,7
 	.asciz "Xamarin_Forms_Page"
 
-LDIFF_SYM836=LTDIE_97 - Ldebug_info_start
-	.long LDIFF_SYM836
+LDIFF_SYM864=LTDIE_97 - Ldebug_info_start
+	.long LDIFF_SYM864
 LTDIE_97_POINTER:
 
 	.byte 13
-LDIFF_SYM837=LTDIE_97 - Ldebug_info_start
-	.long LDIFF_SYM837
+LDIFF_SYM865=LTDIE_97 - Ldebug_info_start
+	.long LDIFF_SYM865
 LTDIE_97_REFERENCE:
 
 	.byte 14
-LDIFF_SYM838=LTDIE_97 - Ldebug_info_start
-	.long LDIFF_SYM838
-LTDIE_136:
-
-	.byte 17
-	.asciz "Xamarin_Forms_INavigation"
-
-	.byte 8,7
-	.asciz "Xamarin_Forms_INavigation"
-
-LDIFF_SYM839=LTDIE_136 - Ldebug_info_start
-	.long LDIFF_SYM839
-LTDIE_136_POINTER:
-
-	.byte 13
-LDIFF_SYM840=LTDIE_136 - Ldebug_info_start
-	.long LDIFF_SYM840
-LTDIE_136_REFERENCE:
-
-	.byte 14
-LDIFF_SYM841=LTDIE_136 - Ldebug_info_start
-	.long LDIFF_SYM841
-LTDIE_138:
-
-	.byte 5
-	.asciz "System_Func`1"
-
-	.byte 56,16
-LDIFF_SYM842=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM842
-	.byte 2,35,0,0,7
-	.asciz "System_Func`1"
-
-LDIFF_SYM843=LTDIE_138 - Ldebug_info_start
-	.long LDIFF_SYM843
-LTDIE_138_POINTER:
-
-	.byte 13
-LDIFF_SYM844=LTDIE_138 - Ldebug_info_start
-	.long LDIFF_SYM844
-LTDIE_138_REFERENCE:
-
-	.byte 14
-LDIFF_SYM845=LTDIE_138 - Ldebug_info_start
-	.long LDIFF_SYM845
-LTDIE_137:
-
-	.byte 5
-	.asciz "System_Lazy`1"
-
-	.byte 20,16
-LDIFF_SYM846=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM846
-	.byte 2,35,0,6
-	.asciz "m_boxed"
-
-LDIFF_SYM847=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM847
-	.byte 2,35,8,6
-	.asciz "m_valueFactory"
-
-LDIFF_SYM848=LTDIE_138_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM848
-	.byte 2,35,12,6
-	.asciz "m_threadSafeObj"
-
-LDIFF_SYM849=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM849
-	.byte 2,35,16,0,7
-	.asciz "System_Lazy`1"
-
-LDIFF_SYM850=LTDIE_137 - Ldebug_info_start
-	.long LDIFF_SYM850
-LTDIE_137_POINTER:
-
-	.byte 13
-LDIFF_SYM851=LTDIE_137 - Ldebug_info_start
-	.long LDIFF_SYM851
-LTDIE_137_REFERENCE:
-
-	.byte 14
-LDIFF_SYM852=LTDIE_137 - Ldebug_info_start
-	.long LDIFF_SYM852
-LTDIE_135:
-
-	.byte 5
-	.asciz "Xamarin_Forms_Internals_NavigationProxy"
-
-	.byte 20,16
-LDIFF_SYM853=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM853
-	.byte 2,35,0,6
-	.asciz "_inner"
-
-LDIFF_SYM854=LTDIE_136_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM854
-	.byte 2,35,8,6
-	.asciz "_modalStack"
-
-LDIFF_SYM855=LTDIE_137_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM855
-	.byte 2,35,12,6
-	.asciz "_pushStack"
-
-LDIFF_SYM856=LTDIE_137_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM856
-	.byte 2,35,16,0,7
-	.asciz "Xamarin_Forms_Internals_NavigationProxy"
-
-LDIFF_SYM857=LTDIE_135 - Ldebug_info_start
-	.long LDIFF_SYM857
-LTDIE_135_POINTER:
-
-	.byte 13
-LDIFF_SYM858=LTDIE_135 - Ldebug_info_start
-	.long LDIFF_SYM858
-LTDIE_135_REFERENCE:
-
-	.byte 14
-LDIFF_SYM859=LTDIE_135 - Ldebug_info_start
-	.long LDIFF_SYM859
-LTDIE_139:
-
-	.byte 17
-	.asciz "Xamarin_Forms_Internals_IResourceDictionary"
-
-	.byte 8,7
-	.asciz "Xamarin_Forms_Internals_IResourceDictionary"
-
-LDIFF_SYM860=LTDIE_139 - Ldebug_info_start
-	.long LDIFF_SYM860
-LTDIE_139_POINTER:
-
-	.byte 13
-LDIFF_SYM861=LTDIE_139 - Ldebug_info_start
-	.long LDIFF_SYM861
-LTDIE_139_REFERENCE:
-
-	.byte 14
-LDIFF_SYM862=LTDIE_139 - Ldebug_info_start
-	.long LDIFF_SYM862
-LTDIE_140:
-
-	.byte 5
-	.asciz "System_EventHandler`1"
-
-	.byte 56,16
-LDIFF_SYM863=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM863
-	.byte 2,35,0,0,7
-	.asciz "System_EventHandler`1"
-
-LDIFF_SYM864=LTDIE_140 - Ldebug_info_start
-	.long LDIFF_SYM864
-LTDIE_140_POINTER:
-
-	.byte 13
-LDIFF_SYM865=LTDIE_140 - Ldebug_info_start
-	.long LDIFF_SYM865
-LTDIE_140_REFERENCE:
-
-	.byte 14
-LDIFF_SYM866=LTDIE_140 - Ldebug_info_start
+LDIFF_SYM866=LTDIE_97 - Ldebug_info_start
 	.long LDIFF_SYM866
 LTDIE_141:
 
-	.byte 5
-	.asciz "System_EventHandler`1"
+	.byte 17
+	.asciz "Xamarin_Forms_INavigation"
 
-	.byte 56,16
-LDIFF_SYM867=LTDIE_15 - Ldebug_info_start
+	.byte 8,7
+	.asciz "Xamarin_Forms_INavigation"
+
+LDIFF_SYM867=LTDIE_141 - Ldebug_info_start
 	.long LDIFF_SYM867
-	.byte 2,35,0,0,7
-	.asciz "System_EventHandler`1"
-
-LDIFF_SYM868=LTDIE_141 - Ldebug_info_start
-	.long LDIFF_SYM868
 LTDIE_141_POINTER:
 
 	.byte 13
-LDIFF_SYM869=LTDIE_141 - Ldebug_info_start
-	.long LDIFF_SYM869
+LDIFF_SYM868=LTDIE_141 - Ldebug_info_start
+	.long LDIFF_SYM868
 LTDIE_141_REFERENCE:
 
 	.byte 14
-LDIFF_SYM870=LTDIE_141 - Ldebug_info_start
-	.long LDIFF_SYM870
-LTDIE_142:
-
-	.byte 5
-	.asciz "System_EventHandler`1"
-
-	.byte 56,16
-LDIFF_SYM871=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM871
-	.byte 2,35,0,0,7
-	.asciz "System_EventHandler`1"
-
-LDIFF_SYM872=LTDIE_142 - Ldebug_info_start
-	.long LDIFF_SYM872
-LTDIE_142_POINTER:
-
-	.byte 13
-LDIFF_SYM873=LTDIE_142 - Ldebug_info_start
-	.long LDIFF_SYM873
-LTDIE_142_REFERENCE:
-
-	.byte 14
-LDIFF_SYM874=LTDIE_142 - Ldebug_info_start
-	.long LDIFF_SYM874
+LDIFF_SYM869=LTDIE_141 - Ldebug_info_start
+	.long LDIFF_SYM869
 LTDIE_143:
 
 	.byte 5
-	.asciz "System_EventHandler`1"
+	.asciz "System_Func`1"
 
 	.byte 56,16
-LDIFF_SYM875=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM875
+LDIFF_SYM870=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM870
 	.byte 2,35,0,0,7
-	.asciz "System_EventHandler`1"
+	.asciz "System_Func`1"
 
-LDIFF_SYM876=LTDIE_143 - Ldebug_info_start
-	.long LDIFF_SYM876
+LDIFF_SYM871=LTDIE_143 - Ldebug_info_start
+	.long LDIFF_SYM871
 LTDIE_143_POINTER:
 
 	.byte 13
-LDIFF_SYM877=LTDIE_143 - Ldebug_info_start
-	.long LDIFF_SYM877
+LDIFF_SYM872=LTDIE_143 - Ldebug_info_start
+	.long LDIFF_SYM872
 LTDIE_143_REFERENCE:
 
 	.byte 14
-LDIFF_SYM878=LTDIE_143 - Ldebug_info_start
+LDIFF_SYM873=LTDIE_143 - Ldebug_info_start
+	.long LDIFF_SYM873
+LTDIE_142:
+
+	.byte 5
+	.asciz "System_Lazy`1"
+
+	.byte 20,16
+LDIFF_SYM874=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM874
+	.byte 2,35,0,6
+	.asciz "m_boxed"
+
+LDIFF_SYM875=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM875
+	.byte 2,35,8,6
+	.asciz "m_valueFactory"
+
+LDIFF_SYM876=LTDIE_143_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM876
+	.byte 2,35,12,6
+	.asciz "m_threadSafeObj"
+
+LDIFF_SYM877=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM877
+	.byte 2,35,16,0,7
+	.asciz "System_Lazy`1"
+
+LDIFF_SYM878=LTDIE_142 - Ldebug_info_start
 	.long LDIFF_SYM878
+LTDIE_142_POINTER:
+
+	.byte 13
+LDIFF_SYM879=LTDIE_142 - Ldebug_info_start
+	.long LDIFF_SYM879
+LTDIE_142_REFERENCE:
+
+	.byte 14
+LDIFF_SYM880=LTDIE_142 - Ldebug_info_start
+	.long LDIFF_SYM880
+LTDIE_140:
+
+	.byte 5
+	.asciz "Xamarin_Forms_Internals_NavigationProxy"
+
+	.byte 20,16
+LDIFF_SYM881=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM881
+	.byte 2,35,0,6
+	.asciz "_inner"
+
+LDIFF_SYM882=LTDIE_141_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM882
+	.byte 2,35,8,6
+	.asciz "_modalStack"
+
+LDIFF_SYM883=LTDIE_142_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM883
+	.byte 2,35,12,6
+	.asciz "_pushStack"
+
+LDIFF_SYM884=LTDIE_142_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM884
+	.byte 2,35,16,0,7
+	.asciz "Xamarin_Forms_Internals_NavigationProxy"
+
+LDIFF_SYM885=LTDIE_140 - Ldebug_info_start
+	.long LDIFF_SYM885
+LTDIE_140_POINTER:
+
+	.byte 13
+LDIFF_SYM886=LTDIE_140 - Ldebug_info_start
+	.long LDIFF_SYM886
+LTDIE_140_REFERENCE:
+
+	.byte 14
+LDIFF_SYM887=LTDIE_140 - Ldebug_info_start
+	.long LDIFF_SYM887
 LTDIE_144:
+
+	.byte 17
+	.asciz "Xamarin_Forms_Internals_IResourceDictionary"
+
+	.byte 8,7
+	.asciz "Xamarin_Forms_Internals_IResourceDictionary"
+
+LDIFF_SYM888=LTDIE_144 - Ldebug_info_start
+	.long LDIFF_SYM888
+LTDIE_144_POINTER:
+
+	.byte 13
+LDIFF_SYM889=LTDIE_144 - Ldebug_info_start
+	.long LDIFF_SYM889
+LTDIE_144_REFERENCE:
+
+	.byte 14
+LDIFF_SYM890=LTDIE_144 - Ldebug_info_start
+	.long LDIFF_SYM890
+LTDIE_145:
 
 	.byte 5
 	.asciz "System_EventHandler`1"
 
 	.byte 56,16
-LDIFF_SYM879=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM879
+LDIFF_SYM891=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM891
 	.byte 2,35,0,0,7
 	.asciz "System_EventHandler`1"
 
-LDIFF_SYM880=LTDIE_144 - Ldebug_info_start
-	.long LDIFF_SYM880
-LTDIE_144_POINTER:
+LDIFF_SYM892=LTDIE_145 - Ldebug_info_start
+	.long LDIFF_SYM892
+LTDIE_145_POINTER:
 
 	.byte 13
-LDIFF_SYM881=LTDIE_144 - Ldebug_info_start
-	.long LDIFF_SYM881
-LTDIE_144_REFERENCE:
+LDIFF_SYM893=LTDIE_145 - Ldebug_info_start
+	.long LDIFF_SYM893
+LTDIE_145_REFERENCE:
 
 	.byte 14
-LDIFF_SYM882=LTDIE_144 - Ldebug_info_start
-	.long LDIFF_SYM882
+LDIFF_SYM894=LTDIE_145 - Ldebug_info_start
+	.long LDIFF_SYM894
+LTDIE_146:
+
+	.byte 5
+	.asciz "System_EventHandler`1"
+
+	.byte 56,16
+LDIFF_SYM895=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM895
+	.byte 2,35,0,0,7
+	.asciz "System_EventHandler`1"
+
+LDIFF_SYM896=LTDIE_146 - Ldebug_info_start
+	.long LDIFF_SYM896
+LTDIE_146_POINTER:
+
+	.byte 13
+LDIFF_SYM897=LTDIE_146 - Ldebug_info_start
+	.long LDIFF_SYM897
+LTDIE_146_REFERENCE:
+
+	.byte 14
+LDIFF_SYM898=LTDIE_146 - Ldebug_info_start
+	.long LDIFF_SYM898
+LTDIE_147:
+
+	.byte 5
+	.asciz "System_EventHandler`1"
+
+	.byte 56,16
+LDIFF_SYM899=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM899
+	.byte 2,35,0,0,7
+	.asciz "System_EventHandler`1"
+
+LDIFF_SYM900=LTDIE_147 - Ldebug_info_start
+	.long LDIFF_SYM900
+LTDIE_147_POINTER:
+
+	.byte 13
+LDIFF_SYM901=LTDIE_147 - Ldebug_info_start
+	.long LDIFF_SYM901
+LTDIE_147_REFERENCE:
+
+	.byte 14
+LDIFF_SYM902=LTDIE_147 - Ldebug_info_start
+	.long LDIFF_SYM902
+LTDIE_148:
+
+	.byte 5
+	.asciz "System_EventHandler`1"
+
+	.byte 56,16
+LDIFF_SYM903=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM903
+	.byte 2,35,0,0,7
+	.asciz "System_EventHandler`1"
+
+LDIFF_SYM904=LTDIE_148 - Ldebug_info_start
+	.long LDIFF_SYM904
+LTDIE_148_POINTER:
+
+	.byte 13
+LDIFF_SYM905=LTDIE_148 - Ldebug_info_start
+	.long LDIFF_SYM905
+LTDIE_148_REFERENCE:
+
+	.byte 14
+LDIFF_SYM906=LTDIE_148 - Ldebug_info_start
+	.long LDIFF_SYM906
+LTDIE_149:
+
+	.byte 5
+	.asciz "System_EventHandler`1"
+
+	.byte 56,16
+LDIFF_SYM907=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM907
+	.byte 2,35,0,0,7
+	.asciz "System_EventHandler`1"
+
+LDIFF_SYM908=LTDIE_149 - Ldebug_info_start
+	.long LDIFF_SYM908
+LTDIE_149_POINTER:
+
+	.byte 13
+LDIFF_SYM909=LTDIE_149 - Ldebug_info_start
+	.long LDIFF_SYM909
+LTDIE_149_REFERENCE:
+
+	.byte 14
+LDIFF_SYM910=LTDIE_149 - Ldebug_info_start
+	.long LDIFF_SYM910
 LTDIE_7:
 
 	.byte 5
 	.asciz "Xamarin_Forms_Application"
 
 	.byte 192,1,16
-LDIFF_SYM883=LTDIE_8 - Ldebug_info_start
-	.long LDIFF_SYM883
+LDIFF_SYM911=LTDIE_8 - Ldebug_info_start
+	.long LDIFF_SYM911
 	.byte 2,35,0,6
 	.asciz "_propertiesTask"
 
-LDIFF_SYM884=LTDIE_39_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM884
+LDIFF_SYM912=LTDIE_39_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM912
 	.byte 2,35,124,6
 	.asciz "_platformConfigurationRegistry"
 
-LDIFF_SYM885=LTDIE_92_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM885
+LDIFF_SYM913=LTDIE_92_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM913
 	.byte 3,35,128,1,6
 	.asciz "_appIndexProvider"
 
-LDIFF_SYM886=LTDIE_94_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM886
+LDIFF_SYM914=LTDIE_94_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM914
 	.byte 3,35,132,1,6
 	.asciz "_logicalChildren"
 
-LDIFF_SYM887=LTDIE_95_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM887
+LDIFF_SYM915=LTDIE_95_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM915
 	.byte 3,35,136,1,6
 	.asciz "_mainPage"
 
-LDIFF_SYM888=LTDIE_97_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM888
+LDIFF_SYM916=LTDIE_97_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM916
 	.byte 3,35,140,1,6
 	.asciz "<NavigationProxy>k__BackingField"
 
-LDIFF_SYM889=LTDIE_135_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM889
+LDIFF_SYM917=LTDIE_140_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM917
 	.byte 3,35,144,1,6
 	.asciz "<PanGestureId>k__BackingField"
 
-LDIFF_SYM890=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM890
+LDIFF_SYM918=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM918
 	.byte 3,35,188,1,6
 	.asciz "<SystemResources>k__BackingField"
 
-LDIFF_SYM891=LTDIE_139_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM891
+LDIFF_SYM919=LTDIE_144_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM919
 	.byte 3,35,148,1,6
 	.asciz "<InternalChildren>k__BackingField"
 
-LDIFF_SYM892=LTDIE_132_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM892
+LDIFF_SYM920=LTDIE_137_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM920
 	.byte 3,35,152,1,6
 	.asciz "_resources"
 
-LDIFF_SYM893=LTDIE_112_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM893
+LDIFF_SYM921=LTDIE_112_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM921
 	.byte 3,35,156,1,6
 	.asciz "ModalPopped"
 
-LDIFF_SYM894=LTDIE_140_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM894
+LDIFF_SYM922=LTDIE_145_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM922
 	.byte 3,35,160,1,6
 	.asciz "ModalPopping"
 
-LDIFF_SYM895=LTDIE_141_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM895
+LDIFF_SYM923=LTDIE_146_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM923
 	.byte 3,35,164,1,6
 	.asciz "ModalPushed"
 
-LDIFF_SYM896=LTDIE_142_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM896
+LDIFF_SYM924=LTDIE_147_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM924
 	.byte 3,35,168,1,6
 	.asciz "ModalPushing"
 
-LDIFF_SYM897=LTDIE_143_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM897
+LDIFF_SYM925=LTDIE_148_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM925
 	.byte 3,35,172,1,6
 	.asciz "PageAppearing"
 
-LDIFF_SYM898=LTDIE_144_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM898
+LDIFF_SYM926=LTDIE_149_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM926
 	.byte 3,35,176,1,6
 	.asciz "PageDisappearing"
 
-LDIFF_SYM899=LTDIE_144_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM899
+LDIFF_SYM927=LTDIE_149_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM927
 	.byte 3,35,180,1,6
 	.asciz "PopCanceled"
 
-LDIFF_SYM900=LTDIE_22_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM900
+LDIFF_SYM928=LTDIE_22_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM928
 	.byte 3,35,184,1,0,7
 	.asciz "Xamarin_Forms_Application"
 
-LDIFF_SYM901=LTDIE_7 - Ldebug_info_start
-	.long LDIFF_SYM901
+LDIFF_SYM929=LTDIE_7 - Ldebug_info_start
+	.long LDIFF_SYM929
 LTDIE_7_POINTER:
 
 	.byte 13
-LDIFF_SYM902=LTDIE_7 - Ldebug_info_start
-	.long LDIFF_SYM902
+LDIFF_SYM930=LTDIE_7 - Ldebug_info_start
+	.long LDIFF_SYM930
 LTDIE_7_REFERENCE:
 
 	.byte 14
-LDIFF_SYM903=LTDIE_7 - Ldebug_info_start
-	.long LDIFF_SYM903
-LTDIE_147:
+LDIFF_SYM931=LTDIE_7 - Ldebug_info_start
+	.long LDIFF_SYM931
+LTDIE_152:
 
 	.byte 5
 	.asciz "UIKit_UIResponder"
 
 	.byte 20,16
-LDIFF_SYM904=LTDIE_5 - Ldebug_info_start
-	.long LDIFF_SYM904
+LDIFF_SYM932=LTDIE_5 - Ldebug_info_start
+	.long LDIFF_SYM932
 	.byte 2,35,0,0,7
 	.asciz "UIKit_UIResponder"
 
-LDIFF_SYM905=LTDIE_147 - Ldebug_info_start
-	.long LDIFF_SYM905
-LTDIE_147_POINTER:
+LDIFF_SYM933=LTDIE_152 - Ldebug_info_start
+	.long LDIFF_SYM933
+LTDIE_152_POINTER:
 
 	.byte 13
-LDIFF_SYM906=LTDIE_147 - Ldebug_info_start
-	.long LDIFF_SYM906
-LTDIE_147_REFERENCE:
+LDIFF_SYM934=LTDIE_152 - Ldebug_info_start
+	.long LDIFF_SYM934
+LTDIE_152_REFERENCE:
 
 	.byte 14
-LDIFF_SYM907=LTDIE_147 - Ldebug_info_start
-	.long LDIFF_SYM907
-LTDIE_146:
+LDIFF_SYM935=LTDIE_152 - Ldebug_info_start
+	.long LDIFF_SYM935
+LTDIE_151:
 
 	.byte 5
 	.asciz "UIKit_UIView"
 
 	.byte 24,16
-LDIFF_SYM908=LTDIE_147 - Ldebug_info_start
-	.long LDIFF_SYM908
+LDIFF_SYM936=LTDIE_152 - Ldebug_info_start
+	.long LDIFF_SYM936
 	.byte 2,35,0,6
 	.asciz "__mt_PreferredFocusedView_var"
 
-LDIFF_SYM909=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM909
+LDIFF_SYM937=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM937
 	.byte 2,35,20,0,7
 	.asciz "UIKit_UIView"
 
-LDIFF_SYM910=LTDIE_146 - Ldebug_info_start
-	.long LDIFF_SYM910
-LTDIE_146_POINTER:
+LDIFF_SYM938=LTDIE_151 - Ldebug_info_start
+	.long LDIFF_SYM938
+LTDIE_151_POINTER:
 
 	.byte 13
-LDIFF_SYM911=LTDIE_146 - Ldebug_info_start
-	.long LDIFF_SYM911
-LTDIE_146_REFERENCE:
+LDIFF_SYM939=LTDIE_151 - Ldebug_info_start
+	.long LDIFF_SYM939
+LTDIE_151_REFERENCE:
 
 	.byte 14
-LDIFF_SYM912=LTDIE_146 - Ldebug_info_start
-	.long LDIFF_SYM912
-LTDIE_145:
+LDIFF_SYM940=LTDIE_151 - Ldebug_info_start
+	.long LDIFF_SYM940
+LTDIE_150:
 
 	.byte 5
 	.asciz "UIKit_UIWindow"
 
 	.byte 24,16
-LDIFF_SYM913=LTDIE_146 - Ldebug_info_start
-	.long LDIFF_SYM913
+LDIFF_SYM941=LTDIE_151 - Ldebug_info_start
+	.long LDIFF_SYM941
 	.byte 2,35,0,0,7
 	.asciz "UIKit_UIWindow"
 
-LDIFF_SYM914=LTDIE_145 - Ldebug_info_start
-	.long LDIFF_SYM914
-LTDIE_145_POINTER:
+LDIFF_SYM942=LTDIE_150 - Ldebug_info_start
+	.long LDIFF_SYM942
+LTDIE_150_POINTER:
 
 	.byte 13
-LDIFF_SYM915=LTDIE_145 - Ldebug_info_start
-	.long LDIFF_SYM915
-LTDIE_145_REFERENCE:
+LDIFF_SYM943=LTDIE_150 - Ldebug_info_start
+	.long LDIFF_SYM943
+LTDIE_150_REFERENCE:
 
 	.byte 14
-LDIFF_SYM916=LTDIE_145 - Ldebug_info_start
-	.long LDIFF_SYM916
+LDIFF_SYM944=LTDIE_150 - Ldebug_info_start
+	.long LDIFF_SYM944
 LTDIE_3:
 
 	.byte 5
 	.asciz "Xamarin_Forms_Platform_iOS_FormsApplicationDelegate"
 
 	.byte 32,16
-LDIFF_SYM917=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM917
+LDIFF_SYM945=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM945
 	.byte 2,35,0,6
 	.asciz "_application"
 
-LDIFF_SYM918=LTDIE_7_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM918
+LDIFF_SYM946=LTDIE_7_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM946
 	.byte 2,35,20,6
 	.asciz "_isSuspended"
 
-LDIFF_SYM919=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM919
+LDIFF_SYM947=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM947
 	.byte 2,35,28,6
 	.asciz "_window"
 
-LDIFF_SYM920=LTDIE_145_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM920
+LDIFF_SYM948=LTDIE_150_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM948
 	.byte 2,35,24,0,7
 	.asciz "Xamarin_Forms_Platform_iOS_FormsApplicationDelegate"
 
-LDIFF_SYM921=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM921
+LDIFF_SYM949=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM949
 LTDIE_3_POINTER:
 
 	.byte 13
-LDIFF_SYM922=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM922
+LDIFF_SYM950=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM950
 LTDIE_3_REFERENCE:
 
 	.byte 14
-LDIFF_SYM923=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM923
+LDIFF_SYM951=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM951
 LTDIE_2:
 
 	.byte 5
 	.asciz "GoWorkTwo_iOS_AppDelegate"
 
 	.byte 32,16
-LDIFF_SYM924=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM924
+LDIFF_SYM952=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM952
 	.byte 2,35,0,0,7
 	.asciz "GoWorkTwo_iOS_AppDelegate"
 
-LDIFF_SYM925=LTDIE_2 - Ldebug_info_start
-	.long LDIFF_SYM925
+LDIFF_SYM953=LTDIE_2 - Ldebug_info_start
+	.long LDIFF_SYM953
 LTDIE_2_POINTER:
 
 	.byte 13
-LDIFF_SYM926=LTDIE_2 - Ldebug_info_start
-	.long LDIFF_SYM926
+LDIFF_SYM954=LTDIE_2 - Ldebug_info_start
+	.long LDIFF_SYM954
 LTDIE_2_REFERENCE:
 
 	.byte 14
-LDIFF_SYM927=LTDIE_2 - Ldebug_info_start
-	.long LDIFF_SYM927
-LTDIE_148:
+LDIFF_SYM955=LTDIE_2 - Ldebug_info_start
+	.long LDIFF_SYM955
+LTDIE_153:
 
 	.byte 5
 	.asciz "UIKit_UIApplication"
 
 	.byte 20,16
-LDIFF_SYM928=LTDIE_147 - Ldebug_info_start
-	.long LDIFF_SYM928
+LDIFF_SYM956=LTDIE_152 - Ldebug_info_start
+	.long LDIFF_SYM956
 	.byte 2,35,0,0,7
 	.asciz "UIKit_UIApplication"
 
-LDIFF_SYM929=LTDIE_148 - Ldebug_info_start
-	.long LDIFF_SYM929
-LTDIE_148_POINTER:
+LDIFF_SYM957=LTDIE_153 - Ldebug_info_start
+	.long LDIFF_SYM957
+LTDIE_153_POINTER:
 
 	.byte 13
-LDIFF_SYM930=LTDIE_148 - Ldebug_info_start
-	.long LDIFF_SYM930
-LTDIE_148_REFERENCE:
+LDIFF_SYM958=LTDIE_153 - Ldebug_info_start
+	.long LDIFF_SYM958
+LTDIE_153_REFERENCE:
 
 	.byte 14
-LDIFF_SYM931=LTDIE_148 - Ldebug_info_start
-	.long LDIFF_SYM931
-LTDIE_149:
+LDIFF_SYM959=LTDIE_153 - Ldebug_info_start
+	.long LDIFF_SYM959
+LTDIE_154:
 
 	.byte 5
 	.asciz "Foundation_NSDictionary"
 
 	.byte 20,16
-LDIFF_SYM932=LTDIE_5 - Ldebug_info_start
-	.long LDIFF_SYM932
+LDIFF_SYM960=LTDIE_5 - Ldebug_info_start
+	.long LDIFF_SYM960
 	.byte 2,35,0,0,7
 	.asciz "Foundation_NSDictionary"
 
-LDIFF_SYM933=LTDIE_149 - Ldebug_info_start
-	.long LDIFF_SYM933
-LTDIE_149_POINTER:
+LDIFF_SYM961=LTDIE_154 - Ldebug_info_start
+	.long LDIFF_SYM961
+LTDIE_154_POINTER:
 
 	.byte 13
-LDIFF_SYM934=LTDIE_149 - Ldebug_info_start
-	.long LDIFF_SYM934
-LTDIE_149_REFERENCE:
+LDIFF_SYM962=LTDIE_154 - Ldebug_info_start
+	.long LDIFF_SYM962
+LTDIE_154_REFERENCE:
 
 	.byte 14
-LDIFF_SYM935=LTDIE_149 - Ldebug_info_start
-	.long LDIFF_SYM935
-LTDIE_150:
+LDIFF_SYM963=LTDIE_154 - Ldebug_info_start
+	.long LDIFF_SYM963
+LTDIE_155:
 
 	.byte 5
 	.asciz "HockeyApp_iOS_BITHockeyManager"
 
 	.byte 24,16
-LDIFF_SYM936=LTDIE_5 - Ldebug_info_start
-	.long LDIFF_SYM936
+LDIFF_SYM964=LTDIE_5 - Ldebug_info_start
+	.long LDIFF_SYM964
 	.byte 2,35,0,6
 	.asciz "__mt_WeakDelegate_var"
 
-LDIFF_SYM937=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM937
+LDIFF_SYM965=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM965
 	.byte 2,35,20,0,7
 	.asciz "HockeyApp_iOS_BITHockeyManager"
 
-LDIFF_SYM938=LTDIE_150 - Ldebug_info_start
-	.long LDIFF_SYM938
-LTDIE_150_POINTER:
+LDIFF_SYM966=LTDIE_155 - Ldebug_info_start
+	.long LDIFF_SYM966
+LTDIE_155_POINTER:
 
 	.byte 13
-LDIFF_SYM939=LTDIE_150 - Ldebug_info_start
-	.long LDIFF_SYM939
-LTDIE_150_REFERENCE:
+LDIFF_SYM967=LTDIE_155 - Ldebug_info_start
+	.long LDIFF_SYM967
+LTDIE_155_REFERENCE:
 
 	.byte 14
-LDIFF_SYM940=LTDIE_150 - Ldebug_info_start
-	.long LDIFF_SYM940
+LDIFF_SYM968=LTDIE_155 - Ldebug_info_start
+	.long LDIFF_SYM968
 	.byte 2
 	.asciz "GoWorkTwo.iOS.AppDelegate:FinishedLaunching"
 	.asciz "GoWorkTwo_iOS_AppDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary"
@@ -9941,42 +10098,42 @@ LDIFF_SYM940=LTDIE_150 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM941=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM941
+LDIFF_SYM969=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM969
 	.byte 2,125,12,3
 	.asciz "app"
 
-LDIFF_SYM942=LTDIE_148_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM942
+LDIFF_SYM970=LTDIE_153_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM970
 	.byte 2,125,16,3
 	.asciz "options"
 
-LDIFF_SYM943=LTDIE_149_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM943
+LDIFF_SYM971=LTDIE_154_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM971
 	.byte 2,125,20,11
 	.asciz "managr"
 
-LDIFF_SYM944=LTDIE_150_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM944
+LDIFF_SYM972=LTDIE_155_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM972
 	.byte 1,84,11
 	.asciz "V_1"
 
-LDIFF_SYM945=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM945
+LDIFF_SYM973=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM973
 	.byte 2,125,8,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM946=Lfde2_end - Lfde2_start
-	.long LDIFF_SYM946
+LDIFF_SYM974=Lfde2_end - Lfde2_start
+	.long LDIFF_SYM974
 Lfde2_start:
 
 	.long 0
 	.align 2
 	.long GoWorkTwo_iOS_AppDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary
 
-LDIFF_SYM947=Lme_2 - GoWorkTwo_iOS_AppDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary
-	.long LDIFF_SYM947
+LDIFF_SYM975=Lme_2 - GoWorkTwo_iOS_AppDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary
+	.long LDIFF_SYM975
 	.byte 68,14,8,135,2,72,14,16,132,4,136,3,142,1,68,14,80,3,120,3,10,68,14,16,68,8,4,8,8,14,8,68
 	.byte 11
 	.align 2
@@ -9995,22 +10152,22 @@ Lfde2_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM948=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM948
+LDIFF_SYM976=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM976
 	.byte 2,125,8,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM949=Lfde3_end - Lfde3_start
-	.long LDIFF_SYM949
+LDIFF_SYM977=Lfde3_end - Lfde3_start
+	.long LDIFF_SYM977
 Lfde3_start:
 
 	.long 0
 	.align 2
 	.long GoWorkTwo_iOS_AppDelegate__ctor
 
-LDIFF_SYM950=Lme_3 - GoWorkTwo_iOS_AppDelegate__ctor
-	.long LDIFF_SYM950
+LDIFF_SYM978=Lme_3 - GoWorkTwo_iOS_AppDelegate__ctor
+	.long LDIFF_SYM978
 	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,32,2,104,10,68,14,12,68,8,8,14,8,68,11
 	.align 2
 Lfde3_end:
@@ -10029,44 +10186,44 @@ Lfde3_end:
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM951=Lfde4_end - Lfde4_start
-	.long LDIFF_SYM951
+LDIFF_SYM979=Lfde4_end - Lfde4_start
+	.long LDIFF_SYM979
 Lfde4_start:
 
 	.long 0
 	.align 2
 	.long GoWorkTwo_iOS_AppDelegate__cctor
 
-LDIFF_SYM952=Lme_4 - GoWorkTwo_iOS_AppDelegate__cctor
-	.long LDIFF_SYM952
+LDIFF_SYM980=Lme_4 - GoWorkTwo_iOS_AppDelegate__cctor
+	.long LDIFF_SYM980
 	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,24,2,136,10,68,14,12,68,8,8,14,8,68,11
 	.align 2
 Lfde4_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_151:
+LTDIE_156:
 
 	.byte 5
 	.asciz "GoWorkTwo_iOS_IXFReceiver"
 
 	.byte 8,16
-LDIFF_SYM953=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM953
+LDIFF_SYM981=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM981
 	.byte 2,35,0,0,7
 	.asciz "GoWorkTwo_iOS_IXFReceiver"
 
-LDIFF_SYM954=LTDIE_151 - Ldebug_info_start
-	.long LDIFF_SYM954
-LTDIE_151_POINTER:
+LDIFF_SYM982=LTDIE_156 - Ldebug_info_start
+	.long LDIFF_SYM982
+LTDIE_156_POINTER:
 
 	.byte 13
-LDIFF_SYM955=LTDIE_151 - Ldebug_info_start
-	.long LDIFF_SYM955
-LTDIE_151_REFERENCE:
+LDIFF_SYM983=LTDIE_156 - Ldebug_info_start
+	.long LDIFF_SYM983
+LTDIE_156_REFERENCE:
 
 	.byte 14
-LDIFF_SYM956=LTDIE_151 - Ldebug_info_start
-	.long LDIFF_SYM956
+LDIFF_SYM984=LTDIE_156 - Ldebug_info_start
+	.long LDIFF_SYM984
 	.byte 2
 	.asciz "GoWorkTwo.iOS.IXFReceiver:.ctor"
 	.asciz "GoWorkTwo_iOS_IXFReceiver__ctor"
@@ -10078,22 +10235,22 @@ LDIFF_SYM956=LTDIE_151 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM957=LTDIE_151_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM957
+LDIFF_SYM985=LTDIE_156_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM985
 	.byte 2,125,8,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM958=Lfde5_end - Lfde5_start
-	.long LDIFF_SYM958
+LDIFF_SYM986=Lfde5_end - Lfde5_start
+	.long LDIFF_SYM986
 Lfde5_start:
 
 	.long 0
 	.align 2
 	.long GoWorkTwo_iOS_IXFReceiver__ctor
 
-LDIFF_SYM959=Lme_5 - GoWorkTwo_iOS_IXFReceiver__ctor
-	.long LDIFF_SYM959
+LDIFF_SYM987=Lme_5 - GoWorkTwo_iOS_IXFReceiver__ctor
+	.long LDIFF_SYM987
 	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,32,2,168,10,68,14,12,68,8,8,14,8,68,11
 	.align 2
 Lfde5_end:
@@ -10111,37 +10268,37 @@ Lfde5_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM960=LTDIE_151_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM960
+LDIFF_SYM988=LTDIE_156_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM988
 	.byte 2,125,8,3
 	.asciz "filename"
 
-LDIFF_SYM961=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM961
+LDIFF_SYM989=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM989
 	.byte 2,125,12,11
 	.asciz "path"
 
-LDIFF_SYM962=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM962
+LDIFF_SYM990=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM990
 	.byte 1,86,11
 	.asciz "V_1"
 
-LDIFF_SYM963=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM963
+LDIFF_SYM991=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM991
 	.byte 1,85,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM964=Lfde6_end - Lfde6_start
-	.long LDIFF_SYM964
+LDIFF_SYM992=Lfde6_end - Lfde6_start
+	.long LDIFF_SYM992
 Lfde6_start:
 
 	.long 0
 	.align 2
 	.long GoWorkTwo_iOS_IXFReceiver_GetLocalFilePath_string
 
-LDIFF_SYM965=Lme_6 - GoWorkTwo_iOS_IXFReceiver_GetLocalFilePath_string
-	.long LDIFF_SYM965
+LDIFF_SYM993=Lme_6 - GoWorkTwo_iOS_IXFReceiver_GetLocalFilePath_string
+	.long LDIFF_SYM993
 	.byte 68,14,8,135,2,72,14,20,133,5,134,4,136,3,142,1,68,14,56,3,28,1,10,68,14,20,68,8,5,8,6,8
 	.byte 8,14,8,68,11
 	.align 2
@@ -10160,27 +10317,27 @@ Lfde6_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM966=LTDIE_151_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM966
+LDIFF_SYM994=LTDIE_156_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM994
 	.byte 2,125,8,11
 	.asciz "V_0"
 
-LDIFF_SYM967=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM967
+LDIFF_SYM995=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM995
 	.byte 1,90,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM968=Lfde7_end - Lfde7_start
-	.long LDIFF_SYM968
+LDIFF_SYM996=Lfde7_end - Lfde7_start
+	.long LDIFF_SYM996
 Lfde7_start:
 
 	.long 0
 	.align 2
 	.long GoWorkTwo_iOS_IXFReceiver_GetDeviceUUID
 
-LDIFF_SYM969=Lme_7 - GoWorkTwo_iOS_IXFReceiver_GetDeviceUUID
-	.long LDIFF_SYM969
+LDIFF_SYM997=Lme_7 - GoWorkTwo_iOS_IXFReceiver_GetDeviceUUID
+	.long LDIFF_SYM997
 	.byte 68,14,8,135,2,72,14,16,136,4,138,3,142,1,68,14,48,3,28,1,10,68,14,16,68,8,8,8,10,14,8,68
 	.byte 11
 	.align 2
@@ -10199,38 +10356,38 @@ Lfde7_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM970=LTDIE_151_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM970
+LDIFF_SYM998=LTDIE_156_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM998
 	.byte 2,125,12,11
 	.asciz "V_0"
 
-LDIFF_SYM971=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM971
+LDIFF_SYM999=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM999
 	.byte 2,125,8,11
 	.asciz "V_1"
 
-LDIFF_SYM972=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM972
+LDIFF_SYM1000=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1000
 	.byte 2,125,9,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM973=Lfde8_end - Lfde8_start
-	.long LDIFF_SYM973
+LDIFF_SYM1001=Lfde8_end - Lfde8_start
+	.long LDIFF_SYM1001
 Lfde8_start:
 
 	.long 0
 	.align 2
 	.long GoWorkTwo_iOS_IXFReceiver_IsLocationAvailable
 
-LDIFF_SYM974=Lme_8 - GoWorkTwo_iOS_IXFReceiver_IsLocationAvailable
-	.long LDIFF_SYM974
+LDIFF_SYM1002=Lme_8 - GoWorkTwo_iOS_IXFReceiver_IsLocationAvailable
+	.long LDIFF_SYM1002
 	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,40,3,168,1,10,68,14,12,68,8,8,14,8,68,11
 	.align 2
 Lfde8_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_153:
+LTDIE_158:
 
 	.byte 17
 	.asciz "Plugin_Geolocator_Abstractions_IGeolocator"
@@ -10238,139 +10395,139 @@ LTDIE_153:
 	.byte 8,7
 	.asciz "Plugin_Geolocator_Abstractions_IGeolocator"
 
-LDIFF_SYM975=LTDIE_153 - Ldebug_info_start
-	.long LDIFF_SYM975
-LTDIE_153_POINTER:
+LDIFF_SYM1003=LTDIE_158 - Ldebug_info_start
+	.long LDIFF_SYM1003
+LTDIE_158_POINTER:
 
 	.byte 13
-LDIFF_SYM976=LTDIE_153 - Ldebug_info_start
-	.long LDIFF_SYM976
-LTDIE_153_REFERENCE:
+LDIFF_SYM1004=LTDIE_158 - Ldebug_info_start
+	.long LDIFF_SYM1004
+LTDIE_158_REFERENCE:
 
 	.byte 14
-LDIFF_SYM977=LTDIE_153 - Ldebug_info_start
-	.long LDIFF_SYM977
-LTDIE_154:
+LDIFF_SYM1005=LTDIE_158 - Ldebug_info_start
+	.long LDIFF_SYM1005
+LTDIE_159:
 
 	.byte 5
 	.asciz "Plugin_Geolocator_Abstractions_Position"
 
 	.byte 76,16
-LDIFF_SYM978=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM978
+LDIFF_SYM1006=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1006
 	.byte 2,35,0,6
 	.asciz "<Timestamp>k__BackingField"
 
-LDIFF_SYM979=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM979
+LDIFF_SYM1007=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1007
 	.byte 2,35,8,6
 	.asciz "<Latitude>k__BackingField"
 
-LDIFF_SYM980=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM980
+LDIFF_SYM1008=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM1008
 	.byte 2,35,20,6
 	.asciz "<Longitude>k__BackingField"
 
-LDIFF_SYM981=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM981
+LDIFF_SYM1009=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM1009
 	.byte 2,35,28,6
 	.asciz "<Altitude>k__BackingField"
 
-LDIFF_SYM982=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM982
+LDIFF_SYM1010=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM1010
 	.byte 2,35,36,6
 	.asciz "<Accuracy>k__BackingField"
 
-LDIFF_SYM983=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM983
+LDIFF_SYM1011=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM1011
 	.byte 2,35,44,6
 	.asciz "<AltitudeAccuracy>k__BackingField"
 
-LDIFF_SYM984=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM984
+LDIFF_SYM1012=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM1012
 	.byte 2,35,52,6
 	.asciz "<Heading>k__BackingField"
 
-LDIFF_SYM985=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM985
+LDIFF_SYM1013=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM1013
 	.byte 2,35,60,6
 	.asciz "<Speed>k__BackingField"
 
-LDIFF_SYM986=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM986
+LDIFF_SYM1014=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM1014
 	.byte 2,35,68,0,7
 	.asciz "Plugin_Geolocator_Abstractions_Position"
 
-LDIFF_SYM987=LTDIE_154 - Ldebug_info_start
-	.long LDIFF_SYM987
-LTDIE_154_POINTER:
+LDIFF_SYM1015=LTDIE_159 - Ldebug_info_start
+	.long LDIFF_SYM1015
+LTDIE_159_POINTER:
 
 	.byte 13
-LDIFF_SYM988=LTDIE_154 - Ldebug_info_start
-	.long LDIFF_SYM988
-LTDIE_154_REFERENCE:
+LDIFF_SYM1016=LTDIE_159 - Ldebug_info_start
+	.long LDIFF_SYM1016
+LTDIE_159_REFERENCE:
 
 	.byte 14
-LDIFF_SYM989=LTDIE_154 - Ldebug_info_start
-	.long LDIFF_SYM989
-LTDIE_152:
+LDIFF_SYM1017=LTDIE_159 - Ldebug_info_start
+	.long LDIFF_SYM1017
+LTDIE_157:
 
 	.byte 5
 	.asciz "_<GetGeoLocation>d__4"
 
 	.byte 44,16
-LDIFF_SYM990=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM990
+LDIFF_SYM1018=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1018
 	.byte 2,35,0,6
 	.asciz "<>1__state"
 
-LDIFF_SYM991=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM991
+LDIFF_SYM1019=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1019
 	.byte 2,35,40,6
 	.asciz "<>t__builder"
 
-LDIFF_SYM992=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM992
+LDIFF_SYM1020=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1020
 	.byte 2,35,8,6
 	.asciz "<>4__this"
 
-LDIFF_SYM993=LTDIE_151_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM993
+LDIFF_SYM1021=LTDIE_156_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1021
 	.byte 2,35,20,6
 	.asciz "<locator>5__1"
 
-LDIFF_SYM994=LTDIE_153_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM994
+LDIFF_SYM1022=LTDIE_158_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1022
 	.byte 2,35,24,6
 	.asciz "<position>5__2"
 
-LDIFF_SYM995=LTDIE_154_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM995
+LDIFF_SYM1023=LTDIE_159_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1023
 	.byte 2,35,28,6
 	.asciz "<>s__3"
 
-LDIFF_SYM996=LTDIE_154_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM996
+LDIFF_SYM1024=LTDIE_159_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1024
 	.byte 2,35,32,6
 	.asciz "<>u__1"
 
-LDIFF_SYM997=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM997
+LDIFF_SYM1025=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1025
 	.byte 2,35,36,0,7
 	.asciz "_<GetGeoLocation>d__4"
 
-LDIFF_SYM998=LTDIE_152 - Ldebug_info_start
-	.long LDIFF_SYM998
-LTDIE_152_POINTER:
+LDIFF_SYM1026=LTDIE_157 - Ldebug_info_start
+	.long LDIFF_SYM1026
+LTDIE_157_POINTER:
 
 	.byte 13
-LDIFF_SYM999=LTDIE_152 - Ldebug_info_start
-	.long LDIFF_SYM999
-LTDIE_152_REFERENCE:
+LDIFF_SYM1027=LTDIE_157 - Ldebug_info_start
+	.long LDIFF_SYM1027
+LTDIE_157_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1000=LTDIE_152 - Ldebug_info_start
-	.long LDIFF_SYM1000
+LDIFF_SYM1028=LTDIE_157 - Ldebug_info_start
+	.long LDIFF_SYM1028
 	.byte 2
 	.asciz "GoWorkTwo.iOS.IXFReceiver:GetGeoLocation"
 	.asciz "GoWorkTwo_iOS_IXFReceiver_GetGeoLocation"
@@ -10382,38 +10539,38 @@ LDIFF_SYM1000=LTDIE_152 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1001=LTDIE_151_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1001
+LDIFF_SYM1029=LTDIE_156_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1029
 	.byte 2,125,48,11
 	.asciz "V_0"
 
-LDIFF_SYM1002=LTDIE_152_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1002
+LDIFF_SYM1030=LTDIE_157_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1030
 	.byte 2,125,8,11
 	.asciz "V_1"
 
-LDIFF_SYM1003=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1003
+LDIFF_SYM1031=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1031
 	.byte 2,125,12,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1004=Lfde9_end - Lfde9_start
-	.long LDIFF_SYM1004
+LDIFF_SYM1032=Lfde9_end - Lfde9_start
+	.long LDIFF_SYM1032
 Lfde9_start:
 
 	.long 0
 	.align 2
 	.long GoWorkTwo_iOS_IXFReceiver_GetGeoLocation
 
-LDIFF_SYM1005=Lme_9 - GoWorkTwo_iOS_IXFReceiver_GetGeoLocation
-	.long LDIFF_SYM1005
+LDIFF_SYM1033=Lme_9 - GoWorkTwo_iOS_IXFReceiver_GetGeoLocation
+	.long LDIFF_SYM1033
 	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,88,3,120,2,10,68,14,12,68,8,8,14,8,68,11
 	.align 2
 Lfde9_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_156:
+LTDIE_161:
 
 	.byte 17
 	.asciz "System_Collections_Generic_IEnumerable`1"
@@ -10421,179 +10578,179 @@ LTDIE_156:
 	.byte 8,7
 	.asciz "System_Collections_Generic_IEnumerable`1"
 
-LDIFF_SYM1006=LTDIE_156 - Ldebug_info_start
-	.long LDIFF_SYM1006
-LTDIE_156_POINTER:
+LDIFF_SYM1034=LTDIE_161 - Ldebug_info_start
+	.long LDIFF_SYM1034
+LTDIE_161_POINTER:
 
 	.byte 13
-LDIFF_SYM1007=LTDIE_156 - Ldebug_info_start
-	.long LDIFF_SYM1007
-LTDIE_156_REFERENCE:
+LDIFF_SYM1035=LTDIE_161 - Ldebug_info_start
+	.long LDIFF_SYM1035
+LTDIE_161_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1008=LTDIE_156 - Ldebug_info_start
-	.long LDIFF_SYM1008
-LTDIE_157:
+LDIFF_SYM1036=LTDIE_161 - Ldebug_info_start
+	.long LDIFF_SYM1036
+LTDIE_162:
 
 	.byte 5
 	.asciz "Plugin_Geolocator_Abstractions_Address"
 
 	.byte 64,16
-LDIFF_SYM1009=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1009
+LDIFF_SYM1037=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1037
 	.byte 2,35,0,6
 	.asciz "<Latitude>k__BackingField"
 
-LDIFF_SYM1010=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM1010
+LDIFF_SYM1038=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM1038
 	.byte 2,35,48,6
 	.asciz "<Longitude>k__BackingField"
 
-LDIFF_SYM1011=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM1011
+LDIFF_SYM1039=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM1039
 	.byte 2,35,56,6
 	.asciz "<CountryCode>k__BackingField"
 
-LDIFF_SYM1012=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1012
+LDIFF_SYM1040=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1040
 	.byte 2,35,8,6
 	.asciz "<CountryName>k__BackingField"
 
-LDIFF_SYM1013=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1013
+LDIFF_SYM1041=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1041
 	.byte 2,35,12,6
 	.asciz "<FeatureName>k__BackingField"
 
-LDIFF_SYM1014=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1014
+LDIFF_SYM1042=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1042
 	.byte 2,35,16,6
 	.asciz "<PostalCode>k__BackingField"
 
-LDIFF_SYM1015=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1015
+LDIFF_SYM1043=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1043
 	.byte 2,35,20,6
 	.asciz "<SubLocality>k__BackingField"
 
-LDIFF_SYM1016=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1016
+LDIFF_SYM1044=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1044
 	.byte 2,35,24,6
 	.asciz "<Thoroughfare>k__BackingField"
 
-LDIFF_SYM1017=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1017
+LDIFF_SYM1045=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1045
 	.byte 2,35,28,6
 	.asciz "<SubThoroughfare>k__BackingField"
 
-LDIFF_SYM1018=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1018
+LDIFF_SYM1046=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1046
 	.byte 2,35,32,6
 	.asciz "<Locality>k__BackingField"
 
-LDIFF_SYM1019=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1019
+LDIFF_SYM1047=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1047
 	.byte 2,35,36,6
 	.asciz "<AdminArea>k__BackingField"
 
-LDIFF_SYM1020=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1020
+LDIFF_SYM1048=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1048
 	.byte 2,35,40,6
 	.asciz "<SubAdminArea>k__BackingField"
 
-LDIFF_SYM1021=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1021
+LDIFF_SYM1049=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1049
 	.byte 2,35,44,0,7
 	.asciz "Plugin_Geolocator_Abstractions_Address"
 
-LDIFF_SYM1022=LTDIE_157 - Ldebug_info_start
-	.long LDIFF_SYM1022
-LTDIE_157_POINTER:
+LDIFF_SYM1050=LTDIE_162 - Ldebug_info_start
+	.long LDIFF_SYM1050
+LTDIE_162_POINTER:
 
 	.byte 13
-LDIFF_SYM1023=LTDIE_157 - Ldebug_info_start
-	.long LDIFF_SYM1023
-LTDIE_157_REFERENCE:
+LDIFF_SYM1051=LTDIE_162 - Ldebug_info_start
+	.long LDIFF_SYM1051
+LTDIE_162_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1024=LTDIE_157 - Ldebug_info_start
-	.long LDIFF_SYM1024
-LTDIE_155:
+LDIFF_SYM1052=LTDIE_162 - Ldebug_info_start
+	.long LDIFF_SYM1052
+LTDIE_160:
 
 	.byte 5
 	.asciz "_<GetAddressGeoLocation>d__5"
 
 	.byte 60,16
-LDIFF_SYM1025=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1025
+LDIFF_SYM1053=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1053
 	.byte 2,35,0,6
 	.asciz "<>1__state"
 
-LDIFF_SYM1026=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1026
+LDIFF_SYM1054=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1054
 	.byte 2,35,56,6
 	.asciz "<>t__builder"
 
-LDIFF_SYM1027=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1027
+LDIFF_SYM1055=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1055
 	.byte 2,35,8,6
 	.asciz "<>4__this"
 
-LDIFF_SYM1028=LTDIE_151_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1028
+LDIFF_SYM1056=LTDIE_156_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1056
 	.byte 2,35,20,6
 	.asciz "<locator>5__1"
 
-LDIFF_SYM1029=LTDIE_153_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1029
+LDIFF_SYM1057=LTDIE_158_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1057
 	.byte 2,35,24,6
 	.asciz "<position>5__2"
 
-LDIFF_SYM1030=LTDIE_154_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1030
+LDIFF_SYM1058=LTDIE_159_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1058
 	.byte 2,35,28,6
 	.asciz "<posAddress>5__3"
 
-LDIFF_SYM1031=LTDIE_156_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1031
+LDIFF_SYM1059=LTDIE_161_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1059
 	.byte 2,35,32,6
 	.asciz "<address>5__4"
 
-LDIFF_SYM1032=LTDIE_157_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1032
+LDIFF_SYM1060=LTDIE_162_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1060
 	.byte 2,35,36,6
 	.asciz "<>s__5"
 
-LDIFF_SYM1033=LTDIE_154_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1033
+LDIFF_SYM1061=LTDIE_159_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1061
 	.byte 2,35,40,6
 	.asciz "<>s__6"
 
-LDIFF_SYM1034=LTDIE_156_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1034
+LDIFF_SYM1062=LTDIE_161_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1062
 	.byte 2,35,44,6
 	.asciz "<>u__1"
 
-LDIFF_SYM1035=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1035
+LDIFF_SYM1063=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1063
 	.byte 2,35,48,6
 	.asciz "<>u__2"
 
-LDIFF_SYM1036=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1036
+LDIFF_SYM1064=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1064
 	.byte 2,35,52,0,7
 	.asciz "_<GetAddressGeoLocation>d__5"
 
-LDIFF_SYM1037=LTDIE_155 - Ldebug_info_start
-	.long LDIFF_SYM1037
-LTDIE_155_POINTER:
+LDIFF_SYM1065=LTDIE_160 - Ldebug_info_start
+	.long LDIFF_SYM1065
+LTDIE_160_POINTER:
 
 	.byte 13
-LDIFF_SYM1038=LTDIE_155 - Ldebug_info_start
-	.long LDIFF_SYM1038
-LTDIE_155_REFERENCE:
+LDIFF_SYM1066=LTDIE_160 - Ldebug_info_start
+	.long LDIFF_SYM1066
+LTDIE_160_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1039=LTDIE_155 - Ldebug_info_start
-	.long LDIFF_SYM1039
+LDIFF_SYM1067=LTDIE_160 - Ldebug_info_start
+	.long LDIFF_SYM1067
 	.byte 2
 	.asciz "GoWorkTwo.iOS.IXFReceiver:GetAddressGeoLocation"
 	.asciz "GoWorkTwo_iOS_IXFReceiver_GetAddressGeoLocation"
@@ -10605,75 +10762,75 @@ LDIFF_SYM1039=LTDIE_155 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1040=LTDIE_151_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1040
+LDIFF_SYM1068=LTDIE_156_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1068
 	.byte 2,125,48,11
 	.asciz "V_0"
 
-LDIFF_SYM1041=LTDIE_155_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1041
+LDIFF_SYM1069=LTDIE_160_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1069
 	.byte 2,125,8,11
 	.asciz "V_1"
 
-LDIFF_SYM1042=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1042
+LDIFF_SYM1070=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1070
 	.byte 2,125,12,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1043=Lfde10_end - Lfde10_start
-	.long LDIFF_SYM1043
+LDIFF_SYM1071=Lfde10_end - Lfde10_start
+	.long LDIFF_SYM1071
 Lfde10_start:
 
 	.long 0
 	.align 2
 	.long GoWorkTwo_iOS_IXFReceiver_GetAddressGeoLocation
 
-LDIFF_SYM1044=Lme_a - GoWorkTwo_iOS_IXFReceiver_GetAddressGeoLocation
-	.long LDIFF_SYM1044
+LDIFF_SYM1072=Lme_a - GoWorkTwo_iOS_IXFReceiver_GetAddressGeoLocation
+	.long LDIFF_SYM1072
 	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,88,3,120,2,10,68,14,12,68,8,8,14,8,68,11
 	.align 2
 Lfde10_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_158:
+LTDIE_163:
 
 	.byte 5
 	.asciz "GoWorkTwo_Classes_GetPackageInfo"
 
 	.byte 20,16
-LDIFF_SYM1045=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1045
+LDIFF_SYM1073=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1073
 	.byte 2,35,0,6
 	.asciz "<VersionInfo>k__BackingField"
 
-LDIFF_SYM1046=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1046
+LDIFF_SYM1074=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1074
 	.byte 2,35,8,6
 	.asciz "<BuildNo>k__BackingField"
 
-LDIFF_SYM1047=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1047
+LDIFF_SYM1075=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1075
 	.byte 2,35,12,6
 	.asciz "<SystemVersionInfo>k__BackingField"
 
-LDIFF_SYM1048=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1048
+LDIFF_SYM1076=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1076
 	.byte 2,35,16,0,7
 	.asciz "GoWorkTwo_Classes_GetPackageInfo"
 
-LDIFF_SYM1049=LTDIE_158 - Ldebug_info_start
-	.long LDIFF_SYM1049
-LTDIE_158_POINTER:
+LDIFF_SYM1077=LTDIE_163 - Ldebug_info_start
+	.long LDIFF_SYM1077
+LTDIE_163_POINTER:
 
 	.byte 13
-LDIFF_SYM1050=LTDIE_158 - Ldebug_info_start
-	.long LDIFF_SYM1050
-LTDIE_158_REFERENCE:
+LDIFF_SYM1078=LTDIE_163 - Ldebug_info_start
+	.long LDIFF_SYM1078
+LTDIE_163_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1051=LTDIE_158 - Ldebug_info_start
-	.long LDIFF_SYM1051
+LDIFF_SYM1079=LTDIE_163 - Ldebug_info_start
+	.long LDIFF_SYM1079
 	.byte 2
 	.asciz "GoWorkTwo.iOS.IXFReceiver:PkgInfo"
 	.asciz "GoWorkTwo_iOS_IXFReceiver_PkgInfo"
@@ -10685,47 +10842,47 @@ LDIFF_SYM1051=LTDIE_158 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1052=LTDIE_151_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1052
+LDIFF_SYM1080=LTDIE_156_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1080
 	.byte 2,123,60,11
 	.asciz "gAppVersion"
 
-LDIFF_SYM1053=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1053
+LDIFF_SYM1081=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1081
 	.byte 2,123,8,11
 	.asciz "gAppBuild"
 
-LDIFF_SYM1054=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1054
+LDIFF_SYM1082=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1082
 	.byte 2,123,12,11
 	.asciz "systemVer"
 
-LDIFF_SYM1055=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1055
+LDIFF_SYM1083=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1083
 	.byte 2,123,16,11
 	.asciz "exp"
 
-LDIFF_SYM1056=LTDIE_72_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1056
+LDIFF_SYM1084=LTDIE_72_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1084
 	.byte 2,123,20,11
 	.asciz "V_4"
 
-LDIFF_SYM1057=LTDIE_158_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1057
+LDIFF_SYM1085=LTDIE_163_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1085
 	.byte 2,123,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1058=Lfde11_end - Lfde11_start
-	.long LDIFF_SYM1058
+LDIFF_SYM1086=Lfde11_end - Lfde11_start
+	.long LDIFF_SYM1086
 Lfde11_start:
 
 	.long 0
 	.align 2
 	.long GoWorkTwo_iOS_IXFReceiver_PkgInfo
 
-LDIFF_SYM1059=Lme_b - GoWorkTwo_iOS_IXFReceiver_PkgInfo
-	.long LDIFF_SYM1059
+LDIFF_SYM1087=Lme_b - GoWorkTwo_iOS_IXFReceiver_PkgInfo
+	.long LDIFF_SYM1087
 	.byte 68,14,8,135,2,72,14,16,136,4,139,3,142,1,68,14,128,1,68,13,11,3,24,5,10,68,13,13,14,16,68,8
 	.byte 8,8,11,14,8,68,11
 	.align 2
@@ -10744,75 +10901,75 @@ Lfde11_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1060=LTDIE_151_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1060
+LDIFF_SYM1088=LTDIE_156_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1088
 	.byte 2,125,12,11
 	.asciz "V_0"
 
-LDIFF_SYM1061=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1061
+LDIFF_SYM1089=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1089
 	.byte 2,125,8,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1062=Lfde12_end - Lfde12_start
-	.long LDIFF_SYM1062
+LDIFF_SYM1090=Lfde12_end - Lfde12_start
+	.long LDIFF_SYM1090
 Lfde12_start:
 
 	.long 0
 	.align 2
 	.long GoWorkTwo_iOS_IXFReceiver_CheckIntegrity
 
-LDIFF_SYM1063=Lme_c - GoWorkTwo_iOS_IXFReceiver_CheckIntegrity
-	.long LDIFF_SYM1063
+LDIFF_SYM1091=Lme_c - GoWorkTwo_iOS_IXFReceiver_CheckIntegrity
+	.long LDIFF_SYM1091
 	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,40,3,4,1,10,68,14,12,68,8,8,14,8,68,11
 	.align 2
 Lfde12_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_159:
+LTDIE_164:
 
 	.byte 5
 	.asciz "System_Collections_Generic_List`1"
 
 	.byte 24,16
-LDIFF_SYM1064=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1064
+LDIFF_SYM1092=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1092
 	.byte 2,35,0,6
 	.asciz "_items"
 
-LDIFF_SYM1065=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1065
+LDIFF_SYM1093=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1093
 	.byte 2,35,8,6
 	.asciz "_size"
 
-LDIFF_SYM1066=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1066
+LDIFF_SYM1094=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1094
 	.byte 2,35,16,6
 	.asciz "_version"
 
-LDIFF_SYM1067=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1067
+LDIFF_SYM1095=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1095
 	.byte 2,35,20,6
 	.asciz "_syncRoot"
 
-LDIFF_SYM1068=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1068
+LDIFF_SYM1096=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1096
 	.byte 2,35,12,0,7
 	.asciz "System_Collections_Generic_List`1"
 
-LDIFF_SYM1069=LTDIE_159 - Ldebug_info_start
-	.long LDIFF_SYM1069
-LTDIE_159_POINTER:
+LDIFF_SYM1097=LTDIE_164 - Ldebug_info_start
+	.long LDIFF_SYM1097
+LTDIE_164_POINTER:
 
 	.byte 13
-LDIFF_SYM1070=LTDIE_159 - Ldebug_info_start
-	.long LDIFF_SYM1070
-LTDIE_159_REFERENCE:
+LDIFF_SYM1098=LTDIE_164 - Ldebug_info_start
+	.long LDIFF_SYM1098
+LTDIE_164_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1071=LTDIE_159 - Ldebug_info_start
-	.long LDIFF_SYM1071
+LDIFF_SYM1099=LTDIE_164 - Ldebug_info_start
+	.long LDIFF_SYM1099
 	.byte 2
 	.asciz "GoWorkTwo.iOS.IXFReceiver:GetCameraResolution"
 	.asciz "GoWorkTwo_iOS_IXFReceiver_GetCameraResolution"
@@ -10824,66 +10981,66 @@ LDIFF_SYM1071=LTDIE_159 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1072=LTDIE_151_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1072
+LDIFF_SYM1100=LTDIE_156_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1100
 	.byte 3,123,188,4,11
 	.asciz "pixels"
 
-LDIFF_SYM1073=LTDIE_159_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1073
+LDIFF_SYM1101=LTDIE_164_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1101
 	.byte 1,90,11
 	.asciz "hardware"
 
-LDIFF_SYM1074=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1074
+LDIFF_SYM1102=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1102
 	.byte 2,123,32,11
 	.asciz "V_2"
 
-LDIFF_SYM1075=LTDIE_159_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1075
+LDIFF_SYM1103=LTDIE_164_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1103
 	.byte 1,85,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1076=Lfde13_end - Lfde13_start
-	.long LDIFF_SYM1076
+LDIFF_SYM1104=Lfde13_end - Lfde13_start
+	.long LDIFF_SYM1104
 Lfde13_start:
 
 	.long 0
 	.align 2
 	.long GoWorkTwo_iOS_IXFReceiver_GetCameraResolution
 
-LDIFF_SYM1077=Lme_d - GoWorkTwo_iOS_IXFReceiver_GetCameraResolution
-	.long LDIFF_SYM1077
+LDIFF_SYM1105=Lme_d - GoWorkTwo_iOS_IXFReceiver_GetCameraResolution
+	.long LDIFF_SYM1105
 	.byte 68,14,8,135,2,72,14,28,132,7,133,6,136,5,138,4,139,3,142,1,68,14,248,5,68,13,11,3,132,14,10,68
 	.byte 13,13,14,28,68,8,4,8,5,8,8,8,10,8,11,14,8,68,11
 	.align 2
 Lfde13_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_160:
+LTDIE_165:
 
 	.byte 5
 	.asciz "GoWorkTwo_iOS_Libraries_Security"
 
 	.byte 8,16
-LDIFF_SYM1078=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1078
+LDIFF_SYM1106=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1106
 	.byte 2,35,0,0,7
 	.asciz "GoWorkTwo_iOS_Libraries_Security"
 
-LDIFF_SYM1079=LTDIE_160 - Ldebug_info_start
-	.long LDIFF_SYM1079
-LTDIE_160_POINTER:
+LDIFF_SYM1107=LTDIE_165 - Ldebug_info_start
+	.long LDIFF_SYM1107
+LTDIE_165_POINTER:
 
 	.byte 13
-LDIFF_SYM1080=LTDIE_160 - Ldebug_info_start
-	.long LDIFF_SYM1080
-LTDIE_160_REFERENCE:
+LDIFF_SYM1108=LTDIE_165 - Ldebug_info_start
+	.long LDIFF_SYM1108
+LTDIE_165_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1081=LTDIE_160 - Ldebug_info_start
-	.long LDIFF_SYM1081
+LDIFF_SYM1109=LTDIE_165 - Ldebug_info_start
+	.long LDIFF_SYM1109
 	.byte 2
 	.asciz "GoWorkTwo.iOS.Libraries.Security:.ctor"
 	.asciz "GoWorkTwo_iOS_Libraries_Security__ctor"
@@ -10895,22 +11052,22 @@ LDIFF_SYM1081=LTDIE_160 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1082=LTDIE_160_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1082
+LDIFF_SYM1110=LTDIE_165_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1110
 	.byte 2,125,8,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1083=Lfde14_end - Lfde14_start
-	.long LDIFF_SYM1083
+LDIFF_SYM1111=Lfde14_end - Lfde14_start
+	.long LDIFF_SYM1111
 Lfde14_start:
 
 	.long 0
 	.align 2
 	.long GoWorkTwo_iOS_Libraries_Security__ctor
 
-LDIFF_SYM1084=Lme_e - GoWorkTwo_iOS_Libraries_Security__ctor
-	.long LDIFF_SYM1084
+LDIFF_SYM1112=Lme_e - GoWorkTwo_iOS_Libraries_Security__ctor
+	.long LDIFF_SYM1112
 	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,32,2,168,10,68,14,12,68,8,8,14,8,68,11
 	.align 2
 Lfde14_end:
@@ -10928,42 +11085,42 @@ Lfde14_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1085=LTDIE_160_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1085
+LDIFF_SYM1113=LTDIE_165_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1113
 	.byte 2,125,12,11
 	.asciz "jb"
 
-LDIFF_SYM1086=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1086
+LDIFF_SYM1114=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1114
 	.byte 2,125,8,11
 	.asciz "V_1"
 
-LDIFF_SYM1087=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1087
+LDIFF_SYM1115=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1115
 	.byte 2,125,9,11
 	.asciz "V_2"
 
-LDIFF_SYM1088=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1088
+LDIFF_SYM1116=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1116
 	.byte 2,125,10,11
 	.asciz "V_3"
 
-LDIFF_SYM1089=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1089
+LDIFF_SYM1117=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1117
 	.byte 2,125,11,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1090=Lfde15_end - Lfde15_start
-	.long LDIFF_SYM1090
+LDIFF_SYM1118=Lfde15_end - Lfde15_start
+	.long LDIFF_SYM1118
 Lfde15_start:
 
 	.long 0
 	.align 2
 	.long GoWorkTwo_iOS_Libraries_Security_CheckJailbreak
 
-LDIFF_SYM1091=Lme_f - GoWorkTwo_iOS_Libraries_Security_CheckJailbreak
-	.long LDIFF_SYM1091
+LDIFF_SYM1119=Lme_f - GoWorkTwo_iOS_Libraries_Security_CheckJailbreak
+	.long LDIFF_SYM1119
 	.byte 68,14,8,135,2,72,14,16,136,4,138,3,142,1,68,14,48,3,200,5,10,68,14,16,68,8,8,8,10,14,8,68
 	.byte 11
 	.align 2
@@ -10982,22 +11139,22 @@ Lfde15_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1092=LTDIE_152_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1092
+LDIFF_SYM1120=LTDIE_157_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1120
 	.byte 2,125,8,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1093=Lfde16_end - Lfde16_start
-	.long LDIFF_SYM1093
+LDIFF_SYM1121=Lfde16_end - Lfde16_start
+	.long LDIFF_SYM1121
 Lfde16_start:
 
 	.long 0
 	.align 2
 	.long GoWorkTwo_iOS_IXFReceiver__GetGeoLocationd__4__ctor
 
-LDIFF_SYM1094=Lme_10 - GoWorkTwo_iOS_IXFReceiver__GetGeoLocationd__4__ctor
-	.long LDIFF_SYM1094
+LDIFF_SYM1122=Lme_10 - GoWorkTwo_iOS_IXFReceiver__GetGeoLocationd__4__ctor
+	.long LDIFF_SYM1122
 	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,32,2,100,10,68,14,12,68,8,8,14,8,68,11
 	.align 2
 Lfde16_end:
@@ -11015,59 +11172,59 @@ Lfde16_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1095=LTDIE_152_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1095
+LDIFF_SYM1123=LTDIE_157_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1123
 	.byte 3,123,252,0,11
 	.asciz "V_0"
 
-LDIFF_SYM1096=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1096
+LDIFF_SYM1124=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1124
 	.byte 1,90,11
 	.asciz "V_1"
 
-LDIFF_SYM1097=LTDIE_154_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1097
+LDIFF_SYM1125=LTDIE_159_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1125
 	.byte 1,86,11
 	.asciz "V_2"
 
-LDIFF_SYM1098=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1098
+LDIFF_SYM1126=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1126
 	.byte 2,123,32,11
 	.asciz "V_3"
 
-LDIFF_SYM1099=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1099
+LDIFF_SYM1127=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1127
 	.byte 2,123,36,11
 	.asciz "V_4"
 
-LDIFF_SYM1100=LTDIE_152_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1100
+LDIFF_SYM1128=LTDIE_157_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1128
 	.byte 2,123,44,11
 	.asciz "V_5"
 
-LDIFF_SYM1101=LTDIE_72_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1101
+LDIFF_SYM1129=LTDIE_72_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1129
 	.byte 2,123,48,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1102=Lfde17_end - Lfde17_start
-	.long LDIFF_SYM1102
+LDIFF_SYM1130=Lfde17_end - Lfde17_start
+	.long LDIFF_SYM1130
 Lfde17_start:
 
 	.long 0
 	.align 2
 	.long GoWorkTwo_iOS_IXFReceiver__GetGeoLocationd__4_MoveNext
 
-LDIFF_SYM1103=Lme_11 - GoWorkTwo_iOS_IXFReceiver__GetGeoLocationd__4_MoveNext
-	.long LDIFF_SYM1103
+LDIFF_SYM1131=Lme_11 - GoWorkTwo_iOS_IXFReceiver__GetGeoLocationd__4_MoveNext
+	.long LDIFF_SYM1131
 	.byte 68,14,8,135,2,72,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,184,1,68,13,11,3,136,6
 	.byte 10,68,13,13,14,32,68,8,4,8,5,8,6,8,8,8,10,8,11,14,8,68,11
 	.align 2
 Lfde17_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_161:
+LTDIE_166:
 
 	.byte 17
 	.asciz "System_Runtime_CompilerServices_IAsyncStateMachine"
@@ -11075,18 +11232,18 @@ LTDIE_161:
 	.byte 8,7
 	.asciz "System_Runtime_CompilerServices_IAsyncStateMachine"
 
-LDIFF_SYM1104=LTDIE_161 - Ldebug_info_start
-	.long LDIFF_SYM1104
-LTDIE_161_POINTER:
+LDIFF_SYM1132=LTDIE_166 - Ldebug_info_start
+	.long LDIFF_SYM1132
+LTDIE_166_POINTER:
 
 	.byte 13
-LDIFF_SYM1105=LTDIE_161 - Ldebug_info_start
-	.long LDIFF_SYM1105
-LTDIE_161_REFERENCE:
+LDIFF_SYM1133=LTDIE_166 - Ldebug_info_start
+	.long LDIFF_SYM1133
+LTDIE_166_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1106=LTDIE_161 - Ldebug_info_start
-	.long LDIFF_SYM1106
+LDIFF_SYM1134=LTDIE_166 - Ldebug_info_start
+	.long LDIFF_SYM1134
 	.byte 2
 	.asciz "GoWorkTwo.iOS.IXFReceiver/<GetGeoLocation>d__4:SetStateMachine"
 	.asciz "GoWorkTwo_iOS_IXFReceiver__GetGeoLocationd__4_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine"
@@ -11098,27 +11255,27 @@ LDIFF_SYM1106=LTDIE_161 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1107=LTDIE_152_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1107
+LDIFF_SYM1135=LTDIE_157_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1135
 	.byte 2,125,8,3
 	.asciz "stateMachine"
 
-LDIFF_SYM1108=LTDIE_161_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1108
+LDIFF_SYM1136=LTDIE_166_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1136
 	.byte 2,125,12,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1109=Lfde18_end - Lfde18_start
-	.long LDIFF_SYM1109
+LDIFF_SYM1137=Lfde18_end - Lfde18_start
+	.long LDIFF_SYM1137
 Lfde18_start:
 
 	.long 0
 	.align 2
 	.long GoWorkTwo_iOS_IXFReceiver__GetGeoLocationd__4_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
 
-LDIFF_SYM1110=Lme_12 - GoWorkTwo_iOS_IXFReceiver__GetGeoLocationd__4_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
-	.long LDIFF_SYM1110
+LDIFF_SYM1138=Lme_12 - GoWorkTwo_iOS_IXFReceiver__GetGeoLocationd__4_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+	.long LDIFF_SYM1138
 	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,32,2,80,10,68,14,12,68,8,8,14,8,68,11
 	.align 2
 Lfde18_end:
@@ -11136,22 +11293,22 @@ Lfde18_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1111=LTDIE_155_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1111
+LDIFF_SYM1139=LTDIE_160_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1139
 	.byte 2,125,8,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1112=Lfde19_end - Lfde19_start
-	.long LDIFF_SYM1112
+LDIFF_SYM1140=Lfde19_end - Lfde19_start
+	.long LDIFF_SYM1140
 Lfde19_start:
 
 	.long 0
 	.align 2
 	.long GoWorkTwo_iOS_IXFReceiver__GetAddressGeoLocationd__5__ctor
 
-LDIFF_SYM1113=Lme_13 - GoWorkTwo_iOS_IXFReceiver__GetAddressGeoLocationd__5__ctor
-	.long LDIFF_SYM1113
+LDIFF_SYM1141=Lme_13 - GoWorkTwo_iOS_IXFReceiver__GetAddressGeoLocationd__5__ctor
+	.long LDIFF_SYM1141
 	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,32,2,100,10,68,14,12,68,8,8,14,8,68,11
 	.align 2
 Lfde19_end:
@@ -11169,57 +11326,57 @@ Lfde19_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1114=LTDIE_155_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1114
+LDIFF_SYM1142=LTDIE_160_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1142
 	.byte 3,123,148,1,11
 	.asciz "V_0"
 
-LDIFF_SYM1115=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1115
+LDIFF_SYM1143=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1143
 	.byte 1,90,11
 	.asciz "V_1"
 
-LDIFF_SYM1116=LTDIE_157_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1116
+LDIFF_SYM1144=LTDIE_162_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1144
 	.byte 1,86,11
 	.asciz "V_2"
 
-LDIFF_SYM1117=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1117
+LDIFF_SYM1145=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1145
 	.byte 2,123,32,11
 	.asciz "V_3"
 
-LDIFF_SYM1118=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1118
+LDIFF_SYM1146=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1146
 	.byte 2,123,36,11
 	.asciz "V_4"
 
-LDIFF_SYM1119=LTDIE_155_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1119
+LDIFF_SYM1147=LTDIE_160_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1147
 	.byte 2,123,44,11
 	.asciz "V_5"
 
-LDIFF_SYM1120=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1120
+LDIFF_SYM1148=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1148
 	.byte 2,123,48,11
 	.asciz "V_6"
 
-LDIFF_SYM1121=LTDIE_72_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1121
+LDIFF_SYM1149=LTDIE_72_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1149
 	.byte 2,123,52,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1122=Lfde20_end - Lfde20_start
-	.long LDIFF_SYM1122
+LDIFF_SYM1150=Lfde20_end - Lfde20_start
+	.long LDIFF_SYM1150
 Lfde20_start:
 
 	.long 0
 	.align 2
 	.long GoWorkTwo_iOS_IXFReceiver__GetAddressGeoLocationd__5_MoveNext
 
-LDIFF_SYM1123=Lme_14 - GoWorkTwo_iOS_IXFReceiver__GetAddressGeoLocationd__5_MoveNext
-	.long LDIFF_SYM1123
+LDIFF_SYM1151=Lme_14 - GoWorkTwo_iOS_IXFReceiver__GetAddressGeoLocationd__5_MoveNext
+	.long LDIFF_SYM1151
 	.byte 68,14,8,135,2,72,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,208,1,68,13,11,3,252,9
 	.byte 10,68,13,13,14,32,68,8,4,8,5,8,6,8,8,8,10,8,11,14,8,68,11
 	.align 2
@@ -11238,78 +11395,78 @@ Lfde20_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1124=LTDIE_155_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1124
+LDIFF_SYM1152=LTDIE_160_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1152
 	.byte 2,125,8,3
 	.asciz "stateMachine"
 
-LDIFF_SYM1125=LTDIE_161_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1125
+LDIFF_SYM1153=LTDIE_166_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1153
 	.byte 2,125,12,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1126=Lfde21_end - Lfde21_start
-	.long LDIFF_SYM1126
+LDIFF_SYM1154=Lfde21_end - Lfde21_start
+	.long LDIFF_SYM1154
 Lfde21_start:
 
 	.long 0
 	.align 2
 	.long GoWorkTwo_iOS_IXFReceiver__GetAddressGeoLocationd__5_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
 
-LDIFF_SYM1127=Lme_15 - GoWorkTwo_iOS_IXFReceiver__GetAddressGeoLocationd__5_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
-	.long LDIFF_SYM1127
+LDIFF_SYM1155=Lme_15 - GoWorkTwo_iOS_IXFReceiver__GetAddressGeoLocationd__5_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+	.long LDIFF_SYM1155
 	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,32,2,80,10,68,14,12,68,8,8,14,8,68,11
 	.align 2
 Lfde21_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_162:
+LTDIE_167:
 
 	.byte 5
 	.asciz "System_Func`1"
 
 	.byte 56,16
-LDIFF_SYM1128=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM1128
+LDIFF_SYM1156=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM1156
 	.byte 2,35,0,0,7
 	.asciz "System_Func`1"
 
-LDIFF_SYM1129=LTDIE_162 - Ldebug_info_start
-	.long LDIFF_SYM1129
-LTDIE_162_POINTER:
+LDIFF_SYM1157=LTDIE_167 - Ldebug_info_start
+	.long LDIFF_SYM1157
+LTDIE_167_POINTER:
 
 	.byte 13
-LDIFF_SYM1130=LTDIE_162 - Ldebug_info_start
-	.long LDIFF_SYM1130
-LTDIE_162_REFERENCE:
+LDIFF_SYM1158=LTDIE_167 - Ldebug_info_start
+	.long LDIFF_SYM1158
+LTDIE_167_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1131=LTDIE_162 - Ldebug_info_start
-	.long LDIFF_SYM1131
-LTDIE_163:
+LDIFF_SYM1159=LTDIE_167 - Ldebug_info_start
+	.long LDIFF_SYM1159
+LTDIE_168:
 
 	.byte 5
 	.asciz "System_Array"
 
 	.byte 8,16
-LDIFF_SYM1132=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1132
+LDIFF_SYM1160=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1160
 	.byte 2,35,0,0,7
 	.asciz "System_Array"
 
-LDIFF_SYM1133=LTDIE_163 - Ldebug_info_start
-	.long LDIFF_SYM1133
-LTDIE_163_POINTER:
+LDIFF_SYM1161=LTDIE_168 - Ldebug_info_start
+	.long LDIFF_SYM1161
+LTDIE_168_POINTER:
 
 	.byte 13
-LDIFF_SYM1134=LTDIE_163 - Ldebug_info_start
-	.long LDIFF_SYM1134
-LTDIE_163_REFERENCE:
+LDIFF_SYM1162=LTDIE_168 - Ldebug_info_start
+	.long LDIFF_SYM1162
+LTDIE_168_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1135=LTDIE_163 - Ldebug_info_start
-	.long LDIFF_SYM1135
+LDIFF_SYM1163=LTDIE_168 - Ldebug_info_start
+	.long LDIFF_SYM1163
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Func`1<Plugin.Geolocator.Abstractions.Position>:invoke_TResult"
 	.asciz "wrapper_delegate_invoke_System_Func_1_Plugin_Geolocator_Abstractions_Position_invoke_TResult"
@@ -11321,81 +11478,81 @@ LDIFF_SYM1135=LTDIE_163 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1136=LTDIE_162_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1136
+LDIFF_SYM1164=LTDIE_167_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1164
 	.byte 1,90,11
 	.asciz "V_0"
 
-LDIFF_SYM1137=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1137
+LDIFF_SYM1165=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1165
 	.byte 1,86,11
 	.asciz "V_1"
 
-LDIFF_SYM1138=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1138
+LDIFF_SYM1166=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1166
 	.byte 1,85,11
 	.asciz "V_2"
 
-LDIFF_SYM1139=LTDIE_163_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1139
+LDIFF_SYM1167=LTDIE_168_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1167
 	.byte 1,84,11
 	.asciz "V_3"
 
-LDIFF_SYM1140=LTDIE_15_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1140
+LDIFF_SYM1168=LTDIE_15_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1168
 	.byte 1,91,11
 	.asciz "V_4"
 
-LDIFF_SYM1141=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1141
+LDIFF_SYM1169=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1169
 	.byte 2,125,8,11
 	.asciz "V_5"
 
-LDIFF_SYM1142=LTDIE_154_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1142
+LDIFF_SYM1170=LTDIE_159_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1170
 	.byte 2,125,12,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1143=Lfde22_end - Lfde22_start
-	.long LDIFF_SYM1143
+LDIFF_SYM1171=Lfde22_end - Lfde22_start
+	.long LDIFF_SYM1171
 Lfde22_start:
 
 	.long 0
 	.align 2
 	.long wrapper_delegate_invoke_System_Func_1_Plugin_Geolocator_Abstractions_Position_invoke_TResult
 
-LDIFF_SYM1144=Lme_17 - wrapper_delegate_invoke_System_Func_1_Plugin_Geolocator_Abstractions_Position_invoke_TResult
-	.long LDIFF_SYM1144
+LDIFF_SYM1172=Lme_17 - wrapper_delegate_invoke_System_Func_1_Plugin_Geolocator_Abstractions_Position_invoke_TResult
+	.long LDIFF_SYM1172
 	.byte 68,14,8,135,2,72,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,64,3,204,1,10,68,14,32
 	.byte 68,8,4,8,5,8,6,8,8,8,10,8,11,14,8,68,11
 	.align 2
 Lfde22_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_164:
+LTDIE_169:
 
 	.byte 5
 	.asciz "System_Func`2"
 
 	.byte 56,16
-LDIFF_SYM1145=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM1145
+LDIFF_SYM1173=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM1173
 	.byte 2,35,0,0,7
 	.asciz "System_Func`2"
 
-LDIFF_SYM1146=LTDIE_164 - Ldebug_info_start
-	.long LDIFF_SYM1146
-LTDIE_164_POINTER:
+LDIFF_SYM1174=LTDIE_169 - Ldebug_info_start
+	.long LDIFF_SYM1174
+LTDIE_169_POINTER:
 
 	.byte 13
-LDIFF_SYM1147=LTDIE_164 - Ldebug_info_start
-	.long LDIFF_SYM1147
-LTDIE_164_REFERENCE:
+LDIFF_SYM1175=LTDIE_169 - Ldebug_info_start
+	.long LDIFF_SYM1175
+LTDIE_169_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1148=LTDIE_164 - Ldebug_info_start
-	.long LDIFF_SYM1148
+LDIFF_SYM1176=LTDIE_169 - Ldebug_info_start
+	.long LDIFF_SYM1176
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Func`2<object,_Plugin.Geolocator.Abstractions.Position>:invoke_TResult_T"
 	.asciz "wrapper_delegate_invoke_System_Func_2_object_Plugin_Geolocator_Abstractions_Position_invoke_TResult_T_object"
@@ -11407,114 +11564,114 @@ LDIFF_SYM1148=LTDIE_164 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1149=LTDIE_164_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1149
+LDIFF_SYM1177=LTDIE_169_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1177
 	.byte 1,86,3
 	.asciz "param0"
 
-LDIFF_SYM1150=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1150
+LDIFF_SYM1178=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1178
 	.byte 2,125,24,11
 	.asciz "V_0"
 
-LDIFF_SYM1151=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1151
+LDIFF_SYM1179=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1179
 	.byte 1,85,11
 	.asciz "V_1"
 
-LDIFF_SYM1152=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1152
+LDIFF_SYM1180=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1180
 	.byte 1,84,11
 	.asciz "V_2"
 
-LDIFF_SYM1153=LTDIE_163_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1153
+LDIFF_SYM1181=LTDIE_168_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1181
 	.byte 1,91,11
 	.asciz "V_3"
 
-LDIFF_SYM1154=LTDIE_15_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1154
+LDIFF_SYM1182=LTDIE_15_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1182
 	.byte 1,90,11
 	.asciz "V_4"
 
-LDIFF_SYM1155=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1155
+LDIFF_SYM1183=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1183
 	.byte 2,125,8,11
 	.asciz "V_5"
 
-LDIFF_SYM1156=LTDIE_154_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1156
+LDIFF_SYM1184=LTDIE_159_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1184
 	.byte 2,125,12,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1157=Lfde23_end - Lfde23_start
-	.long LDIFF_SYM1157
+LDIFF_SYM1185=Lfde23_end - Lfde23_start
+	.long LDIFF_SYM1185
 Lfde23_start:
 
 	.long 0
 	.align 2
 	.long wrapper_delegate_invoke_System_Func_2_object_Plugin_Geolocator_Abstractions_Position_invoke_TResult_T_object
 
-LDIFF_SYM1158=Lme_18 - wrapper_delegate_invoke_System_Func_2_object_Plugin_Geolocator_Abstractions_Position_invoke_TResult_T_object
-	.long LDIFF_SYM1158
+LDIFF_SYM1186=Lme_18 - wrapper_delegate_invoke_System_Func_2_object_Plugin_Geolocator_Abstractions_Position_invoke_TResult_T_object
+	.long LDIFF_SYM1186
 	.byte 68,14,8,135,2,72,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,72,3,220,1,10,68,14,32
 	.byte 68,8,4,8,5,8,6,8,8,8,10,8,11,14,8,68,11
 	.align 2
 Lfde23_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_165:
+LTDIE_170:
 
 	.byte 5
 	.asciz "System_Action`1"
 
 	.byte 56,16
-LDIFF_SYM1159=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM1159
+LDIFF_SYM1187=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM1187
 	.byte 2,35,0,0,7
 	.asciz "System_Action`1"
 
-LDIFF_SYM1160=LTDIE_165 - Ldebug_info_start
-	.long LDIFF_SYM1160
-LTDIE_165_POINTER:
+LDIFF_SYM1188=LTDIE_170 - Ldebug_info_start
+	.long LDIFF_SYM1188
+LTDIE_170_POINTER:
 
 	.byte 13
-LDIFF_SYM1161=LTDIE_165 - Ldebug_info_start
-	.long LDIFF_SYM1161
-LTDIE_165_REFERENCE:
+LDIFF_SYM1189=LTDIE_170 - Ldebug_info_start
+	.long LDIFF_SYM1189
+LTDIE_170_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1162=LTDIE_165 - Ldebug_info_start
-	.long LDIFF_SYM1162
-LTDIE_166:
+LDIFF_SYM1190=LTDIE_170 - Ldebug_info_start
+	.long LDIFF_SYM1190
+LTDIE_171:
 
 	.byte 5
 	.asciz "System_Threading_Tasks_Task`1"
 
 	.byte 44,16
-LDIFF_SYM1163=LTDIE_40 - Ldebug_info_start
-	.long LDIFF_SYM1163
+LDIFF_SYM1191=LTDIE_40 - Ldebug_info_start
+	.long LDIFF_SYM1191
 	.byte 2,35,0,6
 	.asciz "m_result"
 
-LDIFF_SYM1164=LTDIE_154_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1164
+LDIFF_SYM1192=LTDIE_159_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1192
 	.byte 2,35,40,0,7
 	.asciz "System_Threading_Tasks_Task`1"
 
-LDIFF_SYM1165=LTDIE_166 - Ldebug_info_start
-	.long LDIFF_SYM1165
-LTDIE_166_POINTER:
+LDIFF_SYM1193=LTDIE_171 - Ldebug_info_start
+	.long LDIFF_SYM1193
+LTDIE_171_POINTER:
 
 	.byte 13
-LDIFF_SYM1166=LTDIE_166 - Ldebug_info_start
-	.long LDIFF_SYM1166
-LTDIE_166_REFERENCE:
+LDIFF_SYM1194=LTDIE_171 - Ldebug_info_start
+	.long LDIFF_SYM1194
+LTDIE_171_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1167=LTDIE_166 - Ldebug_info_start
-	.long LDIFF_SYM1167
+LDIFF_SYM1195=LTDIE_171 - Ldebug_info_start
+	.long LDIFF_SYM1195
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Action`1<System.Threading.Tasks.Task`1<Plugin.Geolocator.Abstractions.Position>>:invoke_void_T"
 	.asciz "wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_Plugin_Geolocator_Abstractions_Position_invoke_void_T_System_Threading_Tasks_Task_1_Plugin_Geolocator_Abstractions_Position"
@@ -11526,82 +11683,82 @@ LDIFF_SYM1167=LTDIE_166 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1168=LTDIE_165_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1168
+LDIFF_SYM1196=LTDIE_170_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1196
 	.byte 1,86,3
 	.asciz "param0"
 
-LDIFF_SYM1169=LTDIE_166_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1169
+LDIFF_SYM1197=LTDIE_171_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1197
 	.byte 2,125,20,11
 	.asciz "V_0"
 
-LDIFF_SYM1170=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1170
+LDIFF_SYM1198=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1198
 	.byte 1,85,11
 	.asciz "V_1"
 
-LDIFF_SYM1171=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1171
+LDIFF_SYM1199=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1199
 	.byte 1,84,11
 	.asciz "V_2"
 
-LDIFF_SYM1172=LTDIE_163_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1172
+LDIFF_SYM1200=LTDIE_168_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1200
 	.byte 1,91,11
 	.asciz "V_3"
 
-LDIFF_SYM1173=LTDIE_15_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1173
+LDIFF_SYM1201=LTDIE_15_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1201
 	.byte 1,90,11
 	.asciz "V_4"
 
-LDIFF_SYM1174=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1174
+LDIFF_SYM1202=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1202
 	.byte 2,125,8,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1175=Lfde24_end - Lfde24_start
-	.long LDIFF_SYM1175
+LDIFF_SYM1203=Lfde24_end - Lfde24_start
+	.long LDIFF_SYM1203
 Lfde24_start:
 
 	.long 0
 	.align 2
 	.long wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_Plugin_Geolocator_Abstractions_Position_invoke_void_T_System_Threading_Tasks_Task_1_Plugin_Geolocator_Abstractions_Position
 
-LDIFF_SYM1176=Lme_19 - wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_Plugin_Geolocator_Abstractions_Position_invoke_void_T_System_Threading_Tasks_Task_1_Plugin_Geolocator_Abstractions_Position
-	.long LDIFF_SYM1176
+LDIFF_SYM1204=Lme_19 - wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_Plugin_Geolocator_Abstractions_Position_invoke_void_T_System_Threading_Tasks_Task_1_Plugin_Geolocator_Abstractions_Position
+	.long LDIFF_SYM1204
 	.byte 68,14,8,135,2,72,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,64,3,192,1,10,68,14,32
 	.byte 68,8,4,8,5,8,6,8,8,8,10,8,11,14,8,68,11
 	.align 2
 Lfde24_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_167:
+LTDIE_172:
 
 	.byte 5
 	.asciz "System_Func`2"
 
 	.byte 56,16
-LDIFF_SYM1177=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM1177
+LDIFF_SYM1205=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM1205
 	.byte 2,35,0,0,7
 	.asciz "System_Func`2"
 
-LDIFF_SYM1178=LTDIE_167 - Ldebug_info_start
-	.long LDIFF_SYM1178
-LTDIE_167_POINTER:
+LDIFF_SYM1206=LTDIE_172 - Ldebug_info_start
+	.long LDIFF_SYM1206
+LTDIE_172_POINTER:
 
 	.byte 13
-LDIFF_SYM1179=LTDIE_167 - Ldebug_info_start
-	.long LDIFF_SYM1179
-LTDIE_167_REFERENCE:
+LDIFF_SYM1207=LTDIE_172 - Ldebug_info_start
+	.long LDIFF_SYM1207
+LTDIE_172_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1180=LTDIE_167 - Ldebug_info_start
-	.long LDIFF_SYM1180
-LTDIE_168:
+LDIFF_SYM1208=LTDIE_172 - Ldebug_info_start
+	.long LDIFF_SYM1208
+LTDIE_173:
 
 	.byte 17
 	.asciz "System_IAsyncResult"
@@ -11609,18 +11766,18 @@ LTDIE_168:
 	.byte 8,7
 	.asciz "System_IAsyncResult"
 
-LDIFF_SYM1181=LTDIE_168 - Ldebug_info_start
-	.long LDIFF_SYM1181
-LTDIE_168_POINTER:
+LDIFF_SYM1209=LTDIE_173 - Ldebug_info_start
+	.long LDIFF_SYM1209
+LTDIE_173_POINTER:
 
 	.byte 13
-LDIFF_SYM1182=LTDIE_168 - Ldebug_info_start
-	.long LDIFF_SYM1182
-LTDIE_168_REFERENCE:
+LDIFF_SYM1210=LTDIE_173 - Ldebug_info_start
+	.long LDIFF_SYM1210
+LTDIE_173_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1183=LTDIE_168 - Ldebug_info_start
-	.long LDIFF_SYM1183
+LDIFF_SYM1211=LTDIE_173 - Ldebug_info_start
+	.long LDIFF_SYM1211
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Func`2<System.IAsyncResult,_Plugin.Geolocator.Abstractions.Position>:invoke_TResult_T"
 	.asciz "wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_Plugin_Geolocator_Abstractions_Position_invoke_TResult_T_System_IAsyncResult"
@@ -11632,86 +11789,86 @@ LDIFF_SYM1183=LTDIE_168 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1184=LTDIE_167_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1184
+LDIFF_SYM1212=LTDIE_172_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1212
 	.byte 1,86,3
 	.asciz "param0"
 
-LDIFF_SYM1185=LTDIE_168_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1185
+LDIFF_SYM1213=LTDIE_173_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1213
 	.byte 2,125,24,11
 	.asciz "V_0"
 
-LDIFF_SYM1186=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1186
+LDIFF_SYM1214=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1214
 	.byte 1,85,11
 	.asciz "V_1"
 
-LDIFF_SYM1187=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1187
+LDIFF_SYM1215=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1215
 	.byte 1,84,11
 	.asciz "V_2"
 
-LDIFF_SYM1188=LTDIE_163_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1188
+LDIFF_SYM1216=LTDIE_168_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1216
 	.byte 1,91,11
 	.asciz "V_3"
 
-LDIFF_SYM1189=LTDIE_15_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1189
+LDIFF_SYM1217=LTDIE_15_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1217
 	.byte 1,90,11
 	.asciz "V_4"
 
-LDIFF_SYM1190=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1190
+LDIFF_SYM1218=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1218
 	.byte 2,125,8,11
 	.asciz "V_5"
 
-LDIFF_SYM1191=LTDIE_154_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1191
+LDIFF_SYM1219=LTDIE_159_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1219
 	.byte 2,125,12,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1192=Lfde25_end - Lfde25_start
-	.long LDIFF_SYM1192
+LDIFF_SYM1220=Lfde25_end - Lfde25_start
+	.long LDIFF_SYM1220
 Lfde25_start:
 
 	.long 0
 	.align 2
 	.long wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_Plugin_Geolocator_Abstractions_Position_invoke_TResult_T_System_IAsyncResult
 
-LDIFF_SYM1193=Lme_1a - wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_Plugin_Geolocator_Abstractions_Position_invoke_TResult_T_System_IAsyncResult
-	.long LDIFF_SYM1193
+LDIFF_SYM1221=Lme_1a - wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_Plugin_Geolocator_Abstractions_Position_invoke_TResult_T_System_IAsyncResult
+	.long LDIFF_SYM1221
 	.byte 68,14,8,135,2,72,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,72,3,220,1,10,68,14,32
 	.byte 68,8,4,8,5,8,6,8,8,8,10,8,11,14,8,68,11
 	.align 2
 Lfde25_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_169:
+LTDIE_174:
 
 	.byte 5
 	.asciz "System_Action`1"
 
 	.byte 56,16
-LDIFF_SYM1194=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM1194
+LDIFF_SYM1222=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM1222
 	.byte 2,35,0,0,7
 	.asciz "System_Action`1"
 
-LDIFF_SYM1195=LTDIE_169 - Ldebug_info_start
-	.long LDIFF_SYM1195
-LTDIE_169_POINTER:
+LDIFF_SYM1223=LTDIE_174 - Ldebug_info_start
+	.long LDIFF_SYM1223
+LTDIE_174_POINTER:
 
 	.byte 13
-LDIFF_SYM1196=LTDIE_169 - Ldebug_info_start
-	.long LDIFF_SYM1196
-LTDIE_169_REFERENCE:
+LDIFF_SYM1224=LTDIE_174 - Ldebug_info_start
+	.long LDIFF_SYM1224
+LTDIE_174_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1197=LTDIE_169 - Ldebug_info_start
-	.long LDIFF_SYM1197
+LDIFF_SYM1225=LTDIE_174 - Ldebug_info_start
+	.long LDIFF_SYM1225
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Action`1<System.IAsyncResult>:invoke_void_T"
 	.asciz "wrapper_delegate_invoke_System_Action_1_System_IAsyncResult_invoke_void_T_System_IAsyncResult"
@@ -11723,104 +11880,104 @@ LDIFF_SYM1197=LTDIE_169 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1198=LTDIE_169_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1198
+LDIFF_SYM1226=LTDIE_174_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1226
 	.byte 1,86,3
 	.asciz "param0"
 
-LDIFF_SYM1199=LTDIE_168_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1199
+LDIFF_SYM1227=LTDIE_173_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1227
 	.byte 2,125,20,11
 	.asciz "V_0"
 
-LDIFF_SYM1200=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1200
+LDIFF_SYM1228=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1228
 	.byte 1,85,11
 	.asciz "V_1"
 
-LDIFF_SYM1201=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1201
+LDIFF_SYM1229=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1229
 	.byte 1,84,11
 	.asciz "V_2"
 
-LDIFF_SYM1202=LTDIE_163_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1202
+LDIFF_SYM1230=LTDIE_168_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1230
 	.byte 1,91,11
 	.asciz "V_3"
 
-LDIFF_SYM1203=LTDIE_15_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1203
+LDIFF_SYM1231=LTDIE_15_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1231
 	.byte 1,90,11
 	.asciz "V_4"
 
-LDIFF_SYM1204=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1204
+LDIFF_SYM1232=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1232
 	.byte 2,125,8,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1205=Lfde26_end - Lfde26_start
-	.long LDIFF_SYM1205
+LDIFF_SYM1233=Lfde26_end - Lfde26_start
+	.long LDIFF_SYM1233
 Lfde26_start:
 
 	.long 0
 	.align 2
 	.long wrapper_delegate_invoke_System_Action_1_System_IAsyncResult_invoke_void_T_System_IAsyncResult
 
-LDIFF_SYM1206=Lme_1b - wrapper_delegate_invoke_System_Action_1_System_IAsyncResult_invoke_void_T_System_IAsyncResult
-	.long LDIFF_SYM1206
+LDIFF_SYM1234=Lme_1b - wrapper_delegate_invoke_System_Action_1_System_IAsyncResult_invoke_void_T_System_IAsyncResult
+	.long LDIFF_SYM1234
 	.byte 68,14,8,135,2,72,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,64,3,192,1,10,68,14,32
 	.byte 68,8,4,8,5,8,6,8,8,8,10,8,11,14,8,68,11
 	.align 2
 Lfde26_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_170:
+LTDIE_175:
 
 	.byte 5
 	.asciz "System_Func`3"
 
 	.byte 56,16
-LDIFF_SYM1207=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM1207
+LDIFF_SYM1235=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM1235
 	.byte 2,35,0,0,7
 	.asciz "System_Func`3"
 
-LDIFF_SYM1208=LTDIE_170 - Ldebug_info_start
-	.long LDIFF_SYM1208
-LTDIE_170_POINTER:
+LDIFF_SYM1236=LTDIE_175 - Ldebug_info_start
+	.long LDIFF_SYM1236
+LTDIE_175_POINTER:
 
 	.byte 13
-LDIFF_SYM1209=LTDIE_170 - Ldebug_info_start
-	.long LDIFF_SYM1209
-LTDIE_170_REFERENCE:
+LDIFF_SYM1237=LTDIE_175 - Ldebug_info_start
+	.long LDIFF_SYM1237
+LTDIE_175_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1210=LTDIE_170 - Ldebug_info_start
-	.long LDIFF_SYM1210
-LTDIE_171:
+LDIFF_SYM1238=LTDIE_175 - Ldebug_info_start
+	.long LDIFF_SYM1238
+LTDIE_176:
 
 	.byte 5
 	.asciz "System_AsyncCallback"
 
 	.byte 56,16
-LDIFF_SYM1211=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM1211
+LDIFF_SYM1239=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM1239
 	.byte 2,35,0,0,7
 	.asciz "System_AsyncCallback"
 
-LDIFF_SYM1212=LTDIE_171 - Ldebug_info_start
-	.long LDIFF_SYM1212
-LTDIE_171_POINTER:
+LDIFF_SYM1240=LTDIE_176 - Ldebug_info_start
+	.long LDIFF_SYM1240
+LTDIE_176_POINTER:
 
 	.byte 13
-LDIFF_SYM1213=LTDIE_171 - Ldebug_info_start
-	.long LDIFF_SYM1213
-LTDIE_171_REFERENCE:
+LDIFF_SYM1241=LTDIE_176 - Ldebug_info_start
+	.long LDIFF_SYM1241
+LTDIE_176_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1214=LTDIE_171 - Ldebug_info_start
-	.long LDIFF_SYM1214
+LDIFF_SYM1242=LTDIE_176 - Ldebug_info_start
+	.long LDIFF_SYM1242
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Func`3<System.AsyncCallback,_object,_System.IAsyncResult>:invoke_TResult_T1_T2"
 	.asciz "wrapper_delegate_invoke_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_invoke_TResult_T1_T2_System_AsyncCallback_object"
@@ -11832,91 +11989,91 @@ LDIFF_SYM1214=LTDIE_171 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1215=LTDIE_170_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1215
+LDIFF_SYM1243=LTDIE_175_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1243
 	.byte 1,85,3
 	.asciz "param0"
 
-LDIFF_SYM1216=LTDIE_171_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1216
+LDIFF_SYM1244=LTDIE_176_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1244
 	.byte 2,125,24,3
 	.asciz "param1"
 
-LDIFF_SYM1217=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1217
+LDIFF_SYM1245=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1245
 	.byte 2,125,28,11
 	.asciz "V_0"
 
-LDIFF_SYM1218=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1218
+LDIFF_SYM1246=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1246
 	.byte 1,84,11
 	.asciz "V_1"
 
-LDIFF_SYM1219=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1219
+LDIFF_SYM1247=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1247
 	.byte 1,91,11
 	.asciz "V_2"
 
-LDIFF_SYM1220=LTDIE_163_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1220
+LDIFF_SYM1248=LTDIE_168_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1248
 	.byte 1,90,11
 	.asciz "V_3"
 
-LDIFF_SYM1221=LTDIE_15_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1221
+LDIFF_SYM1249=LTDIE_15_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1249
 	.byte 1,86,11
 	.asciz "V_4"
 
-LDIFF_SYM1222=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1222
+LDIFF_SYM1250=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1250
 	.byte 2,125,8,11
 	.asciz "V_5"
 
-LDIFF_SYM1223=LTDIE_168_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1223
+LDIFF_SYM1251=LTDIE_173_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1251
 	.byte 2,125,12,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1224=Lfde27_end - Lfde27_start
-	.long LDIFF_SYM1224
+LDIFF_SYM1252=Lfde27_end - Lfde27_start
+	.long LDIFF_SYM1252
 Lfde27_start:
 
 	.long 0
 	.align 2
 	.long wrapper_delegate_invoke_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_invoke_TResult_T1_T2_System_AsyncCallback_object
 
-LDIFF_SYM1225=Lme_1c - wrapper_delegate_invoke_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_invoke_TResult_T1_T2_System_AsyncCallback_object
-	.long LDIFF_SYM1225
+LDIFF_SYM1253=Lme_1c - wrapper_delegate_invoke_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_invoke_TResult_T1_T2_System_AsyncCallback_object
+	.long LDIFF_SYM1253
 	.byte 68,14,8,135,2,72,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,72,3,236,1,10,68,14,32
 	.byte 68,8,4,8,5,8,6,8,8,8,10,8,11,14,8,68,11
 	.align 2
 Lfde27_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_172:
+LTDIE_177:
 
 	.byte 5
 	.asciz "System_Func`1"
 
 	.byte 56,16
-LDIFF_SYM1226=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM1226
+LDIFF_SYM1254=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM1254
 	.byte 2,35,0,0,7
 	.asciz "System_Func`1"
 
-LDIFF_SYM1227=LTDIE_172 - Ldebug_info_start
-	.long LDIFF_SYM1227
-LTDIE_172_POINTER:
+LDIFF_SYM1255=LTDIE_177 - Ldebug_info_start
+	.long LDIFF_SYM1255
+LTDIE_177_POINTER:
 
 	.byte 13
-LDIFF_SYM1228=LTDIE_172 - Ldebug_info_start
-	.long LDIFF_SYM1228
-LTDIE_172_REFERENCE:
+LDIFF_SYM1256=LTDIE_177 - Ldebug_info_start
+	.long LDIFF_SYM1256
+LTDIE_177_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1229=LTDIE_172 - Ldebug_info_start
-	.long LDIFF_SYM1229
+LDIFF_SYM1257=LTDIE_177 - Ldebug_info_start
+	.long LDIFF_SYM1257
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Func`1<System.Threading.Tasks.Task>:invoke_TResult"
 	.asciz "wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_Task_invoke_TResult"
@@ -11928,81 +12085,81 @@ LDIFF_SYM1229=LTDIE_172 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1230=LTDIE_172_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1230
+LDIFF_SYM1258=LTDIE_177_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1258
 	.byte 1,90,11
 	.asciz "V_0"
 
-LDIFF_SYM1231=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1231
+LDIFF_SYM1259=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1259
 	.byte 1,86,11
 	.asciz "V_1"
 
-LDIFF_SYM1232=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1232
+LDIFF_SYM1260=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1260
 	.byte 1,85,11
 	.asciz "V_2"
 
-LDIFF_SYM1233=LTDIE_163_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1233
+LDIFF_SYM1261=LTDIE_168_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1261
 	.byte 1,84,11
 	.asciz "V_3"
 
-LDIFF_SYM1234=LTDIE_15_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1234
+LDIFF_SYM1262=LTDIE_15_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1262
 	.byte 1,91,11
 	.asciz "V_4"
 
-LDIFF_SYM1235=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1235
+LDIFF_SYM1263=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1263
 	.byte 2,125,8,11
 	.asciz "V_5"
 
-LDIFF_SYM1236=LTDIE_40_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1236
+LDIFF_SYM1264=LTDIE_40_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1264
 	.byte 2,125,12,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1237=Lfde28_end - Lfde28_start
-	.long LDIFF_SYM1237
+LDIFF_SYM1265=Lfde28_end - Lfde28_start
+	.long LDIFF_SYM1265
 Lfde28_start:
 
 	.long 0
 	.align 2
 	.long wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_Task_invoke_TResult
 
-LDIFF_SYM1238=Lme_1d - wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_Task_invoke_TResult
-	.long LDIFF_SYM1238
+LDIFF_SYM1266=Lme_1d - wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_Task_invoke_TResult
+	.long LDIFF_SYM1266
 	.byte 68,14,8,135,2,72,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,64,3,204,1,10,68,14,32
 	.byte 68,8,4,8,5,8,6,8,8,8,10,8,11,14,8,68,11
 	.align 2
 Lfde28_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_173:
+LTDIE_178:
 
 	.byte 5
 	.asciz "System_Func`2"
 
 	.byte 56,16
-LDIFF_SYM1239=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM1239
+LDIFF_SYM1267=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM1267
 	.byte 2,35,0,0,7
 	.asciz "System_Func`2"
 
-LDIFF_SYM1240=LTDIE_173 - Ldebug_info_start
-	.long LDIFF_SYM1240
-LTDIE_173_POINTER:
+LDIFF_SYM1268=LTDIE_178 - Ldebug_info_start
+	.long LDIFF_SYM1268
+LTDIE_178_POINTER:
 
 	.byte 13
-LDIFF_SYM1241=LTDIE_173 - Ldebug_info_start
-	.long LDIFF_SYM1241
-LTDIE_173_REFERENCE:
+LDIFF_SYM1269=LTDIE_178 - Ldebug_info_start
+	.long LDIFF_SYM1269
+LTDIE_178_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1242=LTDIE_173 - Ldebug_info_start
-	.long LDIFF_SYM1242
+LDIFF_SYM1270=LTDIE_178 - Ldebug_info_start
+	.long LDIFF_SYM1270
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Func`2<object,_System.Threading.Tasks.Task>:invoke_TResult_T"
 	.asciz "wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_Task_invoke_TResult_T_object"
@@ -12014,114 +12171,114 @@ LDIFF_SYM1242=LTDIE_173 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1243=LTDIE_173_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1243
+LDIFF_SYM1271=LTDIE_178_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1271
 	.byte 1,86,3
 	.asciz "param0"
 
-LDIFF_SYM1244=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1244
+LDIFF_SYM1272=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1272
 	.byte 2,125,24,11
 	.asciz "V_0"
 
-LDIFF_SYM1245=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1245
+LDIFF_SYM1273=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1273
 	.byte 1,85,11
 	.asciz "V_1"
 
-LDIFF_SYM1246=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1246
+LDIFF_SYM1274=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1274
 	.byte 1,84,11
 	.asciz "V_2"
 
-LDIFF_SYM1247=LTDIE_163_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1247
+LDIFF_SYM1275=LTDIE_168_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1275
 	.byte 1,91,11
 	.asciz "V_3"
 
-LDIFF_SYM1248=LTDIE_15_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1248
+LDIFF_SYM1276=LTDIE_15_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1276
 	.byte 1,90,11
 	.asciz "V_4"
 
-LDIFF_SYM1249=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1249
+LDIFF_SYM1277=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1277
 	.byte 2,125,8,11
 	.asciz "V_5"
 
-LDIFF_SYM1250=LTDIE_40_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1250
+LDIFF_SYM1278=LTDIE_40_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1278
 	.byte 2,125,12,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1251=Lfde29_end - Lfde29_start
-	.long LDIFF_SYM1251
+LDIFF_SYM1279=Lfde29_end - Lfde29_start
+	.long LDIFF_SYM1279
 Lfde29_start:
 
 	.long 0
 	.align 2
 	.long wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_Task_invoke_TResult_T_object
 
-LDIFF_SYM1252=Lme_1e - wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_Task_invoke_TResult_T_object
-	.long LDIFF_SYM1252
+LDIFF_SYM1280=Lme_1e - wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_Task_invoke_TResult_T_object
+	.long LDIFF_SYM1280
 	.byte 68,14,8,135,2,72,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,72,3,220,1,10,68,14,32
 	.byte 68,8,4,8,5,8,6,8,8,8,10,8,11,14,8,68,11
 	.align 2
 Lfde29_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_174:
+LTDIE_179:
 
 	.byte 5
 	.asciz "System_Action`1"
 
 	.byte 56,16
-LDIFF_SYM1253=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM1253
+LDIFF_SYM1281=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM1281
 	.byte 2,35,0,0,7
 	.asciz "System_Action`1"
 
-LDIFF_SYM1254=LTDIE_174 - Ldebug_info_start
-	.long LDIFF_SYM1254
-LTDIE_174_POINTER:
+LDIFF_SYM1282=LTDIE_179 - Ldebug_info_start
+	.long LDIFF_SYM1282
+LTDIE_179_POINTER:
 
 	.byte 13
-LDIFF_SYM1255=LTDIE_174 - Ldebug_info_start
-	.long LDIFF_SYM1255
-LTDIE_174_REFERENCE:
+LDIFF_SYM1283=LTDIE_179 - Ldebug_info_start
+	.long LDIFF_SYM1283
+LTDIE_179_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1256=LTDIE_174 - Ldebug_info_start
-	.long LDIFF_SYM1256
-LTDIE_175:
+LDIFF_SYM1284=LTDIE_179 - Ldebug_info_start
+	.long LDIFF_SYM1284
+LTDIE_180:
 
 	.byte 5
 	.asciz "System_Threading_Tasks_Task`1"
 
 	.byte 44,16
-LDIFF_SYM1257=LTDIE_40 - Ldebug_info_start
-	.long LDIFF_SYM1257
+LDIFF_SYM1285=LTDIE_40 - Ldebug_info_start
+	.long LDIFF_SYM1285
 	.byte 2,35,0,6
 	.asciz "m_result"
 
-LDIFF_SYM1258=LTDIE_40_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1258
+LDIFF_SYM1286=LTDIE_40_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1286
 	.byte 2,35,40,0,7
 	.asciz "System_Threading_Tasks_Task`1"
 
-LDIFF_SYM1259=LTDIE_175 - Ldebug_info_start
-	.long LDIFF_SYM1259
-LTDIE_175_POINTER:
+LDIFF_SYM1287=LTDIE_180 - Ldebug_info_start
+	.long LDIFF_SYM1287
+LTDIE_180_POINTER:
 
 	.byte 13
-LDIFF_SYM1260=LTDIE_175 - Ldebug_info_start
-	.long LDIFF_SYM1260
-LTDIE_175_REFERENCE:
+LDIFF_SYM1288=LTDIE_180 - Ldebug_info_start
+	.long LDIFF_SYM1288
+LTDIE_180_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1261=LTDIE_175 - Ldebug_info_start
-	.long LDIFF_SYM1261
+LDIFF_SYM1289=LTDIE_180 - Ldebug_info_start
+	.long LDIFF_SYM1289
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Action`1<System.Threading.Tasks.Task`1<System.Threading.Tasks.Task>>:invoke_void_T"
 	.asciz "wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_void_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task"
@@ -12133,81 +12290,81 @@ LDIFF_SYM1261=LTDIE_175 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1262=LTDIE_174_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1262
+LDIFF_SYM1290=LTDIE_179_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1290
 	.byte 1,86,3
 	.asciz "param0"
 
-LDIFF_SYM1263=LTDIE_175_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1263
+LDIFF_SYM1291=LTDIE_180_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1291
 	.byte 2,125,20,11
 	.asciz "V_0"
 
-LDIFF_SYM1264=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1264
+LDIFF_SYM1292=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1292
 	.byte 1,85,11
 	.asciz "V_1"
 
-LDIFF_SYM1265=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1265
+LDIFF_SYM1293=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1293
 	.byte 1,84,11
 	.asciz "V_2"
 
-LDIFF_SYM1266=LTDIE_163_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1266
+LDIFF_SYM1294=LTDIE_168_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1294
 	.byte 1,91,11
 	.asciz "V_3"
 
-LDIFF_SYM1267=LTDIE_15_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1267
+LDIFF_SYM1295=LTDIE_15_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1295
 	.byte 1,90,11
 	.asciz "V_4"
 
-LDIFF_SYM1268=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1268
+LDIFF_SYM1296=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1296
 	.byte 2,125,8,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1269=Lfde30_end - Lfde30_start
-	.long LDIFF_SYM1269
+LDIFF_SYM1297=Lfde30_end - Lfde30_start
+	.long LDIFF_SYM1297
 Lfde30_start:
 
 	.long 0
 	.align 2
 	.long wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_void_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
 
-LDIFF_SYM1270=Lme_1f - wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_void_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
-	.long LDIFF_SYM1270
+LDIFF_SYM1298=Lme_1f - wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_void_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
+	.long LDIFF_SYM1298
 	.byte 68,14,8,135,2,72,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,64,3,192,1,10,68,14,32
 	.byte 68,8,4,8,5,8,6,8,8,8,10,8,11,14,8,68,11
 	.align 2
 Lfde30_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_176:
+LTDIE_181:
 
 	.byte 5
 	.asciz "System_Func`2"
 
 	.byte 56,16
-LDIFF_SYM1271=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM1271
+LDIFF_SYM1299=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM1299
 	.byte 2,35,0,0,7
 	.asciz "System_Func`2"
 
-LDIFF_SYM1272=LTDIE_176 - Ldebug_info_start
-	.long LDIFF_SYM1272
-LTDIE_176_POINTER:
+LDIFF_SYM1300=LTDIE_181 - Ldebug_info_start
+	.long LDIFF_SYM1300
+LTDIE_181_POINTER:
 
 	.byte 13
-LDIFF_SYM1273=LTDIE_176 - Ldebug_info_start
-	.long LDIFF_SYM1273
-LTDIE_176_REFERENCE:
+LDIFF_SYM1301=LTDIE_181 - Ldebug_info_start
+	.long LDIFF_SYM1301
+LTDIE_181_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1274=LTDIE_176 - Ldebug_info_start
-	.long LDIFF_SYM1274
+LDIFF_SYM1302=LTDIE_181 - Ldebug_info_start
+	.long LDIFF_SYM1302
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Func`2<System.IAsyncResult,_System.Threading.Tasks.Task>:invoke_TResult_T"
 	.asciz "wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks_Task_invoke_TResult_T_System_IAsyncResult"
@@ -12219,194 +12376,12 @@ LDIFF_SYM1274=LTDIE_176 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1275=LTDIE_176_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1275
-	.byte 1,86,3
-	.asciz "param0"
-
-LDIFF_SYM1276=LTDIE_168_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1276
-	.byte 2,125,24,11
-	.asciz "V_0"
-
-LDIFF_SYM1277=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1277
-	.byte 1,85,11
-	.asciz "V_1"
-
-LDIFF_SYM1278=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1278
-	.byte 1,84,11
-	.asciz "V_2"
-
-LDIFF_SYM1279=LTDIE_163_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1279
-	.byte 1,91,11
-	.asciz "V_3"
-
-LDIFF_SYM1280=LTDIE_15_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1280
-	.byte 1,90,11
-	.asciz "V_4"
-
-LDIFF_SYM1281=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1281
-	.byte 2,125,8,11
-	.asciz "V_5"
-
-LDIFF_SYM1282=LTDIE_40_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1282
-	.byte 2,125,12,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1283=Lfde31_end - Lfde31_start
-	.long LDIFF_SYM1283
-Lfde31_start:
-
-	.long 0
-	.align 2
-	.long wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks_Task_invoke_TResult_T_System_IAsyncResult
-
-LDIFF_SYM1284=Lme_20 - wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks_Task_invoke_TResult_T_System_IAsyncResult
-	.long LDIFF_SYM1284
-	.byte 68,14,8,135,2,72,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,72,3,220,1,10,68,14,32
-	.byte 68,8,4,8,5,8,6,8,8,8,10,8,11,14,8,68,11
-	.align 2
-Lfde31_end:
-
-.section __DWARF, __debug_info,regular,debug
-LTDIE_177:
-
-	.byte 5
-	.asciz "System_Func`2"
-
-	.byte 56,16
-LDIFF_SYM1285=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM1285
-	.byte 2,35,0,0,7
-	.asciz "System_Func`2"
-
-LDIFF_SYM1286=LTDIE_177 - Ldebug_info_start
-	.long LDIFF_SYM1286
-LTDIE_177_POINTER:
-
-	.byte 13
-LDIFF_SYM1287=LTDIE_177 - Ldebug_info_start
-	.long LDIFF_SYM1287
-LTDIE_177_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1288=LTDIE_177 - Ldebug_info_start
-	.long LDIFF_SYM1288
-	.byte 2
-	.asciz "(wrapper_delegate-invoke)_System.Func`2<System.Threading.Tasks.Task`1<System.Threading.Tasks.Task>,_System.Threading.Tasks.Task`1<System.Threading.Tasks.Task>>:invoke_TResult_T"
-	.asciz "wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task"
-
-	.byte 0,0
-	.long wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
-	.long Lme_21
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1289=LTDIE_177_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1289
-	.byte 1,86,3
-	.asciz "param0"
-
-LDIFF_SYM1290=LTDIE_175_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1290
-	.byte 2,125,24,11
-	.asciz "V_0"
-
-LDIFF_SYM1291=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1291
-	.byte 1,85,11
-	.asciz "V_1"
-
-LDIFF_SYM1292=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1292
-	.byte 1,84,11
-	.asciz "V_2"
-
-LDIFF_SYM1293=LTDIE_163_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1293
-	.byte 1,91,11
-	.asciz "V_3"
-
-LDIFF_SYM1294=LTDIE_15_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1294
-	.byte 1,90,11
-	.asciz "V_4"
-
-LDIFF_SYM1295=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1295
-	.byte 2,125,8,11
-	.asciz "V_5"
-
-LDIFF_SYM1296=LTDIE_175_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1296
-	.byte 2,125,12,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1297=Lfde32_end - Lfde32_start
-	.long LDIFF_SYM1297
-Lfde32_start:
-
-	.long 0
-	.align 2
-	.long wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
-
-LDIFF_SYM1298=Lme_21 - wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
-	.long LDIFF_SYM1298
-	.byte 68,14,8,135,2,72,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,72,3,220,1,10,68,14,32
-	.byte 68,8,4,8,5,8,6,8,8,8,10,8,11,14,8,68,11
-	.align 2
-Lfde32_end:
-
-.section __DWARF, __debug_info,regular,debug
-LTDIE_178:
-
-	.byte 5
-	.asciz "System_Func`2"
-
-	.byte 56,16
-LDIFF_SYM1299=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM1299
-	.byte 2,35,0,0,7
-	.asciz "System_Func`2"
-
-LDIFF_SYM1300=LTDIE_178 - Ldebug_info_start
-	.long LDIFF_SYM1300
-LTDIE_178_POINTER:
-
-	.byte 13
-LDIFF_SYM1301=LTDIE_178 - Ldebug_info_start
-	.long LDIFF_SYM1301
-LTDIE_178_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1302=LTDIE_178 - Ldebug_info_start
-	.long LDIFF_SYM1302
-	.byte 2
-	.asciz "(wrapper_delegate-invoke)_System.Func`2<System.Threading.Tasks.Task`1<System.Threading.Tasks.Task>,_System.Threading.Tasks.Task`1<Plugin.Geolocator.Abstractions.Position>>:invoke_TResult_T"
-	.asciz "wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_Plugin_Geolocator_Abstractions_Position_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task"
-
-	.byte 0,0
-	.long wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_Plugin_Geolocator_Abstractions_Position_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
-	.long Lme_22
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1303=LTDIE_178_REFERENCE - Ldebug_info_start
+LDIFF_SYM1303=LTDIE_181_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1303
 	.byte 1,86,3
 	.asciz "param0"
 
-LDIFF_SYM1304=LTDIE_175_REFERENCE - Ldebug_info_start
+LDIFF_SYM1304=LTDIE_173_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1304
 	.byte 2,125,24,11
 	.asciz "V_0"
@@ -12421,7 +12396,7 @@ LDIFF_SYM1306=LDIE_I4 - Ldebug_info_start
 	.byte 1,84,11
 	.asciz "V_2"
 
-LDIFF_SYM1307=LTDIE_163_REFERENCE - Ldebug_info_start
+LDIFF_SYM1307=LTDIE_168_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1307
 	.byte 1,91,11
 	.asciz "V_3"
@@ -12436,51 +12411,233 @@ LDIFF_SYM1309=LDIE_OBJECT - Ldebug_info_start
 	.byte 2,125,8,11
 	.asciz "V_5"
 
-LDIFF_SYM1310=LTDIE_166_REFERENCE - Ldebug_info_start
+LDIFF_SYM1310=LTDIE_40_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1310
 	.byte 2,125,12,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1311=Lfde33_end - Lfde33_start
+LDIFF_SYM1311=Lfde31_end - Lfde31_start
 	.long LDIFF_SYM1311
+Lfde31_start:
+
+	.long 0
+	.align 2
+	.long wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks_Task_invoke_TResult_T_System_IAsyncResult
+
+LDIFF_SYM1312=Lme_20 - wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks_Task_invoke_TResult_T_System_IAsyncResult
+	.long LDIFF_SYM1312
+	.byte 68,14,8,135,2,72,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,72,3,220,1,10,68,14,32
+	.byte 68,8,4,8,5,8,6,8,8,8,10,8,11,14,8,68,11
+	.align 2
+Lfde31_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_182:
+
+	.byte 5
+	.asciz "System_Func`2"
+
+	.byte 56,16
+LDIFF_SYM1313=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM1313
+	.byte 2,35,0,0,7
+	.asciz "System_Func`2"
+
+LDIFF_SYM1314=LTDIE_182 - Ldebug_info_start
+	.long LDIFF_SYM1314
+LTDIE_182_POINTER:
+
+	.byte 13
+LDIFF_SYM1315=LTDIE_182 - Ldebug_info_start
+	.long LDIFF_SYM1315
+LTDIE_182_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1316=LTDIE_182 - Ldebug_info_start
+	.long LDIFF_SYM1316
+	.byte 2
+	.asciz "(wrapper_delegate-invoke)_System.Func`2<System.Threading.Tasks.Task`1<System.Threading.Tasks.Task>,_System.Threading.Tasks.Task`1<System.Threading.Tasks.Task>>:invoke_TResult_T"
+	.asciz "wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task"
+
+	.byte 0,0
+	.long wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
+	.long Lme_21
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1317=LTDIE_182_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1317
+	.byte 1,86,3
+	.asciz "param0"
+
+LDIFF_SYM1318=LTDIE_180_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1318
+	.byte 2,125,24,11
+	.asciz "V_0"
+
+LDIFF_SYM1319=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1319
+	.byte 1,85,11
+	.asciz "V_1"
+
+LDIFF_SYM1320=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1320
+	.byte 1,84,11
+	.asciz "V_2"
+
+LDIFF_SYM1321=LTDIE_168_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1321
+	.byte 1,91,11
+	.asciz "V_3"
+
+LDIFF_SYM1322=LTDIE_15_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1322
+	.byte 1,90,11
+	.asciz "V_4"
+
+LDIFF_SYM1323=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1323
+	.byte 2,125,8,11
+	.asciz "V_5"
+
+LDIFF_SYM1324=LTDIE_180_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1324
+	.byte 2,125,12,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1325=Lfde32_end - Lfde32_start
+	.long LDIFF_SYM1325
+Lfde32_start:
+
+	.long 0
+	.align 2
+	.long wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
+
+LDIFF_SYM1326=Lme_21 - wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
+	.long LDIFF_SYM1326
+	.byte 68,14,8,135,2,72,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,72,3,220,1,10,68,14,32
+	.byte 68,8,4,8,5,8,6,8,8,8,10,8,11,14,8,68,11
+	.align 2
+Lfde32_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_183:
+
+	.byte 5
+	.asciz "System_Func`2"
+
+	.byte 56,16
+LDIFF_SYM1327=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM1327
+	.byte 2,35,0,0,7
+	.asciz "System_Func`2"
+
+LDIFF_SYM1328=LTDIE_183 - Ldebug_info_start
+	.long LDIFF_SYM1328
+LTDIE_183_POINTER:
+
+	.byte 13
+LDIFF_SYM1329=LTDIE_183 - Ldebug_info_start
+	.long LDIFF_SYM1329
+LTDIE_183_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1330=LTDIE_183 - Ldebug_info_start
+	.long LDIFF_SYM1330
+	.byte 2
+	.asciz "(wrapper_delegate-invoke)_System.Func`2<System.Threading.Tasks.Task`1<System.Threading.Tasks.Task>,_System.Threading.Tasks.Task`1<Plugin.Geolocator.Abstractions.Position>>:invoke_TResult_T"
+	.asciz "wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_Plugin_Geolocator_Abstractions_Position_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task"
+
+	.byte 0,0
+	.long wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_Plugin_Geolocator_Abstractions_Position_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
+	.long Lme_22
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1331=LTDIE_183_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1331
+	.byte 1,86,3
+	.asciz "param0"
+
+LDIFF_SYM1332=LTDIE_180_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1332
+	.byte 2,125,24,11
+	.asciz "V_0"
+
+LDIFF_SYM1333=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1333
+	.byte 1,85,11
+	.asciz "V_1"
+
+LDIFF_SYM1334=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1334
+	.byte 1,84,11
+	.asciz "V_2"
+
+LDIFF_SYM1335=LTDIE_168_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1335
+	.byte 1,91,11
+	.asciz "V_3"
+
+LDIFF_SYM1336=LTDIE_15_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1336
+	.byte 1,90,11
+	.asciz "V_4"
+
+LDIFF_SYM1337=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1337
+	.byte 2,125,8,11
+	.asciz "V_5"
+
+LDIFF_SYM1338=LTDIE_171_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1338
+	.byte 2,125,12,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1339=Lfde33_end - Lfde33_start
+	.long LDIFF_SYM1339
 Lfde33_start:
 
 	.long 0
 	.align 2
 	.long wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_Plugin_Geolocator_Abstractions_Position_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
 
-LDIFF_SYM1312=Lme_22 - wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_Plugin_Geolocator_Abstractions_Position_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
-	.long LDIFF_SYM1312
+LDIFF_SYM1340=Lme_22 - wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_Plugin_Geolocator_Abstractions_Position_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
+	.long LDIFF_SYM1340
 	.byte 68,14,8,135,2,72,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,72,3,220,1,10,68,14,32
 	.byte 68,8,4,8,5,8,6,8,8,8,10,8,11,14,8,68,11
 	.align 2
 Lfde33_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_179:
+LTDIE_184:
 
 	.byte 5
 	.asciz "System_Func`1"
 
 	.byte 56,16
-LDIFF_SYM1313=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM1313
+LDIFF_SYM1341=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM1341
 	.byte 2,35,0,0,7
 	.asciz "System_Func`1"
 
-LDIFF_SYM1314=LTDIE_179 - Ldebug_info_start
-	.long LDIFF_SYM1314
-LTDIE_179_POINTER:
+LDIFF_SYM1342=LTDIE_184 - Ldebug_info_start
+	.long LDIFF_SYM1342
+LTDIE_184_POINTER:
 
 	.byte 13
-LDIFF_SYM1315=LTDIE_179 - Ldebug_info_start
-	.long LDIFF_SYM1315
-LTDIE_179_REFERENCE:
+LDIFF_SYM1343=LTDIE_184 - Ldebug_info_start
+	.long LDIFF_SYM1343
+LTDIE_184_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1316=LTDIE_179 - Ldebug_info_start
-	.long LDIFF_SYM1316
+LDIFF_SYM1344=LTDIE_184 - Ldebug_info_start
+	.long LDIFF_SYM1344
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Func`1<Plugin.Geolocator.Abstractions.Address>:invoke_TResult"
 	.asciz "wrapper_delegate_invoke_System_Func_1_Plugin_Geolocator_Abstractions_Address_invoke_TResult"
@@ -12492,81 +12649,81 @@ LDIFF_SYM1316=LTDIE_179 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1317=LTDIE_179_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1317
+LDIFF_SYM1345=LTDIE_184_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1345
 	.byte 1,90,11
 	.asciz "V_0"
 
-LDIFF_SYM1318=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1318
+LDIFF_SYM1346=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1346
 	.byte 1,86,11
 	.asciz "V_1"
 
-LDIFF_SYM1319=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1319
+LDIFF_SYM1347=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1347
 	.byte 1,85,11
 	.asciz "V_2"
 
-LDIFF_SYM1320=LTDIE_163_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1320
+LDIFF_SYM1348=LTDIE_168_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1348
 	.byte 1,84,11
 	.asciz "V_3"
 
-LDIFF_SYM1321=LTDIE_15_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1321
+LDIFF_SYM1349=LTDIE_15_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1349
 	.byte 1,91,11
 	.asciz "V_4"
 
-LDIFF_SYM1322=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1322
+LDIFF_SYM1350=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1350
 	.byte 2,125,8,11
 	.asciz "V_5"
 
-LDIFF_SYM1323=LTDIE_157_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1323
+LDIFF_SYM1351=LTDIE_162_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1351
 	.byte 2,125,12,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1324=Lfde34_end - Lfde34_start
-	.long LDIFF_SYM1324
+LDIFF_SYM1352=Lfde34_end - Lfde34_start
+	.long LDIFF_SYM1352
 Lfde34_start:
 
 	.long 0
 	.align 2
 	.long wrapper_delegate_invoke_System_Func_1_Plugin_Geolocator_Abstractions_Address_invoke_TResult
 
-LDIFF_SYM1325=Lme_23 - wrapper_delegate_invoke_System_Func_1_Plugin_Geolocator_Abstractions_Address_invoke_TResult
-	.long LDIFF_SYM1325
+LDIFF_SYM1353=Lme_23 - wrapper_delegate_invoke_System_Func_1_Plugin_Geolocator_Abstractions_Address_invoke_TResult
+	.long LDIFF_SYM1353
 	.byte 68,14,8,135,2,72,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,64,3,204,1,10,68,14,32
 	.byte 68,8,4,8,5,8,6,8,8,8,10,8,11,14,8,68,11
 	.align 2
 Lfde34_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_180:
+LTDIE_185:
 
 	.byte 5
 	.asciz "System_Func`2"
 
 	.byte 56,16
-LDIFF_SYM1326=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM1326
+LDIFF_SYM1354=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM1354
 	.byte 2,35,0,0,7
 	.asciz "System_Func`2"
 
-LDIFF_SYM1327=LTDIE_180 - Ldebug_info_start
-	.long LDIFF_SYM1327
-LTDIE_180_POINTER:
+LDIFF_SYM1355=LTDIE_185 - Ldebug_info_start
+	.long LDIFF_SYM1355
+LTDIE_185_POINTER:
 
 	.byte 13
-LDIFF_SYM1328=LTDIE_180 - Ldebug_info_start
-	.long LDIFF_SYM1328
-LTDIE_180_REFERENCE:
+LDIFF_SYM1356=LTDIE_185 - Ldebug_info_start
+	.long LDIFF_SYM1356
+LTDIE_185_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1329=LTDIE_180 - Ldebug_info_start
-	.long LDIFF_SYM1329
+LDIFF_SYM1357=LTDIE_185 - Ldebug_info_start
+	.long LDIFF_SYM1357
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Func`2<object,_Plugin.Geolocator.Abstractions.Address>:invoke_TResult_T"
 	.asciz "wrapper_delegate_invoke_System_Func_2_object_Plugin_Geolocator_Abstractions_Address_invoke_TResult_T_object"
@@ -12578,114 +12735,114 @@ LDIFF_SYM1329=LTDIE_180 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1330=LTDIE_180_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1330
+LDIFF_SYM1358=LTDIE_185_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1358
 	.byte 1,86,3
 	.asciz "param0"
 
-LDIFF_SYM1331=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1331
+LDIFF_SYM1359=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1359
 	.byte 2,125,24,11
 	.asciz "V_0"
 
-LDIFF_SYM1332=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1332
+LDIFF_SYM1360=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1360
 	.byte 1,85,11
 	.asciz "V_1"
 
-LDIFF_SYM1333=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1333
+LDIFF_SYM1361=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1361
 	.byte 1,84,11
 	.asciz "V_2"
 
-LDIFF_SYM1334=LTDIE_163_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1334
+LDIFF_SYM1362=LTDIE_168_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1362
 	.byte 1,91,11
 	.asciz "V_3"
 
-LDIFF_SYM1335=LTDIE_15_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1335
+LDIFF_SYM1363=LTDIE_15_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1363
 	.byte 1,90,11
 	.asciz "V_4"
 
-LDIFF_SYM1336=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1336
+LDIFF_SYM1364=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1364
 	.byte 2,125,8,11
 	.asciz "V_5"
 
-LDIFF_SYM1337=LTDIE_157_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1337
+LDIFF_SYM1365=LTDIE_162_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1365
 	.byte 2,125,12,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1338=Lfde35_end - Lfde35_start
-	.long LDIFF_SYM1338
+LDIFF_SYM1366=Lfde35_end - Lfde35_start
+	.long LDIFF_SYM1366
 Lfde35_start:
 
 	.long 0
 	.align 2
 	.long wrapper_delegate_invoke_System_Func_2_object_Plugin_Geolocator_Abstractions_Address_invoke_TResult_T_object
 
-LDIFF_SYM1339=Lme_24 - wrapper_delegate_invoke_System_Func_2_object_Plugin_Geolocator_Abstractions_Address_invoke_TResult_T_object
-	.long LDIFF_SYM1339
+LDIFF_SYM1367=Lme_24 - wrapper_delegate_invoke_System_Func_2_object_Plugin_Geolocator_Abstractions_Address_invoke_TResult_T_object
+	.long LDIFF_SYM1367
 	.byte 68,14,8,135,2,72,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,72,3,220,1,10,68,14,32
 	.byte 68,8,4,8,5,8,6,8,8,8,10,8,11,14,8,68,11
 	.align 2
 Lfde35_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_181:
+LTDIE_186:
 
 	.byte 5
 	.asciz "System_Action`1"
 
 	.byte 56,16
-LDIFF_SYM1340=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM1340
+LDIFF_SYM1368=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM1368
 	.byte 2,35,0,0,7
 	.asciz "System_Action`1"
 
-LDIFF_SYM1341=LTDIE_181 - Ldebug_info_start
-	.long LDIFF_SYM1341
-LTDIE_181_POINTER:
+LDIFF_SYM1369=LTDIE_186 - Ldebug_info_start
+	.long LDIFF_SYM1369
+LTDIE_186_POINTER:
 
 	.byte 13
-LDIFF_SYM1342=LTDIE_181 - Ldebug_info_start
-	.long LDIFF_SYM1342
-LTDIE_181_REFERENCE:
+LDIFF_SYM1370=LTDIE_186 - Ldebug_info_start
+	.long LDIFF_SYM1370
+LTDIE_186_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1343=LTDIE_181 - Ldebug_info_start
-	.long LDIFF_SYM1343
-LTDIE_182:
+LDIFF_SYM1371=LTDIE_186 - Ldebug_info_start
+	.long LDIFF_SYM1371
+LTDIE_187:
 
 	.byte 5
 	.asciz "System_Threading_Tasks_Task`1"
 
 	.byte 44,16
-LDIFF_SYM1344=LTDIE_40 - Ldebug_info_start
-	.long LDIFF_SYM1344
+LDIFF_SYM1372=LTDIE_40 - Ldebug_info_start
+	.long LDIFF_SYM1372
 	.byte 2,35,0,6
 	.asciz "m_result"
 
-LDIFF_SYM1345=LTDIE_157_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1345
+LDIFF_SYM1373=LTDIE_162_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1373
 	.byte 2,35,40,0,7
 	.asciz "System_Threading_Tasks_Task`1"
 
-LDIFF_SYM1346=LTDIE_182 - Ldebug_info_start
-	.long LDIFF_SYM1346
-LTDIE_182_POINTER:
+LDIFF_SYM1374=LTDIE_187 - Ldebug_info_start
+	.long LDIFF_SYM1374
+LTDIE_187_POINTER:
 
 	.byte 13
-LDIFF_SYM1347=LTDIE_182 - Ldebug_info_start
-	.long LDIFF_SYM1347
-LTDIE_182_REFERENCE:
+LDIFF_SYM1375=LTDIE_187 - Ldebug_info_start
+	.long LDIFF_SYM1375
+LTDIE_187_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1348=LTDIE_182 - Ldebug_info_start
-	.long LDIFF_SYM1348
+LDIFF_SYM1376=LTDIE_187 - Ldebug_info_start
+	.long LDIFF_SYM1376
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Action`1<System.Threading.Tasks.Task`1<Plugin.Geolocator.Abstractions.Address>>:invoke_void_T"
 	.asciz "wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_Plugin_Geolocator_Abstractions_Address_invoke_void_T_System_Threading_Tasks_Task_1_Plugin_Geolocator_Abstractions_Address"
@@ -12697,81 +12854,81 @@ LDIFF_SYM1348=LTDIE_182 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1349=LTDIE_181_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1349
+LDIFF_SYM1377=LTDIE_186_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1377
 	.byte 1,86,3
 	.asciz "param0"
 
-LDIFF_SYM1350=LTDIE_182_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1350
+LDIFF_SYM1378=LTDIE_187_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1378
 	.byte 2,125,20,11
 	.asciz "V_0"
 
-LDIFF_SYM1351=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1351
+LDIFF_SYM1379=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1379
 	.byte 1,85,11
 	.asciz "V_1"
 
-LDIFF_SYM1352=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1352
+LDIFF_SYM1380=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1380
 	.byte 1,84,11
 	.asciz "V_2"
 
-LDIFF_SYM1353=LTDIE_163_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1353
+LDIFF_SYM1381=LTDIE_168_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1381
 	.byte 1,91,11
 	.asciz "V_3"
 
-LDIFF_SYM1354=LTDIE_15_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1354
+LDIFF_SYM1382=LTDIE_15_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1382
 	.byte 1,90,11
 	.asciz "V_4"
 
-LDIFF_SYM1355=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1355
+LDIFF_SYM1383=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1383
 	.byte 2,125,8,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1356=Lfde36_end - Lfde36_start
-	.long LDIFF_SYM1356
+LDIFF_SYM1384=Lfde36_end - Lfde36_start
+	.long LDIFF_SYM1384
 Lfde36_start:
 
 	.long 0
 	.align 2
 	.long wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_Plugin_Geolocator_Abstractions_Address_invoke_void_T_System_Threading_Tasks_Task_1_Plugin_Geolocator_Abstractions_Address
 
-LDIFF_SYM1357=Lme_25 - wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_Plugin_Geolocator_Abstractions_Address_invoke_void_T_System_Threading_Tasks_Task_1_Plugin_Geolocator_Abstractions_Address
-	.long LDIFF_SYM1357
+LDIFF_SYM1385=Lme_25 - wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_Plugin_Geolocator_Abstractions_Address_invoke_void_T_System_Threading_Tasks_Task_1_Plugin_Geolocator_Abstractions_Address
+	.long LDIFF_SYM1385
 	.byte 68,14,8,135,2,72,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,64,3,192,1,10,68,14,32
 	.byte 68,8,4,8,5,8,6,8,8,8,10,8,11,14,8,68,11
 	.align 2
 Lfde36_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_183:
+LTDIE_188:
 
 	.byte 5
 	.asciz "System_Func`2"
 
 	.byte 56,16
-LDIFF_SYM1358=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM1358
+LDIFF_SYM1386=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM1386
 	.byte 2,35,0,0,7
 	.asciz "System_Func`2"
 
-LDIFF_SYM1359=LTDIE_183 - Ldebug_info_start
-	.long LDIFF_SYM1359
-LTDIE_183_POINTER:
+LDIFF_SYM1387=LTDIE_188 - Ldebug_info_start
+	.long LDIFF_SYM1387
+LTDIE_188_POINTER:
 
 	.byte 13
-LDIFF_SYM1360=LTDIE_183 - Ldebug_info_start
-	.long LDIFF_SYM1360
-LTDIE_183_REFERENCE:
+LDIFF_SYM1388=LTDIE_188 - Ldebug_info_start
+	.long LDIFF_SYM1388
+LTDIE_188_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1361=LTDIE_183 - Ldebug_info_start
-	.long LDIFF_SYM1361
+LDIFF_SYM1389=LTDIE_188 - Ldebug_info_start
+	.long LDIFF_SYM1389
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Func`2<System.IAsyncResult,_Plugin.Geolocator.Abstractions.Address>:invoke_TResult_T"
 	.asciz "wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_Plugin_Geolocator_Abstractions_Address_invoke_TResult_T_System_IAsyncResult"
@@ -12783,86 +12940,86 @@ LDIFF_SYM1361=LTDIE_183 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1362=LTDIE_183_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1362
+LDIFF_SYM1390=LTDIE_188_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1390
 	.byte 1,86,3
 	.asciz "param0"
 
-LDIFF_SYM1363=LTDIE_168_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1363
+LDIFF_SYM1391=LTDIE_173_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1391
 	.byte 2,125,24,11
 	.asciz "V_0"
 
-LDIFF_SYM1364=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1364
+LDIFF_SYM1392=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1392
 	.byte 1,85,11
 	.asciz "V_1"
 
-LDIFF_SYM1365=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1365
+LDIFF_SYM1393=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1393
 	.byte 1,84,11
 	.asciz "V_2"
 
-LDIFF_SYM1366=LTDIE_163_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1366
+LDIFF_SYM1394=LTDIE_168_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1394
 	.byte 1,91,11
 	.asciz "V_3"
 
-LDIFF_SYM1367=LTDIE_15_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1367
+LDIFF_SYM1395=LTDIE_15_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1395
 	.byte 1,90,11
 	.asciz "V_4"
 
-LDIFF_SYM1368=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1368
+LDIFF_SYM1396=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1396
 	.byte 2,125,8,11
 	.asciz "V_5"
 
-LDIFF_SYM1369=LTDIE_157_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1369
+LDIFF_SYM1397=LTDIE_162_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1397
 	.byte 2,125,12,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1370=Lfde37_end - Lfde37_start
-	.long LDIFF_SYM1370
+LDIFF_SYM1398=Lfde37_end - Lfde37_start
+	.long LDIFF_SYM1398
 Lfde37_start:
 
 	.long 0
 	.align 2
 	.long wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_Plugin_Geolocator_Abstractions_Address_invoke_TResult_T_System_IAsyncResult
 
-LDIFF_SYM1371=Lme_26 - wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_Plugin_Geolocator_Abstractions_Address_invoke_TResult_T_System_IAsyncResult
-	.long LDIFF_SYM1371
+LDIFF_SYM1399=Lme_26 - wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_Plugin_Geolocator_Abstractions_Address_invoke_TResult_T_System_IAsyncResult
+	.long LDIFF_SYM1399
 	.byte 68,14,8,135,2,72,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,72,3,220,1,10,68,14,32
 	.byte 68,8,4,8,5,8,6,8,8,8,10,8,11,14,8,68,11
 	.align 2
 Lfde37_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_184:
+LTDIE_189:
 
 	.byte 5
 	.asciz "System_Func`2"
 
 	.byte 56,16
-LDIFF_SYM1372=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM1372
+LDIFF_SYM1400=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM1400
 	.byte 2,35,0,0,7
 	.asciz "System_Func`2"
 
-LDIFF_SYM1373=LTDIE_184 - Ldebug_info_start
-	.long LDIFF_SYM1373
-LTDIE_184_POINTER:
+LDIFF_SYM1401=LTDIE_189 - Ldebug_info_start
+	.long LDIFF_SYM1401
+LTDIE_189_POINTER:
 
 	.byte 13
-LDIFF_SYM1374=LTDIE_184 - Ldebug_info_start
-	.long LDIFF_SYM1374
-LTDIE_184_REFERENCE:
+LDIFF_SYM1402=LTDIE_189 - Ldebug_info_start
+	.long LDIFF_SYM1402
+LTDIE_189_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1375=LTDIE_184 - Ldebug_info_start
-	.long LDIFF_SYM1375
+LDIFF_SYM1403=LTDIE_189 - Ldebug_info_start
+	.long LDIFF_SYM1403
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Func`2<System.Threading.Tasks.Task`1<System.Threading.Tasks.Task>,_System.Threading.Tasks.Task`1<Plugin.Geolocator.Abstractions.Address>>:invoke_TResult_T"
 	.asciz "wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_Plugin_Geolocator_Abstractions_Address_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task"
@@ -12874,57 +13031,57 @@ LDIFF_SYM1375=LTDIE_184 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1376=LTDIE_184_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1376
+LDIFF_SYM1404=LTDIE_189_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1404
 	.byte 1,86,3
 	.asciz "param0"
 
-LDIFF_SYM1377=LTDIE_175_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1377
+LDIFF_SYM1405=LTDIE_180_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1405
 	.byte 2,125,24,11
 	.asciz "V_0"
 
-LDIFF_SYM1378=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1378
+LDIFF_SYM1406=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1406
 	.byte 1,85,11
 	.asciz "V_1"
 
-LDIFF_SYM1379=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1379
+LDIFF_SYM1407=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1407
 	.byte 1,84,11
 	.asciz "V_2"
 
-LDIFF_SYM1380=LTDIE_163_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1380
+LDIFF_SYM1408=LTDIE_168_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1408
 	.byte 1,91,11
 	.asciz "V_3"
 
-LDIFF_SYM1381=LTDIE_15_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1381
+LDIFF_SYM1409=LTDIE_15_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1409
 	.byte 1,90,11
 	.asciz "V_4"
 
-LDIFF_SYM1382=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1382
+LDIFF_SYM1410=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1410
 	.byte 2,125,8,11
 	.asciz "V_5"
 
-LDIFF_SYM1383=LTDIE_182_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1383
+LDIFF_SYM1411=LTDIE_187_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1411
 	.byte 2,125,12,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1384=Lfde38_end - Lfde38_start
-	.long LDIFF_SYM1384
+LDIFF_SYM1412=Lfde38_end - Lfde38_start
+	.long LDIFF_SYM1412
 Lfde38_start:
 
 	.long 0
 	.align 2
 	.long wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_Plugin_Geolocator_Abstractions_Address_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
 
-LDIFF_SYM1385=Lme_27 - wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_Plugin_Geolocator_Abstractions_Address_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
-	.long LDIFF_SYM1385
+LDIFF_SYM1413=Lme_27 - wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_Plugin_Geolocator_Abstractions_Address_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
+	.long LDIFF_SYM1413
 	.byte 68,14,8,135,2,72,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,72,3,220,1,10,68,14,32
 	.byte 68,8,4,8,5,8,6,8,8,8,10,8,11,14,8,68,11
 	.align 2
@@ -12943,22 +13100,22 @@ Lfde38_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1386=LTDIE_163_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1386
+LDIFF_SYM1414=LTDIE_168_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1414
 	.byte 2,125,28,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1387=Lfde39_end - Lfde39_start
-	.long LDIFF_SYM1387
+LDIFF_SYM1415=Lfde39_end - Lfde39_start
+	.long LDIFF_SYM1415
 Lfde39_start:
 
 	.long 0
 	.align 2
 	.long System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF
 
-LDIFF_SYM1388=Lme_28 - System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF
-	.long LDIFF_SYM1388
+LDIFF_SYM1416=Lme_28 - System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF
+	.long LDIFF_SYM1416
 	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,56,3,172,1,10,68,14,12,68,8,8,14,8,68,11
 	.align 2
 Lfde39_end:
@@ -12976,22 +13133,22 @@ Lfde39_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1389=LTDIE_163_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1389
+LDIFF_SYM1417=LTDIE_168_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1417
 	.byte 2,125,8,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1390=Lfde40_end - Lfde40_start
-	.long LDIFF_SYM1390
+LDIFF_SYM1418=Lfde40_end - Lfde40_start
+	.long LDIFF_SYM1418
 Lfde40_start:
 
 	.long 0
 	.align 2
 	.long System_Array_InternalArray__ICollection_get_Count
 
-LDIFF_SYM1391=Lme_29 - System_Array_InternalArray__ICollection_get_Count
-	.long LDIFF_SYM1391
+LDIFF_SYM1419=Lme_29 - System_Array_InternalArray__ICollection_get_Count
+	.long LDIFF_SYM1419
 	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,40,2,140,10,68,14,12,68,8,8,14,8,68,11
 	.align 2
 Lfde40_end:
@@ -13009,22 +13166,22 @@ Lfde40_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1392=LTDIE_163_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1392
+LDIFF_SYM1420=LTDIE_168_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1420
 	.byte 2,125,8,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1393=Lfde41_end - Lfde41_start
-	.long LDIFF_SYM1393
+LDIFF_SYM1421=Lfde41_end - Lfde41_start
+	.long LDIFF_SYM1421
 Lfde41_start:
 
 	.long 0
 	.align 2
 	.long System_Array_InternalArray__ICollection_get_IsReadOnly
 
-LDIFF_SYM1394=Lme_2a - System_Array_InternalArray__ICollection_get_IsReadOnly
-	.long LDIFF_SYM1394
+LDIFF_SYM1422=Lme_2a - System_Array_InternalArray__ICollection_get_IsReadOnly
+	.long LDIFF_SYM1422
 	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,32,2,112,10,68,14,12,68,8,8,14,8,68,11
 	.align 2
 Lfde41_end:
@@ -13042,22 +13199,22 @@ Lfde41_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1395=LTDIE_163_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1395
+LDIFF_SYM1423=LTDIE_168_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1423
 	.byte 2,125,8,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1396=Lfde42_end - Lfde42_start
-	.long LDIFF_SYM1396
+LDIFF_SYM1424=Lfde42_end - Lfde42_start
+	.long LDIFF_SYM1424
 Lfde42_start:
 
 	.long 0
 	.align 2
 	.long System_Array_InternalArray__ICollection_Clear
 
-LDIFF_SYM1397=Lme_2b - System_Array_InternalArray__ICollection_Clear
-	.long LDIFF_SYM1397
+LDIFF_SYM1425=Lme_2b - System_Array_InternalArray__ICollection_Clear
+	.long LDIFF_SYM1425
 	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,32,2,144,10,68,14,12,68,8,8,14,8,68,11
 	.align 2
 Lfde42_end:
@@ -13075,27 +13232,27 @@ Lfde42_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1398=LTDIE_163_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1398
+LDIFF_SYM1426=LTDIE_168_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1426
 	.byte 2,125,12,3
 	.asciz "item"
 
-LDIFF_SYM1399=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1399
+LDIFF_SYM1427=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1427
 	.byte 2,125,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1400=Lfde43_end - Lfde43_start
-	.long LDIFF_SYM1400
+LDIFF_SYM1428=Lfde43_end - Lfde43_start
+	.long LDIFF_SYM1428
 Lfde43_start:
 
 	.long 0
 	.align 2
 	.long System_Array_InternalArray__ICollection_Add_T_REF_T_REF
 
-LDIFF_SYM1401=Lme_2c - System_Array_InternalArray__ICollection_Add_T_REF_T_REF
-	.long LDIFF_SYM1401
+LDIFF_SYM1429=Lme_2c - System_Array_InternalArray__ICollection_Add_T_REF_T_REF
+	.long LDIFF_SYM1429
 	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,40,2,152,10,68,14,12,68,8,8,14,8,68,11
 	.align 2
 Lfde43_end:
@@ -13113,27 +13270,27 @@ Lfde43_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1402=LTDIE_163_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1402
+LDIFF_SYM1430=LTDIE_168_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1430
 	.byte 2,125,12,3
 	.asciz "item"
 
-LDIFF_SYM1403=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1403
+LDIFF_SYM1431=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1431
 	.byte 2,125,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1404=Lfde44_end - Lfde44_start
-	.long LDIFF_SYM1404
+LDIFF_SYM1432=Lfde44_end - Lfde44_start
+	.long LDIFF_SYM1432
 Lfde44_start:
 
 	.long 0
 	.align 2
 	.long System_Array_InternalArray__ICollection_Remove_T_REF_T_REF
 
-LDIFF_SYM1405=Lme_2d - System_Array_InternalArray__ICollection_Remove_T_REF_T_REF
-	.long LDIFF_SYM1405
+LDIFF_SYM1433=Lme_2d - System_Array_InternalArray__ICollection_Remove_T_REF_T_REF
+	.long LDIFF_SYM1433
 	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,40,2,152,10,68,14,12,68,8,8,14,8,68,11
 	.align 2
 Lfde44_end:
@@ -13151,42 +13308,42 @@ Lfde44_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1406=LTDIE_163_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1406
+LDIFF_SYM1434=LTDIE_168_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1434
 	.byte 1,90,3
 	.asciz "item"
 
-LDIFF_SYM1407=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1407
+LDIFF_SYM1435=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1435
 	.byte 2,125,16,11
 	.asciz "length"
 
-LDIFF_SYM1408=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1408
+LDIFF_SYM1436=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1436
 	.byte 1,86,11
 	.asciz "i"
 
-LDIFF_SYM1409=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1409
+LDIFF_SYM1437=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1437
 	.byte 1,85,11
 	.asciz "value"
 
-LDIFF_SYM1410=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1410
+LDIFF_SYM1438=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1438
 	.byte 2,125,8,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1411=Lfde45_end - Lfde45_start
-	.long LDIFF_SYM1411
+LDIFF_SYM1439=Lfde45_end - Lfde45_start
+	.long LDIFF_SYM1439
 Lfde45_start:
 
 	.long 0
 	.align 2
 	.long System_Array_InternalArray__ICollection_Contains_T_REF_T_REF
 
-LDIFF_SYM1412=Lme_2e - System_Array_InternalArray__ICollection_Contains_T_REF_T_REF
-	.long LDIFF_SYM1412
+LDIFF_SYM1440=Lme_2e - System_Array_InternalArray__ICollection_Contains_T_REF_T_REF
+	.long LDIFF_SYM1440
 	.byte 68,14,8,135,2,72,14,24,133,6,134,5,136,4,138,3,142,1,68,14,56,3,232,2,10,68,14,24,68,8,5,8
 	.byte 6,8,8,8,10,14,8,68,11
 	.align 2
@@ -13205,99 +13362,99 @@ Lfde45_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1413=LTDIE_163_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1413
+LDIFF_SYM1441=LTDIE_168_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1441
 	.byte 1,85,3
 	.asciz "array"
 
-LDIFF_SYM1414=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1414
+LDIFF_SYM1442=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1442
 	.byte 2,123,24,3
 	.asciz "arrayIndex"
 
-LDIFF_SYM1415=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1415
+LDIFF_SYM1443=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1443
 	.byte 2,123,28,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1416=Lfde46_end - Lfde46_start
-	.long LDIFF_SYM1416
+LDIFF_SYM1444=Lfde46_end - Lfde46_start
+	.long LDIFF_SYM1444
 Lfde46_start:
 
 	.long 0
 	.align 2
 	.long System_Array_InternalArray__ICollection_CopyTo_T_REF_T_REF___int
 
-LDIFF_SYM1417=Lme_2f - System_Array_InternalArray__ICollection_CopyTo_T_REF_T_REF___int
-	.long LDIFF_SYM1417
+LDIFF_SYM1445=Lme_2f - System_Array_InternalArray__ICollection_CopyTo_T_REF_T_REF___int
+	.long LDIFF_SYM1445
 	.byte 68,14,8,135,2,72,14,28,133,7,134,6,136,5,138,4,139,3,142,1,68,14,80,68,13,11,3,12,1,10,68,13
 	.byte 13,14,28,68,8,5,8,6,8,8,8,10,8,11,14,8,68,11
 	.align 2
 Lfde46_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_185:
+LTDIE_190:
 
 	.byte 5
 	.asciz "System_Predicate`1"
 
 	.byte 56,16
-LDIFF_SYM1418=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM1418
+LDIFF_SYM1446=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM1446
 	.byte 2,35,0,0,7
 	.asciz "System_Predicate`1"
 
-LDIFF_SYM1419=LTDIE_185 - Ldebug_info_start
-	.long LDIFF_SYM1419
-LTDIE_185_POINTER:
+LDIFF_SYM1447=LTDIE_190 - Ldebug_info_start
+	.long LDIFF_SYM1447
+LTDIE_190_POINTER:
 
 	.byte 13
-LDIFF_SYM1420=LTDIE_185 - Ldebug_info_start
-	.long LDIFF_SYM1420
-LTDIE_185_REFERENCE:
+LDIFF_SYM1448=LTDIE_190 - Ldebug_info_start
+	.long LDIFF_SYM1448
+LTDIE_190_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1421=LTDIE_185 - Ldebug_info_start
-	.long LDIFF_SYM1421
-LTDIE_186:
+LDIFF_SYM1449=LTDIE_190 - Ldebug_info_start
+	.long LDIFF_SYM1449
+LTDIE_191:
 
 	.byte 5
 	.asciz "GoWorkTwo_Classes_CameraPixels"
 
 	.byte 32,16
-LDIFF_SYM1422=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1422
+LDIFF_SYM1450=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1450
 	.byte 2,35,0,6
 	.asciz "<Height>k__BackingField"
 
-LDIFF_SYM1423=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1423
+LDIFF_SYM1451=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1451
 	.byte 2,35,8,6
 	.asciz "<Width>k__BackingField"
 
-LDIFF_SYM1424=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1424
+LDIFF_SYM1452=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1452
 	.byte 2,35,12,6
 	.asciz "<Megapixels>k__BackingField"
 
-LDIFF_SYM1425=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1425
+LDIFF_SYM1453=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1453
 	.byte 2,35,16,0,7
 	.asciz "GoWorkTwo_Classes_CameraPixels"
 
-LDIFF_SYM1426=LTDIE_186 - Ldebug_info_start
-	.long LDIFF_SYM1426
-LTDIE_186_POINTER:
+LDIFF_SYM1454=LTDIE_191 - Ldebug_info_start
+	.long LDIFF_SYM1454
+LTDIE_191_POINTER:
 
 	.byte 13
-LDIFF_SYM1427=LTDIE_186 - Ldebug_info_start
-	.long LDIFF_SYM1427
-LTDIE_186_REFERENCE:
+LDIFF_SYM1455=LTDIE_191 - Ldebug_info_start
+	.long LDIFF_SYM1455
+LTDIE_191_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1428=LTDIE_186 - Ldebug_info_start
-	.long LDIFF_SYM1428
+LDIFF_SYM1456=LTDIE_191 - Ldebug_info_start
+	.long LDIFF_SYM1456
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Predicate`1<GoWorkTwo.Classes.CameraPixels>:invoke_bool_T"
 	.asciz "wrapper_delegate_invoke_System_Predicate_1_GoWorkTwo_Classes_CameraPixels_invoke_bool_T_GoWorkTwo_Classes_CameraPixels"
@@ -13309,86 +13466,86 @@ LDIFF_SYM1428=LTDIE_186 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1429=LTDIE_185_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1429
+LDIFF_SYM1457=LTDIE_190_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1457
 	.byte 1,86,3
 	.asciz "param0"
 
-LDIFF_SYM1430=LTDIE_186_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1430
+LDIFF_SYM1458=LTDIE_191_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1458
 	.byte 2,125,24,11
 	.asciz "V_0"
 
-LDIFF_SYM1431=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1431
+LDIFF_SYM1459=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1459
 	.byte 1,85,11
 	.asciz "V_1"
 
-LDIFF_SYM1432=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1432
+LDIFF_SYM1460=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1460
 	.byte 1,84,11
 	.asciz "V_2"
 
-LDIFF_SYM1433=LTDIE_163_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1433
+LDIFF_SYM1461=LTDIE_168_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1461
 	.byte 1,91,11
 	.asciz "V_3"
 
-LDIFF_SYM1434=LTDIE_15_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1434
+LDIFF_SYM1462=LTDIE_15_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1462
 	.byte 1,90,11
 	.asciz "V_4"
 
-LDIFF_SYM1435=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1435
+LDIFF_SYM1463=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1463
 	.byte 2,125,8,11
 	.asciz "V_5"
 
-LDIFF_SYM1436=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1436
+LDIFF_SYM1464=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1464
 	.byte 2,125,12,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1437=Lfde47_end - Lfde47_start
-	.long LDIFF_SYM1437
+LDIFF_SYM1465=Lfde47_end - Lfde47_start
+	.long LDIFF_SYM1465
 Lfde47_start:
 
 	.long 0
 	.align 2
 	.long wrapper_delegate_invoke_System_Predicate_1_GoWorkTwo_Classes_CameraPixels_invoke_bool_T_GoWorkTwo_Classes_CameraPixels
 
-LDIFF_SYM1438=Lme_30 - wrapper_delegate_invoke_System_Predicate_1_GoWorkTwo_Classes_CameraPixels_invoke_bool_T_GoWorkTwo_Classes_CameraPixels
-	.long LDIFF_SYM1438
+LDIFF_SYM1466=Lme_30 - wrapper_delegate_invoke_System_Predicate_1_GoWorkTwo_Classes_CameraPixels_invoke_bool_T_GoWorkTwo_Classes_CameraPixels
+	.long LDIFF_SYM1466
 	.byte 68,14,8,135,2,72,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,72,3,232,1,10,68,14,32
 	.byte 68,8,4,8,5,8,6,8,8,8,10,8,11,14,8,68,11
 	.align 2
 Lfde47_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_187:
+LTDIE_192:
 
 	.byte 5
 	.asciz "System_Action`1"
 
 	.byte 56,16
-LDIFF_SYM1439=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM1439
+LDIFF_SYM1467=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM1467
 	.byte 2,35,0,0,7
 	.asciz "System_Action`1"
 
-LDIFF_SYM1440=LTDIE_187 - Ldebug_info_start
-	.long LDIFF_SYM1440
-LTDIE_187_POINTER:
+LDIFF_SYM1468=LTDIE_192 - Ldebug_info_start
+	.long LDIFF_SYM1468
+LTDIE_192_POINTER:
 
 	.byte 13
-LDIFF_SYM1441=LTDIE_187 - Ldebug_info_start
-	.long LDIFF_SYM1441
-LTDIE_187_REFERENCE:
+LDIFF_SYM1469=LTDIE_192 - Ldebug_info_start
+	.long LDIFF_SYM1469
+LTDIE_192_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1442=LTDIE_187 - Ldebug_info_start
-	.long LDIFF_SYM1442
+LDIFF_SYM1470=LTDIE_192 - Ldebug_info_start
+	.long LDIFF_SYM1470
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Action`1<GoWorkTwo.Classes.CameraPixels>:invoke_void_T"
 	.asciz "wrapper_delegate_invoke_System_Action_1_GoWorkTwo_Classes_CameraPixels_invoke_void_T_GoWorkTwo_Classes_CameraPixels"
@@ -13400,81 +13557,81 @@ LDIFF_SYM1442=LTDIE_187 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1443=LTDIE_187_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1443
+LDIFF_SYM1471=LTDIE_192_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1471
 	.byte 1,86,3
 	.asciz "param0"
 
-LDIFF_SYM1444=LTDIE_186_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1444
+LDIFF_SYM1472=LTDIE_191_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1472
 	.byte 2,125,20,11
 	.asciz "V_0"
 
-LDIFF_SYM1445=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1445
+LDIFF_SYM1473=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1473
 	.byte 1,85,11
 	.asciz "V_1"
 
-LDIFF_SYM1446=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1446
+LDIFF_SYM1474=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1474
 	.byte 1,84,11
 	.asciz "V_2"
 
-LDIFF_SYM1447=LTDIE_163_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1447
+LDIFF_SYM1475=LTDIE_168_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1475
 	.byte 1,91,11
 	.asciz "V_3"
 
-LDIFF_SYM1448=LTDIE_15_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1448
+LDIFF_SYM1476=LTDIE_15_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1476
 	.byte 1,90,11
 	.asciz "V_4"
 
-LDIFF_SYM1449=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1449
+LDIFF_SYM1477=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1477
 	.byte 2,125,8,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1450=Lfde48_end - Lfde48_start
-	.long LDIFF_SYM1450
+LDIFF_SYM1478=Lfde48_end - Lfde48_start
+	.long LDIFF_SYM1478
 Lfde48_start:
 
 	.long 0
 	.align 2
 	.long wrapper_delegate_invoke_System_Action_1_GoWorkTwo_Classes_CameraPixels_invoke_void_T_GoWorkTwo_Classes_CameraPixels
 
-LDIFF_SYM1451=Lme_31 - wrapper_delegate_invoke_System_Action_1_GoWorkTwo_Classes_CameraPixels_invoke_void_T_GoWorkTwo_Classes_CameraPixels
-	.long LDIFF_SYM1451
+LDIFF_SYM1479=Lme_31 - wrapper_delegate_invoke_System_Action_1_GoWorkTwo_Classes_CameraPixels_invoke_void_T_GoWorkTwo_Classes_CameraPixels
+	.long LDIFF_SYM1479
 	.byte 68,14,8,135,2,72,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,64,3,192,1,10,68,14,32
 	.byte 68,8,4,8,5,8,6,8,8,8,10,8,11,14,8,68,11
 	.align 2
 Lfde48_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_188:
+LTDIE_193:
 
 	.byte 5
 	.asciz "System_Comparison`1"
 
 	.byte 56,16
-LDIFF_SYM1452=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM1452
+LDIFF_SYM1480=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM1480
 	.byte 2,35,0,0,7
 	.asciz "System_Comparison`1"
 
-LDIFF_SYM1453=LTDIE_188 - Ldebug_info_start
-	.long LDIFF_SYM1453
-LTDIE_188_POINTER:
+LDIFF_SYM1481=LTDIE_193 - Ldebug_info_start
+	.long LDIFF_SYM1481
+LTDIE_193_POINTER:
 
 	.byte 13
-LDIFF_SYM1454=LTDIE_188 - Ldebug_info_start
-	.long LDIFF_SYM1454
-LTDIE_188_REFERENCE:
+LDIFF_SYM1482=LTDIE_193 - Ldebug_info_start
+	.long LDIFF_SYM1482
+LTDIE_193_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1455=LTDIE_188 - Ldebug_info_start
-	.long LDIFF_SYM1455
+LDIFF_SYM1483=LTDIE_193 - Ldebug_info_start
+	.long LDIFF_SYM1483
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Comparison`1<GoWorkTwo.Classes.CameraPixels>:invoke_int_T_T"
 	.asciz "wrapper_delegate_invoke_System_Comparison_1_GoWorkTwo_Classes_CameraPixels_invoke_int_T_T_GoWorkTwo_Classes_CameraPixels_GoWorkTwo_Classes_CameraPixels"
@@ -13486,101 +13643,101 @@ LDIFF_SYM1455=LTDIE_188 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1456=LTDIE_188_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1456
+LDIFF_SYM1484=LTDIE_193_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1484
 	.byte 1,85,3
 	.asciz "param0"
 
-LDIFF_SYM1457=LTDIE_186_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1457
+LDIFF_SYM1485=LTDIE_191_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1485
 	.byte 2,125,24,3
 	.asciz "param1"
 
-LDIFF_SYM1458=LTDIE_186_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1458
+LDIFF_SYM1486=LTDIE_191_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1486
 	.byte 2,125,28,11
 	.asciz "V_0"
 
-LDIFF_SYM1459=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1459
+LDIFF_SYM1487=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1487
 	.byte 1,84,11
 	.asciz "V_1"
 
-LDIFF_SYM1460=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1460
+LDIFF_SYM1488=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1488
 	.byte 1,91,11
 	.asciz "V_2"
 
-LDIFF_SYM1461=LTDIE_163_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1461
+LDIFF_SYM1489=LTDIE_168_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1489
 	.byte 1,90,11
 	.asciz "V_3"
 
-LDIFF_SYM1462=LTDIE_15_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1462
+LDIFF_SYM1490=LTDIE_15_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1490
 	.byte 1,86,11
 	.asciz "V_4"
 
-LDIFF_SYM1463=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1463
+LDIFF_SYM1491=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1491
 	.byte 2,125,8,11
 	.asciz "V_5"
 
-LDIFF_SYM1464=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1464
+LDIFF_SYM1492=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1492
 	.byte 2,125,12,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1465=Lfde49_end - Lfde49_start
-	.long LDIFF_SYM1465
+LDIFF_SYM1493=Lfde49_end - Lfde49_start
+	.long LDIFF_SYM1493
 Lfde49_start:
 
 	.long 0
 	.align 2
 	.long wrapper_delegate_invoke_System_Comparison_1_GoWorkTwo_Classes_CameraPixels_invoke_int_T_T_GoWorkTwo_Classes_CameraPixels_GoWorkTwo_Classes_CameraPixels
 
-LDIFF_SYM1466=Lme_32 - wrapper_delegate_invoke_System_Comparison_1_GoWorkTwo_Classes_CameraPixels_invoke_int_T_T_GoWorkTwo_Classes_CameraPixels_GoWorkTwo_Classes_CameraPixels
-	.long LDIFF_SYM1466
+LDIFF_SYM1494=Lme_32 - wrapper_delegate_invoke_System_Comparison_1_GoWorkTwo_Classes_CameraPixels_invoke_int_T_T_GoWorkTwo_Classes_CameraPixels_GoWorkTwo_Classes_CameraPixels
+	.long LDIFF_SYM1494
 	.byte 68,14,8,135,2,72,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,72,3,236,1,10,68,14,32
 	.byte 68,8,4,8,5,8,6,8,8,8,10,8,11,14,8,68,11
 	.align 2
 Lfde49_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_189:
+LTDIE_194:
 
 	.byte 5
 	.asciz "System_Nullable`1"
 
 	.byte 20,16
-LDIFF_SYM1467=LTDIE_12 - Ldebug_info_start
-	.long LDIFF_SYM1467
+LDIFF_SYM1495=LTDIE_12 - Ldebug_info_start
+	.long LDIFF_SYM1495
 	.byte 2,35,0,6
 	.asciz "value"
 
-LDIFF_SYM1468=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1468
+LDIFF_SYM1496=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1496
 	.byte 2,35,8,6
 	.asciz "has_value"
 
-LDIFF_SYM1469=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1469
+LDIFF_SYM1497=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1497
 	.byte 2,35,16,0,7
 	.asciz "System_Nullable`1"
 
-LDIFF_SYM1470=LTDIE_189 - Ldebug_info_start
-	.long LDIFF_SYM1470
-LTDIE_189_POINTER:
+LDIFF_SYM1498=LTDIE_194 - Ldebug_info_start
+	.long LDIFF_SYM1498
+LTDIE_194_POINTER:
 
 	.byte 13
-LDIFF_SYM1471=LTDIE_189 - Ldebug_info_start
-	.long LDIFF_SYM1471
-LTDIE_189_REFERENCE:
+LDIFF_SYM1499=LTDIE_194 - Ldebug_info_start
+	.long LDIFF_SYM1499
+LTDIE_194_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1472=LTDIE_189 - Ldebug_info_start
-	.long LDIFF_SYM1472
+LDIFF_SYM1500=LTDIE_194 - Ldebug_info_start
+	.long LDIFF_SYM1500
 	.byte 2
 	.asciz "System.Nullable`1<System.TimeSpan>:.ctor"
 	.asciz "System_Nullable_1_System_TimeSpan__ctor_System_TimeSpan"
@@ -13592,27 +13749,27 @@ LDIFF_SYM1472=LTDIE_189 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1473=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1473
+LDIFF_SYM1501=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1501
 	.byte 2,123,16,3
 	.asciz "value"
 
-LDIFF_SYM1474=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1474
+LDIFF_SYM1502=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1502
 	.byte 2,123,20,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1475=Lfde50_end - Lfde50_start
-	.long LDIFF_SYM1475
+LDIFF_SYM1503=Lfde50_end - Lfde50_start
+	.long LDIFF_SYM1503
 Lfde50_start:
 
 	.long 0
 	.align 2
 	.long System_Nullable_1_System_TimeSpan__ctor_System_TimeSpan
 
-LDIFF_SYM1476=Lme_33 - System_Nullable_1_System_TimeSpan__ctor_System_TimeSpan
-	.long LDIFF_SYM1476
+LDIFF_SYM1504=Lme_33 - System_Nullable_1_System_TimeSpan__ctor_System_TimeSpan
+	.long LDIFF_SYM1504
 	.byte 68,14,8,135,2,72,14,16,136,4,139,3,142,1,68,14,48,68,13,11,2,220,10,68,13,13,14,16,68,8,8,8
 	.byte 11,14,8,68,11
 	.align 2
@@ -13631,22 +13788,22 @@ Lfde50_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1477=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1477
+LDIFF_SYM1505=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1505
 	.byte 2,125,8,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1478=Lfde51_end - Lfde51_start
-	.long LDIFF_SYM1478
+LDIFF_SYM1506=Lfde51_end - Lfde51_start
+	.long LDIFF_SYM1506
 Lfde51_start:
 
 	.long 0
 	.align 2
 	.long System_Nullable_1_System_TimeSpan_get_HasValue
 
-LDIFF_SYM1479=Lme_34 - System_Nullable_1_System_TimeSpan_get_HasValue
-	.long LDIFF_SYM1479
+LDIFF_SYM1507=Lme_34 - System_Nullable_1_System_TimeSpan_get_HasValue
+	.long LDIFF_SYM1507
 	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,32,2,112,10,68,14,12,68,8,8,14,8,68,11
 	.align 2
 Lfde51_end:
@@ -13664,22 +13821,22 @@ Lfde51_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1480=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1480
+LDIFF_SYM1508=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1508
 	.byte 2,125,20,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1481=Lfde52_end - Lfde52_start
-	.long LDIFF_SYM1481
+LDIFF_SYM1509=Lfde52_end - Lfde52_start
+	.long LDIFF_SYM1509
 Lfde52_start:
 
 	.long 0
 	.align 2
 	.long System_Nullable_1_System_TimeSpan_get_Value
 
-LDIFF_SYM1482=Lme_35 - System_Nullable_1_System_TimeSpan_get_Value
-	.long LDIFF_SYM1482
+LDIFF_SYM1510=Lme_35 - System_Nullable_1_System_TimeSpan_get_Value
+	.long LDIFF_SYM1510
 	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,40,3,0,1,10,68,14,12,68,8,8,14,8,68,11
 	.align 2
 Lfde52_end:
@@ -13697,27 +13854,27 @@ Lfde52_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1483=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1483
+LDIFF_SYM1511=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1511
 	.byte 2,125,20,3
 	.asciz "other"
 
-LDIFF_SYM1484=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1484
+LDIFF_SYM1512=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1512
 	.byte 1,90,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1485=Lfde53_end - Lfde53_start
-	.long LDIFF_SYM1485
+LDIFF_SYM1513=Lfde53_end - Lfde53_start
+	.long LDIFF_SYM1513
 Lfde53_start:
 
 	.long 0
 	.align 2
 	.long System_Nullable_1_System_TimeSpan_Equals_object
 
-LDIFF_SYM1486=Lme_36 - System_Nullable_1_System_TimeSpan_Equals_object
-	.long LDIFF_SYM1486
+LDIFF_SYM1514=Lme_36 - System_Nullable_1_System_TimeSpan_Equals_object
+	.long LDIFF_SYM1514
 	.byte 68,14,8,135,2,72,14,24,132,6,133,5,136,4,138,3,142,1,68,14,56,3,176,1,10,68,14,24,68,8,4,8
 	.byte 5,8,8,8,10,14,8,68,11
 	.align 2
@@ -13736,27 +13893,27 @@ Lfde53_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1487=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1487
+LDIFF_SYM1515=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1515
 	.byte 1,90,3
 	.asciz "other"
 
-LDIFF_SYM1488=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1488
+LDIFF_SYM1516=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1516
 	.byte 2,123,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1489=Lfde54_end - Lfde54_start
-	.long LDIFF_SYM1489
+LDIFF_SYM1517=Lfde54_end - Lfde54_start
+	.long LDIFF_SYM1517
 Lfde54_start:
 
 	.long 0
 	.align 2
 	.long System_Nullable_1_System_TimeSpan_Equals_System_Nullable_1_System_TimeSpan
 
-LDIFF_SYM1490=Lme_37 - System_Nullable_1_System_TimeSpan_Equals_System_Nullable_1_System_TimeSpan
-	.long LDIFF_SYM1490
+LDIFF_SYM1518=Lme_37 - System_Nullable_1_System_TimeSpan_Equals_System_Nullable_1_System_TimeSpan
+	.long LDIFF_SYM1518
 	.byte 68,14,8,135,2,72,14,20,136,5,138,4,139,3,142,1,68,14,64,68,13,11,3,136,1,10,68,13,13,14,20,68
 	.byte 8,8,8,10,8,11,14,8,68,11
 	.align 2
@@ -13775,22 +13932,22 @@ Lfde54_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1491=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1491
+LDIFF_SYM1519=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1519
 	.byte 2,125,8,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1492=Lfde55_end - Lfde55_start
-	.long LDIFF_SYM1492
+LDIFF_SYM1520=Lfde55_end - Lfde55_start
+	.long LDIFF_SYM1520
 Lfde55_start:
 
 	.long 0
 	.align 2
 	.long System_Nullable_1_System_TimeSpan_GetHashCode
 
-LDIFF_SYM1493=Lme_38 - System_Nullable_1_System_TimeSpan_GetHashCode
-	.long LDIFF_SYM1493
+LDIFF_SYM1521=Lme_38 - System_Nullable_1_System_TimeSpan_GetHashCode
+	.long LDIFF_SYM1521
 	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,40,2,208,10,68,14,12,68,8,8,14,8,68,11
 	.align 2
 Lfde55_end:
@@ -13808,22 +13965,22 @@ Lfde55_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1494=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1494
+LDIFF_SYM1522=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1522
 	.byte 2,125,20,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1495=Lfde56_end - Lfde56_start
-	.long LDIFF_SYM1495
+LDIFF_SYM1523=Lfde56_end - Lfde56_start
+	.long LDIFF_SYM1523
 Lfde56_start:
 
 	.long 0
 	.align 2
 	.long System_Nullable_1_System_TimeSpan_GetValueOrDefault
 
-LDIFF_SYM1496=Lme_39 - System_Nullable_1_System_TimeSpan_GetValueOrDefault
-	.long LDIFF_SYM1496
+LDIFF_SYM1524=Lme_39 - System_Nullable_1_System_TimeSpan_GetValueOrDefault
+	.long LDIFF_SYM1524
 	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,40,2,160,10,68,14,12,68,8,8,14,8,68,11
 	.align 2
 Lfde56_end:
@@ -13841,27 +13998,27 @@ Lfde56_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1497=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1497
+LDIFF_SYM1525=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1525
 	.byte 2,123,28,3
 	.asciz "defaultValue"
 
-LDIFF_SYM1498=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1498
+LDIFF_SYM1526=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1526
 	.byte 2,123,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1499=Lfde57_end - Lfde57_start
-	.long LDIFF_SYM1499
+LDIFF_SYM1527=Lfde57_end - Lfde57_start
+	.long LDIFF_SYM1527
 Lfde57_start:
 
 	.long 0
 	.align 2
 	.long System_Nullable_1_System_TimeSpan_GetValueOrDefault_System_TimeSpan
 
-LDIFF_SYM1500=Lme_3a - System_Nullable_1_System_TimeSpan_GetValueOrDefault_System_TimeSpan
-	.long LDIFF_SYM1500
+LDIFF_SYM1528=Lme_3a - System_Nullable_1_System_TimeSpan_GetValueOrDefault_System_TimeSpan
+	.long LDIFF_SYM1528
 	.byte 68,14,8,135,2,72,14,16,136,4,139,3,142,1,68,14,56,68,13,11,2,240,10,68,13,13,14,16,68,8,8,8
 	.byte 11,14,8,68,11
 	.align 2
@@ -13880,22 +14037,22 @@ Lfde57_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1501=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1501
+LDIFF_SYM1529=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1529
 	.byte 2,125,8,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1502=Lfde58_end - Lfde58_start
-	.long LDIFF_SYM1502
+LDIFF_SYM1530=Lfde58_end - Lfde58_start
+	.long LDIFF_SYM1530
 Lfde58_start:
 
 	.long 0
 	.align 2
 	.long System_Nullable_1_System_TimeSpan_ToString
 
-LDIFF_SYM1503=Lme_3b - System_Nullable_1_System_TimeSpan_ToString
-	.long LDIFF_SYM1503
+LDIFF_SYM1531=Lme_3b - System_Nullable_1_System_TimeSpan_ToString
+	.long LDIFF_SYM1531
 	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,40,2,220,10,68,14,12,68,8,8,14,8,68,11
 	.align 2
 Lfde58_end:
@@ -13913,22 +14070,22 @@ Lfde58_end:
 	.byte 2,118,16,3
 	.asciz "o"
 
-LDIFF_SYM1504=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1504
+LDIFF_SYM1532=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1532
 	.byte 2,123,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1505=Lfde59_end - Lfde59_start
-	.long LDIFF_SYM1505
+LDIFF_SYM1533=Lfde59_end - Lfde59_start
+	.long LDIFF_SYM1533
 Lfde59_start:
 
 	.long 0
 	.align 2
 	.long System_Nullable_1_System_TimeSpan_Box_System_Nullable_1_System_TimeSpan
 
-LDIFF_SYM1506=Lme_3c - System_Nullable_1_System_TimeSpan_Box_System_Nullable_1_System_TimeSpan
-	.long LDIFF_SYM1506
+LDIFF_SYM1534=Lme_3c - System_Nullable_1_System_TimeSpan_Box_System_Nullable_1_System_TimeSpan
+	.long LDIFF_SYM1534
 	.byte 68,14,8,135,2,72,14,16,136,4,139,3,142,1,68,14,48,68,13,11,3,0,1,10,68,13,13,14,16,68,8,8
 	.byte 8,11,14,8,68,11
 	.align 2
@@ -13947,65 +14104,65 @@ Lfde59_end:
 	.byte 2,118,16,3
 	.asciz "o"
 
-LDIFF_SYM1507=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1507
+LDIFF_SYM1535=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1535
 	.byte 3,125,196,0,11
 	.asciz "V_0"
 
-LDIFF_SYM1508=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1508
+LDIFF_SYM1536=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1536
 	.byte 2,125,12,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1509=Lfde60_end - Lfde60_start
-	.long LDIFF_SYM1509
+LDIFF_SYM1537=Lfde60_end - Lfde60_start
+	.long LDIFF_SYM1537
 Lfde60_start:
 
 	.long 0
 	.align 2
 	.long System_Nullable_1_System_TimeSpan_Unbox_object
 
-LDIFF_SYM1510=Lme_3d - System_Nullable_1_System_TimeSpan_Unbox_object
-	.long LDIFF_SYM1510
+LDIFF_SYM1538=Lme_3d - System_Nullable_1_System_TimeSpan_Unbox_object
+	.long LDIFF_SYM1538
 	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,88,3,20,2,10,68,14,12,68,8,8,14,8,68,11
 	.align 2
 Lfde60_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_190:
+LTDIE_195:
 
 	.byte 5
 	.asciz "System_Nullable`1"
 
 	.byte 16,16
-LDIFF_SYM1511=LTDIE_12 - Ldebug_info_start
-	.long LDIFF_SYM1511
+LDIFF_SYM1539=LTDIE_12 - Ldebug_info_start
+	.long LDIFF_SYM1539
 	.byte 2,35,0,6
 	.asciz "value"
 
-LDIFF_SYM1512=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1512
+LDIFF_SYM1540=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1540
 	.byte 2,35,8,6
 	.asciz "has_value"
 
-LDIFF_SYM1513=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1513
+LDIFF_SYM1541=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1541
 	.byte 2,35,12,0,7
 	.asciz "System_Nullable`1"
 
-LDIFF_SYM1514=LTDIE_190 - Ldebug_info_start
-	.long LDIFF_SYM1514
-LTDIE_190_POINTER:
+LDIFF_SYM1542=LTDIE_195 - Ldebug_info_start
+	.long LDIFF_SYM1542
+LTDIE_195_POINTER:
 
 	.byte 13
-LDIFF_SYM1515=LTDIE_190 - Ldebug_info_start
-	.long LDIFF_SYM1515
-LTDIE_190_REFERENCE:
+LDIFF_SYM1543=LTDIE_195 - Ldebug_info_start
+	.long LDIFF_SYM1543
+LTDIE_195_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1516=LTDIE_190 - Ldebug_info_start
-	.long LDIFF_SYM1516
+LDIFF_SYM1544=LTDIE_195 - Ldebug_info_start
+	.long LDIFF_SYM1544
 	.byte 2
 	.asciz "System.Nullable`1<System.Threading.CancellationToken>:.ctor"
 	.asciz "System_Nullable_1_System_Threading_CancellationToken__ctor_System_Threading_CancellationToken"
@@ -14017,27 +14174,27 @@ LDIFF_SYM1516=LTDIE_190 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1517=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1517
+LDIFF_SYM1545=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1545
 	.byte 2,123,12,3
 	.asciz "value"
 
-LDIFF_SYM1518=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1518
+LDIFF_SYM1546=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1546
 	.byte 2,123,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1519=Lfde61_end - Lfde61_start
-	.long LDIFF_SYM1519
+LDIFF_SYM1547=Lfde61_end - Lfde61_start
+	.long LDIFF_SYM1547
 Lfde61_start:
 
 	.long 0
 	.align 2
 	.long System_Nullable_1_System_Threading_CancellationToken__ctor_System_Threading_CancellationToken
 
-LDIFF_SYM1520=Lme_3e - System_Nullable_1_System_Threading_CancellationToken__ctor_System_Threading_CancellationToken
-	.long LDIFF_SYM1520
+LDIFF_SYM1548=Lme_3e - System_Nullable_1_System_Threading_CancellationToken__ctor_System_Threading_CancellationToken
+	.long LDIFF_SYM1548
 	.byte 68,14,8,135,2,72,14,16,136,4,139,3,142,1,68,14,40,68,13,11,2,236,10,68,13,13,14,16,68,8,8,8
 	.byte 11,14,8,68,11
 	.align 2
@@ -14056,22 +14213,22 @@ Lfde61_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1521=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1521
+LDIFF_SYM1549=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1549
 	.byte 2,125,8,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1522=Lfde62_end - Lfde62_start
-	.long LDIFF_SYM1522
+LDIFF_SYM1550=Lfde62_end - Lfde62_start
+	.long LDIFF_SYM1550
 Lfde62_start:
 
 	.long 0
 	.align 2
 	.long System_Nullable_1_System_Threading_CancellationToken_get_HasValue
 
-LDIFF_SYM1523=Lme_3f - System_Nullable_1_System_Threading_CancellationToken_get_HasValue
-	.long LDIFF_SYM1523
+LDIFF_SYM1551=Lme_3f - System_Nullable_1_System_Threading_CancellationToken_get_HasValue
+	.long LDIFF_SYM1551
 	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,32,2,112,10,68,14,12,68,8,8,14,8,68,11
 	.align 2
 Lfde62_end:
@@ -14089,22 +14246,22 @@ Lfde62_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1524=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1524
+LDIFF_SYM1552=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1552
 	.byte 2,125,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1525=Lfde63_end - Lfde63_start
-	.long LDIFF_SYM1525
+LDIFF_SYM1553=Lfde63_end - Lfde63_start
+	.long LDIFF_SYM1553
 Lfde63_start:
 
 	.long 0
 	.align 2
 	.long System_Nullable_1_System_Threading_CancellationToken_get_Value
 
-LDIFF_SYM1526=Lme_40 - System_Nullable_1_System_Threading_CancellationToken_get_Value
-	.long LDIFF_SYM1526
+LDIFF_SYM1554=Lme_40 - System_Nullable_1_System_Threading_CancellationToken_get_Value
+	.long LDIFF_SYM1554
 	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,40,3,20,1,10,68,14,12,68,8,8,14,8,68,11
 	.align 2
 Lfde63_end:
@@ -14122,27 +14279,27 @@ Lfde63_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1527=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1527
+LDIFF_SYM1555=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1555
 	.byte 2,125,16,3
 	.asciz "other"
 
-LDIFF_SYM1528=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1528
+LDIFF_SYM1556=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1556
 	.byte 1,90,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1529=Lfde64_end - Lfde64_start
-	.long LDIFF_SYM1529
+LDIFF_SYM1557=Lfde64_end - Lfde64_start
+	.long LDIFF_SYM1557
 Lfde64_start:
 
 	.long 0
 	.align 2
 	.long System_Nullable_1_System_Threading_CancellationToken_Equals_object
 
-LDIFF_SYM1530=Lme_41 - System_Nullable_1_System_Threading_CancellationToken_Equals_object
-	.long LDIFF_SYM1530
+LDIFF_SYM1558=Lme_41 - System_Nullable_1_System_Threading_CancellationToken_Equals_object
+	.long LDIFF_SYM1558
 	.byte 68,14,8,135,2,72,14,24,132,6,133,5,136,4,138,3,142,1,68,14,56,3,172,1,10,68,14,24,68,8,4,8
 	.byte 5,8,8,8,10,14,8,68,11
 	.align 2
@@ -14161,27 +14318,27 @@ Lfde64_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1531=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1531
+LDIFF_SYM1559=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1559
 	.byte 1,90,3
 	.asciz "other"
 
-LDIFF_SYM1532=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1532
+LDIFF_SYM1560=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1560
 	.byte 2,123,12,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1533=Lfde65_end - Lfde65_start
-	.long LDIFF_SYM1533
+LDIFF_SYM1561=Lfde65_end - Lfde65_start
+	.long LDIFF_SYM1561
 Lfde65_start:
 
 	.long 0
 	.align 2
 	.long System_Nullable_1_System_Threading_CancellationToken_Equals_System_Nullable_1_System_Threading_CancellationToken
 
-LDIFF_SYM1534=Lme_42 - System_Nullable_1_System_Threading_CancellationToken_Equals_System_Nullable_1_System_Threading_CancellationToken
-	.long LDIFF_SYM1534
+LDIFF_SYM1562=Lme_42 - System_Nullable_1_System_Threading_CancellationToken_Equals_System_Nullable_1_System_Threading_CancellationToken
+	.long LDIFF_SYM1562
 	.byte 68,14,8,135,2,72,14,20,136,5,138,4,139,3,142,1,68,14,56,68,13,11,3,152,1,10,68,13,13,14,20,68
 	.byte 8,8,8,10,8,11,14,8,68,11
 	.align 2
@@ -14200,22 +14357,22 @@ Lfde65_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1535=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1535
+LDIFF_SYM1563=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1563
 	.byte 2,125,8,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1536=Lfde66_end - Lfde66_start
-	.long LDIFF_SYM1536
+LDIFF_SYM1564=Lfde66_end - Lfde66_start
+	.long LDIFF_SYM1564
 Lfde66_start:
 
 	.long 0
 	.align 2
 	.long System_Nullable_1_System_Threading_CancellationToken_GetHashCode
 
-LDIFF_SYM1537=Lme_43 - System_Nullable_1_System_Threading_CancellationToken_GetHashCode
-	.long LDIFF_SYM1537
+LDIFF_SYM1565=Lme_43 - System_Nullable_1_System_Threading_CancellationToken_GetHashCode
+	.long LDIFF_SYM1565
 	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,40,2,208,10,68,14,12,68,8,8,14,8,68,11
 	.align 2
 Lfde66_end:
@@ -14233,22 +14390,22 @@ Lfde66_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1538=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1538
+LDIFF_SYM1566=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1566
 	.byte 2,125,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1539=Lfde67_end - Lfde67_start
-	.long LDIFF_SYM1539
+LDIFF_SYM1567=Lfde67_end - Lfde67_start
+	.long LDIFF_SYM1567
 Lfde67_start:
 
 	.long 0
 	.align 2
 	.long System_Nullable_1_System_Threading_CancellationToken_GetValueOrDefault
 
-LDIFF_SYM1540=Lme_44 - System_Nullable_1_System_Threading_CancellationToken_GetValueOrDefault
-	.long LDIFF_SYM1540
+LDIFF_SYM1568=Lme_44 - System_Nullable_1_System_Threading_CancellationToken_GetValueOrDefault
+	.long LDIFF_SYM1568
 	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,40,2,180,10,68,14,12,68,8,8,14,8,68,11
 	.align 2
 Lfde67_end:
@@ -14266,27 +14423,27 @@ Lfde67_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1541=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1541
+LDIFF_SYM1569=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1569
 	.byte 2,123,20,3
 	.asciz "defaultValue"
 
-LDIFF_SYM1542=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1542
+LDIFF_SYM1570=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1570
 	.byte 2,123,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1543=Lfde68_end - Lfde68_start
-	.long LDIFF_SYM1543
+LDIFF_SYM1571=Lfde68_end - Lfde68_start
+	.long LDIFF_SYM1571
 Lfde68_start:
 
 	.long 0
 	.align 2
 	.long System_Nullable_1_System_Threading_CancellationToken_GetValueOrDefault_System_Threading_CancellationToken
 
-LDIFF_SYM1544=Lme_45 - System_Nullable_1_System_Threading_CancellationToken_GetValueOrDefault_System_Threading_CancellationToken
-	.long LDIFF_SYM1544
+LDIFF_SYM1572=Lme_45 - System_Nullable_1_System_Threading_CancellationToken_GetValueOrDefault_System_Threading_CancellationToken
+	.long LDIFF_SYM1572
 	.byte 68,14,8,135,2,72,14,16,136,4,139,3,142,1,68,14,48,68,13,11,3,20,1,10,68,13,13,14,16,68,8,8
 	.byte 8,11,14,8,68,11
 	.align 2
@@ -14305,22 +14462,22 @@ Lfde68_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1545=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1545
+LDIFF_SYM1573=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1573
 	.byte 2,125,12,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1546=Lfde69_end - Lfde69_start
-	.long LDIFF_SYM1546
+LDIFF_SYM1574=Lfde69_end - Lfde69_start
+	.long LDIFF_SYM1574
 Lfde69_start:
 
 	.long 0
 	.align 2
 	.long System_Nullable_1_System_Threading_CancellationToken_ToString
 
-LDIFF_SYM1547=Lme_46 - System_Nullable_1_System_Threading_CancellationToken_ToString
-	.long LDIFF_SYM1547
+LDIFF_SYM1575=Lme_46 - System_Nullable_1_System_Threading_CancellationToken_ToString
+	.long LDIFF_SYM1575
 	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,40,3,72,1,10,68,14,12,68,8,8,14,8,68,11
 	.align 2
 Lfde69_end:
@@ -14338,22 +14495,22 @@ Lfde69_end:
 	.byte 2,118,16,3
 	.asciz "o"
 
-LDIFF_SYM1548=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1548
+LDIFF_SYM1576=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1576
 	.byte 2,123,12,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1549=Lfde70_end - Lfde70_start
-	.long LDIFF_SYM1549
+LDIFF_SYM1577=Lfde70_end - Lfde70_start
+	.long LDIFF_SYM1577
 Lfde70_start:
 
 	.long 0
 	.align 2
 	.long System_Nullable_1_System_Threading_CancellationToken_Box_System_Nullable_1_System_Threading_CancellationToken
 
-LDIFF_SYM1550=Lme_47 - System_Nullable_1_System_Threading_CancellationToken_Box_System_Nullable_1_System_Threading_CancellationToken
-	.long LDIFF_SYM1550
+LDIFF_SYM1578=Lme_47 - System_Nullable_1_System_Threading_CancellationToken_Box_System_Nullable_1_System_Threading_CancellationToken
+	.long LDIFF_SYM1578
 	.byte 68,14,8,135,2,72,14,16,136,4,139,3,142,1,68,14,40,68,13,11,3,16,1,10,68,13,13,14,16,68,8,8
 	.byte 8,11,14,8,68,11
 	.align 2
@@ -14372,55 +14529,55 @@ Lfde70_end:
 	.byte 2,118,16,3
 	.asciz "o"
 
-LDIFF_SYM1551=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1551
+LDIFF_SYM1579=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1579
 	.byte 2,125,48,11
 	.asciz "V_0"
 
-LDIFF_SYM1552=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1552
+LDIFF_SYM1580=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1580
 	.byte 2,125,12,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1553=Lfde71_end - Lfde71_start
-	.long LDIFF_SYM1553
+LDIFF_SYM1581=Lfde71_end - Lfde71_start
+	.long LDIFF_SYM1581
 Lfde71_start:
 
 	.long 0
 	.align 2
 	.long System_Nullable_1_System_Threading_CancellationToken_Unbox_object
 
-LDIFF_SYM1554=Lme_48 - System_Nullable_1_System_Threading_CancellationToken_Unbox_object
-	.long LDIFF_SYM1554
+LDIFF_SYM1582=Lme_48 - System_Nullable_1_System_Threading_CancellationToken_Unbox_object
+	.long LDIFF_SYM1582
 	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,72,3,32,2,10,68,14,12,68,8,8,14,8,68,11
 	.align 2
 Lfde71_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_191:
+LTDIE_196:
 
 	.byte 5
 	.asciz "System_Func`1"
 
 	.byte 56,16
-LDIFF_SYM1555=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM1555
+LDIFF_SYM1583=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM1583
 	.byte 2,35,0,0,7
 	.asciz "System_Func`1"
 
-LDIFF_SYM1556=LTDIE_191 - Ldebug_info_start
-	.long LDIFF_SYM1556
-LTDIE_191_POINTER:
+LDIFF_SYM1584=LTDIE_196 - Ldebug_info_start
+	.long LDIFF_SYM1584
+LTDIE_196_POINTER:
 
 	.byte 13
-LDIFF_SYM1557=LTDIE_191 - Ldebug_info_start
-	.long LDIFF_SYM1557
-LTDIE_191_REFERENCE:
+LDIFF_SYM1585=LTDIE_196 - Ldebug_info_start
+	.long LDIFF_SYM1585
+LTDIE_196_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1558=LTDIE_191 - Ldebug_info_start
-	.long LDIFF_SYM1558
+LDIFF_SYM1586=LTDIE_196 - Ldebug_info_start
+	.long LDIFF_SYM1586
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Func`1<System.Collections.Generic.IEnumerable`1<Plugin.Geolocator.Abstractions.Address>>:invoke_TResult"
 	.asciz "wrapper_delegate_invoke_System_Func_1_System_Collections_Generic_IEnumerable_1_Plugin_Geolocator_Abstractions_Address_invoke_TResult"
@@ -14432,81 +14589,81 @@ LDIFF_SYM1558=LTDIE_191 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1559=LTDIE_191_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1559
+LDIFF_SYM1587=LTDIE_196_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1587
 	.byte 1,90,11
 	.asciz "V_0"
 
-LDIFF_SYM1560=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1560
+LDIFF_SYM1588=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1588
 	.byte 1,86,11
 	.asciz "V_1"
 
-LDIFF_SYM1561=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1561
+LDIFF_SYM1589=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1589
 	.byte 1,85,11
 	.asciz "V_2"
 
-LDIFF_SYM1562=LTDIE_163_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1562
+LDIFF_SYM1590=LTDIE_168_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1590
 	.byte 1,84,11
 	.asciz "V_3"
 
-LDIFF_SYM1563=LTDIE_15_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1563
+LDIFF_SYM1591=LTDIE_15_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1591
 	.byte 1,91,11
 	.asciz "V_4"
 
-LDIFF_SYM1564=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1564
+LDIFF_SYM1592=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1592
 	.byte 2,125,8,11
 	.asciz "V_5"
 
-LDIFF_SYM1565=LTDIE_156_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1565
+LDIFF_SYM1593=LTDIE_161_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1593
 	.byte 2,125,12,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1566=Lfde72_end - Lfde72_start
-	.long LDIFF_SYM1566
+LDIFF_SYM1594=Lfde72_end - Lfde72_start
+	.long LDIFF_SYM1594
 Lfde72_start:
 
 	.long 0
 	.align 2
 	.long wrapper_delegate_invoke_System_Func_1_System_Collections_Generic_IEnumerable_1_Plugin_Geolocator_Abstractions_Address_invoke_TResult
 
-LDIFF_SYM1567=Lme_49 - wrapper_delegate_invoke_System_Func_1_System_Collections_Generic_IEnumerable_1_Plugin_Geolocator_Abstractions_Address_invoke_TResult
-	.long LDIFF_SYM1567
+LDIFF_SYM1595=Lme_49 - wrapper_delegate_invoke_System_Func_1_System_Collections_Generic_IEnumerable_1_Plugin_Geolocator_Abstractions_Address_invoke_TResult
+	.long LDIFF_SYM1595
 	.byte 68,14,8,135,2,72,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,64,3,204,1,10,68,14,32
 	.byte 68,8,4,8,5,8,6,8,8,8,10,8,11,14,8,68,11
 	.align 2
 Lfde72_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_192:
+LTDIE_197:
 
 	.byte 5
 	.asciz "System_Func`2"
 
 	.byte 56,16
-LDIFF_SYM1568=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM1568
+LDIFF_SYM1596=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM1596
 	.byte 2,35,0,0,7
 	.asciz "System_Func`2"
 
-LDIFF_SYM1569=LTDIE_192 - Ldebug_info_start
-	.long LDIFF_SYM1569
-LTDIE_192_POINTER:
+LDIFF_SYM1597=LTDIE_197 - Ldebug_info_start
+	.long LDIFF_SYM1597
+LTDIE_197_POINTER:
 
 	.byte 13
-LDIFF_SYM1570=LTDIE_192 - Ldebug_info_start
-	.long LDIFF_SYM1570
-LTDIE_192_REFERENCE:
+LDIFF_SYM1598=LTDIE_197 - Ldebug_info_start
+	.long LDIFF_SYM1598
+LTDIE_197_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1571=LTDIE_192 - Ldebug_info_start
-	.long LDIFF_SYM1571
+LDIFF_SYM1599=LTDIE_197 - Ldebug_info_start
+	.long LDIFF_SYM1599
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Func`2<object,_System.Collections.Generic.IEnumerable`1<Plugin.Geolocator.Abstractions.Address>>:invoke_TResult_T"
 	.asciz "wrapper_delegate_invoke_System_Func_2_object_System_Collections_Generic_IEnumerable_1_Plugin_Geolocator_Abstractions_Address_invoke_TResult_T_object"
@@ -14518,114 +14675,114 @@ LDIFF_SYM1571=LTDIE_192 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1572=LTDIE_192_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1572
+LDIFF_SYM1600=LTDIE_197_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1600
 	.byte 1,86,3
 	.asciz "param0"
 
-LDIFF_SYM1573=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1573
+LDIFF_SYM1601=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1601
 	.byte 2,125,24,11
 	.asciz "V_0"
 
-LDIFF_SYM1574=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1574
+LDIFF_SYM1602=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1602
 	.byte 1,85,11
 	.asciz "V_1"
 
-LDIFF_SYM1575=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1575
+LDIFF_SYM1603=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1603
 	.byte 1,84,11
 	.asciz "V_2"
 
-LDIFF_SYM1576=LTDIE_163_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1576
+LDIFF_SYM1604=LTDIE_168_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1604
 	.byte 1,91,11
 	.asciz "V_3"
 
-LDIFF_SYM1577=LTDIE_15_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1577
+LDIFF_SYM1605=LTDIE_15_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1605
 	.byte 1,90,11
 	.asciz "V_4"
 
-LDIFF_SYM1578=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1578
+LDIFF_SYM1606=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1606
 	.byte 2,125,8,11
 	.asciz "V_5"
 
-LDIFF_SYM1579=LTDIE_156_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1579
+LDIFF_SYM1607=LTDIE_161_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1607
 	.byte 2,125,12,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1580=Lfde73_end - Lfde73_start
-	.long LDIFF_SYM1580
+LDIFF_SYM1608=Lfde73_end - Lfde73_start
+	.long LDIFF_SYM1608
 Lfde73_start:
 
 	.long 0
 	.align 2
 	.long wrapper_delegate_invoke_System_Func_2_object_System_Collections_Generic_IEnumerable_1_Plugin_Geolocator_Abstractions_Address_invoke_TResult_T_object
 
-LDIFF_SYM1581=Lme_4a - wrapper_delegate_invoke_System_Func_2_object_System_Collections_Generic_IEnumerable_1_Plugin_Geolocator_Abstractions_Address_invoke_TResult_T_object
-	.long LDIFF_SYM1581
+LDIFF_SYM1609=Lme_4a - wrapper_delegate_invoke_System_Func_2_object_System_Collections_Generic_IEnumerable_1_Plugin_Geolocator_Abstractions_Address_invoke_TResult_T_object
+	.long LDIFF_SYM1609
 	.byte 68,14,8,135,2,72,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,72,3,220,1,10,68,14,32
 	.byte 68,8,4,8,5,8,6,8,8,8,10,8,11,14,8,68,11
 	.align 2
 Lfde73_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_193:
+LTDIE_198:
 
 	.byte 5
 	.asciz "System_Action`1"
 
 	.byte 56,16
-LDIFF_SYM1582=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM1582
+LDIFF_SYM1610=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM1610
 	.byte 2,35,0,0,7
 	.asciz "System_Action`1"
 
-LDIFF_SYM1583=LTDIE_193 - Ldebug_info_start
-	.long LDIFF_SYM1583
-LTDIE_193_POINTER:
+LDIFF_SYM1611=LTDIE_198 - Ldebug_info_start
+	.long LDIFF_SYM1611
+LTDIE_198_POINTER:
 
 	.byte 13
-LDIFF_SYM1584=LTDIE_193 - Ldebug_info_start
-	.long LDIFF_SYM1584
-LTDIE_193_REFERENCE:
+LDIFF_SYM1612=LTDIE_198 - Ldebug_info_start
+	.long LDIFF_SYM1612
+LTDIE_198_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1585=LTDIE_193 - Ldebug_info_start
-	.long LDIFF_SYM1585
-LTDIE_194:
+LDIFF_SYM1613=LTDIE_198 - Ldebug_info_start
+	.long LDIFF_SYM1613
+LTDIE_199:
 
 	.byte 5
 	.asciz "System_Threading_Tasks_Task`1"
 
 	.byte 44,16
-LDIFF_SYM1586=LTDIE_40 - Ldebug_info_start
-	.long LDIFF_SYM1586
+LDIFF_SYM1614=LTDIE_40 - Ldebug_info_start
+	.long LDIFF_SYM1614
 	.byte 2,35,0,6
 	.asciz "m_result"
 
-LDIFF_SYM1587=LTDIE_156_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1587
+LDIFF_SYM1615=LTDIE_161_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1615
 	.byte 2,35,40,0,7
 	.asciz "System_Threading_Tasks_Task`1"
 
-LDIFF_SYM1588=LTDIE_194 - Ldebug_info_start
-	.long LDIFF_SYM1588
-LTDIE_194_POINTER:
+LDIFF_SYM1616=LTDIE_199 - Ldebug_info_start
+	.long LDIFF_SYM1616
+LTDIE_199_POINTER:
 
 	.byte 13
-LDIFF_SYM1589=LTDIE_194 - Ldebug_info_start
-	.long LDIFF_SYM1589
-LTDIE_194_REFERENCE:
+LDIFF_SYM1617=LTDIE_199 - Ldebug_info_start
+	.long LDIFF_SYM1617
+LTDIE_199_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1590=LTDIE_194 - Ldebug_info_start
-	.long LDIFF_SYM1590
+LDIFF_SYM1618=LTDIE_199 - Ldebug_info_start
+	.long LDIFF_SYM1618
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Action`1<System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<Plugin.Geolocator.Abstractions.Address>>>:invoke_void_T"
 	.asciz "wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Collections_Generic_IEnumerable_1_Plugin_Geolocator_Abstractions_Address_invoke_void_T_System_Threading_Tasks_Task_1_System_Collections_Generic_IEnumerable_1_Plugin_Geolocator_Abstractions_Address"
@@ -14637,81 +14794,81 @@ LDIFF_SYM1590=LTDIE_194 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1591=LTDIE_193_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1591
+LDIFF_SYM1619=LTDIE_198_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1619
 	.byte 1,86,3
 	.asciz "param0"
 
-LDIFF_SYM1592=LTDIE_194_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1592
+LDIFF_SYM1620=LTDIE_199_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1620
 	.byte 2,125,20,11
 	.asciz "V_0"
 
-LDIFF_SYM1593=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1593
+LDIFF_SYM1621=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1621
 	.byte 1,85,11
 	.asciz "V_1"
 
-LDIFF_SYM1594=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1594
+LDIFF_SYM1622=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1622
 	.byte 1,84,11
 	.asciz "V_2"
 
-LDIFF_SYM1595=LTDIE_163_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1595
+LDIFF_SYM1623=LTDIE_168_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1623
 	.byte 1,91,11
 	.asciz "V_3"
 
-LDIFF_SYM1596=LTDIE_15_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1596
+LDIFF_SYM1624=LTDIE_15_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1624
 	.byte 1,90,11
 	.asciz "V_4"
 
-LDIFF_SYM1597=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1597
+LDIFF_SYM1625=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1625
 	.byte 2,125,8,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1598=Lfde74_end - Lfde74_start
-	.long LDIFF_SYM1598
+LDIFF_SYM1626=Lfde74_end - Lfde74_start
+	.long LDIFF_SYM1626
 Lfde74_start:
 
 	.long 0
 	.align 2
 	.long wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Collections_Generic_IEnumerable_1_Plugin_Geolocator_Abstractions_Address_invoke_void_T_System_Threading_Tasks_Task_1_System_Collections_Generic_IEnumerable_1_Plugin_Geolocator_Abstractions_Address
 
-LDIFF_SYM1599=Lme_4b - wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Collections_Generic_IEnumerable_1_Plugin_Geolocator_Abstractions_Address_invoke_void_T_System_Threading_Tasks_Task_1_System_Collections_Generic_IEnumerable_1_Plugin_Geolocator_Abstractions_Address
-	.long LDIFF_SYM1599
+LDIFF_SYM1627=Lme_4b - wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Collections_Generic_IEnumerable_1_Plugin_Geolocator_Abstractions_Address_invoke_void_T_System_Threading_Tasks_Task_1_System_Collections_Generic_IEnumerable_1_Plugin_Geolocator_Abstractions_Address
+	.long LDIFF_SYM1627
 	.byte 68,14,8,135,2,72,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,64,3,192,1,10,68,14,32
 	.byte 68,8,4,8,5,8,6,8,8,8,10,8,11,14,8,68,11
 	.align 2
 Lfde74_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_195:
+LTDIE_200:
 
 	.byte 5
 	.asciz "System_Func`2"
 
 	.byte 56,16
-LDIFF_SYM1600=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM1600
+LDIFF_SYM1628=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM1628
 	.byte 2,35,0,0,7
 	.asciz "System_Func`2"
 
-LDIFF_SYM1601=LTDIE_195 - Ldebug_info_start
-	.long LDIFF_SYM1601
-LTDIE_195_POINTER:
+LDIFF_SYM1629=LTDIE_200 - Ldebug_info_start
+	.long LDIFF_SYM1629
+LTDIE_200_POINTER:
 
 	.byte 13
-LDIFF_SYM1602=LTDIE_195 - Ldebug_info_start
-	.long LDIFF_SYM1602
-LTDIE_195_REFERENCE:
+LDIFF_SYM1630=LTDIE_200 - Ldebug_info_start
+	.long LDIFF_SYM1630
+LTDIE_200_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1603=LTDIE_195 - Ldebug_info_start
-	.long LDIFF_SYM1603
+LDIFF_SYM1631=LTDIE_200 - Ldebug_info_start
+	.long LDIFF_SYM1631
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Func`2<System.IAsyncResult,_System.Collections.Generic.IEnumerable`1<Plugin.Geolocator.Abstractions.Address>>:invoke_TResult_T"
 	.asciz "wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Collections_Generic_IEnumerable_1_Plugin_Geolocator_Abstractions_Address_invoke_TResult_T_System_IAsyncResult"
@@ -14723,86 +14880,86 @@ LDIFF_SYM1603=LTDIE_195 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1604=LTDIE_195_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1604
+LDIFF_SYM1632=LTDIE_200_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1632
 	.byte 1,86,3
 	.asciz "param0"
 
-LDIFF_SYM1605=LTDIE_168_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1605
+LDIFF_SYM1633=LTDIE_173_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1633
 	.byte 2,125,24,11
 	.asciz "V_0"
 
-LDIFF_SYM1606=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1606
+LDIFF_SYM1634=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1634
 	.byte 1,85,11
 	.asciz "V_1"
 
-LDIFF_SYM1607=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1607
+LDIFF_SYM1635=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1635
 	.byte 1,84,11
 	.asciz "V_2"
 
-LDIFF_SYM1608=LTDIE_163_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1608
+LDIFF_SYM1636=LTDIE_168_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1636
 	.byte 1,91,11
 	.asciz "V_3"
 
-LDIFF_SYM1609=LTDIE_15_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1609
+LDIFF_SYM1637=LTDIE_15_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1637
 	.byte 1,90,11
 	.asciz "V_4"
 
-LDIFF_SYM1610=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1610
+LDIFF_SYM1638=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1638
 	.byte 2,125,8,11
 	.asciz "V_5"
 
-LDIFF_SYM1611=LTDIE_156_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1611
+LDIFF_SYM1639=LTDIE_161_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1639
 	.byte 2,125,12,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1612=Lfde75_end - Lfde75_start
-	.long LDIFF_SYM1612
+LDIFF_SYM1640=Lfde75_end - Lfde75_start
+	.long LDIFF_SYM1640
 Lfde75_start:
 
 	.long 0
 	.align 2
 	.long wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Collections_Generic_IEnumerable_1_Plugin_Geolocator_Abstractions_Address_invoke_TResult_T_System_IAsyncResult
 
-LDIFF_SYM1613=Lme_4c - wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Collections_Generic_IEnumerable_1_Plugin_Geolocator_Abstractions_Address_invoke_TResult_T_System_IAsyncResult
-	.long LDIFF_SYM1613
+LDIFF_SYM1641=Lme_4c - wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Collections_Generic_IEnumerable_1_Plugin_Geolocator_Abstractions_Address_invoke_TResult_T_System_IAsyncResult
+	.long LDIFF_SYM1641
 	.byte 68,14,8,135,2,72,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,72,3,220,1,10,68,14,32
 	.byte 68,8,4,8,5,8,6,8,8,8,10,8,11,14,8,68,11
 	.align 2
 Lfde75_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_196:
+LTDIE_201:
 
 	.byte 5
 	.asciz "System_Func`2"
 
 	.byte 56,16
-LDIFF_SYM1614=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM1614
+LDIFF_SYM1642=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM1642
 	.byte 2,35,0,0,7
 	.asciz "System_Func`2"
 
-LDIFF_SYM1615=LTDIE_196 - Ldebug_info_start
-	.long LDIFF_SYM1615
-LTDIE_196_POINTER:
+LDIFF_SYM1643=LTDIE_201 - Ldebug_info_start
+	.long LDIFF_SYM1643
+LTDIE_201_POINTER:
 
 	.byte 13
-LDIFF_SYM1616=LTDIE_196 - Ldebug_info_start
-	.long LDIFF_SYM1616
-LTDIE_196_REFERENCE:
+LDIFF_SYM1644=LTDIE_201 - Ldebug_info_start
+	.long LDIFF_SYM1644
+LTDIE_201_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1617=LTDIE_196 - Ldebug_info_start
-	.long LDIFF_SYM1617
+LDIFF_SYM1645=LTDIE_201 - Ldebug_info_start
+	.long LDIFF_SYM1645
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Func`2<System.Threading.Tasks.Task`1<System.Threading.Tasks.Task>,_System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<Plugin.Geolocator.Abstractions.Address>>>:invoke_TResult_T"
 	.asciz "wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Collections_Generic_IEnumerable_1_Plugin_Geolocator_Abstractions_Address_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task"
@@ -14814,180 +14971,180 @@ LDIFF_SYM1617=LTDIE_196 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1618=LTDIE_196_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1618
+LDIFF_SYM1646=LTDIE_201_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1646
 	.byte 1,86,3
 	.asciz "param0"
 
-LDIFF_SYM1619=LTDIE_175_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1619
+LDIFF_SYM1647=LTDIE_180_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1647
 	.byte 2,125,24,11
 	.asciz "V_0"
 
-LDIFF_SYM1620=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1620
+LDIFF_SYM1648=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1648
 	.byte 1,85,11
 	.asciz "V_1"
 
-LDIFF_SYM1621=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1621
+LDIFF_SYM1649=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1649
 	.byte 1,84,11
 	.asciz "V_2"
 
-LDIFF_SYM1622=LTDIE_163_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1622
+LDIFF_SYM1650=LTDIE_168_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1650
 	.byte 1,91,11
 	.asciz "V_3"
 
-LDIFF_SYM1623=LTDIE_15_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1623
+LDIFF_SYM1651=LTDIE_15_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1651
 	.byte 1,90,11
 	.asciz "V_4"
 
-LDIFF_SYM1624=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1624
+LDIFF_SYM1652=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1652
 	.byte 2,125,8,11
 	.asciz "V_5"
 
-LDIFF_SYM1625=LTDIE_194_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1625
+LDIFF_SYM1653=LTDIE_199_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1653
 	.byte 2,125,12,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1626=Lfde76_end - Lfde76_start
-	.long LDIFF_SYM1626
+LDIFF_SYM1654=Lfde76_end - Lfde76_start
+	.long LDIFF_SYM1654
 Lfde76_start:
 
 	.long 0
 	.align 2
 	.long wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Collections_Generic_IEnumerable_1_Plugin_Geolocator_Abstractions_Address_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
 
-LDIFF_SYM1627=Lme_4d - wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Collections_Generic_IEnumerable_1_Plugin_Geolocator_Abstractions_Address_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
-	.long LDIFF_SYM1627
+LDIFF_SYM1655=Lme_4d - wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Collections_Generic_IEnumerable_1_Plugin_Geolocator_Abstractions_Address_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
+	.long LDIFF_SYM1655
 	.byte 68,14,8,135,2,72,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,72,3,220,1,10,68,14,32
 	.byte 68,8,4,8,5,8,6,8,8,8,10,8,11,14,8,68,11
 	.align 2
 Lfde76_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_198:
+LTDIE_203:
 
 	.byte 5
 	.asciz "System_Threading_Tasks_Task`1"
 
 	.byte 44,16
-LDIFF_SYM1628=LTDIE_40 - Ldebug_info_start
-	.long LDIFF_SYM1628
+LDIFF_SYM1656=LTDIE_40 - Ldebug_info_start
+	.long LDIFF_SYM1656
 	.byte 2,35,0,6
 	.asciz "m_result"
 
-LDIFF_SYM1629=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1629
+LDIFF_SYM1657=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1657
 	.byte 2,35,40,0,7
 	.asciz "System_Threading_Tasks_Task`1"
 
-LDIFF_SYM1630=LTDIE_198 - Ldebug_info_start
-	.long LDIFF_SYM1630
-LTDIE_198_POINTER:
+LDIFF_SYM1658=LTDIE_203 - Ldebug_info_start
+	.long LDIFF_SYM1658
+LTDIE_203_POINTER:
 
 	.byte 13
-LDIFF_SYM1631=LTDIE_198 - Ldebug_info_start
-	.long LDIFF_SYM1631
-LTDIE_198_REFERENCE:
+LDIFF_SYM1659=LTDIE_203 - Ldebug_info_start
+	.long LDIFF_SYM1659
+LTDIE_203_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1632=LTDIE_198 - Ldebug_info_start
-	.long LDIFF_SYM1632
-LTDIE_197:
+LDIFF_SYM1660=LTDIE_203 - Ldebug_info_start
+	.long LDIFF_SYM1660
+LTDIE_202:
 
 	.byte 5
 	.asciz "System_Runtime_CompilerServices_AsyncTaskMethodBuilder`1"
 
 	.byte 20,16
-LDIFF_SYM1633=LTDIE_12 - Ldebug_info_start
-	.long LDIFF_SYM1633
+LDIFF_SYM1661=LTDIE_12 - Ldebug_info_start
+	.long LDIFF_SYM1661
 	.byte 2,35,0,6
 	.asciz "m_coreState"
 
-LDIFF_SYM1634=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1634
+LDIFF_SYM1662=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1662
 	.byte 2,35,8,6
 	.asciz "m_task"
 
-LDIFF_SYM1635=LTDIE_198_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1635
+LDIFF_SYM1663=LTDIE_203_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1663
 	.byte 2,35,16,0,7
 	.asciz "System_Runtime_CompilerServices_AsyncTaskMethodBuilder`1"
 
-LDIFF_SYM1636=LTDIE_197 - Ldebug_info_start
-	.long LDIFF_SYM1636
-LTDIE_197_POINTER:
+LDIFF_SYM1664=LTDIE_202 - Ldebug_info_start
+	.long LDIFF_SYM1664
+LTDIE_202_POINTER:
 
 	.byte 13
-LDIFF_SYM1637=LTDIE_197 - Ldebug_info_start
-	.long LDIFF_SYM1637
-LTDIE_197_REFERENCE:
+LDIFF_SYM1665=LTDIE_202 - Ldebug_info_start
+	.long LDIFF_SYM1665
+LTDIE_202_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1638=LTDIE_197 - Ldebug_info_start
-	.long LDIFF_SYM1638
-LTDIE_199:
+LDIFF_SYM1666=LTDIE_202 - Ldebug_info_start
+	.long LDIFF_SYM1666
+LTDIE_204:
 
 	.byte 5
 	.asciz "_MoveNextRunner"
 
 	.byte 16,16
-LDIFF_SYM1639=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1639
+LDIFF_SYM1667=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1667
 	.byte 2,35,0,6
 	.asciz "m_context"
 
-LDIFF_SYM1640=LTDIE_43_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1640
+LDIFF_SYM1668=LTDIE_43_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1668
 	.byte 2,35,8,6
 	.asciz "m_stateMachine"
 
-LDIFF_SYM1641=LTDIE_161_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1641
+LDIFF_SYM1669=LTDIE_166_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1669
 	.byte 2,35,12,0,7
 	.asciz "_MoveNextRunner"
 
-LDIFF_SYM1642=LTDIE_199 - Ldebug_info_start
-	.long LDIFF_SYM1642
-LTDIE_199_POINTER:
+LDIFF_SYM1670=LTDIE_204 - Ldebug_info_start
+	.long LDIFF_SYM1670
+LTDIE_204_POINTER:
 
 	.byte 13
-LDIFF_SYM1643=LTDIE_199 - Ldebug_info_start
-	.long LDIFF_SYM1643
-LTDIE_199_REFERENCE:
+LDIFF_SYM1671=LTDIE_204 - Ldebug_info_start
+	.long LDIFF_SYM1671
+LTDIE_204_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1644=LTDIE_199 - Ldebug_info_start
-	.long LDIFF_SYM1644
-LTDIE_200:
+LDIFF_SYM1672=LTDIE_204 - Ldebug_info_start
+	.long LDIFF_SYM1672
+LTDIE_205:
 
 	.byte 5
 	.asciz "System_Action"
 
 	.byte 56,16
-LDIFF_SYM1645=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM1645
+LDIFF_SYM1673=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM1673
 	.byte 2,35,0,0,7
 	.asciz "System_Action"
 
-LDIFF_SYM1646=LTDIE_200 - Ldebug_info_start
-	.long LDIFF_SYM1646
-LTDIE_200_POINTER:
+LDIFF_SYM1674=LTDIE_205 - Ldebug_info_start
+	.long LDIFF_SYM1674
+LTDIE_205_POINTER:
 
 	.byte 13
-LDIFF_SYM1647=LTDIE_200 - Ldebug_info_start
-	.long LDIFF_SYM1647
-LTDIE_200_REFERENCE:
+LDIFF_SYM1675=LTDIE_205 - Ldebug_info_start
+	.long LDIFF_SYM1675
+LTDIE_205_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1648=LTDIE_200 - Ldebug_info_start
-	.long LDIFF_SYM1648
+LDIFF_SYM1676=LTDIE_205 - Ldebug_info_start
+	.long LDIFF_SYM1676
 	.byte 2
 	.asciz "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult_REF>:AwaitUnsafeOnCompleted<TAwaiter_INST,_TStateMachine_REF>"
 	.asciz "System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_TResult_REF_AwaitUnsafeOnCompleted_TAwaiter_INST_TStateMachine_REF_TAwaiter_INST__TStateMachine_REF_"
@@ -14999,86 +15156,86 @@ LDIFF_SYM1648=LTDIE_200 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1649=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1649
+LDIFF_SYM1677=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1677
 	.byte 1,85,3
 	.asciz "awaiter"
 
-LDIFF_SYM1650=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1650
+LDIFF_SYM1678=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1678
 	.byte 2,123,60,3
 	.asciz "stateMachine"
 
-LDIFF_SYM1651=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1651
+LDIFF_SYM1679=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1679
 	.byte 3,123,192,0,11
 	.asciz "runnerToInitialize"
 
-LDIFF_SYM1652=LTDIE_199_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1652
+LDIFF_SYM1680=LTDIE_204_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1680
 	.byte 2,123,8,11
 	.asciz "continuation"
 
-LDIFF_SYM1653=LTDIE_200_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1653
+LDIFF_SYM1681=LTDIE_205_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1681
 	.byte 1,84,11
 	.asciz "builtTask"
 
-LDIFF_SYM1654=LTDIE_198_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1654
+LDIFF_SYM1682=LTDIE_203_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1682
 	.byte 1,90,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1655=Lfde77_end - Lfde77_start
-	.long LDIFF_SYM1655
+LDIFF_SYM1683=Lfde77_end - Lfde77_start
+	.long LDIFF_SYM1683
 Lfde77_start:
 
 	.long 0
 	.align 2
 	.long System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_TResult_REF_AwaitUnsafeOnCompleted_TAwaiter_INST_TStateMachine_REF_TAwaiter_INST__TStateMachine_REF_
 
-LDIFF_SYM1656=Lme_4e - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_TResult_REF_AwaitUnsafeOnCompleted_TAwaiter_INST_TStateMachine_REF_TAwaiter_INST__TStateMachine_REF_
-	.long LDIFF_SYM1656
+LDIFF_SYM1684=Lme_4e - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_TResult_REF_AwaitUnsafeOnCompleted_TAwaiter_INST_TStateMachine_REF_TAwaiter_INST__TStateMachine_REF_
+	.long LDIFF_SYM1684
 	.byte 68,14,8,135,2,72,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,112,68,13,11,3,124,3,10
 	.byte 68,13,13,14,32,68,8,4,8,5,8,6,8,8,8,10,8,11,14,8,68,11
 	.align 2
 Lfde77_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_201:
+LTDIE_206:
 
 	.byte 5
 	.asciz "_InternalEnumerator`1"
 
 	.byte 16,16
-LDIFF_SYM1657=LTDIE_12 - Ldebug_info_start
-	.long LDIFF_SYM1657
+LDIFF_SYM1685=LTDIE_12 - Ldebug_info_start
+	.long LDIFF_SYM1685
 	.byte 2,35,0,6
 	.asciz "array"
 
-LDIFF_SYM1658=LTDIE_163_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1658
+LDIFF_SYM1686=LTDIE_168_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1686
 	.byte 2,35,8,6
 	.asciz "idx"
 
-LDIFF_SYM1659=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1659
+LDIFF_SYM1687=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1687
 	.byte 2,35,12,0,7
 	.asciz "_InternalEnumerator`1"
 
-LDIFF_SYM1660=LTDIE_201 - Ldebug_info_start
-	.long LDIFF_SYM1660
-LTDIE_201_POINTER:
+LDIFF_SYM1688=LTDIE_206 - Ldebug_info_start
+	.long LDIFF_SYM1688
+LTDIE_206_POINTER:
 
 	.byte 13
-LDIFF_SYM1661=LTDIE_201 - Ldebug_info_start
-	.long LDIFF_SYM1661
-LTDIE_201_REFERENCE:
+LDIFF_SYM1689=LTDIE_206 - Ldebug_info_start
+	.long LDIFF_SYM1689
+LTDIE_206_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1662=LTDIE_201 - Ldebug_info_start
-	.long LDIFF_SYM1662
+LDIFF_SYM1690=LTDIE_206 - Ldebug_info_start
+	.long LDIFF_SYM1690
 	.byte 2
 	.asciz "System.Array/InternalEnumerator`1<T_REF>:.ctor"
 	.asciz "System_Array_InternalEnumerator_1_T_REF__ctor_System_Array"
@@ -15090,27 +15247,27 @@ LDIFF_SYM1662=LTDIE_201 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1663=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1663
+LDIFF_SYM1691=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1691
 	.byte 2,125,12,3
 	.asciz "array"
 
-LDIFF_SYM1664=LTDIE_163_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1664
+LDIFF_SYM1692=LTDIE_168_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1692
 	.byte 2,125,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1665=Lfde78_end - Lfde78_start
-	.long LDIFF_SYM1665
+LDIFF_SYM1693=Lfde78_end - Lfde78_start
+	.long LDIFF_SYM1693
 Lfde78_start:
 
 	.long 0
 	.align 2
 	.long System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
 
-LDIFF_SYM1666=Lme_4f - System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
-	.long LDIFF_SYM1666
+LDIFF_SYM1694=Lme_4f - System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
+	.long LDIFF_SYM1694
 	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,40,2,216,10,68,14,12,68,8,8,14,8,68,11
 	.align 2
 Lfde78_end:
@@ -15128,61 +15285,61 @@ Lfde78_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1667=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1667
+LDIFF_SYM1695=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1695
 	.byte 2,125,12,11
 	.asciz "task"
 
-LDIFF_SYM1668=LTDIE_198_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1668
+LDIFF_SYM1696=LTDIE_203_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1696
 	.byte 1,86,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1669=Lfde79_end - Lfde79_start
-	.long LDIFF_SYM1669
+LDIFF_SYM1697=Lfde79_end - Lfde79_start
+	.long LDIFF_SYM1697
 Lfde79_start:
 
 	.long 0
 	.align 2
 	.long System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_TResult_REF_get_Task
 
-LDIFF_SYM1670=Lme_50 - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_TResult_REF_get_Task
-	.long LDIFF_SYM1670
+LDIFF_SYM1698=Lme_50 - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_TResult_REF_get_Task
+	.long LDIFF_SYM1698
 	.byte 68,14,8,135,2,72,14,20,133,5,134,4,136,3,142,1,68,14,48,3,96,1,10,68,14,20,68,8,5,8,6,8
 	.byte 8,14,8,68,11
 	.align 2
 Lfde79_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_202:
+LTDIE_207:
 
 	.byte 5
 	.asciz "System_Threading_Tasks_Task`1"
 
 	.byte 44,16
-LDIFF_SYM1671=LTDIE_40 - Ldebug_info_start
-	.long LDIFF_SYM1671
+LDIFF_SYM1699=LTDIE_40 - Ldebug_info_start
+	.long LDIFF_SYM1699
 	.byte 2,35,0,6
 	.asciz "m_result"
 
-LDIFF_SYM1672=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1672
+LDIFF_SYM1700=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1700
 	.byte 2,35,40,0,7
 	.asciz "System_Threading_Tasks_Task`1"
 
-LDIFF_SYM1673=LTDIE_202 - Ldebug_info_start
-	.long LDIFF_SYM1673
-LTDIE_202_POINTER:
+LDIFF_SYM1701=LTDIE_207 - Ldebug_info_start
+	.long LDIFF_SYM1701
+LTDIE_207_POINTER:
 
 	.byte 13
-LDIFF_SYM1674=LTDIE_202 - Ldebug_info_start
-	.long LDIFF_SYM1674
-LTDIE_202_REFERENCE:
+LDIFF_SYM1702=LTDIE_207 - Ldebug_info_start
+	.long LDIFF_SYM1702
+LTDIE_207_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1675=LTDIE_202 - Ldebug_info_start
-	.long LDIFF_SYM1675
+LDIFF_SYM1703=LTDIE_207 - Ldebug_info_start
+	.long LDIFF_SYM1703
 	.byte 2
 	.asciz "System.Threading.Tasks.Task`1<TResult_REF>:.ctor"
 	.asciz "System_Threading_Tasks_Task_1_TResult_REF__ctor"
@@ -15194,22 +15351,22 @@ LDIFF_SYM1675=LTDIE_202 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1676=LTDIE_202_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1676
+LDIFF_SYM1704=LTDIE_207_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1704
 	.byte 2,125,8,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1677=Lfde80_end - Lfde80_start
-	.long LDIFF_SYM1677
+LDIFF_SYM1705=Lfde80_end - Lfde80_start
+	.long LDIFF_SYM1705
 Lfde80_start:
 
 	.long 0
 	.align 2
 	.long System_Threading_Tasks_Task_1_TResult_REF__ctor
 
-LDIFF_SYM1678=Lme_51 - System_Threading_Tasks_Task_1_TResult_REF__ctor
-	.long LDIFF_SYM1678
+LDIFF_SYM1706=Lme_51 - System_Threading_Tasks_Task_1_TResult_REF__ctor
+	.long LDIFF_SYM1706
 	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,32,2,132,10,68,14,12,68,8,8,14,8,68,11
 	.align 2
 Lfde80_end:

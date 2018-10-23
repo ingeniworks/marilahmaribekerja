@@ -162,7 +162,7 @@ bl _p_1
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
-.word 0x340073a0
+.word 0x340083e0
 .word 0xf94013b1
 .word 0xf940a631
 .word 0xb4000051
@@ -200,7 +200,7 @@ ldr x0, [x16, #208]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
-.word 0x14000a6b
+.word 0x14000aed
 .word 0xf94013b1
 .word 0xf9413631
 .word 0xb4000051
@@ -238,7 +238,7 @@ ldr x0, [x16, #232]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
-.word 0x14000a47
+.word 0x14000ac9
 .word 0xf94013b1
 .word 0xf941c631
 .word 0xb4000051
@@ -276,7 +276,7 @@ ldr x0, [x16, #248]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
-.word 0x14000a23
+.word 0x14000aa5
 .word 0xf94013b1
 .word 0xf9425631
 .word 0xb4000051
@@ -337,7 +337,7 @@ ldr x0, [x16, #272]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
-.word 0x140009e9
+.word 0x14000a6b
 .word 0xf94013b1
 .word 0xf9433e31
 .word 0xb4000051
@@ -375,7 +375,7 @@ ldr x0, [x16, #288]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
-.word 0x140009c5
+.word 0x14000a47
 .word 0xf94013b1
 .word 0xf943ce31
 .word 0xb4000051
@@ -413,7 +413,7 @@ ldr x0, [x16, #304]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
-.word 0x140009a1
+.word 0x14000a23
 .word 0xf94013b1
 .word 0xf9445e31
 .word 0xb4000051
@@ -451,7 +451,7 @@ ldr x0, [x16, #320]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
-.word 0x1400097d
+.word 0x140009ff
 .word 0xf94013b1
 .word 0xf944ee31
 .word 0xb4000051
@@ -489,7 +489,7 @@ ldr x0, [x16, #336]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
-.word 0x14000959
+.word 0x140009db
 .word 0xf94013b1
 .word 0xf9457e31
 .word 0xb4000051
@@ -527,7 +527,7 @@ ldr x0, [x16, #352]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
-.word 0x14000935
+.word 0x140009b7
 .word 0xf94013b1
 .word 0xf9460e31
 .word 0xb4000051
@@ -565,7 +565,7 @@ ldr x0, [x16, #368]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
-.word 0x14000911
+.word 0x14000993
 .word 0xf94013b1
 .word 0xf9469e31
 .word 0xb4000051
@@ -603,7 +603,7 @@ ldr x0, [x16, #384]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
-.word 0x140008ed
+.word 0x1400096f
 .word 0xf94013b1
 .word 0xf9472e31
 .word 0xb4000051
@@ -641,7 +641,7 @@ ldr x0, [x16, #400]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
-.word 0x140008c9
+.word 0x1400094b
 .word 0xf94013b1
 .word 0xf947be31
 .word 0xb4000051
@@ -679,7 +679,7 @@ ldr x0, [x16, #416]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
-.word 0x140008a5
+.word 0x14000927
 .word 0xf94013b1
 .word 0xf9484e31
 .word 0xb4000051
@@ -717,7 +717,7 @@ ldr x0, [x16, #432]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
-.word 0x14000881
+.word 0x14000903
 .word 0xf94013b1
 .word 0xf948de31
 .word 0xb4000051
@@ -755,7 +755,7 @@ ldr x0, [x16, #448]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
-.word 0x1400085d
+.word 0x140008df
 .word 0xf94013b1
 .word 0xf9496e31
 .word 0xb4000051
@@ -793,7 +793,7 @@ ldr x0, [x16, #464]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
-.word 0x14000839
+.word 0x140008bb
 .word 0xf94013b1
 .word 0xf949fe31
 .word 0xb4000051
@@ -831,7 +831,7 @@ ldr x0, [x16, #480]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
-.word 0x14000815
+.word 0x14000897
 .word 0xf94013b1
 .word 0xf94a8e31
 .word 0xb4000051
@@ -892,7 +892,7 @@ ldr x0, [x16, #504]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
-.word 0x140007db
+.word 0x1400085d
 .word 0xf94013b1
 .word 0xf94b7631
 .word 0xb4000051
@@ -953,7 +953,7 @@ ldr x0, [x16, #528]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
-.word 0x140007a1
+.word 0x14000823
 .word 0xf94013b1
 .word 0xf94c5e31
 .word 0xb4000051
@@ -1014,7 +1014,7 @@ ldr x0, [x16, #552]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
-.word 0x14000767
+.word 0x140007e9
 .word 0xf94013b1
 .word 0xf94d4631
 .word 0xb4000051
@@ -1075,7 +1075,7 @@ ldr x0, [x16, #576]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
-.word 0x1400072d
+.word 0x140007af
 .word 0xf94013b1
 .word 0xf94e2e31
 .word 0xb4000051
@@ -1136,13 +1136,9 @@ ldr x0, [x16, #600]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
-.word 0x140006f3
-.word 0xf94017b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
+.word 0x14000775
 .word 0xf94013b1
-.word 0xf94f2631
+.word 0xf94f1631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -1151,56 +1147,55 @@ adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
 ldr x1, [x16, #608]
 .word 0xaa1a03e0
-.word 0x3940035e
-bl _p_1
-.word 0x53001c00
-.word 0xf90023a0
-.word 0xf94013b1
-.word 0xf94f5a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94023a0
-.word 0x34001b20
-.word 0xf94013b1
-.word 0xf94f7231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-
-adrp x16, mono_aot_GetiOSModel_got@PAGE+0
-add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x1, [x16, #616]
-.word 0xaa1a03e0
 bl _p_2
 .word 0x53001c00
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf94fa231
+.word 0xf94f4631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0x34000260
 .word 0xf94013b1
-.word 0xf94fba31
+.word 0xf94f5e31
 .word 0xb4000051
 .word 0xd63f0220
 
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x0, [x16, #624]
+ldr x0, [x16, #616]
 .word 0xf90023a0
 .word 0xf94017b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf94fea31
+.word 0xf94f8e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
-.word 0x140006b8
+.word 0x14000751
 .word 0xf94013b1
-.word 0xf9500231
+.word 0xf94fa631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+
+adrp x16, mono_aot_GetiOSModel_got@PAGE+0
+add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
+ldr x1, [x16, #624]
+.word 0xaa1a03e0
+bl _p_2
+.word 0x53001c00
+.word 0xf90023a0
+.word 0xf94013b1
+.word 0xf94fd631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023a0
+.word 0x35000260
+.word 0xf94013b1
+.word 0xf94fee31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -1213,13 +1208,17 @@ bl _p_2
 .word 0x53001c00
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf9503231
+.word 0xf9501e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
-.word 0x34000260
+.word 0x340002e0
+.word 0xf94017b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
 .word 0xf94013b1
-.word 0xf9504a31
+.word 0xf9504631
 .word 0xb4000051
 .word 0xd63f0220
 
@@ -1232,13 +1231,13 @@ ldr x0, [x16, #640]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf9507a31
+.word 0xf9507631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
-.word 0x14000694
+.word 0x14000717
 .word 0xf94013b1
-.word 0xf9509231
+.word 0xf9508e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -1251,13 +1250,13 @@ bl _p_2
 .word 0x53001c00
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf950c231
+.word 0xf950be31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0x34000260
 .word 0xf94013b1
-.word 0xf950da31
+.word 0xf950d631
 .word 0xb4000051
 .word 0xd63f0220
 
@@ -1270,13 +1269,17 @@ ldr x0, [x16, #656]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf9510a31
+.word 0xf9510631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
-.word 0x14000670
+.word 0x140006f3
+.word 0xf94017b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
 .word 0xf94013b1
-.word 0xf9512231
+.word 0xf9512e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -1285,155 +1288,113 @@ adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
 ldr x1, [x16, #664]
 .word 0xaa1a03e0
-bl _p_2
-.word 0x53001c00
-.word 0xf90023a0
-.word 0xf94013b1
-.word 0xf9515231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94023a0
-.word 0x34000260
-.word 0xf94013b1
-.word 0xf9516a31
-.word 0xb4000051
-.word 0xd63f0220
-
-adrp x16, mono_aot_GetiOSModel_got@PAGE+0
-add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x0, [x16, #672]
-.word 0xf90023a0
-.word 0xf94017b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf9519a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94023a0
-.word 0x1400064c
-.word 0xf94013b1
-.word 0xf951b231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-
-adrp x16, mono_aot_GetiOSModel_got@PAGE+0
-add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x1, [x16, #680]
-.word 0xaa1a03e0
-bl _p_2
-.word 0x53001c00
-.word 0xf90023a0
-.word 0xf94013b1
-.word 0xf951e231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94023a0
-.word 0x34000260
-.word 0xf94013b1
-.word 0xf951fa31
-.word 0xb4000051
-.word 0xd63f0220
-
-adrp x16, mono_aot_GetiOSModel_got@PAGE+0
-add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x0, [x16, #688]
-.word 0xf90023a0
-.word 0xf94017b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf9522a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94023a0
-.word 0x14000628
-.word 0xf94013b1
-.word 0xf9524231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-
-adrp x16, mono_aot_GetiOSModel_got@PAGE+0
-add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x1, [x16, #696]
-.word 0xaa1a03e0
-bl _p_2
-.word 0x53001c00
-.word 0xf90023a0
-.word 0xf94013b1
-.word 0xf9527231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94023a0
-.word 0x34000260
-.word 0xf94013b1
-.word 0xf9528a31
-.word 0xb4000051
-.word 0xd63f0220
-
-adrp x16, mono_aot_GetiOSModel_got@PAGE+0
-add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x0, [x16, #704]
-.word 0xf90023a0
-.word 0xf94017b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf952ba31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94023a0
-.word 0x14000604
-.word 0xf94017b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf952e231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-
-adrp x16, mono_aot_GetiOSModel_got@PAGE+0
-add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x1, [x16, #712]
-.word 0xaa1a03e0
 .word 0x3940035e
 bl _p_1
 .word 0x53001c00
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf9531631
+.word 0xf9516231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
-.word 0x3400afa0
+.word 0x34001b20
 .word 0xf94013b1
-.word 0xf9532e31
+.word 0xf9517a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x1, [x16, #720]
+ldr x1, [x16, #672]
 .word 0xaa1a03e0
 bl _p_2
 .word 0x53001c00
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf9535e31
+.word 0xf951aa31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0x34000260
 .word 0xf94013b1
-.word 0xf9537631
+.word 0xf951c231
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_GetiOSModel_got@PAGE+0
+add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
+ldr x0, [x16, #680]
+.word 0xf90023a0
+.word 0xf94017b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf951f231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023a0
+.word 0x140006b8
+.word 0xf94013b1
+.word 0xf9520a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+
+adrp x16, mono_aot_GetiOSModel_got@PAGE+0
+add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
+ldr x1, [x16, #688]
+.word 0xaa1a03e0
+bl _p_2
+.word 0x53001c00
+.word 0xf90023a0
+.word 0xf94013b1
+.word 0xf9523a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023a0
+.word 0x34000260
+.word 0xf94013b1
+.word 0xf9525231
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_GetiOSModel_got@PAGE+0
+add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
+ldr x0, [x16, #696]
+.word 0xf90023a0
+.word 0xf94017b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9528231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023a0
+.word 0x14000694
+.word 0xf94013b1
+.word 0xf9529a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+
+adrp x16, mono_aot_GetiOSModel_got@PAGE+0
+add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
+ldr x1, [x16, #704]
+.word 0xaa1a03e0
+bl _p_2
+.word 0x53001c00
+.word 0xf90023a0
+.word 0xf94013b1
+.word 0xf952ca31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023a0
+.word 0x34000260
+.word 0xf94013b1
+.word 0xf952e231
 .word 0xb4000051
 .word 0xd63f0220
 
@@ -1446,127 +1407,151 @@ ldr x0, [x16, #712]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf953a631
+.word 0xf9531231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
-.word 0x140005c9
+.word 0x14000670
 .word 0xf94013b1
-.word 0xf953be31
+.word 0xf9532a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x1, [x16, #728]
+ldr x1, [x16, #720]
 .word 0xaa1a03e0
 bl _p_2
 .word 0x53001c00
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf953ee31
+.word 0xf9535a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0x34000260
 .word 0xf94013b1
-.word 0xf9540631
+.word 0xf9537231
 .word 0xb4000051
 .word 0xd63f0220
 
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x0, [x16, #736]
+ldr x0, [x16, #728]
 .word 0xf90023a0
 .word 0xf94017b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf9543631
+.word 0xf953a231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
-.word 0x140005a5
+.word 0x1400064c
 .word 0xf94013b1
-.word 0xf9544e31
+.word 0xf953ba31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x1, [x16, #744]
+ldr x1, [x16, #736]
 .word 0xaa1a03e0
 bl _p_2
 .word 0x53001c00
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf9547e31
+.word 0xf953ea31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0x34000260
 .word 0xf94013b1
-.word 0xf9549631
+.word 0xf9540231
 .word 0xb4000051
 .word 0xd63f0220
 
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x0, [x16, #752]
+ldr x0, [x16, #744]
 .word 0xf90023a0
 .word 0xf94017b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf954c631
+.word 0xf9543231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
-.word 0x14000581
+.word 0x14000628
 .word 0xf94013b1
-.word 0xf954de31
+.word 0xf9544a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x1, [x16, #760]
+ldr x1, [x16, #752]
 .word 0xaa1a03e0
 bl _p_2
 .word 0x53001c00
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf9550e31
+.word 0xf9547a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0x34000260
 .word 0xf94013b1
-.word 0xf9552631
+.word 0xf9549231
 .word 0xb4000051
 .word 0xd63f0220
 
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x0, [x16, #768]
+ldr x0, [x16, #760]
 .word 0xf90023a0
 .word 0xf94017b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf9555631
+.word 0xf954c231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
-.word 0x1400055d
+.word 0x14000604
+.word 0xf94017b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
 .word 0xf94013b1
-.word 0xf9556e31
+.word 0xf954ea31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+
+adrp x16, mono_aot_GetiOSModel_got@PAGE+0
+add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
+ldr x1, [x16, #768]
+.word 0xaa1a03e0
+.word 0x3940035e
+bl _p_1
+.word 0x53001c00
+.word 0xf90023a0
+.word 0xf94013b1
+.word 0xf9551e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023a0
+.word 0x3400afa0
+.word 0xf94013b1
+.word 0xf9553631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -1579,450 +1564,450 @@ bl _p_2
 .word 0x53001c00
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf9559e31
+.word 0xf9556631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0x34000260
 .word 0xf94013b1
-.word 0xf955b631
+.word 0xf9557e31
 .word 0xb4000051
 .word 0xd63f0220
 
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x0, [x16, #784]
+ldr x0, [x16, #768]
 .word 0xf90023a0
 .word 0xf94017b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf955e631
+.word 0xf955ae31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023a0
+.word 0x140005c9
+.word 0xf94013b1
+.word 0xf955c631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+
+adrp x16, mono_aot_GetiOSModel_got@PAGE+0
+add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
+ldr x1, [x16, #784]
+.word 0xaa1a03e0
+bl _p_2
+.word 0x53001c00
+.word 0xf90023a0
+.word 0xf94013b1
+.word 0xf955f631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023a0
+.word 0x34000260
+.word 0xf94013b1
+.word 0xf9560e31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_GetiOSModel_got@PAGE+0
+add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
+ldr x0, [x16, #792]
+.word 0xf90023a0
+.word 0xf94017b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9563e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023a0
+.word 0x140005a5
+.word 0xf94013b1
+.word 0xf9565631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+
+adrp x16, mono_aot_GetiOSModel_got@PAGE+0
+add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
+ldr x1, [x16, #800]
+.word 0xaa1a03e0
+bl _p_2
+.word 0x53001c00
+.word 0xf90023a0
+.word 0xf94013b1
+.word 0xf9568631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023a0
+.word 0x34000260
+.word 0xf94013b1
+.word 0xf9569e31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_GetiOSModel_got@PAGE+0
+add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
+ldr x0, [x16, #808]
+.word 0xf90023a0
+.word 0xf94017b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf956ce31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023a0
+.word 0x14000581
+.word 0xf94013b1
+.word 0xf956e631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+
+adrp x16, mono_aot_GetiOSModel_got@PAGE+0
+add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
+ldr x1, [x16, #816]
+.word 0xaa1a03e0
+bl _p_2
+.word 0x53001c00
+.word 0xf90023a0
+.word 0xf94013b1
+.word 0xf9571631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023a0
+.word 0x34000260
+.word 0xf94013b1
+.word 0xf9572e31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_GetiOSModel_got@PAGE+0
+add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
+ldr x0, [x16, #824]
+.word 0xf90023a0
+.word 0xf94017b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9575e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023a0
+.word 0x1400055d
+.word 0xf94013b1
+.word 0xf9577631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+
+adrp x16, mono_aot_GetiOSModel_got@PAGE+0
+add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
+ldr x1, [x16, #832]
+.word 0xaa1a03e0
+bl _p_2
+.word 0x53001c00
+.word 0xf90023a0
+.word 0xf94013b1
+.word 0xf957a631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023a0
+.word 0x34000260
+.word 0xf94013b1
+.word 0xf957be31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_GetiOSModel_got@PAGE+0
+add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
+ldr x0, [x16, #840]
+.word 0xf90023a0
+.word 0xf94017b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf957ee31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0x14000539
 .word 0xf94013b1
-.word 0xf955fe31
+.word 0xf9580631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x1, [x16, #792]
+ldr x1, [x16, #848]
 .word 0xaa1a03e0
 bl _p_2
 .word 0x53001c00
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf9562e31
+.word 0xf9583631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0x34000260
 .word 0xf94013b1
-.word 0xf9564631
+.word 0xf9584e31
 .word 0xb4000051
 .word 0xd63f0220
 
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x0, [x16, #800]
+ldr x0, [x16, #856]
 .word 0xf90023a0
 .word 0xf94017b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf9567631
+.word 0xf9587e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0x14000515
 .word 0xf94013b1
-.word 0xf9568e31
+.word 0xf9589631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x1, [x16, #808]
+ldr x1, [x16, #864]
 .word 0xaa1a03e0
 bl _p_2
 .word 0x53001c00
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf956be31
+.word 0xf958c631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0x34000260
 .word 0xf94013b1
-.word 0xf956d631
+.word 0xf958de31
 .word 0xb4000051
 .word 0xd63f0220
 
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x0, [x16, #816]
+ldr x0, [x16, #872]
 .word 0xf90023a0
 .word 0xf94017b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf9570631
+.word 0xf9590e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0x140004f1
 .word 0xf94013b1
-.word 0xf9571e31
+.word 0xf9592631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x1, [x16, #824]
+ldr x1, [x16, #880]
 .word 0xaa1a03e0
 bl _p_2
 .word 0x53001c00
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf9574e31
+.word 0xf9595631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0x34000260
 .word 0xf94013b1
-.word 0xf9576631
+.word 0xf9596e31
 .word 0xb4000051
 .word 0xd63f0220
 
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x0, [x16, #832]
+ldr x0, [x16, #888]
 .word 0xf90023a0
 .word 0xf94017b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf9579631
+.word 0xf9599e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0x140004cd
 .word 0xf94013b1
-.word 0xf957ae31
+.word 0xf959b631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x1, [x16, #840]
+ldr x1, [x16, #896]
 .word 0xaa1a03e0
 bl _p_2
 .word 0x53001c00
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf957de31
+.word 0xf959e631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0x34000260
 .word 0xf94013b1
-.word 0xf957f631
+.word 0xf959fe31
 .word 0xb4000051
 .word 0xd63f0220
 
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x0, [x16, #848]
+ldr x0, [x16, #904]
 .word 0xf90023a0
 .word 0xf94017b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf9582631
+.word 0xf95a2e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0x140004a9
 .word 0xf94013b1
-.word 0xf9583e31
+.word 0xf95a4631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x1, [x16, #856]
+ldr x1, [x16, #912]
 .word 0xaa1a03e0
 bl _p_2
 .word 0x53001c00
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf9586e31
+.word 0xf95a7631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0x34000260
 .word 0xf94013b1
-.word 0xf9588631
+.word 0xf95a8e31
 .word 0xb4000051
 .word 0xd63f0220
 
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x0, [x16, #864]
+ldr x0, [x16, #920]
 .word 0xf90023a0
 .word 0xf94017b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf958b631
+.word 0xf95abe31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0x14000485
 .word 0xf94013b1
-.word 0xf958ce31
+.word 0xf95ad631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x1, [x16, #872]
+ldr x1, [x16, #928]
 .word 0xaa1a03e0
 bl _p_2
 .word 0x53001c00
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf958fe31
+.word 0xf95b0631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0x34000260
 .word 0xf94013b1
-.word 0xf9591631
+.word 0xf95b1e31
 .word 0xb4000051
 .word 0xd63f0220
 
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x0, [x16, #880]
+ldr x0, [x16, #936]
 .word 0xf90023a0
 .word 0xf94017b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf9594631
+.word 0xf95b4e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0x14000461
 .word 0xf94013b1
-.word 0xf9595e31
+.word 0xf95b6631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x1, [x16, #888]
+ldr x1, [x16, #944]
 .word 0xaa1a03e0
 bl _p_2
 .word 0x53001c00
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf9598e31
+.word 0xf95b9631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0x34000260
 .word 0xf94013b1
-.word 0xf959a631
+.word 0xf95bae31
 .word 0xb4000051
 .word 0xd63f0220
 
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x0, [x16, #896]
+ldr x0, [x16, #952]
 .word 0xf90023a0
 .word 0xf94017b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf959d631
+.word 0xf95bde31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0x1400043d
 .word 0xf94013b1
-.word 0xf959ee31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-
-adrp x16, mono_aot_GetiOSModel_got@PAGE+0
-add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x1, [x16, #904]
-.word 0xaa1a03e0
-bl _p_2
-.word 0x53001c00
-.word 0xf90023a0
-.word 0xf94013b1
-.word 0xf95a1e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94023a0
-.word 0x34000260
-.word 0xf94013b1
-.word 0xf95a3631
-.word 0xb4000051
-.word 0xd63f0220
-
-adrp x16, mono_aot_GetiOSModel_got@PAGE+0
-add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x0, [x16, #912]
-.word 0xf90023a0
-.word 0xf94017b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf95a6631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94023a0
-.word 0x14000419
-.word 0xf94013b1
-.word 0xf95a7e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-
-adrp x16, mono_aot_GetiOSModel_got@PAGE+0
-add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x1, [x16, #920]
-.word 0xaa1a03e0
-bl _p_2
-.word 0x53001c00
-.word 0xf90023a0
-.word 0xf94013b1
-.word 0xf95aae31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94023a0
-.word 0x34000260
-.word 0xf94013b1
-.word 0xf95ac631
-.word 0xb4000051
-.word 0xd63f0220
-
-adrp x16, mono_aot_GetiOSModel_got@PAGE+0
-add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x0, [x16, #928]
-.word 0xf90023a0
-.word 0xf94017b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf95af631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94023a0
-.word 0x140003f5
-.word 0xf94013b1
-.word 0xf95b0e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-
-adrp x16, mono_aot_GetiOSModel_got@PAGE+0
-add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x1, [x16, #936]
-.word 0xaa1a03e0
-bl _p_2
-.word 0x53001c00
-.word 0xf90023a0
-.word 0xf94013b1
-.word 0xf95b3e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94023a0
-.word 0x34000260
-.word 0xf94013b1
-.word 0xf95b5631
-.word 0xb4000051
-.word 0xd63f0220
-
-adrp x16, mono_aot_GetiOSModel_got@PAGE+0
-add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x0, [x16, #944]
-.word 0xf90023a0
-.word 0xf94017b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf95b8631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94023a0
-.word 0x140003d1
-.word 0xf94013b1
-.word 0xf95b9e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-
-adrp x16, mono_aot_GetiOSModel_got@PAGE+0
-add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x1, [x16, #952]
-.word 0xaa1a03e0
-bl _p_2
-.word 0x53001c00
-.word 0xf90023a0
-.word 0xf94013b1
-.word 0xf95bce31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94023a0
-.word 0x34000260
-.word 0xf94013b1
-.word 0xf95be631
-.word 0xb4000051
-.word 0xd63f0220
-
-adrp x16, mono_aot_GetiOSModel_got@PAGE+0
-add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x0, [x16, #944]
-.word 0xf90023a0
-.word 0xf94017b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf95c1631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94023a0
-.word 0x140003ad
-.word 0xf94013b1
-.word 0xf95c2e31
+.word 0xf95bf631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -2035,13 +2020,13 @@ bl _p_2
 .word 0x53001c00
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf95c5e31
+.word 0xf95c2631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0x34000260
 .word 0xf94013b1
-.word 0xf95c7631
+.word 0xf95c3e31
 .word 0xb4000051
 .word 0xd63f0220
 
@@ -2054,13 +2039,13 @@ ldr x0, [x16, #968]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf95ca631
+.word 0xf95c6e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
-.word 0x14000389
+.word 0x14000419
 .word 0xf94013b1
-.word 0xf95cbe31
+.word 0xf95c8631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -2073,13 +2058,13 @@ bl _p_2
 .word 0x53001c00
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf95cee31
+.word 0xf95cb631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0x34000260
 .word 0xf94013b1
-.word 0xf95d0631
+.word 0xf95cce31
 .word 0xb4000051
 .word 0xd63f0220
 
@@ -2092,13 +2077,13 @@ ldr x0, [x16, #984]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf95d3631
+.word 0xf95cfe31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
-.word 0x14000365
+.word 0x140003f5
 .word 0xf94013b1
-.word 0xf95d4e31
+.word 0xf95d1631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -2111,13 +2096,13 @@ bl _p_2
 .word 0x53001c00
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf95d7e31
+.word 0xf95d4631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0x34000260
 .word 0xf94013b1
-.word 0xf95d9631
+.word 0xf95d5e31
 .word 0xb4000051
 .word 0xd63f0220
 
@@ -2130,13 +2115,13 @@ ldr x0, [x16, #1000]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf95dc631
+.word 0xf95d8e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
-.word 0x14000341
+.word 0x140003d1
 .word 0xf94013b1
-.word 0xf95dde31
+.word 0xf95da631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -2149,775 +2134,790 @@ bl _p_2
 .word 0x53001c00
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf95e0e31
+.word 0xf95dd631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0x34000260
 .word 0xf94013b1
-.word 0xf95e2631
+.word 0xf95dee31
 .word 0xb4000051
 .word 0xd63f0220
 
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x0, [x16, #1016]
+ldr x0, [x16, #1000]
 .word 0xf90023a0
 .word 0xf94017b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf95e5631
+.word 0xf95e1e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023a0
+.word 0x140003ad
+.word 0xf94013b1
+.word 0xf95e3631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+
+adrp x16, mono_aot_GetiOSModel_got@PAGE+0
+add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
+ldr x1, [x16, #1016]
+.word 0xaa1a03e0
+bl _p_2
+.word 0x53001c00
+.word 0xf90023a0
+.word 0xf94013b1
+.word 0xf95e6631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023a0
+.word 0x34000260
+.word 0xf94013b1
+.word 0xf95e7e31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_GetiOSModel_got@PAGE+0
+add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
+ldr x0, [x16, #1024]
+.word 0xf90023a0
+.word 0xf94017b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf95eae31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023a0
+.word 0x14000389
+.word 0xf94013b1
+.word 0xf95ec631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+
+adrp x16, mono_aot_GetiOSModel_got@PAGE+0
+add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
+ldr x1, [x16, #1032]
+.word 0xaa1a03e0
+bl _p_2
+.word 0x53001c00
+.word 0xf90023a0
+.word 0xf94013b1
+.word 0xf95ef631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023a0
+.word 0x34000260
+.word 0xf94013b1
+.word 0xf95f0e31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_GetiOSModel_got@PAGE+0
+add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
+ldr x0, [x16, #1040]
+.word 0xf90023a0
+.word 0xf94017b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf95f3e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023a0
+.word 0x14000365
+.word 0xf94013b1
+.word 0xf95f5631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+
+adrp x16, mono_aot_GetiOSModel_got@PAGE+0
+add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
+ldr x1, [x16, #1048]
+.word 0xaa1a03e0
+bl _p_2
+.word 0x53001c00
+.word 0xf90023a0
+.word 0xf94013b1
+.word 0xf95f8631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023a0
+.word 0x34000260
+.word 0xf94013b1
+.word 0xf95f9e31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_GetiOSModel_got@PAGE+0
+add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
+ldr x0, [x16, #1056]
+.word 0xf90023a0
+.word 0xf94017b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf95fce31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023a0
+.word 0x14000341
+.word 0xf94013b1
+.word 0xf95fe631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+
+adrp x16, mono_aot_GetiOSModel_got@PAGE+0
+add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
+ldr x1, [x16, #1064]
+.word 0xaa1a03e0
+bl _p_2
+.word 0x53001c00
+.word 0xf90023a0
+.word 0xf94013b1
+.word 0xf9601631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023a0
+.word 0x34000260
+.word 0xf94013b1
+.word 0xf9602e31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_GetiOSModel_got@PAGE+0
+add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
+ldr x0, [x16, #1072]
+.word 0xf90023a0
+.word 0xf94017b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9605e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0x1400031d
 .word 0xf94013b1
-.word 0xf95e6e31
+.word 0xf9607631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x1, [x16, #1024]
+ldr x1, [x16, #1080]
 .word 0xaa1a03e0
 bl _p_2
 .word 0x53001c00
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf95e9e31
+.word 0xf960a631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0x34000260
 .word 0xf94013b1
-.word 0xf95eb631
+.word 0xf960be31
 .word 0xb4000051
 .word 0xd63f0220
 
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x0, [x16, #1032]
+ldr x0, [x16, #1088]
 .word 0xf90023a0
 .word 0xf94017b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf95ee631
+.word 0xf960ee31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0x140002f9
 .word 0xf94013b1
-.word 0xf95efe31
+.word 0xf9610631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x1, [x16, #1040]
+ldr x1, [x16, #1096]
 .word 0xaa1a03e0
 bl _p_2
 .word 0x53001c00
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf95f2e31
+.word 0xf9613631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0x34000260
 .word 0xf94013b1
-.word 0xf95f4631
+.word 0xf9614e31
 .word 0xb4000051
 .word 0xd63f0220
 
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x0, [x16, #1048]
+ldr x0, [x16, #1104]
 .word 0xf90023a0
 .word 0xf94017b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf95f7631
+.word 0xf9617e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0x140002d5
 .word 0xf94013b1
-.word 0xf95f8e31
+.word 0xf9619631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x1, [x16, #1056]
+ldr x1, [x16, #1112]
 .word 0xaa1a03e0
 bl _p_2
 .word 0x53001c00
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf95fbe31
+.word 0xf961c631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0x34000260
 .word 0xf94013b1
-.word 0xf95fd631
+.word 0xf961de31
 .word 0xb4000051
 .word 0xd63f0220
 
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x0, [x16, #1064]
+ldr x0, [x16, #1120]
 .word 0xf90023a0
 .word 0xf94017b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf9600631
+.word 0xf9620e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0x140002b1
 .word 0xf94013b1
-.word 0xf9601e31
+.word 0xf9622631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x1, [x16, #1072]
+ldr x1, [x16, #1128]
 .word 0xaa1a03e0
 bl _p_2
 .word 0x53001c00
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf9604e31
+.word 0xf9625631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0x34000260
 .word 0xf94013b1
-.word 0xf9606631
+.word 0xf9626e31
 .word 0xb4000051
 .word 0xd63f0220
 
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x0, [x16, #1080]
+ldr x0, [x16, #1136]
 .word 0xf90023a0
 .word 0xf94017b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf9609631
+.word 0xf9629e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0x1400028d
 .word 0xf94013b1
-.word 0xf960ae31
+.word 0xf962b631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x1, [x16, #1088]
+ldr x1, [x16, #1144]
 .word 0xaa1a03e0
 bl _p_2
 .word 0x53001c00
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf960de31
+.word 0xf962e631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0x34000260
 .word 0xf94013b1
-.word 0xf960f631
+.word 0xf962fe31
 .word 0xb4000051
 .word 0xd63f0220
 
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x0, [x16, #1096]
+ldr x0, [x16, #1152]
 .word 0xf90023a0
 .word 0xf94017b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf9612631
+.word 0xf9632e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0x14000269
 .word 0xf94013b1
-.word 0xf9613e31
+.word 0xf9634631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x1, [x16, #1104]
+ldr x1, [x16, #1160]
 .word 0xaa1a03e0
 bl _p_2
 .word 0x53001c00
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf9616e31
+.word 0xf9637631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0x34000260
 .word 0xf94013b1
-.word 0xf9618631
+.word 0xf9638e31
 .word 0xb4000051
 .word 0xd63f0220
 
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x0, [x16, #1112]
+ldr x0, [x16, #1168]
 .word 0xf90023a0
 .word 0xf94017b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf961b631
+.word 0xf963be31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0x14000245
 .word 0xf94013b1
-.word 0xf961ce31
+.word 0xf963d631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x1, [x16, #1120]
+ldr x1, [x16, #1176]
 .word 0xaa1a03e0
 bl _p_2
 .word 0x53001c00
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf961fe31
+.word 0xf9640631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0x34000260
 .word 0xf94013b1
-.word 0xf9621631
+.word 0xf9641e31
 .word 0xb4000051
 .word 0xd63f0220
 
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x0, [x16, #1128]
+ldr x0, [x16, #1184]
 .word 0xf90023a0
 .word 0xf94017b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf9624631
+.word 0xf9644e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0x14000221
 .word 0xf94013b1
-.word 0xf9625e31
+.word 0xf9646631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x1, [x16, #1136]
+ldr x1, [x16, #1192]
 .word 0xaa1a03e0
 bl _p_2
 .word 0x53001c00
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf9628e31
+.word 0xf9649631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0x34000260
 .word 0xf94013b1
-.word 0xf962a631
+.word 0xf964ae31
 .word 0xb4000051
 .word 0xd63f0220
 
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x0, [x16, #1144]
+ldr x0, [x16, #1200]
 .word 0xf90023a0
 .word 0xf94017b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf962d631
+.word 0xf964de31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0x140001fd
 .word 0xf94013b1
-.word 0xf962ee31
+.word 0xf964f631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x1, [x16, #1152]
+ldr x1, [x16, #1208]
 .word 0xaa1a03e0
 bl _p_2
 .word 0x53001c00
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf9631e31
+.word 0xf9652631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0x34000260
 .word 0xf94013b1
-.word 0xf9633631
+.word 0xf9653e31
 .word 0xb4000051
 .word 0xd63f0220
 
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x0, [x16, #1160]
+ldr x0, [x16, #1216]
 .word 0xf90023a0
 .word 0xf94017b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf9636631
+.word 0xf9656e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0x140001d9
 .word 0xf94013b1
-.word 0xf9637e31
+.word 0xf9658631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x1, [x16, #1168]
+ldr x1, [x16, #1224]
 .word 0xaa1a03e0
 bl _p_2
 .word 0x53001c00
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf963ae31
+.word 0xf965b631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0x34000260
 .word 0xf94013b1
-.word 0xf963c631
+.word 0xf965ce31
 .word 0xb4000051
 .word 0xd63f0220
 
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x0, [x16, #1176]
+ldr x0, [x16, #1232]
 .word 0xf90023a0
 .word 0xf94017b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf963f631
+.word 0xf965fe31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0x140001b5
 .word 0xf94013b1
-.word 0xf9640e31
+.word 0xf9661631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x1, [x16, #1184]
+ldr x1, [x16, #1240]
 .word 0xaa1a03e0
 bl _p_2
 .word 0x53001c00
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf9643e31
+.word 0xf9664631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0x34000260
 .word 0xf94013b1
-.word 0xf9645631
+.word 0xf9665e31
 .word 0xb4000051
 .word 0xd63f0220
 
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x0, [x16, #1192]
+ldr x0, [x16, #1248]
 .word 0xf90023a0
 .word 0xf94017b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf9648631
+.word 0xf9668e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0x14000191
 .word 0xf94013b1
-.word 0xf9649e31
+.word 0xf966a631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x1, [x16, #1200]
+ldr x1, [x16, #1256]
 .word 0xaa1a03e0
 bl _p_2
 .word 0x53001c00
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf964ce31
+.word 0xf966d631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0x34000260
 .word 0xf94013b1
-.word 0xf964e631
+.word 0xf966ee31
 .word 0xb4000051
 .word 0xd63f0220
 
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x0, [x16, #1208]
+ldr x0, [x16, #1264]
 .word 0xf90023a0
 .word 0xf94017b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf9651631
+.word 0xf9671e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0x1400016d
 .word 0xf94013b1
-.word 0xf9652e31
+.word 0xf9673631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x1, [x16, #1216]
+ldr x1, [x16, #1272]
 .word 0xaa1a03e0
 bl _p_2
 .word 0x53001c00
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf9655e31
+.word 0xf9676631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0x34000260
 .word 0xf94013b1
-.word 0xf9657631
+.word 0xf9677e31
 .word 0xb4000051
 .word 0xd63f0220
 
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x0, [x16, #1224]
+ldr x0, [x16, #1280]
 .word 0xf90023a0
 .word 0xf94017b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf965a631
+.word 0xf967ae31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0x14000149
 .word 0xf94013b1
-.word 0xf965be31
+.word 0xf967c631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x1, [x16, #1232]
+ldr x1, [x16, #1288]
 .word 0xaa1a03e0
 bl _p_2
 .word 0x53001c00
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf965ee31
+.word 0xf967f631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0x34000260
 .word 0xf94013b1
-.word 0xf9660631
+.word 0xf9680e31
 .word 0xb4000051
 .word 0xd63f0220
 
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x0, [x16, #1240]
+ldr x0, [x16, #1296]
 .word 0xf90023a0
 .word 0xf94017b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf9663631
+.word 0xf9683e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0x14000125
 .word 0xf94013b1
-.word 0xf9664e31
+.word 0xf9685631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x1, [x16, #1248]
+ldr x1, [x16, #1304]
 .word 0xaa1a03e0
 bl _p_2
 .word 0x53001c00
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf9667e31
+.word 0xf9688631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0x34000260
 .word 0xf94013b1
-.word 0xf9669631
+.word 0xf9689e31
 .word 0xb4000051
 .word 0xd63f0220
 
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x0, [x16, #1256]
+ldr x0, [x16, #1312]
 .word 0xf90023a0
 .word 0xf94017b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf966c631
+.word 0xf968ce31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0x14000101
 .word 0xf94013b1
-.word 0xf966de31
+.word 0xf968e631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x1, [x16, #1264]
-.word 0xaa1a03e0
-bl _p_2
-.word 0x53001c00
-.word 0xf90023a0
-.word 0xf94013b1
-.word 0xf9670e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94023a0
-.word 0x34000260
-.word 0xf94013b1
-.word 0xf9672631
-.word 0xb4000051
-.word 0xd63f0220
-
-adrp x16, mono_aot_GetiOSModel_got@PAGE+0
-add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x0, [x16, #1272]
-.word 0xf90023a0
-.word 0xf94017b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf9675631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94023a0
-.word 0x140000dd
-.word 0xf94013b1
-.word 0xf9676e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-
-adrp x16, mono_aot_GetiOSModel_got@PAGE+0
-add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x1, [x16, #1280]
+ldr x1, [x16, #1320]
 .word 0xaa1a03e0
 bl _p_2
 .word 0x53001c00
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf9679e31
+.word 0xf9691631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0x34000260
-.word 0xf94013b1
-.word 0xf967b631
-.word 0xb4000051
-.word 0xd63f0220
-
-adrp x16, mono_aot_GetiOSModel_got@PAGE+0
-add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x0, [x16, #1288]
-.word 0xf90023a0
-.word 0xf94017b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf967e631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94023a0
-.word 0x140000b9
-.word 0xf94013b1
-.word 0xf967fe31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-
-adrp x16, mono_aot_GetiOSModel_got@PAGE+0
-add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x1, [x16, #1296]
-.word 0xaa1a03e0
-bl _p_2
-.word 0x53001c00
-.word 0xf90023a0
-.word 0xf94013b1
-.word 0xf9682e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94023a0
-.word 0x34000260
-.word 0xf94013b1
-.word 0xf9684631
-.word 0xb4000051
-.word 0xd63f0220
-
-adrp x16, mono_aot_GetiOSModel_got@PAGE+0
-add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x0, [x16, #1304]
-.word 0xf90023a0
-.word 0xf94017b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf9687631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94023a0
-.word 0x14000095
-.word 0xf94013b1
-.word 0xf9688e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-
-adrp x16, mono_aot_GetiOSModel_got@PAGE+0
-add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x1, [x16, #1312]
-.word 0xaa1a03e0
-bl _p_2
-.word 0x53001c00
-.word 0xf90023a0
-.word 0xf94013b1
-.word 0xf968be31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94023a0
-.word 0x34000260
-.word 0xf94013b1
-.word 0xf968d631
-.word 0xb4000051
-.word 0xd63f0220
-
-adrp x16, mono_aot_GetiOSModel_got@PAGE+0
-add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x0, [x16, #1320]
-.word 0xf90023a0
-.word 0xf94017b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf9690631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94023a0
-.word 0x14000071
-.word 0xf94017b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
 .word 0xf94013b1
 .word 0xf9692e31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xaa1a03e0
 
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x1, [x16, #1328]
-.word 0xaa1a03e0
-bl _p_2
-.word 0x53001c00
+ldr x0, [x16, #1328]
 .word 0xf90023a0
+.word 0xf94017b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
 .word 0xf94013b1
 .word 0xf9695e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
-.word 0x35000260
+.word 0x140000dd
 .word 0xf94013b1
 .word 0xf9697631
 .word 0xb4000051
@@ -2936,13 +2936,9 @@ bl _p_2
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
-.word 0x340002e0
-.word 0xf94017b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
+.word 0x34000260
 .word 0xf94013b1
-.word 0xf969ce31
+.word 0xf969be31
 .word 0xb4000051
 .word 0xd63f0220
 
@@ -2955,13 +2951,13 @@ ldr x0, [x16, #1344]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf969fe31
+.word 0xf969ee31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
-.word 0x14000033
+.word 0x140000b9
 .word 0xf94013b1
-.word 0xf96a1631
+.word 0xf96a0631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -2974,28 +2970,13 @@ bl _p_2
 .word 0x53001c00
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf96a4631
+.word 0xf96a3631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
-.word 0x35000200
+.word 0x34000260
 .word 0xf94013b1
-.word 0xf96a5e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xf94017b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf96a8231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0x14000012
-.word 0xf94013b1
-.word 0xf96a9a31
+.word 0xf96a4e31
 .word 0xb4000051
 .word 0xd63f0220
 
@@ -3008,12 +2989,168 @@ ldr x0, [x16, #1360]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf96aca31
+.word 0xf96a7e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023a0
+.word 0x14000095
+.word 0xf94013b1
+.word 0xf96a9631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+
+adrp x16, mono_aot_GetiOSModel_got@PAGE+0
+add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
+ldr x1, [x16, #1368]
+.word 0xaa1a03e0
+bl _p_2
+.word 0x53001c00
+.word 0xf90023a0
+.word 0xf94013b1
+.word 0xf96ac631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023a0
+.word 0x34000260
+.word 0xf94013b1
+.word 0xf96ade31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_GetiOSModel_got@PAGE+0
+add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
+ldr x0, [x16, #1376]
+.word 0xf90023a0
+.word 0xf94017b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf96b0e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023a0
+.word 0x14000071
+.word 0xf94017b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf96b3631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+
+adrp x16, mono_aot_GetiOSModel_got@PAGE+0
+add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
+ldr x1, [x16, #1384]
+.word 0xaa1a03e0
+bl _p_2
+.word 0x53001c00
+.word 0xf90023a0
+.word 0xf94013b1
+.word 0xf96b6631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023a0
+.word 0x35000260
+.word 0xf94013b1
+.word 0xf96b7e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+
+adrp x16, mono_aot_GetiOSModel_got@PAGE+0
+add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
+ldr x1, [x16, #1392]
+.word 0xaa1a03e0
+bl _p_2
+.word 0x53001c00
+.word 0xf90023a0
+.word 0xf94013b1
+.word 0xf96bae31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023a0
+.word 0x340002e0
+.word 0xf94017b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf96bd631
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_GetiOSModel_got@PAGE+0
+add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
+ldr x0, [x16, #1400]
+.word 0xf90023a0
+.word 0xf94017b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf96c0631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023a0
+.word 0x14000033
+.word 0xf94013b1
+.word 0xf96c1e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+
+adrp x16, mono_aot_GetiOSModel_got@PAGE+0
+add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
+ldr x1, [x16, #1408]
+.word 0xaa1a03e0
+bl _p_2
+.word 0x53001c00
+.word 0xf90023a0
+.word 0xf94013b1
+.word 0xf96c4e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023a0
+.word 0x35000200
+.word 0xf94013b1
+.word 0xf96c6631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xf94017b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf96c8a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0x14000012
+.word 0xf94013b1
+.word 0xf96ca231
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_GetiOSModel_got@PAGE+0
+add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
+ldr x0, [x16, #1416]
+.word 0xf90023a0
+.word 0xf94017b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf96cd231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xf94013b1
-.word 0xf96ade31
+.word 0xf96ce631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400bba
@@ -3033,7 +3170,7 @@ Xamarin_iOS_iOSHardware__ctor:
 
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x16, [x16, #1368]
+ldr x16, [x16, #1424]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -3079,7 +3216,7 @@ Xamarin_iOS_DeviceHardware_FindVersion:
 
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x16, [x16, #1376]
+ldr x16, [x16, #1432]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -3119,17 +3256,17 @@ bl _p_3
 
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x0, [x16, #1384]
+ldr x0, [x16, #1440]
 
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x1, [x16, #1392]
+ldr x1, [x16, #1448]
 .word 0xf9400021
 .word 0xaa0203e3
 
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x3, [x16, #1392]
+ldr x3, [x16, #1448]
 .word 0xf9400063
 .word 0xd2800004
 .word 0xd2800004
@@ -3183,7 +3320,7 @@ bl _p_6
 
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x0, [x16, #1360]
+ldr x0, [x16, #1416]
 .word 0xaa0003f7
 .word 0xf9401bb1
 .word 0xf941be31
@@ -3217,13 +3354,13 @@ bl _p_3
 
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x0, [x16, #1384]
+ldr x0, [x16, #1440]
 .word 0xaa0103e2
 .word 0xaa1a03e2
 
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x2, [x16, #1392]
+ldr x2, [x16, #1448]
 .word 0xf9400043
 .word 0xd2800002
 .word 0xaa1a03e2
@@ -3275,7 +3412,7 @@ bl _p_6
 
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x0, [x16, #1400]
+ldr x0, [x16, #1456]
 .word 0xf90047a0
 .word 0xf94027a1
 .word 0xaa0103e0
@@ -3323,7 +3460,7 @@ bl _p_11
 
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x0, [x16, #1360]
+ldr x0, [x16, #1416]
 .word 0xf90043a0
 .word 0xf9401fb1
 .word 0xf9400231
@@ -3375,7 +3512,7 @@ Xamarin_iOS_DeviceHardware_get_Version:
 
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x16, [x16, #1408]
+ldr x16, [x16, #1464]
 .word 0xf9000bb0
 .word 0xf9400a11
 .word 0xf9000fb1
@@ -3426,7 +3563,7 @@ Xamarin_iOS_DeviceHardware_get_Model:
 
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x16, [x16, #1416]
+ldr x16, [x16, #1472]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -3461,7 +3598,7 @@ bl _p_13
 
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x1, [x16, #1328]
+ldr x1, [x16, #1384]
 bl _p_2
 .word 0x53001c00
 .word 0xf9001ba0
@@ -3479,7 +3616,7 @@ bl _p_2
 
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x1, [x16, #1336]
+ldr x1, [x16, #1392]
 .word 0xaa1a03e0
 bl _p_2
 .word 0x53001c00
@@ -3501,7 +3638,7 @@ bl _p_2
 
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x0, [x16, #1424]
+ldr x0, [x16, #1480]
 .word 0xf9400000
 .word 0xf90027a0
 bl _p_14
@@ -3513,7 +3650,7 @@ bl _p_14
 .word 0xf94033a1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf940e030
+.word 0xf940e430
 .word 0xd63f0200
 .word 0xf9002fa0
 .word 0xf9400fb1
@@ -3524,10 +3661,10 @@ bl _p_14
 
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x1, [x16, #1432]
+ldr x1, [x16, #1488]
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf9417850
+.word 0xf9417c50
 .word 0xd63f0200
 .word 0xf9002ba0
 .word 0xf9400fb1
@@ -3558,7 +3695,7 @@ bl _p_15
 
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x1, [x16, #1440]
+ldr x1, [x16, #1496]
 bl _p_8
 .word 0xf9001ba0
 .word 0xf9400fb1
@@ -3582,7 +3719,7 @@ bl _p_8
 
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x0, [x16, #1424]
+ldr x0, [x16, #1480]
 .word 0xf9400002
 .word 0xaa1a03e0
 .word 0xaa0203e0
@@ -3623,7 +3760,7 @@ Xamarin_iOS_DeviceHardware__cctor:
 
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x16, [x16, #1448]
+ldr x16, [x16, #1504]
 .word 0xf9000bb0
 .word 0xf9400a11
 .word 0xf9000fb1
@@ -3642,7 +3779,7 @@ ldr x16, [x16, #1448]
 
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x0, [x16, #1456]
+ldr x0, [x16, #1512]
 .word 0xd2800201
 .word 0xd2800201
 bl _p_16
@@ -3656,7 +3793,7 @@ bl _p_17
 
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x0, [x16, #1424]
+ldr x0, [x16, #1480]
 .word 0xf9000001
 .word 0xf9400bb1
 .word 0xf940a231
@@ -3666,24 +3803,24 @@ ldr x0, [x16, #1424]
 
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x0, [x16, #1464]
+ldr x0, [x16, #1520]
 .word 0xd2800e01
 .word 0xd2800e01
 bl _p_16
 
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x1, [x16, #1472]
+ldr x1, [x16, #1528]
 .word 0xf9001401
 
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x1, [x16, #1480]
+ldr x1, [x16, #1536]
 .word 0xf9002001
 
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x1, [x16, #1488]
+ldr x1, [x16, #1544]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
@@ -3694,7 +3831,7 @@ ldr x1, [x16, #1488]
 
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x0, [x16, #1496]
+ldr x0, [x16, #1552]
 .word 0xd2800501
 .word 0xd2800501
 bl _p_16
@@ -3709,7 +3846,7 @@ bl _p_18
 
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x0, [x16, #1504]
+ldr x0, [x16, #1560]
 .word 0xf9000001
 .word 0xf9400bb1
 .word 0xf9415e31
@@ -3738,7 +3875,7 @@ wrapper_delegate_invoke_System_Func_1_string_invoke_TResult:
 
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x16, [x16, #1512]
+ldr x16, [x16, #1568]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -3755,7 +3892,7 @@ ldr x16, [x16, #1512]
 
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x0, [x16, #1520]
+ldr x0, [x16, #1576]
 .word 0xb9400000
 .word 0x34000140
 bl _p_19
@@ -3883,7 +4020,7 @@ wrapper_managed_to_native_Xamarin_iOS_DeviceHardware_sysctlbyname_string_intptr_
 
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x16, [x16, #1528]
+ldr x16, [x16, #1584]
 .word 0xf9001fb0
 .word 0xf9400a11
 .word 0xf90023b1
@@ -3944,7 +4081,7 @@ bl _p_22
 
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x0, [x16, #1520]
+ldr x0, [x16, #1576]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9401fb1
@@ -4055,189 +4192,189 @@ plt_string_StartsWith_string:
 _p_1:
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x16, [x16, #1544]
+ldr x16, [x16, #1600]
 br x16
-.word 1227
+.word 1269
 	.no_dead_strip plt_string_op_Equality_string_string
 plt_string_op_Equality_string_string:
 _p_2:
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x16, [x16, #1552]
+ldr x16, [x16, #1608]
 br x16
-.word 1232
+.word 1274
 	.no_dead_strip plt_System_Runtime_InteropServices_Marshal_AllocHGlobal_int
 plt_System_Runtime_InteropServices_Marshal_AllocHGlobal_int:
 _p_3:
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x16, [x16, #1560]
+ldr x16, [x16, #1616]
 br x16
-.word 1237
+.word 1279
 	.no_dead_strip plt_Xamarin_iOS_DeviceHardware_sysctlbyname_string_intptr_intptr_intptr_uint
 plt_Xamarin_iOS_DeviceHardware_sysctlbyname_string_intptr_intptr_intptr_uint:
 _p_4:
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x16, [x16, #1568]
+ldr x16, [x16, #1624]
 br x16
-.word 1242
+.word 1284
 	.no_dead_strip plt_System_Runtime_InteropServices_Marshal_ReadInt32_intptr
 plt_System_Runtime_InteropServices_Marshal_ReadInt32_intptr:
 _p_5:
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x16, [x16, #1576]
+ldr x16, [x16, #1632]
 br x16
-.word 1244
+.word 1286
 	.no_dead_strip plt_System_Runtime_InteropServices_Marshal_FreeHGlobal_intptr
 plt_System_Runtime_InteropServices_Marshal_FreeHGlobal_intptr:
 _p_6:
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x16, [x16, #1584]
+ldr x16, [x16, #1640]
 br x16
-.word 1249
+.word 1291
 	.no_dead_strip plt_System_Runtime_InteropServices_Marshal_PtrToStringAnsi_intptr
 plt_System_Runtime_InteropServices_Marshal_PtrToStringAnsi_intptr:
 _p_7:
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x16, [x16, #1592]
+ldr x16, [x16, #1648]
 br x16
-.word 1254
+.word 1296
 	.no_dead_strip plt_string_Concat_string_string
 plt_string_Concat_string_string:
 _p_8:
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x16, [x16, #1600]
+ldr x16, [x16, #1656]
 br x16
-.word 1259
+.word 1301
 	.no_dead_strip plt_System_Console_WriteLine_string
 plt_System_Console_WriteLine_string:
 _p_9:
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x16, [x16, #1608]
+ldr x16, [x16, #1664]
 br x16
-.word 1264
+.word 1306
 	.no_dead_strip plt__jit_icall_mono_thread_get_undeniable_exception
 plt__jit_icall_mono_thread_get_undeniable_exception:
 _p_10:
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x16, [x16, #1616]
+ldr x16, [x16, #1672]
 br x16
-.word 1269
+.word 1311
 	.no_dead_strip plt__jit_icall_mono_arch_throw_exception
 plt__jit_icall_mono_arch_throw_exception:
 _p_11:
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x16, [x16, #1624]
+ldr x16, [x16, #1680]
 br x16
-.word 1308
+.word 1350
 	.no_dead_strip plt_Xamarin_iOS_DeviceHardware_FindVersion
 plt_Xamarin_iOS_DeviceHardware_FindVersion:
 _p_12:
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x16, [x16, #1632]
+ldr x16, [x16, #1688]
 br x16
-.word 1336
+.word 1378
 	.no_dead_strip plt_Xamarin_iOS_DeviceHardware_get_Version
 plt_Xamarin_iOS_DeviceHardware_get_Version:
 _p_13:
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x16, [x16, #1640]
+ldr x16, [x16, #1696]
 br x16
-.word 1338
+.word 1380
 	.no_dead_strip plt_Foundation_NSProcessInfo_get_ProcessInfo
 plt_Foundation_NSProcessInfo_get_ProcessInfo:
 _p_14:
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x16, [x16, #1648]
+ldr x16, [x16, #1704]
 br x16
-.word 1340
+.word 1382
 	.no_dead_strip plt_Xamarin_iOS_iOSHardware_GetModel_string
 plt_Xamarin_iOS_iOSHardware_GetModel_string:
 _p_15:
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x16, [x16, #1656]
+ldr x16, [x16, #1712]
 br x16
-.word 1345
+.word 1387
 	.no_dead_strip plt_wrapper_alloc_object_AllocSmall_intptr_intptr
 plt_wrapper_alloc_object_AllocSmall_intptr_intptr:
 _p_16:
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x16, [x16, #1664]
+ldr x16, [x16, #1720]
 br x16
-.word 1347
+.word 1389
 	.no_dead_strip plt_Xamarin_iOS_iOSHardware__ctor
 plt_Xamarin_iOS_iOSHardware__ctor:
 _p_17:
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x16, [x16, #1672]
+ldr x16, [x16, #1728]
 br x16
-.word 1355
+.word 1397
 	.no_dead_strip plt_System_Lazy_1_string__ctor_System_Func_1_string
 plt_System_Lazy_1_string__ctor_System_Func_1_string:
 _p_18:
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x16, [x16, #1680]
+ldr x16, [x16, #1736]
 br x16
-.word 1357
+.word 1399
 	.no_dead_strip plt__jit_icall_mono_thread_interruption_checkpoint
 plt__jit_icall_mono_thread_interruption_checkpoint:
 _p_19:
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x16, [x16, #1688]
+ldr x16, [x16, #1744]
 br x16
-.word 1368
+.word 1410
 	.no_dead_strip plt__jit_icall_mono_arch_throw_corlib_exception
 plt__jit_icall_mono_arch_throw_corlib_exception:
 _p_20:
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x16, [x16, #1696]
+ldr x16, [x16, #1752]
 br x16
-.word 1406
+.word 1448
 	.no_dead_strip plt__jit_icall_mono_string_to_utf8str
 plt__jit_icall_mono_string_to_utf8str:
 _p_21:
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x16, [x16, #1704]
+ldr x16, [x16, #1760]
 br x16
-.word 1441
+.word 1483
 	.no_dead_strip plt__icall_native_Xamarin_iOS_DeviceHardware_sysctlbyname_string_intptr_intptr_intptr_uint
 plt__icall_native_Xamarin_iOS_DeviceHardware_sysctlbyname_string_intptr_intptr_intptr_uint:
 _p_22:
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x16, [x16, #1712]
+ldr x16, [x16, #1768]
 br x16
-.word 1466
+.word 1508
 	.no_dead_strip plt__jit_icall_mono_marshal_free
 plt__jit_icall_mono_marshal_free:
 _p_23:
 adrp x16, mono_aot_GetiOSModel_got@PAGE+0
 add x16, x16, mono_aot_GetiOSModel_got@PAGEOFF
-ldr x16, [x16, #1720]
+ldr x16, [x16, #1776]
 br x16
-.word 1468
+.word 1510
 plt_end:
 .section __DATA, __bss
 	.align 3
-.lcomm mono_aot_GetiOSModel_got, 1728
+.lcomm mono_aot_GetiOSModel_got, 1784
 got_end:
 .section __TEXT, __const
 	.align 3
@@ -4260,7 +4397,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "F0E0F083-3FCF-43F7-BE65-3EA0ABADC485"
+	.asciz "C364CDC5-6624-47AC-9BDB-EA59F969DBE1"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -4339,13 +4476,13 @@ _mono_aot_file_info:
 	.align 3
 	.quad unbox_trampoline_addresses
 
-	.long 192,1728,24,10,70,387000831,0,6835
-	.long 128,8,8,8,0,25,7712,864
-	.long 600,208,0,528,576,256,0,184
-	.long 40,856,0,0,0,0,0,0
+	.long 199,1784,24,10,70,387000831,0,7072
+	.long 128,8,8,8,0,25,7952,872
+	.long 608,208,0,536,584,256,0,184
+	.long 40,864,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0
-	.byte 184,81,29,147,68,1,132,167,64,58,76,180,224,111,2,140
+	.byte 176,66,124,106,40,171,213,72,226,25,159,215,83,117,77,174
 	.globl _mono_aot_module_GetiOSModel_info
 	.align 3
 _mono_aot_module_GetiOSModel_info:
