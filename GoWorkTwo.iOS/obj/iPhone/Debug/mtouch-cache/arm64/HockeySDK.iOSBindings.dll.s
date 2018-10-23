@@ -21,7 +21,7 @@ Ldebug_info_begin:
 	.short 2
 	.long 0
 	.byte 8,1
-	.asciz "Mono AOT Compiler 5.14.0 (explicit/d31dbe843a5 Tue Aug 14 13:34:52 EDT 2018)"
+	.asciz "Mono AOT Compiler 5.12.0 (tarball Mon Sep 17 21:30:02 EDT 2018)"
 	.asciz "HockeySDK.iOSBindings.dll"
 	.asciz ""
 
@@ -395,7 +395,7 @@ bl _p_4
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
-.word 0xd2802060
+.word 0xd2801f60
 .word 0xaa1103e1
 bl _p_5
 
@@ -881,10 +881,10 @@ ldr x1, [x16, #392]
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
-.word 0xd2802260
+.word 0xd2802160
 .word 0xaa1103e1
 bl _p_5
-.word 0xd2801540
+.word 0xd2801420
 .word 0xaa1103e1
 bl _p_5
 
@@ -1106,7 +1106,7 @@ bl _p_4
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
-.word 0xd2802060
+.word 0xd2801f60
 .word 0xaa1103e1
 bl _p_5
 
@@ -1592,10 +1592,10 @@ ldr x1, [x16, #536]
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
-.word 0xd2802260
+.word 0xd2802160
 .word 0xaa1103e1
 bl _p_5
-.word 0xd2801540
+.word 0xd2801420
 .word 0xaa1103e1
 bl _p_5
 
@@ -1842,7 +1842,7 @@ ldr x1, [x16, #576]
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2802060
+.word 0xd2801f60
 .word 0xaa1103e1
 bl _p_5
 
@@ -2328,10 +2328,10 @@ ldr x1, [x16, #696]
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
-.word 0xd2802260
+.word 0xd2802160
 .word 0xaa1103e1
 bl _p_5
-.word 0xd2801540
+.word 0xd2801420
 .word 0xaa1103e1
 bl _p_5
 
@@ -2573,7 +2573,7 @@ ldr x1, [x16, #728]
 .word 0x910003bf
 .word 0xa8c67bfd
 .word 0xd65f03c0
-.word 0xd2802060
+.word 0xd2801f60
 .word 0xaa1103e1
 bl _p_5
 
@@ -3059,10 +3059,10 @@ ldr x1, [x16, #848]
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
-.word 0xd2802260
+.word 0xd2802160
 .word 0xaa1103e1
 bl _p_5
-.word 0xd2801540
+.word 0xd2801420
 .word 0xaa1103e1
 bl _p_5
 
@@ -3267,7 +3267,7 @@ bl _p_17
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
-.word 0xd2802060
+.word 0xd2801f60
 .word 0xaa1103e1
 bl _p_5
 
@@ -3753,10 +3753,10 @@ ldr x1, [x16, #976]
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
-.word 0xd2802260
+.word 0xd2802160
 .word 0xaa1103e1
 bl _p_5
-.word 0xd2801540
+.word 0xd2801420
 .word 0xaa1103e1
 bl _p_5
 
@@ -4773,10 +4773,10 @@ bl _p_43
 .word 0x910003bf
 .word 0xa8d17bfd
 .word 0xd65f03c0
-.word 0xd2802260
+.word 0xd2802160
 .word 0xaa1103e1
 bl _p_5
-.word 0xd2801540
+.word 0xd2801420
 .word 0xaa1103e1
 bl _p_5
 
@@ -5699,9 +5699,9 @@ ldr x0, [x16, #0]
 .word 0xd2804561
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -5875,9 +5875,9 @@ ldr x0, [x16, #0]
 .word 0xd2804561
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -6127,9 +6127,9 @@ ldr x0, [x16, #0]
 .word 0xd28057a1
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -6151,9 +6151,9 @@ ldr x0, [x16, #0]
 .word 0xd2805b61
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -6551,9 +6551,9 @@ ldr x0, [x16, #0]
 .word 0xd2806fa1
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -7003,7 +7003,7 @@ bl _p_59
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
-.word 0x34000b00
+.word 0x34000b20
 .word 0xf94013b1
 .word 0xf9409631
 .word 0xb4000051
@@ -7017,10 +7017,11 @@ bl _p_76
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xd2800101
-.word 0x6b01001f
+.word 0xd280011e
+.word 0x6b1e001f
 .word 0x54000481
 .word 0xf94013b1
-.word 0xf940d231
+.word 0xf940d631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -7028,7 +7029,7 @@ bl _p_76
 bl _p_17
 .word 0xf90027a0
 .word 0xf94013b1
-.word 0xf940f231
+.word 0xf940f631
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_8@PAGE
@@ -7036,7 +7037,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_8@PAGEOFF
 ldr x0, [x0]
 .word 0xf9002ba0
 .word 0xf94013b1
-.word 0xf9411231
+.word 0xf9411631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027a0
@@ -7044,18 +7045,18 @@ ldr x0, [x0]
 bl _p_77
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf9413231
+.word 0xf9413631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xaa0003f9
 .word 0xf94013b1
-.word 0xf9414a31
+.word 0xf9414e31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0x14000078
+.word 0x14000079
 .word 0xf94013b1
-.word 0xf9415e31
+.word 0xf9416231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -7063,7 +7064,7 @@ bl _p_77
 bl _p_17
 .word 0xf90027a0
 .word 0xf94013b1
-.word 0xf9417e31
+.word 0xf9418231
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_8@PAGE
@@ -7071,7 +7072,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_8@PAGEOFF
 ldr x0, [x0]
 .word 0xf9002ba0
 .word 0xf94013b1
-.word 0xf9419e31
+.word 0xf941a231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027a0
@@ -7080,34 +7081,35 @@ bl _p_78
 .word 0x93407c00
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf941c231
+.word 0xf941c631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0x93407c00
 .word 0xaa0003f9
 .word 0xf94013b1
-.word 0xf941de31
+.word 0xf941e231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0x14000053
+.word 0x14000054
 .word 0xf94013b1
-.word 0xf941f231
+.word 0xf941f631
 .word 0xb4000051
 .word 0xd63f0220
 bl _p_76
 .word 0x93407c00
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf9420e31
+.word 0xf9421231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xd2800101
-.word 0x6b01001f
+.word 0xd280011e
+.word 0x6b1e001f
 .word 0x54000481
 .word 0xf94013b1
-.word 0xf9422e31
+.word 0xf9423631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -7115,7 +7117,7 @@ bl _p_76
 bl _p_62
 .word 0xf90027a0
 .word 0xf94013b1
-.word 0xf9424e31
+.word 0xf9425631
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_8@PAGE
@@ -7123,7 +7125,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_8@PAGEOFF
 ldr x0, [x0]
 .word 0xf9002ba0
 .word 0xf94013b1
-.word 0xf9426e31
+.word 0xf9427631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027a0
@@ -7131,18 +7133,18 @@ ldr x0, [x0]
 bl _p_79
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf9428e31
+.word 0xf9429631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xaa0003f9
 .word 0xf94013b1
-.word 0xf942a631
+.word 0xf942ae31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x14000021
 .word 0xf94013b1
-.word 0xf942ba31
+.word 0xf942c231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -7150,7 +7152,7 @@ bl _p_79
 bl _p_62
 .word 0xf90027a0
 .word 0xf94013b1
-.word 0xf942da31
+.word 0xf942e231
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_8@PAGE
@@ -7158,7 +7160,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_8@PAGEOFF
 ldr x0, [x0]
 .word 0xf9002ba0
 .word 0xf94013b1
-.word 0xf942fa31
+.word 0xf9430231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027a0
@@ -7167,7 +7169,7 @@ bl _p_80
 .word 0x93407c00
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf9431e31
+.word 0xf9432631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
@@ -7178,7 +7180,7 @@ bl _p_80
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf9434a31
+.word 0xf9435231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
@@ -7187,12 +7189,12 @@ bl _p_80
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf9436e31
+.word 0xf9437631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xf94013b1
-.word 0xf9438231
+.word 0xf9438a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xa9416bb9
@@ -9667,7 +9669,7 @@ bl _p_59
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
-.word 0x34000ae0
+.word 0x34000b00
 .word 0xf94013b1
 .word 0xf9409631
 .word 0xb4000051
@@ -9681,10 +9683,11 @@ bl _p_76
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xd2800101
-.word 0x6b01001f
+.word 0xd280011e
+.word 0x6b1e001f
 .word 0x54000481
 .word 0xf94013b1
-.word 0xf940d231
+.word 0xf940d631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -9692,7 +9695,7 @@ bl _p_76
 bl _p_17
 .word 0xf90027a0
 .word 0xf94013b1
-.word 0xf940f231
+.word 0xf940f631
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_27@PAGE
@@ -9700,7 +9703,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_27@PAGEOFF
 ldr x0, [x0]
 .word 0xf9002ba0
 .word 0xf94013b1
-.word 0xf9411231
+.word 0xf9411631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027a0
@@ -9708,18 +9711,18 @@ ldr x0, [x0]
 bl _p_88
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf9413231
+.word 0xf9413631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xaa0003f9
 .word 0xf94013b1
-.word 0xf9414a31
+.word 0xf9414e31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0x14000076
+.word 0x14000077
 .word 0xf94013b1
-.word 0xf9415e31
+.word 0xf9416231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -9727,7 +9730,7 @@ bl _p_88
 bl _p_17
 .word 0xf90027a0
 .word 0xf94013b1
-.word 0xf9417e31
+.word 0xf9418231
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_27@PAGE
@@ -9735,7 +9738,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_27@PAGEOFF
 ldr x0, [x0]
 .word 0xf9002ba0
 .word 0xf94013b1
-.word 0xf9419e31
+.word 0xf941a231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027a0
@@ -9743,34 +9746,35 @@ ldr x0, [x0]
 bl _p_89
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf941be31
+.word 0xf941c231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0x2a0003e0
 .word 0xaa0003f9
 .word 0xf94013b1
-.word 0xf941da31
+.word 0xf941de31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0x14000052
+.word 0x14000053
 .word 0xf94013b1
-.word 0xf941ee31
+.word 0xf941f231
 .word 0xb4000051
 .word 0xd63f0220
 bl _p_76
 .word 0x93407c00
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf9420a31
+.word 0xf9420e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xd2800101
-.word 0x6b01001f
+.word 0xd280011e
+.word 0x6b1e001f
 .word 0x54000481
 .word 0xf94013b1
-.word 0xf9422a31
+.word 0xf9423231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -9778,7 +9782,7 @@ bl _p_76
 bl _p_62
 .word 0xf90027a0
 .word 0xf94013b1
-.word 0xf9424a31
+.word 0xf9425231
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_27@PAGE
@@ -9786,7 +9790,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_27@PAGEOFF
 ldr x0, [x0]
 .word 0xf9002ba0
 .word 0xf94013b1
-.word 0xf9426a31
+.word 0xf9427231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027a0
@@ -9794,18 +9798,18 @@ ldr x0, [x0]
 bl _p_90
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf9428a31
+.word 0xf9429231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xaa0003f9
 .word 0xf94013b1
-.word 0xf942a231
+.word 0xf942aa31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x14000020
 .word 0xf94013b1
-.word 0xf942b631
+.word 0xf942be31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -9813,7 +9817,7 @@ bl _p_90
 bl _p_62
 .word 0xf90027a0
 .word 0xf94013b1
-.word 0xf942d631
+.word 0xf942de31
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_27@PAGE
@@ -9821,7 +9825,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_27@PAGEOFF
 ldr x0, [x0]
 .word 0xf9002ba0
 .word 0xf94013b1
-.word 0xf942f631
+.word 0xf942fe31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027a0
@@ -9829,7 +9833,7 @@ ldr x0, [x0]
 bl _p_91
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf9431631
+.word 0xf9431e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
@@ -9840,7 +9844,7 @@ bl _p_91
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf9434231
+.word 0xf9434a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
@@ -9849,12 +9853,12 @@ bl _p_91
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf9436631
+.word 0xf9436e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xf94013b1
-.word 0xf9437a31
+.word 0xf9438231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xa9416bb9
@@ -9902,7 +9906,7 @@ bl _p_59
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
-.word 0x34000a80
+.word 0x34000aa0
 .word 0xf94013b1
 .word 0xf9409631
 .word 0xb4000051
@@ -9916,10 +9920,11 @@ bl _p_76
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xd2800101
-.word 0x6b01001f
+.word 0xd280011e
+.word 0x6b1e001f
 .word 0x54000461
 .word 0xf94013b1
-.word 0xf940d231
+.word 0xf940d631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
@@ -9927,7 +9932,7 @@ bl _p_76
 bl _p_17
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf940f231
+.word 0xf940f631
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_28@PAGE
@@ -9935,7 +9940,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_28@PAGEOFF
 ldr x0, [x0]
 .word 0xf90027a0
 .word 0xf94013b1
-.word 0xf9411231
+.word 0xf9411631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
@@ -9944,16 +9949,16 @@ ldr x0, [x0]
 .word 0xaa1a03e2
 bl _p_92
 .word 0xf94013b1
-.word 0xf9413631
+.word 0xf9413a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf9414631
+.word 0xf9414a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0x14000075
+.word 0x14000076
 .word 0xf94013b1
-.word 0xf9415a31
+.word 0xf9415e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
@@ -9961,7 +9966,7 @@ bl _p_92
 bl _p_17
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf9417a31
+.word 0xf9417e31
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_28@PAGE
@@ -9969,7 +9974,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_28@PAGEOFF
 ldr x0, [x0]
 .word 0xf90027a0
 .word 0xf94013b1
-.word 0xf9419a31
+.word 0xf9419e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
@@ -9978,31 +9983,32 @@ ldr x0, [x0]
 .word 0xaa1a03e2
 bl _p_93
 .word 0xf94013b1
-.word 0xf941be31
+.word 0xf941c231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf941ce31
+.word 0xf941d231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0x14000053
+.word 0x14000054
 .word 0xf94013b1
-.word 0xf941e231
+.word 0xf941e631
 .word 0xb4000051
 .word 0xd63f0220
 bl _p_76
 .word 0x93407c00
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf941fe31
+.word 0xf9420231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xd2800101
-.word 0x6b01001f
+.word 0xd280011e
+.word 0x6b1e001f
 .word 0x54000461
 .word 0xf94013b1
-.word 0xf9421e31
+.word 0xf9422631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
@@ -10010,7 +10016,7 @@ bl _p_76
 bl _p_62
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf9423e31
+.word 0xf9424631
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_28@PAGE
@@ -10018,7 +10024,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_28@PAGEOFF
 ldr x0, [x0]
 .word 0xf90027a0
 .word 0xf94013b1
-.word 0xf9425e31
+.word 0xf9426631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
@@ -10027,16 +10033,16 @@ ldr x0, [x0]
 .word 0xaa1a03e2
 bl _p_94
 .word 0xf94013b1
-.word 0xf9428231
+.word 0xf9428a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf9429231
+.word 0xf9429a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x14000022
 .word 0xf94013b1
-.word 0xf942a631
+.word 0xf942ae31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
@@ -10044,7 +10050,7 @@ bl _p_94
 bl _p_62
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf942c631
+.word 0xf942ce31
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_28@PAGE
@@ -10052,7 +10058,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_28@PAGEOFF
 ldr x0, [x0]
 .word 0xf90027a0
 .word 0xf94013b1
-.word 0xf942e631
+.word 0xf942ee31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
@@ -10061,15 +10067,15 @@ ldr x0, [x0]
 .word 0xaa1a03e2
 bl _p_95
 .word 0xf94013b1
-.word 0xf9430a31
+.word 0xf9431231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf9431a31
+.word 0xf9432231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf9432a31
+.word 0xf9433231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xa9416bb9
@@ -10416,9 +10422,9 @@ ldr x0, [x16, #0]
 .word 0xd280f0a1
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -10663,9 +10669,9 @@ ldr x0, [x16, #0]
 .word 0xd280f0a1
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -13438,9 +13444,9 @@ ldr x0, [x16, #0]
 .word 0xd2812fe1
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -13462,9 +13468,9 @@ ldr x0, [x16, #0]
 .word 0xd28130e1
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -13770,9 +13776,9 @@ ldr x0, [x16, #0]
 .word 0xd2814061
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -13987,9 +13993,9 @@ ldr x0, [x16, #0]
 .word 0xd2814061
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -14353,9 +14359,9 @@ ldr x0, [x16, #0]
 .word 0xd280f0a1
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -14675,7 +14681,7 @@ bl _p_59
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
-.word 0x34000ae0
+.word 0x34000b00
 .word 0xf94013b1
 .word 0xf9409631
 .word 0xb4000051
@@ -14689,10 +14695,11 @@ bl _p_76
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xd2800101
-.word 0x6b01001f
+.word 0xd280011e
+.word 0x6b1e001f
 .word 0x54000481
 .word 0xf94013b1
-.word 0xf940d231
+.word 0xf940d631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -14700,7 +14707,7 @@ bl _p_76
 bl _p_17
 .word 0xf90027a0
 .word 0xf94013b1
-.word 0xf940f231
+.word 0xf940f631
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_53@PAGE
@@ -14708,7 +14715,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_53@PAGEOFF
 ldr x0, [x0]
 .word 0xf9002ba0
 .word 0xf94013b1
-.word 0xf9411231
+.word 0xf9411631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027a0
@@ -14716,18 +14723,18 @@ ldr x0, [x0]
 bl _p_88
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf9413231
+.word 0xf9413631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xaa0003f9
 .word 0xf94013b1
-.word 0xf9414a31
+.word 0xf9414e31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0x14000076
+.word 0x14000077
 .word 0xf94013b1
-.word 0xf9415e31
+.word 0xf9416231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -14735,7 +14742,7 @@ bl _p_88
 bl _p_17
 .word 0xf90027a0
 .word 0xf94013b1
-.word 0xf9417e31
+.word 0xf9418231
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_53@PAGE
@@ -14743,7 +14750,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_53@PAGEOFF
 ldr x0, [x0]
 .word 0xf9002ba0
 .word 0xf94013b1
-.word 0xf9419e31
+.word 0xf941a231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027a0
@@ -14751,34 +14758,35 @@ ldr x0, [x0]
 bl _p_89
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf941be31
+.word 0xf941c231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0x2a0003e0
 .word 0xaa0003f9
 .word 0xf94013b1
-.word 0xf941da31
+.word 0xf941de31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0x14000052
+.word 0x14000053
 .word 0xf94013b1
-.word 0xf941ee31
+.word 0xf941f231
 .word 0xb4000051
 .word 0xd63f0220
 bl _p_76
 .word 0x93407c00
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf9420a31
+.word 0xf9420e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xd2800101
-.word 0x6b01001f
+.word 0xd280011e
+.word 0x6b1e001f
 .word 0x54000481
 .word 0xf94013b1
-.word 0xf9422a31
+.word 0xf9423231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -14786,7 +14794,7 @@ bl _p_76
 bl _p_62
 .word 0xf90027a0
 .word 0xf94013b1
-.word 0xf9424a31
+.word 0xf9425231
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_53@PAGE
@@ -14794,7 +14802,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_53@PAGEOFF
 ldr x0, [x0]
 .word 0xf9002ba0
 .word 0xf94013b1
-.word 0xf9426a31
+.word 0xf9427231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027a0
@@ -14802,18 +14810,18 @@ ldr x0, [x0]
 bl _p_90
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf9428a31
+.word 0xf9429231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xaa0003f9
 .word 0xf94013b1
-.word 0xf942a231
+.word 0xf942aa31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x14000020
 .word 0xf94013b1
-.word 0xf942b631
+.word 0xf942be31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -14821,7 +14829,7 @@ bl _p_90
 bl _p_62
 .word 0xf90027a0
 .word 0xf94013b1
-.word 0xf942d631
+.word 0xf942de31
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_53@PAGE
@@ -14829,7 +14837,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_53@PAGEOFF
 ldr x0, [x0]
 .word 0xf9002ba0
 .word 0xf94013b1
-.word 0xf942f631
+.word 0xf942fe31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027a0
@@ -14837,7 +14845,7 @@ ldr x0, [x0]
 bl _p_91
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf9431631
+.word 0xf9431e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
@@ -14848,7 +14856,7 @@ bl _p_91
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf9434231
+.word 0xf9434a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
@@ -14857,12 +14865,12 @@ bl _p_91
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf9436631
+.word 0xf9436e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xf94013b1
-.word 0xf9437a31
+.word 0xf9438231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xa9416bb9
@@ -14910,7 +14918,7 @@ bl _p_59
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
-.word 0x34000a80
+.word 0x34000aa0
 .word 0xf94013b1
 .word 0xf9409631
 .word 0xb4000051
@@ -14924,10 +14932,11 @@ bl _p_76
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xd2800101
-.word 0x6b01001f
+.word 0xd280011e
+.word 0x6b1e001f
 .word 0x54000461
 .word 0xf94013b1
-.word 0xf940d231
+.word 0xf940d631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
@@ -14935,7 +14944,7 @@ bl _p_76
 bl _p_17
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf940f231
+.word 0xf940f631
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_54@PAGE
@@ -14943,7 +14952,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_54@PAGEOFF
 ldr x0, [x0]
 .word 0xf90027a0
 .word 0xf94013b1
-.word 0xf9411231
+.word 0xf9411631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
@@ -14952,16 +14961,16 @@ ldr x0, [x0]
 .word 0xaa1a03e2
 bl _p_92
 .word 0xf94013b1
-.word 0xf9413631
+.word 0xf9413a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf9414631
+.word 0xf9414a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0x14000075
+.word 0x14000076
 .word 0xf94013b1
-.word 0xf9415a31
+.word 0xf9415e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
@@ -14969,7 +14978,7 @@ bl _p_92
 bl _p_17
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf9417a31
+.word 0xf9417e31
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_54@PAGE
@@ -14977,7 +14986,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_54@PAGEOFF
 ldr x0, [x0]
 .word 0xf90027a0
 .word 0xf94013b1
-.word 0xf9419a31
+.word 0xf9419e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
@@ -14986,31 +14995,32 @@ ldr x0, [x0]
 .word 0xaa1a03e2
 bl _p_93
 .word 0xf94013b1
-.word 0xf941be31
+.word 0xf941c231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf941ce31
+.word 0xf941d231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0x14000053
+.word 0x14000054
 .word 0xf94013b1
-.word 0xf941e231
+.word 0xf941e631
 .word 0xb4000051
 .word 0xd63f0220
 bl _p_76
 .word 0x93407c00
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf941fe31
+.word 0xf9420231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xd2800101
-.word 0x6b01001f
+.word 0xd280011e
+.word 0x6b1e001f
 .word 0x54000461
 .word 0xf94013b1
-.word 0xf9421e31
+.word 0xf9422631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
@@ -15018,7 +15028,7 @@ bl _p_76
 bl _p_62
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf9423e31
+.word 0xf9424631
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_54@PAGE
@@ -15026,7 +15036,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_54@PAGEOFF
 ldr x0, [x0]
 .word 0xf90027a0
 .word 0xf94013b1
-.word 0xf9425e31
+.word 0xf9426631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
@@ -15035,16 +15045,16 @@ ldr x0, [x0]
 .word 0xaa1a03e2
 bl _p_94
 .word 0xf94013b1
-.word 0xf9428231
+.word 0xf9428a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf9429231
+.word 0xf9429a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x14000022
 .word 0xf94013b1
-.word 0xf942a631
+.word 0xf942ae31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
@@ -15052,7 +15062,7 @@ bl _p_94
 bl _p_62
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf942c631
+.word 0xf942ce31
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_54@PAGE
@@ -15060,7 +15070,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_54@PAGEOFF
 ldr x0, [x0]
 .word 0xf90027a0
 .word 0xf94013b1
-.word 0xf942e631
+.word 0xf942ee31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
@@ -15069,15 +15079,15 @@ ldr x0, [x0]
 .word 0xaa1a03e2
 bl _p_95
 .word 0xf94013b1
-.word 0xf9430a31
+.word 0xf9431231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf9431a31
+.word 0xf9432231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf9432a31
+.word 0xf9433231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xa9416bb9
@@ -15632,7 +15642,7 @@ bl _p_59
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
-.word 0x34000ae0
+.word 0x34000b00
 .word 0xf94013b1
 .word 0xf9409631
 .word 0xb4000051
@@ -15646,10 +15656,11 @@ bl _p_76
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xd2800101
-.word 0x6b01001f
+.word 0xd280011e
+.word 0x6b1e001f
 .word 0x54000481
 .word 0xf94013b1
-.word 0xf940d231
+.word 0xf940d631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -15657,7 +15668,7 @@ bl _p_76
 bl _p_17
 .word 0xf90027a0
 .word 0xf94013b1
-.word 0xf940f231
+.word 0xf940f631
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_59@PAGE
@@ -15665,7 +15676,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_59@PAGEOFF
 ldr x0, [x0]
 .word 0xf9002ba0
 .word 0xf94013b1
-.word 0xf9411231
+.word 0xf9411631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027a0
@@ -15673,18 +15684,18 @@ ldr x0, [x0]
 bl _p_88
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf9413231
+.word 0xf9413631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xaa0003f9
 .word 0xf94013b1
-.word 0xf9414a31
+.word 0xf9414e31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0x14000076
+.word 0x14000077
 .word 0xf94013b1
-.word 0xf9415e31
+.word 0xf9416231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -15692,7 +15703,7 @@ bl _p_88
 bl _p_17
 .word 0xf90027a0
 .word 0xf94013b1
-.word 0xf9417e31
+.word 0xf9418231
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_59@PAGE
@@ -15700,7 +15711,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_59@PAGEOFF
 ldr x0, [x0]
 .word 0xf9002ba0
 .word 0xf94013b1
-.word 0xf9419e31
+.word 0xf941a231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027a0
@@ -15708,34 +15719,35 @@ ldr x0, [x0]
 bl _p_89
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf941be31
+.word 0xf941c231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0x2a0003e0
 .word 0xaa0003f9
 .word 0xf94013b1
-.word 0xf941da31
+.word 0xf941de31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0x14000052
+.word 0x14000053
 .word 0xf94013b1
-.word 0xf941ee31
+.word 0xf941f231
 .word 0xb4000051
 .word 0xd63f0220
 bl _p_76
 .word 0x93407c00
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf9420a31
+.word 0xf9420e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xd2800101
-.word 0x6b01001f
+.word 0xd280011e
+.word 0x6b1e001f
 .word 0x54000481
 .word 0xf94013b1
-.word 0xf9422a31
+.word 0xf9423231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -15743,7 +15755,7 @@ bl _p_76
 bl _p_62
 .word 0xf90027a0
 .word 0xf94013b1
-.word 0xf9424a31
+.word 0xf9425231
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_59@PAGE
@@ -15751,7 +15763,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_59@PAGEOFF
 ldr x0, [x0]
 .word 0xf9002ba0
 .word 0xf94013b1
-.word 0xf9426a31
+.word 0xf9427231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027a0
@@ -15759,18 +15771,18 @@ ldr x0, [x0]
 bl _p_90
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf9428a31
+.word 0xf9429231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xaa0003f9
 .word 0xf94013b1
-.word 0xf942a231
+.word 0xf942aa31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x14000020
 .word 0xf94013b1
-.word 0xf942b631
+.word 0xf942be31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -15778,7 +15790,7 @@ bl _p_90
 bl _p_62
 .word 0xf90027a0
 .word 0xf94013b1
-.word 0xf942d631
+.word 0xf942de31
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_59@PAGE
@@ -15786,7 +15798,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_59@PAGEOFF
 ldr x0, [x0]
 .word 0xf9002ba0
 .word 0xf94013b1
-.word 0xf942f631
+.word 0xf942fe31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027a0
@@ -15794,7 +15806,7 @@ ldr x0, [x0]
 bl _p_91
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf9431631
+.word 0xf9431e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
@@ -15805,7 +15817,7 @@ bl _p_91
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf9434231
+.word 0xf9434a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
@@ -15814,12 +15826,12 @@ bl _p_91
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf9436631
+.word 0xf9436e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xf94013b1
-.word 0xf9437a31
+.word 0xf9438231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xa9416bb9
@@ -15867,7 +15879,7 @@ bl _p_59
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
-.word 0x34000a80
+.word 0x34000aa0
 .word 0xf94013b1
 .word 0xf9409631
 .word 0xb4000051
@@ -15881,10 +15893,11 @@ bl _p_76
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xd2800101
-.word 0x6b01001f
+.word 0xd280011e
+.word 0x6b1e001f
 .word 0x54000461
 .word 0xf94013b1
-.word 0xf940d231
+.word 0xf940d631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
@@ -15892,7 +15905,7 @@ bl _p_76
 bl _p_17
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf940f231
+.word 0xf940f631
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_60@PAGE
@@ -15900,7 +15913,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_60@PAGEOFF
 ldr x0, [x0]
 .word 0xf90027a0
 .word 0xf94013b1
-.word 0xf9411231
+.word 0xf9411631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
@@ -15909,16 +15922,16 @@ ldr x0, [x0]
 .word 0xaa1a03e2
 bl _p_92
 .word 0xf94013b1
-.word 0xf9413631
+.word 0xf9413a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf9414631
+.word 0xf9414a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0x14000075
+.word 0x14000076
 .word 0xf94013b1
-.word 0xf9415a31
+.word 0xf9415e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
@@ -15926,7 +15939,7 @@ bl _p_92
 bl _p_17
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf9417a31
+.word 0xf9417e31
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_60@PAGE
@@ -15934,7 +15947,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_60@PAGEOFF
 ldr x0, [x0]
 .word 0xf90027a0
 .word 0xf94013b1
-.word 0xf9419a31
+.word 0xf9419e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
@@ -15943,31 +15956,32 @@ ldr x0, [x0]
 .word 0xaa1a03e2
 bl _p_93
 .word 0xf94013b1
-.word 0xf941be31
+.word 0xf941c231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf941ce31
+.word 0xf941d231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0x14000053
+.word 0x14000054
 .word 0xf94013b1
-.word 0xf941e231
+.word 0xf941e631
 .word 0xb4000051
 .word 0xd63f0220
 bl _p_76
 .word 0x93407c00
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf941fe31
+.word 0xf9420231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xd2800101
-.word 0x6b01001f
+.word 0xd280011e
+.word 0x6b1e001f
 .word 0x54000461
 .word 0xf94013b1
-.word 0xf9421e31
+.word 0xf9422631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
@@ -15975,7 +15989,7 @@ bl _p_76
 bl _p_62
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf9423e31
+.word 0xf9424631
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_60@PAGE
@@ -15983,7 +15997,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_60@PAGEOFF
 ldr x0, [x0]
 .word 0xf90027a0
 .word 0xf94013b1
-.word 0xf9425e31
+.word 0xf9426631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
@@ -15992,16 +16006,16 @@ ldr x0, [x0]
 .word 0xaa1a03e2
 bl _p_94
 .word 0xf94013b1
-.word 0xf9428231
+.word 0xf9428a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf9429231
+.word 0xf9429a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x14000022
 .word 0xf94013b1
-.word 0xf942a631
+.word 0xf942ae31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
@@ -16009,7 +16023,7 @@ bl _p_94
 bl _p_62
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf942c631
+.word 0xf942ce31
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_60@PAGE
@@ -16017,7 +16031,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_60@PAGEOFF
 ldr x0, [x0]
 .word 0xf90027a0
 .word 0xf94013b1
-.word 0xf942e631
+.word 0xf942ee31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
@@ -16026,15 +16040,15 @@ ldr x0, [x0]
 .word 0xaa1a03e2
 bl _p_95
 .word 0xf94013b1
-.word 0xf9430a31
+.word 0xf9431231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf9431a31
+.word 0xf9432231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf9432a31
+.word 0xf9433231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xa9416bb9
@@ -16226,9 +16240,9 @@ ldr x0, [x16, #0]
 .word 0xd280f0a1
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -16689,9 +16703,9 @@ ldr x0, [x16, #0]
 .word 0xd280f0a1
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -16902,9 +16916,9 @@ ldr x0, [x16, #0]
 .word 0xd2807fa1
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -16926,9 +16940,9 @@ ldr x0, [x16, #0]
 .word 0xd281a7e1
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -18208,9 +18222,9 @@ ldr x0, [x16, #0]
 .word 0xd281bb61
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -18232,9 +18246,9 @@ ldr x0, [x16, #0]
 .word 0xd281bda1
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -18256,9 +18270,9 @@ ldr x0, [x16, #0]
 .word 0xd281c2a1
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -21444,9 +21458,9 @@ ldr x0, [x16, #0]
 .word 0xd2820761
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -21464,7 +21478,7 @@ bl _p_59
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
-.word 0x34000f00
+.word 0x34000f20
 .word 0xf94017b1
 .word 0xf940fa31
 .word 0xb4000051
@@ -21478,10 +21492,11 @@ bl _p_76
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xd2800101
-.word 0x6b01001f
+.word 0xd280011e
+.word 0x6b1e001f
 .word 0x54000681
 .word 0xf94017b1
-.word 0xf9413631
+.word 0xf9413a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1803e0
@@ -21489,7 +21504,7 @@ bl _p_76
 bl _p_17
 .word 0xf90027a0
 .word 0xf94017b1
-.word 0xf9415631
+.word 0xf9415a31
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_83@PAGE
@@ -21497,7 +21512,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_83@PAGEOFF
 ldr x0, [x0]
 .word 0xf9002ba0
 .word 0xf94017b1
-.word 0xf9417631
+.word 0xf9417a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
@@ -21507,7 +21522,7 @@ ldr x0, [x0]
 bl _p_17
 .word 0xf9002fa0
 .word 0xf94017b1
-.word 0xf9419e31
+.word 0xf941a231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027a0
@@ -21518,7 +21533,7 @@ bl _p_129
 .word 0x53001c00
 .word 0xf90023a0
 .word 0xf94017b1
-.word 0xf941ca31
+.word 0xf941ce31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401bb1
@@ -21526,13 +21541,13 @@ bl _p_129
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94017b1
-.word 0xf941ea31
+.word 0xf941ee31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
-.word 0x140000ac
+.word 0x140000ad
 .word 0xf94017b1
-.word 0xf9420231
+.word 0xf9420631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1803e0
@@ -21540,7 +21555,7 @@ bl _p_129
 bl _p_17
 .word 0xf90027a0
 .word 0xf94017b1
-.word 0xf9422231
+.word 0xf9422631
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_83@PAGE
@@ -21548,7 +21563,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_83@PAGEOFF
 ldr x0, [x0]
 .word 0xf9002ba0
 .word 0xf94017b1
-.word 0xf9424231
+.word 0xf9424631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
@@ -21560,7 +21575,7 @@ ldr x0, [x0]
 bl _p_17
 .word 0xf90033a0
 .word 0xf94017b1
-.word 0xf9427231
+.word 0xf9427631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027a0
@@ -21571,7 +21586,7 @@ bl _p_130
 .word 0x53001c00
 .word 0xf90023a0
 .word 0xf94017b1
-.word 0xf9429e31
+.word 0xf942a231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401bb1
@@ -21579,28 +21594,29 @@ bl _p_130
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94017b1
-.word 0xf942be31
+.word 0xf942c231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
-.word 0x14000077
+.word 0x14000078
 .word 0xf94017b1
-.word 0xf942d631
+.word 0xf942da31
 .word 0xb4000051
 .word 0xd63f0220
 bl _p_76
 .word 0x93407c00
 .word 0xf90023a0
 .word 0xf94017b1
-.word 0xf942f231
+.word 0xf942f631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xd2800101
-.word 0x6b01001f
+.word 0xd280011e
+.word 0x6b1e001f
 .word 0x54000681
 .word 0xf94017b1
-.word 0xf9431231
+.word 0xf9431a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1803e0
@@ -21608,7 +21624,7 @@ bl _p_76
 bl _p_62
 .word 0xf90027a0
 .word 0xf94017b1
-.word 0xf9433231
+.word 0xf9433a31
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_83@PAGE
@@ -21616,7 +21632,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_83@PAGEOFF
 ldr x0, [x0]
 .word 0xf9002ba0
 .word 0xf94017b1
-.word 0xf9435231
+.word 0xf9435a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
@@ -21626,7 +21642,7 @@ ldr x0, [x0]
 bl _p_17
 .word 0xf9002fa0
 .word 0xf94017b1
-.word 0xf9437a31
+.word 0xf9438231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027a0
@@ -21637,7 +21653,7 @@ bl _p_131
 .word 0x53001c00
 .word 0xf90023a0
 .word 0xf94017b1
-.word 0xf943a631
+.word 0xf943ae31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401bb1
@@ -21645,13 +21661,13 @@ bl _p_131
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94017b1
-.word 0xf943c631
+.word 0xf943ce31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0x14000035
 .word 0xf94017b1
-.word 0xf943de31
+.word 0xf943e631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1803e0
@@ -21659,7 +21675,7 @@ bl _p_131
 bl _p_62
 .word 0xf90027a0
 .word 0xf94017b1
-.word 0xf943fe31
+.word 0xf9440631
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_83@PAGE
@@ -21667,7 +21683,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_83@PAGEOFF
 ldr x0, [x0]
 .word 0xf9002ba0
 .word 0xf94017b1
-.word 0xf9441e31
+.word 0xf9442631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
@@ -21679,7 +21695,7 @@ ldr x0, [x0]
 bl _p_17
 .word 0xf90033a0
 .word 0xf94017b1
-.word 0xf9444e31
+.word 0xf9445631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027a0
@@ -21690,7 +21706,7 @@ bl _p_132
 .word 0x53001c00
 .word 0xf90023a0
 .word 0xf94017b1
-.word 0xf9447a31
+.word 0xf9448231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401bb1
@@ -21698,12 +21714,12 @@ bl _p_132
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94017b1
-.word 0xf9449a31
+.word 0xf944a231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xf94017b1
-.word 0xf944ae31
+.word 0xf944b631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xa94167b8
@@ -21892,9 +21908,9 @@ ldr x0, [x16, #0]
 .word 0xd2821be1
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -22094,7 +22110,7 @@ bl _p_59
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
-.word 0x34000ae0
+.word 0x34000b00
 .word 0xf94013b1
 .word 0xf9409631
 .word 0xb4000051
@@ -22108,10 +22124,11 @@ bl _p_76
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xd2800101
-.word 0x6b01001f
+.word 0xd280011e
+.word 0x6b1e001f
 .word 0x54000481
 .word 0xf94013b1
-.word 0xf940d231
+.word 0xf940d631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -22119,7 +22136,7 @@ bl _p_76
 bl _p_17
 .word 0xf90027a0
 .word 0xf94013b1
-.word 0xf940f231
+.word 0xf940f631
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_86@PAGE
@@ -22127,7 +22144,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_86@PAGEOFF
 ldr x0, [x0]
 .word 0xf9002ba0
 .word 0xf94013b1
-.word 0xf9411231
+.word 0xf9411631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027a0
@@ -22135,18 +22152,18 @@ ldr x0, [x0]
 bl _p_88
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf9413231
+.word 0xf9413631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xaa0003f9
 .word 0xf94013b1
-.word 0xf9414a31
+.word 0xf9414e31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0x14000076
+.word 0x14000077
 .word 0xf94013b1
-.word 0xf9415e31
+.word 0xf9416231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -22154,7 +22171,7 @@ bl _p_88
 bl _p_17
 .word 0xf90027a0
 .word 0xf94013b1
-.word 0xf9417e31
+.word 0xf9418231
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_86@PAGE
@@ -22162,7 +22179,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_86@PAGEOFF
 ldr x0, [x0]
 .word 0xf9002ba0
 .word 0xf94013b1
-.word 0xf9419e31
+.word 0xf941a231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027a0
@@ -22170,34 +22187,35 @@ ldr x0, [x0]
 bl _p_89
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf941be31
+.word 0xf941c231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0x2a0003e0
 .word 0xaa0003f9
 .word 0xf94013b1
-.word 0xf941da31
+.word 0xf941de31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0x14000052
+.word 0x14000053
 .word 0xf94013b1
-.word 0xf941ee31
+.word 0xf941f231
 .word 0xb4000051
 .word 0xd63f0220
 bl _p_76
 .word 0x93407c00
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf9420a31
+.word 0xf9420e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xd2800101
-.word 0x6b01001f
+.word 0xd280011e
+.word 0x6b1e001f
 .word 0x54000481
 .word 0xf94013b1
-.word 0xf9422a31
+.word 0xf9423231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -22205,7 +22223,7 @@ bl _p_76
 bl _p_62
 .word 0xf90027a0
 .word 0xf94013b1
-.word 0xf9424a31
+.word 0xf9425231
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_86@PAGE
@@ -22213,7 +22231,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_86@PAGEOFF
 ldr x0, [x0]
 .word 0xf9002ba0
 .word 0xf94013b1
-.word 0xf9426a31
+.word 0xf9427231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027a0
@@ -22221,18 +22239,18 @@ ldr x0, [x0]
 bl _p_90
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf9428a31
+.word 0xf9429231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xaa0003f9
 .word 0xf94013b1
-.word 0xf942a231
+.word 0xf942aa31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x14000020
 .word 0xf94013b1
-.word 0xf942b631
+.word 0xf942be31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -22240,7 +22258,7 @@ bl _p_90
 bl _p_62
 .word 0xf90027a0
 .word 0xf94013b1
-.word 0xf942d631
+.word 0xf942de31
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_86@PAGE
@@ -22248,7 +22266,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_86@PAGEOFF
 ldr x0, [x0]
 .word 0xf9002ba0
 .word 0xf94013b1
-.word 0xf942f631
+.word 0xf942fe31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027a0
@@ -22256,7 +22274,7 @@ ldr x0, [x0]
 bl _p_91
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf9431631
+.word 0xf9431e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
@@ -22267,7 +22285,7 @@ bl _p_91
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf9434231
+.word 0xf9434a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
@@ -22276,12 +22294,12 @@ bl _p_91
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf9436631
+.word 0xf9436e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xf94013b1
-.word 0xf9437a31
+.word 0xf9438231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xa9416bb9
@@ -22329,7 +22347,7 @@ bl _p_59
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
-.word 0x34000a80
+.word 0x34000aa0
 .word 0xf94013b1
 .word 0xf9409631
 .word 0xb4000051
@@ -22343,10 +22361,11 @@ bl _p_76
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xd2800101
-.word 0x6b01001f
+.word 0xd280011e
+.word 0x6b1e001f
 .word 0x54000461
 .word 0xf94013b1
-.word 0xf940d231
+.word 0xf940d631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
@@ -22354,7 +22373,7 @@ bl _p_76
 bl _p_17
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf940f231
+.word 0xf940f631
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_87@PAGE
@@ -22362,7 +22381,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_87@PAGEOFF
 ldr x0, [x0]
 .word 0xf90027a0
 .word 0xf94013b1
-.word 0xf9411231
+.word 0xf9411631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
@@ -22371,16 +22390,16 @@ ldr x0, [x0]
 .word 0xaa1a03e2
 bl _p_92
 .word 0xf94013b1
-.word 0xf9413631
+.word 0xf9413a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf9414631
+.word 0xf9414a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0x14000075
+.word 0x14000076
 .word 0xf94013b1
-.word 0xf9415a31
+.word 0xf9415e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
@@ -22388,7 +22407,7 @@ bl _p_92
 bl _p_17
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf9417a31
+.word 0xf9417e31
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_87@PAGE
@@ -22396,7 +22415,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_87@PAGEOFF
 ldr x0, [x0]
 .word 0xf90027a0
 .word 0xf94013b1
-.word 0xf9419a31
+.word 0xf9419e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
@@ -22405,31 +22424,32 @@ ldr x0, [x0]
 .word 0xaa1a03e2
 bl _p_93
 .word 0xf94013b1
-.word 0xf941be31
+.word 0xf941c231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf941ce31
+.word 0xf941d231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0x14000053
+.word 0x14000054
 .word 0xf94013b1
-.word 0xf941e231
+.word 0xf941e631
 .word 0xb4000051
 .word 0xd63f0220
 bl _p_76
 .word 0x93407c00
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf941fe31
+.word 0xf9420231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xd2800101
-.word 0x6b01001f
+.word 0xd280011e
+.word 0x6b1e001f
 .word 0x54000461
 .word 0xf94013b1
-.word 0xf9421e31
+.word 0xf9422631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
@@ -22437,7 +22457,7 @@ bl _p_76
 bl _p_62
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf9423e31
+.word 0xf9424631
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_87@PAGE
@@ -22445,7 +22465,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_87@PAGEOFF
 ldr x0, [x0]
 .word 0xf90027a0
 .word 0xf94013b1
-.word 0xf9425e31
+.word 0xf9426631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
@@ -22454,16 +22474,16 @@ ldr x0, [x0]
 .word 0xaa1a03e2
 bl _p_94
 .word 0xf94013b1
-.word 0xf9428231
+.word 0xf9428a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf9429231
+.word 0xf9429a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x14000022
 .word 0xf94013b1
-.word 0xf942a631
+.word 0xf942ae31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
@@ -22471,7 +22491,7 @@ bl _p_94
 bl _p_62
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf942c631
+.word 0xf942ce31
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_87@PAGE
@@ -22479,7 +22499,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_87@PAGEOFF
 ldr x0, [x0]
 .word 0xf90027a0
 .word 0xf94013b1
-.word 0xf942e631
+.word 0xf942ee31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
@@ -22488,15 +22508,15 @@ ldr x0, [x0]
 .word 0xaa1a03e2
 bl _p_95
 .word 0xf94013b1
-.word 0xf9430a31
+.word 0xf9431231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf9431a31
+.word 0xf9432231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf9432a31
+.word 0xf9433231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xa9416bb9
@@ -24106,9 +24126,9 @@ ldr x0, [x16, #0]
 .word 0xd2808321
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -24227,9 +24247,9 @@ ldr x0, [x16, #0]
 .word 0xd2808321
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -24352,9 +24372,9 @@ ldr x0, [x16, #0]
 .word 0xd2808321
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -24460,9 +24480,9 @@ ldr x0, [x16, #0]
 .word 0xd2808321
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -24568,9 +24588,9 @@ ldr x0, [x16, #0]
 .word 0xd2808321
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -24676,9 +24696,9 @@ ldr x0, [x16, #0]
 .word 0xd2808321
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -24785,9 +24805,9 @@ ldr x0, [x16, #0]
 .word 0xd2808321
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -24809,9 +24829,9 @@ ldr x0, [x16, #0]
 .word 0xd282c861
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -24927,9 +24947,9 @@ ldr x0, [x16, #0]
 .word 0xd2808321
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -25035,9 +25055,9 @@ ldr x0, [x16, #0]
 .word 0xd2808321
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -26630,9 +26650,9 @@ ldr x0, [x16, #0]
 .word 0xd280f0a1
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -26941,9 +26961,9 @@ ldr x0, [x16, #0]
 .word 0xd280f0a1
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -27252,9 +27272,9 @@ ldr x0, [x16, #0]
 .word 0xd280f0a1
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -27563,9 +27583,9 @@ ldr x0, [x16, #0]
 .word 0xd280f0a1
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -28225,9 +28245,9 @@ ldr x0, [x16, #0]
 .word 0xd281a7e1
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -28384,9 +28404,9 @@ ldr x0, [x16, #0]
 .word 0xd281a7e1
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -28404,7 +28424,7 @@ bl _p_59
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
-.word 0x34000d00
+.word 0x34000d20
 .word 0xf94017b1
 .word 0xf940fa31
 .word 0xb4000051
@@ -28418,10 +28438,11 @@ bl _p_76
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xd2800101
-.word 0x6b01001f
+.word 0xd280011e
+.word 0x6b1e001f
 .word 0x540005a1
 .word 0xf94017b1
-.word 0xf9413631
+.word 0xf9413a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1803e0
@@ -28429,7 +28450,7 @@ bl _p_76
 bl _p_17
 .word 0xf90023a0
 .word 0xf94017b1
-.word 0xf9415631
+.word 0xf9415a31
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_112@PAGE
@@ -28437,7 +28458,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_112@PAGEOFF
 ldr x0, [x0]
 .word 0xf90027a0
 .word 0xf94017b1
-.word 0xf9417631
+.word 0xf9417a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
@@ -28446,7 +28467,7 @@ ldr x0, [x0]
 bl _p_17
 .word 0xf9002ba0
 .word 0xf94017b1
-.word 0xf9419a31
+.word 0xf9419e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
@@ -28456,16 +28477,16 @@ bl _p_17
 .word 0xaa1a03e3
 bl _p_139
 .word 0xf94017b1
-.word 0xf941c231
+.word 0xf941c631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94017b1
-.word 0xf941d231
+.word 0xf941d631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0x14000093
+.word 0x14000094
 .word 0xf94017b1
-.word 0xf941e631
+.word 0xf941ea31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1803e0
@@ -28473,7 +28494,7 @@ bl _p_139
 bl _p_17
 .word 0xf90023a0
 .word 0xf94017b1
-.word 0xf9420631
+.word 0xf9420a31
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_112@PAGE
@@ -28481,7 +28502,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_112@PAGEOFF
 ldr x0, [x0]
 .word 0xf90027a0
 .word 0xf94017b1
-.word 0xf9422631
+.word 0xf9422a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
@@ -28490,7 +28511,7 @@ ldr x0, [x0]
 bl _p_17
 .word 0xf9002ba0
 .word 0xf94017b1
-.word 0xf9424a31
+.word 0xf9424e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
@@ -28500,31 +28521,32 @@ bl _p_17
 .word 0xaa1a03e3
 bl _p_140
 .word 0xf94017b1
-.word 0xf9427231
+.word 0xf9427631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94017b1
-.word 0xf9428231
+.word 0xf9428631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0x14000067
+.word 0x14000068
 .word 0xf94017b1
-.word 0xf9429631
+.word 0xf9429a31
 .word 0xb4000051
 .word 0xd63f0220
 bl _p_76
 .word 0x93407c00
 .word 0xf90023a0
 .word 0xf94017b1
-.word 0xf942b231
+.word 0xf942b631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xd2800101
-.word 0x6b01001f
+.word 0xd280011e
+.word 0x6b1e001f
 .word 0x540005a1
 .word 0xf94017b1
-.word 0xf942d231
+.word 0xf942da31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1803e0
@@ -28532,7 +28554,7 @@ bl _p_76
 bl _p_62
 .word 0xf90023a0
 .word 0xf94017b1
-.word 0xf942f231
+.word 0xf942fa31
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_112@PAGE
@@ -28540,7 +28562,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_112@PAGEOFF
 ldr x0, [x0]
 .word 0xf90027a0
 .word 0xf94017b1
-.word 0xf9431231
+.word 0xf9431a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
@@ -28549,7 +28571,7 @@ ldr x0, [x0]
 bl _p_17
 .word 0xf9002ba0
 .word 0xf94017b1
-.word 0xf9433631
+.word 0xf9433e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
@@ -28559,16 +28581,16 @@ bl _p_17
 .word 0xaa1a03e3
 bl _p_141
 .word 0xf94017b1
-.word 0xf9435e31
+.word 0xf9436631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94017b1
-.word 0xf9436e31
+.word 0xf9437631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x1400002c
 .word 0xf94017b1
-.word 0xf9438231
+.word 0xf9438a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1803e0
@@ -28576,7 +28598,7 @@ bl _p_141
 bl _p_62
 .word 0xf90023a0
 .word 0xf94017b1
-.word 0xf943a231
+.word 0xf943aa31
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_112@PAGE
@@ -28584,7 +28606,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_112@PAGEOFF
 ldr x0, [x0]
 .word 0xf90027a0
 .word 0xf94017b1
-.word 0xf943c231
+.word 0xf943ca31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
@@ -28593,7 +28615,7 @@ ldr x0, [x0]
 bl _p_17
 .word 0xf9002ba0
 .word 0xf94017b1
-.word 0xf943e631
+.word 0xf943ee31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
@@ -28603,15 +28625,15 @@ bl _p_17
 .word 0xaa1a03e3
 bl _p_142
 .word 0xf94017b1
-.word 0xf9440e31
+.word 0xf9441631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94017b1
-.word 0xf9441e31
+.word 0xf9442631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94017b1
-.word 0xf9442e31
+.word 0xf9443631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xa94167b8
@@ -28819,9 +28841,9 @@ ldr x0, [x16, #0]
 .word 0xd280f0a1
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -29116,9 +29138,9 @@ ldr x0, [x16, #0]
 .word 0xd280f0a1
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -29996,9 +30018,9 @@ ldr x0, [x16, #0]
 .word 0xd2832c61
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -30141,7 +30163,7 @@ ldr x16, [x16, #3104]
 .word 0xf94013a1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf941d430
+.word 0xf941fc30
 .word 0xd63f0200
 .word 0xaa0003f9
 .word 0xf94017b1
@@ -30214,7 +30236,7 @@ ldr x16, [x16, #3120]
 .word 0xf9400fa1
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf941d050
+.word 0xf941f850
 .word 0xd63f0200
 .word 0xf94013b1
 .word 0xf9407e31
@@ -30616,8 +30638,8 @@ bl _p_101
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1903e0
-.word 0xf9001b59
-.word 0x9100c340
+.word 0xf9001f59
+.word 0x9100e340
 .word 0xd349fc00
 .word 0xd29ffffe
 .word 0xf2a00ffe
@@ -30839,8 +30861,8 @@ bl _p_101
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xaa1a03e0
-.word 0xf9001b3a
-.word 0x9100c320
+.word 0xf9001f3a
+.word 0x9100e320
 .word 0xd349fc00
 .word 0xd29ffffe
 .word 0xf2a00ffe
@@ -30938,7 +30960,7 @@ bl _p_13
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xd2800000
-.word 0xf9001b3f
+.word 0xf9001f3f
 .word 0xf94017b1
 .word 0xf9400231
 .word 0xb4000051
@@ -31057,9 +31079,9 @@ ldr x0, [x16, #0]
 .word 0xd281a7e1
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -31076,10 +31098,11 @@ bl _p_76
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xd2800101
-.word 0x6b01001f
+.word 0xd280011e
+.word 0x6b1e001f
 .word 0x54000681
 .word 0xf94017b1
-.word 0xf940fa31
+.word 0xf940fe31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1803e0
@@ -31095,7 +31118,7 @@ ldr x15, [x16, #2112]
 .word 0xd63f0200
 .word 0xf90023a0
 .word 0xf94017b1
-.word 0xf9413631
+.word 0xf9413a31
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_112@PAGE
@@ -31103,7 +31126,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_112@PAGEOFF
 ldr x0, [x0]
 .word 0xf90027a0
 .word 0xf94017b1
-.word 0xf9415631
+.word 0xf9415a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
@@ -31112,7 +31135,7 @@ ldr x0, [x0]
 bl _p_17
 .word 0xf9002ba0
 .word 0xf94017b1
-.word 0xf9417a31
+.word 0xf9417e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
@@ -31122,16 +31145,16 @@ bl _p_17
 .word 0xaa1a03e3
 bl _p_139
 .word 0xf94017b1
-.word 0xf941a231
+.word 0xf941a631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94017b1
-.word 0xf941b231
+.word 0xf941b631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x14000033
 .word 0xf94017b1
-.word 0xf941c631
+.word 0xf941ca31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1803e0
@@ -31147,7 +31170,7 @@ ldr x15, [x16, #2112]
 .word 0xd63f0200
 .word 0xf90023a0
 .word 0xf94017b1
-.word 0xf9420231
+.word 0xf9420631
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_112@PAGE
@@ -31155,7 +31178,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_112@PAGEOFF
 ldr x0, [x0]
 .word 0xf90027a0
 .word 0xf94017b1
-.word 0xf9422231
+.word 0xf9422631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
@@ -31164,7 +31187,7 @@ ldr x0, [x0]
 bl _p_17
 .word 0xf9002ba0
 .word 0xf94017b1
-.word 0xf9424631
+.word 0xf9424a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
@@ -31174,15 +31197,15 @@ bl _p_17
 .word 0xaa1a03e3
 bl _p_140
 .word 0xf94017b1
-.word 0xf9426e31
+.word 0xf9427231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94017b1
-.word 0xf9427e31
+.word 0xf9428231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94017b1
-.word 0xf9428e31
+.word 0xf9429231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xa94167b8
@@ -31235,9 +31258,9 @@ ldr x0, [x16, #0]
 .word 0xd281a7e1
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -32539,9 +32562,9 @@ ldr x0, [x16, #0]
 .word 0xd28348a1
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -32563,9 +32586,9 @@ ldr x0, [x16, #0]
 .word 0xd2834b21
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -32777,9 +32800,9 @@ ldr x0, [x16, #0]
 .word 0xd28355e1
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -32977,9 +33000,9 @@ ldr x0, [x16, #0]
 .word 0xd28355e1
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -33148,9 +33171,9 @@ ldr x0, [x16, #0]
 .word 0xd28348a1
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -34482,9 +34505,9 @@ ldr x0, [x16, #0]
 .word 0xd2832c61
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -35021,7 +35044,7 @@ bl _p_59
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
-.word 0x34000b00
+.word 0x34000b20
 .word 0xf94013b1
 .word 0xf9409631
 .word 0xb4000051
@@ -35035,10 +35058,11 @@ bl _p_76
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xd2800101
-.word 0x6b01001f
+.word 0xd280011e
+.word 0x6b1e001f
 .word 0x54000481
 .word 0xf94013b1
-.word 0xf940d231
+.word 0xf940d631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -35046,7 +35070,7 @@ bl _p_76
 bl _p_17
 .word 0xf90027a0
 .word 0xf94013b1
-.word 0xf940f231
+.word 0xf940f631
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_133@PAGE
@@ -35054,7 +35078,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_133@PAGEOFF
 ldr x0, [x0]
 .word 0xf9002ba0
 .word 0xf94013b1
-.word 0xf9411231
+.word 0xf9411631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027a0
@@ -35062,18 +35086,18 @@ ldr x0, [x0]
 bl _p_77
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf9413231
+.word 0xf9413631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xaa0003f9
 .word 0xf94013b1
-.word 0xf9414a31
+.word 0xf9414e31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0x14000078
+.word 0x14000079
 .word 0xf94013b1
-.word 0xf9415e31
+.word 0xf9416231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -35081,7 +35105,7 @@ bl _p_77
 bl _p_17
 .word 0xf90027a0
 .word 0xf94013b1
-.word 0xf9417e31
+.word 0xf9418231
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_133@PAGE
@@ -35089,7 +35113,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_133@PAGEOFF
 ldr x0, [x0]
 .word 0xf9002ba0
 .word 0xf94013b1
-.word 0xf9419e31
+.word 0xf941a231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027a0
@@ -35098,34 +35122,35 @@ bl _p_78
 .word 0x93407c00
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf941c231
+.word 0xf941c631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0x93407c00
 .word 0xaa0003f9
 .word 0xf94013b1
-.word 0xf941de31
+.word 0xf941e231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0x14000053
+.word 0x14000054
 .word 0xf94013b1
-.word 0xf941f231
+.word 0xf941f631
 .word 0xb4000051
 .word 0xd63f0220
 bl _p_76
 .word 0x93407c00
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf9420e31
+.word 0xf9421231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xd2800101
-.word 0x6b01001f
+.word 0xd280011e
+.word 0x6b1e001f
 .word 0x54000481
 .word 0xf94013b1
-.word 0xf9422e31
+.word 0xf9423631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -35133,7 +35158,7 @@ bl _p_76
 bl _p_62
 .word 0xf90027a0
 .word 0xf94013b1
-.word 0xf9424e31
+.word 0xf9425631
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_133@PAGE
@@ -35141,7 +35166,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_133@PAGEOFF
 ldr x0, [x0]
 .word 0xf9002ba0
 .word 0xf94013b1
-.word 0xf9426e31
+.word 0xf9427631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027a0
@@ -35149,18 +35174,18 @@ ldr x0, [x0]
 bl _p_79
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf9428e31
+.word 0xf9429631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xaa0003f9
 .word 0xf94013b1
-.word 0xf942a631
+.word 0xf942ae31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x14000021
 .word 0xf94013b1
-.word 0xf942ba31
+.word 0xf942c231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -35168,7 +35193,7 @@ bl _p_79
 bl _p_62
 .word 0xf90027a0
 .word 0xf94013b1
-.word 0xf942da31
+.word 0xf942e231
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_133@PAGE
@@ -35176,7 +35201,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_133@PAGEOFF
 ldr x0, [x0]
 .word 0xf9002ba0
 .word 0xf94013b1
-.word 0xf942fa31
+.word 0xf9430231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027a0
@@ -35185,7 +35210,7 @@ bl _p_80
 .word 0x93407c00
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf9431e31
+.word 0xf9432631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
@@ -35196,7 +35221,7 @@ bl _p_80
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf9434a31
+.word 0xf9435231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
@@ -35205,12 +35230,12 @@ bl _p_80
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf9436e31
+.word 0xf9437631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xf94013b1
-.word 0xf9438231
+.word 0xf9438a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xa9416bb9
@@ -35258,7 +35283,7 @@ bl _p_59
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
-.word 0x34000a80
+.word 0x34000aa0
 .word 0xf94013b1
 .word 0xf9409631
 .word 0xb4000051
@@ -35272,10 +35297,11 @@ bl _p_76
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xd2800101
-.word 0x6b01001f
+.word 0xd280011e
+.word 0x6b1e001f
 .word 0x54000461
 .word 0xf94013b1
-.word 0xf940d231
+.word 0xf940d631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
@@ -35283,7 +35309,7 @@ bl _p_76
 bl _p_17
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf940f231
+.word 0xf940f631
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_134@PAGE
@@ -35291,7 +35317,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_134@PAGEOFF
 ldr x0, [x0]
 .word 0xf90027a0
 .word 0xf94013b1
-.word 0xf9411231
+.word 0xf9411631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
@@ -35300,16 +35326,16 @@ ldr x0, [x0]
 .word 0xaa1a03e2
 bl _p_164
 .word 0xf94013b1
-.word 0xf9413631
+.word 0xf9413a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf9414631
+.word 0xf9414a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0x14000075
+.word 0x14000076
 .word 0xf94013b1
-.word 0xf9415a31
+.word 0xf9415e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
@@ -35317,7 +35343,7 @@ bl _p_164
 bl _p_17
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf9417a31
+.word 0xf9417e31
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_134@PAGE
@@ -35325,7 +35351,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_134@PAGEOFF
 ldr x0, [x0]
 .word 0xf90027a0
 .word 0xf94013b1
-.word 0xf9419a31
+.word 0xf9419e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
@@ -35334,31 +35360,32 @@ ldr x0, [x0]
 .word 0x93407f42
 bl _p_165
 .word 0xf94013b1
-.word 0xf941be31
+.word 0xf941c231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf941ce31
+.word 0xf941d231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0x14000053
+.word 0x14000054
 .word 0xf94013b1
-.word 0xf941e231
+.word 0xf941e631
 .word 0xb4000051
 .word 0xd63f0220
 bl _p_76
 .word 0x93407c00
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf941fe31
+.word 0xf9420231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xd2800101
-.word 0x6b01001f
+.word 0xd280011e
+.word 0x6b1e001f
 .word 0x54000461
 .word 0xf94013b1
-.word 0xf9421e31
+.word 0xf9422631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
@@ -35366,7 +35393,7 @@ bl _p_76
 bl _p_62
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf9423e31
+.word 0xf9424631
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_134@PAGE
@@ -35374,7 +35401,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_134@PAGEOFF
 ldr x0, [x0]
 .word 0xf90027a0
 .word 0xf94013b1
-.word 0xf9425e31
+.word 0xf9426631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
@@ -35383,16 +35410,16 @@ ldr x0, [x0]
 .word 0xaa1a03e2
 bl _p_166
 .word 0xf94013b1
-.word 0xf9428231
+.word 0xf9428a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf9429231
+.word 0xf9429a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x14000022
 .word 0xf94013b1
-.word 0xf942a631
+.word 0xf942ae31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
@@ -35400,7 +35427,7 @@ bl _p_166
 bl _p_62
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf942c631
+.word 0xf942ce31
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_134@PAGE
@@ -35408,7 +35435,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_134@PAGEOFF
 ldr x0, [x0]
 .word 0xf90027a0
 .word 0xf94013b1
-.word 0xf942e631
+.word 0xf942ee31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
@@ -35417,15 +35444,15 @@ ldr x0, [x0]
 .word 0x93407f42
 bl _p_167
 .word 0xf94013b1
-.word 0xf9430a31
+.word 0xf9431231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf9431a31
+.word 0xf9432231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf9432a31
+.word 0xf9433231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xa9416bb9
@@ -35473,7 +35500,7 @@ bl _p_59
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
-.word 0x34000b00
+.word 0x34000b20
 .word 0xf94013b1
 .word 0xf9409631
 .word 0xb4000051
@@ -35487,10 +35514,11 @@ bl _p_76
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xd2800101
-.word 0x6b01001f
+.word 0xd280011e
+.word 0x6b1e001f
 .word 0x54000481
 .word 0xf94013b1
-.word 0xf940d231
+.word 0xf940d631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -35498,7 +35526,7 @@ bl _p_76
 bl _p_17
 .word 0xf90027a0
 .word 0xf94013b1
-.word 0xf940f231
+.word 0xf940f631
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_135@PAGE
@@ -35506,7 +35534,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_135@PAGEOFF
 ldr x0, [x0]
 .word 0xf9002ba0
 .word 0xf94013b1
-.word 0xf9411231
+.word 0xf9411631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027a0
@@ -35514,18 +35542,18 @@ ldr x0, [x0]
 bl _p_77
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf9413231
+.word 0xf9413631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xaa0003f9
 .word 0xf94013b1
-.word 0xf9414a31
+.word 0xf9414e31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0x14000078
+.word 0x14000079
 .word 0xf94013b1
-.word 0xf9415e31
+.word 0xf9416231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -35533,7 +35561,7 @@ bl _p_77
 bl _p_17
 .word 0xf90027a0
 .word 0xf94013b1
-.word 0xf9417e31
+.word 0xf9418231
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_135@PAGE
@@ -35541,7 +35569,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_135@PAGEOFF
 ldr x0, [x0]
 .word 0xf9002ba0
 .word 0xf94013b1
-.word 0xf9419e31
+.word 0xf941a231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027a0
@@ -35550,34 +35578,35 @@ bl _p_78
 .word 0x93407c00
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf941c231
+.word 0xf941c631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0x93407c00
 .word 0xaa0003f9
 .word 0xf94013b1
-.word 0xf941de31
+.word 0xf941e231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0x14000053
+.word 0x14000054
 .word 0xf94013b1
-.word 0xf941f231
+.word 0xf941f631
 .word 0xb4000051
 .word 0xd63f0220
 bl _p_76
 .word 0x93407c00
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf9420e31
+.word 0xf9421231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xd2800101
-.word 0x6b01001f
+.word 0xd280011e
+.word 0x6b1e001f
 .word 0x54000481
 .word 0xf94013b1
-.word 0xf9422e31
+.word 0xf9423631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -35585,7 +35614,7 @@ bl _p_76
 bl _p_62
 .word 0xf90027a0
 .word 0xf94013b1
-.word 0xf9424e31
+.word 0xf9425631
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_135@PAGE
@@ -35593,7 +35622,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_135@PAGEOFF
 ldr x0, [x0]
 .word 0xf9002ba0
 .word 0xf94013b1
-.word 0xf9426e31
+.word 0xf9427631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027a0
@@ -35601,18 +35630,18 @@ ldr x0, [x0]
 bl _p_79
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf9428e31
+.word 0xf9429631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xaa0003f9
 .word 0xf94013b1
-.word 0xf942a631
+.word 0xf942ae31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x14000021
 .word 0xf94013b1
-.word 0xf942ba31
+.word 0xf942c231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -35620,7 +35649,7 @@ bl _p_79
 bl _p_62
 .word 0xf90027a0
 .word 0xf94013b1
-.word 0xf942da31
+.word 0xf942e231
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_135@PAGE
@@ -35628,7 +35657,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_135@PAGEOFF
 ldr x0, [x0]
 .word 0xf9002ba0
 .word 0xf94013b1
-.word 0xf942fa31
+.word 0xf9430231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027a0
@@ -35637,7 +35666,7 @@ bl _p_80
 .word 0x93407c00
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf9431e31
+.word 0xf9432631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
@@ -35648,7 +35677,7 @@ bl _p_80
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf9434a31
+.word 0xf9435231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
@@ -35657,12 +35686,12 @@ bl _p_80
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf9436e31
+.word 0xf9437631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xf94013b1
-.word 0xf9438231
+.word 0xf9438a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xa9416bb9
@@ -35710,7 +35739,7 @@ bl _p_59
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
-.word 0x34000a80
+.word 0x34000aa0
 .word 0xf94013b1
 .word 0xf9409631
 .word 0xb4000051
@@ -35724,10 +35753,11 @@ bl _p_76
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xd2800101
-.word 0x6b01001f
+.word 0xd280011e
+.word 0x6b1e001f
 .word 0x54000461
 .word 0xf94013b1
-.word 0xf940d231
+.word 0xf940d631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
@@ -35735,7 +35765,7 @@ bl _p_76
 bl _p_17
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf940f231
+.word 0xf940f631
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_136@PAGE
@@ -35743,7 +35773,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_136@PAGEOFF
 ldr x0, [x0]
 .word 0xf90027a0
 .word 0xf94013b1
-.word 0xf9411231
+.word 0xf9411631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
@@ -35752,16 +35782,16 @@ ldr x0, [x0]
 .word 0xaa1a03e2
 bl _p_164
 .word 0xf94013b1
-.word 0xf9413631
+.word 0xf9413a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf9414631
+.word 0xf9414a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0x14000075
+.word 0x14000076
 .word 0xf94013b1
-.word 0xf9415a31
+.word 0xf9415e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
@@ -35769,7 +35799,7 @@ bl _p_164
 bl _p_17
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf9417a31
+.word 0xf9417e31
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_136@PAGE
@@ -35777,7 +35807,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_136@PAGEOFF
 ldr x0, [x0]
 .word 0xf90027a0
 .word 0xf94013b1
-.word 0xf9419a31
+.word 0xf9419e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
@@ -35786,31 +35816,32 @@ ldr x0, [x0]
 .word 0x93407f42
 bl _p_165
 .word 0xf94013b1
-.word 0xf941be31
+.word 0xf941c231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf941ce31
+.word 0xf941d231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0x14000053
+.word 0x14000054
 .word 0xf94013b1
-.word 0xf941e231
+.word 0xf941e631
 .word 0xb4000051
 .word 0xd63f0220
 bl _p_76
 .word 0x93407c00
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf941fe31
+.word 0xf9420231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xd2800101
-.word 0x6b01001f
+.word 0xd280011e
+.word 0x6b1e001f
 .word 0x54000461
 .word 0xf94013b1
-.word 0xf9421e31
+.word 0xf9422631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
@@ -35818,7 +35849,7 @@ bl _p_76
 bl _p_62
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf9423e31
+.word 0xf9424631
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_136@PAGE
@@ -35826,7 +35857,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_136@PAGEOFF
 ldr x0, [x0]
 .word 0xf90027a0
 .word 0xf94013b1
-.word 0xf9425e31
+.word 0xf9426631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
@@ -35835,16 +35866,16 @@ ldr x0, [x0]
 .word 0xaa1a03e2
 bl _p_166
 .word 0xf94013b1
-.word 0xf9428231
+.word 0xf9428a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf9429231
+.word 0xf9429a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x14000022
 .word 0xf94013b1
-.word 0xf942a631
+.word 0xf942ae31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
@@ -35852,7 +35883,7 @@ bl _p_166
 bl _p_62
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf942c631
+.word 0xf942ce31
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_136@PAGE
@@ -35860,7 +35891,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_136@PAGEOFF
 ldr x0, [x0]
 .word 0xf90027a0
 .word 0xf94013b1
-.word 0xf942e631
+.word 0xf942ee31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
@@ -35869,15 +35900,15 @@ ldr x0, [x0]
 .word 0x93407f42
 bl _p_167
 .word 0xf94013b1
-.word 0xf9430a31
+.word 0xf9431231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf9431a31
+.word 0xf9432231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf9432a31
+.word 0xf9433231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xa9416bb9
@@ -35925,7 +35956,7 @@ bl _p_59
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
-.word 0x34000b00
+.word 0x34000b20
 .word 0xf94013b1
 .word 0xf9409631
 .word 0xb4000051
@@ -35939,10 +35970,11 @@ bl _p_76
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xd2800101
-.word 0x6b01001f
+.word 0xd280011e
+.word 0x6b1e001f
 .word 0x54000481
 .word 0xf94013b1
-.word 0xf940d231
+.word 0xf940d631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -35950,7 +35982,7 @@ bl _p_76
 bl _p_17
 .word 0xf90027a0
 .word 0xf94013b1
-.word 0xf940f231
+.word 0xf940f631
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_137@PAGE
@@ -35958,7 +35990,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_137@PAGEOFF
 ldr x0, [x0]
 .word 0xf9002ba0
 .word 0xf94013b1
-.word 0xf9411231
+.word 0xf9411631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027a0
@@ -35966,18 +35998,18 @@ ldr x0, [x0]
 bl _p_77
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf9413231
+.word 0xf9413631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xaa0003f9
 .word 0xf94013b1
-.word 0xf9414a31
+.word 0xf9414e31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0x14000078
+.word 0x14000079
 .word 0xf94013b1
-.word 0xf9415e31
+.word 0xf9416231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -35985,7 +36017,7 @@ bl _p_77
 bl _p_17
 .word 0xf90027a0
 .word 0xf94013b1
-.word 0xf9417e31
+.word 0xf9418231
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_137@PAGE
@@ -35993,7 +36025,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_137@PAGEOFF
 ldr x0, [x0]
 .word 0xf9002ba0
 .word 0xf94013b1
-.word 0xf9419e31
+.word 0xf941a231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027a0
@@ -36002,34 +36034,35 @@ bl _p_78
 .word 0x93407c00
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf941c231
+.word 0xf941c631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0x93407c00
 .word 0xaa0003f9
 .word 0xf94013b1
-.word 0xf941de31
+.word 0xf941e231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0x14000053
+.word 0x14000054
 .word 0xf94013b1
-.word 0xf941f231
+.word 0xf941f631
 .word 0xb4000051
 .word 0xd63f0220
 bl _p_76
 .word 0x93407c00
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf9420e31
+.word 0xf9421231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xd2800101
-.word 0x6b01001f
+.word 0xd280011e
+.word 0x6b1e001f
 .word 0x54000481
 .word 0xf94013b1
-.word 0xf9422e31
+.word 0xf9423631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -36037,7 +36070,7 @@ bl _p_76
 bl _p_62
 .word 0xf90027a0
 .word 0xf94013b1
-.word 0xf9424e31
+.word 0xf9425631
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_137@PAGE
@@ -36045,7 +36078,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_137@PAGEOFF
 ldr x0, [x0]
 .word 0xf9002ba0
 .word 0xf94013b1
-.word 0xf9426e31
+.word 0xf9427631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027a0
@@ -36053,18 +36086,18 @@ ldr x0, [x0]
 bl _p_79
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf9428e31
+.word 0xf9429631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xaa0003f9
 .word 0xf94013b1
-.word 0xf942a631
+.word 0xf942ae31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x14000021
 .word 0xf94013b1
-.word 0xf942ba31
+.word 0xf942c231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -36072,7 +36105,7 @@ bl _p_79
 bl _p_62
 .word 0xf90027a0
 .word 0xf94013b1
-.word 0xf942da31
+.word 0xf942e231
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_137@PAGE
@@ -36080,7 +36113,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_137@PAGEOFF
 ldr x0, [x0]
 .word 0xf9002ba0
 .word 0xf94013b1
-.word 0xf942fa31
+.word 0xf9430231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027a0
@@ -36089,7 +36122,7 @@ bl _p_80
 .word 0x93407c00
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf9431e31
+.word 0xf9432631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
@@ -36100,7 +36133,7 @@ bl _p_80
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf9434a31
+.word 0xf9435231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
@@ -36109,12 +36142,12 @@ bl _p_80
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf9436e31
+.word 0xf9437631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xf94013b1
-.word 0xf9438231
+.word 0xf9438a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xa9416bb9
@@ -36162,7 +36195,7 @@ bl _p_59
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
-.word 0x34000a80
+.word 0x34000aa0
 .word 0xf94013b1
 .word 0xf9409631
 .word 0xb4000051
@@ -36176,10 +36209,11 @@ bl _p_76
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xd2800101
-.word 0x6b01001f
+.word 0xd280011e
+.word 0x6b1e001f
 .word 0x54000461
 .word 0xf94013b1
-.word 0xf940d231
+.word 0xf940d631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
@@ -36187,7 +36221,7 @@ bl _p_76
 bl _p_17
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf940f231
+.word 0xf940f631
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_138@PAGE
@@ -36195,7 +36229,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_138@PAGEOFF
 ldr x0, [x0]
 .word 0xf90027a0
 .word 0xf94013b1
-.word 0xf9411231
+.word 0xf9411631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
@@ -36204,16 +36238,16 @@ ldr x0, [x0]
 .word 0xaa1a03e2
 bl _p_164
 .word 0xf94013b1
-.word 0xf9413631
+.word 0xf9413a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf9414631
+.word 0xf9414a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0x14000075
+.word 0x14000076
 .word 0xf94013b1
-.word 0xf9415a31
+.word 0xf9415e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
@@ -36221,7 +36255,7 @@ bl _p_164
 bl _p_17
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf9417a31
+.word 0xf9417e31
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_138@PAGE
@@ -36229,7 +36263,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_138@PAGEOFF
 ldr x0, [x0]
 .word 0xf90027a0
 .word 0xf94013b1
-.word 0xf9419a31
+.word 0xf9419e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
@@ -36238,31 +36272,32 @@ ldr x0, [x0]
 .word 0x93407f42
 bl _p_165
 .word 0xf94013b1
-.word 0xf941be31
+.word 0xf941c231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf941ce31
+.word 0xf941d231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0x14000053
+.word 0x14000054
 .word 0xf94013b1
-.word 0xf941e231
+.word 0xf941e631
 .word 0xb4000051
 .word 0xd63f0220
 bl _p_76
 .word 0x93407c00
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf941fe31
+.word 0xf9420231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xd2800101
-.word 0x6b01001f
+.word 0xd280011e
+.word 0x6b1e001f
 .word 0x54000461
 .word 0xf94013b1
-.word 0xf9421e31
+.word 0xf9422631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
@@ -36270,7 +36305,7 @@ bl _p_76
 bl _p_62
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf9423e31
+.word 0xf9424631
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_138@PAGE
@@ -36278,7 +36313,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_138@PAGEOFF
 ldr x0, [x0]
 .word 0xf90027a0
 .word 0xf94013b1
-.word 0xf9425e31
+.word 0xf9426631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
@@ -36287,16 +36322,16 @@ ldr x0, [x0]
 .word 0xaa1a03e2
 bl _p_166
 .word 0xf94013b1
-.word 0xf9428231
+.word 0xf9428a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf9429231
+.word 0xf9429a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x14000022
 .word 0xf94013b1
-.word 0xf942a631
+.word 0xf942ae31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
@@ -36304,7 +36339,7 @@ bl _p_166
 bl _p_62
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf942c631
+.word 0xf942ce31
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_138@PAGE
@@ -36312,7 +36347,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_138@PAGEOFF
 ldr x0, [x0]
 .word 0xf90027a0
 .word 0xf94013b1
-.word 0xf942e631
+.word 0xf942ee31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
@@ -36321,15 +36356,15 @@ ldr x0, [x0]
 .word 0x93407f42
 bl _p_167
 .word 0xf94013b1
-.word 0xf9430a31
+.word 0xf9431231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf9431a31
+.word 0xf9432231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf9432a31
+.word 0xf9433231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xa9416bb9
@@ -36922,9 +36957,9 @@ ldr x0, [x16, #0]
 .word 0xd280dd61
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -37030,9 +37065,9 @@ ldr x0, [x16, #0]
 .word 0xd280dd61
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -37145,9 +37180,9 @@ ldr x0, [x16, #0]
 .word 0xd280dd61
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -37270,9 +37305,9 @@ ldr x0, [x16, #0]
 .word 0xd280dd61
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -38704,9 +38739,9 @@ ldr x0, [x16, #0]
 .word 0xd281bb61
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -38728,9 +38763,9 @@ ldr x0, [x16, #0]
 .word 0xd2843261
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -38752,9 +38787,9 @@ ldr x0, [x16, #0]
 .word 0xd281c2a1
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -39042,9 +39077,9 @@ ldr x0, [x16, #0]
 .word 0xd2844461
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -40117,7 +40152,7 @@ bl _p_59
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
-.word 0x34000b00
+.word 0x34000b20
 .word 0xf94013b1
 .word 0xf9409631
 .word 0xb4000051
@@ -40131,10 +40166,11 @@ bl _p_76
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xd2800101
-.word 0x6b01001f
+.word 0xd280011e
+.word 0x6b1e001f
 .word 0x54000481
 .word 0xf94013b1
-.word 0xf940d231
+.word 0xf940d631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -40142,7 +40178,7 @@ bl _p_76
 bl _p_17
 .word 0xf90027a0
 .word 0xf94013b1
-.word 0xf940f231
+.word 0xf940f631
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_152@PAGE
@@ -40150,7 +40186,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_152@PAGEOFF
 ldr x0, [x0]
 .word 0xf9002ba0
 .word 0xf94013b1
-.word 0xf9411231
+.word 0xf9411631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027a0
@@ -40158,18 +40194,18 @@ ldr x0, [x0]
 bl _p_77
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf9413231
+.word 0xf9413631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xaa0003f9
 .word 0xf94013b1
-.word 0xf9414a31
+.word 0xf9414e31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0x14000078
+.word 0x14000079
 .word 0xf94013b1
-.word 0xf9415e31
+.word 0xf9416231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -40177,7 +40213,7 @@ bl _p_77
 bl _p_17
 .word 0xf90027a0
 .word 0xf94013b1
-.word 0xf9417e31
+.word 0xf9418231
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_152@PAGE
@@ -40185,7 +40221,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_152@PAGEOFF
 ldr x0, [x0]
 .word 0xf9002ba0
 .word 0xf94013b1
-.word 0xf9419e31
+.word 0xf941a231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027a0
@@ -40194,34 +40230,35 @@ bl _p_78
 .word 0x93407c00
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf941c231
+.word 0xf941c631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0x93407c00
 .word 0xaa0003f9
 .word 0xf94013b1
-.word 0xf941de31
+.word 0xf941e231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0x14000053
+.word 0x14000054
 .word 0xf94013b1
-.word 0xf941f231
+.word 0xf941f631
 .word 0xb4000051
 .word 0xd63f0220
 bl _p_76
 .word 0x93407c00
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf9420e31
+.word 0xf9421231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xd2800101
-.word 0x6b01001f
+.word 0xd280011e
+.word 0x6b1e001f
 .word 0x54000481
 .word 0xf94013b1
-.word 0xf9422e31
+.word 0xf9423631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -40229,7 +40266,7 @@ bl _p_76
 bl _p_62
 .word 0xf90027a0
 .word 0xf94013b1
-.word 0xf9424e31
+.word 0xf9425631
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_152@PAGE
@@ -40237,7 +40274,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_152@PAGEOFF
 ldr x0, [x0]
 .word 0xf9002ba0
 .word 0xf94013b1
-.word 0xf9426e31
+.word 0xf9427631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027a0
@@ -40245,18 +40282,18 @@ ldr x0, [x0]
 bl _p_79
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf9428e31
+.word 0xf9429631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xaa0003f9
 .word 0xf94013b1
-.word 0xf942a631
+.word 0xf942ae31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x14000021
 .word 0xf94013b1
-.word 0xf942ba31
+.word 0xf942c231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -40264,7 +40301,7 @@ bl _p_79
 bl _p_62
 .word 0xf90027a0
 .word 0xf94013b1
-.word 0xf942da31
+.word 0xf942e231
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_152@PAGE
@@ -40272,7 +40309,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_152@PAGEOFF
 ldr x0, [x0]
 .word 0xf9002ba0
 .word 0xf94013b1
-.word 0xf942fa31
+.word 0xf9430231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027a0
@@ -40281,7 +40318,7 @@ bl _p_80
 .word 0x93407c00
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf9431e31
+.word 0xf9432631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
@@ -40292,7 +40329,7 @@ bl _p_80
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf9434a31
+.word 0xf9435231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
@@ -40301,12 +40338,12 @@ bl _p_80
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf9436e31
+.word 0xf9437631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xf94013b1
-.word 0xf9438231
+.word 0xf9438a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xa9416bb9
@@ -40354,7 +40391,7 @@ bl _p_59
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
-.word 0x34000a80
+.word 0x34000aa0
 .word 0xf94013b1
 .word 0xf9409631
 .word 0xb4000051
@@ -40368,10 +40405,11 @@ bl _p_76
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xd2800101
-.word 0x6b01001f
+.word 0xd280011e
+.word 0x6b1e001f
 .word 0x54000461
 .word 0xf94013b1
-.word 0xf940d231
+.word 0xf940d631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
@@ -40379,7 +40417,7 @@ bl _p_76
 bl _p_17
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf940f231
+.word 0xf940f631
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_153@PAGE
@@ -40387,7 +40425,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_153@PAGEOFF
 ldr x0, [x0]
 .word 0xf90027a0
 .word 0xf94013b1
-.word 0xf9411231
+.word 0xf9411631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
@@ -40396,16 +40434,16 @@ ldr x0, [x0]
 .word 0xaa1a03e2
 bl _p_164
 .word 0xf94013b1
-.word 0xf9413631
+.word 0xf9413a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf9414631
+.word 0xf9414a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0x14000075
+.word 0x14000076
 .word 0xf94013b1
-.word 0xf9415a31
+.word 0xf9415e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
@@ -40413,7 +40451,7 @@ bl _p_164
 bl _p_17
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf9417a31
+.word 0xf9417e31
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_153@PAGE
@@ -40421,7 +40459,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_153@PAGEOFF
 ldr x0, [x0]
 .word 0xf90027a0
 .word 0xf94013b1
-.word 0xf9419a31
+.word 0xf9419e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
@@ -40430,31 +40468,32 @@ ldr x0, [x0]
 .word 0x93407f42
 bl _p_165
 .word 0xf94013b1
-.word 0xf941be31
+.word 0xf941c231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf941ce31
+.word 0xf941d231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0x14000053
+.word 0x14000054
 .word 0xf94013b1
-.word 0xf941e231
+.word 0xf941e631
 .word 0xb4000051
 .word 0xd63f0220
 bl _p_76
 .word 0x93407c00
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf941fe31
+.word 0xf9420231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xd2800101
-.word 0x6b01001f
+.word 0xd280011e
+.word 0x6b1e001f
 .word 0x54000461
 .word 0xf94013b1
-.word 0xf9421e31
+.word 0xf9422631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
@@ -40462,7 +40501,7 @@ bl _p_76
 bl _p_62
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf9423e31
+.word 0xf9424631
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_153@PAGE
@@ -40470,7 +40509,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_153@PAGEOFF
 ldr x0, [x0]
 .word 0xf90027a0
 .word 0xf94013b1
-.word 0xf9425e31
+.word 0xf9426631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
@@ -40479,16 +40518,16 @@ ldr x0, [x0]
 .word 0xaa1a03e2
 bl _p_166
 .word 0xf94013b1
-.word 0xf9428231
+.word 0xf9428a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf9429231
+.word 0xf9429a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x14000022
 .word 0xf94013b1
-.word 0xf942a631
+.word 0xf942ae31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
@@ -40496,7 +40535,7 @@ bl _p_166
 bl _p_62
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf942c631
+.word 0xf942ce31
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_153@PAGE
@@ -40504,7 +40543,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_153@PAGEOFF
 ldr x0, [x0]
 .word 0xf90027a0
 .word 0xf94013b1
-.word 0xf942e631
+.word 0xf942ee31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
@@ -40513,15 +40552,15 @@ ldr x0, [x0]
 .word 0x93407f42
 bl _p_167
 .word 0xf94013b1
-.word 0xf9430a31
+.word 0xf9431231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf9431a31
+.word 0xf9432231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf9432a31
+.word 0xf9433231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xa9416bb9
@@ -40569,7 +40608,7 @@ bl _p_59
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
-.word 0x34000b00
+.word 0x34000b20
 .word 0xf94013b1
 .word 0xf9409631
 .word 0xb4000051
@@ -40583,10 +40622,11 @@ bl _p_76
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xd2800101
-.word 0x6b01001f
+.word 0xd280011e
+.word 0x6b1e001f
 .word 0x54000481
 .word 0xf94013b1
-.word 0xf940d231
+.word 0xf940d631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -40594,7 +40634,7 @@ bl _p_76
 bl _p_17
 .word 0xf90027a0
 .word 0xf94013b1
-.word 0xf940f231
+.word 0xf940f631
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_154@PAGE
@@ -40602,7 +40642,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_154@PAGEOFF
 ldr x0, [x0]
 .word 0xf9002ba0
 .word 0xf94013b1
-.word 0xf9411231
+.word 0xf9411631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027a0
@@ -40610,18 +40650,18 @@ ldr x0, [x0]
 bl _p_77
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf9413231
+.word 0xf9413631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xaa0003f9
 .word 0xf94013b1
-.word 0xf9414a31
+.word 0xf9414e31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0x14000078
+.word 0x14000079
 .word 0xf94013b1
-.word 0xf9415e31
+.word 0xf9416231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -40629,7 +40669,7 @@ bl _p_77
 bl _p_17
 .word 0xf90027a0
 .word 0xf94013b1
-.word 0xf9417e31
+.word 0xf9418231
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_154@PAGE
@@ -40637,7 +40677,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_154@PAGEOFF
 ldr x0, [x0]
 .word 0xf9002ba0
 .word 0xf94013b1
-.word 0xf9419e31
+.word 0xf941a231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027a0
@@ -40646,34 +40686,35 @@ bl _p_78
 .word 0x93407c00
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf941c231
+.word 0xf941c631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0x93407c00
 .word 0xaa0003f9
 .word 0xf94013b1
-.word 0xf941de31
+.word 0xf941e231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0x14000053
+.word 0x14000054
 .word 0xf94013b1
-.word 0xf941f231
+.word 0xf941f631
 .word 0xb4000051
 .word 0xd63f0220
 bl _p_76
 .word 0x93407c00
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf9420e31
+.word 0xf9421231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xd2800101
-.word 0x6b01001f
+.word 0xd280011e
+.word 0x6b1e001f
 .word 0x54000481
 .word 0xf94013b1
-.word 0xf9422e31
+.word 0xf9423631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -40681,7 +40722,7 @@ bl _p_76
 bl _p_62
 .word 0xf90027a0
 .word 0xf94013b1
-.word 0xf9424e31
+.word 0xf9425631
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_154@PAGE
@@ -40689,7 +40730,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_154@PAGEOFF
 ldr x0, [x0]
 .word 0xf9002ba0
 .word 0xf94013b1
-.word 0xf9426e31
+.word 0xf9427631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027a0
@@ -40697,18 +40738,18 @@ ldr x0, [x0]
 bl _p_79
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf9428e31
+.word 0xf9429631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xaa0003f9
 .word 0xf94013b1
-.word 0xf942a631
+.word 0xf942ae31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x14000021
 .word 0xf94013b1
-.word 0xf942ba31
+.word 0xf942c231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -40716,7 +40757,7 @@ bl _p_79
 bl _p_62
 .word 0xf90027a0
 .word 0xf94013b1
-.word 0xf942da31
+.word 0xf942e231
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_154@PAGE
@@ -40724,7 +40765,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_154@PAGEOFF
 ldr x0, [x0]
 .word 0xf9002ba0
 .word 0xf94013b1
-.word 0xf942fa31
+.word 0xf9430231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027a0
@@ -40733,7 +40774,7 @@ bl _p_80
 .word 0x93407c00
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf9431e31
+.word 0xf9432631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
@@ -40744,7 +40785,7 @@ bl _p_80
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf9434a31
+.word 0xf9435231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
@@ -40753,12 +40794,12 @@ bl _p_80
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf9436e31
+.word 0xf9437631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xf94013b1
-.word 0xf9438231
+.word 0xf9438a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xa9416bb9
@@ -40806,7 +40847,7 @@ bl _p_59
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
-.word 0x34000a80
+.word 0x34000aa0
 .word 0xf94013b1
 .word 0xf9409631
 .word 0xb4000051
@@ -40820,10 +40861,11 @@ bl _p_76
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xd2800101
-.word 0x6b01001f
+.word 0xd280011e
+.word 0x6b1e001f
 .word 0x54000461
 .word 0xf94013b1
-.word 0xf940d231
+.word 0xf940d631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
@@ -40831,7 +40873,7 @@ bl _p_76
 bl _p_17
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf940f231
+.word 0xf940f631
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_155@PAGE
@@ -40839,7 +40881,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_155@PAGEOFF
 ldr x0, [x0]
 .word 0xf90027a0
 .word 0xf94013b1
-.word 0xf9411231
+.word 0xf9411631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
@@ -40848,16 +40890,16 @@ ldr x0, [x0]
 .word 0xaa1a03e2
 bl _p_164
 .word 0xf94013b1
-.word 0xf9413631
+.word 0xf9413a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf9414631
+.word 0xf9414a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0x14000075
+.word 0x14000076
 .word 0xf94013b1
-.word 0xf9415a31
+.word 0xf9415e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
@@ -40865,7 +40907,7 @@ bl _p_164
 bl _p_17
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf9417a31
+.word 0xf9417e31
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_155@PAGE
@@ -40873,7 +40915,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_155@PAGEOFF
 ldr x0, [x0]
 .word 0xf90027a0
 .word 0xf94013b1
-.word 0xf9419a31
+.word 0xf9419e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
@@ -40882,31 +40924,32 @@ ldr x0, [x0]
 .word 0x93407f42
 bl _p_165
 .word 0xf94013b1
-.word 0xf941be31
+.word 0xf941c231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf941ce31
+.word 0xf941d231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0x14000053
+.word 0x14000054
 .word 0xf94013b1
-.word 0xf941e231
+.word 0xf941e631
 .word 0xb4000051
 .word 0xd63f0220
 bl _p_76
 .word 0x93407c00
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf941fe31
+.word 0xf9420231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xd2800101
-.word 0x6b01001f
+.word 0xd280011e
+.word 0x6b1e001f
 .word 0x54000461
 .word 0xf94013b1
-.word 0xf9421e31
+.word 0xf9422631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
@@ -40914,7 +40957,7 @@ bl _p_76
 bl _p_62
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf9423e31
+.word 0xf9424631
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_155@PAGE
@@ -40922,7 +40965,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_155@PAGEOFF
 ldr x0, [x0]
 .word 0xf90027a0
 .word 0xf94013b1
-.word 0xf9425e31
+.word 0xf9426631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
@@ -40931,16 +40974,16 @@ ldr x0, [x0]
 .word 0xaa1a03e2
 bl _p_166
 .word 0xf94013b1
-.word 0xf9428231
+.word 0xf9428a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf9429231
+.word 0xf9429a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x14000022
 .word 0xf94013b1
-.word 0xf942a631
+.word 0xf942ae31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
@@ -40948,7 +40991,7 @@ bl _p_166
 bl _p_62
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf942c631
+.word 0xf942ce31
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_155@PAGE
@@ -40956,7 +40999,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_155@PAGEOFF
 ldr x0, [x0]
 .word 0xf90027a0
 .word 0xf94013b1
-.word 0xf942e631
+.word 0xf942ee31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
@@ -40965,15 +41008,15 @@ ldr x0, [x0]
 .word 0x93407f42
 bl _p_167
 .word 0xf94013b1
-.word 0xf9430a31
+.word 0xf9431231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf9431a31
+.word 0xf9432231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf9432a31
+.word 0xf9433231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xa9416bb9
@@ -41180,9 +41223,9 @@ ldr x0, [x16, #0]
 .word 0xd280f0a1
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -41477,9 +41520,9 @@ ldr x0, [x16, #0]
 .word 0xd280f0a1
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -42616,7 +42659,7 @@ bl _p_59
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
-.word 0x34000e00
+.word 0x34000e20
 .word 0xf94017b1
 .word 0xf9418231
 .word 0xb4000051
@@ -42630,10 +42673,11 @@ bl _p_76
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xd2800101
-.word 0x6b01001f
+.word 0xd280011e
+.word 0x6b1e001f
 .word 0x54000621
 .word 0xf94017b1
-.word 0xf941be31
+.word 0xf941c231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1803e0
@@ -42642,7 +42686,7 @@ bl _p_76
 bl _p_17
 .word 0xf90027a0
 .word 0xf94017b1
-.word 0xf941e231
+.word 0xf941e631
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_159@PAGE
@@ -42650,7 +42694,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_159@PAGEOFF
 ldr x0, [x0]
 .word 0xf9002ba0
 .word 0xf94017b1
-.word 0xf9420231
+.word 0xf9420631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027a0
@@ -42662,7 +42706,7 @@ ldr x0, [x0]
 bl _p_175
 .word 0xf90023a0
 .word 0xf94017b1
-.word 0xf9423231
+.word 0xf9423631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a1
@@ -42673,16 +42717,16 @@ ldr x2, [x16, #4008]
 .word 0xaa1803e0
 bl _p_110
 .word 0xf94017b1
-.word 0xf9425a31
+.word 0xf9425e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94017b1
-.word 0xf9426a31
+.word 0xf9426e31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0x1400009f
+.word 0x140000a0
 .word 0xf94017b1
-.word 0xf9427e31
+.word 0xf9428231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1803e0
@@ -42691,7 +42735,7 @@ bl _p_110
 bl _p_17
 .word 0xf90027a0
 .word 0xf94017b1
-.word 0xf942a231
+.word 0xf942a631
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_159@PAGE
@@ -42699,7 +42743,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_159@PAGEOFF
 ldr x0, [x0]
 .word 0xf9002ba0
 .word 0xf94017b1
-.word 0xf942c231
+.word 0xf942c631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027a0
@@ -42711,7 +42755,7 @@ ldr x0, [x0]
 bl _p_176
 .word 0xf90023a0
 .word 0xf94017b1
-.word 0xf942f231
+.word 0xf942f631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a1
@@ -42722,31 +42766,32 @@ ldr x2, [x16, #4008]
 .word 0xaa1803e0
 bl _p_110
 .word 0xf94017b1
-.word 0xf9431a31
+.word 0xf9431e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94017b1
-.word 0xf9432a31
+.word 0xf9432e31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0x1400006f
+.word 0x14000070
 .word 0xf94017b1
-.word 0xf9433e31
+.word 0xf9434231
 .word 0xb4000051
 .word 0xd63f0220
 bl _p_76
 .word 0x93407c00
 .word 0xf90023a0
 .word 0xf94017b1
-.word 0xf9435a31
+.word 0xf9435e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xd2800101
-.word 0x6b01001f
+.word 0xd280011e
+.word 0x6b1e001f
 .word 0x54000621
 .word 0xf94017b1
-.word 0xf9437a31
+.word 0xf9438231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1803e0
@@ -42755,7 +42800,7 @@ bl _p_76
 bl _p_62
 .word 0xf90027a0
 .word 0xf94017b1
-.word 0xf9439e31
+.word 0xf943a631
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_159@PAGE
@@ -42763,7 +42808,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_159@PAGEOFF
 ldr x0, [x0]
 .word 0xf9002ba0
 .word 0xf94017b1
-.word 0xf943be31
+.word 0xf943c631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027a0
@@ -42775,7 +42820,7 @@ ldr x0, [x0]
 bl _p_177
 .word 0xf90023a0
 .word 0xf94017b1
-.word 0xf943ee31
+.word 0xf943f631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a1
@@ -42786,16 +42831,16 @@ ldr x2, [x16, #4008]
 .word 0xaa1803e0
 bl _p_110
 .word 0xf94017b1
-.word 0xf9441631
+.word 0xf9441e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94017b1
-.word 0xf9442631
+.word 0xf9442e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x14000030
 .word 0xf94017b1
-.word 0xf9443a31
+.word 0xf9444231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1803e0
@@ -42804,7 +42849,7 @@ bl _p_110
 bl _p_62
 .word 0xf90027a0
 .word 0xf94017b1
-.word 0xf9445e31
+.word 0xf9446631
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_159@PAGE
@@ -42812,7 +42857,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_159@PAGEOFF
 ldr x0, [x0]
 .word 0xf9002ba0
 .word 0xf94017b1
-.word 0xf9447e31
+.word 0xf9448631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027a0
@@ -42824,7 +42869,7 @@ ldr x0, [x0]
 bl _p_178
 .word 0xf90023a0
 .word 0xf94017b1
-.word 0xf944ae31
+.word 0xf944b631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a1
@@ -42835,15 +42880,15 @@ ldr x2, [x16, #4008]
 .word 0xaa1803e0
 bl _p_110
 .word 0xf94017b1
-.word 0xf944d631
+.word 0xf944de31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94017b1
-.word 0xf944e631
+.word 0xf944ee31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94017b1
-.word 0xf944f631
+.word 0xf944fe31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xa94167b8
@@ -43194,9 +43239,9 @@ ldr x0, [x16, #0]
 .word 0xd2848ca1
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -43310,9 +43355,9 @@ ldr x0, [x16, #0]
 .word 0xd28498e1
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -43334,9 +43379,9 @@ ldr x0, [x16, #0]
 .word 0xd2849c61
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -43470,9 +43515,9 @@ ldr x0, [x16, #0]
 .word 0xd28498e1
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -43494,9 +43539,9 @@ ldr x0, [x16, #0]
 .word 0xd2849c61
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -43626,9 +43671,9 @@ ldr x0, [x16, #0]
 .word 0xd28498e1
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -43650,9 +43695,9 @@ ldr x0, [x16, #0]
 .word 0xd2849c61
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -43782,9 +43827,9 @@ ldr x0, [x16, #0]
 .word 0xd28498e1
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -43806,9 +43851,9 @@ ldr x0, [x16, #0]
 .word 0xd2849c61
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -43937,9 +43982,9 @@ ldr x0, [x16, #0]
 .word 0xd2808321
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -44058,9 +44103,9 @@ ldr x0, [x16, #0]
 .word 0xd2808321
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -44183,9 +44228,9 @@ ldr x0, [x16, #0]
 .word 0xd2808321
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -44291,9 +44336,9 @@ ldr x0, [x16, #0]
 .word 0xd2808321
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -44399,9 +44444,9 @@ ldr x0, [x16, #0]
 .word 0xd2808321
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -44507,9 +44552,9 @@ ldr x0, [x16, #0]
 .word 0xd2808321
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -44616,9 +44661,9 @@ ldr x0, [x16, #0]
 .word 0xd2808321
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -44640,9 +44685,9 @@ ldr x0, [x16, #0]
 .word 0xd282c861
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -44758,9 +44803,9 @@ ldr x0, [x16, #0]
 .word 0xd2808321
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -44866,9 +44911,9 @@ ldr x0, [x16, #0]
 .word 0xd2808321
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -44984,9 +45029,9 @@ ldr x0, [x16, #0]
 .word 0xd2810561
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -45019,9 +45064,9 @@ ldr x0, [x16, #0]
 .word 0xd284cce1
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -45054,9 +45099,9 @@ ldr x0, [x16, #0]
 .word 0xd28079e1
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -45190,9 +45235,9 @@ ldr x0, [x16, #0]
 .word 0xd2810561
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -45305,9 +45350,9 @@ ldr x0, [x16, #0]
 .word 0xd2810561
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -45413,9 +45458,9 @@ ldr x0, [x16, #0]
 .word 0xd2810561
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -45528,9 +45573,9 @@ ldr x0, [x16, #0]
 .word 0xd2810561
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -45636,9 +45681,9 @@ ldr x0, [x16, #0]
 .word 0xd2810561
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -45751,9 +45796,9 @@ ldr x0, [x16, #0]
 .word 0xd280dd61
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -45859,9 +45904,9 @@ ldr x0, [x16, #0]
 .word 0xd280dd61
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -45974,9 +46019,9 @@ ldr x0, [x16, #0]
 .word 0xd280dd61
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -46099,9 +46144,9 @@ ldr x0, [x16, #0]
 .word 0xd280dd61
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -46215,9 +46260,9 @@ ldr x0, [x16, #0]
 .word 0xd2807fa1
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -46239,9 +46284,9 @@ ldr x0, [x16, #0]
 .word 0xd281a7e1
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -48538,9 +48583,9 @@ ldr x0, [x16, #0]
 .word 0xd2850bc1
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -48715,9 +48760,9 @@ ldr x0, [x16, #0]
 .word 0xd2850bc1
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -49410,9 +49455,9 @@ ldr x0, [x16, #0]
 .word 0xd280f0a1
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -50567,9 +50612,9 @@ ldr x0, [x16, #0]
 .word 0xd280f0a1
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -50734,7 +50779,7 @@ bl _p_59
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
-.word 0x34000ae0
+.word 0x34000b00
 .word 0xf94013b1
 .word 0xf9409631
 .word 0xb4000051
@@ -50748,10 +50793,11 @@ bl _p_76
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xd2800101
-.word 0x6b01001f
+.word 0xd280011e
+.word 0x6b1e001f
 .word 0x54000481
 .word 0xf94013b1
-.word 0xf940d231
+.word 0xf940d631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -50759,7 +50805,7 @@ bl _p_76
 bl _p_17
 .word 0xf90027a0
 .word 0xf94013b1
-.word 0xf940f231
+.word 0xf940f631
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_182@PAGE
@@ -50767,7 +50813,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_182@PAGEOFF
 ldr x0, [x0]
 .word 0xf9002ba0
 .word 0xf94013b1
-.word 0xf9411231
+.word 0xf9411631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027a0
@@ -50775,18 +50821,18 @@ ldr x0, [x0]
 bl _p_88
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf9413231
+.word 0xf9413631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xaa0003f9
 .word 0xf94013b1
-.word 0xf9414a31
+.word 0xf9414e31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0x14000076
+.word 0x14000077
 .word 0xf94013b1
-.word 0xf9415e31
+.word 0xf9416231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -50794,7 +50840,7 @@ bl _p_88
 bl _p_17
 .word 0xf90027a0
 .word 0xf94013b1
-.word 0xf9417e31
+.word 0xf9418231
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_182@PAGE
@@ -50802,7 +50848,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_182@PAGEOFF
 ldr x0, [x0]
 .word 0xf9002ba0
 .word 0xf94013b1
-.word 0xf9419e31
+.word 0xf941a231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027a0
@@ -50810,34 +50856,35 @@ ldr x0, [x0]
 bl _p_89
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf941be31
+.word 0xf941c231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0x2a0003e0
 .word 0xaa0003f9
 .word 0xf94013b1
-.word 0xf941da31
+.word 0xf941de31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0x14000052
+.word 0x14000053
 .word 0xf94013b1
-.word 0xf941ee31
+.word 0xf941f231
 .word 0xb4000051
 .word 0xd63f0220
 bl _p_76
 .word 0x93407c00
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf9420a31
+.word 0xf9420e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xd2800101
-.word 0x6b01001f
+.word 0xd280011e
+.word 0x6b1e001f
 .word 0x54000481
 .word 0xf94013b1
-.word 0xf9422a31
+.word 0xf9423231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -50845,7 +50892,7 @@ bl _p_76
 bl _p_62
 .word 0xf90027a0
 .word 0xf94013b1
-.word 0xf9424a31
+.word 0xf9425231
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_182@PAGE
@@ -50853,7 +50900,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_182@PAGEOFF
 ldr x0, [x0]
 .word 0xf9002ba0
 .word 0xf94013b1
-.word 0xf9426a31
+.word 0xf9427231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027a0
@@ -50861,18 +50908,18 @@ ldr x0, [x0]
 bl _p_90
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf9428a31
+.word 0xf9429231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xaa0003f9
 .word 0xf94013b1
-.word 0xf942a231
+.word 0xf942aa31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x14000020
 .word 0xf94013b1
-.word 0xf942b631
+.word 0xf942be31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -50880,7 +50927,7 @@ bl _p_90
 bl _p_62
 .word 0xf90027a0
 .word 0xf94013b1
-.word 0xf942d631
+.word 0xf942de31
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_182@PAGE
@@ -50888,7 +50935,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_182@PAGEOFF
 ldr x0, [x0]
 .word 0xf9002ba0
 .word 0xf94013b1
-.word 0xf942f631
+.word 0xf942fe31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027a0
@@ -50896,7 +50943,7 @@ ldr x0, [x0]
 bl _p_91
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf9431631
+.word 0xf9431e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
@@ -50907,7 +50954,7 @@ bl _p_91
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf9434231
+.word 0xf9434a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
@@ -50916,12 +50963,12 @@ bl _p_91
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf9436631
+.word 0xf9436e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xf94013b1
-.word 0xf9437a31
+.word 0xf9438231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xa9416bb9
@@ -50969,7 +51016,7 @@ bl _p_59
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
-.word 0x34000a80
+.word 0x34000aa0
 .word 0xf94013b1
 .word 0xf9409631
 .word 0xb4000051
@@ -50983,10 +51030,11 @@ bl _p_76
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xd2800101
-.word 0x6b01001f
+.word 0xd280011e
+.word 0x6b1e001f
 .word 0x54000461
 .word 0xf94013b1
-.word 0xf940d231
+.word 0xf940d631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
@@ -50994,7 +51042,7 @@ bl _p_76
 bl _p_17
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf940f231
+.word 0xf940f631
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_183@PAGE
@@ -51002,7 +51050,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_183@PAGEOFF
 ldr x0, [x0]
 .word 0xf90027a0
 .word 0xf94013b1
-.word 0xf9411231
+.word 0xf9411631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
@@ -51011,16 +51059,16 @@ ldr x0, [x0]
 .word 0xaa1a03e2
 bl _p_92
 .word 0xf94013b1
-.word 0xf9413631
+.word 0xf9413a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf9414631
+.word 0xf9414a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0x14000075
+.word 0x14000076
 .word 0xf94013b1
-.word 0xf9415a31
+.word 0xf9415e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
@@ -51028,7 +51076,7 @@ bl _p_92
 bl _p_17
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf9417a31
+.word 0xf9417e31
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_183@PAGE
@@ -51036,7 +51084,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_183@PAGEOFF
 ldr x0, [x0]
 .word 0xf90027a0
 .word 0xf94013b1
-.word 0xf9419a31
+.word 0xf9419e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
@@ -51045,31 +51093,32 @@ ldr x0, [x0]
 .word 0xaa1a03e2
 bl _p_93
 .word 0xf94013b1
-.word 0xf941be31
+.word 0xf941c231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf941ce31
+.word 0xf941d231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0x14000053
+.word 0x14000054
 .word 0xf94013b1
-.word 0xf941e231
+.word 0xf941e631
 .word 0xb4000051
 .word 0xd63f0220
 bl _p_76
 .word 0x93407c00
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf941fe31
+.word 0xf9420231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xd2800101
-.word 0x6b01001f
+.word 0xd280011e
+.word 0x6b1e001f
 .word 0x54000461
 .word 0xf94013b1
-.word 0xf9421e31
+.word 0xf9422631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
@@ -51077,7 +51126,7 @@ bl _p_76
 bl _p_62
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf9423e31
+.word 0xf9424631
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_183@PAGE
@@ -51085,7 +51134,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_183@PAGEOFF
 ldr x0, [x0]
 .word 0xf90027a0
 .word 0xf94013b1
-.word 0xf9425e31
+.word 0xf9426631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
@@ -51094,16 +51143,16 @@ ldr x0, [x0]
 .word 0xaa1a03e2
 bl _p_94
 .word 0xf94013b1
-.word 0xf9428231
+.word 0xf9428a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf9429231
+.word 0xf9429a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x14000022
 .word 0xf94013b1
-.word 0xf942a631
+.word 0xf942ae31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
@@ -51111,7 +51160,7 @@ bl _p_94
 bl _p_62
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf942c631
+.word 0xf942ce31
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_183@PAGE
@@ -51119,7 +51168,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_183@PAGEOFF
 ldr x0, [x0]
 .word 0xf90027a0
 .word 0xf94013b1
-.word 0xf942e631
+.word 0xf942ee31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
@@ -51128,15 +51177,15 @@ ldr x0, [x0]
 .word 0xaa1a03e2
 bl _p_95
 .word 0xf94013b1
-.word 0xf9430a31
+.word 0xf9431231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf9431a31
+.word 0xf9432231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf9432a31
+.word 0xf9433231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xa9416bb9
@@ -51491,9 +51540,9 @@ ldr x0, [x16, #0]
 .word 0xd28100a1
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -51515,9 +51564,9 @@ ldr x0, [x16, #0]
 .word 0xd28557c1
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -51550,9 +51599,9 @@ ldr x0, [x16, #0]
 .word 0xd2855a81
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -53881,9 +53930,9 @@ ldr x0, [x16, #0]
 .word 0xd280f0a1
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -54277,7 +54326,7 @@ bl _p_59
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
-.word 0x34000ae0
+.word 0x34000b00
 .word 0xf94013b1
 .word 0xf9409631
 .word 0xb4000051
@@ -54291,10 +54340,11 @@ bl _p_76
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xd2800101
-.word 0x6b01001f
+.word 0xd280011e
+.word 0x6b1e001f
 .word 0x54000481
 .word 0xf94013b1
-.word 0xf940d231
+.word 0xf940d631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -54302,7 +54352,7 @@ bl _p_76
 bl _p_17
 .word 0xf90027a0
 .word 0xf94013b1
-.word 0xf940f231
+.word 0xf940f631
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_182@PAGE
@@ -54310,7 +54360,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_182@PAGEOFF
 ldr x0, [x0]
 .word 0xf9002ba0
 .word 0xf94013b1
-.word 0xf9411231
+.word 0xf9411631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027a0
@@ -54318,18 +54368,18 @@ ldr x0, [x0]
 bl _p_88
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf9413231
+.word 0xf9413631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xaa0003f9
 .word 0xf94013b1
-.word 0xf9414a31
+.word 0xf9414e31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0x14000076
+.word 0x14000077
 .word 0xf94013b1
-.word 0xf9415e31
+.word 0xf9416231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -54337,7 +54387,7 @@ bl _p_88
 bl _p_17
 .word 0xf90027a0
 .word 0xf94013b1
-.word 0xf9417e31
+.word 0xf9418231
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_182@PAGE
@@ -54345,7 +54395,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_182@PAGEOFF
 ldr x0, [x0]
 .word 0xf9002ba0
 .word 0xf94013b1
-.word 0xf9419e31
+.word 0xf941a231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027a0
@@ -54353,34 +54403,35 @@ ldr x0, [x0]
 bl _p_89
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf941be31
+.word 0xf941c231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0x2a0003e0
 .word 0xaa0003f9
 .word 0xf94013b1
-.word 0xf941da31
+.word 0xf941de31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0x14000052
+.word 0x14000053
 .word 0xf94013b1
-.word 0xf941ee31
+.word 0xf941f231
 .word 0xb4000051
 .word 0xd63f0220
 bl _p_76
 .word 0x93407c00
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf9420a31
+.word 0xf9420e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xd2800101
-.word 0x6b01001f
+.word 0xd280011e
+.word 0x6b1e001f
 .word 0x54000481
 .word 0xf94013b1
-.word 0xf9422a31
+.word 0xf9423231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -54388,7 +54439,7 @@ bl _p_76
 bl _p_62
 .word 0xf90027a0
 .word 0xf94013b1
-.word 0xf9424a31
+.word 0xf9425231
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_182@PAGE
@@ -54396,7 +54447,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_182@PAGEOFF
 ldr x0, [x0]
 .word 0xf9002ba0
 .word 0xf94013b1
-.word 0xf9426a31
+.word 0xf9427231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027a0
@@ -54404,18 +54455,18 @@ ldr x0, [x0]
 bl _p_90
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf9428a31
+.word 0xf9429231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xaa0003f9
 .word 0xf94013b1
-.word 0xf942a231
+.word 0xf942aa31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x14000020
 .word 0xf94013b1
-.word 0xf942b631
+.word 0xf942be31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -54423,7 +54474,7 @@ bl _p_90
 bl _p_62
 .word 0xf90027a0
 .word 0xf94013b1
-.word 0xf942d631
+.word 0xf942de31
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_182@PAGE
@@ -54431,7 +54482,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_182@PAGEOFF
 ldr x0, [x0]
 .word 0xf9002ba0
 .word 0xf94013b1
-.word 0xf942f631
+.word 0xf942fe31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027a0
@@ -54439,7 +54490,7 @@ ldr x0, [x0]
 bl _p_91
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf9431631
+.word 0xf9431e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
@@ -54450,7 +54501,7 @@ bl _p_91
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf9434231
+.word 0xf9434a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
@@ -54459,12 +54510,12 @@ bl _p_91
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf9436631
+.word 0xf9436e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xf94013b1
-.word 0xf9437a31
+.word 0xf9438231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xa9416bb9
@@ -54512,7 +54563,7 @@ bl _p_59
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
-.word 0x34000a80
+.word 0x34000aa0
 .word 0xf94013b1
 .word 0xf9409631
 .word 0xb4000051
@@ -54526,10 +54577,11 @@ bl _p_76
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xd2800101
-.word 0x6b01001f
+.word 0xd280011e
+.word 0x6b1e001f
 .word 0x54000461
 .word 0xf94013b1
-.word 0xf940d231
+.word 0xf940d631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
@@ -54537,7 +54589,7 @@ bl _p_76
 bl _p_17
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf940f231
+.word 0xf940f631
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_183@PAGE
@@ -54545,7 +54597,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_183@PAGEOFF
 ldr x0, [x0]
 .word 0xf90027a0
 .word 0xf94013b1
-.word 0xf9411231
+.word 0xf9411631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
@@ -54554,16 +54606,16 @@ ldr x0, [x0]
 .word 0xaa1a03e2
 bl _p_92
 .word 0xf94013b1
-.word 0xf9413631
+.word 0xf9413a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf9414631
+.word 0xf9414a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0x14000075
+.word 0x14000076
 .word 0xf94013b1
-.word 0xf9415a31
+.word 0xf9415e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
@@ -54571,7 +54623,7 @@ bl _p_92
 bl _p_17
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf9417a31
+.word 0xf9417e31
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_183@PAGE
@@ -54579,7 +54631,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_183@PAGEOFF
 ldr x0, [x0]
 .word 0xf90027a0
 .word 0xf94013b1
-.word 0xf9419a31
+.word 0xf9419e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
@@ -54588,31 +54640,32 @@ ldr x0, [x0]
 .word 0xaa1a03e2
 bl _p_93
 .word 0xf94013b1
-.word 0xf941be31
+.word 0xf941c231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf941ce31
+.word 0xf941d231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0x14000053
+.word 0x14000054
 .word 0xf94013b1
-.word 0xf941e231
+.word 0xf941e631
 .word 0xb4000051
 .word 0xd63f0220
 bl _p_76
 .word 0x93407c00
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf941fe31
+.word 0xf9420231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xd2800101
-.word 0x6b01001f
+.word 0xd280011e
+.word 0x6b1e001f
 .word 0x54000461
 .word 0xf94013b1
-.word 0xf9421e31
+.word 0xf9422631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
@@ -54620,7 +54673,7 @@ bl _p_76
 bl _p_62
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf9423e31
+.word 0xf9424631
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_183@PAGE
@@ -54628,7 +54681,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_183@PAGEOFF
 ldr x0, [x0]
 .word 0xf90027a0
 .word 0xf94013b1
-.word 0xf9425e31
+.word 0xf9426631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
@@ -54637,16 +54690,16 @@ ldr x0, [x0]
 .word 0xaa1a03e2
 bl _p_94
 .word 0xf94013b1
-.word 0xf9428231
+.word 0xf9428a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf9429231
+.word 0xf9429a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x14000022
 .word 0xf94013b1
-.word 0xf942a631
+.word 0xf942ae31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
@@ -54654,7 +54707,7 @@ bl _p_94
 bl _p_62
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf942c631
+.word 0xf942ce31
 .word 0xb4000051
 .word 0xd63f0220
 adrp x0, L_OBJC_SELECTOR_REFERENCES_183@PAGE
@@ -54662,7 +54715,7 @@ add x0, x0, L_OBJC_SELECTOR_REFERENCES_183@PAGEOFF
 ldr x0, [x0]
 .word 0xf90027a0
 .word 0xf94013b1
-.word 0xf942e631
+.word 0xf942ee31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
@@ -54671,15 +54724,15 @@ ldr x0, [x0]
 .word 0xaa1a03e2
 bl _p_95
 .word 0xf94013b1
-.word 0xf9430a31
+.word 0xf9431231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf9431a31
+.word 0xf9432231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf9432a31
+.word 0xf9433231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xa9416bb9
@@ -54789,9 +54842,9 @@ ldr x0, [x16, #0]
 .word 0xd2810561
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -54824,9 +54877,9 @@ ldr x0, [x16, #0]
 .word 0xd284cce1
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -54859,9 +54912,9 @@ ldr x0, [x16, #0]
 .word 0xd28079e1
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -54995,9 +55048,9 @@ ldr x0, [x16, #0]
 .word 0xd2810561
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -55110,9 +55163,9 @@ ldr x0, [x16, #0]
 .word 0xd2810561
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -55218,9 +55271,9 @@ ldr x0, [x16, #0]
 .word 0xd2810561
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -55333,9 +55386,9 @@ ldr x0, [x16, #0]
 .word 0xd2810561
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -55441,9 +55494,9 @@ ldr x0, [x16, #0]
 .word 0xd2810561
 bl _p_64
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_65
@@ -57602,7 +57655,7 @@ bl _p_65
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2801ea0
 .word 0xaa1103e1
 bl _p_5
 
@@ -57834,7 +57887,7 @@ bl _p_65
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2801ea0
 .word 0xaa1103e1
 bl _p_5
 
@@ -58236,7 +58289,7 @@ bl _p_65
 .word 0x910003bf
 .word 0xa8ce7bfd
 .word 0xd65f03c0
-.word 0xd2802060
+.word 0xd2801f60
 .word 0xaa1103e1
 bl _p_5
 
@@ -58438,7 +58491,7 @@ bl _p_65
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2801ea0
 .word 0xaa1103e1
 bl _p_5
 
@@ -58590,7 +58643,7 @@ bl _p_65
 .word 0x910003bf
 .word 0xa8ce7bfd
 .word 0xd65f03c0
-.word 0xd2802060
+.word 0xd2801f60
 .word 0xaa1103e1
 bl _p_5
 
@@ -58837,7 +58890,7 @@ bl _p_65
 .word 0x910003bf
 .word 0xa8cb7bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2801ea0
 .word 0xaa1103e1
 bl _p_5
 
@@ -59192,7 +59245,7 @@ bl _p_65
 .word 0x910003bf
 .word 0xa8cf7bfd
 .word 0xd65f03c0
-.word 0xd2802060
+.word 0xd2801f60
 .word 0xaa1103e1
 bl _p_5
 
@@ -59403,7 +59456,7 @@ bl _p_65
 .word 0x910003bf
 .word 0xa8cb7bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2801ea0
 .word 0xaa1103e1
 bl _p_5
 
@@ -59622,7 +59675,7 @@ bl _p_65
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2801ea0
 .word 0xaa1103e1
 bl _p_5
 
@@ -59880,7 +59933,7 @@ bl _p_65
 .word 0x910003bf
 .word 0xa8cd7bfd
 .word 0xd65f03c0
-.word 0xd2802060
+.word 0xd2801f60
 .word 0xaa1103e1
 bl _p_5
 
@@ -60073,7 +60126,7 @@ bl _p_65
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2801ea0
 .word 0xaa1103e1
 bl _p_5
 
@@ -60319,7 +60372,7 @@ bl _p_65
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2801ea0
 .word 0xaa1103e1
 bl _p_5
 
@@ -60432,7 +60485,7 @@ ldr x2, [x16, #1208]
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
-.word 0xd2802060
+.word 0xd2801f60
 .word 0xaa1103e1
 bl _p_5
 
@@ -60574,7 +60627,7 @@ bl _p_65
 .word 0x910003bf
 .word 0xa8cd7bfd
 .word 0xd65f03c0
-.word 0xd2802060
+.word 0xd2801f60
 .word 0xaa1103e1
 bl _p_5
 
@@ -60788,7 +60841,7 @@ bl _p_65
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2801ea0
 .word 0xaa1103e1
 bl _p_5
 
@@ -61014,7 +61067,7 @@ bl _p_65
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2801ea0
 .word 0xaa1103e1
 bl _p_5
 
@@ -61399,7 +61452,7 @@ bl _p_65
 .word 0x910003bf
 .word 0xa8ca7bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2801ea0
 .word 0xaa1103e1
 bl _p_5
 
@@ -61834,7 +61887,7 @@ bl _p_65
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2801ea0
 .word 0xaa1103e1
 bl _p_5
 
@@ -70541,470 +70594,59 @@ Lme_293:
 	.no_dead_strip wrapper_native_to_managed_ObjCRuntime_Trampolines_SDBITAuthenticatorIdentifyCallback_Invoke_intptr_int_intptr
 wrapper_native_to_managed_ObjCRuntime_Trampolines_SDBITAuthenticatorIdentifyCallback_Invoke_intptr_int_intptr:
 .loc 1 1 0
-.word 0xa9b57bfd
+.word 0xa9b17bfd
 .word 0x910003fd
-.word 0xa90157b4
-.word 0xa9026bb9
-.word 0xf9001ba0
-.word 0xf9001fa1
-.word 0xf90023a2
+.word 0xa90153b3
+.word 0xf90013b6
+.word 0xf90017a0
+.word 0xf9001ba1
+.word 0xf9001fa2
 
 adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #1936]
-.word 0xf90027b0
+.word 0xf90023b0
 .word 0xf9400a11
-.word 0xf9002bb1
-.word 0xf90033bf
-.word 0xf90037bf
-.word 0x3901c3bf
-.word 0xb9007bbf
-.word 0xf90043bf
-.word 0xf90047bf
-.word 0xf9004bbf
-.word 0xd2800015
-.word 0xd2800000
-.word 0x53001c01
-.word 0x3901c3a0
-.word 0x92800000
-.word 0xf2bfffe0
-.word 0x92800000
-.word 0xf2bfffe0
-.word 0x9280001e
-.word 0xf2bffffe
-.word 0xb9007bbe
-.word 0xd2800000
-.word 0xd2800014
-
-adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+0
-add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
-ldr x0, [x16, #80]
-.word 0xd63f0000
-.word 0xf90053a0
-
-adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+0
-add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
-ldr x0, [x16, #64]
-.word 0xd63f0000
-.word 0xaa0003e1
-.word 0xf94053a0
-.word 0xf9004fa1
-.word 0xd2800001
-.word 0xeb01001f
-.word 0x54000061
-.word 0xf9404fa0
-.word 0xb5000100
-.word 0xd2800000
-
-adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+0
-add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
-ldr x1, [x16, #128]
-.word 0xd2800000
-.word 0xd63f0020
-.word 0xaa0003f4
-
-adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
-add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
-ldr x0, [x16, #1168]
-.word 0xb9400000
-.word 0x34000160
-bl _p_182
-.word 0xaa0003fa
-.word 0xaa1a03e0
-.word 0xaa1a03e1
-.word 0xaa0003f9
-.word 0xb400009a
-.word 0xaa1903e0
-.word 0xaa1903e0
-bl _p_65
-.word 0xaa1903e0
-.word 0xb9803ba0
-.word 0x34000080
-.word 0xd2800020
-.word 0x53001c00
-.word 0xaa0003f5
-.word 0xf9401ba0
-.word 0xaa1503e1
-.word 0xf94023a2
-.word 0xaa1503e1
-bl _p_254
-.word 0xf94027b1
-.word 0xf9415631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1403e0
-.word 0xaa1403e0
-bl _mono_jit_set_domain
-.word 0xa94157b4
-.word 0xa9426bb9
-.word 0x910003bf
-.word 0xa8cb7bfd
-.word 0xd65f03c0
-
-Lme_294:
-.text
-	.align 4
-	.no_dead_strip wrapper_native_to_managed_ObjCRuntime_Trampolines_SDBITAuthenticatorValidateCallback_Invoke_intptr_int_intptr
-wrapper_native_to_managed_ObjCRuntime_Trampolines_SDBITAuthenticatorValidateCallback_Invoke_intptr_int_intptr:
-.loc 1 1 0
-.word 0xa9b57bfd
-.word 0x910003fd
-.word 0xa90157b4
-.word 0xa9026bb9
-.word 0xf9001ba0
-.word 0xf9001fa1
-.word 0xf90023a2
-
-adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
-add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
-ldr x16, [x16, #1944]
-.word 0xf90027b0
-.word 0xf9400a11
-.word 0xf9002bb1
-.word 0xf90033bf
-.word 0xf90037bf
-.word 0x3901c3bf
-.word 0xb9007bbf
-.word 0xf90043bf
-.word 0xf90047bf
-.word 0xf9004bbf
-.word 0xd2800015
-.word 0xd2800000
-.word 0x53001c01
-.word 0x3901c3a0
-.word 0x92800000
-.word 0xf2bfffe0
-.word 0x92800000
-.word 0xf2bfffe0
-.word 0x9280001e
-.word 0xf2bffffe
-.word 0xb9007bbe
-.word 0xd2800000
-.word 0xd2800014
-
-adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+0
-add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
-ldr x0, [x16, #80]
-.word 0xd63f0000
-.word 0xf90053a0
-
-adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+0
-add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
-ldr x0, [x16, #64]
-.word 0xd63f0000
-.word 0xaa0003e1
-.word 0xf94053a0
-.word 0xf9004fa1
-.word 0xd2800001
-.word 0xeb01001f
-.word 0x54000061
-.word 0xf9404fa0
-.word 0xb5000100
-.word 0xd2800000
-
-adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+0
-add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
-ldr x1, [x16, #128]
-.word 0xd2800000
-.word 0xd63f0020
-.word 0xaa0003f4
-
-adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
-add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
-ldr x0, [x16, #1168]
-.word 0xb9400000
-.word 0x34000160
-bl _p_182
-.word 0xaa0003fa
-.word 0xaa1a03e0
-.word 0xaa1a03e1
-.word 0xaa0003f9
-.word 0xb400009a
-.word 0xaa1903e0
-.word 0xaa1903e0
-bl _p_65
-.word 0xaa1903e0
-.word 0xb9803ba0
-.word 0x34000080
-.word 0xd2800020
-.word 0x53001c00
-.word 0xaa0003f5
-.word 0xf9401ba0
-.word 0xaa1503e1
-.word 0xf94023a2
-.word 0xaa1503e1
-bl _p_255
-.word 0xf94027b1
-.word 0xf9415631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1403e0
-.word 0xaa1403e0
-bl _mono_jit_set_domain
-.word 0xa94157b4
-.word 0xa9426bb9
-.word 0x910003bf
-.word 0xa8cb7bfd
-.word 0xd65f03c0
-
-Lme_295:
-.text
-	.align 4
-	.no_dead_strip wrapper_native_to_managed_ObjCRuntime_Trampolines_SDBITLogHandler_Invoke_intptr_intptr_System_nuint_intptr_intptr_uint
-wrapper_native_to_managed_ObjCRuntime_Trampolines_SDBITLogHandler_Invoke_intptr_intptr_System_nuint_intptr_intptr_uint:
-.loc 1 1 0
-.word 0xa9b47bfd
-.word 0x910003fd
-.word 0xa90163b7
-.word 0xf90013ba
-.word 0xf90017a0
-.word 0xf9001ba1
-.word 0xf9001fa2
-.word 0xf90023a3
-.word 0xf90027a4
-.word 0xf9002ba5
-
-adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
-add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
-ldr x16, [x16, #1952]
-.word 0xf9002fb0
-.word 0xf9400a11
-.word 0xf90033b1
-.word 0xf9003bbf
-.word 0xf9003fbf
-.word 0x390203bf
-.word 0xb9008bbf
-.word 0xf9004bbf
-.word 0xf9004fbf
-.word 0xf90053bf
-.word 0xd2800000
-.word 0x53001c01
-.word 0x390203a0
-.word 0x92800000
-.word 0xf2bfffe0
-.word 0x92800000
-.word 0xf2bfffe0
-.word 0x9280001e
-.word 0xf2bffffe
-.word 0xb9008bbe
-.word 0xd2800000
-.word 0xd280001a
-
-adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+0
-add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
-ldr x0, [x16, #80]
-.word 0xd63f0000
-.word 0xf9005ba0
-
-adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+0
-add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
-ldr x0, [x16, #64]
-.word 0xd63f0000
-.word 0xaa0003e1
-.word 0xf9405ba0
-.word 0xf90057a1
-.word 0xd2800001
-.word 0xeb01001f
-.word 0x54000061
-.word 0xf94057a0
-.word 0xb5000100
-.word 0xd2800000
-
-adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+0
-add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
-ldr x1, [x16, #128]
-.word 0xd2800000
-.word 0xd63f0020
-.word 0xaa0003fa
-
-adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
-add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
-ldr x0, [x16, #1168]
-.word 0xb9400000
-.word 0x34000160
-bl _p_182
-.word 0xaa0003f8
-.word 0xaa1803e0
-.word 0xaa1803e1
-.word 0xaa0003f7
-.word 0xb4000098
-.word 0xaa1703e0
-.word 0xaa1703e0
-bl _p_65
-.word 0xaa1703e0
-.word 0xf94017a0
-.word 0xf9401ba1
-.word 0xf9401fa2
-.word 0xf94023a3
-.word 0xf94027a4
-.word 0xb94053a5
-bl _p_256
-.word 0xf9402fb1
-.word 0xf9415231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-bl _mono_jit_set_domain
-.word 0xa94163b7
-.word 0xf94013ba
-.word 0x910003bf
-.word 0xa8cc7bfd
-.word 0xd65f03c0
-
-Lme_296:
-.text
-	.align 4
-	.no_dead_strip wrapper_native_to_managed_ObjCRuntime_Trampolines_SDAction_Invoke_intptr
-wrapper_native_to_managed_ObjCRuntime_Trampolines_SDAction_Invoke_intptr:
-.loc 1 1 0
-.word 0xa9b67bfd
-.word 0x910003fd
-.word 0xa90157b4
-.word 0xf90013b7
-.word 0xf90017a0
-
-adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
-add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
-ldr x16, [x16, #1960]
-.word 0xf9001bb0
-.word 0xf9400a11
-.word 0xf9001fb1
-.word 0xf90027bf
-.word 0xf9002bbf
-.word 0x390163bf
-.word 0xb90063bf
-.word 0xf90037bf
-.word 0xf9003bbf
-.word 0xf9003fbf
-.word 0xd2800000
-.word 0x53001c01
-.word 0x390163a0
-.word 0x92800000
-.word 0xf2bfffe0
-.word 0x92800000
-.word 0xf2bfffe0
-.word 0x9280001e
-.word 0xf2bffffe
-.word 0xb90063be
-.word 0xd2800000
-.word 0xd2800017
-
-adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+0
-add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
-ldr x0, [x16, #80]
-.word 0xd63f0000
-.word 0xf9004ba0
-
-adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+0
-add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
-ldr x0, [x16, #64]
-.word 0xd63f0000
-.word 0xaa0003e1
-.word 0xf9404ba0
-.word 0xf90043a1
-.word 0xd2800001
-.word 0xeb01001f
-.word 0x54000061
-.word 0xf94043a0
-.word 0xb5000100
-.word 0xd2800000
-
-adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+0
-add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
-ldr x1, [x16, #128]
-.word 0xd2800000
-.word 0xd63f0020
-.word 0xaa0003f7
-
-adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
-add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
-ldr x0, [x16, #1168]
-.word 0xb9400000
-.word 0x34000160
-bl _p_182
-.word 0xaa0003f5
-.word 0xaa1503e0
-.word 0xaa1503e1
-.word 0xaa0003f4
-.word 0xb4000095
-.word 0xaa1403e0
-.word 0xaa1403e0
-bl _p_65
-.word 0xaa1403e0
-.word 0xf94017a0
-bl _p_257
-.word 0xf9401bb1
-.word 0xf9412a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1703e0
-.word 0xaa1703e0
-bl _mono_jit_set_domain
-.word 0xa94157b4
-.word 0xf94013b7
-.word 0x910003bf
-.word 0xa8ca7bfd
-.word 0xd65f03c0
-
-Lme_297:
-.text
-	.align 4
-	.no_dead_strip wrapper_native_to_managed_ObjCRuntime_Trampolines_SDBITLogMessageProvider_Invoke_intptr
-wrapper_native_to_managed_ObjCRuntime_Trampolines_SDBITLogMessageProvider_Invoke_intptr:
-.loc 1 1 0
-.word 0xa9b67bfd
-.word 0x910003fd
-.word 0xa90153b3
-.word 0xf90013b6
-.word 0xf90017b8
-.word 0xf9001ba0
-
-adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
-add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
-ldr x16, [x16, #1968]
-.word 0xf9001fb0
-.word 0xf9400a11
-.word 0xf90023b1
-.word 0xf9002bbf
+.word 0xf90027b1
 .word 0xf9002fbf
-.word 0x390183bf
-.word 0xd2800018
-.word 0xb9006bbf
-.word 0xf9003bbf
+.word 0xf90033bf
+.word 0x3901a3bf
+.word 0xb90073bf
 .word 0xf9003fbf
 .word 0xf90043bf
+.word 0xf90047bf
+.word 0xd2800016
 .word 0xd2800000
 .word 0x53001c01
-.word 0x390183a0
+.word 0x3901a3a0
 .word 0x92800000
 .word 0xf2bfffe0
 .word 0x92800000
 .word 0xf2bfffe0
 .word 0x9280001e
 .word 0xf2bffffe
-.word 0xb9006bbe
+.word 0xb90073be
 .word 0xd2800000
-.word 0xd2800016
+.word 0xf9004bbf
 
 adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x0, [x16, #80]
 .word 0xd63f0000
-.word 0xf9004ba0
+.word 0xf90073a0
 
 adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x0, [x16, #64]
 .word 0xd63f0000
 .word 0xaa0003e1
-.word 0xf9404ba0
-.word 0xf90047a1
+.word 0xf94073a0
+.word 0xf9004fa1
 .word 0xd2800001
-.word 0xeb01001f
-.word 0x54000061
-.word 0xf94047a0
-.word 0xb5000100
+.word 0xb5000080
+.word 0xf9404fa0
+.word 0xb4000040
+.word 0x14000008
 .word 0xd2800000
 
 adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+0
@@ -71012,7 +70654,7 @@ add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x1, [x16, #128]
 .word 0xd2800000
 .word 0xd63f0020
-.word 0xaa0003f6
+.word 0xf9004ba0
 
 adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
@@ -71029,24 +70671,622 @@ bl _p_182
 .word 0xaa1303e0
 bl _p_65
 .word 0xaa1303e0
-.word 0xf9401ba0
-bl _p_258
-.word 0xf9004ba0
-.word 0xf9401fb1
-.word 0xf9413631
+.word 0xb98033a0
+.word 0x34000080
+.word 0xd2800020
+.word 0x53001c00
+.word 0xaa0003f6
+.word 0xf94017a0
+.word 0xaa1603e1
+.word 0xf9401fa2
+.word 0xaa1603e1
+bl _p_254
+.word 0xf94023b1
+.word 0xf9415631
 .word 0xb4000051
 .word 0xd63f0220
+.word 0xf90053bf
+.word 0x94000019
+.word 0xf94053a0
+.word 0xb4000040
+bl _p_11
+.word 0x14000025
+.word 0xf90057a0
+.word 0xf94057a0
+.word 0xf9003fa0
+.word 0xf9403fa0
+.word 0xd2800001
+.word 0xd2800001
+bl _p_255
+.word 0xb90073a0
+bl _p_256
+.word 0xf9006ba0
+.word 0xf9406ba0
+.word 0xb4000060
+.word 0xf9406ba0
+bl _p_65
+.word 0xf90053bf
+.word 0x94000005
+.word 0xf94053a0
+.word 0xb4000040
+bl _p_11
+.word 0x14000011
+.word 0xf90067be
 .word 0xf9404ba0
-.word 0xaa0003f8
-.word 0xaa1603e0
-.word 0xaa1603e0
 bl _mono_jit_set_domain
-.word 0xaa1803e0
+.word 0xb94073a0
+.word 0x92800001
+.word 0xf2bfffe1
+.word 0x92800001
+.word 0xf2bfffe1
+.word 0x9280001e
+.word 0xf2bffffe
+.word 0x6b1e001f
+.word 0x54000060
+.word 0xb94073a0
+bl _p_257
+.word 0xf94067be
+.word 0xd61f03c0
 .word 0xa94153b3
 .word 0xf94013b6
-.word 0xf94017b8
 .word 0x910003bf
-.word 0xa8ca7bfd
+.word 0xa8cf7bfd
+.word 0xd65f03c0
+
+Lme_294:
+.text
+	.align 4
+	.no_dead_strip wrapper_native_to_managed_ObjCRuntime_Trampolines_SDBITAuthenticatorValidateCallback_Invoke_intptr_int_intptr
+wrapper_native_to_managed_ObjCRuntime_Trampolines_SDBITAuthenticatorValidateCallback_Invoke_intptr_int_intptr:
+.loc 1 1 0
+.word 0xa9b17bfd
+.word 0x910003fd
+.word 0xa90153b3
+.word 0xf90013b6
+.word 0xf90017a0
+.word 0xf9001ba1
+.word 0xf9001fa2
+
+adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
+add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
+ldr x16, [x16, #1944]
+.word 0xf90023b0
+.word 0xf9400a11
+.word 0xf90027b1
+.word 0xf9002fbf
+.word 0xf90033bf
+.word 0x3901a3bf
+.word 0xb90073bf
+.word 0xf9003fbf
+.word 0xf90043bf
+.word 0xf90047bf
+.word 0xd2800016
+.word 0xd2800000
+.word 0x53001c01
+.word 0x3901a3a0
+.word 0x92800000
+.word 0xf2bfffe0
+.word 0x92800000
+.word 0xf2bfffe0
+.word 0x9280001e
+.word 0xf2bffffe
+.word 0xb90073be
+.word 0xd2800000
+.word 0xf9004bbf
+
+adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+0
+add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
+ldr x0, [x16, #80]
+.word 0xd63f0000
+.word 0xf90073a0
+
+adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+0
+add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
+ldr x0, [x16, #64]
+.word 0xd63f0000
+.word 0xaa0003e1
+.word 0xf94073a0
+.word 0xf9004fa1
+.word 0xd2800001
+.word 0xb5000080
+.word 0xf9404fa0
+.word 0xb4000040
+.word 0x14000008
+.word 0xd2800000
+
+adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+0
+add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
+ldr x1, [x16, #128]
+.word 0xd2800000
+.word 0xd63f0020
+.word 0xf9004ba0
+
+adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
+add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
+ldr x0, [x16, #1168]
+.word 0xb9400000
+.word 0x34000160
+bl _p_182
+.word 0xaa0003f4
+.word 0xaa1403e0
+.word 0xaa1403e1
+.word 0xaa0003f3
+.word 0xb4000094
+.word 0xaa1303e0
+.word 0xaa1303e0
+bl _p_65
+.word 0xaa1303e0
+.word 0xb98033a0
+.word 0x34000080
+.word 0xd2800020
+.word 0x53001c00
+.word 0xaa0003f6
+.word 0xf94017a0
+.word 0xaa1603e1
+.word 0xf9401fa2
+.word 0xaa1603e1
+bl _p_258
+.word 0xf94023b1
+.word 0xf9415631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf90053bf
+.word 0x94000019
+.word 0xf94053a0
+.word 0xb4000040
+bl _p_11
+.word 0x14000025
+.word 0xf90057a0
+.word 0xf94057a0
+.word 0xf9003fa0
+.word 0xf9403fa0
+.word 0xd2800001
+.word 0xd2800001
+bl _p_255
+.word 0xb90073a0
+bl _p_256
+.word 0xf9006ba0
+.word 0xf9406ba0
+.word 0xb4000060
+.word 0xf9406ba0
+bl _p_65
+.word 0xf90053bf
+.word 0x94000005
+.word 0xf94053a0
+.word 0xb4000040
+bl _p_11
+.word 0x14000011
+.word 0xf90067be
+.word 0xf9404ba0
+bl _mono_jit_set_domain
+.word 0xb94073a0
+.word 0x92800001
+.word 0xf2bfffe1
+.word 0x92800001
+.word 0xf2bfffe1
+.word 0x9280001e
+.word 0xf2bffffe
+.word 0x6b1e001f
+.word 0x54000060
+.word 0xb94073a0
+bl _p_257
+.word 0xf94067be
+.word 0xd61f03c0
+.word 0xa94153b3
+.word 0xf94013b6
+.word 0x910003bf
+.word 0xa8cf7bfd
+.word 0xd65f03c0
+
+Lme_295:
+.text
+	.align 4
+	.no_dead_strip wrapper_native_to_managed_ObjCRuntime_Trampolines_SDBITLogHandler_Invoke_intptr_intptr_System_nuint_intptr_intptr_uint
+wrapper_native_to_managed_ObjCRuntime_Trampolines_SDBITLogHandler_Invoke_intptr_intptr_System_nuint_intptr_intptr_uint:
+.loc 1 1 0
+.word 0xa9b07bfd
+.word 0x910003fd
+.word 0xa9016bb9
+.word 0xf90013a0
+.word 0xf90017a1
+.word 0xf9001ba2
+.word 0xf9001fa3
+.word 0xf90023a4
+.word 0xf90027a5
+
+adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
+add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
+ldr x16, [x16, #1952]
+.word 0xf9002bb0
+.word 0xf9400a11
+.word 0xf9002fb1
+.word 0xf90037bf
+.word 0xf9003bbf
+.word 0x3901e3bf
+.word 0xb90083bf
+.word 0xf90047bf
+.word 0xf9004bbf
+.word 0xf9004fbf
+.word 0xd2800000
+.word 0x53001c01
+.word 0x3901e3a0
+.word 0x92800000
+.word 0xf2bfffe0
+.word 0x92800000
+.word 0xf2bfffe0
+.word 0x9280001e
+.word 0xf2bffffe
+.word 0xb90083be
+.word 0xd2800000
+.word 0xf90053bf
+
+adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+0
+add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
+ldr x0, [x16, #80]
+.word 0xd63f0000
+.word 0xf9007ba0
+
+adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+0
+add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
+ldr x0, [x16, #64]
+.word 0xd63f0000
+.word 0xaa0003e1
+.word 0xf9407ba0
+.word 0xf90057a1
+.word 0xd2800001
+.word 0xb5000080
+.word 0xf94057a0
+.word 0xb4000040
+.word 0x14000008
+.word 0xd2800000
+
+adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+0
+add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
+ldr x1, [x16, #128]
+.word 0xd2800000
+.word 0xd63f0020
+.word 0xf90053a0
+
+adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
+add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
+ldr x0, [x16, #1168]
+.word 0xb9400000
+.word 0x34000160
+bl _p_182
+.word 0xaa0003fa
+.word 0xaa1a03e0
+.word 0xaa1a03e1
+.word 0xaa0003f9
+.word 0xb400009a
+.word 0xaa1903e0
+.word 0xaa1903e0
+bl _p_65
+.word 0xaa1903e0
+.word 0xf94013a0
+.word 0xf94017a1
+.word 0xf9401ba2
+.word 0xf9401fa3
+.word 0xf94023a4
+.word 0xb9404ba5
+bl _p_259
+.word 0xf9402bb1
+.word 0xf9414e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9005bbf
+.word 0x94000019
+.word 0xf9405ba0
+.word 0xb4000040
+bl _p_11
+.word 0x14000025
+.word 0xf9005fa0
+.word 0xf9405fa0
+.word 0xf90047a0
+.word 0xf94047a0
+.word 0xd2800001
+.word 0xd2800001
+bl _p_255
+.word 0xb90083a0
+bl _p_256
+.word 0xf90073a0
+.word 0xf94073a0
+.word 0xb4000060
+.word 0xf94073a0
+bl _p_65
+.word 0xf9005bbf
+.word 0x94000005
+.word 0xf9405ba0
+.word 0xb4000040
+bl _p_11
+.word 0x14000011
+.word 0xf9006fbe
+.word 0xf94053a0
+bl _mono_jit_set_domain
+.word 0xb94083a0
+.word 0x92800001
+.word 0xf2bfffe1
+.word 0x92800001
+.word 0xf2bfffe1
+.word 0x9280001e
+.word 0xf2bffffe
+.word 0x6b1e001f
+.word 0x54000060
+.word 0xb94083a0
+bl _p_257
+.word 0xf9406fbe
+.word 0xd61f03c0
+.word 0xa9416bb9
+.word 0x910003bf
+.word 0xa8d07bfd
+.word 0xd65f03c0
+
+Lme_296:
+.text
+	.align 4
+	.no_dead_strip wrapper_native_to_managed_ObjCRuntime_Trampolines_SDAction_Invoke_intptr
+wrapper_native_to_managed_ObjCRuntime_Trampolines_SDAction_Invoke_intptr:
+.loc 1 1 0
+.word 0xa9b37bfd
+.word 0x910003fd
+.word 0xa9015fb6
+.word 0xf90013a0
+
+adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
+add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
+ldr x16, [x16, #1960]
+.word 0xf90017b0
+.word 0xf9400a11
+.word 0xf9001bb1
+.word 0xf90023bf
+.word 0xf90027bf
+.word 0x390143bf
+.word 0xb9005bbf
+.word 0xf90033bf
+.word 0xf90037bf
+.word 0xf9003bbf
+.word 0xd2800000
+.word 0x53001c01
+.word 0x390143a0
+.word 0x92800000
+.word 0xf2bfffe0
+.word 0x92800000
+.word 0xf2bfffe0
+.word 0x9280001e
+.word 0xf2bffffe
+.word 0xb9005bbe
+.word 0xd2800000
+.word 0xf9003fbf
+
+adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+0
+add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
+ldr x0, [x16, #80]
+.word 0xd63f0000
+.word 0xf90063a0
+
+adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+0
+add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
+ldr x0, [x16, #64]
+.word 0xd63f0000
+.word 0xaa0003e1
+.word 0xf94063a0
+.word 0xf90043a1
+.word 0xd2800001
+.word 0xb5000080
+.word 0xf94043a0
+.word 0xb4000040
+.word 0x14000008
+.word 0xd2800000
+
+adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+0
+add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
+ldr x1, [x16, #128]
+.word 0xd2800000
+.word 0xd63f0020
+.word 0xf9003fa0
+
+adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
+add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
+ldr x0, [x16, #1168]
+.word 0xb9400000
+.word 0x34000160
+bl _p_182
+.word 0xaa0003f7
+.word 0xaa1703e0
+.word 0xaa1703e1
+.word 0xaa0003f6
+.word 0xb4000097
+.word 0xaa1603e0
+.word 0xaa1603e0
+bl _p_65
+.word 0xaa1603e0
+.word 0xf94013a0
+bl _p_260
+.word 0xf94017b1
+.word 0xf9412631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf90047bf
+.word 0x94000019
+.word 0xf94047a0
+.word 0xb4000040
+bl _p_11
+.word 0x14000025
+.word 0xf9004ba0
+.word 0xf9404ba0
+.word 0xf90033a0
+.word 0xf94033a0
+.word 0xd2800001
+.word 0xd2800001
+bl _p_255
+.word 0xb9005ba0
+bl _p_256
+.word 0xf9005fa0
+.word 0xf9405fa0
+.word 0xb4000060
+.word 0xf9405fa0
+bl _p_65
+.word 0xf90047bf
+.word 0x94000005
+.word 0xf94047a0
+.word 0xb4000040
+bl _p_11
+.word 0x14000011
+.word 0xf9005bbe
+.word 0xf9403fa0
+bl _mono_jit_set_domain
+.word 0xb9405ba0
+.word 0x92800001
+.word 0xf2bfffe1
+.word 0x92800001
+.word 0xf2bfffe1
+.word 0x9280001e
+.word 0xf2bffffe
+.word 0x6b1e001f
+.word 0x54000060
+.word 0xb9405ba0
+bl _p_257
+.word 0xf9405bbe
+.word 0xd61f03c0
+.word 0xa9415fb6
+.word 0x910003bf
+.word 0xa8cd7bfd
+.word 0xd65f03c0
+
+Lme_297:
+.text
+	.align 4
+	.no_dead_strip wrapper_native_to_managed_ObjCRuntime_Trampolines_SDBITLogMessageProvider_Invoke_intptr
+wrapper_native_to_managed_ObjCRuntime_Trampolines_SDBITLogMessageProvider_Invoke_intptr:
+.loc 1 1 0
+.word 0xa9b27bfd
+.word 0x910003fd
+.word 0xa9015fb6
+.word 0xf90013a0
+
+adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
+add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
+ldr x16, [x16, #1968]
+.word 0xf90017b0
+.word 0xf9400a11
+.word 0xf9001bb1
+.word 0xf90023bf
+.word 0xf90027bf
+.word 0x390143bf
+.word 0xf9002fbf
+.word 0xb90063bf
+.word 0xf90037bf
+.word 0xf9003bbf
+.word 0xf9003fbf
+.word 0xd2800000
+.word 0x53001c01
+.word 0x390143a0
+.word 0x92800000
+.word 0xf2bfffe0
+.word 0x92800000
+.word 0xf2bfffe0
+.word 0x9280001e
+.word 0xf2bffffe
+.word 0xb90063be
+.word 0xd2800000
+.word 0xf90043bf
+
+adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+0
+add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
+ldr x0, [x16, #80]
+.word 0xd63f0000
+.word 0xf9006ba0
+
+adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+0
+add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
+ldr x0, [x16, #64]
+.word 0xd63f0000
+.word 0xaa0003e1
+.word 0xf9406ba0
+.word 0xf90047a1
+.word 0xd2800001
+.word 0xb5000080
+.word 0xf94047a0
+.word 0xb4000040
+.word 0x14000008
+.word 0xd2800000
+
+adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+0
+add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
+ldr x1, [x16, #128]
+.word 0xd2800000
+.word 0xd63f0020
+.word 0xf90043a0
+
+adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
+add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
+ldr x0, [x16, #1168]
+.word 0xb9400000
+.word 0x34000160
+bl _p_182
+.word 0xaa0003f7
+.word 0xaa1703e0
+.word 0xaa1703e1
+.word 0xaa0003f6
+.word 0xb4000097
+.word 0xaa1603e0
+.word 0xaa1603e0
+bl _p_65
+.word 0xaa1603e0
+.word 0xf94013a0
+bl _p_261
+.word 0xf9006ba0
+.word 0xf94017b1
+.word 0xf9412e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9406ba0
+.word 0xf9002fa0
+.word 0xf9004bbf
+.word 0x94000019
+.word 0xf9404ba0
+.word 0xb4000040
+bl _p_11
+.word 0x14000025
+.word 0xf9004fa0
+.word 0xf9404fa0
+.word 0xf90037a0
+.word 0xf94037a0
+.word 0xd2800001
+.word 0xd2800001
+bl _p_255
+.word 0xb90063a0
+bl _p_256
+.word 0xf90063a0
+.word 0xf94063a0
+.word 0xb4000060
+.word 0xf94063a0
+bl _p_65
+.word 0xf9004bbf
+.word 0x94000005
+.word 0xf9404ba0
+.word 0xb4000040
+bl _p_11
+.word 0x14000011
+.word 0xf9005fbe
+.word 0xf94043a0
+bl _mono_jit_set_domain
+.word 0xb94063a0
+.word 0x92800001
+.word 0xf2bfffe1
+.word 0x92800001
+.word 0xf2bfffe1
+.word 0x9280001e
+.word 0xf2bffffe
+.word 0x6b1e001f
+.word 0x54000060
+.word 0xb94063a0
+bl _p_257
+.word 0xf9405fbe
+.word 0xd61f03c0
+.word 0xf9402fa0
+.word 0xa9415fb6
+.word 0x910003bf
+.word 0xa8ce7bfd
 .word 0xd65f03c0
 
 Lme_298:
@@ -71784,10 +72024,10 @@ unwind_info:
 	.byte 39,12,31,0,68,14,224,1,157,28,158,27,68,13,29,76,147,17,148,16,68,149,15,150,14,68,151,13,152,12,68,153
 	.byte 11,154,10,68,155,9,156,8,39,12,31,0,68,14,192,1,157,24,158,23,68,13,29,76,147,15,148,14,68,149,13,150
 	.byte 12,68,151,11,152,10,68,153,9,154,8,68,155,7,156,6,39,12,31,0,68,14,192,1,157,24,158,23,68,13,29,76
-	.byte 147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10,154,9,68,155,8,156,7,24,12,31,0,68,14,176,1
-	.byte 157,22,158,21,68,13,29,68,148,20,149,19,68,153,18,154,17,22,12,31,0,68,14,192,1,157,24,158,23,68,13,29
-	.byte 68,151,22,152,21,68,154,20,22,12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,148,18,149,17,68,151,16,25
-	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,147,18,148,17,68,150,16,68,152,15
+	.byte 147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10,154,9,68,155,8,156,7,22,12,31,0,68,14,240,1
+	.byte 157,30,158,29,68,13,29,68,147,28,148,27,68,150,26,19,12,31,0,68,14,128,2,157,32,158,31,68,13,29,68,153
+	.byte 30,154,29,19,12,31,0,68,14,208,1,157,26,158,25,68,13,29,68,150,24,151,23,19,12,31,0,68,14,224,1,157
+	.byte 28,158,27,68,13,29,68,150,26,151,25
 
 .text
 	.align 4
@@ -71873,8 +72113,8 @@ add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2056]
 br x16
 .word 7011
-	.no_dead_strip plt__jit_icall_ves_icall_thread_finish_async_abort
-plt__jit_icall_ves_icall_thread_finish_async_abort:
+	.no_dead_strip plt__jit_icall_mono_thread_self_abort
+plt__jit_icall_mono_thread_self_abort:
 _p_11:
 adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
@@ -71888,7 +72128,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2072]
 br x16
-.word 7051
+.word 7038
 	.no_dead_strip plt_intptr_op_Equality_intptr_intptr
 plt_intptr_op_Equality_intptr_intptr:
 _p_13:
@@ -71896,7 +72136,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2080]
 br x16
-.word 7056
+.word 7043
 	.no_dead_strip plt_ObjCRuntime_BlockLiteral_IsManagedBlock_intptr
 plt_ObjCRuntime_BlockLiteral_IsManagedBlock_intptr:
 _p_14:
@@ -71904,7 +72144,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2088]
 br x16
-.word 7061
+.word 7048
 	.no_dead_strip plt__jit_icall_ves_icall_object_new_specific
 plt__jit_icall_ves_icall_object_new_specific:
 _p_15:
@@ -71912,7 +72152,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2096]
 br x16
-.word 7066
+.word 7053
 	.no_dead_strip plt_ObjCRuntime_Trampolines_NIDBITAuthenticatorIdentifyCallback__ctor_ObjCRuntime_BlockLiteral_
 plt_ObjCRuntime_Trampolines_NIDBITAuthenticatorIdentifyCallback__ctor_ObjCRuntime_BlockLiteral_:
 _p_16:
@@ -71920,7 +72160,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2104]
 br x16
-.word 7098
+.word 7085
 	.no_dead_strip plt_Foundation_NSObject_get_Handle
 plt_Foundation_NSObject_get_Handle:
 _p_17:
@@ -71928,7 +72168,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2112]
 br x16
-.word 7100
+.word 7087
 	.no_dead_strip plt_ObjCRuntime_BlockLiteral_GetDelegateForBlock_ObjCRuntime_Trampolines_DBITAuthenticatorValidateCallback
 plt_ObjCRuntime_BlockLiteral_GetDelegateForBlock_ObjCRuntime_Trampolines_DBITAuthenticatorValidateCallback:
 _p_18:
@@ -71936,7 +72176,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2120]
 br x16
-.word 7105
+.word 7092
 	.no_dead_strip plt_ObjCRuntime_Trampolines_NIDBITAuthenticatorValidateCallback__ctor_ObjCRuntime_BlockLiteral_
 plt_ObjCRuntime_Trampolines_NIDBITAuthenticatorValidateCallback__ctor_ObjCRuntime_BlockLiteral_:
 _p_19:
@@ -71944,7 +72184,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2128]
 br x16
-.word 7117
+.word 7104
 	.no_dead_strip plt_System_Runtime_InteropServices_Marshal_GetDelegateForFunctionPointer_intptr_System_Type
 plt_System_Runtime_InteropServices_Marshal_GetDelegateForFunctionPointer_intptr_System_Type:
 _p_20:
@@ -71952,7 +72192,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2136]
 br x16
-.word 7119
+.word 7106
 	.no_dead_strip plt_ObjCRuntime_BlockLiteral_GetDelegateForBlock_ObjCRuntime_Trampolines_DBITLogHandler
 plt_ObjCRuntime_BlockLiteral_GetDelegateForBlock_ObjCRuntime_Trampolines_DBITLogHandler:
 _p_21:
@@ -71960,7 +72200,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2144]
 br x16
-.word 7124
+.word 7111
 	.no_dead_strip plt_ObjCRuntime_Trampolines_NIDBITLogHandler__ctor_ObjCRuntime_BlockLiteral_
 plt_ObjCRuntime_Trampolines_NIDBITLogHandler__ctor_ObjCRuntime_BlockLiteral_:
 _p_22:
@@ -71968,7 +72208,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2152]
 br x16
-.word 7136
+.word 7123
 	.no_dead_strip plt_ObjCRuntime_BlockLiteral_SetupBlock_System_Delegate_System_Delegate
 plt_ObjCRuntime_BlockLiteral_SetupBlock_System_Delegate_System_Delegate:
 _p_23:
@@ -71976,7 +72216,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2160]
 br x16
-.word 7138
+.word 7125
 	.no_dead_strip plt_ObjCRuntime_BlockLiteral_CleanupBlock
 plt_ObjCRuntime_BlockLiteral_CleanupBlock:
 _p_24:
@@ -71984,7 +72224,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2168]
 br x16
-.word 7143
+.word 7130
 	.no_dead_strip plt_ObjCRuntime_BlockLiteral_GetDelegateForBlock_ObjCRuntime_Trampolines_DAction
 plt_ObjCRuntime_BlockLiteral_GetDelegateForBlock_ObjCRuntime_Trampolines_DAction:
 _p_25:
@@ -71992,7 +72232,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2176]
 br x16
-.word 7148
+.word 7135
 	.no_dead_strip plt_ObjCRuntime_Trampolines_NIDAction__ctor_ObjCRuntime_BlockLiteral_
 plt_ObjCRuntime_Trampolines_NIDAction__ctor_ObjCRuntime_BlockLiteral_:
 _p_26:
@@ -72000,7 +72240,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2184]
 br x16
-.word 7160
+.word 7147
 	.no_dead_strip plt_Foundation_NSString_op_Inequality_Foundation_NSString_Foundation_NSString
 plt_Foundation_NSString_op_Inequality_Foundation_NSString_Foundation_NSString:
 _p_27:
@@ -72008,7 +72248,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2192]
 br x16
-.word 7162
+.word 7149
 	.no_dead_strip plt_ObjCRuntime_BlockLiteral_GetDelegateForBlock_ObjCRuntime_Trampolines_DBITLogMessageProvider
 plt_ObjCRuntime_BlockLiteral_GetDelegateForBlock_ObjCRuntime_Trampolines_DBITLogMessageProvider:
 _p_28:
@@ -72016,7 +72256,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2200]
 br x16
-.word 7167
+.word 7154
 	.no_dead_strip plt_ObjCRuntime_Trampolines_NIDBITLogMessageProvider__ctor_ObjCRuntime_BlockLiteral_
 plt_ObjCRuntime_Trampolines_NIDBITLogMessageProvider__ctor_ObjCRuntime_BlockLiteral_:
 _p_29:
@@ -72024,7 +72264,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2208]
 br x16
-.word 7179
+.word 7166
 	.no_dead_strip plt_ObjCRuntime_Runtime_GetNSObject_Foundation_NSString_intptr
 plt_ObjCRuntime_Runtime_GetNSObject_Foundation_NSString_intptr:
 _p_30:
@@ -72032,7 +72272,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2216]
 br x16
-.word 7181
+.word 7168
 	.no_dead_strip plt_Foundation_NSObject__ctor
 plt_Foundation_NSObject__ctor:
 _p_31:
@@ -72040,7 +72280,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2224]
 br x16
-.word 7193
+.word 7180
 	.no_dead_strip plt__jit_icall_mono_monitor_enter_v4_internal
 plt__jit_icall_mono_monitor_enter_v4_internal:
 _p_32:
@@ -72048,7 +72288,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2232]
 br x16
-.word 7198
+.word 7185
 	.no_dead_strip plt_System_Type_GetType_string
 plt_System_Type_GetType_string:
 _p_33:
@@ -72056,7 +72296,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2240]
 br x16
-.word 7231
+.word 7218
 	.no_dead_strip plt_System_Type_GetMethod_string_System_Reflection_BindingFlags
 plt_System_Type_GetMethod_string_System_Reflection_BindingFlags:
 _p_34:
@@ -72064,7 +72304,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2248]
 br x16
-.word 7236
+.word 7223
 	.no_dead_strip plt_System_Reflection_MethodInfo_op_Inequality_System_Reflection_MethodInfo_System_Reflection_MethodInfo
 plt_System_Reflection_MethodInfo_op_Inequality_System_Reflection_MethodInfo_System_Reflection_MethodInfo:
 _p_35:
@@ -72072,7 +72312,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2256]
 br x16
-.word 7241
+.word 7228
 	.no_dead_strip plt_System_Reflection_MethodBase_Invoke_object_object__
 plt_System_Reflection_MethodBase_Invoke_object_object__:
 _p_36:
@@ -72080,7 +72320,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2264]
 br x16
-.word 7246
+.word 7233
 	.no_dead_strip plt_System_AppDomain_get_CurrentDomain
 plt_System_AppDomain_get_CurrentDomain:
 _p_37:
@@ -72088,7 +72328,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2272]
 br x16
-.word 7251
+.word 7238
 	.no_dead_strip plt_System_AppDomain_add_UnhandledException_System_UnhandledExceptionEventHandler
 plt_System_AppDomain_add_UnhandledException_System_UnhandledExceptionEventHandler:
 _p_38:
@@ -72096,7 +72336,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2280]
 br x16
-.word 7256
+.word 7243
 	.no_dead_strip plt_System_Threading_Tasks_TaskScheduler_add_UnobservedTaskException_System_EventHandler_1_System_Threading_Tasks_UnobservedTaskExceptionEventArgs
 plt_System_Threading_Tasks_TaskScheduler_add_UnobservedTaskException_System_EventHandler_1_System_Threading_Tasks_UnobservedTaskExceptionEventArgs:
 _p_39:
@@ -72104,7 +72344,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2288]
 br x16
-.word 7261
+.word 7248
 	.no_dead_strip plt_System_Runtime_InteropServices_Marshal_AllocHGlobal_int
 plt_System_Runtime_InteropServices_Marshal_AllocHGlobal_int:
 _p_40:
@@ -72112,7 +72352,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2296]
 br x16
-.word 7266
+.word 7253
 	.no_dead_strip plt_HockeyApp_iOS_BITHockeyManager_sigaction_HockeyApp_iOS_BITHockeyManager_Signal_intptr_intptr
 plt_HockeyApp_iOS_BITHockeyManager_sigaction_HockeyApp_iOS_BITHockeyManager_Signal_intptr_intptr:
 _p_41:
@@ -72120,7 +72360,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2304]
 br x16
-.word 7271
+.word 7258
 	.no_dead_strip plt_System_Runtime_InteropServices_Marshal_FreeHGlobal_intptr
 plt_System_Runtime_InteropServices_Marshal_FreeHGlobal_intptr:
 _p_42:
@@ -72128,7 +72368,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2312]
 br x16
-.word 7273
+.word 7260
 	.no_dead_strip plt_System_Threading_Monitor_Exit_object
 plt_System_Threading_Monitor_Exit_object:
 _p_43:
@@ -72136,7 +72376,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2320]
 br x16
-.word 7278
+.word 7265
 	.no_dead_strip plt_HockeyApp_iOS_BITHockeyManager_ConvertToNsExceptionAndAbort_object
 plt_HockeyApp_iOS_BITHockeyManager_ConvertToNsExceptionAndAbort_object:
 _p_44:
@@ -72144,7 +72384,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2328]
 br x16
-.word 7283
+.word 7270
 	.no_dead_strip plt_System_Console_WriteLine_string
 plt_System_Console_WriteLine_string:
 _p_45:
@@ -72152,7 +72392,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2336]
 br x16
-.word 7286
+.word 7273
 	.no_dead_strip plt_System_Exception_GetType
 plt_System_Exception_GetType:
 _p_46:
@@ -72160,7 +72400,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2344]
 br x16
-.word 7291
+.word 7278
 	.no_dead_strip plt_string_IndexOf_char
 plt_string_IndexOf_char:
 _p_47:
@@ -72168,7 +72408,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2352]
 br x16
-.word 7296
+.word 7283
 	.no_dead_strip plt_string_Insert_int_string
 plt_string_Insert_int_string:
 _p_48:
@@ -72176,7 +72416,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2360]
 br x16
-.word 7301
+.word 7288
 	.no_dead_strip plt_string_Concat_string_string
 plt_string_Concat_string_string:
 _p_49:
@@ -72184,7 +72424,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2368]
 br x16
-.word 7306
+.word 7293
 	.no_dead_strip plt_string_Replace_string_string
 plt_string_Replace_string_string:
 _p_50:
@@ -72192,7 +72432,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2376]
 br x16
-.word 7311
+.word 7298
 	.no_dead_strip plt_Foundation_NSException__ctor_string_string_Foundation_NSDictionary
 plt_Foundation_NSException__ctor_string_string_Foundation_NSDictionary:
 _p_51:
@@ -72200,7 +72440,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2384]
 br x16
-.word 7316
+.word 7303
 	.no_dead_strip plt_ObjCRuntime_Selector__ctor_string
 plt_ObjCRuntime_Selector__ctor_string:
 _p_52:
@@ -72208,7 +72448,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2392]
 br x16
-.word 7321
+.word 7308
 	.no_dead_strip plt_ObjCRuntime_Selector_get_Handle
 plt_ObjCRuntime_Selector_get_Handle:
 _p_53:
@@ -72216,7 +72456,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2400]
 br x16
-.word 7326
+.word 7313
 	.no_dead_strip plt_Xamarin_ObjCRuntime_Messaging_void_objc_msgSend_intptr_intptr
 plt_Xamarin_ObjCRuntime_Messaging_void_objc_msgSend_intptr_intptr:
 _p_54:
@@ -72224,7 +72464,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2408]
 br x16
-.word 7331
+.word 7318
 	.no_dead_strip plt_Foundation_NSObject__ctor_Foundation_NSObjectFlag
 plt_Foundation_NSObject__ctor_Foundation_NSObjectFlag:
 _p_55:
@@ -72232,7 +72472,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2416]
 br x16
-.word 7333
+.word 7320
 	.no_dead_strip plt_System_Reflection_Assembly_op_Equality_System_Reflection_Assembly_System_Reflection_Assembly
 plt_System_Reflection_Assembly_op_Equality_System_Reflection_Assembly_System_Reflection_Assembly:
 _p_56:
@@ -72240,7 +72480,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2424]
 br x16
-.word 7338
+.word 7325
 	.no_dead_strip plt_Foundation_NSObject_set_IsDirectBinding_bool
 plt_Foundation_NSObject_set_IsDirectBinding_bool:
 _p_57:
@@ -72248,7 +72488,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2432]
 br x16
-.word 7343
+.word 7330
 	.no_dead_strip plt_Foundation_NSObject__ctor_intptr
 plt_Foundation_NSObject__ctor_intptr:
 _p_58:
@@ -72256,7 +72496,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2440]
 br x16
-.word 7348
+.word 7335
 	.no_dead_strip plt_Foundation_NSObject_get_IsDirectBinding
 plt_Foundation_NSObject_get_IsDirectBinding:
 _p_59:
@@ -72264,7 +72504,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2448]
 br x16
-.word 7353
+.word 7340
 	.no_dead_strip plt_ApiDefinition_Messaging_IntPtr_objc_msgSend_intptr_intptr
 plt_ApiDefinition_Messaging_IntPtr_objc_msgSend_intptr_intptr:
 _p_60:
@@ -72272,7 +72512,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2456]
 br x16
-.word 7358
+.word 7345
 	.no_dead_strip plt_Foundation_NSString_FromHandle_intptr
 plt_Foundation_NSString_FromHandle_intptr:
 _p_61:
@@ -72280,7 +72520,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2464]
 br x16
-.word 7360
+.word 7347
 	.no_dead_strip plt_Foundation_NSObject_get_SuperHandle
 plt_Foundation_NSObject_get_SuperHandle:
 _p_62:
@@ -72288,7 +72528,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2472]
 br x16
-.word 7365
+.word 7352
 	.no_dead_strip plt_ApiDefinition_Messaging_IntPtr_objc_msgSendSuper_intptr_intptr
 plt_ApiDefinition_Messaging_IntPtr_objc_msgSendSuper_intptr_intptr:
 _p_63:
@@ -72296,7 +72536,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2480]
 br x16
-.word 7370
+.word 7357
 	.no_dead_strip plt__jit_icall_mono_helper_ldstr
 plt__jit_icall_mono_helper_ldstr:
 _p_64:
@@ -72304,7 +72544,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2488]
 br x16
-.word 7372
+.word 7359
 	.no_dead_strip plt__jit_icall_mono_arch_throw_exception
 plt__jit_icall_mono_arch_throw_exception:
 _p_65:
@@ -72312,7 +72552,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2496]
 br x16
-.word 7392
+.word 7379
 	.no_dead_strip plt_Foundation_NSString_CreateNative_string
 plt_Foundation_NSString_CreateNative_string:
 _p_66:
@@ -72320,7 +72560,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2504]
 br x16
-.word 7420
+.word 7407
 	.no_dead_strip plt_ApiDefinition_Messaging_void_objc_msgSend_IntPtr_intptr_intptr_intptr
 plt_ApiDefinition_Messaging_void_objc_msgSend_IntPtr_intptr_intptr_intptr:
 _p_67:
@@ -72328,7 +72568,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2512]
 br x16
-.word 7425
+.word 7412
 	.no_dead_strip plt_ApiDefinition_Messaging_void_objc_msgSendSuper_IntPtr_intptr_intptr_intptr
 plt_ApiDefinition_Messaging_void_objc_msgSendSuper_IntPtr_intptr_intptr_intptr:
 _p_68:
@@ -72336,7 +72576,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2520]
 br x16
-.word 7427
+.word 7414
 	.no_dead_strip plt_Foundation_NSString_ReleaseNative_intptr
 plt_Foundation_NSString_ReleaseNative_intptr:
 _p_69:
@@ -72344,7 +72584,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2528]
 br x16
-.word 7429
+.word 7416
 	.no_dead_strip plt_ApiDefinition_Messaging_void_objc_msgSend_IntPtr_IntPtr_intptr_intptr_intptr_intptr
 plt_ApiDefinition_Messaging_void_objc_msgSend_IntPtr_IntPtr_intptr_intptr_intptr_intptr:
 _p_70:
@@ -72352,7 +72592,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2536]
 br x16
-.word 7434
+.word 7421
 	.no_dead_strip plt_ApiDefinition_Messaging_void_objc_msgSendSuper_IntPtr_IntPtr_intptr_intptr_intptr_intptr
 plt_ApiDefinition_Messaging_void_objc_msgSendSuper_IntPtr_IntPtr_intptr_intptr_intptr_intptr:
 _p_71:
@@ -72360,7 +72600,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2544]
 br x16
-.word 7436
+.word 7423
 	.no_dead_strip plt_ApiDefinition_Messaging_void_objc_msgSend_IntPtr_IntPtr_IntPtr_intptr_intptr_intptr_intptr_intptr
 plt_ApiDefinition_Messaging_void_objc_msgSend_IntPtr_IntPtr_IntPtr_intptr_intptr_intptr_intptr_intptr:
 _p_72:
@@ -72368,7 +72608,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2552]
 br x16
-.word 7438
+.word 7425
 	.no_dead_strip plt_ApiDefinition_Messaging_void_objc_msgSendSuper_IntPtr_IntPtr_IntPtr_intptr_intptr_intptr_intptr_intptr
 plt_ApiDefinition_Messaging_void_objc_msgSendSuper_IntPtr_IntPtr_IntPtr_intptr_intptr_intptr_intptr_intptr:
 _p_73:
@@ -72376,7 +72616,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2560]
 br x16
-.word 7440
+.word 7427
 	.no_dead_strip plt_ApiDefinition_Messaging_void_objc_msgSend_intptr_intptr
 plt_ApiDefinition_Messaging_void_objc_msgSend_intptr_intptr:
 _p_74:
@@ -72384,7 +72624,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2568]
 br x16
-.word 7442
+.word 7429
 	.no_dead_strip plt_ApiDefinition_Messaging_void_objc_msgSendSuper_intptr_intptr
 plt_ApiDefinition_Messaging_void_objc_msgSendSuper_intptr_intptr:
 _p_75:
@@ -72392,7 +72632,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2576]
 br x16
-.word 7444
+.word 7431
 	.no_dead_strip plt_intptr_get_Size
 plt_intptr_get_Size:
 _p_76:
@@ -72400,7 +72640,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2584]
 br x16
-.word 7446
+.word 7433
 	.no_dead_strip plt_ApiDefinition_Messaging_Int64_objc_msgSend_intptr_intptr
 plt_ApiDefinition_Messaging_Int64_objc_msgSend_intptr_intptr:
 _p_77:
@@ -72408,7 +72648,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2592]
 br x16
-.word 7451
+.word 7438
 	.no_dead_strip plt_ApiDefinition_Messaging_int_objc_msgSend_intptr_intptr
 plt_ApiDefinition_Messaging_int_objc_msgSend_intptr_intptr:
 _p_78:
@@ -72416,7 +72656,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2600]
 br x16
-.word 7453
+.word 7440
 	.no_dead_strip plt_ApiDefinition_Messaging_Int64_objc_msgSendSuper_intptr_intptr
 plt_ApiDefinition_Messaging_Int64_objc_msgSendSuper_intptr_intptr:
 _p_79:
@@ -72424,7 +72664,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2608]
 br x16
-.word 7455
+.word 7442
 	.no_dead_strip plt_ApiDefinition_Messaging_int_objc_msgSendSuper_intptr_intptr
 plt_ApiDefinition_Messaging_int_objc_msgSendSuper_intptr_intptr:
 _p_80:
@@ -72432,7 +72672,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2616]
 br x16
-.word 7457
+.word 7444
 	.no_dead_strip plt_ObjCRuntime_Runtime_GetNSObject_HockeyApp_iOS_BITAuthenticator_intptr
 plt_ObjCRuntime_Runtime_GetNSObject_HockeyApp_iOS_BITAuthenticator_intptr:
 _p_81:
@@ -72440,7 +72680,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2624]
 br x16
-.word 7459
+.word 7446
 	.no_dead_strip plt_ObjCRuntime_Runtime_GetNSObject_HockeyApp_iOS_BITCrashManager_intptr
 plt_ObjCRuntime_Runtime_GetNSObject_HockeyApp_iOS_BITCrashManager_intptr:
 _p_82:
@@ -72448,7 +72688,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2632]
 br x16
-.word 7471
+.word 7458
 	.no_dead_strip plt_ApiDefinition_Messaging_bool_objc_msgSend_intptr_intptr
 plt_ApiDefinition_Messaging_bool_objc_msgSend_intptr_intptr:
 _p_83:
@@ -72456,7 +72696,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2640]
 br x16
-.word 7483
+.word 7470
 	.no_dead_strip plt_ApiDefinition_Messaging_bool_objc_msgSendSuper_intptr_intptr
 plt_ApiDefinition_Messaging_bool_objc_msgSendSuper_intptr_intptr:
 _p_84:
@@ -72464,7 +72704,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2648]
 br x16
-.word 7485
+.word 7472
 	.no_dead_strip plt_ApiDefinition_Messaging_void_objc_msgSend_bool_intptr_intptr_bool
 plt_ApiDefinition_Messaging_void_objc_msgSend_bool_intptr_intptr_bool:
 _p_85:
@@ -72472,7 +72712,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2656]
 br x16
-.word 7487
+.word 7474
 	.no_dead_strip plt_ApiDefinition_Messaging_void_objc_msgSendSuper_bool_intptr_intptr_bool
 plt_ApiDefinition_Messaging_void_objc_msgSendSuper_bool_intptr_intptr_bool:
 _p_86:
@@ -72480,7 +72720,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2664]
 br x16
-.word 7489
+.word 7476
 	.no_dead_strip plt_ObjCRuntime_Runtime_GetNSObject_HockeyApp_iOS_BITFeedbackManager_intptr
 plt_ObjCRuntime_Runtime_GetNSObject_HockeyApp_iOS_BITFeedbackManager_intptr:
 _p_87:
@@ -72488,7 +72728,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2672]
 br x16
-.word 7491
+.word 7478
 	.no_dead_strip plt_ApiDefinition_Messaging_UInt64_objc_msgSend_intptr_intptr
 plt_ApiDefinition_Messaging_UInt64_objc_msgSend_intptr_intptr:
 _p_88:
@@ -72496,7 +72736,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2680]
 br x16
-.word 7503
+.word 7490
 	.no_dead_strip plt_ApiDefinition_Messaging_UInt32_objc_msgSend_intptr_intptr
 plt_ApiDefinition_Messaging_UInt32_objc_msgSend_intptr_intptr:
 _p_89:
@@ -72504,7 +72744,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2688]
 br x16
-.word 7505
+.word 7492
 	.no_dead_strip plt_ApiDefinition_Messaging_UInt64_objc_msgSendSuper_intptr_intptr
 plt_ApiDefinition_Messaging_UInt64_objc_msgSendSuper_intptr_intptr:
 _p_90:
@@ -72512,7 +72752,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2696]
 br x16
-.word 7507
+.word 7494
 	.no_dead_strip plt_ApiDefinition_Messaging_UInt32_objc_msgSendSuper_intptr_intptr
 plt_ApiDefinition_Messaging_UInt32_objc_msgSendSuper_intptr_intptr:
 _p_91:
@@ -72520,7 +72760,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2704]
 br x16
-.word 7509
+.word 7496
 	.no_dead_strip plt_ApiDefinition_Messaging_void_objc_msgSend_UInt64_intptr_intptr_ulong
 plt_ApiDefinition_Messaging_void_objc_msgSend_UInt64_intptr_intptr_ulong:
 _p_92:
@@ -72528,7 +72768,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2712]
 br x16
-.word 7511
+.word 7498
 	.no_dead_strip plt_ApiDefinition_Messaging_void_objc_msgSend_UInt32_intptr_intptr_uint
 plt_ApiDefinition_Messaging_void_objc_msgSend_UInt32_intptr_intptr_uint:
 _p_93:
@@ -72536,7 +72776,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2720]
 br x16
-.word 7513
+.word 7500
 	.no_dead_strip plt_ApiDefinition_Messaging_void_objc_msgSendSuper_UInt64_intptr_intptr_ulong
 plt_ApiDefinition_Messaging_void_objc_msgSendSuper_UInt64_intptr_intptr_ulong:
 _p_94:
@@ -72544,7 +72784,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2728]
 br x16
-.word 7515
+.word 7502
 	.no_dead_strip plt_ApiDefinition_Messaging_void_objc_msgSendSuper_UInt32_intptr_intptr_uint
 plt_ApiDefinition_Messaging_void_objc_msgSendSuper_UInt32_intptr_intptr_uint:
 _p_95:
@@ -72552,7 +72792,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2736]
 br x16
-.word 7517
+.word 7504
 	.no_dead_strip plt_ObjCRuntime_Runtime_GetNSObject_HockeyApp_iOS_BITMetricsManager_intptr
 plt_ObjCRuntime_Runtime_GetNSObject_HockeyApp_iOS_BITMetricsManager_intptr:
 _p_96:
@@ -72560,7 +72800,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2744]
 br x16
-.word 7519
+.word 7506
 	.no_dead_strip plt_ObjCRuntime_Runtime_GetNSObject_HockeyApp_iOS_BITHockeyManager_intptr
 plt_ObjCRuntime_Runtime_GetNSObject_HockeyApp_iOS_BITHockeyManager_intptr:
 _p_97:
@@ -72568,7 +72808,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2752]
 br x16
-.word 7531
+.word 7518
 	.no_dead_strip plt_ObjCRuntime_Runtime_GetNSObject_HockeyApp_iOS_BITStoreUpdateManager_intptr
 plt_ObjCRuntime_Runtime_GetNSObject_HockeyApp_iOS_BITStoreUpdateManager_intptr:
 _p_98:
@@ -72576,7 +72816,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2760]
 br x16
-.word 7543
+.word 7530
 	.no_dead_strip plt_ObjCRuntime_Runtime_GetNSObject_HockeyApp_iOS_BITUpdateManager_intptr
 plt_ObjCRuntime_Runtime_GetNSObject_HockeyApp_iOS_BITUpdateManager_intptr:
 _p_99:
@@ -72584,7 +72824,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2768]
 br x16
-.word 7555
+.word 7542
 	.no_dead_strip plt_ObjCRuntime_Runtime_GetNSObject_intptr
 plt_ObjCRuntime_Runtime_GetNSObject_intptr:
 _p_100:
@@ -72592,7 +72832,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2776]
 br x16
-.word 7567
+.word 7554
 	.no_dead_strip plt_Foundation_NSObject_MarkDirty
 plt_Foundation_NSObject_MarkDirty:
 _p_101:
@@ -72600,7 +72840,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2784]
 br x16
-.word 7572
+.word 7559
 	.no_dead_strip plt_Foundation_NSObject_Dispose_bool
 plt_Foundation_NSObject_Dispose_bool:
 _p_102:
@@ -72608,7 +72848,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2792]
 br x16
-.word 7577
+.word 7564
 	.no_dead_strip plt_object__ctor
 plt_object__ctor:
 _p_103:
@@ -72616,7 +72856,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2800]
 br x16
-.word 7582
+.word 7569
 	.no_dead_strip plt_ObjCRuntime_Class_GetHandle_string
 plt_ObjCRuntime_Class_GetHandle_string:
 _p_104:
@@ -72624,7 +72864,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2808]
 br x16
-.word 7587
+.word 7574
 	.no_dead_strip plt_System_UnhandledExceptionEventArgs_get_ExceptionObject
 plt_System_UnhandledExceptionEventArgs_get_ExceptionObject:
 _p_105:
@@ -72632,7 +72872,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2816]
 br x16
-.word 7592
+.word 7579
 	.no_dead_strip plt_HockeyApp_iOS_BITHockeyManager_ThrowExceptionAsNative_object
 plt_HockeyApp_iOS_BITHockeyManager_ThrowExceptionAsNative_object:
 _p_106:
@@ -72640,7 +72880,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2824]
 br x16
-.word 7597
+.word 7584
 	.no_dead_strip plt_System_Threading_Tasks_UnobservedTaskExceptionEventArgs_get_Exception
 plt_System_Threading_Tasks_UnobservedTaskExceptionEventArgs_get_Exception:
 _p_107:
@@ -72648,7 +72888,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2832]
 br x16
-.word 7599
+.word 7586
 	.no_dead_strip plt_HockeyApp_iOS_BITHockeyManager_ThrowExceptionAsNative_System_Exception
 plt_HockeyApp_iOS_BITHockeyManager_ThrowExceptionAsNative_System_Exception:
 _p_108:
@@ -72656,7 +72896,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2840]
 br x16
-.word 7604
+.word 7591
 	.no_dead_strip plt_HockeyApp_iOS_BITHockeyBaseManager__ctor_Foundation_NSObjectFlag
 plt_HockeyApp_iOS_BITHockeyBaseManager__ctor_Foundation_NSObjectFlag:
 _p_109:
@@ -72664,7 +72904,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2848]
 br x16
-.word 7606
+.word 7593
 	.no_dead_strip plt_Foundation_NSObject_InitializeHandle_intptr_string
 plt_Foundation_NSObject_InitializeHandle_intptr_string:
 _p_110:
@@ -72672,7 +72912,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2856]
 br x16
-.word 7609
+.word 7596
 	.no_dead_strip plt_HockeyApp_iOS_BITHockeyBaseManager__ctor_intptr
 plt_HockeyApp_iOS_BITHockeyBaseManager__ctor_intptr:
 _p_111:
@@ -72680,7 +72920,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2864]
 br x16
-.word 7614
+.word 7601
 	.no_dead_strip plt_Foundation_NSUrl_op_Equality_Foundation_NSUrl_Foundation_NSUrl
 plt_Foundation_NSUrl_op_Equality_Foundation_NSUrl_Foundation_NSUrl:
 _p_112:
@@ -72688,7 +72928,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2872]
 br x16
-.word 7617
+.word 7604
 	.no_dead_strip plt_ApiDefinition_Messaging_bool_objc_msgSend_IntPtr_IntPtr_IntPtr_intptr_intptr_intptr_intptr_intptr
 plt_ApiDefinition_Messaging_bool_objc_msgSend_IntPtr_IntPtr_IntPtr_intptr_intptr_intptr_intptr_intptr:
 _p_113:
@@ -72696,7 +72936,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2880]
 br x16
-.word 7622
+.word 7609
 	.no_dead_strip plt_ApiDefinition_Messaging_bool_objc_msgSendSuper_IntPtr_IntPtr_IntPtr_intptr_intptr_intptr_intptr_intptr
 plt_ApiDefinition_Messaging_bool_objc_msgSendSuper_IntPtr_IntPtr_IntPtr_intptr_intptr_intptr_intptr_intptr:
 _p_114:
@@ -72704,7 +72944,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2888]
 br x16
-.word 7624
+.word 7611
 	.no_dead_strip plt_ApiDefinition_Messaging_bool_objc_msgSend_IntPtr_intptr_intptr_intptr
 plt_ApiDefinition_Messaging_bool_objc_msgSend_IntPtr_intptr_intptr_intptr:
 _p_115:
@@ -72712,7 +72952,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2896]
 br x16
-.word 7626
+.word 7613
 	.no_dead_strip plt_ApiDefinition_Messaging_bool_objc_msgSendSuper_IntPtr_intptr_intptr_intptr
 plt_ApiDefinition_Messaging_bool_objc_msgSendSuper_IntPtr_intptr_intptr_intptr:
 _p_116:
@@ -72720,7 +72960,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2904]
 br x16
-.word 7628
+.word 7615
 	.no_dead_strip plt_ObjCRuntime_Runtime_GetNSObject_Foundation_NSUrl_intptr
 plt_ObjCRuntime_Runtime_GetNSObject_Foundation_NSUrl_intptr:
 _p_117:
@@ -72728,7 +72968,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2912]
 br x16
-.word 7630
+.word 7617
 	.no_dead_strip plt_ObjCRuntime_BaseWrapper__ctor_intptr_bool
 plt_ObjCRuntime_BaseWrapper__ctor_intptr_bool:
 _p_118:
@@ -72736,7 +72976,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2920]
 br x16
-.word 7642
+.word 7629
 	.no_dead_strip plt_Foundation_You_Should_Not_Call_base_In_This_Method__ctor
 plt_Foundation_You_Should_Not_Call_base_In_This_Method__ctor:
 _p_119:
@@ -72744,7 +72984,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2928]
 br x16
-.word 7647
+.word 7634
 	.no_dead_strip plt_HockeyApp_iOS_BITHockeyAttachment__ctor_Foundation_NSObjectFlag
 plt_HockeyApp_iOS_BITHockeyAttachment__ctor_Foundation_NSObjectFlag:
 _p_120:
@@ -72752,7 +72992,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2936]
 br x16
-.word 7652
+.word 7639
 	.no_dead_strip plt_ApiDefinition_Messaging_IntPtr_objc_msgSend_IntPtr_intptr_intptr_intptr
 plt_ApiDefinition_Messaging_IntPtr_objc_msgSend_IntPtr_intptr_intptr_intptr:
 _p_121:
@@ -72760,7 +73000,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2944]
 br x16
-.word 7655
+.word 7642
 	.no_dead_strip plt_ApiDefinition_Messaging_IntPtr_objc_msgSendSuper_IntPtr_intptr_intptr_intptr
 plt_ApiDefinition_Messaging_IntPtr_objc_msgSendSuper_IntPtr_intptr_intptr_intptr:
 _p_122:
@@ -72768,7 +73008,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2952]
 br x16
-.word 7657
+.word 7644
 	.no_dead_strip plt_HockeyApp_iOS_BITHockeyAttachment__ctor_intptr
 plt_HockeyApp_iOS_BITHockeyAttachment__ctor_intptr:
 _p_123:
@@ -72776,7 +73016,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2960]
 br x16
-.word 7659
+.word 7646
 	.no_dead_strip plt_ApiDefinition_Messaging_IntPtr_objc_msgSend_IntPtr_IntPtr_IntPtr_intptr_intptr_intptr_intptr_intptr
 plt_ApiDefinition_Messaging_IntPtr_objc_msgSend_IntPtr_IntPtr_IntPtr_intptr_intptr_intptr_intptr_intptr:
 _p_124:
@@ -72784,7 +73024,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2968]
 br x16
-.word 7662
+.word 7649
 	.no_dead_strip plt_ApiDefinition_Messaging_IntPtr_objc_msgSendSuper_IntPtr_IntPtr_IntPtr_intptr_intptr_intptr_intptr_intptr
 plt_ApiDefinition_Messaging_IntPtr_objc_msgSendSuper_IntPtr_IntPtr_IntPtr_intptr_intptr_intptr_intptr_intptr:
 _p_125:
@@ -72792,7 +73032,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2976]
 br x16
-.word 7664
+.word 7651
 	.no_dead_strip plt_ApiDefinition_Messaging_nuint_objc_msgSend_intptr_intptr
 plt_ApiDefinition_Messaging_nuint_objc_msgSend_intptr_intptr:
 _p_126:
@@ -72800,7 +73040,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2984]
 br x16
-.word 7666
+.word 7653
 	.no_dead_strip plt_ApiDefinition_Messaging_nuint_objc_msgSendSuper_intptr_intptr
 plt_ApiDefinition_Messaging_nuint_objc_msgSendSuper_intptr_intptr:
 _p_127:
@@ -72808,7 +73048,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #2992]
 br x16
-.word 7668
+.word 7655
 	.no_dead_strip plt_ObjCRuntime_Runtime_GetNSObject_Foundation_NSDate_intptr
 plt_ObjCRuntime_Runtime_GetNSObject_Foundation_NSDate_intptr:
 _p_128:
@@ -72816,7 +73056,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3000]
 br x16
-.word 7670
+.word 7657
 	.no_dead_strip plt_ApiDefinition_Messaging_bool_objc_msgSend_UInt64_IntPtr_intptr_intptr_ulong_intptr
 plt_ApiDefinition_Messaging_bool_objc_msgSend_UInt64_IntPtr_intptr_intptr_ulong_intptr:
 _p_129:
@@ -72824,7 +73064,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3008]
 br x16
-.word 7682
+.word 7669
 	.no_dead_strip plt_ApiDefinition_Messaging_bool_objc_msgSend_UInt32_IntPtr_intptr_intptr_uint_intptr
 plt_ApiDefinition_Messaging_bool_objc_msgSend_UInt32_IntPtr_intptr_intptr_uint_intptr:
 _p_130:
@@ -72832,7 +73072,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3016]
 br x16
-.word 7684
+.word 7671
 	.no_dead_strip plt_ApiDefinition_Messaging_bool_objc_msgSendSuper_UInt64_IntPtr_intptr_intptr_ulong_intptr
 plt_ApiDefinition_Messaging_bool_objc_msgSendSuper_UInt64_IntPtr_intptr_intptr_ulong_intptr:
 _p_131:
@@ -72840,7 +73080,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3024]
 br x16
-.word 7686
+.word 7673
 	.no_dead_strip plt_ApiDefinition_Messaging_bool_objc_msgSendSuper_UInt32_IntPtr_intptr_intptr_uint_intptr
 plt_ApiDefinition_Messaging_bool_objc_msgSendSuper_UInt32_IntPtr_intptr_intptr_uint_intptr:
 _p_132:
@@ -72848,7 +73088,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3032]
 br x16
-.word 7688
+.word 7675
 	.no_dead_strip plt_ObjCRuntime_Runtime_GetNSObject_HockeyApp_iOS_BITCrashDetails_intptr
 plt_ObjCRuntime_Runtime_GetNSObject_HockeyApp_iOS_BITCrashDetails_intptr:
 _p_133:
@@ -72856,7 +73096,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3040]
 br x16
-.word 7690
+.word 7677
 	.no_dead_strip plt_ApiDefinition_Messaging_Double_objc_msgSend_intptr_intptr
 plt_ApiDefinition_Messaging_Double_objc_msgSend_intptr_intptr:
 _p_134:
@@ -72864,7 +73104,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3048]
 br x16
-.word 7702
+.word 7689
 	.no_dead_strip plt_ApiDefinition_Messaging_Double_objc_msgSendSuper_intptr_intptr
 plt_ApiDefinition_Messaging_Double_objc_msgSendSuper_intptr_intptr:
 _p_135:
@@ -72872,7 +73112,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3056]
 br x16
-.word 7704
+.word 7691
 	.no_dead_strip plt_ObjCRuntime_Runtime_GetNSObject_HockeyApp_iOS_BITHockeyAttachment_intptr
 plt_ObjCRuntime_Runtime_GetNSObject_HockeyApp_iOS_BITHockeyAttachment_intptr:
 _p_136:
@@ -72880,7 +73120,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3064]
 br x16
-.word 7706
+.word 7693
 	.no_dead_strip plt_UIKit_UIActivity__ctor_Foundation_NSObjectFlag
 plt_UIKit_UIActivity__ctor_Foundation_NSObjectFlag:
 _p_137:
@@ -72888,7 +73128,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3072]
 br x16
-.word 7718
+.word 7705
 	.no_dead_strip plt_UIKit_UIActivity__ctor_intptr
 plt_UIKit_UIActivity__ctor_intptr:
 _p_138:
@@ -72896,7 +73136,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3080]
 br x16
-.word 7723
+.word 7710
 	.no_dead_strip plt_ApiDefinition_Messaging_void_objc_msgSend_IntPtr_UInt64_intptr_intptr_intptr_ulong
 plt_ApiDefinition_Messaging_void_objc_msgSend_IntPtr_UInt64_intptr_intptr_intptr_ulong:
 _p_139:
@@ -72904,7 +73144,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3088]
 br x16
-.word 7728
+.word 7715
 	.no_dead_strip plt_ApiDefinition_Messaging_void_objc_msgSend_IntPtr_UInt32_intptr_intptr_intptr_uint
 plt_ApiDefinition_Messaging_void_objc_msgSend_IntPtr_UInt32_intptr_intptr_intptr_uint:
 _p_140:
@@ -72912,7 +73152,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3096]
 br x16
-.word 7730
+.word 7717
 	.no_dead_strip plt_ApiDefinition_Messaging_void_objc_msgSendSuper_IntPtr_UInt64_intptr_intptr_intptr_ulong
 plt_ApiDefinition_Messaging_void_objc_msgSendSuper_IntPtr_UInt64_intptr_intptr_intptr_ulong:
 _p_141:
@@ -72920,7 +73160,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3104]
 br x16
-.word 7732
+.word 7719
 	.no_dead_strip plt_ApiDefinition_Messaging_void_objc_msgSendSuper_IntPtr_UInt32_intptr_intptr_intptr_uint
 plt_ApiDefinition_Messaging_void_objc_msgSendSuper_IntPtr_UInt32_intptr_intptr_intptr_uint:
 _p_142:
@@ -72928,7 +73168,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3112]
 br x16
-.word 7734
+.word 7721
 	.no_dead_strip plt_ObjCRuntime_Runtime_GetNSObject_UIKit_UIImage_intptr
 plt_ObjCRuntime_Runtime_GetNSObject_UIKit_UIImage_intptr:
 _p_143:
@@ -72936,7 +73176,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3120]
 br x16
-.word 7736
+.word 7723
 	.no_dead_strip plt_UIKit_UIViewController__ctor_Foundation_NSObjectFlag
 plt_UIKit_UIViewController__ctor_Foundation_NSObjectFlag:
 _p_144:
@@ -72944,7 +73184,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3128]
 br x16
-.word 7748
+.word 7735
 	.no_dead_strip plt_UIKit_UIViewController__ctor_intptr
 plt_UIKit_UIViewController__ctor_intptr:
 _p_145:
@@ -72952,7 +73192,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3136]
 br x16
-.word 7753
+.word 7740
 	.no_dead_strip plt_HockeyApp_iOS_BITHockeyBaseViewController__ctor_Foundation_NSObjectFlag
 plt_HockeyApp_iOS_BITHockeyBaseViewController__ctor_Foundation_NSObjectFlag:
 _p_146:
@@ -72960,7 +73200,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3144]
 br x16
-.word 7758
+.word 7745
 	.no_dead_strip plt_HockeyApp_iOS_BITHockeyBaseViewController__ctor_intptr
 plt_HockeyApp_iOS_BITHockeyBaseViewController__ctor_intptr:
 _p_147:
@@ -72968,7 +73208,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3152]
 br x16
-.word 7761
+.word 7748
 	.no_dead_strip plt_ApiDefinition_Messaging_IntPtr_objc_msgSend_IntPtr_IntPtr_intptr_intptr_intptr_intptr
 plt_ApiDefinition_Messaging_IntPtr_objc_msgSend_IntPtr_IntPtr_intptr_intptr_intptr_intptr:
 _p_148:
@@ -72976,7 +73216,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3160]
 br x16
-.word 7764
+.word 7751
 	.no_dead_strip plt_ObjCRuntime_Runtime_GetNSObject_UIKit_UITableViewCell_intptr
 plt_ObjCRuntime_Runtime_GetNSObject_UIKit_UITableViewCell_intptr:
 _p_149:
@@ -72984,7 +73224,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3168]
 br x16
-.word 7766
+.word 7753
 	.no_dead_strip plt_ApiDefinition_Messaging_IntPtr_objc_msgSendSuper_IntPtr_IntPtr_intptr_intptr_intptr_intptr
 plt_ApiDefinition_Messaging_IntPtr_objc_msgSendSuper_IntPtr_IntPtr_intptr_intptr_intptr_intptr:
 _p_150:
@@ -72992,7 +73232,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3176]
 br x16
-.word 7778
+.word 7765
 	.no_dead_strip plt_ApiDefinition_Messaging_IntPtr_objc_msgSend_IntPtr_nint_intptr_intptr_intptr_System_nint
 plt_ApiDefinition_Messaging_IntPtr_objc_msgSend_IntPtr_nint_intptr_intptr_intptr_System_nint:
 _p_151:
@@ -73000,7 +73240,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3184]
 br x16
-.word 7780
+.word 7767
 	.no_dead_strip plt_ObjCRuntime_Runtime_GetINativeObject_QuickLook_IQLPreviewItem_intptr_bool
 plt_ObjCRuntime_Runtime_GetINativeObject_QuickLook_IQLPreviewItem_intptr_bool:
 _p_152:
@@ -73008,7 +73248,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3192]
 br x16
-.word 7782
+.word 7769
 	.no_dead_strip plt_ApiDefinition_Messaging_IntPtr_objc_msgSendSuper_IntPtr_nint_intptr_intptr_intptr_System_nint
 plt_ApiDefinition_Messaging_IntPtr_objc_msgSendSuper_IntPtr_nint_intptr_intptr_intptr_System_nint:
 _p_153:
@@ -73016,7 +73256,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3200]
 br x16
-.word 7794
+.word 7781
 	.no_dead_strip plt_ApiDefinition_Messaging_nint_objc_msgSend_IntPtr_intptr_intptr_intptr
 plt_ApiDefinition_Messaging_nint_objc_msgSend_IntPtr_intptr_intptr_intptr:
 _p_154:
@@ -73024,7 +73264,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3208]
 br x16
-.word 7796
+.word 7783
 	.no_dead_strip plt_ApiDefinition_Messaging_nint_objc_msgSendSuper_IntPtr_intptr_intptr_intptr
 plt_ApiDefinition_Messaging_nint_objc_msgSendSuper_IntPtr_intptr_intptr_intptr:
 _p_155:
@@ -73032,7 +73272,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3216]
 br x16
-.word 7798
+.word 7785
 	.no_dead_strip plt_ApiDefinition_Messaging_nint_objc_msgSend_IntPtr_nint_intptr_intptr_intptr_System_nint
 plt_ApiDefinition_Messaging_nint_objc_msgSend_IntPtr_nint_intptr_intptr_intptr_System_nint:
 _p_156:
@@ -73040,7 +73280,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3224]
 br x16
-.word 7800
+.word 7787
 	.no_dead_strip plt_ApiDefinition_Messaging_nint_objc_msgSendSuper_IntPtr_nint_intptr_intptr_intptr_System_nint
 plt_ApiDefinition_Messaging_nint_objc_msgSendSuper_IntPtr_nint_intptr_intptr_intptr_System_nint:
 _p_157:
@@ -73048,7 +73288,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3232]
 br x16
-.word 7802
+.word 7789
 	.no_dead_strip plt_ObjCRuntime_Runtime_GetNSObject_HockeyApp_iOS_BITFeedbackComposeViewController_intptr
 plt_ObjCRuntime_Runtime_GetNSObject_HockeyApp_iOS_BITFeedbackComposeViewController_intptr:
 _p_158:
@@ -73056,7 +73296,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3240]
 br x16
-.word 7804
+.word 7791
 	.no_dead_strip plt_ApiDefinition_Messaging_IntPtr_objc_msgSend_bool_intptr_intptr_bool
 plt_ApiDefinition_Messaging_IntPtr_objc_msgSend_bool_intptr_intptr_bool:
 _p_159:
@@ -73064,7 +73304,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3248]
 br x16
-.word 7816
+.word 7803
 	.no_dead_strip plt_ObjCRuntime_Runtime_GetNSObject_UIKit_UITableViewController_intptr
 plt_ObjCRuntime_Runtime_GetNSObject_UIKit_UITableViewController_intptr:
 _p_160:
@@ -73072,7 +73312,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3256]
 br x16
-.word 7818
+.word 7805
 	.no_dead_strip plt_ApiDefinition_Messaging_IntPtr_objc_msgSendSuper_bool_intptr_intptr_bool
 plt_ApiDefinition_Messaging_IntPtr_objc_msgSendSuper_bool_intptr_intptr_bool:
 _p_161:
@@ -73080,7 +73320,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3264]
 br x16
-.word 7830
+.word 7817
 	.no_dead_strip plt_Foundation_NSArray_FromNSObjects_Foundation_NSObject__
 plt_Foundation_NSArray_FromNSObjects_Foundation_NSObject__:
 _p_162:
@@ -73088,7 +73328,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3272]
 br x16
-.word 7832
+.word 7819
 	.no_dead_strip plt_Foundation_NSObject_Dispose
 plt_Foundation_NSObject_Dispose:
 _p_163:
@@ -73096,7 +73336,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3280]
 br x16
-.word 7837
+.word 7824
 	.no_dead_strip plt_ApiDefinition_Messaging_void_objc_msgSend_Int64_intptr_intptr_long
 plt_ApiDefinition_Messaging_void_objc_msgSend_Int64_intptr_intptr_long:
 _p_164:
@@ -73104,7 +73344,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3288]
 br x16
-.word 7842
+.word 7829
 	.no_dead_strip plt_ApiDefinition_Messaging_void_objc_msgSend_int_intptr_intptr_int
 plt_ApiDefinition_Messaging_void_objc_msgSend_int_intptr_intptr_int:
 _p_165:
@@ -73112,7 +73352,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3296]
 br x16
-.word 7844
+.word 7831
 	.no_dead_strip plt_ApiDefinition_Messaging_void_objc_msgSendSuper_Int64_intptr_intptr_long
 plt_ApiDefinition_Messaging_void_objc_msgSendSuper_Int64_intptr_intptr_long:
 _p_166:
@@ -73120,7 +73360,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3304]
 br x16
-.word 7846
+.word 7833
 	.no_dead_strip plt_ApiDefinition_Messaging_void_objc_msgSendSuper_int_intptr_intptr_int
 plt_ApiDefinition_Messaging_void_objc_msgSendSuper_int_intptr_intptr_int:
 _p_167:
@@ -73128,7 +73368,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3312]
 br x16
-.word 7848
+.word 7835
 	.no_dead_strip plt_ObjCRuntime_Runtime_GetNSObject_Foundation_NSArray_intptr
 plt_ObjCRuntime_Runtime_GetNSObject_Foundation_NSArray_intptr:
 _p_168:
@@ -73136,7 +73376,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3320]
 br x16
-.word 7850
+.word 7837
 	.no_dead_strip plt_HockeyApp_iOS_BITFeedbackComposeViewControllerDelegate__ctor_Foundation_NSObjectFlag
 plt_HockeyApp_iOS_BITFeedbackComposeViewControllerDelegate__ctor_Foundation_NSObjectFlag:
 _p_169:
@@ -73144,7 +73384,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3328]
 br x16
-.word 7862
+.word 7849
 	.no_dead_strip plt_HockeyApp_iOS_BITFeedbackComposeViewControllerDelegate__ctor_intptr
 plt_HockeyApp_iOS_BITFeedbackComposeViewControllerDelegate__ctor_intptr:
 _p_170:
@@ -73152,7 +73392,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3336]
 br x16
-.word 7865
+.word 7852
 	.no_dead_strip plt_ObjCRuntime_Runtime_GetNSObject_Foundation_NSData_intptr
 plt_ObjCRuntime_Runtime_GetNSObject_Foundation_NSData_intptr:
 _p_171:
@@ -73160,7 +73400,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3344]
 br x16
-.word 7868
+.word 7855
 	.no_dead_strip plt_ObjCRuntime_Runtime_GetNSObject_UIKit_UIColor_intptr
 plt_ObjCRuntime_Runtime_GetNSObject_UIKit_UIColor_intptr:
 _p_172:
@@ -73168,7 +73408,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3352]
 br x16
-.word 7880
+.word 7867
 	.no_dead_strip plt_UIKit_UITableViewController__ctor_Foundation_NSObjectFlag
 plt_UIKit_UITableViewController__ctor_Foundation_NSObjectFlag:
 _p_173:
@@ -73176,7 +73416,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3360]
 br x16
-.word 7892
+.word 7879
 	.no_dead_strip plt_UIKit_UITableViewController__ctor_intptr
 plt_UIKit_UITableViewController__ctor_intptr:
 _p_174:
@@ -73184,7 +73424,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3368]
 br x16
-.word 7897
+.word 7884
 	.no_dead_strip plt_ApiDefinition_Messaging_IntPtr_objc_msgSend_Int64_bool_intptr_intptr_long_bool
 plt_ApiDefinition_Messaging_IntPtr_objc_msgSend_Int64_bool_intptr_intptr_long_bool:
 _p_175:
@@ -73192,7 +73432,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3376]
 br x16
-.word 7902
+.word 7889
 	.no_dead_strip plt_ApiDefinition_Messaging_IntPtr_objc_msgSend_int_bool_intptr_intptr_int_bool
 plt_ApiDefinition_Messaging_IntPtr_objc_msgSend_int_bool_intptr_intptr_int_bool:
 _p_176:
@@ -73200,7 +73440,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3384]
 br x16
-.word 7904
+.word 7891
 	.no_dead_strip plt_ApiDefinition_Messaging_IntPtr_objc_msgSendSuper_Int64_bool_intptr_intptr_long_bool
 plt_ApiDefinition_Messaging_IntPtr_objc_msgSendSuper_Int64_bool_intptr_intptr_long_bool:
 _p_177:
@@ -73208,7 +73448,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3392]
 br x16
-.word 7906
+.word 7893
 	.no_dead_strip plt_ApiDefinition_Messaging_IntPtr_objc_msgSendSuper_int_bool_intptr_intptr_int_bool
 plt_ApiDefinition_Messaging_IntPtr_objc_msgSendSuper_int_bool_intptr_intptr_int_bool:
 _p_178:
@@ -73216,7 +73456,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3400]
 br x16
-.word 7908
+.word 7895
 	.no_dead_strip plt_ObjCRuntime_Runtime_GetNSObject_UIKit_UIViewController_intptr
 plt_ObjCRuntime_Runtime_GetNSObject_UIKit_UIViewController_intptr:
 _p_179:
@@ -73224,7 +73464,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3408]
 br x16
-.word 7910
+.word 7897
 	.no_dead_strip plt_Foundation_NSString_op_Equality_Foundation_NSString_Foundation_NSString
 plt_Foundation_NSString_op_Equality_Foundation_NSString_Foundation_NSString:
 _p_180:
@@ -73232,7 +73472,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3416]
 br x16
-.word 7922
+.word 7909
 	.no_dead_strip plt_ObjCRuntime_Dlfcn_GetStringConstant_intptr_string
 plt_ObjCRuntime_Dlfcn_GetStringConstant_intptr_string:
 _p_181:
@@ -73240,7 +73480,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3424]
 br x16
-.word 7927
+.word 7914
 	.no_dead_strip plt__jit_icall_mono_thread_interruption_checkpoint
 plt__jit_icall_mono_thread_interruption_checkpoint:
 _p_182:
@@ -73248,7 +73488,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3432]
 br x16
-.word 7932
+.word 7919
 	.no_dead_strip plt__jit_icall_mono_delegate_begin_invoke
 plt__jit_icall_mono_delegate_begin_invoke:
 _p_183:
@@ -73256,7 +73496,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3440]
 br x16
-.word 7970
+.word 7957
 	.no_dead_strip plt__jit_icall_mono_delegate_end_invoke
 plt__jit_icall_mono_delegate_end_invoke:
 _p_184:
@@ -73264,7 +73504,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3448]
 br x16
-.word 7999
+.word 7986
 	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_IntPtr_objc_msgSend_intptr_intptr
 plt__icall_native_ApiDefinition_Messaging_IntPtr_objc_msgSend_intptr_intptr:
 _p_185:
@@ -73272,7 +73512,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3456]
 br x16
-.word 8026
+.word 8013
 	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_IntPtr_objc_msgSendSuper_intptr_intptr
 plt__icall_native_ApiDefinition_Messaging_IntPtr_objc_msgSendSuper_intptr_intptr:
 _p_186:
@@ -73280,7 +73520,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3464]
 br x16
-.word 8028
+.word 8015
 	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_IntPtr_objc_msgSend_IntPtr_intptr_intptr_intptr
 plt__icall_native_ApiDefinition_Messaging_IntPtr_objc_msgSend_IntPtr_intptr_intptr_intptr:
 _p_187:
@@ -73288,7 +73528,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3472]
 br x16
-.word 8030
+.word 8017
 	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_IntPtr_objc_msgSendSuper_IntPtr_intptr_intptr_intptr
 plt__icall_native_ApiDefinition_Messaging_IntPtr_objc_msgSendSuper_IntPtr_intptr_intptr_intptr:
 _p_188:
@@ -73296,7 +73536,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3480]
 br x16
-.word 8032
+.word 8019
 	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_UInt32_objc_msgSend_intptr_intptr
 plt__icall_native_ApiDefinition_Messaging_UInt32_objc_msgSend_intptr_intptr:
 _p_189:
@@ -73304,7 +73544,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3488]
 br x16
-.word 8034
+.word 8021
 	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_UInt32_objc_msgSendSuper_intptr_intptr
 plt__icall_native_ApiDefinition_Messaging_UInt32_objc_msgSendSuper_intptr_intptr:
 _p_190:
@@ -73312,7 +73552,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3496]
 br x16
-.word 8036
+.word 8023
 	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_UInt64_objc_msgSend_intptr_intptr
 plt__icall_native_ApiDefinition_Messaging_UInt64_objc_msgSend_intptr_intptr:
 _p_191:
@@ -73320,7 +73560,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3504]
 br x16
-.word 8038
+.word 8025
 	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_UInt64_objc_msgSendSuper_intptr_intptr
 plt__icall_native_ApiDefinition_Messaging_UInt64_objc_msgSendSuper_intptr_intptr:
 _p_192:
@@ -73328,7 +73568,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3512]
 br x16
-.word 8040
+.word 8027
 	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_void_objc_msgSend_UInt32_intptr_intptr_uint
 plt__icall_native_ApiDefinition_Messaging_void_objc_msgSend_UInt32_intptr_intptr_uint:
 _p_193:
@@ -73336,7 +73576,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3520]
 br x16
-.word 8042
+.word 8029
 	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_void_objc_msgSendSuper_UInt32_intptr_intptr_uint
 plt__icall_native_ApiDefinition_Messaging_void_objc_msgSendSuper_UInt32_intptr_intptr_uint:
 _p_194:
@@ -73344,7 +73584,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3528]
 br x16
-.word 8044
+.word 8031
 	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_void_objc_msgSend_UInt64_intptr_intptr_ulong
 plt__icall_native_ApiDefinition_Messaging_void_objc_msgSend_UInt64_intptr_intptr_ulong:
 _p_195:
@@ -73352,7 +73592,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3536]
 br x16
-.word 8046
+.word 8033
 	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_void_objc_msgSendSuper_UInt64_intptr_intptr_ulong
 plt__icall_native_ApiDefinition_Messaging_void_objc_msgSendSuper_UInt64_intptr_intptr_ulong:
 _p_196:
@@ -73360,7 +73600,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3544]
 br x16
-.word 8048
+.word 8035
 	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_bool_objc_msgSend_intptr_intptr
 plt__icall_native_ApiDefinition_Messaging_bool_objc_msgSend_intptr_intptr:
 _p_197:
@@ -73368,7 +73608,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3552]
 br x16
-.word 8050
+.word 8037
 	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_bool_objc_msgSendSuper_intptr_intptr
 plt__icall_native_ApiDefinition_Messaging_bool_objc_msgSendSuper_intptr_intptr:
 _p_198:
@@ -73376,7 +73616,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3560]
 br x16
-.word 8052
+.word 8039
 	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_void_objc_msgSend_bool_intptr_intptr_bool
 plt__icall_native_ApiDefinition_Messaging_void_objc_msgSend_bool_intptr_intptr_bool:
 _p_199:
@@ -73384,7 +73624,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3568]
 br x16
-.word 8054
+.word 8041
 	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_void_objc_msgSendSuper_bool_intptr_intptr_bool
 plt__icall_native_ApiDefinition_Messaging_void_objc_msgSendSuper_bool_intptr_intptr_bool:
 _p_200:
@@ -73392,7 +73632,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3576]
 br x16
-.word 8056
+.word 8043
 	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_void_objc_msgSend_IntPtr_intptr_intptr_intptr
 plt__icall_native_ApiDefinition_Messaging_void_objc_msgSend_IntPtr_intptr_intptr_intptr:
 _p_201:
@@ -73400,7 +73640,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3584]
 br x16
-.word 8058
+.word 8045
 	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_void_objc_msgSendSuper_IntPtr_intptr_intptr_intptr
 plt__icall_native_ApiDefinition_Messaging_void_objc_msgSendSuper_IntPtr_intptr_intptr_intptr:
 _p_202:
@@ -73408,7 +73648,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3592]
 br x16
-.word 8060
+.word 8047
 	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_bool_objc_msgSend_IntPtr_IntPtr_IntPtr_intptr_intptr_intptr_intptr_intptr
 plt__icall_native_ApiDefinition_Messaging_bool_objc_msgSend_IntPtr_IntPtr_IntPtr_intptr_intptr_intptr_intptr_intptr:
 _p_203:
@@ -73416,7 +73656,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3600]
 br x16
-.word 8062
+.word 8049
 	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_bool_objc_msgSendSuper_IntPtr_IntPtr_IntPtr_intptr_intptr_intptr_intptr_intptr
 plt__icall_native_ApiDefinition_Messaging_bool_objc_msgSendSuper_IntPtr_IntPtr_IntPtr_intptr_intptr_intptr_intptr_intptr:
 _p_204:
@@ -73424,7 +73664,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3608]
 br x16
-.word 8064
+.word 8051
 	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_void_objc_msgSend_intptr_intptr
 plt__icall_native_ApiDefinition_Messaging_void_objc_msgSend_intptr_intptr:
 _p_205:
@@ -73432,7 +73672,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3616]
 br x16
-.word 8066
+.word 8053
 	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_void_objc_msgSendSuper_intptr_intptr
 plt__icall_native_ApiDefinition_Messaging_void_objc_msgSendSuper_intptr_intptr:
 _p_206:
@@ -73440,7 +73680,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3624]
 br x16
-.word 8068
+.word 8055
 	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_bool_objc_msgSend_IntPtr_intptr_intptr_intptr
 plt__icall_native_ApiDefinition_Messaging_bool_objc_msgSend_IntPtr_intptr_intptr_intptr:
 _p_207:
@@ -73448,7 +73688,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3632]
 br x16
-.word 8070
+.word 8057
 	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_bool_objc_msgSendSuper_IntPtr_intptr_intptr_intptr
 plt__icall_native_ApiDefinition_Messaging_bool_objc_msgSendSuper_IntPtr_intptr_intptr_intptr:
 _p_208:
@@ -73456,7 +73696,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3640]
 br x16
-.word 8072
+.word 8059
 	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_void_objc_msgSend_IntPtr_IntPtr_intptr_intptr_intptr_intptr
 plt__icall_native_ApiDefinition_Messaging_void_objc_msgSend_IntPtr_IntPtr_intptr_intptr_intptr_intptr:
 _p_209:
@@ -73464,7 +73704,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3648]
 br x16
-.word 8074
+.word 8061
 	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_void_objc_msgSendSuper_IntPtr_IntPtr_intptr_intptr_intptr_intptr
 plt__icall_native_ApiDefinition_Messaging_void_objc_msgSendSuper_IntPtr_IntPtr_intptr_intptr_intptr_intptr:
 _p_210:
@@ -73472,7 +73712,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3656]
 br x16
-.word 8076
+.word 8063
 	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_IntPtr_objc_msgSend_IntPtr_IntPtr_IntPtr_intptr_intptr_intptr_intptr_intptr
 plt__icall_native_ApiDefinition_Messaging_IntPtr_objc_msgSend_IntPtr_IntPtr_IntPtr_intptr_intptr_intptr_intptr_intptr:
 _p_211:
@@ -73480,7 +73720,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3664]
 br x16
-.word 8078
+.word 8065
 	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_IntPtr_objc_msgSendSuper_IntPtr_IntPtr_IntPtr_intptr_intptr_intptr_intptr_intptr
 plt__icall_native_ApiDefinition_Messaging_IntPtr_objc_msgSendSuper_IntPtr_IntPtr_IntPtr_intptr_intptr_intptr_intptr_intptr:
 _p_212:
@@ -73488,7 +73728,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3672]
 br x16
-.word 8080
+.word 8067
 	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_nuint_objc_msgSend_intptr_intptr
 plt__icall_native_ApiDefinition_Messaging_nuint_objc_msgSend_intptr_intptr:
 _p_213:
@@ -73496,7 +73736,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3680]
 br x16
-.word 8082
+.word 8069
 	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_nuint_objc_msgSendSuper_intptr_intptr
 plt__icall_native_ApiDefinition_Messaging_nuint_objc_msgSendSuper_intptr_intptr:
 _p_214:
@@ -73504,7 +73744,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3688]
 br x16
-.word 8084
+.word 8071
 	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_Double_objc_msgSend_intptr_intptr
 plt__icall_native_ApiDefinition_Messaging_Double_objc_msgSend_intptr_intptr:
 _p_215:
@@ -73512,7 +73752,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3696]
 br x16
-.word 8086
+.word 8073
 	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_Double_objc_msgSendSuper_intptr_intptr
 plt__icall_native_ApiDefinition_Messaging_Double_objc_msgSendSuper_intptr_intptr:
 _p_216:
@@ -73520,7 +73760,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3704]
 br x16
-.word 8088
+.word 8075
 	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_bool_objc_msgSend_UInt32_IntPtr_intptr_intptr_uint_intptr
 plt__icall_native_ApiDefinition_Messaging_bool_objc_msgSend_UInt32_IntPtr_intptr_intptr_uint_intptr:
 _p_217:
@@ -73528,7 +73768,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3712]
 br x16
-.word 8090
+.word 8077
 	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_bool_objc_msgSendSuper_UInt32_IntPtr_intptr_intptr_uint_intptr
 plt__icall_native_ApiDefinition_Messaging_bool_objc_msgSendSuper_UInt32_IntPtr_intptr_intptr_uint_intptr:
 _p_218:
@@ -73536,7 +73776,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3720]
 br x16
-.word 8092
+.word 8079
 	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_bool_objc_msgSend_UInt64_IntPtr_intptr_intptr_ulong_intptr
 plt__icall_native_ApiDefinition_Messaging_bool_objc_msgSend_UInt64_IntPtr_intptr_intptr_ulong_intptr:
 _p_219:
@@ -73544,7 +73784,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3728]
 br x16
-.word 8094
+.word 8081
 	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_bool_objc_msgSendSuper_UInt64_IntPtr_intptr_intptr_ulong_intptr
 plt__icall_native_ApiDefinition_Messaging_bool_objc_msgSendSuper_UInt64_IntPtr_intptr_intptr_ulong_intptr:
 _p_220:
@@ -73552,7 +73792,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3736]
 br x16
-.word 8096
+.word 8083
 	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_void_objc_msgSend_IntPtr_UInt32_intptr_intptr_intptr_uint
 plt__icall_native_ApiDefinition_Messaging_void_objc_msgSend_IntPtr_UInt32_intptr_intptr_intptr_uint:
 _p_221:
@@ -73560,7 +73800,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3744]
 br x16
-.word 8098
+.word 8085
 	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_void_objc_msgSendSuper_IntPtr_UInt32_intptr_intptr_intptr_uint
 plt__icall_native_ApiDefinition_Messaging_void_objc_msgSendSuper_IntPtr_UInt32_intptr_intptr_intptr_uint:
 _p_222:
@@ -73568,7 +73808,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3752]
 br x16
-.word 8100
+.word 8087
 	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_void_objc_msgSend_IntPtr_UInt64_intptr_intptr_intptr_ulong
 plt__icall_native_ApiDefinition_Messaging_void_objc_msgSend_IntPtr_UInt64_intptr_intptr_intptr_ulong:
 _p_223:
@@ -73576,7 +73816,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3760]
 br x16
-.word 8102
+.word 8089
 	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_void_objc_msgSendSuper_IntPtr_UInt64_intptr_intptr_intptr_ulong
 plt__icall_native_ApiDefinition_Messaging_void_objc_msgSendSuper_IntPtr_UInt64_intptr_intptr_intptr_ulong:
 _p_224:
@@ -73584,7 +73824,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3768]
 br x16
-.word 8104
+.word 8091
 	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_nint_objc_msgSend_IntPtr_nint_intptr_intptr_intptr_System_nint
 plt__icall_native_ApiDefinition_Messaging_nint_objc_msgSend_IntPtr_nint_intptr_intptr_intptr_System_nint:
 _p_225:
@@ -73592,7 +73832,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3776]
 br x16
-.word 8106
+.word 8093
 	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_nint_objc_msgSendSuper_IntPtr_nint_intptr_intptr_intptr_System_nint
 plt__icall_native_ApiDefinition_Messaging_nint_objc_msgSendSuper_IntPtr_nint_intptr_intptr_intptr_System_nint:
 _p_226:
@@ -73600,7 +73840,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3784]
 br x16
-.word 8108
+.word 8095
 	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_IntPtr_objc_msgSend_IntPtr_IntPtr_intptr_intptr_intptr_intptr
 plt__icall_native_ApiDefinition_Messaging_IntPtr_objc_msgSend_IntPtr_IntPtr_intptr_intptr_intptr_intptr:
 _p_227:
@@ -73608,7 +73848,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3792]
 br x16
-.word 8110
+.word 8097
 	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_IntPtr_objc_msgSendSuper_IntPtr_IntPtr_intptr_intptr_intptr_intptr
 plt__icall_native_ApiDefinition_Messaging_IntPtr_objc_msgSendSuper_IntPtr_IntPtr_intptr_intptr_intptr_intptr:
 _p_228:
@@ -73616,7 +73856,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3800]
 br x16
-.word 8112
+.word 8099
 	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_nint_objc_msgSend_IntPtr_intptr_intptr_intptr
 plt__icall_native_ApiDefinition_Messaging_nint_objc_msgSend_IntPtr_intptr_intptr_intptr:
 _p_229:
@@ -73624,7 +73864,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3808]
 br x16
-.word 8114
+.word 8101
 	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_nint_objc_msgSendSuper_IntPtr_intptr_intptr_intptr
 plt__icall_native_ApiDefinition_Messaging_nint_objc_msgSendSuper_IntPtr_intptr_intptr_intptr:
 _p_230:
@@ -73632,7 +73872,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3816]
 br x16
-.word 8116
+.word 8103
 	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_IntPtr_objc_msgSend_IntPtr_nint_intptr_intptr_intptr_System_nint
 plt__icall_native_ApiDefinition_Messaging_IntPtr_objc_msgSend_IntPtr_nint_intptr_intptr_intptr_System_nint:
 _p_231:
@@ -73640,7 +73880,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3824]
 br x16
-.word 8118
+.word 8105
 	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_IntPtr_objc_msgSendSuper_IntPtr_nint_intptr_intptr_intptr_System_nint
 plt__icall_native_ApiDefinition_Messaging_IntPtr_objc_msgSendSuper_IntPtr_nint_intptr_intptr_intptr_System_nint:
 _p_232:
@@ -73648,7 +73888,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3832]
 br x16
-.word 8120
+.word 8107
 	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_int_objc_msgSend_intptr_intptr
 plt__icall_native_ApiDefinition_Messaging_int_objc_msgSend_intptr_intptr:
 _p_233:
@@ -73656,7 +73896,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3840]
 br x16
-.word 8122
+.word 8109
 	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_int_objc_msgSendSuper_intptr_intptr
 plt__icall_native_ApiDefinition_Messaging_int_objc_msgSendSuper_intptr_intptr:
 _p_234:
@@ -73664,7 +73904,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3848]
 br x16
-.word 8124
+.word 8111
 	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_Int64_objc_msgSend_intptr_intptr
 plt__icall_native_ApiDefinition_Messaging_Int64_objc_msgSend_intptr_intptr:
 _p_235:
@@ -73672,7 +73912,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3856]
 br x16
-.word 8126
+.word 8113
 	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_Int64_objc_msgSendSuper_intptr_intptr
 plt__icall_native_ApiDefinition_Messaging_Int64_objc_msgSendSuper_intptr_intptr:
 _p_236:
@@ -73680,7 +73920,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3864]
 br x16
-.word 8128
+.word 8115
 	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_void_objc_msgSend_int_intptr_intptr_int
 plt__icall_native_ApiDefinition_Messaging_void_objc_msgSend_int_intptr_intptr_int:
 _p_237:
@@ -73688,7 +73928,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3872]
 br x16
-.word 8130
+.word 8117
 	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_void_objc_msgSendSuper_int_intptr_intptr_int
 plt__icall_native_ApiDefinition_Messaging_void_objc_msgSendSuper_int_intptr_intptr_int:
 _p_238:
@@ -73696,7 +73936,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3880]
 br x16
-.word 8132
+.word 8119
 	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_void_objc_msgSend_Int64_intptr_intptr_long
 plt__icall_native_ApiDefinition_Messaging_void_objc_msgSend_Int64_intptr_intptr_long:
 _p_239:
@@ -73704,7 +73944,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3888]
 br x16
-.word 8134
+.word 8121
 	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_void_objc_msgSendSuper_Int64_intptr_intptr_long
 plt__icall_native_ApiDefinition_Messaging_void_objc_msgSendSuper_Int64_intptr_intptr_long:
 _p_240:
@@ -73712,7 +73952,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3896]
 br x16
-.word 8136
+.word 8123
 	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_IntPtr_objc_msgSend_bool_intptr_intptr_bool
 plt__icall_native_ApiDefinition_Messaging_IntPtr_objc_msgSend_bool_intptr_intptr_bool:
 _p_241:
@@ -73720,7 +73960,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3904]
 br x16
-.word 8138
+.word 8125
 	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_IntPtr_objc_msgSendSuper_bool_intptr_intptr_bool
 plt__icall_native_ApiDefinition_Messaging_IntPtr_objc_msgSendSuper_bool_intptr_intptr_bool:
 _p_242:
@@ -73728,7 +73968,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3912]
 br x16
-.word 8140
+.word 8127
 	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_IntPtr_objc_msgSend_int_bool_intptr_intptr_int_bool
 plt__icall_native_ApiDefinition_Messaging_IntPtr_objc_msgSend_int_bool_intptr_intptr_int_bool:
 _p_243:
@@ -73736,7 +73976,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3920]
 br x16
-.word 8142
+.word 8129
 	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_IntPtr_objc_msgSendSuper_int_bool_intptr_intptr_int_bool
 plt__icall_native_ApiDefinition_Messaging_IntPtr_objc_msgSendSuper_int_bool_intptr_intptr_int_bool:
 _p_244:
@@ -73744,7 +73984,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3928]
 br x16
-.word 8144
+.word 8131
 	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_IntPtr_objc_msgSend_Int64_bool_intptr_intptr_long_bool
 plt__icall_native_ApiDefinition_Messaging_IntPtr_objc_msgSend_Int64_bool_intptr_intptr_long_bool:
 _p_245:
@@ -73752,7 +73992,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3936]
 br x16
-.word 8146
+.word 8133
 	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_IntPtr_objc_msgSendSuper_Int64_bool_intptr_intptr_long_bool
 plt__icall_native_ApiDefinition_Messaging_IntPtr_objc_msgSendSuper_Int64_bool_intptr_intptr_long_bool:
 _p_246:
@@ -73760,7 +74000,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3944]
 br x16
-.word 8148
+.word 8135
 	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_void_objc_msgSend_IntPtr_IntPtr_IntPtr_intptr_intptr_intptr_intptr_intptr
 plt__icall_native_ApiDefinition_Messaging_void_objc_msgSend_IntPtr_IntPtr_IntPtr_intptr_intptr_intptr_intptr_intptr:
 _p_247:
@@ -73768,7 +74008,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3952]
 br x16
-.word 8150
+.word 8137
 	.no_dead_strip plt__icall_native_ApiDefinition_Messaging_void_objc_msgSendSuper_IntPtr_IntPtr_IntPtr_intptr_intptr_intptr_intptr_intptr
 plt__icall_native_ApiDefinition_Messaging_void_objc_msgSendSuper_IntPtr_IntPtr_IntPtr_intptr_intptr_intptr_intptr_intptr:
 _p_248:
@@ -73776,7 +74016,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3960]
 br x16
-.word 8152
+.word 8139
 	.no_dead_strip plt__icall_native_ObjCRuntime_Trampolines__Block_copy_intptr
 plt__icall_native_ObjCRuntime_Trampolines__Block_copy_intptr:
 _p_249:
@@ -73784,7 +74024,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3968]
 br x16
-.word 8154
+.word 8141
 	.no_dead_strip plt__icall_native_ObjCRuntime_Trampolines__Block_release_intptr
 plt__icall_native_ObjCRuntime_Trampolines__Block_release_intptr:
 _p_250:
@@ -73792,7 +74032,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3976]
 br x16
-.word 8156
+.word 8143
 	.no_dead_strip plt__icall_native_Xamarin_ObjCRuntime_Messaging_void_objc_msgSend_intptr_intptr
 plt__icall_native_Xamarin_ObjCRuntime_Messaging_void_objc_msgSend_intptr_intptr:
 _p_251:
@@ -73800,7 +74040,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3984]
 br x16
-.word 8158
+.word 8145
 	.no_dead_strip plt__icall_native_HockeyApp_iOS_BITHockeyManager_sigaction_HockeyApp_iOS_BITHockeyManager_Signal_intptr_intptr
 plt__icall_native_HockeyApp_iOS_BITHockeyManager_sigaction_HockeyApp_iOS_BITHockeyManager_Signal_intptr_intptr:
 _p_252:
@@ -73808,7 +74048,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #3992]
 br x16
-.word 8160
+.word 8147
 	.no_dead_strip plt__icall_native_HockeyApp_iOS_BITHockeyManager_NSGetUncaughtExceptionHandler
 plt__icall_native_HockeyApp_iOS_BITHockeyManager_NSGetUncaughtExceptionHandler:
 _p_253:
@@ -73816,7 +74056,7 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #4000]
 br x16
-.word 8162
+.word 8149
 	.no_dead_strip plt_ObjCRuntime_Trampolines_SDBITAuthenticatorIdentifyCallback_Invoke_intptr_bool_intptr
 plt_ObjCRuntime_Trampolines_SDBITAuthenticatorIdentifyCallback_Invoke_intptr_bool_intptr:
 _p_254:
@@ -73824,43 +74064,67 @@ adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #4008]
 br x16
-.word 8165
-	.no_dead_strip plt_ObjCRuntime_Trampolines_SDBITAuthenticatorValidateCallback_Invoke_intptr_bool_intptr
-plt_ObjCRuntime_Trampolines_SDBITAuthenticatorValidateCallback_Invoke_intptr_bool_intptr:
+.word 8152
+	.no_dead_strip plt__jit_icall_mono_gchandle_new
+plt__jit_icall_mono_gchandle_new:
 _p_255:
 adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #4016]
 br x16
-.word 8167
-	.no_dead_strip plt_ObjCRuntime_Trampolines_SDBITLogHandler_Invoke_intptr_intptr_System_nuint_intptr_intptr_uint
-plt_ObjCRuntime_Trampolines_SDBITLogHandler_Invoke_intptr_intptr_System_nuint_intptr_intptr_uint:
+.word 8154
+	.no_dead_strip plt__jit_icall_mono_thread_get_undeniable_exception
+plt__jit_icall_mono_thread_get_undeniable_exception:
 _p_256:
 adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #4024]
 br x16
-.word 8169
-	.no_dead_strip plt_ObjCRuntime_Trampolines_SDAction_Invoke_intptr
-plt_ObjCRuntime_Trampolines_SDAction_Invoke_intptr:
+.word 8174
+	.no_dead_strip plt__jit_icall_mono_marshal_ftnptr_eh_callback
+plt__jit_icall_mono_marshal_ftnptr_eh_callback:
 _p_257:
 adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #4032]
 br x16
-.word 8171
-	.no_dead_strip plt_ObjCRuntime_Trampolines_SDBITLogMessageProvider_Invoke_intptr
-plt_ObjCRuntime_Trampolines_SDBITLogMessageProvider_Invoke_intptr:
+.word 8213
+	.no_dead_strip plt_ObjCRuntime_Trampolines_SDBITAuthenticatorValidateCallback_Invoke_intptr_bool_intptr
+plt_ObjCRuntime_Trampolines_SDBITAuthenticatorValidateCallback_Invoke_intptr_bool_intptr:
 _p_258:
 adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
 add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
 ldr x16, [x16, #4040]
 br x16
-.word 8173
+.word 8247
+	.no_dead_strip plt_ObjCRuntime_Trampolines_SDBITLogHandler_Invoke_intptr_intptr_System_nuint_intptr_intptr_uint
+plt_ObjCRuntime_Trampolines_SDBITLogHandler_Invoke_intptr_intptr_System_nuint_intptr_intptr_uint:
+_p_259:
+adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
+add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
+ldr x16, [x16, #4048]
+br x16
+.word 8249
+	.no_dead_strip plt_ObjCRuntime_Trampolines_SDAction_Invoke_intptr
+plt_ObjCRuntime_Trampolines_SDAction_Invoke_intptr:
+_p_260:
+adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
+add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
+ldr x16, [x16, #4056]
+br x16
+.word 8251
+	.no_dead_strip plt_ObjCRuntime_Trampolines_SDBITLogMessageProvider_Invoke_intptr
+plt_ObjCRuntime_Trampolines_SDBITLogMessageProvider_Invoke_intptr:
+_p_261:
+adrp x16, mono_aot_HockeySDK_iOSBindings_got@PAGE+4096
+add x16, x16, mono_aot_HockeySDK_iOSBindings_got@PAGEOFF
+ldr x16, [x16, #4064]
+br x16
+.word 8253
 plt_end:
 .section __DATA, __bss
 	.align 3
-.lcomm mono_aot_HockeySDK_iOSBindings_got, 8144
+.lcomm mono_aot_HockeySDK_iOSBindings_got, 8168
 got_end:
 .section	__DATA,__objc_selrefs,literal_pointers,no_dead_strip
 .align	3
@@ -74960,13 +75224,13 @@ _mono_aot_file_info:
 	.align 3
 	.quad unbox_trampoline_addresses
 
-	.long 759,8144,259,665,70,387000831,0,114066
-	.long 128,8,8,8,0,25,121568,7496
+	.long 759,8168,262,665,70,387000831,0,114852
+	.long 128,8,8,8,0,25,122360,7496
 	.long 7216,3936,0,5680,7040,4672,0,3128
 	.long 920,7488,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0
-	.byte 53,225,204,197,224,176,36,151,183,27,222,111,45,48,20,180
+	.byte 249,94,91,151,67,9,73,47,174,9,221,43,25,115,251,87
 	.globl _mono_aot_module_HockeySDK_iOSBindings_info
 	.align 3
 _mono_aot_module_HockeySDK_iOSBindings_info:
@@ -81855,29 +82119,34 @@ LTDIE_72:
 	.byte 5
 	.asciz "UIKit_UIViewController"
 
-	.byte 48,16
+	.byte 56,16
 LDIFF_SYM864=LTDIE_73 - Ldebug_info_start
 	.long LDIFF_SYM864
 	.byte 2,35,0,6
-	.asciz "__mt_WeakTransitioningDelegate_var"
+	.asciz "__mt_PreferredFocusedView_var"
 
 LDIFF_SYM865=LDIE_OBJECT - Ldebug_info_start
 	.long LDIFF_SYM865
-	.byte 2,35,40,0,7
+	.byte 2,35,40,6
+	.asciz "__mt_WeakTransitioningDelegate_var"
+
+LDIFF_SYM866=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM866
+	.byte 2,35,48,0,7
 	.asciz "UIKit_UIViewController"
 
-LDIFF_SYM866=LTDIE_72 - Ldebug_info_start
-	.long LDIFF_SYM866
+LDIFF_SYM867=LTDIE_72 - Ldebug_info_start
+	.long LDIFF_SYM867
 LTDIE_72_POINTER:
 
 	.byte 13
-LDIFF_SYM867=LTDIE_72 - Ldebug_info_start
-	.long LDIFF_SYM867
+LDIFF_SYM868=LTDIE_72 - Ldebug_info_start
+	.long LDIFF_SYM868
 LTDIE_72_REFERENCE:
 
 	.byte 14
-LDIFF_SYM868=LTDIE_72 - Ldebug_info_start
-	.long LDIFF_SYM868
+LDIFF_SYM869=LTDIE_72 - Ldebug_info_start
+	.long LDIFF_SYM869
 	.byte 2
 	.asciz "HockeyApp.iOS.BITAuthenticatorDelegate_Extensions:WillShowAuthenticationController"
 	.asciz "HockeyApp_iOS_BITAuthenticatorDelegate_Extensions_WillShowAuthenticationController_HockeyApp_iOS_IBITAuthenticatorDelegate_HockeyApp_iOS_BITAuthenticator_UIKit_UIViewController"
@@ -81889,32 +82158,32 @@ LDIFF_SYM868=LTDIE_72 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "This"
 
-LDIFF_SYM869=LTDIE_71_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM869
+LDIFF_SYM870=LTDIE_71_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM870
 	.byte 2,141,32,3
 	.asciz "authenticator"
 
-LDIFF_SYM870=LTDIE_54_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM870
+LDIFF_SYM871=LTDIE_54_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM871
 	.byte 1,105,3
 	.asciz "viewController"
 
-LDIFF_SYM871=LTDIE_72_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM871
+LDIFF_SYM872=LTDIE_72_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM872
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM872=Lfde121_end - Lfde121_start
-	.long LDIFF_SYM872
+LDIFF_SYM873=Lfde121_end - Lfde121_start
+	.long LDIFF_SYM873
 Lfde121_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITAuthenticatorDelegate_Extensions_WillShowAuthenticationController_HockeyApp_iOS_IBITAuthenticatorDelegate_HockeyApp_iOS_BITAuthenticator_UIKit_UIViewController
 
-LDIFF_SYM873=Lme_d6 - HockeyApp_iOS_BITAuthenticatorDelegate_Extensions_WillShowAuthenticationController_HockeyApp_iOS_IBITAuthenticatorDelegate_HockeyApp_iOS_BITAuthenticator_UIKit_UIViewController
-	.long LDIFF_SYM873
+LDIFF_SYM874=Lme_d6 - HockeyApp_iOS_BITAuthenticatorDelegate_Extensions_WillShowAuthenticationController_HockeyApp_iOS_IBITAuthenticatorDelegate_HockeyApp_iOS_BITAuthenticator_UIKit_UIViewController
+	.long LDIFF_SYM874
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,154,9
 	.align 3
@@ -81927,51 +82196,51 @@ LTDIE_75:
 	.asciz "ObjCRuntime_BaseWrapper"
 
 	.byte 24,16
-LDIFF_SYM874=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM874
+LDIFF_SYM875=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM875
 	.byte 2,35,0,6
 	.asciz "<Handle>k__BackingField"
 
-LDIFF_SYM875=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM875
+LDIFF_SYM876=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM876
 	.byte 2,35,16,0,7
 	.asciz "ObjCRuntime_BaseWrapper"
 
-LDIFF_SYM876=LTDIE_75 - Ldebug_info_start
-	.long LDIFF_SYM876
+LDIFF_SYM877=LTDIE_75 - Ldebug_info_start
+	.long LDIFF_SYM877
 LTDIE_75_POINTER:
 
 	.byte 13
-LDIFF_SYM877=LTDIE_75 - Ldebug_info_start
-	.long LDIFF_SYM877
+LDIFF_SYM878=LTDIE_75 - Ldebug_info_start
+	.long LDIFF_SYM878
 LTDIE_75_REFERENCE:
 
 	.byte 14
-LDIFF_SYM878=LTDIE_75 - Ldebug_info_start
-	.long LDIFF_SYM878
+LDIFF_SYM879=LTDIE_75 - Ldebug_info_start
+	.long LDIFF_SYM879
 LTDIE_74:
 
 	.byte 5
 	.asciz "HockeyApp_iOS_BITAuthenticatorDelegateWrapper"
 
 	.byte 24,16
-LDIFF_SYM879=LTDIE_75 - Ldebug_info_start
-	.long LDIFF_SYM879
+LDIFF_SYM880=LTDIE_75 - Ldebug_info_start
+	.long LDIFF_SYM880
 	.byte 2,35,0,0,7
 	.asciz "HockeyApp_iOS_BITAuthenticatorDelegateWrapper"
 
-LDIFF_SYM880=LTDIE_74 - Ldebug_info_start
-	.long LDIFF_SYM880
+LDIFF_SYM881=LTDIE_74 - Ldebug_info_start
+	.long LDIFF_SYM881
 LTDIE_74_POINTER:
 
 	.byte 13
-LDIFF_SYM881=LTDIE_74 - Ldebug_info_start
-	.long LDIFF_SYM881
+LDIFF_SYM882=LTDIE_74 - Ldebug_info_start
+	.long LDIFF_SYM882
 LTDIE_74_REFERENCE:
 
 	.byte 14
-LDIFF_SYM882=LTDIE_74 - Ldebug_info_start
-	.long LDIFF_SYM882
+LDIFF_SYM883=LTDIE_74 - Ldebug_info_start
+	.long LDIFF_SYM883
 	.byte 2
 	.asciz "HockeyApp.iOS.BITAuthenticatorDelegateWrapper:.ctor"
 	.asciz "HockeyApp_iOS_BITAuthenticatorDelegateWrapper__ctor_intptr_bool"
@@ -81983,32 +82252,32 @@ LDIFF_SYM882=LTDIE_74 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM883=LTDIE_74_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM883
+LDIFF_SYM884=LTDIE_74_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM884
 	.byte 2,141,16,3
 	.asciz "handle"
 
-LDIFF_SYM884=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM884
+LDIFF_SYM885=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM885
 	.byte 2,141,24,3
 	.asciz "owns"
 
-LDIFF_SYM885=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM885
+LDIFF_SYM886=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM886
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM886=Lfde122_end - Lfde122_start
-	.long LDIFF_SYM886
+LDIFF_SYM887=Lfde122_end - Lfde122_start
+	.long LDIFF_SYM887
 Lfde122_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITAuthenticatorDelegateWrapper__ctor_intptr_bool
 
-LDIFF_SYM887=Lme_d7 - HockeyApp_iOS_BITAuthenticatorDelegateWrapper__ctor_intptr_bool
-	.long LDIFF_SYM887
+LDIFF_SYM888=Lme_d7 - HockeyApp_iOS_BITAuthenticatorDelegateWrapper__ctor_intptr_bool
+	.long LDIFF_SYM888
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -82021,23 +82290,23 @@ LTDIE_76:
 	.asciz "HockeyApp_iOS_BITAuthenticatorDelegate"
 
 	.byte 40,16
-LDIFF_SYM888=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM888
+LDIFF_SYM889=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM889
 	.byte 2,35,0,0,7
 	.asciz "HockeyApp_iOS_BITAuthenticatorDelegate"
 
-LDIFF_SYM889=LTDIE_76 - Ldebug_info_start
-	.long LDIFF_SYM889
+LDIFF_SYM890=LTDIE_76 - Ldebug_info_start
+	.long LDIFF_SYM890
 LTDIE_76_POINTER:
 
 	.byte 13
-LDIFF_SYM890=LTDIE_76 - Ldebug_info_start
-	.long LDIFF_SYM890
+LDIFF_SYM891=LTDIE_76 - Ldebug_info_start
+	.long LDIFF_SYM891
 LTDIE_76_REFERENCE:
 
 	.byte 14
-LDIFF_SYM891=LTDIE_76 - Ldebug_info_start
-	.long LDIFF_SYM891
+LDIFF_SYM892=LTDIE_76 - Ldebug_info_start
+	.long LDIFF_SYM892
 	.byte 2
 	.asciz "HockeyApp.iOS.BITAuthenticatorDelegate:.ctor"
 	.asciz "HockeyApp_iOS_BITAuthenticatorDelegate__ctor"
@@ -82049,22 +82318,22 @@ LDIFF_SYM891=LTDIE_76 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM892=LTDIE_76_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM892
+LDIFF_SYM893=LTDIE_76_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM893
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM893=Lfde123_end - Lfde123_start
-	.long LDIFF_SYM893
+LDIFF_SYM894=Lfde123_end - Lfde123_start
+	.long LDIFF_SYM894
 Lfde123_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITAuthenticatorDelegate__ctor
 
-LDIFF_SYM894=Lme_d8 - HockeyApp_iOS_BITAuthenticatorDelegate__ctor
-	.long LDIFF_SYM894
+LDIFF_SYM895=Lme_d8 - HockeyApp_iOS_BITAuthenticatorDelegate__ctor
+	.long LDIFF_SYM895
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
@@ -82083,27 +82352,27 @@ Lfde123_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM895=LTDIE_76_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM895
+LDIFF_SYM896=LTDIE_76_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM896
 	.byte 1,105,3
 	.asciz "t"
 
-LDIFF_SYM896=LTDIE_52_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM896
+LDIFF_SYM897=LTDIE_52_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM897
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM897=Lfde124_end - Lfde124_start
-	.long LDIFF_SYM897
+LDIFF_SYM898=Lfde124_end - Lfde124_start
+	.long LDIFF_SYM898
 Lfde124_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITAuthenticatorDelegate__ctor_Foundation_NSObjectFlag
 
-LDIFF_SYM898=Lme_d9 - HockeyApp_iOS_BITAuthenticatorDelegate__ctor_Foundation_NSObjectFlag
-	.long LDIFF_SYM898
+LDIFF_SYM899=Lme_d9 - HockeyApp_iOS_BITAuthenticatorDelegate__ctor_Foundation_NSObjectFlag
+	.long LDIFF_SYM899
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10
 	.align 3
@@ -82122,27 +82391,27 @@ Lfde124_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM899=LTDIE_76_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM899
+LDIFF_SYM900=LTDIE_76_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM900
 	.byte 1,105,3
 	.asciz "handle"
 
-LDIFF_SYM900=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM900
+LDIFF_SYM901=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM901
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM901=Lfde125_end - Lfde125_start
-	.long LDIFF_SYM901
+LDIFF_SYM902=Lfde125_end - Lfde125_start
+	.long LDIFF_SYM902
 Lfde125_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITAuthenticatorDelegate__ctor_intptr
 
-LDIFF_SYM902=Lme_da - HockeyApp_iOS_BITAuthenticatorDelegate__ctor_intptr
-	.long LDIFF_SYM902
+LDIFF_SYM903=Lme_da - HockeyApp_iOS_BITAuthenticatorDelegate__ctor_intptr
+	.long LDIFF_SYM903
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10
 	.align 3
@@ -82161,32 +82430,32 @@ Lfde125_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM903=LTDIE_76_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM903
+LDIFF_SYM904=LTDIE_76_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM904
 	.byte 2,141,16,3
 	.asciz "authenticator"
 
-LDIFF_SYM904=LTDIE_54_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM904
+LDIFF_SYM905=LTDIE_54_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM905
 	.byte 2,141,24,3
 	.asciz "viewController"
 
-LDIFF_SYM905=LTDIE_72_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM905
+LDIFF_SYM906=LTDIE_72_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM906
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM906=Lfde126_end - Lfde126_start
-	.long LDIFF_SYM906
+LDIFF_SYM907=Lfde126_end - Lfde126_start
+	.long LDIFF_SYM907
 Lfde126_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITAuthenticatorDelegate_WillShowAuthenticationController_HockeyApp_iOS_BITAuthenticator_UIKit_UIViewController
 
-LDIFF_SYM907=Lme_db - HockeyApp_iOS_BITAuthenticatorDelegate_WillShowAuthenticationController_HockeyApp_iOS_BITAuthenticator_UIKit_UIViewController
-	.long LDIFF_SYM907
+LDIFF_SYM908=Lme_db - HockeyApp_iOS_BITAuthenticatorDelegate_WillShowAuthenticationController_HockeyApp_iOS_BITAuthenticator_UIKit_UIViewController
+	.long LDIFF_SYM908
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
@@ -82199,46 +82468,46 @@ LTDIE_78:
 	.asciz "HockeyApp_iOS_BITHockeyAttachment"
 
 	.byte 40,16
-LDIFF_SYM908=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM908
+LDIFF_SYM909=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM909
 	.byte 2,35,0,0,7
 	.asciz "HockeyApp_iOS_BITHockeyAttachment"
 
-LDIFF_SYM909=LTDIE_78 - Ldebug_info_start
-	.long LDIFF_SYM909
+LDIFF_SYM910=LTDIE_78 - Ldebug_info_start
+	.long LDIFF_SYM910
 LTDIE_78_POINTER:
 
 	.byte 13
-LDIFF_SYM910=LTDIE_78 - Ldebug_info_start
-	.long LDIFF_SYM910
+LDIFF_SYM911=LTDIE_78 - Ldebug_info_start
+	.long LDIFF_SYM911
 LTDIE_78_REFERENCE:
 
 	.byte 14
-LDIFF_SYM911=LTDIE_78 - Ldebug_info_start
-	.long LDIFF_SYM911
+LDIFF_SYM912=LTDIE_78 - Ldebug_info_start
+	.long LDIFF_SYM912
 LTDIE_77:
 
 	.byte 5
 	.asciz "HockeyApp_iOS_BITCrashAttachment"
 
 	.byte 40,16
-LDIFF_SYM912=LTDIE_78 - Ldebug_info_start
-	.long LDIFF_SYM912
+LDIFF_SYM913=LTDIE_78 - Ldebug_info_start
+	.long LDIFF_SYM913
 	.byte 2,35,0,0,7
 	.asciz "HockeyApp_iOS_BITCrashAttachment"
 
-LDIFF_SYM913=LTDIE_77 - Ldebug_info_start
-	.long LDIFF_SYM913
+LDIFF_SYM914=LTDIE_77 - Ldebug_info_start
+	.long LDIFF_SYM914
 LTDIE_77_POINTER:
 
 	.byte 13
-LDIFF_SYM914=LTDIE_77 - Ldebug_info_start
-	.long LDIFF_SYM914
+LDIFF_SYM915=LTDIE_77 - Ldebug_info_start
+	.long LDIFF_SYM915
 LTDIE_77_REFERENCE:
 
 	.byte 14
-LDIFF_SYM915=LTDIE_77 - Ldebug_info_start
-	.long LDIFF_SYM915
+LDIFF_SYM916=LTDIE_77 - Ldebug_info_start
+	.long LDIFF_SYM916
 	.byte 2
 	.asciz "HockeyApp.iOS.BITCrashAttachment:get_ClassHandle"
 	.asciz "HockeyApp_iOS_BITCrashAttachment_get_ClassHandle"
@@ -82250,22 +82519,22 @@ LDIFF_SYM915=LTDIE_77 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM916=LTDIE_77_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM916
+LDIFF_SYM917=LTDIE_77_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM917
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM917=Lfde127_end - Lfde127_start
-	.long LDIFF_SYM917
+LDIFF_SYM918=Lfde127_end - Lfde127_start
+	.long LDIFF_SYM918
 Lfde127_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITCrashAttachment_get_ClassHandle
 
-LDIFF_SYM918=Lme_dc - HockeyApp_iOS_BITCrashAttachment_get_ClassHandle
-	.long LDIFF_SYM918
+LDIFF_SYM919=Lme_dc - HockeyApp_iOS_BITCrashAttachment_get_ClassHandle
+	.long LDIFF_SYM919
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -82284,22 +82553,22 @@ Lfde127_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM919=LTDIE_77_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM919
+LDIFF_SYM920=LTDIE_77_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM920
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM920=Lfde128_end - Lfde128_start
-	.long LDIFF_SYM920
+LDIFF_SYM921=Lfde128_end - Lfde128_start
+	.long LDIFF_SYM921
 Lfde128_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITCrashAttachment__ctor
 
-LDIFF_SYM921=Lme_dd - HockeyApp_iOS_BITCrashAttachment__ctor
-	.long LDIFF_SYM921
+LDIFF_SYM922=Lme_dd - HockeyApp_iOS_BITCrashAttachment__ctor
+	.long LDIFF_SYM922
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
@@ -82312,23 +82581,23 @@ LTDIE_79:
 	.asciz "Foundation_NSCoder"
 
 	.byte 40,16
-LDIFF_SYM922=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM922
+LDIFF_SYM923=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM923
 	.byte 2,35,0,0,7
 	.asciz "Foundation_NSCoder"
 
-LDIFF_SYM923=LTDIE_79 - Ldebug_info_start
-	.long LDIFF_SYM923
+LDIFF_SYM924=LTDIE_79 - Ldebug_info_start
+	.long LDIFF_SYM924
 LTDIE_79_POINTER:
 
 	.byte 13
-LDIFF_SYM924=LTDIE_79 - Ldebug_info_start
-	.long LDIFF_SYM924
+LDIFF_SYM925=LTDIE_79 - Ldebug_info_start
+	.long LDIFF_SYM925
 LTDIE_79_REFERENCE:
 
 	.byte 14
-LDIFF_SYM925=LTDIE_79 - Ldebug_info_start
-	.long LDIFF_SYM925
+LDIFF_SYM926=LTDIE_79 - Ldebug_info_start
+	.long LDIFF_SYM926
 	.byte 2
 	.asciz "HockeyApp.iOS.BITCrashAttachment:.ctor"
 	.asciz "HockeyApp_iOS_BITCrashAttachment__ctor_Foundation_NSCoder"
@@ -82340,27 +82609,27 @@ LDIFF_SYM925=LTDIE_79 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM926=LTDIE_77_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM926
+LDIFF_SYM927=LTDIE_77_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM927
 	.byte 1,105,3
 	.asciz "coder"
 
-LDIFF_SYM927=LTDIE_79_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM927
+LDIFF_SYM928=LTDIE_79_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM928
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM928=Lfde129_end - Lfde129_start
-	.long LDIFF_SYM928
+LDIFF_SYM929=Lfde129_end - Lfde129_start
+	.long LDIFF_SYM929
 Lfde129_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITCrashAttachment__ctor_Foundation_NSCoder
 
-LDIFF_SYM929=Lme_de - HockeyApp_iOS_BITCrashAttachment__ctor_Foundation_NSCoder
-	.long LDIFF_SYM929
+LDIFF_SYM930=Lme_de - HockeyApp_iOS_BITCrashAttachment__ctor_Foundation_NSCoder
+	.long LDIFF_SYM930
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,154,9
 	.align 3
@@ -82379,27 +82648,27 @@ Lfde129_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM930=LTDIE_77_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM930
+LDIFF_SYM931=LTDIE_77_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM931
 	.byte 1,105,3
 	.asciz "t"
 
-LDIFF_SYM931=LTDIE_52_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM931
+LDIFF_SYM932=LTDIE_52_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM932
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM932=Lfde130_end - Lfde130_start
-	.long LDIFF_SYM932
+LDIFF_SYM933=Lfde130_end - Lfde130_start
+	.long LDIFF_SYM933
 Lfde130_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITCrashAttachment__ctor_Foundation_NSObjectFlag
 
-LDIFF_SYM933=Lme_df - HockeyApp_iOS_BITCrashAttachment__ctor_Foundation_NSObjectFlag
-	.long LDIFF_SYM933
+LDIFF_SYM934=Lme_df - HockeyApp_iOS_BITCrashAttachment__ctor_Foundation_NSObjectFlag
+	.long LDIFF_SYM934
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10
 	.align 3
@@ -82418,27 +82687,27 @@ Lfde130_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM934=LTDIE_77_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM934
+LDIFF_SYM935=LTDIE_77_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM935
 	.byte 1,105,3
 	.asciz "handle"
 
-LDIFF_SYM935=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM935
+LDIFF_SYM936=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM936
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM936=Lfde131_end - Lfde131_start
-	.long LDIFF_SYM936
+LDIFF_SYM937=Lfde131_end - Lfde131_start
+	.long LDIFF_SYM937
 Lfde131_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITCrashAttachment__ctor_intptr
 
-LDIFF_SYM937=Lme_e0 - HockeyApp_iOS_BITCrashAttachment__ctor_intptr
-	.long LDIFF_SYM937
+LDIFF_SYM938=Lme_e0 - HockeyApp_iOS_BITCrashAttachment__ctor_intptr
+	.long LDIFF_SYM938
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10
 	.align 3
@@ -82451,23 +82720,23 @@ LTDIE_80:
 	.asciz "Foundation_NSData"
 
 	.byte 40,16
-LDIFF_SYM938=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM938
+LDIFF_SYM939=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM939
 	.byte 2,35,0,0,7
 	.asciz "Foundation_NSData"
 
-LDIFF_SYM939=LTDIE_80 - Ldebug_info_start
-	.long LDIFF_SYM939
+LDIFF_SYM940=LTDIE_80 - Ldebug_info_start
+	.long LDIFF_SYM940
 LTDIE_80_POINTER:
 
 	.byte 13
-LDIFF_SYM940=LTDIE_80 - Ldebug_info_start
-	.long LDIFF_SYM940
+LDIFF_SYM941=LTDIE_80 - Ldebug_info_start
+	.long LDIFF_SYM941
 LTDIE_80_REFERENCE:
 
 	.byte 14
-LDIFF_SYM941=LTDIE_80 - Ldebug_info_start
-	.long LDIFF_SYM941
+LDIFF_SYM942=LTDIE_80 - Ldebug_info_start
+	.long LDIFF_SYM942
 	.byte 2
 	.asciz "HockeyApp.iOS.BITCrashAttachment:.ctor"
 	.asciz "HockeyApp_iOS_BITCrashAttachment__ctor_string_Foundation_NSData_string"
@@ -82479,47 +82748,47 @@ LDIFF_SYM941=LTDIE_80 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM942=LTDIE_77_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM942
+LDIFF_SYM943=LTDIE_77_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM943
 	.byte 1,103,3
 	.asciz "filename"
 
-LDIFF_SYM943=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM943
+LDIFF_SYM944=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM944
 	.byte 1,104,3
 	.asciz "crashAttachmentData"
 
-LDIFF_SYM944=LTDIE_80_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM944
+LDIFF_SYM945=LTDIE_80_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM945
 	.byte 1,105,3
 	.asciz "contentType"
 
-LDIFF_SYM945=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM945
+LDIFF_SYM946=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM946
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM946=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM946
+LDIFF_SYM947=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM947
 	.byte 1,102,11
 	.asciz "V_1"
 
-LDIFF_SYM947=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM947
+LDIFF_SYM948=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM948
 	.byte 1,101,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM948=Lfde132_end - Lfde132_start
-	.long LDIFF_SYM948
+LDIFF_SYM949=Lfde132_end - Lfde132_start
+	.long LDIFF_SYM949
 Lfde132_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITCrashAttachment__ctor_string_Foundation_NSData_string
 
-LDIFF_SYM949=Lme_e1 - HockeyApp_iOS_BITCrashAttachment__ctor_string_Foundation_NSData_string
-	.long LDIFF_SYM949
+LDIFF_SYM950=Lme_e1 - HockeyApp_iOS_BITCrashAttachment__ctor_string_Foundation_NSData_string
+	.long LDIFF_SYM950
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,149,16,150,15,68,151,14,152,13,68,153,12,154,11
 	.align 3
@@ -82539,16 +82808,16 @@ Lfde132_end:
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM950=Lfde133_end - Lfde133_start
-	.long LDIFF_SYM950
+LDIFF_SYM951=Lfde133_end - Lfde133_start
+	.long LDIFF_SYM951
 Lfde133_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITCrashAttachment__cctor
 
-LDIFF_SYM951=Lme_e2 - HockeyApp_iOS_BITCrashAttachment__cctor
-	.long LDIFF_SYM951
+LDIFF_SYM952=Lme_e2 - HockeyApp_iOS_BITCrashAttachment__cctor
+	.long LDIFF_SYM952
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -82561,23 +82830,23 @@ LTDIE_81:
 	.asciz "HockeyApp_iOS_BITCrashDetails"
 
 	.byte 40,16
-LDIFF_SYM952=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM952
+LDIFF_SYM953=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM953
 	.byte 2,35,0,0,7
 	.asciz "HockeyApp_iOS_BITCrashDetails"
 
-LDIFF_SYM953=LTDIE_81 - Ldebug_info_start
-	.long LDIFF_SYM953
+LDIFF_SYM954=LTDIE_81 - Ldebug_info_start
+	.long LDIFF_SYM954
 LTDIE_81_POINTER:
 
 	.byte 13
-LDIFF_SYM954=LTDIE_81 - Ldebug_info_start
-	.long LDIFF_SYM954
+LDIFF_SYM955=LTDIE_81 - Ldebug_info_start
+	.long LDIFF_SYM955
 LTDIE_81_REFERENCE:
 
 	.byte 14
-LDIFF_SYM955=LTDIE_81 - Ldebug_info_start
-	.long LDIFF_SYM955
+LDIFF_SYM956=LTDIE_81 - Ldebug_info_start
+	.long LDIFF_SYM956
 	.byte 2
 	.asciz "HockeyApp.iOS.BITCrashDetails:get_ClassHandle"
 	.asciz "HockeyApp_iOS_BITCrashDetails_get_ClassHandle"
@@ -82589,22 +82858,22 @@ LDIFF_SYM955=LTDIE_81 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM956=LTDIE_81_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM956
+LDIFF_SYM957=LTDIE_81_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM957
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM957=Lfde134_end - Lfde134_start
-	.long LDIFF_SYM957
+LDIFF_SYM958=Lfde134_end - Lfde134_start
+	.long LDIFF_SYM958
 Lfde134_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITCrashDetails_get_ClassHandle
 
-LDIFF_SYM958=Lme_e3 - HockeyApp_iOS_BITCrashDetails_get_ClassHandle
-	.long LDIFF_SYM958
+LDIFF_SYM959=Lme_e3 - HockeyApp_iOS_BITCrashDetails_get_ClassHandle
+	.long LDIFF_SYM959
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -82623,22 +82892,22 @@ Lfde134_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM959=LTDIE_81_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM959
+LDIFF_SYM960=LTDIE_81_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM960
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM960=Lfde135_end - Lfde135_start
-	.long LDIFF_SYM960
+LDIFF_SYM961=Lfde135_end - Lfde135_start
+	.long LDIFF_SYM961
 Lfde135_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITCrashDetails__ctor
 
-LDIFF_SYM961=Lme_e4 - HockeyApp_iOS_BITCrashDetails__ctor
-	.long LDIFF_SYM961
+LDIFF_SYM962=Lme_e4 - HockeyApp_iOS_BITCrashDetails__ctor
+	.long LDIFF_SYM962
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
@@ -82657,27 +82926,27 @@ Lfde135_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM962=LTDIE_81_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM962
+LDIFF_SYM963=LTDIE_81_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM963
 	.byte 1,105,3
 	.asciz "t"
 
-LDIFF_SYM963=LTDIE_52_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM963
+LDIFF_SYM964=LTDIE_52_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM964
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM964=Lfde136_end - Lfde136_start
-	.long LDIFF_SYM964
+LDIFF_SYM965=Lfde136_end - Lfde136_start
+	.long LDIFF_SYM965
 Lfde136_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITCrashDetails__ctor_Foundation_NSObjectFlag
 
-LDIFF_SYM965=Lme_e5 - HockeyApp_iOS_BITCrashDetails__ctor_Foundation_NSObjectFlag
-	.long LDIFF_SYM965
+LDIFF_SYM966=Lme_e5 - HockeyApp_iOS_BITCrashDetails__ctor_Foundation_NSObjectFlag
+	.long LDIFF_SYM966
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10
 	.align 3
@@ -82696,27 +82965,27 @@ Lfde136_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM966=LTDIE_81_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM966
+LDIFF_SYM967=LTDIE_81_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM967
 	.byte 1,105,3
 	.asciz "handle"
 
-LDIFF_SYM967=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM967
+LDIFF_SYM968=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM968
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM968=Lfde137_end - Lfde137_start
-	.long LDIFF_SYM968
+LDIFF_SYM969=Lfde137_end - Lfde137_start
+	.long LDIFF_SYM969
 Lfde137_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITCrashDetails__ctor_intptr
 
-LDIFF_SYM969=Lme_e6 - HockeyApp_iOS_BITCrashDetails__ctor_intptr
-	.long LDIFF_SYM969
+LDIFF_SYM970=Lme_e6 - HockeyApp_iOS_BITCrashDetails__ctor_intptr
+	.long LDIFF_SYM970
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10
 	.align 3
@@ -82735,22 +83004,22 @@ Lfde137_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM970=LTDIE_81_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM970
+LDIFF_SYM971=LTDIE_81_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM971
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM971=Lfde138_end - Lfde138_start
-	.long LDIFF_SYM971
+LDIFF_SYM972=Lfde138_end - Lfde138_start
+	.long LDIFF_SYM972
 Lfde138_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITCrashDetails_get_AppBuild
 
-LDIFF_SYM972=Lme_e7 - HockeyApp_iOS_BITCrashDetails_get_AppBuild
-	.long LDIFF_SYM972
+LDIFF_SYM973=Lme_e7 - HockeyApp_iOS_BITCrashDetails_get_AppBuild
+	.long LDIFF_SYM973
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
@@ -82769,22 +83038,22 @@ Lfde138_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM973=LTDIE_81_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM973
+LDIFF_SYM974=LTDIE_81_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM974
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM974=Lfde139_end - Lfde139_start
-	.long LDIFF_SYM974
+LDIFF_SYM975=Lfde139_end - Lfde139_start
+	.long LDIFF_SYM975
 Lfde139_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITCrashDetails_get_AppProcessIdentifier
 
-LDIFF_SYM975=Lme_e8 - HockeyApp_iOS_BITCrashDetails_get_AppProcessIdentifier
-	.long LDIFF_SYM975
+LDIFF_SYM976=Lme_e8 - HockeyApp_iOS_BITCrashDetails_get_AppProcessIdentifier
+	.long LDIFF_SYM976
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
@@ -82797,23 +83066,23 @@ LTDIE_82:
 	.asciz "Foundation_NSDate"
 
 	.byte 40,16
-LDIFF_SYM976=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM976
+LDIFF_SYM977=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM977
 	.byte 2,35,0,0,7
 	.asciz "Foundation_NSDate"
 
-LDIFF_SYM977=LTDIE_82 - Ldebug_info_start
-	.long LDIFF_SYM977
+LDIFF_SYM978=LTDIE_82 - Ldebug_info_start
+	.long LDIFF_SYM978
 LTDIE_82_POINTER:
 
 	.byte 13
-LDIFF_SYM978=LTDIE_82 - Ldebug_info_start
-	.long LDIFF_SYM978
+LDIFF_SYM979=LTDIE_82 - Ldebug_info_start
+	.long LDIFF_SYM979
 LTDIE_82_REFERENCE:
 
 	.byte 14
-LDIFF_SYM979=LTDIE_82 - Ldebug_info_start
-	.long LDIFF_SYM979
+LDIFF_SYM980=LTDIE_82 - Ldebug_info_start
+	.long LDIFF_SYM980
 	.byte 2
 	.asciz "HockeyApp.iOS.BITCrashDetails:get_AppStartTime"
 	.asciz "HockeyApp_iOS_BITCrashDetails_get_AppStartTime"
@@ -82825,27 +83094,27 @@ LDIFF_SYM979=LTDIE_82 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM980=LTDIE_81_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM980
+LDIFF_SYM981=LTDIE_81_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM981
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM981=LTDIE_82_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM981
+LDIFF_SYM982=LTDIE_82_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM982
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM982=Lfde140_end - Lfde140_start
-	.long LDIFF_SYM982
+LDIFF_SYM983=Lfde140_end - Lfde140_start
+	.long LDIFF_SYM983
 Lfde140_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITCrashDetails_get_AppStartTime
 
-LDIFF_SYM983=Lme_e9 - HockeyApp_iOS_BITCrashDetails_get_AppStartTime
-	.long LDIFF_SYM983
+LDIFF_SYM984=Lme_e9 - HockeyApp_iOS_BITCrashDetails_get_AppStartTime
+	.long LDIFF_SYM984
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,154,9
 	.align 3
@@ -82864,22 +83133,22 @@ Lfde140_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM984=LTDIE_81_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM984
+LDIFF_SYM985=LTDIE_81_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM985
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM985=Lfde141_end - Lfde141_start
-	.long LDIFF_SYM985
+LDIFF_SYM986=Lfde141_end - Lfde141_start
+	.long LDIFF_SYM986
 Lfde141_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITCrashDetails_get_AppVersion
 
-LDIFF_SYM986=Lme_ea - HockeyApp_iOS_BITCrashDetails_get_AppVersion
-	.long LDIFF_SYM986
+LDIFF_SYM987=Lme_ea - HockeyApp_iOS_BITCrashDetails_get_AppVersion
+	.long LDIFF_SYM987
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
@@ -82898,27 +83167,27 @@ Lfde141_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM987=LTDIE_81_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM987
+LDIFF_SYM988=LTDIE_81_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM988
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM988=LTDIE_82_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM988
+LDIFF_SYM989=LTDIE_82_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM989
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM989=Lfde142_end - Lfde142_start
-	.long LDIFF_SYM989
+LDIFF_SYM990=Lfde142_end - Lfde142_start
+	.long LDIFF_SYM990
 Lfde142_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITCrashDetails_get_CrashTime
 
-LDIFF_SYM990=Lme_eb - HockeyApp_iOS_BITCrashDetails_get_CrashTime
-	.long LDIFF_SYM990
+LDIFF_SYM991=Lme_eb - HockeyApp_iOS_BITCrashDetails_get_CrashTime
+	.long LDIFF_SYM991
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,154,9
 	.align 3
@@ -82937,22 +83206,22 @@ Lfde142_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM991=LTDIE_81_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM991
+LDIFF_SYM992=LTDIE_81_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM992
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM992=Lfde143_end - Lfde143_start
-	.long LDIFF_SYM992
+LDIFF_SYM993=Lfde143_end - Lfde143_start
+	.long LDIFF_SYM993
 Lfde143_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITCrashDetails_get_ExceptionName
 
-LDIFF_SYM993=Lme_ec - HockeyApp_iOS_BITCrashDetails_get_ExceptionName
-	.long LDIFF_SYM993
+LDIFF_SYM994=Lme_ec - HockeyApp_iOS_BITCrashDetails_get_ExceptionName
+	.long LDIFF_SYM994
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
@@ -82971,22 +83240,22 @@ Lfde143_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM994=LTDIE_81_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM994
+LDIFF_SYM995=LTDIE_81_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM995
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM995=Lfde144_end - Lfde144_start
-	.long LDIFF_SYM995
+LDIFF_SYM996=Lfde144_end - Lfde144_start
+	.long LDIFF_SYM996
 Lfde144_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITCrashDetails_get_ExceptionReason
 
-LDIFF_SYM996=Lme_ed - HockeyApp_iOS_BITCrashDetails_get_ExceptionReason
-	.long LDIFF_SYM996
+LDIFF_SYM997=Lme_ed - HockeyApp_iOS_BITCrashDetails_get_ExceptionReason
+	.long LDIFF_SYM997
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
@@ -83005,22 +83274,22 @@ Lfde144_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM997=LTDIE_81_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM997
+LDIFF_SYM998=LTDIE_81_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM998
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM998=Lfde145_end - Lfde145_start
-	.long LDIFF_SYM998
+LDIFF_SYM999=Lfde145_end - Lfde145_start
+	.long LDIFF_SYM999
 Lfde145_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITCrashDetails_get_IncidentIdentifier
 
-LDIFF_SYM999=Lme_ee - HockeyApp_iOS_BITCrashDetails_get_IncidentIdentifier
-	.long LDIFF_SYM999
+LDIFF_SYM1000=Lme_ee - HockeyApp_iOS_BITCrashDetails_get_IncidentIdentifier
+	.long LDIFF_SYM1000
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
@@ -83039,22 +83308,22 @@ Lfde145_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1000=LTDIE_81_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1000
+LDIFF_SYM1001=LTDIE_81_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1001
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1001=Lfde146_end - Lfde146_start
-	.long LDIFF_SYM1001
+LDIFF_SYM1002=Lfde146_end - Lfde146_start
+	.long LDIFF_SYM1002
 Lfde146_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITCrashDetails_get_IsAppKill
 
-LDIFF_SYM1002=Lme_ef - HockeyApp_iOS_BITCrashDetails_get_IsAppKill
-	.long LDIFF_SYM1002
+LDIFF_SYM1003=Lme_ef - HockeyApp_iOS_BITCrashDetails_get_IsAppKill
+	.long LDIFF_SYM1003
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
@@ -83073,22 +83342,22 @@ Lfde146_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1003=LTDIE_81_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1003
+LDIFF_SYM1004=LTDIE_81_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1004
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1004=Lfde147_end - Lfde147_start
-	.long LDIFF_SYM1004
+LDIFF_SYM1005=Lfde147_end - Lfde147_start
+	.long LDIFF_SYM1005
 Lfde147_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITCrashDetails_get_OsBuild
 
-LDIFF_SYM1005=Lme_f0 - HockeyApp_iOS_BITCrashDetails_get_OsBuild
-	.long LDIFF_SYM1005
+LDIFF_SYM1006=Lme_f0 - HockeyApp_iOS_BITCrashDetails_get_OsBuild
+	.long LDIFF_SYM1006
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
@@ -83107,22 +83376,22 @@ Lfde147_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1006=LTDIE_81_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1006
+LDIFF_SYM1007=LTDIE_81_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1007
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1007=Lfde148_end - Lfde148_start
-	.long LDIFF_SYM1007
+LDIFF_SYM1008=Lfde148_end - Lfde148_start
+	.long LDIFF_SYM1008
 Lfde148_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITCrashDetails_get_OsVersion
 
-LDIFF_SYM1008=Lme_f1 - HockeyApp_iOS_BITCrashDetails_get_OsVersion
-	.long LDIFF_SYM1008
+LDIFF_SYM1009=Lme_f1 - HockeyApp_iOS_BITCrashDetails_get_OsVersion
+	.long LDIFF_SYM1009
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
@@ -83141,22 +83410,22 @@ Lfde148_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1009=LTDIE_81_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1009
+LDIFF_SYM1010=LTDIE_81_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1010
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1010=Lfde149_end - Lfde149_start
-	.long LDIFF_SYM1010
+LDIFF_SYM1011=Lfde149_end - Lfde149_start
+	.long LDIFF_SYM1011
 Lfde149_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITCrashDetails_get_ReporterKey
 
-LDIFF_SYM1011=Lme_f2 - HockeyApp_iOS_BITCrashDetails_get_ReporterKey
-	.long LDIFF_SYM1011
+LDIFF_SYM1012=Lme_f2 - HockeyApp_iOS_BITCrashDetails_get_ReporterKey
+	.long LDIFF_SYM1012
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
@@ -83175,22 +83444,22 @@ Lfde149_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1012=LTDIE_81_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1012
+LDIFF_SYM1013=LTDIE_81_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1013
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1013=Lfde150_end - Lfde150_start
-	.long LDIFF_SYM1013
+LDIFF_SYM1014=Lfde150_end - Lfde150_start
+	.long LDIFF_SYM1014
 Lfde150_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITCrashDetails_get_Signal
 
-LDIFF_SYM1014=Lme_f3 - HockeyApp_iOS_BITCrashDetails_get_Signal
-	.long LDIFF_SYM1014
+LDIFF_SYM1015=Lme_f3 - HockeyApp_iOS_BITCrashDetails_get_Signal
+	.long LDIFF_SYM1015
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
@@ -83210,16 +83479,16 @@ Lfde150_end:
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1015=Lfde151_end - Lfde151_start
-	.long LDIFF_SYM1015
+LDIFF_SYM1016=Lfde151_end - Lfde151_start
+	.long LDIFF_SYM1016
 Lfde151_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITCrashDetails__cctor
 
-LDIFF_SYM1016=Lme_f4 - HockeyApp_iOS_BITCrashDetails__cctor
-	.long LDIFF_SYM1016
+LDIFF_SYM1017=Lme_f4 - HockeyApp_iOS_BITCrashDetails__cctor
+	.long LDIFF_SYM1017
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -83238,22 +83507,22 @@ Lfde151_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1017=LTDIE_56_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1017
+LDIFF_SYM1018=LTDIE_56_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1018
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1018=Lfde152_end - Lfde152_start
-	.long LDIFF_SYM1018
+LDIFF_SYM1019=Lfde152_end - Lfde152_start
+	.long LDIFF_SYM1019
 Lfde152_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITCrashManager_get_ClassHandle
 
-LDIFF_SYM1019=Lme_f5 - HockeyApp_iOS_BITCrashManager_get_ClassHandle
-	.long LDIFF_SYM1019
+LDIFF_SYM1020=Lme_f5 - HockeyApp_iOS_BITCrashManager_get_ClassHandle
+	.long LDIFF_SYM1020
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -83272,22 +83541,22 @@ Lfde152_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1020=LTDIE_56_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1020
+LDIFF_SYM1021=LTDIE_56_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1021
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1021=Lfde153_end - Lfde153_start
-	.long LDIFF_SYM1021
+LDIFF_SYM1022=Lfde153_end - Lfde153_start
+	.long LDIFF_SYM1022
 Lfde153_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITCrashManager__ctor
 
-LDIFF_SYM1022=Lme_f6 - HockeyApp_iOS_BITCrashManager__ctor
-	.long LDIFF_SYM1022
+LDIFF_SYM1023=Lme_f6 - HockeyApp_iOS_BITCrashManager__ctor
+	.long LDIFF_SYM1023
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
@@ -83306,27 +83575,27 @@ Lfde153_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1023=LTDIE_56_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1023
+LDIFF_SYM1024=LTDIE_56_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1024
 	.byte 1,105,3
 	.asciz "t"
 
-LDIFF_SYM1024=LTDIE_52_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1024
+LDIFF_SYM1025=LTDIE_52_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1025
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1025=Lfde154_end - Lfde154_start
-	.long LDIFF_SYM1025
+LDIFF_SYM1026=Lfde154_end - Lfde154_start
+	.long LDIFF_SYM1026
 Lfde154_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITCrashManager__ctor_Foundation_NSObjectFlag
 
-LDIFF_SYM1026=Lme_f7 - HockeyApp_iOS_BITCrashManager__ctor_Foundation_NSObjectFlag
-	.long LDIFF_SYM1026
+LDIFF_SYM1027=Lme_f7 - HockeyApp_iOS_BITCrashManager__ctor_Foundation_NSObjectFlag
+	.long LDIFF_SYM1027
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10
 	.align 3
@@ -83345,27 +83614,27 @@ Lfde154_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1027=LTDIE_56_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1027
+LDIFF_SYM1028=LTDIE_56_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1028
 	.byte 1,105,3
 	.asciz "handle"
 
-LDIFF_SYM1028=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1028
+LDIFF_SYM1029=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1029
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1029=Lfde155_end - Lfde155_start
-	.long LDIFF_SYM1029
+LDIFF_SYM1030=Lfde155_end - Lfde155_start
+	.long LDIFF_SYM1030
 Lfde155_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITCrashManager__ctor_intptr
 
-LDIFF_SYM1030=Lme_f8 - HockeyApp_iOS_BITCrashManager__ctor_intptr
-	.long LDIFF_SYM1030
+LDIFF_SYM1031=Lme_f8 - HockeyApp_iOS_BITCrashManager__ctor_intptr
+	.long LDIFF_SYM1031
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10
 	.align 3
@@ -83384,22 +83653,22 @@ Lfde155_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1031=LTDIE_56_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1031
+LDIFF_SYM1032=LTDIE_56_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1032
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1032=Lfde156_end - Lfde156_start
-	.long LDIFF_SYM1032
+LDIFF_SYM1033=Lfde156_end - Lfde156_start
+	.long LDIFF_SYM1033
 Lfde156_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITCrashManager_GenerateTestCrash
 
-LDIFF_SYM1033=Lme_f9 - HockeyApp_iOS_BITCrashManager_GenerateTestCrash
-	.long LDIFF_SYM1033
+LDIFF_SYM1034=Lme_f9 - HockeyApp_iOS_BITCrashManager_GenerateTestCrash
+	.long LDIFF_SYM1034
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
 	.align 3
@@ -83412,8 +83681,8 @@ LTDIE_83:
 	.asciz "HockeyApp_iOS_BITCrashManagerUserInput"
 
 	.byte 8
-LDIFF_SYM1034=LDIE_U8 - Ldebug_info_start
-	.long LDIFF_SYM1034
+LDIFF_SYM1035=LDIE_U8 - Ldebug_info_start
+	.long LDIFF_SYM1035
 	.byte 9
 	.asciz "DontSend"
 
@@ -83426,41 +83695,41 @@ LDIFF_SYM1034=LDIE_U8 - Ldebug_info_start
 	.byte 2,0,7
 	.asciz "HockeyApp_iOS_BITCrashManagerUserInput"
 
-LDIFF_SYM1035=LTDIE_83 - Ldebug_info_start
-	.long LDIFF_SYM1035
+LDIFF_SYM1036=LTDIE_83 - Ldebug_info_start
+	.long LDIFF_SYM1036
 LTDIE_83_POINTER:
 
 	.byte 13
-LDIFF_SYM1036=LTDIE_83 - Ldebug_info_start
-	.long LDIFF_SYM1036
+LDIFF_SYM1037=LTDIE_83 - Ldebug_info_start
+	.long LDIFF_SYM1037
 LTDIE_83_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1037=LTDIE_83 - Ldebug_info_start
-	.long LDIFF_SYM1037
+LDIFF_SYM1038=LTDIE_83 - Ldebug_info_start
+	.long LDIFF_SYM1038
 LTDIE_84:
 
 	.byte 5
 	.asciz "HockeyApp_iOS_BITCrashMetaData"
 
 	.byte 40,16
-LDIFF_SYM1038=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM1038
+LDIFF_SYM1039=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM1039
 	.byte 2,35,0,0,7
 	.asciz "HockeyApp_iOS_BITCrashMetaData"
 
-LDIFF_SYM1039=LTDIE_84 - Ldebug_info_start
-	.long LDIFF_SYM1039
+LDIFF_SYM1040=LTDIE_84 - Ldebug_info_start
+	.long LDIFF_SYM1040
 LTDIE_84_POINTER:
 
 	.byte 13
-LDIFF_SYM1040=LTDIE_84 - Ldebug_info_start
-	.long LDIFF_SYM1040
+LDIFF_SYM1041=LTDIE_84 - Ldebug_info_start
+	.long LDIFF_SYM1041
 LTDIE_84_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1041=LTDIE_84 - Ldebug_info_start
-	.long LDIFF_SYM1041
+LDIFF_SYM1042=LTDIE_84 - Ldebug_info_start
+	.long LDIFF_SYM1042
 	.byte 2
 	.asciz "HockeyApp.iOS.BITCrashManager:HandleUserInput"
 	.asciz "HockeyApp_iOS_BITCrashManager_HandleUserInput_HockeyApp_iOS_BITCrashManagerUserInput_HockeyApp_iOS_BITCrashMetaData"
@@ -83472,32 +83741,32 @@ LDIFF_SYM1041=LTDIE_84 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1042=LTDIE_56_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1042
+LDIFF_SYM1043=LTDIE_56_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1043
 	.byte 1,104,3
 	.asciz "userInput"
 
-LDIFF_SYM1043=LTDIE_83 - Ldebug_info_start
-	.long LDIFF_SYM1043
+LDIFF_SYM1044=LTDIE_83 - Ldebug_info_start
+	.long LDIFF_SYM1044
 	.byte 1,105,3
 	.asciz "userProvidedMetaData"
 
-LDIFF_SYM1044=LTDIE_84_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1044
+LDIFF_SYM1045=LTDIE_84_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1045
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1045=Lfde157_end - Lfde157_start
-	.long LDIFF_SYM1045
+LDIFF_SYM1046=Lfde157_end - Lfde157_start
+	.long LDIFF_SYM1046
 Lfde157_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITCrashManager_HandleUserInput_HockeyApp_iOS_BITCrashManagerUserInput_HockeyApp_iOS_BITCrashMetaData
 
-LDIFF_SYM1046=Lme_fa - HockeyApp_iOS_BITCrashManager_HandleUserInput_HockeyApp_iOS_BITCrashManagerUserInput_HockeyApp_iOS_BITCrashMetaData
-	.long LDIFF_SYM1046
+LDIFF_SYM1047=Lme_fa - HockeyApp_iOS_BITCrashManager_HandleUserInput_HockeyApp_iOS_BITCrashManagerUserInput_HockeyApp_iOS_BITCrashMetaData
+	.long LDIFF_SYM1047
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,152,12,153,11,68,154,10
 	.align 3
@@ -83516,22 +83785,22 @@ Lfde157_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1047=LTDIE_56_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1047
+LDIFF_SYM1048=LTDIE_56_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1048
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1048=Lfde158_end - Lfde158_start
-	.long LDIFF_SYM1048
+LDIFF_SYM1049=Lfde158_end - Lfde158_start
+	.long LDIFF_SYM1049
 Lfde158_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITCrashManager_IsDebuggerAttached
 
-LDIFF_SYM1049=Lme_fb - HockeyApp_iOS_BITCrashManager_IsDebuggerAttached
-	.long LDIFF_SYM1049
+LDIFF_SYM1050=Lme_fb - HockeyApp_iOS_BITCrashManager_IsDebuggerAttached
+	.long LDIFF_SYM1050
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
@@ -83550,37 +83819,37 @@ Lfde158_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1050=LTDIE_56_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1050
+LDIFF_SYM1051=LTDIE_56_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1051
 	.byte 1,105,3
 	.asciz "alertViewHandler"
 
-LDIFF_SYM1051=LTDIE_26_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1051
+LDIFF_SYM1052=LTDIE_26_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1052
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1052=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1052
+LDIFF_SYM1053=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1053
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM1053=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1053
+LDIFF_SYM1054=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1054
 	.byte 3,141,192,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1054=Lfde159_end - Lfde159_start
-	.long LDIFF_SYM1054
+LDIFF_SYM1055=Lfde159_end - Lfde159_start
+	.long LDIFF_SYM1055
 Lfde159_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITCrashManager_SetAlertViewHandler_System_Action
 
-LDIFF_SYM1055=Lme_fc - HockeyApp_iOS_BITCrashManager_SetAlertViewHandler_System_Action
-	.long LDIFF_SYM1055
+LDIFF_SYM1056=Lme_fc - HockeyApp_iOS_BITCrashManager_SetAlertViewHandler_System_Action
+	.long LDIFF_SYM1056
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,152,16,153,15,68,154,14
 	.align 3
@@ -83593,8 +83862,8 @@ LTDIE_85:
 	.asciz "HockeyApp_iOS_BITCrashManagerStatus"
 
 	.byte 8
-LDIFF_SYM1056=LDIE_U8 - Ldebug_info_start
-	.long LDIFF_SYM1056
+LDIFF_SYM1057=LDIE_U8 - Ldebug_info_start
+	.long LDIFF_SYM1057
 	.byte 9
 	.asciz "Disabled"
 
@@ -83607,18 +83876,18 @@ LDIFF_SYM1056=LDIE_U8 - Ldebug_info_start
 	.byte 2,0,7
 	.asciz "HockeyApp_iOS_BITCrashManagerStatus"
 
-LDIFF_SYM1057=LTDIE_85 - Ldebug_info_start
-	.long LDIFF_SYM1057
+LDIFF_SYM1058=LTDIE_85 - Ldebug_info_start
+	.long LDIFF_SYM1058
 LTDIE_85_POINTER:
 
 	.byte 13
-LDIFF_SYM1058=LTDIE_85 - Ldebug_info_start
-	.long LDIFF_SYM1058
+LDIFF_SYM1059=LTDIE_85 - Ldebug_info_start
+	.long LDIFF_SYM1059
 LTDIE_85_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1059=LTDIE_85 - Ldebug_info_start
-	.long LDIFF_SYM1059
+LDIFF_SYM1060=LTDIE_85 - Ldebug_info_start
+	.long LDIFF_SYM1060
 	.byte 2
 	.asciz "HockeyApp.iOS.BITCrashManager:get_CrashManagerStatus"
 	.asciz "HockeyApp_iOS_BITCrashManager_get_CrashManagerStatus"
@@ -83630,27 +83899,27 @@ LDIFF_SYM1059=LTDIE_85 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1060=LTDIE_56_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1060
+LDIFF_SYM1061=LTDIE_56_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1061
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1061=LTDIE_85 - Ldebug_info_start
-	.long LDIFF_SYM1061
+LDIFF_SYM1062=LTDIE_85 - Ldebug_info_start
+	.long LDIFF_SYM1062
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1062=Lfde160_end - Lfde160_start
-	.long LDIFF_SYM1062
+LDIFF_SYM1063=Lfde160_end - Lfde160_start
+	.long LDIFF_SYM1063
 Lfde160_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITCrashManager_get_CrashManagerStatus
 
-LDIFF_SYM1063=Lme_fd - HockeyApp_iOS_BITCrashManager_get_CrashManagerStatus
-	.long LDIFF_SYM1063
+LDIFF_SYM1064=Lme_fd - HockeyApp_iOS_BITCrashManager_get_CrashManagerStatus
+	.long LDIFF_SYM1064
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,154,9
 	.align 3
@@ -83669,27 +83938,27 @@ Lfde160_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1064=LTDIE_56_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1064
+LDIFF_SYM1065=LTDIE_56_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1065
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM1065=LTDIE_85 - Ldebug_info_start
-	.long LDIFF_SYM1065
+LDIFF_SYM1066=LTDIE_85 - Ldebug_info_start
+	.long LDIFF_SYM1066
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1066=Lfde161_end - Lfde161_start
-	.long LDIFF_SYM1066
+LDIFF_SYM1067=Lfde161_end - Lfde161_start
+	.long LDIFF_SYM1067
 Lfde161_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITCrashManager_set_CrashManagerStatus_HockeyApp_iOS_BITCrashManagerStatus
 
-LDIFF_SYM1067=Lme_fe - HockeyApp_iOS_BITCrashManager_set_CrashManagerStatus_HockeyApp_iOS_BITCrashManagerStatus
-	.long LDIFF_SYM1067
+LDIFF_SYM1068=Lme_fe - HockeyApp_iOS_BITCrashManager_set_CrashManagerStatus_HockeyApp_iOS_BITCrashManagerStatus
+	.long LDIFF_SYM1068
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8,154,7
 	.align 3
@@ -83708,22 +83977,22 @@ Lfde161_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1068=LTDIE_56_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1068
+LDIFF_SYM1069=LTDIE_56_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1069
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1069=Lfde162_end - Lfde162_start
-	.long LDIFF_SYM1069
+LDIFF_SYM1070=Lfde162_end - Lfde162_start
+	.long LDIFF_SYM1070
 Lfde162_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITCrashManager_get_DidCrashInLastSession
 
-LDIFF_SYM1070=Lme_ff - HockeyApp_iOS_BITCrashManager_get_DidCrashInLastSession
-	.long LDIFF_SYM1070
+LDIFF_SYM1071=Lme_ff - HockeyApp_iOS_BITCrashManager_get_DidCrashInLastSession
+	.long LDIFF_SYM1071
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
@@ -83742,22 +84011,22 @@ Lfde162_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1071=LTDIE_56_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1071
+LDIFF_SYM1072=LTDIE_56_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1072
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1072=Lfde163_end - Lfde163_start
-	.long LDIFF_SYM1072
+LDIFF_SYM1073=Lfde163_end - Lfde163_start
+	.long LDIFF_SYM1073
 Lfde163_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITCrashManager_get_DidReceiveMemoryWarningInLastSession
 
-LDIFF_SYM1073=Lme_100 - HockeyApp_iOS_BITCrashManager_get_DidReceiveMemoryWarningInLastSession
-	.long LDIFF_SYM1073
+LDIFF_SYM1074=Lme_100 - HockeyApp_iOS_BITCrashManager_get_DidReceiveMemoryWarningInLastSession
+	.long LDIFF_SYM1074
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
@@ -83776,22 +84045,22 @@ Lfde163_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1074=LTDIE_56_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1074
+LDIFF_SYM1075=LTDIE_56_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1075
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1075=Lfde164_end - Lfde164_start
-	.long LDIFF_SYM1075
+LDIFF_SYM1076=Lfde164_end - Lfde164_start
+	.long LDIFF_SYM1076
 Lfde164_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITCrashManager_get_EnableAppNotTerminatingCleanlyDetection
 
-LDIFF_SYM1076=Lme_101 - HockeyApp_iOS_BITCrashManager_get_EnableAppNotTerminatingCleanlyDetection
-	.long LDIFF_SYM1076
+LDIFF_SYM1077=Lme_101 - HockeyApp_iOS_BITCrashManager_get_EnableAppNotTerminatingCleanlyDetection
+	.long LDIFF_SYM1077
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
@@ -83810,27 +84079,27 @@ Lfde164_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1077=LTDIE_56_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1077
+LDIFF_SYM1078=LTDIE_56_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1078
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM1078=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1078
+LDIFF_SYM1079=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1079
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1079=Lfde165_end - Lfde165_start
-	.long LDIFF_SYM1079
+LDIFF_SYM1080=Lfde165_end - Lfde165_start
+	.long LDIFF_SYM1080
 Lfde165_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITCrashManager_set_EnableAppNotTerminatingCleanlyDetection_bool
 
-LDIFF_SYM1080=Lme_102 - HockeyApp_iOS_BITCrashManager_set_EnableAppNotTerminatingCleanlyDetection_bool
-	.long LDIFF_SYM1080
+LDIFF_SYM1081=Lme_102 - HockeyApp_iOS_BITCrashManager_set_EnableAppNotTerminatingCleanlyDetection_bool
+	.long LDIFF_SYM1081
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8,154,7
 	.align 3
@@ -83849,22 +84118,22 @@ Lfde165_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1081=LTDIE_56_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1081
+LDIFF_SYM1082=LTDIE_56_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1082
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1082=Lfde166_end - Lfde166_start
-	.long LDIFF_SYM1082
+LDIFF_SYM1083=Lfde166_end - Lfde166_start
+	.long LDIFF_SYM1083
 Lfde166_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITCrashManager_get_EnableMachExceptionHandler
 
-LDIFF_SYM1083=Lme_103 - HockeyApp_iOS_BITCrashManager_get_EnableMachExceptionHandler
-	.long LDIFF_SYM1083
+LDIFF_SYM1084=Lme_103 - HockeyApp_iOS_BITCrashManager_get_EnableMachExceptionHandler
+	.long LDIFF_SYM1084
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
@@ -83883,27 +84152,27 @@ Lfde166_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1084=LTDIE_56_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1084
+LDIFF_SYM1085=LTDIE_56_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1085
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM1085=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1085
+LDIFF_SYM1086=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1086
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1086=Lfde167_end - Lfde167_start
-	.long LDIFF_SYM1086
+LDIFF_SYM1087=Lfde167_end - Lfde167_start
+	.long LDIFF_SYM1087
 Lfde167_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITCrashManager_set_EnableMachExceptionHandler_bool
 
-LDIFF_SYM1087=Lme_104 - HockeyApp_iOS_BITCrashManager_set_EnableMachExceptionHandler_bool
-	.long LDIFF_SYM1087
+LDIFF_SYM1088=Lme_104 - HockeyApp_iOS_BITCrashManager_set_EnableMachExceptionHandler_bool
+	.long LDIFF_SYM1088
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8,154,7
 	.align 3
@@ -83922,22 +84191,22 @@ Lfde167_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1088=LTDIE_56_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1088
+LDIFF_SYM1089=LTDIE_56_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1089
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1089=Lfde168_end - Lfde168_start
-	.long LDIFF_SYM1089
+LDIFF_SYM1090=Lfde168_end - Lfde168_start
+	.long LDIFF_SYM1090
 Lfde168_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITCrashManager_get_EnableOnDeviceSymbolication
 
-LDIFF_SYM1090=Lme_105 - HockeyApp_iOS_BITCrashManager_get_EnableOnDeviceSymbolication
-	.long LDIFF_SYM1090
+LDIFF_SYM1091=Lme_105 - HockeyApp_iOS_BITCrashManager_get_EnableOnDeviceSymbolication
+	.long LDIFF_SYM1091
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
@@ -83956,27 +84225,27 @@ Lfde168_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1091=LTDIE_56_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1091
+LDIFF_SYM1092=LTDIE_56_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1092
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM1092=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1092
+LDIFF_SYM1093=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1093
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1093=Lfde169_end - Lfde169_start
-	.long LDIFF_SYM1093
+LDIFF_SYM1094=Lfde169_end - Lfde169_start
+	.long LDIFF_SYM1094
 Lfde169_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITCrashManager_set_EnableOnDeviceSymbolication_bool
 
-LDIFF_SYM1094=Lme_106 - HockeyApp_iOS_BITCrashManager_set_EnableOnDeviceSymbolication_bool
-	.long LDIFF_SYM1094
+LDIFF_SYM1095=Lme_106 - HockeyApp_iOS_BITCrashManager_set_EnableOnDeviceSymbolication_bool
+	.long LDIFF_SYM1095
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8,154,7
 	.align 3
@@ -83995,27 +84264,27 @@ Lfde169_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1095=LTDIE_56_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1095
+LDIFF_SYM1096=LTDIE_56_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1096
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1096=LTDIE_81_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1096
+LDIFF_SYM1097=LTDIE_81_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1097
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1097=Lfde170_end - Lfde170_start
-	.long LDIFF_SYM1097
+LDIFF_SYM1098=Lfde170_end - Lfde170_start
+	.long LDIFF_SYM1098
 Lfde170_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITCrashManager_get_LastSessionCrashDetails
 
-LDIFF_SYM1098=Lme_107 - HockeyApp_iOS_BITCrashManager_get_LastSessionCrashDetails
-	.long LDIFF_SYM1098
+LDIFF_SYM1099=Lme_107 - HockeyApp_iOS_BITCrashManager_get_LastSessionCrashDetails
+	.long LDIFF_SYM1099
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,154,9
 	.align 3
@@ -84034,22 +84303,22 @@ Lfde170_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1099=LTDIE_56_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1099
+LDIFF_SYM1100=LTDIE_56_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1100
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1100=Lfde171_end - Lfde171_start
-	.long LDIFF_SYM1100
+LDIFF_SYM1101=Lfde171_end - Lfde171_start
+	.long LDIFF_SYM1101
 Lfde171_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITCrashManager_get_ShowAlwaysButton
 
-LDIFF_SYM1101=Lme_108 - HockeyApp_iOS_BITCrashManager_get_ShowAlwaysButton
-	.long LDIFF_SYM1101
+LDIFF_SYM1102=Lme_108 - HockeyApp_iOS_BITCrashManager_get_ShowAlwaysButton
+	.long LDIFF_SYM1102
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
@@ -84068,27 +84337,27 @@ Lfde171_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1102=LTDIE_56_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1102
+LDIFF_SYM1103=LTDIE_56_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1103
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM1103=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1103
+LDIFF_SYM1104=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1104
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1104=Lfde172_end - Lfde172_start
-	.long LDIFF_SYM1104
+LDIFF_SYM1105=Lfde172_end - Lfde172_start
+	.long LDIFF_SYM1105
 Lfde172_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITCrashManager_set_ShowAlwaysButton_bool
 
-LDIFF_SYM1105=Lme_109 - HockeyApp_iOS_BITCrashManager_set_ShowAlwaysButton_bool
-	.long LDIFF_SYM1105
+LDIFF_SYM1106=Lme_109 - HockeyApp_iOS_BITCrashManager_set_ShowAlwaysButton_bool
+	.long LDIFF_SYM1106
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8,154,7
 	.align 3
@@ -84107,22 +84376,22 @@ Lfde172_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1106=LTDIE_56_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1106
+LDIFF_SYM1107=LTDIE_56_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1107
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1107=Lfde173_end - Lfde173_start
-	.long LDIFF_SYM1107
+LDIFF_SYM1108=Lfde173_end - Lfde173_start
+	.long LDIFF_SYM1108
 Lfde173_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITCrashManager_get_TimeIntervalCrashInLastSessionOccurred
 
-LDIFF_SYM1108=Lme_10a - HockeyApp_iOS_BITCrashManager_get_TimeIntervalCrashInLastSessionOccurred
-	.long LDIFF_SYM1108
+LDIFF_SYM1109=Lme_10a - HockeyApp_iOS_BITCrashManager_get_TimeIntervalCrashInLastSessionOccurred
+	.long LDIFF_SYM1109
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
@@ -84142,16 +84411,16 @@ Lfde173_end:
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1109=Lfde174_end - Lfde174_start
-	.long LDIFF_SYM1109
+LDIFF_SYM1110=Lfde174_end - Lfde174_start
+	.long LDIFF_SYM1110
 Lfde174_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITCrashManager__cctor
 
-LDIFF_SYM1110=Lme_10b - HockeyApp_iOS_BITCrashManager__cctor
-	.long LDIFF_SYM1110
+LDIFF_SYM1111=Lme_10b - HockeyApp_iOS_BITCrashManager__cctor
+	.long LDIFF_SYM1111
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -84166,18 +84435,18 @@ LTDIE_86:
 	.byte 16,7
 	.asciz "HockeyApp_iOS_IBITCrashManagerDelegate"
 
-LDIFF_SYM1111=LTDIE_86 - Ldebug_info_start
-	.long LDIFF_SYM1111
+LDIFF_SYM1112=LTDIE_86 - Ldebug_info_start
+	.long LDIFF_SYM1112
 LTDIE_86_POINTER:
 
 	.byte 13
-LDIFF_SYM1112=LTDIE_86 - Ldebug_info_start
-	.long LDIFF_SYM1112
+LDIFF_SYM1113=LTDIE_86 - Ldebug_info_start
+	.long LDIFF_SYM1113
 LTDIE_86_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1113=LTDIE_86 - Ldebug_info_start
-	.long LDIFF_SYM1113
+LDIFF_SYM1114=LTDIE_86 - Ldebug_info_start
+	.long LDIFF_SYM1114
 	.byte 2
 	.asciz "HockeyApp.iOS.BITCrashManagerDelegate_Extensions:ApplicationLogForCrashManager"
 	.asciz "HockeyApp_iOS_BITCrashManagerDelegate_Extensions_ApplicationLogForCrashManager_HockeyApp_iOS_IBITCrashManagerDelegate_HockeyApp_iOS_BITCrashManager"
@@ -84189,27 +84458,27 @@ LDIFF_SYM1113=LTDIE_86 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "This"
 
-LDIFF_SYM1114=LTDIE_86_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1114
+LDIFF_SYM1115=LTDIE_86_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1115
 	.byte 2,141,24,3
 	.asciz "crashManager"
 
-LDIFF_SYM1115=LTDIE_56_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1115
+LDIFF_SYM1116=LTDIE_56_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1116
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1116=Lfde175_end - Lfde175_start
-	.long LDIFF_SYM1116
+LDIFF_SYM1117=Lfde175_end - Lfde175_start
+	.long LDIFF_SYM1117
 Lfde175_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITCrashManagerDelegate_Extensions_ApplicationLogForCrashManager_HockeyApp_iOS_IBITCrashManagerDelegate_HockeyApp_iOS_BITCrashManager
 
-LDIFF_SYM1117=Lme_10c - HockeyApp_iOS_BITCrashManagerDelegate_Extensions_ApplicationLogForCrashManager_HockeyApp_iOS_IBITCrashManagerDelegate_HockeyApp_iOS_BITCrashManager
-	.long LDIFF_SYM1117
+LDIFF_SYM1118=Lme_10c - HockeyApp_iOS_BITCrashManagerDelegate_Extensions_ApplicationLogForCrashManager_HockeyApp_iOS_IBITCrashManagerDelegate_HockeyApp_iOS_BITCrashManager
+	.long LDIFF_SYM1118
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,154,12
 	.align 3
@@ -84228,27 +84497,27 @@ Lfde175_end:
 	.byte 2,118,16,3
 	.asciz "This"
 
-LDIFF_SYM1118=LTDIE_86_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1118
+LDIFF_SYM1119=LTDIE_86_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1119
 	.byte 2,141,24,3
 	.asciz "crashManager"
 
-LDIFF_SYM1119=LTDIE_56_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1119
+LDIFF_SYM1120=LTDIE_56_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1120
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1120=Lfde176_end - Lfde176_start
-	.long LDIFF_SYM1120
+LDIFF_SYM1121=Lfde176_end - Lfde176_start
+	.long LDIFF_SYM1121
 Lfde176_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITCrashManagerDelegate_Extensions_AttachmentForCrashManager_HockeyApp_iOS_IBITCrashManagerDelegate_HockeyApp_iOS_BITCrashManager
 
-LDIFF_SYM1121=Lme_10d - HockeyApp_iOS_BITCrashManagerDelegate_Extensions_AttachmentForCrashManager_HockeyApp_iOS_IBITCrashManagerDelegate_HockeyApp_iOS_BITCrashManager
-	.long LDIFF_SYM1121
+LDIFF_SYM1122=Lme_10d - HockeyApp_iOS_BITCrashManagerDelegate_Extensions_AttachmentForCrashManager_HockeyApp_iOS_IBITCrashManagerDelegate_HockeyApp_iOS_BITCrashManager
+	.long LDIFF_SYM1122
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,154,12
 	.align 3
@@ -84267,27 +84536,27 @@ Lfde176_end:
 	.byte 2,118,16,3
 	.asciz "This"
 
-LDIFF_SYM1122=LTDIE_86_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1122
+LDIFF_SYM1123=LTDIE_86_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1123
 	.byte 2,141,24,3
 	.asciz "crashManager"
 
-LDIFF_SYM1123=LTDIE_56_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1123
+LDIFF_SYM1124=LTDIE_56_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1124
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1124=Lfde177_end - Lfde177_start
-	.long LDIFF_SYM1124
+LDIFF_SYM1125=Lfde177_end - Lfde177_start
+	.long LDIFF_SYM1125
 Lfde177_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITCrashManagerDelegate_Extensions_WillShowSubmitCrashReportAlert_HockeyApp_iOS_IBITCrashManagerDelegate_HockeyApp_iOS_BITCrashManager
 
-LDIFF_SYM1125=Lme_10e - HockeyApp_iOS_BITCrashManagerDelegate_Extensions_WillShowSubmitCrashReportAlert_HockeyApp_iOS_IBITCrashManagerDelegate_HockeyApp_iOS_BITCrashManager
-	.long LDIFF_SYM1125
+LDIFF_SYM1126=Lme_10e - HockeyApp_iOS_BITCrashManagerDelegate_Extensions_WillShowSubmitCrashReportAlert_HockeyApp_iOS_IBITCrashManagerDelegate_HockeyApp_iOS_BITCrashManager
+	.long LDIFF_SYM1126
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,154,10
 	.align 3
@@ -84306,27 +84575,27 @@ Lfde177_end:
 	.byte 2,118,16,3
 	.asciz "This"
 
-LDIFF_SYM1126=LTDIE_86_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1126
+LDIFF_SYM1127=LTDIE_86_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1127
 	.byte 2,141,24,3
 	.asciz "crashManager"
 
-LDIFF_SYM1127=LTDIE_56_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1127
+LDIFF_SYM1128=LTDIE_56_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1128
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1128=Lfde178_end - Lfde178_start
-	.long LDIFF_SYM1128
+LDIFF_SYM1129=Lfde178_end - Lfde178_start
+	.long LDIFF_SYM1129
 Lfde178_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITCrashManagerDelegate_Extensions_WillCancelSendingCrashReport_HockeyApp_iOS_IBITCrashManagerDelegate_HockeyApp_iOS_BITCrashManager
 
-LDIFF_SYM1129=Lme_10f - HockeyApp_iOS_BITCrashManagerDelegate_Extensions_WillCancelSendingCrashReport_HockeyApp_iOS_IBITCrashManagerDelegate_HockeyApp_iOS_BITCrashManager
-	.long LDIFF_SYM1129
+LDIFF_SYM1130=Lme_10f - HockeyApp_iOS_BITCrashManagerDelegate_Extensions_WillCancelSendingCrashReport_HockeyApp_iOS_IBITCrashManagerDelegate_HockeyApp_iOS_BITCrashManager
+	.long LDIFF_SYM1130
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,154,10
 	.align 3
@@ -84345,27 +84614,27 @@ Lfde178_end:
 	.byte 2,118,16,3
 	.asciz "This"
 
-LDIFF_SYM1130=LTDIE_86_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1130
+LDIFF_SYM1131=LTDIE_86_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1131
 	.byte 2,141,24,3
 	.asciz "crashManager"
 
-LDIFF_SYM1131=LTDIE_56_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1131
+LDIFF_SYM1132=LTDIE_56_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1132
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1132=Lfde179_end - Lfde179_start
-	.long LDIFF_SYM1132
+LDIFF_SYM1133=Lfde179_end - Lfde179_start
+	.long LDIFF_SYM1133
 Lfde179_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITCrashManagerDelegate_Extensions_WillSendCrashReportsAlways_HockeyApp_iOS_IBITCrashManagerDelegate_HockeyApp_iOS_BITCrashManager
 
-LDIFF_SYM1133=Lme_110 - HockeyApp_iOS_BITCrashManagerDelegate_Extensions_WillSendCrashReportsAlways_HockeyApp_iOS_IBITCrashManagerDelegate_HockeyApp_iOS_BITCrashManager
-	.long LDIFF_SYM1133
+LDIFF_SYM1134=Lme_110 - HockeyApp_iOS_BITCrashManagerDelegate_Extensions_WillSendCrashReportsAlways_HockeyApp_iOS_IBITCrashManagerDelegate_HockeyApp_iOS_BITCrashManager
+	.long LDIFF_SYM1134
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,154,10
 	.align 3
@@ -84384,27 +84653,27 @@ Lfde179_end:
 	.byte 2,118,16,3
 	.asciz "This"
 
-LDIFF_SYM1134=LTDIE_86_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1134
+LDIFF_SYM1135=LTDIE_86_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1135
 	.byte 2,141,24,3
 	.asciz "crashManager"
 
-LDIFF_SYM1135=LTDIE_56_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1135
+LDIFF_SYM1136=LTDIE_56_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1136
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1136=Lfde180_end - Lfde180_start
-	.long LDIFF_SYM1136
+LDIFF_SYM1137=Lfde180_end - Lfde180_start
+	.long LDIFF_SYM1137
 Lfde180_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITCrashManagerDelegate_Extensions_WillSendCrashReport_HockeyApp_iOS_IBITCrashManagerDelegate_HockeyApp_iOS_BITCrashManager
 
-LDIFF_SYM1137=Lme_111 - HockeyApp_iOS_BITCrashManagerDelegate_Extensions_WillSendCrashReport_HockeyApp_iOS_IBITCrashManagerDelegate_HockeyApp_iOS_BITCrashManager
-	.long LDIFF_SYM1137
+LDIFF_SYM1138=Lme_111 - HockeyApp_iOS_BITCrashManagerDelegate_Extensions_WillSendCrashReport_HockeyApp_iOS_IBITCrashManagerDelegate_HockeyApp_iOS_BITCrashManager
+	.long LDIFF_SYM1138
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,154,10
 	.align 3
@@ -84423,32 +84692,32 @@ Lfde180_end:
 	.byte 2,118,16,3
 	.asciz "This"
 
-LDIFF_SYM1138=LTDIE_86_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1138
+LDIFF_SYM1139=LTDIE_86_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1139
 	.byte 2,141,32,3
 	.asciz "crashManager"
 
-LDIFF_SYM1139=LTDIE_56_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1139
+LDIFF_SYM1140=LTDIE_56_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1140
 	.byte 1,105,3
 	.asciz "error"
 
-LDIFF_SYM1140=LTDIE_14_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1140
+LDIFF_SYM1141=LTDIE_14_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1141
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1141=Lfde181_end - Lfde181_start
-	.long LDIFF_SYM1141
+LDIFF_SYM1142=Lfde181_end - Lfde181_start
+	.long LDIFF_SYM1142
 Lfde181_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITCrashManagerDelegate_Extensions_DidFailWithError_HockeyApp_iOS_IBITCrashManagerDelegate_HockeyApp_iOS_BITCrashManager_Foundation_NSError
 
-LDIFF_SYM1142=Lme_112 - HockeyApp_iOS_BITCrashManagerDelegate_Extensions_DidFailWithError_HockeyApp_iOS_IBITCrashManagerDelegate_HockeyApp_iOS_BITCrashManager_Foundation_NSError
-	.long LDIFF_SYM1142
+LDIFF_SYM1143=Lme_112 - HockeyApp_iOS_BITCrashManagerDelegate_Extensions_DidFailWithError_HockeyApp_iOS_IBITCrashManagerDelegate_HockeyApp_iOS_BITCrashManager_Foundation_NSError
+	.long LDIFF_SYM1143
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,154,9
 	.align 3
@@ -84467,27 +84736,27 @@ Lfde181_end:
 	.byte 2,118,16,3
 	.asciz "This"
 
-LDIFF_SYM1143=LTDIE_86_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1143
+LDIFF_SYM1144=LTDIE_86_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1144
 	.byte 2,141,24,3
 	.asciz "crashManager"
 
-LDIFF_SYM1144=LTDIE_56_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1144
+LDIFF_SYM1145=LTDIE_56_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1145
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1145=Lfde182_end - Lfde182_start
-	.long LDIFF_SYM1145
+LDIFF_SYM1146=Lfde182_end - Lfde182_start
+	.long LDIFF_SYM1146
 Lfde182_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITCrashManagerDelegate_Extensions_DidFinishSendingCrashReport_HockeyApp_iOS_IBITCrashManagerDelegate_HockeyApp_iOS_BITCrashManager
 
-LDIFF_SYM1146=Lme_113 - HockeyApp_iOS_BITCrashManagerDelegate_Extensions_DidFinishSendingCrashReport_HockeyApp_iOS_IBITCrashManagerDelegate_HockeyApp_iOS_BITCrashManager
-	.long LDIFF_SYM1146
+LDIFF_SYM1147=Lme_113 - HockeyApp_iOS_BITCrashManagerDelegate_Extensions_DidFinishSendingCrashReport_HockeyApp_iOS_IBITCrashManagerDelegate_HockeyApp_iOS_BITCrashManager
+	.long LDIFF_SYM1147
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,154,10
 	.align 3
@@ -84506,27 +84775,27 @@ Lfde182_end:
 	.byte 2,118,16,3
 	.asciz "This"
 
-LDIFF_SYM1147=LTDIE_86_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1147
+LDIFF_SYM1148=LTDIE_86_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1148
 	.byte 2,141,24,3
 	.asciz "crashManager"
 
-LDIFF_SYM1148=LTDIE_56_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1148
+LDIFF_SYM1149=LTDIE_56_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1149
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1149=Lfde183_end - Lfde183_start
-	.long LDIFF_SYM1149
+LDIFF_SYM1150=Lfde183_end - Lfde183_start
+	.long LDIFF_SYM1150
 Lfde183_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITCrashManagerDelegate_Extensions_ConsiderAppNotTerminatedCleanlyReportForCrashManager_HockeyApp_iOS_IBITCrashManagerDelegate_HockeyApp_iOS_BITCrashManager
 
-LDIFF_SYM1150=Lme_114 - HockeyApp_iOS_BITCrashManagerDelegate_Extensions_ConsiderAppNotTerminatedCleanlyReportForCrashManager_HockeyApp_iOS_IBITCrashManagerDelegate_HockeyApp_iOS_BITCrashManager
-	.long LDIFF_SYM1150
+LDIFF_SYM1151=Lme_114 - HockeyApp_iOS_BITCrashManagerDelegate_Extensions_ConsiderAppNotTerminatedCleanlyReportForCrashManager_HockeyApp_iOS_IBITCrashManagerDelegate_HockeyApp_iOS_BITCrashManager
+	.long LDIFF_SYM1151
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,154,10
 	.align 3
@@ -84539,23 +84808,23 @@ LTDIE_87:
 	.asciz "HockeyApp_iOS_BITCrashManagerDelegateWrapper"
 
 	.byte 24,16
-LDIFF_SYM1151=LTDIE_75 - Ldebug_info_start
-	.long LDIFF_SYM1151
+LDIFF_SYM1152=LTDIE_75 - Ldebug_info_start
+	.long LDIFF_SYM1152
 	.byte 2,35,0,0,7
 	.asciz "HockeyApp_iOS_BITCrashManagerDelegateWrapper"
 
-LDIFF_SYM1152=LTDIE_87 - Ldebug_info_start
-	.long LDIFF_SYM1152
+LDIFF_SYM1153=LTDIE_87 - Ldebug_info_start
+	.long LDIFF_SYM1153
 LTDIE_87_POINTER:
 
 	.byte 13
-LDIFF_SYM1153=LTDIE_87 - Ldebug_info_start
-	.long LDIFF_SYM1153
+LDIFF_SYM1154=LTDIE_87 - Ldebug_info_start
+	.long LDIFF_SYM1154
 LTDIE_87_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1154=LTDIE_87 - Ldebug_info_start
-	.long LDIFF_SYM1154
+LDIFF_SYM1155=LTDIE_87 - Ldebug_info_start
+	.long LDIFF_SYM1155
 	.byte 2
 	.asciz "HockeyApp.iOS.BITCrashManagerDelegateWrapper:.ctor"
 	.asciz "HockeyApp_iOS_BITCrashManagerDelegateWrapper__ctor_intptr_bool"
@@ -84567,32 +84836,32 @@ LDIFF_SYM1154=LTDIE_87 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1155=LTDIE_87_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1155
+LDIFF_SYM1156=LTDIE_87_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1156
 	.byte 2,141,16,3
 	.asciz "handle"
 
-LDIFF_SYM1156=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1156
+LDIFF_SYM1157=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1157
 	.byte 2,141,24,3
 	.asciz "owns"
 
-LDIFF_SYM1157=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1157
+LDIFF_SYM1158=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1158
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1158=Lfde184_end - Lfde184_start
-	.long LDIFF_SYM1158
+LDIFF_SYM1159=Lfde184_end - Lfde184_start
+	.long LDIFF_SYM1159
 Lfde184_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITCrashManagerDelegateWrapper__ctor_intptr_bool
 
-LDIFF_SYM1159=Lme_115 - HockeyApp_iOS_BITCrashManagerDelegateWrapper__ctor_intptr_bool
-	.long LDIFF_SYM1159
+LDIFF_SYM1160=Lme_115 - HockeyApp_iOS_BITCrashManagerDelegateWrapper__ctor_intptr_bool
+	.long LDIFF_SYM1160
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -84605,23 +84874,23 @@ LTDIE_88:
 	.asciz "HockeyApp_iOS_BITCrashManagerDelegate"
 
 	.byte 40,16
-LDIFF_SYM1160=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM1160
+LDIFF_SYM1161=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM1161
 	.byte 2,35,0,0,7
 	.asciz "HockeyApp_iOS_BITCrashManagerDelegate"
 
-LDIFF_SYM1161=LTDIE_88 - Ldebug_info_start
-	.long LDIFF_SYM1161
+LDIFF_SYM1162=LTDIE_88 - Ldebug_info_start
+	.long LDIFF_SYM1162
 LTDIE_88_POINTER:
 
 	.byte 13
-LDIFF_SYM1162=LTDIE_88 - Ldebug_info_start
-	.long LDIFF_SYM1162
+LDIFF_SYM1163=LTDIE_88 - Ldebug_info_start
+	.long LDIFF_SYM1163
 LTDIE_88_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1163=LTDIE_88 - Ldebug_info_start
-	.long LDIFF_SYM1163
+LDIFF_SYM1164=LTDIE_88 - Ldebug_info_start
+	.long LDIFF_SYM1164
 	.byte 2
 	.asciz "HockeyApp.iOS.BITCrashManagerDelegate:.ctor"
 	.asciz "HockeyApp_iOS_BITCrashManagerDelegate__ctor"
@@ -84633,22 +84902,22 @@ LDIFF_SYM1163=LTDIE_88 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1164=LTDIE_88_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1164
+LDIFF_SYM1165=LTDIE_88_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1165
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1165=Lfde185_end - Lfde185_start
-	.long LDIFF_SYM1165
+LDIFF_SYM1166=Lfde185_end - Lfde185_start
+	.long LDIFF_SYM1166
 Lfde185_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITCrashManagerDelegate__ctor
 
-LDIFF_SYM1166=Lme_116 - HockeyApp_iOS_BITCrashManagerDelegate__ctor
-	.long LDIFF_SYM1166
+LDIFF_SYM1167=Lme_116 - HockeyApp_iOS_BITCrashManagerDelegate__ctor
+	.long LDIFF_SYM1167
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
@@ -84667,27 +84936,27 @@ Lfde185_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1167=LTDIE_88_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1167
+LDIFF_SYM1168=LTDIE_88_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1168
 	.byte 1,105,3
 	.asciz "t"
 
-LDIFF_SYM1168=LTDIE_52_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1168
+LDIFF_SYM1169=LTDIE_52_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1169
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1169=Lfde186_end - Lfde186_start
-	.long LDIFF_SYM1169
+LDIFF_SYM1170=Lfde186_end - Lfde186_start
+	.long LDIFF_SYM1170
 Lfde186_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITCrashManagerDelegate__ctor_Foundation_NSObjectFlag
 
-LDIFF_SYM1170=Lme_117 - HockeyApp_iOS_BITCrashManagerDelegate__ctor_Foundation_NSObjectFlag
-	.long LDIFF_SYM1170
+LDIFF_SYM1171=Lme_117 - HockeyApp_iOS_BITCrashManagerDelegate__ctor_Foundation_NSObjectFlag
+	.long LDIFF_SYM1171
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10
 	.align 3
@@ -84706,27 +84975,27 @@ Lfde186_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1171=LTDIE_88_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1171
+LDIFF_SYM1172=LTDIE_88_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1172
 	.byte 1,105,3
 	.asciz "handle"
 
-LDIFF_SYM1172=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1172
+LDIFF_SYM1173=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1173
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1173=Lfde187_end - Lfde187_start
-	.long LDIFF_SYM1173
+LDIFF_SYM1174=Lfde187_end - Lfde187_start
+	.long LDIFF_SYM1174
 Lfde187_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITCrashManagerDelegate__ctor_intptr
 
-LDIFF_SYM1174=Lme_118 - HockeyApp_iOS_BITCrashManagerDelegate__ctor_intptr
-	.long LDIFF_SYM1174
+LDIFF_SYM1175=Lme_118 - HockeyApp_iOS_BITCrashManagerDelegate__ctor_intptr
+	.long LDIFF_SYM1175
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10
 	.align 3
@@ -84745,27 +85014,27 @@ Lfde187_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1175=LTDIE_88_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1175
+LDIFF_SYM1176=LTDIE_88_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1176
 	.byte 2,141,16,3
 	.asciz "crashManager"
 
-LDIFF_SYM1176=LTDIE_56_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1176
+LDIFF_SYM1177=LTDIE_56_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1177
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1177=Lfde188_end - Lfde188_start
-	.long LDIFF_SYM1177
+LDIFF_SYM1178=Lfde188_end - Lfde188_start
+	.long LDIFF_SYM1178
 Lfde188_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITCrashManagerDelegate_ApplicationLogForCrashManager_HockeyApp_iOS_BITCrashManager
 
-LDIFF_SYM1178=Lme_119 - HockeyApp_iOS_BITCrashManagerDelegate_ApplicationLogForCrashManager_HockeyApp_iOS_BITCrashManager
-	.long LDIFF_SYM1178
+LDIFF_SYM1179=Lme_119 - HockeyApp_iOS_BITCrashManagerDelegate_ApplicationLogForCrashManager_HockeyApp_iOS_BITCrashManager
+	.long LDIFF_SYM1179
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
@@ -84784,27 +85053,27 @@ Lfde188_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1179=LTDIE_88_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1179
+LDIFF_SYM1180=LTDIE_88_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1180
 	.byte 2,141,16,3
 	.asciz "crashManager"
 
-LDIFF_SYM1180=LTDIE_56_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1180
+LDIFF_SYM1181=LTDIE_56_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1181
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1181=Lfde189_end - Lfde189_start
-	.long LDIFF_SYM1181
+LDIFF_SYM1182=Lfde189_end - Lfde189_start
+	.long LDIFF_SYM1182
 Lfde189_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITCrashManagerDelegate_AttachmentForCrashManager_HockeyApp_iOS_BITCrashManager
 
-LDIFF_SYM1182=Lme_11a - HockeyApp_iOS_BITCrashManagerDelegate_AttachmentForCrashManager_HockeyApp_iOS_BITCrashManager
-	.long LDIFF_SYM1182
+LDIFF_SYM1183=Lme_11a - HockeyApp_iOS_BITCrashManagerDelegate_AttachmentForCrashManager_HockeyApp_iOS_BITCrashManager
+	.long LDIFF_SYM1183
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
@@ -84823,27 +85092,27 @@ Lfde189_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1183=LTDIE_88_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1183
+LDIFF_SYM1184=LTDIE_88_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1184
 	.byte 2,141,16,3
 	.asciz "crashManager"
 
-LDIFF_SYM1184=LTDIE_56_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1184
+LDIFF_SYM1185=LTDIE_56_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1185
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1185=Lfde190_end - Lfde190_start
-	.long LDIFF_SYM1185
+LDIFF_SYM1186=Lfde190_end - Lfde190_start
+	.long LDIFF_SYM1186
 Lfde190_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITCrashManagerDelegate_ConsiderAppNotTerminatedCleanlyReportForCrashManager_HockeyApp_iOS_BITCrashManager
 
-LDIFF_SYM1186=Lme_11b - HockeyApp_iOS_BITCrashManagerDelegate_ConsiderAppNotTerminatedCleanlyReportForCrashManager_HockeyApp_iOS_BITCrashManager
-	.long LDIFF_SYM1186
+LDIFF_SYM1187=Lme_11b - HockeyApp_iOS_BITCrashManagerDelegate_ConsiderAppNotTerminatedCleanlyReportForCrashManager_HockeyApp_iOS_BITCrashManager
+	.long LDIFF_SYM1187
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
@@ -84862,32 +85131,32 @@ Lfde190_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1187=LTDIE_88_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1187
+LDIFF_SYM1188=LTDIE_88_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1188
 	.byte 2,141,16,3
 	.asciz "crashManager"
 
-LDIFF_SYM1188=LTDIE_56_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1188
+LDIFF_SYM1189=LTDIE_56_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1189
 	.byte 2,141,24,3
 	.asciz "error"
 
-LDIFF_SYM1189=LTDIE_14_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1189
+LDIFF_SYM1190=LTDIE_14_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1190
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1190=Lfde191_end - Lfde191_start
-	.long LDIFF_SYM1190
+LDIFF_SYM1191=Lfde191_end - Lfde191_start
+	.long LDIFF_SYM1191
 Lfde191_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITCrashManagerDelegate_DidFailWithError_HockeyApp_iOS_BITCrashManager_Foundation_NSError
 
-LDIFF_SYM1191=Lme_11c - HockeyApp_iOS_BITCrashManagerDelegate_DidFailWithError_HockeyApp_iOS_BITCrashManager_Foundation_NSError
-	.long LDIFF_SYM1191
+LDIFF_SYM1192=Lme_11c - HockeyApp_iOS_BITCrashManagerDelegate_DidFailWithError_HockeyApp_iOS_BITCrashManager_Foundation_NSError
+	.long LDIFF_SYM1192
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
@@ -84906,27 +85175,27 @@ Lfde191_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1192=LTDIE_88_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1192
+LDIFF_SYM1193=LTDIE_88_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1193
 	.byte 2,141,16,3
 	.asciz "crashManager"
 
-LDIFF_SYM1193=LTDIE_56_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1193
+LDIFF_SYM1194=LTDIE_56_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1194
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1194=Lfde192_end - Lfde192_start
-	.long LDIFF_SYM1194
+LDIFF_SYM1195=Lfde192_end - Lfde192_start
+	.long LDIFF_SYM1195
 Lfde192_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITCrashManagerDelegate_DidFinishSendingCrashReport_HockeyApp_iOS_BITCrashManager
 
-LDIFF_SYM1195=Lme_11d - HockeyApp_iOS_BITCrashManagerDelegate_DidFinishSendingCrashReport_HockeyApp_iOS_BITCrashManager
-	.long LDIFF_SYM1195
+LDIFF_SYM1196=Lme_11d - HockeyApp_iOS_BITCrashManagerDelegate_DidFinishSendingCrashReport_HockeyApp_iOS_BITCrashManager
+	.long LDIFF_SYM1196
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
@@ -84945,27 +85214,27 @@ Lfde192_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1196=LTDIE_88_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1196
+LDIFF_SYM1197=LTDIE_88_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1197
 	.byte 2,141,16,3
 	.asciz "crashManager"
 
-LDIFF_SYM1197=LTDIE_56_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1197
+LDIFF_SYM1198=LTDIE_56_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1198
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1198=Lfde193_end - Lfde193_start
-	.long LDIFF_SYM1198
+LDIFF_SYM1199=Lfde193_end - Lfde193_start
+	.long LDIFF_SYM1199
 Lfde193_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITCrashManagerDelegate_WillCancelSendingCrashReport_HockeyApp_iOS_BITCrashManager
 
-LDIFF_SYM1199=Lme_11e - HockeyApp_iOS_BITCrashManagerDelegate_WillCancelSendingCrashReport_HockeyApp_iOS_BITCrashManager
-	.long LDIFF_SYM1199
+LDIFF_SYM1200=Lme_11e - HockeyApp_iOS_BITCrashManagerDelegate_WillCancelSendingCrashReport_HockeyApp_iOS_BITCrashManager
+	.long LDIFF_SYM1200
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
@@ -84984,27 +85253,27 @@ Lfde193_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1200=LTDIE_88_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1200
+LDIFF_SYM1201=LTDIE_88_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1201
 	.byte 2,141,16,3
 	.asciz "crashManager"
 
-LDIFF_SYM1201=LTDIE_56_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1201
+LDIFF_SYM1202=LTDIE_56_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1202
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1202=Lfde194_end - Lfde194_start
-	.long LDIFF_SYM1202
+LDIFF_SYM1203=Lfde194_end - Lfde194_start
+	.long LDIFF_SYM1203
 Lfde194_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITCrashManagerDelegate_WillSendCrashReport_HockeyApp_iOS_BITCrashManager
 
-LDIFF_SYM1203=Lme_11f - HockeyApp_iOS_BITCrashManagerDelegate_WillSendCrashReport_HockeyApp_iOS_BITCrashManager
-	.long LDIFF_SYM1203
+LDIFF_SYM1204=Lme_11f - HockeyApp_iOS_BITCrashManagerDelegate_WillSendCrashReport_HockeyApp_iOS_BITCrashManager
+	.long LDIFF_SYM1204
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
@@ -85023,27 +85292,27 @@ Lfde194_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1204=LTDIE_88_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1204
+LDIFF_SYM1205=LTDIE_88_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1205
 	.byte 2,141,16,3
 	.asciz "crashManager"
 
-LDIFF_SYM1205=LTDIE_56_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1205
+LDIFF_SYM1206=LTDIE_56_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1206
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1206=Lfde195_end - Lfde195_start
-	.long LDIFF_SYM1206
+LDIFF_SYM1207=Lfde195_end - Lfde195_start
+	.long LDIFF_SYM1207
 Lfde195_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITCrashManagerDelegate_WillSendCrashReportsAlways_HockeyApp_iOS_BITCrashManager
 
-LDIFF_SYM1207=Lme_120 - HockeyApp_iOS_BITCrashManagerDelegate_WillSendCrashReportsAlways_HockeyApp_iOS_BITCrashManager
-	.long LDIFF_SYM1207
+LDIFF_SYM1208=Lme_120 - HockeyApp_iOS_BITCrashManagerDelegate_WillSendCrashReportsAlways_HockeyApp_iOS_BITCrashManager
+	.long LDIFF_SYM1208
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
@@ -85062,27 +85331,27 @@ Lfde195_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1208=LTDIE_88_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1208
+LDIFF_SYM1209=LTDIE_88_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1209
 	.byte 2,141,16,3
 	.asciz "crashManager"
 
-LDIFF_SYM1209=LTDIE_56_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1209
+LDIFF_SYM1210=LTDIE_56_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1210
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1210=Lfde196_end - Lfde196_start
-	.long LDIFF_SYM1210
+LDIFF_SYM1211=Lfde196_end - Lfde196_start
+	.long LDIFF_SYM1211
 Lfde196_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITCrashManagerDelegate_WillShowSubmitCrashReportAlert_HockeyApp_iOS_BITCrashManager
 
-LDIFF_SYM1211=Lme_121 - HockeyApp_iOS_BITCrashManagerDelegate_WillShowSubmitCrashReportAlert_HockeyApp_iOS_BITCrashManager
-	.long LDIFF_SYM1211
+LDIFF_SYM1212=Lme_121 - HockeyApp_iOS_BITCrashManagerDelegate_WillShowSubmitCrashReportAlert_HockeyApp_iOS_BITCrashManager
+	.long LDIFF_SYM1212
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
@@ -85101,22 +85370,22 @@ Lfde196_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1212=LTDIE_84_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1212
+LDIFF_SYM1213=LTDIE_84_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1213
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1213=Lfde197_end - Lfde197_start
-	.long LDIFF_SYM1213
+LDIFF_SYM1214=Lfde197_end - Lfde197_start
+	.long LDIFF_SYM1214
 Lfde197_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITCrashMetaData_get_ClassHandle
 
-LDIFF_SYM1214=Lme_122 - HockeyApp_iOS_BITCrashMetaData_get_ClassHandle
-	.long LDIFF_SYM1214
+LDIFF_SYM1215=Lme_122 - HockeyApp_iOS_BITCrashMetaData_get_ClassHandle
+	.long LDIFF_SYM1215
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -85135,22 +85404,22 @@ Lfde197_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1215=LTDIE_84_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1215
+LDIFF_SYM1216=LTDIE_84_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1216
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1216=Lfde198_end - Lfde198_start
-	.long LDIFF_SYM1216
+LDIFF_SYM1217=Lfde198_end - Lfde198_start
+	.long LDIFF_SYM1217
 Lfde198_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITCrashMetaData__ctor
 
-LDIFF_SYM1217=Lme_123 - HockeyApp_iOS_BITCrashMetaData__ctor
-	.long LDIFF_SYM1217
+LDIFF_SYM1218=Lme_123 - HockeyApp_iOS_BITCrashMetaData__ctor
+	.long LDIFF_SYM1218
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
@@ -85169,27 +85438,27 @@ Lfde198_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1218=LTDIE_84_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1218
+LDIFF_SYM1219=LTDIE_84_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1219
 	.byte 1,105,3
 	.asciz "t"
 
-LDIFF_SYM1219=LTDIE_52_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1219
+LDIFF_SYM1220=LTDIE_52_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1220
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1220=Lfde199_end - Lfde199_start
-	.long LDIFF_SYM1220
+LDIFF_SYM1221=Lfde199_end - Lfde199_start
+	.long LDIFF_SYM1221
 Lfde199_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITCrashMetaData__ctor_Foundation_NSObjectFlag
 
-LDIFF_SYM1221=Lme_124 - HockeyApp_iOS_BITCrashMetaData__ctor_Foundation_NSObjectFlag
-	.long LDIFF_SYM1221
+LDIFF_SYM1222=Lme_124 - HockeyApp_iOS_BITCrashMetaData__ctor_Foundation_NSObjectFlag
+	.long LDIFF_SYM1222
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10
 	.align 3
@@ -85208,27 +85477,27 @@ Lfde199_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1222=LTDIE_84_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1222
+LDIFF_SYM1223=LTDIE_84_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1223
 	.byte 1,105,3
 	.asciz "handle"
 
-LDIFF_SYM1223=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1223
+LDIFF_SYM1224=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1224
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1224=Lfde200_end - Lfde200_start
-	.long LDIFF_SYM1224
+LDIFF_SYM1225=Lfde200_end - Lfde200_start
+	.long LDIFF_SYM1225
 Lfde200_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITCrashMetaData__ctor_intptr
 
-LDIFF_SYM1225=Lme_125 - HockeyApp_iOS_BITCrashMetaData__ctor_intptr
-	.long LDIFF_SYM1225
+LDIFF_SYM1226=Lme_125 - HockeyApp_iOS_BITCrashMetaData__ctor_intptr
+	.long LDIFF_SYM1226
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10
 	.align 3
@@ -85247,22 +85516,22 @@ Lfde200_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1226=LTDIE_84_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1226
+LDIFF_SYM1227=LTDIE_84_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1227
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1227=Lfde201_end - Lfde201_start
-	.long LDIFF_SYM1227
+LDIFF_SYM1228=Lfde201_end - Lfde201_start
+	.long LDIFF_SYM1228
 Lfde201_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITCrashMetaData_get_UserEmail
 
-LDIFF_SYM1228=Lme_126 - HockeyApp_iOS_BITCrashMetaData_get_UserEmail
-	.long LDIFF_SYM1228
+LDIFF_SYM1229=Lme_126 - HockeyApp_iOS_BITCrashMetaData_get_UserEmail
+	.long LDIFF_SYM1229
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
@@ -85281,32 +85550,32 @@ Lfde201_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1229=LTDIE_84_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1229
+LDIFF_SYM1230=LTDIE_84_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1230
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM1230=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1230
+LDIFF_SYM1231=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1231
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1231=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1231
+LDIFF_SYM1232=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1232
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1232=Lfde202_end - Lfde202_start
-	.long LDIFF_SYM1232
+LDIFF_SYM1233=Lfde202_end - Lfde202_start
+	.long LDIFF_SYM1233
 Lfde202_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITCrashMetaData_set_UserEmail_string
 
-LDIFF_SYM1233=Lme_127 - HockeyApp_iOS_BITCrashMetaData_set_UserEmail_string
-	.long LDIFF_SYM1233
+LDIFF_SYM1234=Lme_127 - HockeyApp_iOS_BITCrashMetaData_set_UserEmail_string
+	.long LDIFF_SYM1234
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,152,8,153,7,68,154,6
 	.align 3
@@ -85325,22 +85594,22 @@ Lfde202_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1234=LTDIE_84_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1234
+LDIFF_SYM1235=LTDIE_84_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1235
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1235=Lfde203_end - Lfde203_start
-	.long LDIFF_SYM1235
+LDIFF_SYM1236=Lfde203_end - Lfde203_start
+	.long LDIFF_SYM1236
 Lfde203_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITCrashMetaData_get_UserID
 
-LDIFF_SYM1236=Lme_128 - HockeyApp_iOS_BITCrashMetaData_get_UserID
-	.long LDIFF_SYM1236
+LDIFF_SYM1237=Lme_128 - HockeyApp_iOS_BITCrashMetaData_get_UserID
+	.long LDIFF_SYM1237
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
@@ -85359,32 +85628,32 @@ Lfde203_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1237=LTDIE_84_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1237
+LDIFF_SYM1238=LTDIE_84_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1238
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM1238=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1238
+LDIFF_SYM1239=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1239
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1239=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1239
+LDIFF_SYM1240=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1240
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1240=Lfde204_end - Lfde204_start
-	.long LDIFF_SYM1240
+LDIFF_SYM1241=Lfde204_end - Lfde204_start
+	.long LDIFF_SYM1241
 Lfde204_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITCrashMetaData_set_UserID_string
 
-LDIFF_SYM1241=Lme_129 - HockeyApp_iOS_BITCrashMetaData_set_UserID_string
-	.long LDIFF_SYM1241
+LDIFF_SYM1242=Lme_129 - HockeyApp_iOS_BITCrashMetaData_set_UserID_string
+	.long LDIFF_SYM1242
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,152,8,153,7,68,154,6
 	.align 3
@@ -85403,22 +85672,22 @@ Lfde204_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1242=LTDIE_84_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1242
+LDIFF_SYM1243=LTDIE_84_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1243
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1243=Lfde205_end - Lfde205_start
-	.long LDIFF_SYM1243
+LDIFF_SYM1244=Lfde205_end - Lfde205_start
+	.long LDIFF_SYM1244
 Lfde205_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITCrashMetaData_get_UserName
 
-LDIFF_SYM1244=Lme_12a - HockeyApp_iOS_BITCrashMetaData_get_UserName
-	.long LDIFF_SYM1244
+LDIFF_SYM1245=Lme_12a - HockeyApp_iOS_BITCrashMetaData_get_UserName
+	.long LDIFF_SYM1245
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
@@ -85437,32 +85706,32 @@ Lfde205_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1245=LTDIE_84_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1245
+LDIFF_SYM1246=LTDIE_84_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1246
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM1246=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1246
+LDIFF_SYM1247=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1247
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1247=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1247
+LDIFF_SYM1248=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1248
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1248=Lfde206_end - Lfde206_start
-	.long LDIFF_SYM1248
+LDIFF_SYM1249=Lfde206_end - Lfde206_start
+	.long LDIFF_SYM1249
 Lfde206_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITCrashMetaData_set_UserName_string
 
-LDIFF_SYM1249=Lme_12b - HockeyApp_iOS_BITCrashMetaData_set_UserName_string
-	.long LDIFF_SYM1249
+LDIFF_SYM1250=Lme_12b - HockeyApp_iOS_BITCrashMetaData_set_UserName_string
+	.long LDIFF_SYM1250
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,152,8,153,7,68,154,6
 	.align 3
@@ -85481,22 +85750,22 @@ Lfde206_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1250=LTDIE_84_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1250
+LDIFF_SYM1251=LTDIE_84_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1251
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1251=Lfde207_end - Lfde207_start
-	.long LDIFF_SYM1251
+LDIFF_SYM1252=Lfde207_end - Lfde207_start
+	.long LDIFF_SYM1252
 Lfde207_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITCrashMetaData_get_UserProvidedDescription
 
-LDIFF_SYM1252=Lme_12c - HockeyApp_iOS_BITCrashMetaData_get_UserProvidedDescription
-	.long LDIFF_SYM1252
+LDIFF_SYM1253=Lme_12c - HockeyApp_iOS_BITCrashMetaData_get_UserProvidedDescription
+	.long LDIFF_SYM1253
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
@@ -85515,32 +85784,32 @@ Lfde207_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1253=LTDIE_84_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1253
+LDIFF_SYM1254=LTDIE_84_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1254
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM1254=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1254
+LDIFF_SYM1255=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1255
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1255=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1255
+LDIFF_SYM1256=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1256
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1256=Lfde208_end - Lfde208_start
-	.long LDIFF_SYM1256
+LDIFF_SYM1257=Lfde208_end - Lfde208_start
+	.long LDIFF_SYM1257
 Lfde208_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITCrashMetaData_set_UserProvidedDescription_string
 
-LDIFF_SYM1257=Lme_12d - HockeyApp_iOS_BITCrashMetaData_set_UserProvidedDescription_string
-	.long LDIFF_SYM1257
+LDIFF_SYM1258=Lme_12d - HockeyApp_iOS_BITCrashMetaData_set_UserProvidedDescription_string
+	.long LDIFF_SYM1258
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,152,8,153,7,68,154,6
 	.align 3
@@ -85560,16 +85829,16 @@ Lfde208_end:
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1258=Lfde209_end - Lfde209_start
-	.long LDIFF_SYM1258
+LDIFF_SYM1259=Lfde209_end - Lfde209_start
+	.long LDIFF_SYM1259
 Lfde209_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITCrashMetaData__cctor
 
-LDIFF_SYM1259=Lme_12e - HockeyApp_iOS_BITCrashMetaData__cctor
-	.long LDIFF_SYM1259
+LDIFF_SYM1260=Lme_12e - HockeyApp_iOS_BITCrashMetaData__cctor
+	.long LDIFF_SYM1260
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -85582,46 +85851,46 @@ LTDIE_90:
 	.asciz "UIKit_UIActivity"
 
 	.byte 40,16
-LDIFF_SYM1260=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM1260
+LDIFF_SYM1261=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM1261
 	.byte 2,35,0,0,7
 	.asciz "UIKit_UIActivity"
 
-LDIFF_SYM1261=LTDIE_90 - Ldebug_info_start
-	.long LDIFF_SYM1261
+LDIFF_SYM1262=LTDIE_90 - Ldebug_info_start
+	.long LDIFF_SYM1262
 LTDIE_90_POINTER:
 
 	.byte 13
-LDIFF_SYM1262=LTDIE_90 - Ldebug_info_start
-	.long LDIFF_SYM1262
+LDIFF_SYM1263=LTDIE_90 - Ldebug_info_start
+	.long LDIFF_SYM1263
 LTDIE_90_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1263=LTDIE_90 - Ldebug_info_start
-	.long LDIFF_SYM1263
+LDIFF_SYM1264=LTDIE_90 - Ldebug_info_start
+	.long LDIFF_SYM1264
 LTDIE_89:
 
 	.byte 5
 	.asciz "HockeyApp_iOS_BITFeedbackActivity"
 
 	.byte 40,16
-LDIFF_SYM1264=LTDIE_90 - Ldebug_info_start
-	.long LDIFF_SYM1264
+LDIFF_SYM1265=LTDIE_90 - Ldebug_info_start
+	.long LDIFF_SYM1265
 	.byte 2,35,0,0,7
 	.asciz "HockeyApp_iOS_BITFeedbackActivity"
 
-LDIFF_SYM1265=LTDIE_89 - Ldebug_info_start
-	.long LDIFF_SYM1265
+LDIFF_SYM1266=LTDIE_89 - Ldebug_info_start
+	.long LDIFF_SYM1266
 LTDIE_89_POINTER:
 
 	.byte 13
-LDIFF_SYM1266=LTDIE_89 - Ldebug_info_start
-	.long LDIFF_SYM1266
+LDIFF_SYM1267=LTDIE_89 - Ldebug_info_start
+	.long LDIFF_SYM1267
 LTDIE_89_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1267=LTDIE_89 - Ldebug_info_start
-	.long LDIFF_SYM1267
+LDIFF_SYM1268=LTDIE_89 - Ldebug_info_start
+	.long LDIFF_SYM1268
 	.byte 2
 	.asciz "HockeyApp.iOS.BITFeedbackActivity:get_ClassHandle"
 	.asciz "HockeyApp_iOS_BITFeedbackActivity_get_ClassHandle"
@@ -85633,22 +85902,22 @@ LDIFF_SYM1267=LTDIE_89 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1268=LTDIE_89_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1268
+LDIFF_SYM1269=LTDIE_89_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1269
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1269=Lfde210_end - Lfde210_start
-	.long LDIFF_SYM1269
+LDIFF_SYM1270=Lfde210_end - Lfde210_start
+	.long LDIFF_SYM1270
 Lfde210_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITFeedbackActivity_get_ClassHandle
 
-LDIFF_SYM1270=Lme_12f - HockeyApp_iOS_BITFeedbackActivity_get_ClassHandle
-	.long LDIFF_SYM1270
+LDIFF_SYM1271=Lme_12f - HockeyApp_iOS_BITFeedbackActivity_get_ClassHandle
+	.long LDIFF_SYM1271
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -85667,22 +85936,22 @@ Lfde210_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1271=LTDIE_89_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1271
+LDIFF_SYM1272=LTDIE_89_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1272
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1272=Lfde211_end - Lfde211_start
-	.long LDIFF_SYM1272
+LDIFF_SYM1273=Lfde211_end - Lfde211_start
+	.long LDIFF_SYM1273
 Lfde211_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITFeedbackActivity__ctor
 
-LDIFF_SYM1273=Lme_130 - HockeyApp_iOS_BITFeedbackActivity__ctor
-	.long LDIFF_SYM1273
+LDIFF_SYM1274=Lme_130 - HockeyApp_iOS_BITFeedbackActivity__ctor
+	.long LDIFF_SYM1274
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
@@ -85701,27 +85970,27 @@ Lfde211_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1274=LTDIE_89_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1274
+LDIFF_SYM1275=LTDIE_89_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1275
 	.byte 1,105,3
 	.asciz "t"
 
-LDIFF_SYM1275=LTDIE_52_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1275
+LDIFF_SYM1276=LTDIE_52_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1276
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1276=Lfde212_end - Lfde212_start
-	.long LDIFF_SYM1276
+LDIFF_SYM1277=Lfde212_end - Lfde212_start
+	.long LDIFF_SYM1277
 Lfde212_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITFeedbackActivity__ctor_Foundation_NSObjectFlag
 
-LDIFF_SYM1277=Lme_131 - HockeyApp_iOS_BITFeedbackActivity__ctor_Foundation_NSObjectFlag
-	.long LDIFF_SYM1277
+LDIFF_SYM1278=Lme_131 - HockeyApp_iOS_BITFeedbackActivity__ctor_Foundation_NSObjectFlag
+	.long LDIFF_SYM1278
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10
 	.align 3
@@ -85740,27 +86009,27 @@ Lfde212_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1278=LTDIE_89_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1278
+LDIFF_SYM1279=LTDIE_89_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1279
 	.byte 1,105,3
 	.asciz "handle"
 
-LDIFF_SYM1279=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1279
+LDIFF_SYM1280=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1280
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1280=Lfde213_end - Lfde213_start
-	.long LDIFF_SYM1280
+LDIFF_SYM1281=Lfde213_end - Lfde213_start
+	.long LDIFF_SYM1281
 Lfde213_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITFeedbackActivity__ctor_intptr
 
-LDIFF_SYM1281=Lme_132 - HockeyApp_iOS_BITFeedbackActivity__ctor_intptr
-	.long LDIFF_SYM1281
+LDIFF_SYM1282=Lme_132 - HockeyApp_iOS_BITFeedbackActivity__ctor_intptr
+	.long LDIFF_SYM1282
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10
 	.align 3
@@ -85772,29 +86041,29 @@ LTDIE_91:
 	.byte 5
 	.asciz "HockeyApp_iOS_BITFeedbackComposeViewController"
 
-	.byte 56,16
-LDIFF_SYM1282=LTDIE_72 - Ldebug_info_start
-	.long LDIFF_SYM1282
+	.byte 64,16
+LDIFF_SYM1283=LTDIE_72 - Ldebug_info_start
+	.long LDIFF_SYM1283
 	.byte 2,35,0,6
 	.asciz "__mt_WeakDelegate_var"
 
-LDIFF_SYM1283=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1283
-	.byte 2,35,48,0,7
+LDIFF_SYM1284=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1284
+	.byte 2,35,56,0,7
 	.asciz "HockeyApp_iOS_BITFeedbackComposeViewController"
 
-LDIFF_SYM1284=LTDIE_91 - Ldebug_info_start
-	.long LDIFF_SYM1284
+LDIFF_SYM1285=LTDIE_91 - Ldebug_info_start
+	.long LDIFF_SYM1285
 LTDIE_91_POINTER:
 
 	.byte 13
-LDIFF_SYM1285=LTDIE_91 - Ldebug_info_start
-	.long LDIFF_SYM1285
+LDIFF_SYM1286=LTDIE_91 - Ldebug_info_start
+	.long LDIFF_SYM1286
 LTDIE_91_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1286=LTDIE_91 - Ldebug_info_start
-	.long LDIFF_SYM1286
+LDIFF_SYM1287=LTDIE_91 - Ldebug_info_start
+	.long LDIFF_SYM1287
 	.byte 2
 	.asciz "HockeyApp.iOS.BITFeedbackActivity:DidFinish"
 	.asciz "HockeyApp_iOS_BITFeedbackActivity_DidFinish_HockeyApp_iOS_BITFeedbackComposeViewController"
@@ -85806,27 +86075,27 @@ LDIFF_SYM1286=LTDIE_91 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1287=LTDIE_89_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1287
+LDIFF_SYM1288=LTDIE_89_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1288
 	.byte 1,105,3
 	.asciz "viewController"
 
-LDIFF_SYM1288=LTDIE_91_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1288
+LDIFF_SYM1289=LTDIE_91_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1289
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1289=Lfde214_end - Lfde214_start
-	.long LDIFF_SYM1289
+LDIFF_SYM1290=Lfde214_end - Lfde214_start
+	.long LDIFF_SYM1290
 Lfde214_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITFeedbackActivity_DidFinish_HockeyApp_iOS_BITFeedbackComposeViewController
 
-LDIFF_SYM1290=Lme_133 - HockeyApp_iOS_BITFeedbackActivity_DidFinish_HockeyApp_iOS_BITFeedbackComposeViewController
-	.long LDIFF_SYM1290
+LDIFF_SYM1291=Lme_133 - HockeyApp_iOS_BITFeedbackActivity_DidFinish_HockeyApp_iOS_BITFeedbackComposeViewController
+	.long LDIFF_SYM1291
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,154,9
 	.align 3
@@ -85839,8 +86108,8 @@ LTDIE_92:
 	.asciz "HockeyApp_iOS_BITFeedbackComposeResult"
 
 	.byte 8
-LDIFF_SYM1291=LDIE_U8 - Ldebug_info_start
-	.long LDIFF_SYM1291
+LDIFF_SYM1292=LDIE_U8 - Ldebug_info_start
+	.long LDIFF_SYM1292
 	.byte 9
 	.asciz "Cancelled"
 
@@ -85850,18 +86119,18 @@ LDIFF_SYM1291=LDIE_U8 - Ldebug_info_start
 	.byte 1,0,7
 	.asciz "HockeyApp_iOS_BITFeedbackComposeResult"
 
-LDIFF_SYM1292=LTDIE_92 - Ldebug_info_start
-	.long LDIFF_SYM1292
+LDIFF_SYM1293=LTDIE_92 - Ldebug_info_start
+	.long LDIFF_SYM1293
 LTDIE_92_POINTER:
 
 	.byte 13
-LDIFF_SYM1293=LTDIE_92 - Ldebug_info_start
-	.long LDIFF_SYM1293
+LDIFF_SYM1294=LTDIE_92 - Ldebug_info_start
+	.long LDIFF_SYM1294
 LTDIE_92_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1294=LTDIE_92 - Ldebug_info_start
-	.long LDIFF_SYM1294
+LDIFF_SYM1295=LTDIE_92 - Ldebug_info_start
+	.long LDIFF_SYM1295
 	.byte 2
 	.asciz "HockeyApp.iOS.BITFeedbackActivity:DidFinishWithResult"
 	.asciz "HockeyApp_iOS_BITFeedbackActivity_DidFinishWithResult_HockeyApp_iOS_BITFeedbackComposeViewController_HockeyApp_iOS_BITFeedbackComposeResult"
@@ -85873,32 +86142,32 @@ LDIFF_SYM1294=LTDIE_92 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1295=LTDIE_89_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1295
+LDIFF_SYM1296=LTDIE_89_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1296
 	.byte 1,104,3
 	.asciz "viewController"
 
-LDIFF_SYM1296=LTDIE_91_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1296
+LDIFF_SYM1297=LTDIE_91_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1297
 	.byte 1,105,3
 	.asciz "result"
 
-LDIFF_SYM1297=LTDIE_92 - Ldebug_info_start
-	.long LDIFF_SYM1297
+LDIFF_SYM1298=LTDIE_92 - Ldebug_info_start
+	.long LDIFF_SYM1298
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1298=Lfde215_end - Lfde215_start
-	.long LDIFF_SYM1298
+LDIFF_SYM1299=Lfde215_end - Lfde215_start
+	.long LDIFF_SYM1299
 Lfde215_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITFeedbackActivity_DidFinishWithResult_HockeyApp_iOS_BITFeedbackComposeViewController_HockeyApp_iOS_BITFeedbackComposeResult
 
-LDIFF_SYM1299=Lme_134 - HockeyApp_iOS_BITFeedbackActivity_DidFinishWithResult_HockeyApp_iOS_BITFeedbackComposeViewController_HockeyApp_iOS_BITFeedbackComposeResult
-	.long LDIFF_SYM1299
+LDIFF_SYM1300=Lme_134 - HockeyApp_iOS_BITFeedbackActivity_DidFinishWithResult_HockeyApp_iOS_BITFeedbackComposeViewController_HockeyApp_iOS_BITFeedbackComposeResult
+	.long LDIFF_SYM1300
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,152,10,153,9,68,154,8
 	.align 3
@@ -85911,23 +86180,23 @@ LTDIE_93:
 	.asciz "UIKit_UIImage"
 
 	.byte 40,16
-LDIFF_SYM1300=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM1300
+LDIFF_SYM1301=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM1301
 	.byte 2,35,0,0,7
 	.asciz "UIKit_UIImage"
 
-LDIFF_SYM1301=LTDIE_93 - Ldebug_info_start
-	.long LDIFF_SYM1301
+LDIFF_SYM1302=LTDIE_93 - Ldebug_info_start
+	.long LDIFF_SYM1302
 LTDIE_93_POINTER:
 
 	.byte 13
-LDIFF_SYM1302=LTDIE_93 - Ldebug_info_start
-	.long LDIFF_SYM1302
+LDIFF_SYM1303=LTDIE_93 - Ldebug_info_start
+	.long LDIFF_SYM1303
 LTDIE_93_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1303=LTDIE_93 - Ldebug_info_start
-	.long LDIFF_SYM1303
+LDIFF_SYM1304=LTDIE_93 - Ldebug_info_start
+	.long LDIFF_SYM1304
 	.byte 2
 	.asciz "HockeyApp.iOS.BITFeedbackActivity:get_CustomActivityImage"
 	.asciz "HockeyApp_iOS_BITFeedbackActivity_get_CustomActivityImage"
@@ -85939,27 +86208,27 @@ LDIFF_SYM1303=LTDIE_93 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1304=LTDIE_89_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1304
+LDIFF_SYM1305=LTDIE_89_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1305
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1305=LTDIE_93_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1305
+LDIFF_SYM1306=LTDIE_93_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1306
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1306=Lfde216_end - Lfde216_start
-	.long LDIFF_SYM1306
+LDIFF_SYM1307=Lfde216_end - Lfde216_start
+	.long LDIFF_SYM1307
 Lfde216_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITFeedbackActivity_get_CustomActivityImage
 
-LDIFF_SYM1307=Lme_135 - HockeyApp_iOS_BITFeedbackActivity_get_CustomActivityImage
-	.long LDIFF_SYM1307
+LDIFF_SYM1308=Lme_135 - HockeyApp_iOS_BITFeedbackActivity_get_CustomActivityImage
+	.long LDIFF_SYM1308
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,154,9
 	.align 3
@@ -85978,27 +86247,27 @@ Lfde216_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1308=LTDIE_89_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1308
+LDIFF_SYM1309=LTDIE_89_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1309
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM1309=LTDIE_93_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1309
+LDIFF_SYM1310=LTDIE_93_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1310
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1310=Lfde217_end - Lfde217_start
-	.long LDIFF_SYM1310
+LDIFF_SYM1311=Lfde217_end - Lfde217_start
+	.long LDIFF_SYM1311
 Lfde217_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITFeedbackActivity_set_CustomActivityImage_UIKit_UIImage
 
-LDIFF_SYM1311=Lme_136 - HockeyApp_iOS_BITFeedbackActivity_set_CustomActivityImage_UIKit_UIImage
-	.long LDIFF_SYM1311
+LDIFF_SYM1312=Lme_136 - HockeyApp_iOS_BITFeedbackActivity_set_CustomActivityImage_UIKit_UIImage
+	.long LDIFF_SYM1312
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,154,9
 	.align 3
@@ -86017,22 +86286,22 @@ Lfde217_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1312=LTDIE_89_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1312
+LDIFF_SYM1313=LTDIE_89_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1313
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1313=Lfde218_end - Lfde218_start
-	.long LDIFF_SYM1313
+LDIFF_SYM1314=Lfde218_end - Lfde218_start
+	.long LDIFF_SYM1314
 Lfde218_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITFeedbackActivity_get_CustomActivityTitle
 
-LDIFF_SYM1314=Lme_137 - HockeyApp_iOS_BITFeedbackActivity_get_CustomActivityTitle
-	.long LDIFF_SYM1314
+LDIFF_SYM1315=Lme_137 - HockeyApp_iOS_BITFeedbackActivity_get_CustomActivityTitle
+	.long LDIFF_SYM1315
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
@@ -86051,32 +86320,32 @@ Lfde218_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1315=LTDIE_89_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1315
+LDIFF_SYM1316=LTDIE_89_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1316
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM1316=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1316
+LDIFF_SYM1317=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1317
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1317=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1317
+LDIFF_SYM1318=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1318
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1318=Lfde219_end - Lfde219_start
-	.long LDIFF_SYM1318
+LDIFF_SYM1319=Lfde219_end - Lfde219_start
+	.long LDIFF_SYM1319
 Lfde219_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITFeedbackActivity_set_CustomActivityTitle_string
 
-LDIFF_SYM1319=Lme_138 - HockeyApp_iOS_BITFeedbackActivity_set_CustomActivityTitle_string
-	.long LDIFF_SYM1319
+LDIFF_SYM1320=Lme_138 - HockeyApp_iOS_BITFeedbackActivity_set_CustomActivityTitle_string
+	.long LDIFF_SYM1320
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,152,8,153,7,68,154,6
 	.align 3
@@ -86096,16 +86365,16 @@ Lfde219_end:
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1320=Lfde220_end - Lfde220_start
-	.long LDIFF_SYM1320
+LDIFF_SYM1321=Lfde220_end - Lfde220_start
+	.long LDIFF_SYM1321
 Lfde220_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITFeedbackActivity__cctor
 
-LDIFF_SYM1321=Lme_139 - HockeyApp_iOS_BITFeedbackActivity__cctor
-	.long LDIFF_SYM1321
+LDIFF_SYM1322=Lme_139 - HockeyApp_iOS_BITFeedbackActivity__cctor
+	.long LDIFF_SYM1322
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -86124,22 +86393,22 @@ Lfde220_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1322=LTDIE_91_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1322
+LDIFF_SYM1323=LTDIE_91_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1323
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1323=Lfde221_end - Lfde221_start
-	.long LDIFF_SYM1323
+LDIFF_SYM1324=Lfde221_end - Lfde221_start
+	.long LDIFF_SYM1324
 Lfde221_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITFeedbackComposeViewController_get_ClassHandle
 
-LDIFF_SYM1324=Lme_13a - HockeyApp_iOS_BITFeedbackComposeViewController_get_ClassHandle
-	.long LDIFF_SYM1324
+LDIFF_SYM1325=Lme_13a - HockeyApp_iOS_BITFeedbackComposeViewController_get_ClassHandle
+	.long LDIFF_SYM1325
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -86158,22 +86427,22 @@ Lfde221_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1325=LTDIE_91_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1325
+LDIFF_SYM1326=LTDIE_91_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1326
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1326=Lfde222_end - Lfde222_start
-	.long LDIFF_SYM1326
+LDIFF_SYM1327=Lfde222_end - Lfde222_start
+	.long LDIFF_SYM1327
 Lfde222_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITFeedbackComposeViewController__ctor
 
-LDIFF_SYM1327=Lme_13b - HockeyApp_iOS_BITFeedbackComposeViewController__ctor
-	.long LDIFF_SYM1327
+LDIFF_SYM1328=Lme_13b - HockeyApp_iOS_BITFeedbackComposeViewController__ctor
+	.long LDIFF_SYM1328
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
@@ -86192,27 +86461,27 @@ Lfde222_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1328=LTDIE_91_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1328
+LDIFF_SYM1329=LTDIE_91_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1329
 	.byte 1,105,3
 	.asciz "coder"
 
-LDIFF_SYM1329=LTDIE_79_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1329
+LDIFF_SYM1330=LTDIE_79_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1330
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1330=Lfde223_end - Lfde223_start
-	.long LDIFF_SYM1330
+LDIFF_SYM1331=Lfde223_end - Lfde223_start
+	.long LDIFF_SYM1331
 Lfde223_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITFeedbackComposeViewController__ctor_Foundation_NSCoder
 
-LDIFF_SYM1331=Lme_13c - HockeyApp_iOS_BITFeedbackComposeViewController__ctor_Foundation_NSCoder
-	.long LDIFF_SYM1331
+LDIFF_SYM1332=Lme_13c - HockeyApp_iOS_BITFeedbackComposeViewController__ctor_Foundation_NSCoder
+	.long LDIFF_SYM1332
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,154,9
 	.align 3
@@ -86231,27 +86500,27 @@ Lfde223_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1332=LTDIE_91_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1332
+LDIFF_SYM1333=LTDIE_91_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1333
 	.byte 1,105,3
 	.asciz "t"
 
-LDIFF_SYM1333=LTDIE_52_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1333
+LDIFF_SYM1334=LTDIE_52_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1334
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1334=Lfde224_end - Lfde224_start
-	.long LDIFF_SYM1334
+LDIFF_SYM1335=Lfde224_end - Lfde224_start
+	.long LDIFF_SYM1335
 Lfde224_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITFeedbackComposeViewController__ctor_Foundation_NSObjectFlag
 
-LDIFF_SYM1335=Lme_13d - HockeyApp_iOS_BITFeedbackComposeViewController__ctor_Foundation_NSObjectFlag
-	.long LDIFF_SYM1335
+LDIFF_SYM1336=Lme_13d - HockeyApp_iOS_BITFeedbackComposeViewController__ctor_Foundation_NSObjectFlag
+	.long LDIFF_SYM1336
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10
 	.align 3
@@ -86270,27 +86539,27 @@ Lfde224_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1336=LTDIE_91_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1336
+LDIFF_SYM1337=LTDIE_91_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1337
 	.byte 1,105,3
 	.asciz "handle"
 
-LDIFF_SYM1337=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1337
+LDIFF_SYM1338=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1338
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1338=Lfde225_end - Lfde225_start
-	.long LDIFF_SYM1338
+LDIFF_SYM1339=Lfde225_end - Lfde225_start
+	.long LDIFF_SYM1339
 Lfde225_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITFeedbackComposeViewController__ctor_intptr
 
-LDIFF_SYM1339=Lme_13e - HockeyApp_iOS_BITFeedbackComposeViewController__ctor_intptr
-	.long LDIFF_SYM1339
+LDIFF_SYM1340=Lme_13e - HockeyApp_iOS_BITFeedbackComposeViewController__ctor_intptr
+	.long LDIFF_SYM1340
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10
 	.align 3
@@ -86303,23 +86572,23 @@ LTDIE_94:
 	.asciz "Foundation_NSArray"
 
 	.byte 40,16
-LDIFF_SYM1340=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM1340
+LDIFF_SYM1341=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM1341
 	.byte 2,35,0,0,7
 	.asciz "Foundation_NSArray"
 
-LDIFF_SYM1341=LTDIE_94 - Ldebug_info_start
-	.long LDIFF_SYM1341
+LDIFF_SYM1342=LTDIE_94 - Ldebug_info_start
+	.long LDIFF_SYM1342
 LTDIE_94_POINTER:
 
 	.byte 13
-LDIFF_SYM1342=LTDIE_94 - Ldebug_info_start
-	.long LDIFF_SYM1342
+LDIFF_SYM1343=LTDIE_94 - Ldebug_info_start
+	.long LDIFF_SYM1343
 LTDIE_94_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1343=LTDIE_94 - Ldebug_info_start
-	.long LDIFF_SYM1343
+LDIFF_SYM1344=LTDIE_94 - Ldebug_info_start
+	.long LDIFF_SYM1344
 	.byte 2
 	.asciz "HockeyApp.iOS.BITFeedbackComposeViewController:PrepareWithItems"
 	.asciz "HockeyApp_iOS_BITFeedbackComposeViewController_PrepareWithItems_Foundation_NSArray"
@@ -86331,27 +86600,27 @@ LDIFF_SYM1343=LTDIE_94 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1344=LTDIE_91_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1344
+LDIFF_SYM1345=LTDIE_91_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1345
 	.byte 1,105,3
 	.asciz "items"
 
-LDIFF_SYM1345=LTDIE_94_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1345
+LDIFF_SYM1346=LTDIE_94_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1346
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1346=Lfde226_end - Lfde226_start
-	.long LDIFF_SYM1346
+LDIFF_SYM1347=Lfde226_end - Lfde226_start
+	.long LDIFF_SYM1347
 Lfde226_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITFeedbackComposeViewController_PrepareWithItems_Foundation_NSArray
 
-LDIFF_SYM1347=Lme_13f - HockeyApp_iOS_BITFeedbackComposeViewController_PrepareWithItems_Foundation_NSArray
-	.long LDIFF_SYM1347
+LDIFF_SYM1348=Lme_13f - HockeyApp_iOS_BITFeedbackComposeViewController_PrepareWithItems_Foundation_NSArray
+	.long LDIFF_SYM1348
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,154,9
 	.align 3
@@ -86370,22 +86639,22 @@ Lfde226_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1348=LTDIE_91_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1348
+LDIFF_SYM1349=LTDIE_91_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1349
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1349=Lfde227_end - Lfde227_start
-	.long LDIFF_SYM1349
+LDIFF_SYM1350=Lfde227_end - Lfde227_start
+	.long LDIFF_SYM1350
 Lfde227_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITFeedbackComposeViewController_get_Delegate
 
-LDIFF_SYM1350=Lme_140 - HockeyApp_iOS_BITFeedbackComposeViewController_get_Delegate
-	.long LDIFF_SYM1350
+LDIFF_SYM1351=Lme_140 - HockeyApp_iOS_BITFeedbackComposeViewController_get_Delegate
+	.long LDIFF_SYM1351
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,152,6,153,5
 	.align 3
@@ -86398,23 +86667,23 @@ LTDIE_95:
 	.asciz "HockeyApp_iOS_BITFeedbackComposeViewControllerDelegate"
 
 	.byte 40,16
-LDIFF_SYM1351=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM1351
+LDIFF_SYM1352=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM1352
 	.byte 2,35,0,0,7
 	.asciz "HockeyApp_iOS_BITFeedbackComposeViewControllerDelegate"
 
-LDIFF_SYM1352=LTDIE_95 - Ldebug_info_start
-	.long LDIFF_SYM1352
+LDIFF_SYM1353=LTDIE_95 - Ldebug_info_start
+	.long LDIFF_SYM1353
 LTDIE_95_POINTER:
 
 	.byte 13
-LDIFF_SYM1353=LTDIE_95 - Ldebug_info_start
-	.long LDIFF_SYM1353
+LDIFF_SYM1354=LTDIE_95 - Ldebug_info_start
+	.long LDIFF_SYM1354
 LTDIE_95_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1354=LTDIE_95 - Ldebug_info_start
-	.long LDIFF_SYM1354
+LDIFF_SYM1355=LTDIE_95 - Ldebug_info_start
+	.long LDIFF_SYM1355
 	.byte 2
 	.asciz "HockeyApp.iOS.BITFeedbackComposeViewController:set_Delegate"
 	.asciz "HockeyApp_iOS_BITFeedbackComposeViewController_set_Delegate_HockeyApp_iOS_BITFeedbackComposeViewControllerDelegate"
@@ -86426,27 +86695,27 @@ LDIFF_SYM1354=LTDIE_95 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1355=LTDIE_91_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1355
+LDIFF_SYM1356=LTDIE_91_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1356
 	.byte 2,141,16,3
 	.asciz "value"
 
-LDIFF_SYM1356=LTDIE_95_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1356
+LDIFF_SYM1357=LTDIE_95_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1357
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1357=Lfde228_end - Lfde228_start
-	.long LDIFF_SYM1357
+LDIFF_SYM1358=Lfde228_end - Lfde228_start
+	.long LDIFF_SYM1358
 Lfde228_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITFeedbackComposeViewController_set_Delegate_HockeyApp_iOS_BITFeedbackComposeViewControllerDelegate
 
-LDIFF_SYM1358=Lme_141 - HockeyApp_iOS_BITFeedbackComposeViewController_set_Delegate_HockeyApp_iOS_BITFeedbackComposeViewControllerDelegate
-	.long LDIFF_SYM1358
+LDIFF_SYM1359=Lme_141 - HockeyApp_iOS_BITFeedbackComposeViewController_set_Delegate_HockeyApp_iOS_BITFeedbackComposeViewControllerDelegate
+	.long LDIFF_SYM1359
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -86465,22 +86734,22 @@ Lfde228_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1359=LTDIE_91_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1359
+LDIFF_SYM1360=LTDIE_91_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1360
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1360=Lfde229_end - Lfde229_start
-	.long LDIFF_SYM1360
+LDIFF_SYM1361=Lfde229_end - Lfde229_start
+	.long LDIFF_SYM1361
 Lfde229_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITFeedbackComposeViewController_get_HideImageAttachmentButton
 
-LDIFF_SYM1361=Lme_142 - HockeyApp_iOS_BITFeedbackComposeViewController_get_HideImageAttachmentButton
-	.long LDIFF_SYM1361
+LDIFF_SYM1362=Lme_142 - HockeyApp_iOS_BITFeedbackComposeViewController_get_HideImageAttachmentButton
+	.long LDIFF_SYM1362
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
@@ -86499,27 +86768,27 @@ Lfde229_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1362=LTDIE_91_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1362
+LDIFF_SYM1363=LTDIE_91_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1363
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM1363=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1363
+LDIFF_SYM1364=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1364
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1364=Lfde230_end - Lfde230_start
-	.long LDIFF_SYM1364
+LDIFF_SYM1365=Lfde230_end - Lfde230_start
+	.long LDIFF_SYM1365
 Lfde230_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITFeedbackComposeViewController_set_HideImageAttachmentButton_bool
 
-LDIFF_SYM1365=Lme_143 - HockeyApp_iOS_BITFeedbackComposeViewController_set_HideImageAttachmentButton_bool
-	.long LDIFF_SYM1365
+LDIFF_SYM1366=Lme_143 - HockeyApp_iOS_BITFeedbackComposeViewController_set_HideImageAttachmentButton_bool
+	.long LDIFF_SYM1366
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8,154,7
 	.align 3
@@ -86538,27 +86807,27 @@ Lfde230_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1366=LTDIE_91_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1366
+LDIFF_SYM1367=LTDIE_91_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1367
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1367=LTDIE_15_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1367
+LDIFF_SYM1368=LTDIE_15_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1368
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1368=Lfde231_end - Lfde231_start
-	.long LDIFF_SYM1368
+LDIFF_SYM1369=Lfde231_end - Lfde231_start
+	.long LDIFF_SYM1369
 Lfde231_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITFeedbackComposeViewController_get_WeakDelegate
 
-LDIFF_SYM1369=Lme_144 - HockeyApp_iOS_BITFeedbackComposeViewController_get_WeakDelegate
-	.long LDIFF_SYM1369
+LDIFF_SYM1370=Lme_144 - HockeyApp_iOS_BITFeedbackComposeViewController_get_WeakDelegate
+	.long LDIFF_SYM1370
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,154,9
 	.align 3
@@ -86577,27 +86846,27 @@ Lfde231_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1370=LTDIE_91_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1370
+LDIFF_SYM1371=LTDIE_91_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1371
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM1371=LTDIE_15_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1371
+LDIFF_SYM1372=LTDIE_15_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1372
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1372=Lfde232_end - Lfde232_start
-	.long LDIFF_SYM1372
+LDIFF_SYM1373=Lfde232_end - Lfde232_start
+	.long LDIFF_SYM1373
 Lfde232_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITFeedbackComposeViewController_set_WeakDelegate_Foundation_NSObject
 
-LDIFF_SYM1373=Lme_145 - HockeyApp_iOS_BITFeedbackComposeViewController_set_WeakDelegate_Foundation_NSObject
-	.long LDIFF_SYM1373
+LDIFF_SYM1374=Lme_145 - HockeyApp_iOS_BITFeedbackComposeViewController_set_WeakDelegate_Foundation_NSObject
+	.long LDIFF_SYM1374
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,150,10,151,9,68,152,8,153,7,68,154,6
 	.align 3
@@ -86616,27 +86885,27 @@ Lfde232_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1374=LTDIE_91_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1374
+LDIFF_SYM1375=LTDIE_91_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1375
 	.byte 1,105,3
 	.asciz "disposing"
 
-LDIFF_SYM1375=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1375
+LDIFF_SYM1376=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1376
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1376=Lfde233_end - Lfde233_start
-	.long LDIFF_SYM1376
+LDIFF_SYM1377=Lfde233_end - Lfde233_start
+	.long LDIFF_SYM1377
 Lfde233_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITFeedbackComposeViewController_Dispose_bool
 
-LDIFF_SYM1377=Lme_146 - HockeyApp_iOS_BITFeedbackComposeViewController_Dispose_bool
-	.long LDIFF_SYM1377
+LDIFF_SYM1378=Lme_146 - HockeyApp_iOS_BITFeedbackComposeViewController_Dispose_bool
+	.long LDIFF_SYM1378
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8
 	.align 3
@@ -86656,16 +86925,16 @@ Lfde233_end:
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1378=Lfde234_end - Lfde234_start
-	.long LDIFF_SYM1378
+LDIFF_SYM1379=Lfde234_end - Lfde234_start
+	.long LDIFF_SYM1379
 Lfde234_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITFeedbackComposeViewController__cctor
 
-LDIFF_SYM1379=Lme_147 - HockeyApp_iOS_BITFeedbackComposeViewController__cctor
-	.long LDIFF_SYM1379
+LDIFF_SYM1380=Lme_147 - HockeyApp_iOS_BITFeedbackComposeViewController__cctor
+	.long LDIFF_SYM1380
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -86680,18 +86949,18 @@ LTDIE_96:
 	.byte 16,7
 	.asciz "HockeyApp_iOS_IBITFeedbackComposeViewControllerDelegate"
 
-LDIFF_SYM1380=LTDIE_96 - Ldebug_info_start
-	.long LDIFF_SYM1380
+LDIFF_SYM1381=LTDIE_96 - Ldebug_info_start
+	.long LDIFF_SYM1381
 LTDIE_96_POINTER:
 
 	.byte 13
-LDIFF_SYM1381=LTDIE_96 - Ldebug_info_start
-	.long LDIFF_SYM1381
+LDIFF_SYM1382=LTDIE_96 - Ldebug_info_start
+	.long LDIFF_SYM1382
 LTDIE_96_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1382=LTDIE_96 - Ldebug_info_start
-	.long LDIFF_SYM1382
+LDIFF_SYM1383=LTDIE_96 - Ldebug_info_start
+	.long LDIFF_SYM1383
 	.byte 2
 	.asciz "HockeyApp.iOS.BITFeedbackComposeViewControllerDelegate_Extensions:DidFinishWithResult"
 	.asciz "HockeyApp_iOS_BITFeedbackComposeViewControllerDelegate_Extensions_DidFinishWithResult_HockeyApp_iOS_IBITFeedbackComposeViewControllerDelegate_HockeyApp_iOS_BITFeedbackComposeViewController_HockeyApp_iOS_BITFeedbackComposeResult"
@@ -86703,32 +86972,32 @@ LDIFF_SYM1382=LTDIE_96 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "This"
 
-LDIFF_SYM1383=LTDIE_96_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1383
+LDIFF_SYM1384=LTDIE_96_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1384
 	.byte 1,104,3
 	.asciz "viewController"
 
-LDIFF_SYM1384=LTDIE_91_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1384
+LDIFF_SYM1385=LTDIE_91_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1385
 	.byte 1,105,3
 	.asciz "result"
 
-LDIFF_SYM1385=LTDIE_92 - Ldebug_info_start
-	.long LDIFF_SYM1385
+LDIFF_SYM1386=LTDIE_92 - Ldebug_info_start
+	.long LDIFF_SYM1386
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1386=Lfde235_end - Lfde235_start
-	.long LDIFF_SYM1386
+LDIFF_SYM1387=Lfde235_end - Lfde235_start
+	.long LDIFF_SYM1387
 Lfde235_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITFeedbackComposeViewControllerDelegate_Extensions_DidFinishWithResult_HockeyApp_iOS_IBITFeedbackComposeViewControllerDelegate_HockeyApp_iOS_BITFeedbackComposeViewController_HockeyApp_iOS_BITFeedbackComposeResult
 
-LDIFF_SYM1387=Lme_148 - HockeyApp_iOS_BITFeedbackComposeViewControllerDelegate_Extensions_DidFinishWithResult_HockeyApp_iOS_IBITFeedbackComposeViewControllerDelegate_HockeyApp_iOS_BITFeedbackComposeViewController_HockeyApp_iOS_BITFeedbackComposeResult
-	.long LDIFF_SYM1387
+LDIFF_SYM1388=Lme_148 - HockeyApp_iOS_BITFeedbackComposeViewControllerDelegate_Extensions_DidFinishWithResult_HockeyApp_iOS_IBITFeedbackComposeViewControllerDelegate_HockeyApp_iOS_BITFeedbackComposeViewController_HockeyApp_iOS_BITFeedbackComposeResult
+	.long LDIFF_SYM1388
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,152,10,153,9,68,154,8
 	.align 3
@@ -86747,27 +87016,27 @@ Lfde235_end:
 	.byte 2,118,16,3
 	.asciz "This"
 
-LDIFF_SYM1388=LTDIE_96_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1388
+LDIFF_SYM1389=LTDIE_96_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1389
 	.byte 2,141,24,3
 	.asciz "viewController"
 
-LDIFF_SYM1389=LTDIE_91_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1389
+LDIFF_SYM1390=LTDIE_91_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1390
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1390=Lfde236_end - Lfde236_start
-	.long LDIFF_SYM1390
+LDIFF_SYM1391=Lfde236_end - Lfde236_start
+	.long LDIFF_SYM1391
 Lfde236_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITFeedbackComposeViewControllerDelegate_Extensions_DidFinish_HockeyApp_iOS_IBITFeedbackComposeViewControllerDelegate_HockeyApp_iOS_BITFeedbackComposeViewController
 
-LDIFF_SYM1391=Lme_149 - HockeyApp_iOS_BITFeedbackComposeViewControllerDelegate_Extensions_DidFinish_HockeyApp_iOS_IBITFeedbackComposeViewControllerDelegate_HockeyApp_iOS_BITFeedbackComposeViewController
-	.long LDIFF_SYM1391
+LDIFF_SYM1392=Lme_149 - HockeyApp_iOS_BITFeedbackComposeViewControllerDelegate_Extensions_DidFinish_HockeyApp_iOS_IBITFeedbackComposeViewControllerDelegate_HockeyApp_iOS_BITFeedbackComposeViewController
+	.long LDIFF_SYM1392
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,154,10
 	.align 3
@@ -86780,23 +87049,23 @@ LTDIE_97:
 	.asciz "HockeyApp_iOS_BITFeedbackComposeViewControllerDelegateWrapper"
 
 	.byte 24,16
-LDIFF_SYM1392=LTDIE_75 - Ldebug_info_start
-	.long LDIFF_SYM1392
+LDIFF_SYM1393=LTDIE_75 - Ldebug_info_start
+	.long LDIFF_SYM1393
 	.byte 2,35,0,0,7
 	.asciz "HockeyApp_iOS_BITFeedbackComposeViewControllerDelegateWrapper"
 
-LDIFF_SYM1393=LTDIE_97 - Ldebug_info_start
-	.long LDIFF_SYM1393
+LDIFF_SYM1394=LTDIE_97 - Ldebug_info_start
+	.long LDIFF_SYM1394
 LTDIE_97_POINTER:
 
 	.byte 13
-LDIFF_SYM1394=LTDIE_97 - Ldebug_info_start
-	.long LDIFF_SYM1394
+LDIFF_SYM1395=LTDIE_97 - Ldebug_info_start
+	.long LDIFF_SYM1395
 LTDIE_97_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1395=LTDIE_97 - Ldebug_info_start
-	.long LDIFF_SYM1395
+LDIFF_SYM1396=LTDIE_97 - Ldebug_info_start
+	.long LDIFF_SYM1396
 	.byte 2
 	.asciz "HockeyApp.iOS.BITFeedbackComposeViewControllerDelegateWrapper:.ctor"
 	.asciz "HockeyApp_iOS_BITFeedbackComposeViewControllerDelegateWrapper__ctor_intptr_bool"
@@ -86808,32 +87077,32 @@ LDIFF_SYM1395=LTDIE_97 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1396=LTDIE_97_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1396
+LDIFF_SYM1397=LTDIE_97_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1397
 	.byte 2,141,16,3
 	.asciz "handle"
 
-LDIFF_SYM1397=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1397
+LDIFF_SYM1398=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1398
 	.byte 2,141,24,3
 	.asciz "owns"
 
-LDIFF_SYM1398=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1398
+LDIFF_SYM1399=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1399
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1399=Lfde237_end - Lfde237_start
-	.long LDIFF_SYM1399
+LDIFF_SYM1400=Lfde237_end - Lfde237_start
+	.long LDIFF_SYM1400
 Lfde237_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITFeedbackComposeViewControllerDelegateWrapper__ctor_intptr_bool
 
-LDIFF_SYM1400=Lme_14a - HockeyApp_iOS_BITFeedbackComposeViewControllerDelegateWrapper__ctor_intptr_bool
-	.long LDIFF_SYM1400
+LDIFF_SYM1401=Lme_14a - HockeyApp_iOS_BITFeedbackComposeViewControllerDelegateWrapper__ctor_intptr_bool
+	.long LDIFF_SYM1401
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -86852,22 +87121,22 @@ Lfde237_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1401=LTDIE_95_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1401
+LDIFF_SYM1402=LTDIE_95_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1402
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1402=Lfde238_end - Lfde238_start
-	.long LDIFF_SYM1402
+LDIFF_SYM1403=Lfde238_end - Lfde238_start
+	.long LDIFF_SYM1403
 Lfde238_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITFeedbackComposeViewControllerDelegate__ctor
 
-LDIFF_SYM1403=Lme_14b - HockeyApp_iOS_BITFeedbackComposeViewControllerDelegate__ctor
-	.long LDIFF_SYM1403
+LDIFF_SYM1404=Lme_14b - HockeyApp_iOS_BITFeedbackComposeViewControllerDelegate__ctor
+	.long LDIFF_SYM1404
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
@@ -86886,27 +87155,27 @@ Lfde238_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1404=LTDIE_95_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1404
+LDIFF_SYM1405=LTDIE_95_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1405
 	.byte 1,105,3
 	.asciz "t"
 
-LDIFF_SYM1405=LTDIE_52_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1405
+LDIFF_SYM1406=LTDIE_52_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1406
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1406=Lfde239_end - Lfde239_start
-	.long LDIFF_SYM1406
+LDIFF_SYM1407=Lfde239_end - Lfde239_start
+	.long LDIFF_SYM1407
 Lfde239_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITFeedbackComposeViewControllerDelegate__ctor_Foundation_NSObjectFlag
 
-LDIFF_SYM1407=Lme_14c - HockeyApp_iOS_BITFeedbackComposeViewControllerDelegate__ctor_Foundation_NSObjectFlag
-	.long LDIFF_SYM1407
+LDIFF_SYM1408=Lme_14c - HockeyApp_iOS_BITFeedbackComposeViewControllerDelegate__ctor_Foundation_NSObjectFlag
+	.long LDIFF_SYM1408
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10
 	.align 3
@@ -86925,27 +87194,27 @@ Lfde239_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1408=LTDIE_95_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1408
+LDIFF_SYM1409=LTDIE_95_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1409
 	.byte 1,105,3
 	.asciz "handle"
 
-LDIFF_SYM1409=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1409
+LDIFF_SYM1410=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1410
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1410=Lfde240_end - Lfde240_start
-	.long LDIFF_SYM1410
+LDIFF_SYM1411=Lfde240_end - Lfde240_start
+	.long LDIFF_SYM1411
 Lfde240_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITFeedbackComposeViewControllerDelegate__ctor_intptr
 
-LDIFF_SYM1411=Lme_14d - HockeyApp_iOS_BITFeedbackComposeViewControllerDelegate__ctor_intptr
-	.long LDIFF_SYM1411
+LDIFF_SYM1412=Lme_14d - HockeyApp_iOS_BITFeedbackComposeViewControllerDelegate__ctor_intptr
+	.long LDIFF_SYM1412
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10
 	.align 3
@@ -86964,27 +87233,27 @@ Lfde240_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1412=LTDIE_95_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1412
+LDIFF_SYM1413=LTDIE_95_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1413
 	.byte 2,141,16,3
 	.asciz "viewController"
 
-LDIFF_SYM1413=LTDIE_91_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1413
+LDIFF_SYM1414=LTDIE_91_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1414
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1414=Lfde241_end - Lfde241_start
-	.long LDIFF_SYM1414
+LDIFF_SYM1415=Lfde241_end - Lfde241_start
+	.long LDIFF_SYM1415
 Lfde241_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITFeedbackComposeViewControllerDelegate_DidFinish_HockeyApp_iOS_BITFeedbackComposeViewController
 
-LDIFF_SYM1415=Lme_14e - HockeyApp_iOS_BITFeedbackComposeViewControllerDelegate_DidFinish_HockeyApp_iOS_BITFeedbackComposeViewController
-	.long LDIFF_SYM1415
+LDIFF_SYM1416=Lme_14e - HockeyApp_iOS_BITFeedbackComposeViewControllerDelegate_DidFinish_HockeyApp_iOS_BITFeedbackComposeViewController
+	.long LDIFF_SYM1416
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
@@ -87003,32 +87272,32 @@ Lfde241_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1416=LTDIE_95_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1416
+LDIFF_SYM1417=LTDIE_95_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1417
 	.byte 2,141,16,3
 	.asciz "viewController"
 
-LDIFF_SYM1417=LTDIE_91_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1417
+LDIFF_SYM1418=LTDIE_91_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1418
 	.byte 2,141,24,3
 	.asciz "result"
 
-LDIFF_SYM1418=LTDIE_92 - Ldebug_info_start
-	.long LDIFF_SYM1418
+LDIFF_SYM1419=LTDIE_92 - Ldebug_info_start
+	.long LDIFF_SYM1419
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1419=Lfde242_end - Lfde242_start
-	.long LDIFF_SYM1419
+LDIFF_SYM1420=Lfde242_end - Lfde242_start
+	.long LDIFF_SYM1420
 Lfde242_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITFeedbackComposeViewControllerDelegate_DidFinishWithResult_HockeyApp_iOS_BITFeedbackComposeViewController_HockeyApp_iOS_BITFeedbackComposeResult
 
-LDIFF_SYM1420=Lme_14f - HockeyApp_iOS_BITFeedbackComposeViewControllerDelegate_DidFinishWithResult_HockeyApp_iOS_BITFeedbackComposeViewController_HockeyApp_iOS_BITFeedbackComposeResult
-	.long LDIFF_SYM1420
+LDIFF_SYM1421=Lme_14f - HockeyApp_iOS_BITFeedbackComposeViewControllerDelegate_DidFinishWithResult_HockeyApp_iOS_BITFeedbackComposeViewController_HockeyApp_iOS_BITFeedbackComposeResult
+	.long LDIFF_SYM1421
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
@@ -87040,70 +87309,70 @@ LTDIE_100:
 	.byte 5
 	.asciz "UIKit_UITableViewController"
 
-	.byte 48,16
-LDIFF_SYM1421=LTDIE_72 - Ldebug_info_start
-	.long LDIFF_SYM1421
+	.byte 56,16
+LDIFF_SYM1422=LTDIE_72 - Ldebug_info_start
+	.long LDIFF_SYM1422
 	.byte 2,35,0,0,7
 	.asciz "UIKit_UITableViewController"
 
-LDIFF_SYM1422=LTDIE_100 - Ldebug_info_start
-	.long LDIFF_SYM1422
+LDIFF_SYM1423=LTDIE_100 - Ldebug_info_start
+	.long LDIFF_SYM1423
 LTDIE_100_POINTER:
 
 	.byte 13
-LDIFF_SYM1423=LTDIE_100 - Ldebug_info_start
-	.long LDIFF_SYM1423
+LDIFF_SYM1424=LTDIE_100 - Ldebug_info_start
+	.long LDIFF_SYM1424
 LTDIE_100_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1424=LTDIE_100 - Ldebug_info_start
-	.long LDIFF_SYM1424
+LDIFF_SYM1425=LTDIE_100 - Ldebug_info_start
+	.long LDIFF_SYM1425
 LTDIE_99:
 
 	.byte 5
 	.asciz "HockeyApp_iOS_BITHockeyBaseViewController"
 
-	.byte 48,16
-LDIFF_SYM1425=LTDIE_100 - Ldebug_info_start
-	.long LDIFF_SYM1425
+	.byte 56,16
+LDIFF_SYM1426=LTDIE_100 - Ldebug_info_start
+	.long LDIFF_SYM1426
 	.byte 2,35,0,0,7
 	.asciz "HockeyApp_iOS_BITHockeyBaseViewController"
 
-LDIFF_SYM1426=LTDIE_99 - Ldebug_info_start
-	.long LDIFF_SYM1426
+LDIFF_SYM1427=LTDIE_99 - Ldebug_info_start
+	.long LDIFF_SYM1427
 LTDIE_99_POINTER:
 
 	.byte 13
-LDIFF_SYM1427=LTDIE_99 - Ldebug_info_start
-	.long LDIFF_SYM1427
+LDIFF_SYM1428=LTDIE_99 - Ldebug_info_start
+	.long LDIFF_SYM1428
 LTDIE_99_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1428=LTDIE_99 - Ldebug_info_start
-	.long LDIFF_SYM1428
+LDIFF_SYM1429=LTDIE_99 - Ldebug_info_start
+	.long LDIFF_SYM1429
 LTDIE_98:
 
 	.byte 5
 	.asciz "HockeyApp_iOS_BITFeedbackListViewController"
 
-	.byte 48,16
-LDIFF_SYM1429=LTDIE_99 - Ldebug_info_start
-	.long LDIFF_SYM1429
+	.byte 56,16
+LDIFF_SYM1430=LTDIE_99 - Ldebug_info_start
+	.long LDIFF_SYM1430
 	.byte 2,35,0,0,7
 	.asciz "HockeyApp_iOS_BITFeedbackListViewController"
 
-LDIFF_SYM1430=LTDIE_98 - Ldebug_info_start
-	.long LDIFF_SYM1430
+LDIFF_SYM1431=LTDIE_98 - Ldebug_info_start
+	.long LDIFF_SYM1431
 LTDIE_98_POINTER:
 
 	.byte 13
-LDIFF_SYM1431=LTDIE_98 - Ldebug_info_start
-	.long LDIFF_SYM1431
+LDIFF_SYM1432=LTDIE_98 - Ldebug_info_start
+	.long LDIFF_SYM1432
 LTDIE_98_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1432=LTDIE_98 - Ldebug_info_start
-	.long LDIFF_SYM1432
+LDIFF_SYM1433=LTDIE_98 - Ldebug_info_start
+	.long LDIFF_SYM1433
 	.byte 2
 	.asciz "HockeyApp.iOS.BITFeedbackListViewController:get_ClassHandle"
 	.asciz "HockeyApp_iOS_BITFeedbackListViewController_get_ClassHandle"
@@ -87115,22 +87384,22 @@ LDIFF_SYM1432=LTDIE_98 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1433=LTDIE_98_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1433
+LDIFF_SYM1434=LTDIE_98_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1434
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1434=Lfde243_end - Lfde243_start
-	.long LDIFF_SYM1434
+LDIFF_SYM1435=Lfde243_end - Lfde243_start
+	.long LDIFF_SYM1435
 Lfde243_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITFeedbackListViewController_get_ClassHandle
 
-LDIFF_SYM1435=Lme_150 - HockeyApp_iOS_BITFeedbackListViewController_get_ClassHandle
-	.long LDIFF_SYM1435
+LDIFF_SYM1436=Lme_150 - HockeyApp_iOS_BITFeedbackListViewController_get_ClassHandle
+	.long LDIFF_SYM1436
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -87149,22 +87418,22 @@ Lfde243_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1436=LTDIE_98_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1436
+LDIFF_SYM1437=LTDIE_98_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1437
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1437=Lfde244_end - Lfde244_start
-	.long LDIFF_SYM1437
+LDIFF_SYM1438=Lfde244_end - Lfde244_start
+	.long LDIFF_SYM1438
 Lfde244_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITFeedbackListViewController__ctor
 
-LDIFF_SYM1438=Lme_151 - HockeyApp_iOS_BITFeedbackListViewController__ctor
-	.long LDIFF_SYM1438
+LDIFF_SYM1439=Lme_151 - HockeyApp_iOS_BITFeedbackListViewController__ctor
+	.long LDIFF_SYM1439
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
@@ -87183,27 +87452,27 @@ Lfde244_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1439=LTDIE_98_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1439
+LDIFF_SYM1440=LTDIE_98_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1440
 	.byte 1,105,3
 	.asciz "coder"
 
-LDIFF_SYM1440=LTDIE_79_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1440
+LDIFF_SYM1441=LTDIE_79_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1441
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1441=Lfde245_end - Lfde245_start
-	.long LDIFF_SYM1441
+LDIFF_SYM1442=Lfde245_end - Lfde245_start
+	.long LDIFF_SYM1442
 Lfde245_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITFeedbackListViewController__ctor_Foundation_NSCoder
 
-LDIFF_SYM1442=Lme_152 - HockeyApp_iOS_BITFeedbackListViewController__ctor_Foundation_NSCoder
-	.long LDIFF_SYM1442
+LDIFF_SYM1443=Lme_152 - HockeyApp_iOS_BITFeedbackListViewController__ctor_Foundation_NSCoder
+	.long LDIFF_SYM1443
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,154,9
 	.align 3
@@ -87222,27 +87491,27 @@ Lfde245_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1443=LTDIE_98_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1443
+LDIFF_SYM1444=LTDIE_98_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1444
 	.byte 1,105,3
 	.asciz "t"
 
-LDIFF_SYM1444=LTDIE_52_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1444
+LDIFF_SYM1445=LTDIE_52_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1445
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1445=Lfde246_end - Lfde246_start
-	.long LDIFF_SYM1445
+LDIFF_SYM1446=Lfde246_end - Lfde246_start
+	.long LDIFF_SYM1446
 Lfde246_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITFeedbackListViewController__ctor_Foundation_NSObjectFlag
 
-LDIFF_SYM1446=Lme_153 - HockeyApp_iOS_BITFeedbackListViewController__ctor_Foundation_NSObjectFlag
-	.long LDIFF_SYM1446
+LDIFF_SYM1447=Lme_153 - HockeyApp_iOS_BITFeedbackListViewController__ctor_Foundation_NSObjectFlag
+	.long LDIFF_SYM1447
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10
 	.align 3
@@ -87261,27 +87530,27 @@ Lfde246_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1447=LTDIE_98_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1447
+LDIFF_SYM1448=LTDIE_98_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1448
 	.byte 1,105,3
 	.asciz "handle"
 
-LDIFF_SYM1448=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1448
+LDIFF_SYM1449=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1449
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1449=Lfde247_end - Lfde247_start
-	.long LDIFF_SYM1449
+LDIFF_SYM1450=Lfde247_end - Lfde247_start
+	.long LDIFF_SYM1450
 Lfde247_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITFeedbackListViewController__ctor_intptr
 
-LDIFF_SYM1450=Lme_154 - HockeyApp_iOS_BITFeedbackListViewController__ctor_intptr
-	.long LDIFF_SYM1450
+LDIFF_SYM1451=Lme_154 - HockeyApp_iOS_BITFeedbackListViewController__ctor_intptr
+	.long LDIFF_SYM1451
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10
 	.align 3
@@ -87293,108 +87562,113 @@ LTDIE_103:
 	.byte 5
 	.asciz "UIKit_UIView"
 
-	.byte 40,16
-LDIFF_SYM1451=LTDIE_73 - Ldebug_info_start
-	.long LDIFF_SYM1451
-	.byte 2,35,0,0,7
+	.byte 48,16
+LDIFF_SYM1452=LTDIE_73 - Ldebug_info_start
+	.long LDIFF_SYM1452
+	.byte 2,35,0,6
+	.asciz "__mt_PreferredFocusedView_var"
+
+LDIFF_SYM1453=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1453
+	.byte 2,35,40,0,7
 	.asciz "UIKit_UIView"
 
-LDIFF_SYM1452=LTDIE_103 - Ldebug_info_start
-	.long LDIFF_SYM1452
+LDIFF_SYM1454=LTDIE_103 - Ldebug_info_start
+	.long LDIFF_SYM1454
 LTDIE_103_POINTER:
 
 	.byte 13
-LDIFF_SYM1453=LTDIE_103 - Ldebug_info_start
-	.long LDIFF_SYM1453
+LDIFF_SYM1455=LTDIE_103 - Ldebug_info_start
+	.long LDIFF_SYM1455
 LTDIE_103_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1454=LTDIE_103 - Ldebug_info_start
-	.long LDIFF_SYM1454
+LDIFF_SYM1456=LTDIE_103 - Ldebug_info_start
+	.long LDIFF_SYM1456
 LTDIE_102:
 
 	.byte 5
 	.asciz "UIKit_UIScrollView"
 
-	.byte 48,16
-LDIFF_SYM1455=LTDIE_103 - Ldebug_info_start
-	.long LDIFF_SYM1455
+	.byte 56,16
+LDIFF_SYM1457=LTDIE_103 - Ldebug_info_start
+	.long LDIFF_SYM1457
 	.byte 2,35,0,6
 	.asciz "__mt_WeakDelegate_var"
 
-LDIFF_SYM1456=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1456
-	.byte 2,35,40,0,7
+LDIFF_SYM1458=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1458
+	.byte 2,35,48,0,7
 	.asciz "UIKit_UIScrollView"
 
-LDIFF_SYM1457=LTDIE_102 - Ldebug_info_start
-	.long LDIFF_SYM1457
+LDIFF_SYM1459=LTDIE_102 - Ldebug_info_start
+	.long LDIFF_SYM1459
 LTDIE_102_POINTER:
 
 	.byte 13
-LDIFF_SYM1458=LTDIE_102 - Ldebug_info_start
-	.long LDIFF_SYM1458
+LDIFF_SYM1460=LTDIE_102 - Ldebug_info_start
+	.long LDIFF_SYM1460
 LTDIE_102_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1459=LTDIE_102 - Ldebug_info_start
-	.long LDIFF_SYM1459
+LDIFF_SYM1461=LTDIE_102 - Ldebug_info_start
+	.long LDIFF_SYM1461
 LTDIE_101:
 
 	.byte 5
 	.asciz "UIKit_UITableView"
 
-	.byte 64,16
-LDIFF_SYM1460=LTDIE_102 - Ldebug_info_start
-	.long LDIFF_SYM1460
+	.byte 72,16
+LDIFF_SYM1462=LTDIE_102 - Ldebug_info_start
+	.long LDIFF_SYM1462
 	.byte 2,35,0,6
 	.asciz "__mt_WeakDataSource_var"
 
-LDIFF_SYM1461=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1461
-	.byte 2,35,48,6
+LDIFF_SYM1463=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1463
+	.byte 2,35,56,6
 	.asciz "__mt_WeakDelegate_var"
 
-LDIFF_SYM1462=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1462
-	.byte 2,35,56,0,7
+LDIFF_SYM1464=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1464
+	.byte 2,35,64,0,7
 	.asciz "UIKit_UITableView"
 
-LDIFF_SYM1463=LTDIE_101 - Ldebug_info_start
-	.long LDIFF_SYM1463
+LDIFF_SYM1465=LTDIE_101 - Ldebug_info_start
+	.long LDIFF_SYM1465
 LTDIE_101_POINTER:
 
 	.byte 13
-LDIFF_SYM1464=LTDIE_101 - Ldebug_info_start
-	.long LDIFF_SYM1464
+LDIFF_SYM1466=LTDIE_101 - Ldebug_info_start
+	.long LDIFF_SYM1466
 LTDIE_101_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1465=LTDIE_101 - Ldebug_info_start
-	.long LDIFF_SYM1465
+LDIFF_SYM1467=LTDIE_101 - Ldebug_info_start
+	.long LDIFF_SYM1467
 LTDIE_104:
 
 	.byte 5
 	.asciz "Foundation_NSIndexPath"
 
 	.byte 40,16
-LDIFF_SYM1466=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM1466
+LDIFF_SYM1468=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM1468
 	.byte 2,35,0,0,7
 	.asciz "Foundation_NSIndexPath"
 
-LDIFF_SYM1467=LTDIE_104 - Ldebug_info_start
-	.long LDIFF_SYM1467
+LDIFF_SYM1469=LTDIE_104 - Ldebug_info_start
+	.long LDIFF_SYM1469
 LTDIE_104_POINTER:
 
 	.byte 13
-LDIFF_SYM1468=LTDIE_104 - Ldebug_info_start
-	.long LDIFF_SYM1468
+LDIFF_SYM1470=LTDIE_104 - Ldebug_info_start
+	.long LDIFF_SYM1470
 LTDIE_104_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1469=LTDIE_104 - Ldebug_info_start
-	.long LDIFF_SYM1469
+LDIFF_SYM1471=LTDIE_104 - Ldebug_info_start
+	.long LDIFF_SYM1471
 	.byte 2
 	.asciz "HockeyApp.iOS.BITFeedbackListViewController:GetCell"
 	.asciz "HockeyApp_iOS_BITFeedbackListViewController_GetCell_UIKit_UITableView_Foundation_NSIndexPath"
@@ -87406,32 +87680,32 @@ LDIFF_SYM1469=LTDIE_104 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1470=LTDIE_98_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1470
+LDIFF_SYM1472=LTDIE_98_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1472
 	.byte 1,104,3
 	.asciz "tableView"
 
-LDIFF_SYM1471=LTDIE_101_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1471
+LDIFF_SYM1473=LTDIE_101_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1473
 	.byte 1,105,3
 	.asciz "indexPath"
 
-LDIFF_SYM1472=LTDIE_104_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1472
+LDIFF_SYM1474=LTDIE_104_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1474
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1473=Lfde248_end - Lfde248_start
-	.long LDIFF_SYM1473
+LDIFF_SYM1475=Lfde248_end - Lfde248_start
+	.long LDIFF_SYM1475
 Lfde248_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITFeedbackListViewController_GetCell_UIKit_UITableView_Foundation_NSIndexPath
 
-LDIFF_SYM1474=Lme_155 - HockeyApp_iOS_BITFeedbackListViewController_GetCell_UIKit_UITableView_Foundation_NSIndexPath
-	.long LDIFF_SYM1474
+LDIFF_SYM1476=Lme_155 - HockeyApp_iOS_BITFeedbackListViewController_GetCell_UIKit_UITableView_Foundation_NSIndexPath
+	.long LDIFF_SYM1476
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,152,12,153,11,68,154,10
 	.align 3
@@ -87443,24 +87717,24 @@ LTDIE_105:
 	.byte 5
 	.asciz "QuickLook_QLPreviewController"
 
-	.byte 48,16
-LDIFF_SYM1475=LTDIE_72 - Ldebug_info_start
-	.long LDIFF_SYM1475
+	.byte 56,16
+LDIFF_SYM1477=LTDIE_72 - Ldebug_info_start
+	.long LDIFF_SYM1477
 	.byte 2,35,0,0,7
 	.asciz "QuickLook_QLPreviewController"
 
-LDIFF_SYM1476=LTDIE_105 - Ldebug_info_start
-	.long LDIFF_SYM1476
+LDIFF_SYM1478=LTDIE_105 - Ldebug_info_start
+	.long LDIFF_SYM1478
 LTDIE_105_POINTER:
 
 	.byte 13
-LDIFF_SYM1477=LTDIE_105 - Ldebug_info_start
-	.long LDIFF_SYM1477
+LDIFF_SYM1479=LTDIE_105 - Ldebug_info_start
+	.long LDIFF_SYM1479
 LTDIE_105_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1478=LTDIE_105 - Ldebug_info_start
-	.long LDIFF_SYM1478
+LDIFF_SYM1480=LTDIE_105 - Ldebug_info_start
+	.long LDIFF_SYM1480
 	.byte 2
 	.asciz "HockeyApp.iOS.BITFeedbackListViewController:GetPreviewItem"
 	.asciz "HockeyApp_iOS_BITFeedbackListViewController_GetPreviewItem_QuickLook_QLPreviewController_System_nint"
@@ -87472,32 +87746,32 @@ LDIFF_SYM1478=LTDIE_105 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1479=LTDIE_98_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1479
+LDIFF_SYM1481=LTDIE_98_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1481
 	.byte 1,104,3
 	.asciz "controller"
 
-LDIFF_SYM1480=LTDIE_105_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1480
+LDIFF_SYM1482=LTDIE_105_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1482
 	.byte 1,105,3
 	.asciz "index"
 
-LDIFF_SYM1481=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1481
+LDIFF_SYM1483=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1483
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1482=Lfde249_end - Lfde249_start
-	.long LDIFF_SYM1482
+LDIFF_SYM1484=Lfde249_end - Lfde249_start
+	.long LDIFF_SYM1484
 Lfde249_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITFeedbackListViewController_GetPreviewItem_QuickLook_QLPreviewController_System_nint
 
-LDIFF_SYM1483=Lme_156 - HockeyApp_iOS_BITFeedbackListViewController_GetPreviewItem_QuickLook_QLPreviewController_System_nint
-	.long LDIFF_SYM1483
+LDIFF_SYM1485=Lme_156 - HockeyApp_iOS_BITFeedbackListViewController_GetPreviewItem_QuickLook_QLPreviewController_System_nint
+	.long LDIFF_SYM1485
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,152,12,153,11,68,154,10
 	.align 3
@@ -87516,27 +87790,27 @@ Lfde249_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1484=LTDIE_98_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1484
+LDIFF_SYM1486=LTDIE_98_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1486
 	.byte 1,105,3
 	.asciz "controller"
 
-LDIFF_SYM1485=LTDIE_105_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1485
+LDIFF_SYM1487=LTDIE_105_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1487
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1486=Lfde250_end - Lfde250_start
-	.long LDIFF_SYM1486
+LDIFF_SYM1488=Lfde250_end - Lfde250_start
+	.long LDIFF_SYM1488
 Lfde250_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITFeedbackListViewController_PreviewItemCount_QuickLook_QLPreviewController
 
-LDIFF_SYM1487=Lme_157 - HockeyApp_iOS_BITFeedbackListViewController_PreviewItemCount_QuickLook_QLPreviewController
-	.long LDIFF_SYM1487
+LDIFF_SYM1489=Lme_157 - HockeyApp_iOS_BITFeedbackListViewController_PreviewItemCount_QuickLook_QLPreviewController
+	.long LDIFF_SYM1489
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,154,9
 	.align 3
@@ -87555,32 +87829,32 @@ Lfde250_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1488=LTDIE_98_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1488
+LDIFF_SYM1490=LTDIE_98_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1490
 	.byte 1,104,3
 	.asciz "tableView"
 
-LDIFF_SYM1489=LTDIE_101_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1489
+LDIFF_SYM1491=LTDIE_101_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1491
 	.byte 1,105,3
 	.asciz "section"
 
-LDIFF_SYM1490=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1490
+LDIFF_SYM1492=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1492
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1491=Lfde251_end - Lfde251_start
-	.long LDIFF_SYM1491
+LDIFF_SYM1493=Lfde251_end - Lfde251_start
+	.long LDIFF_SYM1493
 Lfde251_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITFeedbackListViewController_RowsInSection_UIKit_UITableView_System_nint
 
-LDIFF_SYM1492=Lme_158 - HockeyApp_iOS_BITFeedbackListViewController_RowsInSection_UIKit_UITableView_System_nint
-	.long LDIFF_SYM1492
+LDIFF_SYM1494=Lme_158 - HockeyApp_iOS_BITFeedbackListViewController_RowsInSection_UIKit_UITableView_System_nint
+	.long LDIFF_SYM1494
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,152,10,153,9,68,154,8
 	.align 3
@@ -87600,16 +87874,16 @@ Lfde251_end:
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1493=Lfde252_end - Lfde252_start
-	.long LDIFF_SYM1493
+LDIFF_SYM1495=Lfde252_end - Lfde252_start
+	.long LDIFF_SYM1495
 Lfde252_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITFeedbackListViewController__cctor
 
-LDIFF_SYM1494=Lme_159 - HockeyApp_iOS_BITFeedbackListViewController__cctor
-	.long LDIFF_SYM1494
+LDIFF_SYM1496=Lme_159 - HockeyApp_iOS_BITFeedbackListViewController__cctor
+	.long LDIFF_SYM1496
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -87628,22 +87902,22 @@ Lfde252_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1495=LTDIE_58_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1495
+LDIFF_SYM1497=LTDIE_58_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1497
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1496=Lfde253_end - Lfde253_start
-	.long LDIFF_SYM1496
+LDIFF_SYM1498=Lfde253_end - Lfde253_start
+	.long LDIFF_SYM1498
 Lfde253_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITFeedbackManager_get_ClassHandle
 
-LDIFF_SYM1497=Lme_15a - HockeyApp_iOS_BITFeedbackManager_get_ClassHandle
-	.long LDIFF_SYM1497
+LDIFF_SYM1499=Lme_15a - HockeyApp_iOS_BITFeedbackManager_get_ClassHandle
+	.long LDIFF_SYM1499
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -87662,22 +87936,22 @@ Lfde253_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1498=LTDIE_58_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1498
+LDIFF_SYM1500=LTDIE_58_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1500
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1499=Lfde254_end - Lfde254_start
-	.long LDIFF_SYM1499
+LDIFF_SYM1501=Lfde254_end - Lfde254_start
+	.long LDIFF_SYM1501
 Lfde254_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITFeedbackManager__ctor
 
-LDIFF_SYM1500=Lme_15b - HockeyApp_iOS_BITFeedbackManager__ctor
-	.long LDIFF_SYM1500
+LDIFF_SYM1502=Lme_15b - HockeyApp_iOS_BITFeedbackManager__ctor
+	.long LDIFF_SYM1502
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
@@ -87696,27 +87970,27 @@ Lfde254_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1501=LTDIE_58_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1501
+LDIFF_SYM1503=LTDIE_58_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1503
 	.byte 1,105,3
 	.asciz "t"
 
-LDIFF_SYM1502=LTDIE_52_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1502
+LDIFF_SYM1504=LTDIE_52_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1504
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1503=Lfde255_end - Lfde255_start
-	.long LDIFF_SYM1503
+LDIFF_SYM1505=Lfde255_end - Lfde255_start
+	.long LDIFF_SYM1505
 Lfde255_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITFeedbackManager__ctor_Foundation_NSObjectFlag
 
-LDIFF_SYM1504=Lme_15c - HockeyApp_iOS_BITFeedbackManager__ctor_Foundation_NSObjectFlag
-	.long LDIFF_SYM1504
+LDIFF_SYM1506=Lme_15c - HockeyApp_iOS_BITFeedbackManager__ctor_Foundation_NSObjectFlag
+	.long LDIFF_SYM1506
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10
 	.align 3
@@ -87735,27 +88009,27 @@ Lfde255_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1505=LTDIE_58_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1505
+LDIFF_SYM1507=LTDIE_58_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1507
 	.byte 1,105,3
 	.asciz "handle"
 
-LDIFF_SYM1506=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1506
+LDIFF_SYM1508=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1508
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1507=Lfde256_end - Lfde256_start
-	.long LDIFF_SYM1507
+LDIFF_SYM1509=Lfde256_end - Lfde256_start
+	.long LDIFF_SYM1509
 Lfde256_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITFeedbackManager__ctor_intptr
 
-LDIFF_SYM1508=Lme_15d - HockeyApp_iOS_BITFeedbackManager__ctor_intptr
-	.long LDIFF_SYM1508
+LDIFF_SYM1510=Lme_15d - HockeyApp_iOS_BITFeedbackManager__ctor_intptr
+	.long LDIFF_SYM1510
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10
 	.align 3
@@ -87774,22 +88048,22 @@ Lfde256_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1509=LTDIE_58_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1509
+LDIFF_SYM1511=LTDIE_58_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1511
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1510=Lfde257_end - Lfde257_start
-	.long LDIFF_SYM1510
+LDIFF_SYM1512=Lfde257_end - Lfde257_start
+	.long LDIFF_SYM1512
 Lfde257_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITFeedbackManager_FeedbackComposeViewController
 
-LDIFF_SYM1511=Lme_15e - HockeyApp_iOS_BITFeedbackManager_FeedbackComposeViewController
-	.long LDIFF_SYM1511
+LDIFF_SYM1513=Lme_15e - HockeyApp_iOS_BITFeedbackManager_FeedbackComposeViewController
+	.long LDIFF_SYM1513
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
@@ -87808,27 +88082,27 @@ Lfde257_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1512=LTDIE_58_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1512
+LDIFF_SYM1514=LTDIE_58_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1514
 	.byte 1,105,3
 	.asciz "modal"
 
-LDIFF_SYM1513=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1513
+LDIFF_SYM1515=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1515
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1514=Lfde258_end - Lfde258_start
-	.long LDIFF_SYM1514
+LDIFF_SYM1516=Lfde258_end - Lfde258_start
+	.long LDIFF_SYM1516
 Lfde258_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITFeedbackManager_FeedbackListViewController_bool
 
-LDIFF_SYM1515=Lme_15f - HockeyApp_iOS_BITFeedbackManager_FeedbackListViewController_bool
-	.long LDIFF_SYM1515
+LDIFF_SYM1517=Lme_15f - HockeyApp_iOS_BITFeedbackManager_FeedbackListViewController_bool
+	.long LDIFF_SYM1517
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,154,9
 	.align 3
@@ -87847,22 +88121,22 @@ Lfde258_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1516=LTDIE_58_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1516
+LDIFF_SYM1518=LTDIE_58_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1518
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1517=Lfde259_end - Lfde259_start
-	.long LDIFF_SYM1517
+LDIFF_SYM1519=Lfde259_end - Lfde259_start
+	.long LDIFF_SYM1519
 Lfde259_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITFeedbackManager_Screenshot
 
-LDIFF_SYM1518=Lme_160 - HockeyApp_iOS_BITFeedbackManager_Screenshot
-	.long LDIFF_SYM1518
+LDIFF_SYM1520=Lme_160 - HockeyApp_iOS_BITFeedbackManager_Screenshot
+	.long LDIFF_SYM1520
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
@@ -87881,22 +88155,22 @@ Lfde259_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1519=LTDIE_58_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1519
+LDIFF_SYM1521=LTDIE_58_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1521
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1520=Lfde260_end - Lfde260_start
-	.long LDIFF_SYM1520
+LDIFF_SYM1522=Lfde260_end - Lfde260_start
+	.long LDIFF_SYM1522
 Lfde260_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITFeedbackManager_ShowFeedbackComposeView
 
-LDIFF_SYM1521=Lme_161 - HockeyApp_iOS_BITFeedbackManager_ShowFeedbackComposeView
-	.long LDIFF_SYM1521
+LDIFF_SYM1523=Lme_161 - HockeyApp_iOS_BITFeedbackManager_ShowFeedbackComposeView
+	.long LDIFF_SYM1523
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
 	.align 3
@@ -87915,22 +88189,22 @@ Lfde260_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1522=LTDIE_58_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1522
+LDIFF_SYM1524=LTDIE_58_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1524
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1523=Lfde261_end - Lfde261_start
-	.long LDIFF_SYM1523
+LDIFF_SYM1525=Lfde261_end - Lfde261_start
+	.long LDIFF_SYM1525
 Lfde261_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITFeedbackManager_ShowFeedbackComposeViewWithGeneratedScreenshot
 
-LDIFF_SYM1524=Lme_162 - HockeyApp_iOS_BITFeedbackManager_ShowFeedbackComposeViewWithGeneratedScreenshot
-	.long LDIFF_SYM1524
+LDIFF_SYM1526=Lme_162 - HockeyApp_iOS_BITFeedbackManager_ShowFeedbackComposeViewWithGeneratedScreenshot
+	.long LDIFF_SYM1526
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
 	.align 3
@@ -87949,32 +88223,32 @@ Lfde261_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1525=LTDIE_58_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1525
+LDIFF_SYM1527=LTDIE_58_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1527
 	.byte 1,105,3
 	.asciz "items"
 
-LDIFF_SYM1526=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1526
+LDIFF_SYM1528=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1528
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1527=LTDIE_94_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1527
+LDIFF_SYM1529=LTDIE_94_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1529
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1528=Lfde262_end - Lfde262_start
-	.long LDIFF_SYM1528
+LDIFF_SYM1530=Lfde262_end - Lfde262_start
+	.long LDIFF_SYM1530
 Lfde262_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITFeedbackManager_ShowFeedbackComposeViewWithPreparedItems_Foundation_NSObject__
 
-LDIFF_SYM1529=Lme_163 - HockeyApp_iOS_BITFeedbackManager_ShowFeedbackComposeViewWithPreparedItems_Foundation_NSObject__
-	.long LDIFF_SYM1529
+LDIFF_SYM1531=Lme_163 - HockeyApp_iOS_BITFeedbackManager_ShowFeedbackComposeViewWithPreparedItems_Foundation_NSObject__
+	.long LDIFF_SYM1531
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,152,10,153,9,68,154,8
 	.align 3
@@ -87993,22 +88267,22 @@ Lfde262_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1530=LTDIE_58_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1530
+LDIFF_SYM1532=LTDIE_58_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1532
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1531=Lfde263_end - Lfde263_start
-	.long LDIFF_SYM1531
+LDIFF_SYM1533=Lfde263_end - Lfde263_start
+	.long LDIFF_SYM1533
 Lfde263_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITFeedbackManager_ShowFeedbackListView
 
-LDIFF_SYM1532=Lme_164 - HockeyApp_iOS_BITFeedbackManager_ShowFeedbackListView
-	.long LDIFF_SYM1532
+LDIFF_SYM1534=Lme_164 - HockeyApp_iOS_BITFeedbackManager_ShowFeedbackListView
+	.long LDIFF_SYM1534
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
 	.align 3
@@ -88027,22 +88301,22 @@ Lfde263_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1533=LTDIE_58_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1533
+LDIFF_SYM1535=LTDIE_58_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1535
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1534=Lfde264_end - Lfde264_start
-	.long LDIFF_SYM1534
+LDIFF_SYM1536=Lfde264_end - Lfde264_start
+	.long LDIFF_SYM1536
 Lfde264_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITFeedbackManager_get_FeedbackComposeHideImageAttachmentButton
 
-LDIFF_SYM1535=Lme_165 - HockeyApp_iOS_BITFeedbackManager_get_FeedbackComposeHideImageAttachmentButton
-	.long LDIFF_SYM1535
+LDIFF_SYM1537=Lme_165 - HockeyApp_iOS_BITFeedbackManager_get_FeedbackComposeHideImageAttachmentButton
+	.long LDIFF_SYM1537
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
@@ -88061,27 +88335,27 @@ Lfde264_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1536=LTDIE_58_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1536
+LDIFF_SYM1538=LTDIE_58_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1538
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM1537=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1537
+LDIFF_SYM1539=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1539
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1538=Lfde265_end - Lfde265_start
-	.long LDIFF_SYM1538
+LDIFF_SYM1540=Lfde265_end - Lfde265_start
+	.long LDIFF_SYM1540
 Lfde265_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITFeedbackManager_set_FeedbackComposeHideImageAttachmentButton_bool
 
-LDIFF_SYM1539=Lme_166 - HockeyApp_iOS_BITFeedbackManager_set_FeedbackComposeHideImageAttachmentButton_bool
-	.long LDIFF_SYM1539
+LDIFF_SYM1541=Lme_166 - HockeyApp_iOS_BITFeedbackManager_set_FeedbackComposeHideImageAttachmentButton_bool
+	.long LDIFF_SYM1541
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8,154,7
 	.align 3
@@ -88094,8 +88368,8 @@ LTDIE_106:
 	.asciz "HockeyApp_iOS_BITFeedbackObservationMode"
 
 	.byte 8
-LDIFF_SYM1540=LDIE_I8 - Ldebug_info_start
-	.long LDIFF_SYM1540
+LDIFF_SYM1542=LDIE_I8 - Ldebug_info_start
+	.long LDIFF_SYM1542
 	.byte 9
 	.asciz "None"
 
@@ -88111,18 +88385,18 @@ LDIFF_SYM1540=LDIE_I8 - Ldebug_info_start
 	.byte 3,0,7
 	.asciz "HockeyApp_iOS_BITFeedbackObservationMode"
 
-LDIFF_SYM1541=LTDIE_106 - Ldebug_info_start
-	.long LDIFF_SYM1541
+LDIFF_SYM1543=LTDIE_106 - Ldebug_info_start
+	.long LDIFF_SYM1543
 LTDIE_106_POINTER:
 
 	.byte 13
-LDIFF_SYM1542=LTDIE_106 - Ldebug_info_start
-	.long LDIFF_SYM1542
+LDIFF_SYM1544=LTDIE_106 - Ldebug_info_start
+	.long LDIFF_SYM1544
 LTDIE_106_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1543=LTDIE_106 - Ldebug_info_start
-	.long LDIFF_SYM1543
+LDIFF_SYM1545=LTDIE_106 - Ldebug_info_start
+	.long LDIFF_SYM1545
 	.byte 2
 	.asciz "HockeyApp.iOS.BITFeedbackManager:get_FeedbackObservationMode"
 	.asciz "HockeyApp_iOS_BITFeedbackManager_get_FeedbackObservationMode"
@@ -88134,27 +88408,27 @@ LDIFF_SYM1543=LTDIE_106 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1544=LTDIE_58_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1544
+LDIFF_SYM1546=LTDIE_58_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1546
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1545=LTDIE_106 - Ldebug_info_start
-	.long LDIFF_SYM1545
+LDIFF_SYM1547=LTDIE_106 - Ldebug_info_start
+	.long LDIFF_SYM1547
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1546=Lfde266_end - Lfde266_start
-	.long LDIFF_SYM1546
+LDIFF_SYM1548=Lfde266_end - Lfde266_start
+	.long LDIFF_SYM1548
 Lfde266_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITFeedbackManager_get_FeedbackObservationMode
 
-LDIFF_SYM1547=Lme_167 - HockeyApp_iOS_BITFeedbackManager_get_FeedbackObservationMode
-	.long LDIFF_SYM1547
+LDIFF_SYM1549=Lme_167 - HockeyApp_iOS_BITFeedbackManager_get_FeedbackObservationMode
+	.long LDIFF_SYM1549
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,154,9
 	.align 3
@@ -88173,27 +88447,27 @@ Lfde266_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1548=LTDIE_58_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1548
+LDIFF_SYM1550=LTDIE_58_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1550
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM1549=LTDIE_106 - Ldebug_info_start
-	.long LDIFF_SYM1549
+LDIFF_SYM1551=LTDIE_106 - Ldebug_info_start
+	.long LDIFF_SYM1551
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1550=Lfde267_end - Lfde267_start
-	.long LDIFF_SYM1550
+LDIFF_SYM1552=Lfde267_end - Lfde267_start
+	.long LDIFF_SYM1552
 Lfde267_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITFeedbackManager_set_FeedbackObservationMode_HockeyApp_iOS_BITFeedbackObservationMode
 
-LDIFF_SYM1551=Lme_168 - HockeyApp_iOS_BITFeedbackManager_set_FeedbackObservationMode_HockeyApp_iOS_BITFeedbackObservationMode
-	.long LDIFF_SYM1551
+LDIFF_SYM1553=Lme_168 - HockeyApp_iOS_BITFeedbackManager_set_FeedbackObservationMode_HockeyApp_iOS_BITFeedbackObservationMode
+	.long LDIFF_SYM1553
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8,154,7
 	.align 3
@@ -88206,8 +88480,8 @@ LTDIE_107:
 	.asciz "HockeyApp_iOS_BITFeedbackUserDataElement"
 
 	.byte 8
-LDIFF_SYM1552=LDIE_I8 - Ldebug_info_start
-	.long LDIFF_SYM1552
+LDIFF_SYM1554=LDIE_I8 - Ldebug_info_start
+	.long LDIFF_SYM1554
 	.byte 9
 	.asciz "DontShow"
 
@@ -88220,18 +88494,18 @@ LDIFF_SYM1552=LDIE_I8 - Ldebug_info_start
 	.byte 2,0,7
 	.asciz "HockeyApp_iOS_BITFeedbackUserDataElement"
 
-LDIFF_SYM1553=LTDIE_107 - Ldebug_info_start
-	.long LDIFF_SYM1553
+LDIFF_SYM1555=LTDIE_107 - Ldebug_info_start
+	.long LDIFF_SYM1555
 LTDIE_107_POINTER:
 
 	.byte 13
-LDIFF_SYM1554=LTDIE_107 - Ldebug_info_start
-	.long LDIFF_SYM1554
+LDIFF_SYM1556=LTDIE_107 - Ldebug_info_start
+	.long LDIFF_SYM1556
 LTDIE_107_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1555=LTDIE_107 - Ldebug_info_start
-	.long LDIFF_SYM1555
+LDIFF_SYM1557=LTDIE_107 - Ldebug_info_start
+	.long LDIFF_SYM1557
 	.byte 2
 	.asciz "HockeyApp.iOS.BITFeedbackManager:get_RequireUserEmail"
 	.asciz "HockeyApp_iOS_BITFeedbackManager_get_RequireUserEmail"
@@ -88243,27 +88517,27 @@ LDIFF_SYM1555=LTDIE_107 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1556=LTDIE_58_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1556
+LDIFF_SYM1558=LTDIE_58_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1558
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1557=LTDIE_107 - Ldebug_info_start
-	.long LDIFF_SYM1557
+LDIFF_SYM1559=LTDIE_107 - Ldebug_info_start
+	.long LDIFF_SYM1559
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1558=Lfde268_end - Lfde268_start
-	.long LDIFF_SYM1558
+LDIFF_SYM1560=Lfde268_end - Lfde268_start
+	.long LDIFF_SYM1560
 Lfde268_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITFeedbackManager_get_RequireUserEmail
 
-LDIFF_SYM1559=Lme_169 - HockeyApp_iOS_BITFeedbackManager_get_RequireUserEmail
-	.long LDIFF_SYM1559
+LDIFF_SYM1561=Lme_169 - HockeyApp_iOS_BITFeedbackManager_get_RequireUserEmail
+	.long LDIFF_SYM1561
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,154,9
 	.align 3
@@ -88282,27 +88556,27 @@ Lfde268_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1560=LTDIE_58_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1560
+LDIFF_SYM1562=LTDIE_58_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1562
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM1561=LTDIE_107 - Ldebug_info_start
-	.long LDIFF_SYM1561
+LDIFF_SYM1563=LTDIE_107 - Ldebug_info_start
+	.long LDIFF_SYM1563
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1562=Lfde269_end - Lfde269_start
-	.long LDIFF_SYM1562
+LDIFF_SYM1564=Lfde269_end - Lfde269_start
+	.long LDIFF_SYM1564
 Lfde269_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITFeedbackManager_set_RequireUserEmail_HockeyApp_iOS_BITFeedbackUserDataElement
 
-LDIFF_SYM1563=Lme_16a - HockeyApp_iOS_BITFeedbackManager_set_RequireUserEmail_HockeyApp_iOS_BITFeedbackUserDataElement
-	.long LDIFF_SYM1563
+LDIFF_SYM1565=Lme_16a - HockeyApp_iOS_BITFeedbackManager_set_RequireUserEmail_HockeyApp_iOS_BITFeedbackUserDataElement
+	.long LDIFF_SYM1565
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8,154,7
 	.align 3
@@ -88321,27 +88595,27 @@ Lfde269_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1564=LTDIE_58_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1564
+LDIFF_SYM1566=LTDIE_58_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1566
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1565=LTDIE_107 - Ldebug_info_start
-	.long LDIFF_SYM1565
+LDIFF_SYM1567=LTDIE_107 - Ldebug_info_start
+	.long LDIFF_SYM1567
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1566=Lfde270_end - Lfde270_start
-	.long LDIFF_SYM1566
+LDIFF_SYM1568=Lfde270_end - Lfde270_start
+	.long LDIFF_SYM1568
 Lfde270_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITFeedbackManager_get_RequireUserName
 
-LDIFF_SYM1567=Lme_16b - HockeyApp_iOS_BITFeedbackManager_get_RequireUserName
-	.long LDIFF_SYM1567
+LDIFF_SYM1569=Lme_16b - HockeyApp_iOS_BITFeedbackManager_get_RequireUserName
+	.long LDIFF_SYM1569
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,154,9
 	.align 3
@@ -88360,27 +88634,27 @@ Lfde270_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1568=LTDIE_58_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1568
+LDIFF_SYM1570=LTDIE_58_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1570
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM1569=LTDIE_107 - Ldebug_info_start
-	.long LDIFF_SYM1569
+LDIFF_SYM1571=LTDIE_107 - Ldebug_info_start
+	.long LDIFF_SYM1571
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1570=Lfde271_end - Lfde271_start
-	.long LDIFF_SYM1570
+LDIFF_SYM1572=Lfde271_end - Lfde271_start
+	.long LDIFF_SYM1572
 Lfde271_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITFeedbackManager_set_RequireUserName_HockeyApp_iOS_BITFeedbackUserDataElement
 
-LDIFF_SYM1571=Lme_16c - HockeyApp_iOS_BITFeedbackManager_set_RequireUserName_HockeyApp_iOS_BITFeedbackUserDataElement
-	.long LDIFF_SYM1571
+LDIFF_SYM1573=Lme_16c - HockeyApp_iOS_BITFeedbackManager_set_RequireUserName_HockeyApp_iOS_BITFeedbackUserDataElement
+	.long LDIFF_SYM1573
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8,154,7
 	.align 3
@@ -88399,22 +88673,22 @@ Lfde271_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1572=LTDIE_58_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1572
+LDIFF_SYM1574=LTDIE_58_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1574
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1573=Lfde272_end - Lfde272_start
-	.long LDIFF_SYM1573
+LDIFF_SYM1575=Lfde272_end - Lfde272_start
+	.long LDIFF_SYM1575
 Lfde272_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITFeedbackManager_get_ShowAlertOnIncomingMessages
 
-LDIFF_SYM1574=Lme_16d - HockeyApp_iOS_BITFeedbackManager_get_ShowAlertOnIncomingMessages
-	.long LDIFF_SYM1574
+LDIFF_SYM1576=Lme_16d - HockeyApp_iOS_BITFeedbackManager_get_ShowAlertOnIncomingMessages
+	.long LDIFF_SYM1576
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
@@ -88433,27 +88707,27 @@ Lfde272_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1575=LTDIE_58_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1575
+LDIFF_SYM1577=LTDIE_58_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1577
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM1576=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1576
+LDIFF_SYM1578=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1578
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1577=Lfde273_end - Lfde273_start
-	.long LDIFF_SYM1577
+LDIFF_SYM1579=Lfde273_end - Lfde273_start
+	.long LDIFF_SYM1579
 Lfde273_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITFeedbackManager_set_ShowAlertOnIncomingMessages_bool
 
-LDIFF_SYM1578=Lme_16e - HockeyApp_iOS_BITFeedbackManager_set_ShowAlertOnIncomingMessages_bool
-	.long LDIFF_SYM1578
+LDIFF_SYM1580=Lme_16e - HockeyApp_iOS_BITFeedbackManager_set_ShowAlertOnIncomingMessages_bool
+	.long LDIFF_SYM1580
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8,154,7
 	.align 3
@@ -88472,22 +88746,22 @@ Lfde273_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1579=LTDIE_58_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1579
+LDIFF_SYM1581=LTDIE_58_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1581
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1580=Lfde274_end - Lfde274_start
-	.long LDIFF_SYM1580
+LDIFF_SYM1582=Lfde274_end - Lfde274_start
+	.long LDIFF_SYM1582
 Lfde274_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITFeedbackManager_get_ShowFirstRequiredPresentationModel
 
-LDIFF_SYM1581=Lme_16f - HockeyApp_iOS_BITFeedbackManager_get_ShowFirstRequiredPresentationModel
-	.long LDIFF_SYM1581
+LDIFF_SYM1583=Lme_16f - HockeyApp_iOS_BITFeedbackManager_get_ShowFirstRequiredPresentationModel
+	.long LDIFF_SYM1583
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
@@ -88506,27 +88780,27 @@ Lfde274_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1582=LTDIE_58_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1582
+LDIFF_SYM1584=LTDIE_58_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1584
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM1583=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1583
+LDIFF_SYM1585=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1585
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1584=Lfde275_end - Lfde275_start
-	.long LDIFF_SYM1584
+LDIFF_SYM1586=Lfde275_end - Lfde275_start
+	.long LDIFF_SYM1586
 Lfde275_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITFeedbackManager_set_ShowFirstRequiredPresentationModel_bool
 
-LDIFF_SYM1585=Lme_170 - HockeyApp_iOS_BITFeedbackManager_set_ShowFirstRequiredPresentationModel_bool
-	.long LDIFF_SYM1585
+LDIFF_SYM1587=Lme_170 - HockeyApp_iOS_BITFeedbackManager_set_ShowFirstRequiredPresentationModel_bool
+	.long LDIFF_SYM1587
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8,154,7
 	.align 3
@@ -88546,16 +88820,16 @@ Lfde275_end:
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1586=Lfde276_end - Lfde276_start
-	.long LDIFF_SYM1586
+LDIFF_SYM1588=Lfde276_end - Lfde276_start
+	.long LDIFF_SYM1588
 Lfde276_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITFeedbackManager__cctor
 
-LDIFF_SYM1587=Lme_171 - HockeyApp_iOS_BITFeedbackManager__cctor
-	.long LDIFF_SYM1587
+LDIFF_SYM1589=Lme_171 - HockeyApp_iOS_BITFeedbackManager__cctor
+	.long LDIFF_SYM1589
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -88570,18 +88844,18 @@ LTDIE_108:
 	.byte 16,7
 	.asciz "HockeyApp_iOS_IBITFeedbackManagerDelegate"
 
-LDIFF_SYM1588=LTDIE_108 - Ldebug_info_start
-	.long LDIFF_SYM1588
+LDIFF_SYM1590=LTDIE_108 - Ldebug_info_start
+	.long LDIFF_SYM1590
 LTDIE_108_POINTER:
 
 	.byte 13
-LDIFF_SYM1589=LTDIE_108 - Ldebug_info_start
-	.long LDIFF_SYM1589
+LDIFF_SYM1591=LTDIE_108 - Ldebug_info_start
+	.long LDIFF_SYM1591
 LTDIE_108_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1590=LTDIE_108 - Ldebug_info_start
-	.long LDIFF_SYM1590
+LDIFF_SYM1592=LTDIE_108 - Ldebug_info_start
+	.long LDIFF_SYM1592
 	.byte 2
 	.asciz "HockeyApp.iOS.BITFeedbackManagerDelegate_Extensions:DidReceiveNewFeedback"
 	.asciz "HockeyApp_iOS_BITFeedbackManagerDelegate_Extensions_DidReceiveNewFeedback_HockeyApp_iOS_IBITFeedbackManagerDelegate_HockeyApp_iOS_BITFeedbackManager"
@@ -88593,27 +88867,27 @@ LDIFF_SYM1590=LTDIE_108 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "This"
 
-LDIFF_SYM1591=LTDIE_108_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1591
+LDIFF_SYM1593=LTDIE_108_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1593
 	.byte 2,141,24,3
 	.asciz "feedbackManager"
 
-LDIFF_SYM1592=LTDIE_58_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1592
+LDIFF_SYM1594=LTDIE_58_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1594
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1593=Lfde277_end - Lfde277_start
-	.long LDIFF_SYM1593
+LDIFF_SYM1595=Lfde277_end - Lfde277_start
+	.long LDIFF_SYM1595
 Lfde277_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITFeedbackManagerDelegate_Extensions_DidReceiveNewFeedback_HockeyApp_iOS_IBITFeedbackManagerDelegate_HockeyApp_iOS_BITFeedbackManager
 
-LDIFF_SYM1594=Lme_172 - HockeyApp_iOS_BITFeedbackManagerDelegate_Extensions_DidReceiveNewFeedback_HockeyApp_iOS_IBITFeedbackManagerDelegate_HockeyApp_iOS_BITFeedbackManager
-	.long LDIFF_SYM1594
+LDIFF_SYM1596=Lme_172 - HockeyApp_iOS_BITFeedbackManagerDelegate_Extensions_DidReceiveNewFeedback_HockeyApp_iOS_IBITFeedbackManagerDelegate_HockeyApp_iOS_BITFeedbackManager
+	.long LDIFF_SYM1596
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,154,10
 	.align 3
@@ -88632,27 +88906,27 @@ Lfde277_end:
 	.byte 2,118,16,3
 	.asciz "This"
 
-LDIFF_SYM1595=LTDIE_108_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1595
+LDIFF_SYM1597=LTDIE_108_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1597
 	.byte 2,141,24,3
 	.asciz "feedbackManager"
 
-LDIFF_SYM1596=LTDIE_58_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1596
+LDIFF_SYM1598=LTDIE_58_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1598
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1597=Lfde278_end - Lfde278_start
-	.long LDIFF_SYM1597
+LDIFF_SYM1599=Lfde278_end - Lfde278_start
+	.long LDIFF_SYM1599
 Lfde278_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITFeedbackManagerDelegate_Extensions_AllowAutomaticFetching_HockeyApp_iOS_IBITFeedbackManagerDelegate_HockeyApp_iOS_BITFeedbackManager
 
-LDIFF_SYM1598=Lme_173 - HockeyApp_iOS_BITFeedbackManagerDelegate_Extensions_AllowAutomaticFetching_HockeyApp_iOS_IBITFeedbackManagerDelegate_HockeyApp_iOS_BITFeedbackManager
-	.long LDIFF_SYM1598
+LDIFF_SYM1600=Lme_173 - HockeyApp_iOS_BITFeedbackManagerDelegate_Extensions_AllowAutomaticFetching_HockeyApp_iOS_IBITFeedbackManagerDelegate_HockeyApp_iOS_BITFeedbackManager
+	.long LDIFF_SYM1600
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,154,10
 	.align 3
@@ -88671,27 +88945,27 @@ Lfde278_end:
 	.byte 2,118,16,3
 	.asciz "This"
 
-LDIFF_SYM1599=LTDIE_108_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1599
+LDIFF_SYM1601=LTDIE_108_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1601
 	.byte 2,141,24,3
 	.asciz "feedbackManager"
 
-LDIFF_SYM1600=LTDIE_58_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1600
+LDIFF_SYM1602=LTDIE_58_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1602
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1601=Lfde279_end - Lfde279_start
-	.long LDIFF_SYM1601
+LDIFF_SYM1603=Lfde279_end - Lfde279_start
+	.long LDIFF_SYM1603
 Lfde279_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITFeedbackManagerDelegate_Extensions_PreparedItemsForFeedbackManager_HockeyApp_iOS_IBITFeedbackManagerDelegate_HockeyApp_iOS_BITFeedbackManager
 
-LDIFF_SYM1602=Lme_174 - HockeyApp_iOS_BITFeedbackManagerDelegate_Extensions_PreparedItemsForFeedbackManager_HockeyApp_iOS_IBITFeedbackManagerDelegate_HockeyApp_iOS_BITFeedbackManager
-	.long LDIFF_SYM1602
+LDIFF_SYM1604=Lme_174 - HockeyApp_iOS_BITFeedbackManagerDelegate_Extensions_PreparedItemsForFeedbackManager_HockeyApp_iOS_IBITFeedbackManagerDelegate_HockeyApp_iOS_BITFeedbackManager
+	.long LDIFF_SYM1604
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,154,12
 	.align 3
@@ -88710,27 +88984,27 @@ Lfde279_end:
 	.byte 2,118,16,3
 	.asciz "This"
 
-LDIFF_SYM1603=LTDIE_108_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1603
+LDIFF_SYM1605=LTDIE_108_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1605
 	.byte 2,141,24,3
 	.asciz "feedbackManager"
 
-LDIFF_SYM1604=LTDIE_58_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1604
+LDIFF_SYM1606=LTDIE_58_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1606
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1605=Lfde280_end - Lfde280_start
-	.long LDIFF_SYM1605
+LDIFF_SYM1607=Lfde280_end - Lfde280_start
+	.long LDIFF_SYM1607
 Lfde280_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITFeedbackManagerDelegate_Extensions_ForceNewFeedbackThreadForFeedbackManager_HockeyApp_iOS_IBITFeedbackManagerDelegate_HockeyApp_iOS_BITFeedbackManager
 
-LDIFF_SYM1606=Lme_175 - HockeyApp_iOS_BITFeedbackManagerDelegate_Extensions_ForceNewFeedbackThreadForFeedbackManager_HockeyApp_iOS_IBITFeedbackManagerDelegate_HockeyApp_iOS_BITFeedbackManager
-	.long LDIFF_SYM1606
+LDIFF_SYM1608=Lme_175 - HockeyApp_iOS_BITFeedbackManagerDelegate_Extensions_ForceNewFeedbackThreadForFeedbackManager_HockeyApp_iOS_IBITFeedbackManagerDelegate_HockeyApp_iOS_BITFeedbackManager
+	.long LDIFF_SYM1608
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,154,10
 	.align 3
@@ -88743,23 +89017,23 @@ LTDIE_109:
 	.asciz "HockeyApp_iOS_BITFeedbackManagerDelegateWrapper"
 
 	.byte 24,16
-LDIFF_SYM1607=LTDIE_75 - Ldebug_info_start
-	.long LDIFF_SYM1607
+LDIFF_SYM1609=LTDIE_75 - Ldebug_info_start
+	.long LDIFF_SYM1609
 	.byte 2,35,0,0,7
 	.asciz "HockeyApp_iOS_BITFeedbackManagerDelegateWrapper"
 
-LDIFF_SYM1608=LTDIE_109 - Ldebug_info_start
-	.long LDIFF_SYM1608
+LDIFF_SYM1610=LTDIE_109 - Ldebug_info_start
+	.long LDIFF_SYM1610
 LTDIE_109_POINTER:
 
 	.byte 13
-LDIFF_SYM1609=LTDIE_109 - Ldebug_info_start
-	.long LDIFF_SYM1609
+LDIFF_SYM1611=LTDIE_109 - Ldebug_info_start
+	.long LDIFF_SYM1611
 LTDIE_109_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1610=LTDIE_109 - Ldebug_info_start
-	.long LDIFF_SYM1610
+LDIFF_SYM1612=LTDIE_109 - Ldebug_info_start
+	.long LDIFF_SYM1612
 	.byte 2
 	.asciz "HockeyApp.iOS.BITFeedbackManagerDelegateWrapper:.ctor"
 	.asciz "HockeyApp_iOS_BITFeedbackManagerDelegateWrapper__ctor_intptr_bool"
@@ -88771,32 +89045,32 @@ LDIFF_SYM1610=LTDIE_109 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1611=LTDIE_109_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1611
+LDIFF_SYM1613=LTDIE_109_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1613
 	.byte 2,141,16,3
 	.asciz "handle"
 
-LDIFF_SYM1612=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1612
+LDIFF_SYM1614=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1614
 	.byte 2,141,24,3
 	.asciz "owns"
 
-LDIFF_SYM1613=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1613
+LDIFF_SYM1615=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1615
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1614=Lfde281_end - Lfde281_start
-	.long LDIFF_SYM1614
+LDIFF_SYM1616=Lfde281_end - Lfde281_start
+	.long LDIFF_SYM1616
 Lfde281_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITFeedbackManagerDelegateWrapper__ctor_intptr_bool
 
-LDIFF_SYM1615=Lme_176 - HockeyApp_iOS_BITFeedbackManagerDelegateWrapper__ctor_intptr_bool
-	.long LDIFF_SYM1615
+LDIFF_SYM1617=Lme_176 - HockeyApp_iOS_BITFeedbackManagerDelegateWrapper__ctor_intptr_bool
+	.long LDIFF_SYM1617
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -88809,23 +89083,23 @@ LTDIE_110:
 	.asciz "HockeyApp_iOS_BITFeedbackManagerDelegate"
 
 	.byte 40,16
-LDIFF_SYM1616=LTDIE_95 - Ldebug_info_start
-	.long LDIFF_SYM1616
+LDIFF_SYM1618=LTDIE_95 - Ldebug_info_start
+	.long LDIFF_SYM1618
 	.byte 2,35,0,0,7
 	.asciz "HockeyApp_iOS_BITFeedbackManagerDelegate"
 
-LDIFF_SYM1617=LTDIE_110 - Ldebug_info_start
-	.long LDIFF_SYM1617
+LDIFF_SYM1619=LTDIE_110 - Ldebug_info_start
+	.long LDIFF_SYM1619
 LTDIE_110_POINTER:
 
 	.byte 13
-LDIFF_SYM1618=LTDIE_110 - Ldebug_info_start
-	.long LDIFF_SYM1618
+LDIFF_SYM1620=LTDIE_110 - Ldebug_info_start
+	.long LDIFF_SYM1620
 LTDIE_110_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1619=LTDIE_110 - Ldebug_info_start
-	.long LDIFF_SYM1619
+LDIFF_SYM1621=LTDIE_110 - Ldebug_info_start
+	.long LDIFF_SYM1621
 	.byte 2
 	.asciz "HockeyApp.iOS.BITFeedbackManagerDelegate:.ctor"
 	.asciz "HockeyApp_iOS_BITFeedbackManagerDelegate__ctor"
@@ -88837,22 +89111,22 @@ LDIFF_SYM1619=LTDIE_110 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1620=LTDIE_110_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1620
+LDIFF_SYM1622=LTDIE_110_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1622
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1621=Lfde282_end - Lfde282_start
-	.long LDIFF_SYM1621
+LDIFF_SYM1623=Lfde282_end - Lfde282_start
+	.long LDIFF_SYM1623
 Lfde282_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITFeedbackManagerDelegate__ctor
 
-LDIFF_SYM1622=Lme_177 - HockeyApp_iOS_BITFeedbackManagerDelegate__ctor
-	.long LDIFF_SYM1622
+LDIFF_SYM1624=Lme_177 - HockeyApp_iOS_BITFeedbackManagerDelegate__ctor
+	.long LDIFF_SYM1624
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
@@ -88871,27 +89145,27 @@ Lfde282_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1623=LTDIE_110_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1623
+LDIFF_SYM1625=LTDIE_110_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1625
 	.byte 1,105,3
 	.asciz "t"
 
-LDIFF_SYM1624=LTDIE_52_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1624
+LDIFF_SYM1626=LTDIE_52_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1626
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1625=Lfde283_end - Lfde283_start
-	.long LDIFF_SYM1625
+LDIFF_SYM1627=Lfde283_end - Lfde283_start
+	.long LDIFF_SYM1627
 Lfde283_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITFeedbackManagerDelegate__ctor_Foundation_NSObjectFlag
 
-LDIFF_SYM1626=Lme_178 - HockeyApp_iOS_BITFeedbackManagerDelegate__ctor_Foundation_NSObjectFlag
-	.long LDIFF_SYM1626
+LDIFF_SYM1628=Lme_178 - HockeyApp_iOS_BITFeedbackManagerDelegate__ctor_Foundation_NSObjectFlag
+	.long LDIFF_SYM1628
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10
 	.align 3
@@ -88910,27 +89184,27 @@ Lfde283_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1627=LTDIE_110_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1627
+LDIFF_SYM1629=LTDIE_110_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1629
 	.byte 1,105,3
 	.asciz "handle"
 
-LDIFF_SYM1628=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1628
+LDIFF_SYM1630=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1630
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1629=Lfde284_end - Lfde284_start
-	.long LDIFF_SYM1629
+LDIFF_SYM1631=Lfde284_end - Lfde284_start
+	.long LDIFF_SYM1631
 Lfde284_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITFeedbackManagerDelegate__ctor_intptr
 
-LDIFF_SYM1630=Lme_179 - HockeyApp_iOS_BITFeedbackManagerDelegate__ctor_intptr
-	.long LDIFF_SYM1630
+LDIFF_SYM1632=Lme_179 - HockeyApp_iOS_BITFeedbackManagerDelegate__ctor_intptr
+	.long LDIFF_SYM1632
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10
 	.align 3
@@ -88949,27 +89223,27 @@ Lfde284_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1631=LTDIE_110_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1631
+LDIFF_SYM1633=LTDIE_110_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1633
 	.byte 2,141,16,3
 	.asciz "feedbackManager"
 
-LDIFF_SYM1632=LTDIE_58_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1632
+LDIFF_SYM1634=LTDIE_58_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1634
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1633=Lfde285_end - Lfde285_start
-	.long LDIFF_SYM1633
+LDIFF_SYM1635=Lfde285_end - Lfde285_start
+	.long LDIFF_SYM1635
 Lfde285_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITFeedbackManagerDelegate_AllowAutomaticFetching_HockeyApp_iOS_BITFeedbackManager
 
-LDIFF_SYM1634=Lme_17a - HockeyApp_iOS_BITFeedbackManagerDelegate_AllowAutomaticFetching_HockeyApp_iOS_BITFeedbackManager
-	.long LDIFF_SYM1634
+LDIFF_SYM1636=Lme_17a - HockeyApp_iOS_BITFeedbackManagerDelegate_AllowAutomaticFetching_HockeyApp_iOS_BITFeedbackManager
+	.long LDIFF_SYM1636
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
@@ -88988,27 +89262,27 @@ Lfde285_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1635=LTDIE_110_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1635
+LDIFF_SYM1637=LTDIE_110_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1637
 	.byte 2,141,16,3
 	.asciz "feedbackManager"
 
-LDIFF_SYM1636=LTDIE_58_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1636
+LDIFF_SYM1638=LTDIE_58_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1638
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1637=Lfde286_end - Lfde286_start
-	.long LDIFF_SYM1637
+LDIFF_SYM1639=Lfde286_end - Lfde286_start
+	.long LDIFF_SYM1639
 Lfde286_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITFeedbackManagerDelegate_DidReceiveNewFeedback_HockeyApp_iOS_BITFeedbackManager
 
-LDIFF_SYM1638=Lme_17b - HockeyApp_iOS_BITFeedbackManagerDelegate_DidReceiveNewFeedback_HockeyApp_iOS_BITFeedbackManager
-	.long LDIFF_SYM1638
+LDIFF_SYM1640=Lme_17b - HockeyApp_iOS_BITFeedbackManagerDelegate_DidReceiveNewFeedback_HockeyApp_iOS_BITFeedbackManager
+	.long LDIFF_SYM1640
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
@@ -89027,27 +89301,27 @@ Lfde286_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1639=LTDIE_110_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1639
+LDIFF_SYM1641=LTDIE_110_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1641
 	.byte 2,141,16,3
 	.asciz "feedbackManager"
 
-LDIFF_SYM1640=LTDIE_58_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1640
+LDIFF_SYM1642=LTDIE_58_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1642
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1641=Lfde287_end - Lfde287_start
-	.long LDIFF_SYM1641
+LDIFF_SYM1643=Lfde287_end - Lfde287_start
+	.long LDIFF_SYM1643
 Lfde287_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITFeedbackManagerDelegate_ForceNewFeedbackThreadForFeedbackManager_HockeyApp_iOS_BITFeedbackManager
 
-LDIFF_SYM1642=Lme_17c - HockeyApp_iOS_BITFeedbackManagerDelegate_ForceNewFeedbackThreadForFeedbackManager_HockeyApp_iOS_BITFeedbackManager
-	.long LDIFF_SYM1642
+LDIFF_SYM1644=Lme_17c - HockeyApp_iOS_BITFeedbackManagerDelegate_ForceNewFeedbackThreadForFeedbackManager_HockeyApp_iOS_BITFeedbackManager
+	.long LDIFF_SYM1644
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
@@ -89066,27 +89340,27 @@ Lfde287_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1643=LTDIE_110_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1643
+LDIFF_SYM1645=LTDIE_110_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1645
 	.byte 2,141,16,3
 	.asciz "feedbackManager"
 
-LDIFF_SYM1644=LTDIE_58_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1644
+LDIFF_SYM1646=LTDIE_58_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1646
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1645=Lfde288_end - Lfde288_start
-	.long LDIFF_SYM1645
+LDIFF_SYM1647=Lfde288_end - Lfde288_start
+	.long LDIFF_SYM1647
 Lfde288_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITFeedbackManagerDelegate_PreparedItemsForFeedbackManager_HockeyApp_iOS_BITFeedbackManager
 
-LDIFF_SYM1646=Lme_17d - HockeyApp_iOS_BITFeedbackManagerDelegate_PreparedItemsForFeedbackManager_HockeyApp_iOS_BITFeedbackManager
-	.long LDIFF_SYM1646
+LDIFF_SYM1648=Lme_17d - HockeyApp_iOS_BITFeedbackManagerDelegate_PreparedItemsForFeedbackManager_HockeyApp_iOS_BITFeedbackManager
+	.long LDIFF_SYM1648
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
@@ -89105,22 +89379,22 @@ Lfde288_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1647=LTDIE_78_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1647
+LDIFF_SYM1649=LTDIE_78_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1649
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1648=Lfde289_end - Lfde289_start
-	.long LDIFF_SYM1648
+LDIFF_SYM1650=Lfde289_end - Lfde289_start
+	.long LDIFF_SYM1650
 Lfde289_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITHockeyAttachment_get_ClassHandle
 
-LDIFF_SYM1649=Lme_17e - HockeyApp_iOS_BITHockeyAttachment_get_ClassHandle
-	.long LDIFF_SYM1649
+LDIFF_SYM1651=Lme_17e - HockeyApp_iOS_BITHockeyAttachment_get_ClassHandle
+	.long LDIFF_SYM1651
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -89139,22 +89413,22 @@ Lfde289_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1650=LTDIE_78_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1650
+LDIFF_SYM1652=LTDIE_78_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1652
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1651=Lfde290_end - Lfde290_start
-	.long LDIFF_SYM1651
+LDIFF_SYM1653=Lfde290_end - Lfde290_start
+	.long LDIFF_SYM1653
 Lfde290_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITHockeyAttachment__ctor
 
-LDIFF_SYM1652=Lme_17f - HockeyApp_iOS_BITHockeyAttachment__ctor
-	.long LDIFF_SYM1652
+LDIFF_SYM1654=Lme_17f - HockeyApp_iOS_BITHockeyAttachment__ctor
+	.long LDIFF_SYM1654
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
@@ -89173,27 +89447,27 @@ Lfde290_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1653=LTDIE_78_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1653
+LDIFF_SYM1655=LTDIE_78_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1655
 	.byte 1,105,3
 	.asciz "coder"
 
-LDIFF_SYM1654=LTDIE_79_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1654
+LDIFF_SYM1656=LTDIE_79_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1656
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1655=Lfde291_end - Lfde291_start
-	.long LDIFF_SYM1655
+LDIFF_SYM1657=Lfde291_end - Lfde291_start
+	.long LDIFF_SYM1657
 Lfde291_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITHockeyAttachment__ctor_Foundation_NSCoder
 
-LDIFF_SYM1656=Lme_180 - HockeyApp_iOS_BITHockeyAttachment__ctor_Foundation_NSCoder
-	.long LDIFF_SYM1656
+LDIFF_SYM1658=Lme_180 - HockeyApp_iOS_BITHockeyAttachment__ctor_Foundation_NSCoder
+	.long LDIFF_SYM1658
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,154,9
 	.align 3
@@ -89212,27 +89486,27 @@ Lfde291_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1657=LTDIE_78_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1657
+LDIFF_SYM1659=LTDIE_78_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1659
 	.byte 1,105,3
 	.asciz "t"
 
-LDIFF_SYM1658=LTDIE_52_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1658
+LDIFF_SYM1660=LTDIE_52_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1660
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1659=Lfde292_end - Lfde292_start
-	.long LDIFF_SYM1659
+LDIFF_SYM1661=Lfde292_end - Lfde292_start
+	.long LDIFF_SYM1661
 Lfde292_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITHockeyAttachment__ctor_Foundation_NSObjectFlag
 
-LDIFF_SYM1660=Lme_181 - HockeyApp_iOS_BITHockeyAttachment__ctor_Foundation_NSObjectFlag
-	.long LDIFF_SYM1660
+LDIFF_SYM1662=Lme_181 - HockeyApp_iOS_BITHockeyAttachment__ctor_Foundation_NSObjectFlag
+	.long LDIFF_SYM1662
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10
 	.align 3
@@ -89251,27 +89525,27 @@ Lfde292_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1661=LTDIE_78_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1661
+LDIFF_SYM1663=LTDIE_78_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1663
 	.byte 1,105,3
 	.asciz "handle"
 
-LDIFF_SYM1662=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1662
+LDIFF_SYM1664=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1664
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1663=Lfde293_end - Lfde293_start
-	.long LDIFF_SYM1663
+LDIFF_SYM1665=Lfde293_end - Lfde293_start
+	.long LDIFF_SYM1665
 Lfde293_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITHockeyAttachment__ctor_intptr
 
-LDIFF_SYM1664=Lme_182 - HockeyApp_iOS_BITHockeyAttachment__ctor_intptr
-	.long LDIFF_SYM1664
+LDIFF_SYM1666=Lme_182 - HockeyApp_iOS_BITHockeyAttachment__ctor_intptr
+	.long LDIFF_SYM1666
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10
 	.align 3
@@ -89290,47 +89564,47 @@ Lfde293_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1665=LTDIE_78_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1665
+LDIFF_SYM1667=LTDIE_78_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1667
 	.byte 1,103,3
 	.asciz "filename"
 
-LDIFF_SYM1666=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1666
+LDIFF_SYM1668=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1668
 	.byte 1,104,3
 	.asciz "hockeyAttachmentData"
 
-LDIFF_SYM1667=LTDIE_80_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1667
+LDIFF_SYM1669=LTDIE_80_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1669
 	.byte 1,105,3
 	.asciz "contentType"
 
-LDIFF_SYM1668=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1668
+LDIFF_SYM1670=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1670
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1669=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1669
+LDIFF_SYM1671=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1671
 	.byte 1,102,11
 	.asciz "V_1"
 
-LDIFF_SYM1670=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1670
+LDIFF_SYM1672=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1672
 	.byte 1,101,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1671=Lfde294_end - Lfde294_start
-	.long LDIFF_SYM1671
+LDIFF_SYM1673=Lfde294_end - Lfde294_start
+	.long LDIFF_SYM1673
 Lfde294_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITHockeyAttachment__ctor_string_Foundation_NSData_string
 
-LDIFF_SYM1672=Lme_183 - HockeyApp_iOS_BITHockeyAttachment__ctor_string_Foundation_NSData_string
-	.long LDIFF_SYM1672
+LDIFF_SYM1674=Lme_183 - HockeyApp_iOS_BITHockeyAttachment__ctor_string_Foundation_NSData_string
+	.long LDIFF_SYM1674
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,149,16,150,15,68,151,14,152,13,68,153,12,154,11
 	.align 3
@@ -89349,27 +89623,27 @@ Lfde294_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1673=LTDIE_78_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1673
+LDIFF_SYM1675=LTDIE_78_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1675
 	.byte 1,105,3
 	.asciz "encoder"
 
-LDIFF_SYM1674=LTDIE_79_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1674
+LDIFF_SYM1676=LTDIE_79_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1676
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1675=Lfde295_end - Lfde295_start
-	.long LDIFF_SYM1675
+LDIFF_SYM1677=Lfde295_end - Lfde295_start
+	.long LDIFF_SYM1677
 Lfde295_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITHockeyAttachment_EncodeTo_Foundation_NSCoder
 
-LDIFF_SYM1676=Lme_184 - HockeyApp_iOS_BITHockeyAttachment_EncodeTo_Foundation_NSCoder
-	.long LDIFF_SYM1676
+LDIFF_SYM1678=Lme_184 - HockeyApp_iOS_BITHockeyAttachment_EncodeTo_Foundation_NSCoder
+	.long LDIFF_SYM1678
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,154,9
 	.align 3
@@ -89388,22 +89662,22 @@ Lfde295_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1677=LTDIE_78_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1677
+LDIFF_SYM1679=LTDIE_78_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1679
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1678=Lfde296_end - Lfde296_start
-	.long LDIFF_SYM1678
+LDIFF_SYM1680=Lfde296_end - Lfde296_start
+	.long LDIFF_SYM1680
 Lfde296_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITHockeyAttachment_get_ContentType
 
-LDIFF_SYM1679=Lme_185 - HockeyApp_iOS_BITHockeyAttachment_get_ContentType
-	.long LDIFF_SYM1679
+LDIFF_SYM1681=Lme_185 - HockeyApp_iOS_BITHockeyAttachment_get_ContentType
+	.long LDIFF_SYM1681
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
@@ -89422,22 +89696,22 @@ Lfde296_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1680=LTDIE_78_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1680
+LDIFF_SYM1682=LTDIE_78_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1682
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1681=Lfde297_end - Lfde297_start
-	.long LDIFF_SYM1681
+LDIFF_SYM1683=Lfde297_end - Lfde297_start
+	.long LDIFF_SYM1683
 Lfde297_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITHockeyAttachment_get_Filename
 
-LDIFF_SYM1682=Lme_186 - HockeyApp_iOS_BITHockeyAttachment_get_Filename
-	.long LDIFF_SYM1682
+LDIFF_SYM1684=Lme_186 - HockeyApp_iOS_BITHockeyAttachment_get_Filename
+	.long LDIFF_SYM1684
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
@@ -89456,27 +89730,27 @@ Lfde297_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1683=LTDIE_78_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1683
+LDIFF_SYM1685=LTDIE_78_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1685
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1684=LTDIE_80_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1684
+LDIFF_SYM1686=LTDIE_80_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1686
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1685=Lfde298_end - Lfde298_start
-	.long LDIFF_SYM1685
+LDIFF_SYM1687=Lfde298_end - Lfde298_start
+	.long LDIFF_SYM1687
 Lfde298_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITHockeyAttachment_get_HockeyAttachmentData
 
-LDIFF_SYM1686=Lme_187 - HockeyApp_iOS_BITHockeyAttachment_get_HockeyAttachmentData
-	.long LDIFF_SYM1686
+LDIFF_SYM1688=Lme_187 - HockeyApp_iOS_BITHockeyAttachment_get_HockeyAttachmentData
+	.long LDIFF_SYM1688
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,154,9
 	.align 3
@@ -89496,16 +89770,16 @@ Lfde298_end:
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1687=Lfde299_end - Lfde299_start
-	.long LDIFF_SYM1687
+LDIFF_SYM1689=Lfde299_end - Lfde299_start
+	.long LDIFF_SYM1689
 Lfde299_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITHockeyAttachment__cctor
 
-LDIFF_SYM1688=Lme_188 - HockeyApp_iOS_BITHockeyAttachment__cctor
-	.long LDIFF_SYM1688
+LDIFF_SYM1690=Lme_188 - HockeyApp_iOS_BITHockeyAttachment__cctor
+	.long LDIFF_SYM1690
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -89524,22 +89798,22 @@ Lfde299_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1689=LTDIE_55_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1689
+LDIFF_SYM1691=LTDIE_55_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1691
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1690=Lfde300_end - Lfde300_start
-	.long LDIFF_SYM1690
+LDIFF_SYM1692=Lfde300_end - Lfde300_start
+	.long LDIFF_SYM1692
 Lfde300_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITHockeyBaseManager_get_ClassHandle
 
-LDIFF_SYM1691=Lme_189 - HockeyApp_iOS_BITHockeyBaseManager_get_ClassHandle
-	.long LDIFF_SYM1691
+LDIFF_SYM1693=Lme_189 - HockeyApp_iOS_BITHockeyBaseManager_get_ClassHandle
+	.long LDIFF_SYM1693
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -89558,22 +89832,22 @@ Lfde300_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1692=LTDIE_55_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1692
+LDIFF_SYM1694=LTDIE_55_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1694
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1693=Lfde301_end - Lfde301_start
-	.long LDIFF_SYM1693
+LDIFF_SYM1695=Lfde301_end - Lfde301_start
+	.long LDIFF_SYM1695
 Lfde301_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITHockeyBaseManager__ctor
 
-LDIFF_SYM1694=Lme_18a - HockeyApp_iOS_BITHockeyBaseManager__ctor
-	.long LDIFF_SYM1694
+LDIFF_SYM1696=Lme_18a - HockeyApp_iOS_BITHockeyBaseManager__ctor
+	.long LDIFF_SYM1696
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
@@ -89592,27 +89866,27 @@ Lfde301_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1695=LTDIE_55_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1695
+LDIFF_SYM1697=LTDIE_55_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1697
 	.byte 1,105,3
 	.asciz "t"
 
-LDIFF_SYM1696=LTDIE_52_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1696
+LDIFF_SYM1698=LTDIE_52_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1698
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1697=Lfde302_end - Lfde302_start
-	.long LDIFF_SYM1697
+LDIFF_SYM1699=Lfde302_end - Lfde302_start
+	.long LDIFF_SYM1699
 Lfde302_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITHockeyBaseManager__ctor_Foundation_NSObjectFlag
 
-LDIFF_SYM1698=Lme_18b - HockeyApp_iOS_BITHockeyBaseManager__ctor_Foundation_NSObjectFlag
-	.long LDIFF_SYM1698
+LDIFF_SYM1700=Lme_18b - HockeyApp_iOS_BITHockeyBaseManager__ctor_Foundation_NSObjectFlag
+	.long LDIFF_SYM1700
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10
 	.align 3
@@ -89631,27 +89905,27 @@ Lfde302_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1699=LTDIE_55_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1699
+LDIFF_SYM1701=LTDIE_55_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1701
 	.byte 1,105,3
 	.asciz "handle"
 
-LDIFF_SYM1700=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1700
+LDIFF_SYM1702=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1702
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1701=Lfde303_end - Lfde303_start
-	.long LDIFF_SYM1701
+LDIFF_SYM1703=Lfde303_end - Lfde303_start
+	.long LDIFF_SYM1703
 Lfde303_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITHockeyBaseManager__ctor_intptr
 
-LDIFF_SYM1702=Lme_18c - HockeyApp_iOS_BITHockeyBaseManager__ctor_intptr
-	.long LDIFF_SYM1702
+LDIFF_SYM1704=Lme_18c - HockeyApp_iOS_BITHockeyBaseManager__ctor_intptr
+	.long LDIFF_SYM1704
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10
 	.align 3
@@ -89664,8 +89938,8 @@ LTDIE_111:
 	.asciz "UIKit_UIBarStyle"
 
 	.byte 8
-LDIFF_SYM1703=LDIE_I8 - Ldebug_info_start
-	.long LDIFF_SYM1703
+LDIFF_SYM1705=LDIE_I8 - Ldebug_info_start
+	.long LDIFF_SYM1705
 	.byte 9
 	.asciz "Default"
 
@@ -89681,18 +89955,18 @@ LDIFF_SYM1703=LDIE_I8 - Ldebug_info_start
 	.byte 2,0,7
 	.asciz "UIKit_UIBarStyle"
 
-LDIFF_SYM1704=LTDIE_111 - Ldebug_info_start
-	.long LDIFF_SYM1704
+LDIFF_SYM1706=LTDIE_111 - Ldebug_info_start
+	.long LDIFF_SYM1706
 LTDIE_111_POINTER:
 
 	.byte 13
-LDIFF_SYM1705=LTDIE_111 - Ldebug_info_start
-	.long LDIFF_SYM1705
+LDIFF_SYM1707=LTDIE_111 - Ldebug_info_start
+	.long LDIFF_SYM1707
 LTDIE_111_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1706=LTDIE_111 - Ldebug_info_start
-	.long LDIFF_SYM1706
+LDIFF_SYM1708=LTDIE_111 - Ldebug_info_start
+	.long LDIFF_SYM1708
 	.byte 2
 	.asciz "HockeyApp.iOS.BITHockeyBaseManager:get_BarStyle"
 	.asciz "HockeyApp_iOS_BITHockeyBaseManager_get_BarStyle"
@@ -89704,27 +89978,27 @@ LDIFF_SYM1706=LTDIE_111 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1707=LTDIE_55_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1707
+LDIFF_SYM1709=LTDIE_55_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1709
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1708=LTDIE_111 - Ldebug_info_start
-	.long LDIFF_SYM1708
+LDIFF_SYM1710=LTDIE_111 - Ldebug_info_start
+	.long LDIFF_SYM1710
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1709=Lfde304_end - Lfde304_start
-	.long LDIFF_SYM1709
+LDIFF_SYM1711=Lfde304_end - Lfde304_start
+	.long LDIFF_SYM1711
 Lfde304_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITHockeyBaseManager_get_BarStyle
 
-LDIFF_SYM1710=Lme_18d - HockeyApp_iOS_BITHockeyBaseManager_get_BarStyle
-	.long LDIFF_SYM1710
+LDIFF_SYM1712=Lme_18d - HockeyApp_iOS_BITHockeyBaseManager_get_BarStyle
+	.long LDIFF_SYM1712
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,154,9
 	.align 3
@@ -89743,27 +90017,27 @@ Lfde304_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1711=LTDIE_55_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1711
+LDIFF_SYM1713=LTDIE_55_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1713
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM1712=LTDIE_111 - Ldebug_info_start
-	.long LDIFF_SYM1712
+LDIFF_SYM1714=LTDIE_111 - Ldebug_info_start
+	.long LDIFF_SYM1714
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1713=Lfde305_end - Lfde305_start
-	.long LDIFF_SYM1713
+LDIFF_SYM1715=Lfde305_end - Lfde305_start
+	.long LDIFF_SYM1715
 Lfde305_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITHockeyBaseManager_set_BarStyle_UIKit_UIBarStyle
 
-LDIFF_SYM1714=Lme_18e - HockeyApp_iOS_BITHockeyBaseManager_set_BarStyle_UIKit_UIBarStyle
-	.long LDIFF_SYM1714
+LDIFF_SYM1716=Lme_18e - HockeyApp_iOS_BITHockeyBaseManager_set_BarStyle_UIKit_UIBarStyle
+	.long LDIFF_SYM1716
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8,154,7
 	.align 3
@@ -89776,8 +90050,8 @@ LTDIE_112:
 	.asciz "UIKit_UIModalPresentationStyle"
 
 	.byte 8
-LDIFF_SYM1715=LDIE_I8 - Ldebug_info_start
-	.long LDIFF_SYM1715
+LDIFF_SYM1717=LDIE_I8 - Ldebug_info_start
+	.long LDIFF_SYM1717
 	.byte 9
 	.asciz "FullScreen"
 
@@ -89811,18 +90085,18 @@ LDIFF_SYM1715=LDIE_I8 - Ldebug_info_start
 	.byte 127,0,7
 	.asciz "UIKit_UIModalPresentationStyle"
 
-LDIFF_SYM1716=LTDIE_112 - Ldebug_info_start
-	.long LDIFF_SYM1716
+LDIFF_SYM1718=LTDIE_112 - Ldebug_info_start
+	.long LDIFF_SYM1718
 LTDIE_112_POINTER:
 
 	.byte 13
-LDIFF_SYM1717=LTDIE_112 - Ldebug_info_start
-	.long LDIFF_SYM1717
+LDIFF_SYM1719=LTDIE_112 - Ldebug_info_start
+	.long LDIFF_SYM1719
 LTDIE_112_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1718=LTDIE_112 - Ldebug_info_start
-	.long LDIFF_SYM1718
+LDIFF_SYM1720=LTDIE_112 - Ldebug_info_start
+	.long LDIFF_SYM1720
 	.byte 2
 	.asciz "HockeyApp.iOS.BITHockeyBaseManager:get_ModalPresentationStyle"
 	.asciz "HockeyApp_iOS_BITHockeyBaseManager_get_ModalPresentationStyle"
@@ -89834,27 +90108,27 @@ LDIFF_SYM1718=LTDIE_112 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1719=LTDIE_55_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1719
+LDIFF_SYM1721=LTDIE_55_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1721
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1720=LTDIE_112 - Ldebug_info_start
-	.long LDIFF_SYM1720
+LDIFF_SYM1722=LTDIE_112 - Ldebug_info_start
+	.long LDIFF_SYM1722
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1721=Lfde306_end - Lfde306_start
-	.long LDIFF_SYM1721
+LDIFF_SYM1723=Lfde306_end - Lfde306_start
+	.long LDIFF_SYM1723
 Lfde306_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITHockeyBaseManager_get_ModalPresentationStyle
 
-LDIFF_SYM1722=Lme_18f - HockeyApp_iOS_BITHockeyBaseManager_get_ModalPresentationStyle
-	.long LDIFF_SYM1722
+LDIFF_SYM1724=Lme_18f - HockeyApp_iOS_BITHockeyBaseManager_get_ModalPresentationStyle
+	.long LDIFF_SYM1724
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,154,9
 	.align 3
@@ -89873,27 +90147,27 @@ Lfde306_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1723=LTDIE_55_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1723
+LDIFF_SYM1725=LTDIE_55_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1725
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM1724=LTDIE_112 - Ldebug_info_start
-	.long LDIFF_SYM1724
+LDIFF_SYM1726=LTDIE_112 - Ldebug_info_start
+	.long LDIFF_SYM1726
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1725=Lfde307_end - Lfde307_start
-	.long LDIFF_SYM1725
+LDIFF_SYM1727=Lfde307_end - Lfde307_start
+	.long LDIFF_SYM1727
 Lfde307_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITHockeyBaseManager_set_ModalPresentationStyle_UIKit_UIModalPresentationStyle
 
-LDIFF_SYM1726=Lme_190 - HockeyApp_iOS_BITHockeyBaseManager_set_ModalPresentationStyle_UIKit_UIModalPresentationStyle
-	.long LDIFF_SYM1726
+LDIFF_SYM1728=Lme_190 - HockeyApp_iOS_BITHockeyBaseManager_set_ModalPresentationStyle_UIKit_UIModalPresentationStyle
+	.long LDIFF_SYM1728
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8,154,7
 	.align 3
@@ -89906,23 +90180,23 @@ LTDIE_113:
 	.asciz "UIKit_UIColor"
 
 	.byte 40,16
-LDIFF_SYM1727=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM1727
+LDIFF_SYM1729=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM1729
 	.byte 2,35,0,0,7
 	.asciz "UIKit_UIColor"
 
-LDIFF_SYM1728=LTDIE_113 - Ldebug_info_start
-	.long LDIFF_SYM1728
+LDIFF_SYM1730=LTDIE_113 - Ldebug_info_start
+	.long LDIFF_SYM1730
 LTDIE_113_POINTER:
 
 	.byte 13
-LDIFF_SYM1729=LTDIE_113 - Ldebug_info_start
-	.long LDIFF_SYM1729
+LDIFF_SYM1731=LTDIE_113 - Ldebug_info_start
+	.long LDIFF_SYM1731
 LTDIE_113_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1730=LTDIE_113 - Ldebug_info_start
-	.long LDIFF_SYM1730
+LDIFF_SYM1732=LTDIE_113 - Ldebug_info_start
+	.long LDIFF_SYM1732
 	.byte 2
 	.asciz "HockeyApp.iOS.BITHockeyBaseManager:get_NavigationBarTintColor"
 	.asciz "HockeyApp_iOS_BITHockeyBaseManager_get_NavigationBarTintColor"
@@ -89934,27 +90208,27 @@ LDIFF_SYM1730=LTDIE_113 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1731=LTDIE_55_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1731
+LDIFF_SYM1733=LTDIE_55_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1733
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1732=LTDIE_113_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1732
+LDIFF_SYM1734=LTDIE_113_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1734
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1733=Lfde308_end - Lfde308_start
-	.long LDIFF_SYM1733
+LDIFF_SYM1735=Lfde308_end - Lfde308_start
+	.long LDIFF_SYM1735
 Lfde308_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITHockeyBaseManager_get_NavigationBarTintColor
 
-LDIFF_SYM1734=Lme_191 - HockeyApp_iOS_BITHockeyBaseManager_get_NavigationBarTintColor
-	.long LDIFF_SYM1734
+LDIFF_SYM1736=Lme_191 - HockeyApp_iOS_BITHockeyBaseManager_get_NavigationBarTintColor
+	.long LDIFF_SYM1736
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,154,9
 	.align 3
@@ -89973,27 +90247,27 @@ Lfde308_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1735=LTDIE_55_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1735
+LDIFF_SYM1737=LTDIE_55_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1737
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM1736=LTDIE_113_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1736
+LDIFF_SYM1738=LTDIE_113_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1738
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1737=Lfde309_end - Lfde309_start
-	.long LDIFF_SYM1737
+LDIFF_SYM1739=Lfde309_end - Lfde309_start
+	.long LDIFF_SYM1739
 Lfde309_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITHockeyBaseManager_set_NavigationBarTintColor_UIKit_UIColor
 
-LDIFF_SYM1738=Lme_192 - HockeyApp_iOS_BITHockeyBaseManager_set_NavigationBarTintColor_UIKit_UIColor
-	.long LDIFF_SYM1738
+LDIFF_SYM1740=Lme_192 - HockeyApp_iOS_BITHockeyBaseManager_set_NavigationBarTintColor_UIKit_UIColor
+	.long LDIFF_SYM1740
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,154,9
 	.align 3
@@ -90012,22 +90286,22 @@ Lfde309_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1739=LTDIE_55_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1739
+LDIFF_SYM1741=LTDIE_55_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1741
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1740=Lfde310_end - Lfde310_start
-	.long LDIFF_SYM1740
+LDIFF_SYM1742=Lfde310_end - Lfde310_start
+	.long LDIFF_SYM1742
 Lfde310_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITHockeyBaseManager_get_ServerUrl
 
-LDIFF_SYM1741=Lme_193 - HockeyApp_iOS_BITHockeyBaseManager_get_ServerUrl
-	.long LDIFF_SYM1741
+LDIFF_SYM1743=Lme_193 - HockeyApp_iOS_BITHockeyBaseManager_get_ServerUrl
+	.long LDIFF_SYM1743
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
@@ -90046,32 +90320,32 @@ Lfde310_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1742=LTDIE_55_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1742
+LDIFF_SYM1744=LTDIE_55_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1744
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM1743=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1743
+LDIFF_SYM1745=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1745
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1744=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1744
+LDIFF_SYM1746=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1746
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1745=Lfde311_end - Lfde311_start
-	.long LDIFF_SYM1745
+LDIFF_SYM1747=Lfde311_end - Lfde311_start
+	.long LDIFF_SYM1747
 Lfde311_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITHockeyBaseManager_set_ServerUrl_string
 
-LDIFF_SYM1746=Lme_194 - HockeyApp_iOS_BITHockeyBaseManager_set_ServerUrl_string
-	.long LDIFF_SYM1746
+LDIFF_SYM1748=Lme_194 - HockeyApp_iOS_BITHockeyBaseManager_set_ServerUrl_string
+	.long LDIFF_SYM1748
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,152,8,153,7,68,154,6
 	.align 3
@@ -90091,16 +90365,16 @@ Lfde311_end:
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1747=Lfde312_end - Lfde312_start
-	.long LDIFF_SYM1747
+LDIFF_SYM1749=Lfde312_end - Lfde312_start
+	.long LDIFF_SYM1749
 Lfde312_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITHockeyBaseManager__cctor
 
-LDIFF_SYM1748=Lme_195 - HockeyApp_iOS_BITHockeyBaseManager__cctor
-	.long LDIFF_SYM1748
+LDIFF_SYM1750=Lme_195 - HockeyApp_iOS_BITHockeyBaseManager__cctor
+	.long LDIFF_SYM1750
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -90119,22 +90393,22 @@ Lfde312_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1749=LTDIE_99_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1749
+LDIFF_SYM1751=LTDIE_99_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1751
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1750=Lfde313_end - Lfde313_start
-	.long LDIFF_SYM1750
+LDIFF_SYM1752=Lfde313_end - Lfde313_start
+	.long LDIFF_SYM1752
 Lfde313_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITHockeyBaseViewController_get_ClassHandle
 
-LDIFF_SYM1751=Lme_196 - HockeyApp_iOS_BITHockeyBaseViewController_get_ClassHandle
-	.long LDIFF_SYM1751
+LDIFF_SYM1753=Lme_196 - HockeyApp_iOS_BITHockeyBaseViewController_get_ClassHandle
+	.long LDIFF_SYM1753
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -90153,22 +90427,22 @@ Lfde313_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1752=LTDIE_99_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1752
+LDIFF_SYM1754=LTDIE_99_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1754
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1753=Lfde314_end - Lfde314_start
-	.long LDIFF_SYM1753
+LDIFF_SYM1755=Lfde314_end - Lfde314_start
+	.long LDIFF_SYM1755
 Lfde314_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITHockeyBaseViewController__ctor
 
-LDIFF_SYM1754=Lme_197 - HockeyApp_iOS_BITHockeyBaseViewController__ctor
-	.long LDIFF_SYM1754
+LDIFF_SYM1756=Lme_197 - HockeyApp_iOS_BITHockeyBaseViewController__ctor
+	.long LDIFF_SYM1756
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
@@ -90187,27 +90461,27 @@ Lfde314_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1755=LTDIE_99_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1755
+LDIFF_SYM1757=LTDIE_99_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1757
 	.byte 1,105,3
 	.asciz "coder"
 
-LDIFF_SYM1756=LTDIE_79_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1756
+LDIFF_SYM1758=LTDIE_79_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1758
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1757=Lfde315_end - Lfde315_start
-	.long LDIFF_SYM1757
+LDIFF_SYM1759=Lfde315_end - Lfde315_start
+	.long LDIFF_SYM1759
 Lfde315_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITHockeyBaseViewController__ctor_Foundation_NSCoder
 
-LDIFF_SYM1758=Lme_198 - HockeyApp_iOS_BITHockeyBaseViewController__ctor_Foundation_NSCoder
-	.long LDIFF_SYM1758
+LDIFF_SYM1760=Lme_198 - HockeyApp_iOS_BITHockeyBaseViewController__ctor_Foundation_NSCoder
+	.long LDIFF_SYM1760
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,154,9
 	.align 3
@@ -90226,27 +90500,27 @@ Lfde315_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1759=LTDIE_99_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1759
+LDIFF_SYM1761=LTDIE_99_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1761
 	.byte 1,105,3
 	.asciz "t"
 
-LDIFF_SYM1760=LTDIE_52_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1760
+LDIFF_SYM1762=LTDIE_52_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1762
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1761=Lfde316_end - Lfde316_start
-	.long LDIFF_SYM1761
+LDIFF_SYM1763=Lfde316_end - Lfde316_start
+	.long LDIFF_SYM1763
 Lfde316_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITHockeyBaseViewController__ctor_Foundation_NSObjectFlag
 
-LDIFF_SYM1762=Lme_199 - HockeyApp_iOS_BITHockeyBaseViewController__ctor_Foundation_NSObjectFlag
-	.long LDIFF_SYM1762
+LDIFF_SYM1764=Lme_199 - HockeyApp_iOS_BITHockeyBaseViewController__ctor_Foundation_NSObjectFlag
+	.long LDIFF_SYM1764
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10
 	.align 3
@@ -90265,27 +90539,27 @@ Lfde316_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1763=LTDIE_99_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1763
+LDIFF_SYM1765=LTDIE_99_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1765
 	.byte 1,105,3
 	.asciz "handle"
 
-LDIFF_SYM1764=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1764
+LDIFF_SYM1766=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1766
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1765=Lfde317_end - Lfde317_start
-	.long LDIFF_SYM1765
+LDIFF_SYM1767=Lfde317_end - Lfde317_start
+	.long LDIFF_SYM1767
 Lfde317_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITHockeyBaseViewController__ctor_intptr
 
-LDIFF_SYM1766=Lme_19a - HockeyApp_iOS_BITHockeyBaseViewController__ctor_intptr
-	.long LDIFF_SYM1766
+LDIFF_SYM1768=Lme_19a - HockeyApp_iOS_BITHockeyBaseViewController__ctor_intptr
+	.long LDIFF_SYM1768
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10
 	.align 3
@@ -90304,27 +90578,27 @@ Lfde317_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1767=LTDIE_99_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1767
+LDIFF_SYM1769=LTDIE_99_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1769
 	.byte 1,105,3
 	.asciz "modal"
 
-LDIFF_SYM1768=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1768
+LDIFF_SYM1770=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1770
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1769=Lfde318_end - Lfde318_start
-	.long LDIFF_SYM1769
+LDIFF_SYM1771=Lfde318_end - Lfde318_start
+	.long LDIFF_SYM1771
 Lfde318_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITHockeyBaseViewController__ctor_bool
 
-LDIFF_SYM1770=Lme_19b - HockeyApp_iOS_BITHockeyBaseViewController__ctor_bool
-	.long LDIFF_SYM1770
+LDIFF_SYM1772=Lme_19b - HockeyApp_iOS_BITHockeyBaseViewController__ctor_bool
+	.long LDIFF_SYM1772
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,154,9
 	.align 3
@@ -90337,8 +90611,8 @@ LTDIE_114:
 	.asciz "UIKit_UITableViewStyle"
 
 	.byte 8
-LDIFF_SYM1771=LDIE_I8 - Ldebug_info_start
-	.long LDIFF_SYM1771
+LDIFF_SYM1773=LDIE_I8 - Ldebug_info_start
+	.long LDIFF_SYM1773
 	.byte 9
 	.asciz "Plain"
 
@@ -90348,18 +90622,18 @@ LDIFF_SYM1771=LDIE_I8 - Ldebug_info_start
 	.byte 1,0,7
 	.asciz "UIKit_UITableViewStyle"
 
-LDIFF_SYM1772=LTDIE_114 - Ldebug_info_start
-	.long LDIFF_SYM1772
+LDIFF_SYM1774=LTDIE_114 - Ldebug_info_start
+	.long LDIFF_SYM1774
 LTDIE_114_POINTER:
 
 	.byte 13
-LDIFF_SYM1773=LTDIE_114 - Ldebug_info_start
-	.long LDIFF_SYM1773
+LDIFF_SYM1775=LTDIE_114 - Ldebug_info_start
+	.long LDIFF_SYM1775
 LTDIE_114_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1774=LTDIE_114 - Ldebug_info_start
-	.long LDIFF_SYM1774
+LDIFF_SYM1776=LTDIE_114 - Ldebug_info_start
+	.long LDIFF_SYM1776
 	.byte 2
 	.asciz "HockeyApp.iOS.BITHockeyBaseViewController:.ctor"
 	.asciz "HockeyApp_iOS_BITHockeyBaseViewController__ctor_UIKit_UITableViewStyle_bool"
@@ -90371,32 +90645,32 @@ LDIFF_SYM1774=LTDIE_114 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1775=LTDIE_99_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1775
+LDIFF_SYM1777=LTDIE_99_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1777
 	.byte 1,104,3
 	.asciz "style"
 
-LDIFF_SYM1776=LTDIE_114 - Ldebug_info_start
-	.long LDIFF_SYM1776
+LDIFF_SYM1778=LTDIE_114 - Ldebug_info_start
+	.long LDIFF_SYM1778
 	.byte 1,105,3
 	.asciz "modal"
 
-LDIFF_SYM1777=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1777
+LDIFF_SYM1779=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1779
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1778=Lfde319_end - Lfde319_start
-	.long LDIFF_SYM1778
+LDIFF_SYM1780=Lfde319_end - Lfde319_start
+	.long LDIFF_SYM1780
 Lfde319_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITHockeyBaseViewController__ctor_UIKit_UITableViewStyle_bool
 
-LDIFF_SYM1779=Lme_19c - HockeyApp_iOS_BITHockeyBaseViewController__ctor_UIKit_UITableViewStyle_bool
-	.long LDIFF_SYM1779
+LDIFF_SYM1781=Lme_19c - HockeyApp_iOS_BITHockeyBaseViewController__ctor_UIKit_UITableViewStyle_bool
+	.long LDIFF_SYM1781
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,152,10,153,9,68,154,8
 	.align 3
@@ -90415,22 +90689,22 @@ Lfde319_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1780=LTDIE_99_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1780
+LDIFF_SYM1782=LTDIE_99_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1782
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1781=Lfde320_end - Lfde320_start
-	.long LDIFF_SYM1781
+LDIFF_SYM1783=Lfde320_end - Lfde320_start
+	.long LDIFF_SYM1783
 Lfde320_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITHockeyBaseViewController_get_ModalAnimated
 
-LDIFF_SYM1782=Lme_19d - HockeyApp_iOS_BITHockeyBaseViewController_get_ModalAnimated
-	.long LDIFF_SYM1782
+LDIFF_SYM1784=Lme_19d - HockeyApp_iOS_BITHockeyBaseViewController_get_ModalAnimated
+	.long LDIFF_SYM1784
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
@@ -90449,27 +90723,27 @@ Lfde320_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1783=LTDIE_99_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1783
+LDIFF_SYM1785=LTDIE_99_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1785
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM1784=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1784
+LDIFF_SYM1786=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1786
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1785=Lfde321_end - Lfde321_start
-	.long LDIFF_SYM1785
+LDIFF_SYM1787=Lfde321_end - Lfde321_start
+	.long LDIFF_SYM1787
 Lfde321_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITHockeyBaseViewController_set_ModalAnimated_bool
 
-LDIFF_SYM1786=Lme_19e - HockeyApp_iOS_BITHockeyBaseViewController_set_ModalAnimated_bool
-	.long LDIFF_SYM1786
+LDIFF_SYM1788=Lme_19e - HockeyApp_iOS_BITHockeyBaseViewController_set_ModalAnimated_bool
+	.long LDIFF_SYM1788
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8,154,7
 	.align 3
@@ -90489,16 +90763,16 @@ Lfde321_end:
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1787=Lfde322_end - Lfde322_start
-	.long LDIFF_SYM1787
+LDIFF_SYM1789=Lfde322_end - Lfde322_start
+	.long LDIFF_SYM1789
 Lfde322_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITHockeyBaseViewController__cctor
 
-LDIFF_SYM1788=Lme_19f - HockeyApp_iOS_BITHockeyBaseViewController__cctor
-	.long LDIFF_SYM1788
+LDIFF_SYM1790=Lme_19f - HockeyApp_iOS_BITHockeyBaseViewController__cctor
+	.long LDIFF_SYM1790
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -90513,18 +90787,18 @@ LTDIE_115:
 	.byte 16,7
 	.asciz "HockeyApp_iOS_IBITHockeyManagerDelegate"
 
-LDIFF_SYM1789=LTDIE_115 - Ldebug_info_start
-	.long LDIFF_SYM1789
+LDIFF_SYM1791=LTDIE_115 - Ldebug_info_start
+	.long LDIFF_SYM1791
 LTDIE_115_POINTER:
 
 	.byte 13
-LDIFF_SYM1790=LTDIE_115 - Ldebug_info_start
-	.long LDIFF_SYM1790
+LDIFF_SYM1792=LTDIE_115 - Ldebug_info_start
+	.long LDIFF_SYM1792
 LTDIE_115_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1791=LTDIE_115 - Ldebug_info_start
-	.long LDIFF_SYM1791
+LDIFF_SYM1793=LTDIE_115 - Ldebug_info_start
+	.long LDIFF_SYM1793
 	.byte 2
 	.asciz "HockeyApp.iOS.BITHockeyManagerDelegate_Extensions:ShouldUseLiveIdentifierForHockeyManager"
 	.asciz "HockeyApp_iOS_BITHockeyManagerDelegate_Extensions_ShouldUseLiveIdentifierForHockeyManager_HockeyApp_iOS_IBITHockeyManagerDelegate_HockeyApp_iOS_BITHockeyManager"
@@ -90536,27 +90810,27 @@ LDIFF_SYM1791=LTDIE_115 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "This"
 
-LDIFF_SYM1792=LTDIE_115_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1792
+LDIFF_SYM1794=LTDIE_115_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1794
 	.byte 2,141,24,3
 	.asciz "manager"
 
-LDIFF_SYM1793=LTDIE_32_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1793
+LDIFF_SYM1795=LTDIE_32_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1795
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1794=Lfde323_end - Lfde323_start
-	.long LDIFF_SYM1794
+LDIFF_SYM1796=Lfde323_end - Lfde323_start
+	.long LDIFF_SYM1796
 Lfde323_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITHockeyManagerDelegate_Extensions_ShouldUseLiveIdentifierForHockeyManager_HockeyApp_iOS_IBITHockeyManagerDelegate_HockeyApp_iOS_BITHockeyManager
 
-LDIFF_SYM1795=Lme_1a0 - HockeyApp_iOS_BITHockeyManagerDelegate_Extensions_ShouldUseLiveIdentifierForHockeyManager_HockeyApp_iOS_IBITHockeyManagerDelegate_HockeyApp_iOS_BITHockeyManager
-	.long LDIFF_SYM1795
+LDIFF_SYM1797=Lme_1a0 - HockeyApp_iOS_BITHockeyManagerDelegate_Extensions_ShouldUseLiveIdentifierForHockeyManager_HockeyApp_iOS_IBITHockeyManagerDelegate_HockeyApp_iOS_BITHockeyManager
+	.long LDIFF_SYM1797
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,154,10
 	.align 3
@@ -90575,32 +90849,32 @@ Lfde323_end:
 	.byte 2,118,16,3
 	.asciz "This"
 
-LDIFF_SYM1796=LTDIE_115_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1796
+LDIFF_SYM1798=LTDIE_115_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1798
 	.byte 2,141,32,3
 	.asciz "hockeyManager"
 
-LDIFF_SYM1797=LTDIE_32_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1797
+LDIFF_SYM1799=LTDIE_32_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1799
 	.byte 1,105,3
 	.asciz "componentManager"
 
-LDIFF_SYM1798=LTDIE_55_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1798
+LDIFF_SYM1800=LTDIE_55_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1800
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1799=Lfde324_end - Lfde324_start
-	.long LDIFF_SYM1799
+LDIFF_SYM1801=Lfde324_end - Lfde324_start
+	.long LDIFF_SYM1801
 Lfde324_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITHockeyManagerDelegate_Extensions_ViewControllerForHockeyManager_HockeyApp_iOS_IBITHockeyManagerDelegate_HockeyApp_iOS_BITHockeyManager_HockeyApp_iOS_BITHockeyBaseManager
 
-LDIFF_SYM1800=Lme_1a1 - HockeyApp_iOS_BITHockeyManagerDelegate_Extensions_ViewControllerForHockeyManager_HockeyApp_iOS_IBITHockeyManagerDelegate_HockeyApp_iOS_BITHockeyManager_HockeyApp_iOS_BITHockeyBaseManager
-	.long LDIFF_SYM1800
+LDIFF_SYM1802=Lme_1a1 - HockeyApp_iOS_BITHockeyManagerDelegate_Extensions_ViewControllerForHockeyManager_HockeyApp_iOS_IBITHockeyManagerDelegate_HockeyApp_iOS_BITHockeyManager_HockeyApp_iOS_BITHockeyBaseManager
+	.long LDIFF_SYM1802
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,153,12,154,11
 	.align 3
@@ -90619,32 +90893,32 @@ Lfde324_end:
 	.byte 2,118,16,3
 	.asciz "This"
 
-LDIFF_SYM1801=LTDIE_115_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1801
+LDIFF_SYM1803=LTDIE_115_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1803
 	.byte 2,141,32,3
 	.asciz "hockeyManager"
 
-LDIFF_SYM1802=LTDIE_32_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1802
+LDIFF_SYM1804=LTDIE_32_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1804
 	.byte 1,105,3
 	.asciz "componentManager"
 
-LDIFF_SYM1803=LTDIE_55_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1803
+LDIFF_SYM1805=LTDIE_55_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1805
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1804=Lfde325_end - Lfde325_start
-	.long LDIFF_SYM1804
+LDIFF_SYM1806=Lfde325_end - Lfde325_start
+	.long LDIFF_SYM1806
 Lfde325_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITHockeyManagerDelegate_Extensions_UserIdForHockeyManager_HockeyApp_iOS_IBITHockeyManagerDelegate_HockeyApp_iOS_BITHockeyManager_HockeyApp_iOS_BITHockeyBaseManager
 
-LDIFF_SYM1805=Lme_1a2 - HockeyApp_iOS_BITHockeyManagerDelegate_Extensions_UserIdForHockeyManager_HockeyApp_iOS_IBITHockeyManagerDelegate_HockeyApp_iOS_BITHockeyManager_HockeyApp_iOS_BITHockeyBaseManager
-	.long LDIFF_SYM1805
+LDIFF_SYM1807=Lme_1a2 - HockeyApp_iOS_BITHockeyManagerDelegate_Extensions_UserIdForHockeyManager_HockeyApp_iOS_IBITHockeyManagerDelegate_HockeyApp_iOS_BITHockeyManager_HockeyApp_iOS_BITHockeyBaseManager
+	.long LDIFF_SYM1807
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,153,12,154,11
 	.align 3
@@ -90663,32 +90937,32 @@ Lfde325_end:
 	.byte 2,118,16,3
 	.asciz "This"
 
-LDIFF_SYM1806=LTDIE_115_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1806
+LDIFF_SYM1808=LTDIE_115_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1808
 	.byte 2,141,32,3
 	.asciz "hockeyManager"
 
-LDIFF_SYM1807=LTDIE_32_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1807
+LDIFF_SYM1809=LTDIE_32_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1809
 	.byte 1,105,3
 	.asciz "componentManager"
 
-LDIFF_SYM1808=LTDIE_55_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1808
+LDIFF_SYM1810=LTDIE_55_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1810
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1809=Lfde326_end - Lfde326_start
-	.long LDIFF_SYM1809
+LDIFF_SYM1811=Lfde326_end - Lfde326_start
+	.long LDIFF_SYM1811
 Lfde326_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITHockeyManagerDelegate_Extensions_UserNameForHockeyManager_HockeyApp_iOS_IBITHockeyManagerDelegate_HockeyApp_iOS_BITHockeyManager_HockeyApp_iOS_BITHockeyBaseManager
 
-LDIFF_SYM1810=Lme_1a3 - HockeyApp_iOS_BITHockeyManagerDelegate_Extensions_UserNameForHockeyManager_HockeyApp_iOS_IBITHockeyManagerDelegate_HockeyApp_iOS_BITHockeyManager_HockeyApp_iOS_BITHockeyBaseManager
-	.long LDIFF_SYM1810
+LDIFF_SYM1812=Lme_1a3 - HockeyApp_iOS_BITHockeyManagerDelegate_Extensions_UserNameForHockeyManager_HockeyApp_iOS_IBITHockeyManagerDelegate_HockeyApp_iOS_BITHockeyManager_HockeyApp_iOS_BITHockeyBaseManager
+	.long LDIFF_SYM1812
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,153,12,154,11
 	.align 3
@@ -90707,32 +90981,32 @@ Lfde326_end:
 	.byte 2,118,16,3
 	.asciz "This"
 
-LDIFF_SYM1811=LTDIE_115_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1811
+LDIFF_SYM1813=LTDIE_115_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1813
 	.byte 2,141,32,3
 	.asciz "hockeyManager"
 
-LDIFF_SYM1812=LTDIE_32_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1812
+LDIFF_SYM1814=LTDIE_32_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1814
 	.byte 1,105,3
 	.asciz "componentManager"
 
-LDIFF_SYM1813=LTDIE_55_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1813
+LDIFF_SYM1815=LTDIE_55_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1815
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1814=Lfde327_end - Lfde327_start
-	.long LDIFF_SYM1814
+LDIFF_SYM1816=Lfde327_end - Lfde327_start
+	.long LDIFF_SYM1816
 Lfde327_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITHockeyManagerDelegate_Extensions_UserEmailForHockeyManager_HockeyApp_iOS_IBITHockeyManagerDelegate_HockeyApp_iOS_BITHockeyManager_HockeyApp_iOS_BITHockeyBaseManager
 
-LDIFF_SYM1815=Lme_1a4 - HockeyApp_iOS_BITHockeyManagerDelegate_Extensions_UserEmailForHockeyManager_HockeyApp_iOS_IBITHockeyManagerDelegate_HockeyApp_iOS_BITHockeyManager_HockeyApp_iOS_BITHockeyBaseManager
-	.long LDIFF_SYM1815
+LDIFF_SYM1817=Lme_1a4 - HockeyApp_iOS_BITHockeyManagerDelegate_Extensions_UserEmailForHockeyManager_HockeyApp_iOS_IBITHockeyManagerDelegate_HockeyApp_iOS_BITHockeyManager_HockeyApp_iOS_BITHockeyBaseManager
+	.long LDIFF_SYM1817
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,153,12,154,11
 	.align 3
@@ -90751,27 +91025,27 @@ Lfde327_end:
 	.byte 2,118,16,3
 	.asciz "This"
 
-LDIFF_SYM1816=LTDIE_115_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1816
+LDIFF_SYM1818=LTDIE_115_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1818
 	.byte 2,141,24,3
 	.asciz "crashManager"
 
-LDIFF_SYM1817=LTDIE_56_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1817
+LDIFF_SYM1819=LTDIE_56_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1819
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1818=Lfde328_end - Lfde328_start
-	.long LDIFF_SYM1818
+LDIFF_SYM1820=Lfde328_end - Lfde328_start
+	.long LDIFF_SYM1820
 Lfde328_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITHockeyManagerDelegate_Extensions_ApplicationLogForCrashManager_HockeyApp_iOS_IBITHockeyManagerDelegate_HockeyApp_iOS_BITCrashManager
 
-LDIFF_SYM1819=Lme_1a5 - HockeyApp_iOS_BITHockeyManagerDelegate_Extensions_ApplicationLogForCrashManager_HockeyApp_iOS_IBITHockeyManagerDelegate_HockeyApp_iOS_BITCrashManager
-	.long LDIFF_SYM1819
+LDIFF_SYM1821=Lme_1a5 - HockeyApp_iOS_BITHockeyManagerDelegate_Extensions_ApplicationLogForCrashManager_HockeyApp_iOS_IBITHockeyManagerDelegate_HockeyApp_iOS_BITCrashManager
+	.long LDIFF_SYM1821
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,154,12
 	.align 3
@@ -90790,27 +91064,27 @@ Lfde328_end:
 	.byte 2,118,16,3
 	.asciz "This"
 
-LDIFF_SYM1820=LTDIE_115_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1820
+LDIFF_SYM1822=LTDIE_115_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1822
 	.byte 2,141,24,3
 	.asciz "crashManager"
 
-LDIFF_SYM1821=LTDIE_56_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1821
+LDIFF_SYM1823=LTDIE_56_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1823
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1822=Lfde329_end - Lfde329_start
-	.long LDIFF_SYM1822
+LDIFF_SYM1824=Lfde329_end - Lfde329_start
+	.long LDIFF_SYM1824
 Lfde329_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITHockeyManagerDelegate_Extensions_AttachmentForCrashManager_HockeyApp_iOS_IBITHockeyManagerDelegate_HockeyApp_iOS_BITCrashManager
 
-LDIFF_SYM1823=Lme_1a6 - HockeyApp_iOS_BITHockeyManagerDelegate_Extensions_AttachmentForCrashManager_HockeyApp_iOS_IBITHockeyManagerDelegate_HockeyApp_iOS_BITCrashManager
-	.long LDIFF_SYM1823
+LDIFF_SYM1825=Lme_1a6 - HockeyApp_iOS_BITHockeyManagerDelegate_Extensions_AttachmentForCrashManager_HockeyApp_iOS_IBITHockeyManagerDelegate_HockeyApp_iOS_BITCrashManager
+	.long LDIFF_SYM1825
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,154,12
 	.align 3
@@ -90829,27 +91103,27 @@ Lfde329_end:
 	.byte 2,118,16,3
 	.asciz "This"
 
-LDIFF_SYM1824=LTDIE_115_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1824
+LDIFF_SYM1826=LTDIE_115_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1826
 	.byte 2,141,24,3
 	.asciz "crashManager"
 
-LDIFF_SYM1825=LTDIE_56_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1825
+LDIFF_SYM1827=LTDIE_56_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1827
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1826=Lfde330_end - Lfde330_start
-	.long LDIFF_SYM1826
+LDIFF_SYM1828=Lfde330_end - Lfde330_start
+	.long LDIFF_SYM1828
 Lfde330_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITHockeyManagerDelegate_Extensions_WillShowSubmitCrashReportAlert_HockeyApp_iOS_IBITHockeyManagerDelegate_HockeyApp_iOS_BITCrashManager
 
-LDIFF_SYM1827=Lme_1a7 - HockeyApp_iOS_BITHockeyManagerDelegate_Extensions_WillShowSubmitCrashReportAlert_HockeyApp_iOS_IBITHockeyManagerDelegate_HockeyApp_iOS_BITCrashManager
-	.long LDIFF_SYM1827
+LDIFF_SYM1829=Lme_1a7 - HockeyApp_iOS_BITHockeyManagerDelegate_Extensions_WillShowSubmitCrashReportAlert_HockeyApp_iOS_IBITHockeyManagerDelegate_HockeyApp_iOS_BITCrashManager
+	.long LDIFF_SYM1829
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,154,10
 	.align 3
@@ -90868,27 +91142,27 @@ Lfde330_end:
 	.byte 2,118,16,3
 	.asciz "This"
 
-LDIFF_SYM1828=LTDIE_115_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1828
+LDIFF_SYM1830=LTDIE_115_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1830
 	.byte 2,141,24,3
 	.asciz "crashManager"
 
-LDIFF_SYM1829=LTDIE_56_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1829
+LDIFF_SYM1831=LTDIE_56_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1831
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1830=Lfde331_end - Lfde331_start
-	.long LDIFF_SYM1830
+LDIFF_SYM1832=Lfde331_end - Lfde331_start
+	.long LDIFF_SYM1832
 Lfde331_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITHockeyManagerDelegate_Extensions_WillCancelSendingCrashReport_HockeyApp_iOS_IBITHockeyManagerDelegate_HockeyApp_iOS_BITCrashManager
 
-LDIFF_SYM1831=Lme_1a8 - HockeyApp_iOS_BITHockeyManagerDelegate_Extensions_WillCancelSendingCrashReport_HockeyApp_iOS_IBITHockeyManagerDelegate_HockeyApp_iOS_BITCrashManager
-	.long LDIFF_SYM1831
+LDIFF_SYM1833=Lme_1a8 - HockeyApp_iOS_BITHockeyManagerDelegate_Extensions_WillCancelSendingCrashReport_HockeyApp_iOS_IBITHockeyManagerDelegate_HockeyApp_iOS_BITCrashManager
+	.long LDIFF_SYM1833
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,154,10
 	.align 3
@@ -90907,27 +91181,27 @@ Lfde331_end:
 	.byte 2,118,16,3
 	.asciz "This"
 
-LDIFF_SYM1832=LTDIE_115_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1832
+LDIFF_SYM1834=LTDIE_115_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1834
 	.byte 2,141,24,3
 	.asciz "crashManager"
 
-LDIFF_SYM1833=LTDIE_56_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1833
+LDIFF_SYM1835=LTDIE_56_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1835
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1834=Lfde332_end - Lfde332_start
-	.long LDIFF_SYM1834
+LDIFF_SYM1836=Lfde332_end - Lfde332_start
+	.long LDIFF_SYM1836
 Lfde332_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITHockeyManagerDelegate_Extensions_WillSendCrashReportsAlways_HockeyApp_iOS_IBITHockeyManagerDelegate_HockeyApp_iOS_BITCrashManager
 
-LDIFF_SYM1835=Lme_1a9 - HockeyApp_iOS_BITHockeyManagerDelegate_Extensions_WillSendCrashReportsAlways_HockeyApp_iOS_IBITHockeyManagerDelegate_HockeyApp_iOS_BITCrashManager
-	.long LDIFF_SYM1835
+LDIFF_SYM1837=Lme_1a9 - HockeyApp_iOS_BITHockeyManagerDelegate_Extensions_WillSendCrashReportsAlways_HockeyApp_iOS_IBITHockeyManagerDelegate_HockeyApp_iOS_BITCrashManager
+	.long LDIFF_SYM1837
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,154,10
 	.align 3
@@ -90946,27 +91220,27 @@ Lfde332_end:
 	.byte 2,118,16,3
 	.asciz "This"
 
-LDIFF_SYM1836=LTDIE_115_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1836
+LDIFF_SYM1838=LTDIE_115_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1838
 	.byte 2,141,24,3
 	.asciz "crashManager"
 
-LDIFF_SYM1837=LTDIE_56_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1837
+LDIFF_SYM1839=LTDIE_56_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1839
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1838=Lfde333_end - Lfde333_start
-	.long LDIFF_SYM1838
+LDIFF_SYM1840=Lfde333_end - Lfde333_start
+	.long LDIFF_SYM1840
 Lfde333_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITHockeyManagerDelegate_Extensions_WillSendCrashReport_HockeyApp_iOS_IBITHockeyManagerDelegate_HockeyApp_iOS_BITCrashManager
 
-LDIFF_SYM1839=Lme_1aa - HockeyApp_iOS_BITHockeyManagerDelegate_Extensions_WillSendCrashReport_HockeyApp_iOS_IBITHockeyManagerDelegate_HockeyApp_iOS_BITCrashManager
-	.long LDIFF_SYM1839
+LDIFF_SYM1841=Lme_1aa - HockeyApp_iOS_BITHockeyManagerDelegate_Extensions_WillSendCrashReport_HockeyApp_iOS_IBITHockeyManagerDelegate_HockeyApp_iOS_BITCrashManager
+	.long LDIFF_SYM1841
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,154,10
 	.align 3
@@ -90985,32 +91259,32 @@ Lfde333_end:
 	.byte 2,118,16,3
 	.asciz "This"
 
-LDIFF_SYM1840=LTDIE_115_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1840
+LDIFF_SYM1842=LTDIE_115_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1842
 	.byte 2,141,32,3
 	.asciz "crashManager"
 
-LDIFF_SYM1841=LTDIE_56_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1841
+LDIFF_SYM1843=LTDIE_56_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1843
 	.byte 1,105,3
 	.asciz "error"
 
-LDIFF_SYM1842=LTDIE_14_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1842
+LDIFF_SYM1844=LTDIE_14_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1844
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1843=Lfde334_end - Lfde334_start
-	.long LDIFF_SYM1843
+LDIFF_SYM1845=Lfde334_end - Lfde334_start
+	.long LDIFF_SYM1845
 Lfde334_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITHockeyManagerDelegate_Extensions_DidFailWithError_HockeyApp_iOS_IBITHockeyManagerDelegate_HockeyApp_iOS_BITCrashManager_Foundation_NSError
 
-LDIFF_SYM1844=Lme_1ab - HockeyApp_iOS_BITHockeyManagerDelegate_Extensions_DidFailWithError_HockeyApp_iOS_IBITHockeyManagerDelegate_HockeyApp_iOS_BITCrashManager_Foundation_NSError
-	.long LDIFF_SYM1844
+LDIFF_SYM1846=Lme_1ab - HockeyApp_iOS_BITHockeyManagerDelegate_Extensions_DidFailWithError_HockeyApp_iOS_IBITHockeyManagerDelegate_HockeyApp_iOS_BITCrashManager_Foundation_NSError
+	.long LDIFF_SYM1846
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,154,9
 	.align 3
@@ -91029,27 +91303,27 @@ Lfde334_end:
 	.byte 2,118,16,3
 	.asciz "This"
 
-LDIFF_SYM1845=LTDIE_115_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1845
+LDIFF_SYM1847=LTDIE_115_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1847
 	.byte 2,141,24,3
 	.asciz "crashManager"
 
-LDIFF_SYM1846=LTDIE_56_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1846
+LDIFF_SYM1848=LTDIE_56_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1848
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1847=Lfde335_end - Lfde335_start
-	.long LDIFF_SYM1847
+LDIFF_SYM1849=Lfde335_end - Lfde335_start
+	.long LDIFF_SYM1849
 Lfde335_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITHockeyManagerDelegate_Extensions_DidFinishSendingCrashReport_HockeyApp_iOS_IBITHockeyManagerDelegate_HockeyApp_iOS_BITCrashManager
 
-LDIFF_SYM1848=Lme_1ac - HockeyApp_iOS_BITHockeyManagerDelegate_Extensions_DidFinishSendingCrashReport_HockeyApp_iOS_IBITHockeyManagerDelegate_HockeyApp_iOS_BITCrashManager
-	.long LDIFF_SYM1848
+LDIFF_SYM1850=Lme_1ac - HockeyApp_iOS_BITHockeyManagerDelegate_Extensions_DidFinishSendingCrashReport_HockeyApp_iOS_IBITHockeyManagerDelegate_HockeyApp_iOS_BITCrashManager
+	.long LDIFF_SYM1850
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,154,10
 	.align 3
@@ -91068,27 +91342,27 @@ Lfde335_end:
 	.byte 2,118,16,3
 	.asciz "This"
 
-LDIFF_SYM1849=LTDIE_115_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1849
+LDIFF_SYM1851=LTDIE_115_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1851
 	.byte 2,141,24,3
 	.asciz "crashManager"
 
-LDIFF_SYM1850=LTDIE_56_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1850
+LDIFF_SYM1852=LTDIE_56_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1852
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1851=Lfde336_end - Lfde336_start
-	.long LDIFF_SYM1851
+LDIFF_SYM1853=Lfde336_end - Lfde336_start
+	.long LDIFF_SYM1853
 Lfde336_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITHockeyManagerDelegate_Extensions_ConsiderAppNotTerminatedCleanlyReportForCrashManager_HockeyApp_iOS_IBITHockeyManagerDelegate_HockeyApp_iOS_BITCrashManager
 
-LDIFF_SYM1852=Lme_1ad - HockeyApp_iOS_BITHockeyManagerDelegate_Extensions_ConsiderAppNotTerminatedCleanlyReportForCrashManager_HockeyApp_iOS_IBITHockeyManagerDelegate_HockeyApp_iOS_BITCrashManager
-	.long LDIFF_SYM1852
+LDIFF_SYM1854=Lme_1ad - HockeyApp_iOS_BITHockeyManagerDelegate_Extensions_ConsiderAppNotTerminatedCleanlyReportForCrashManager_HockeyApp_iOS_IBITHockeyManagerDelegate_HockeyApp_iOS_BITCrashManager
+	.long LDIFF_SYM1854
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,154,10
 	.align 3
@@ -91107,37 +91381,37 @@ Lfde336_end:
 	.byte 2,118,16,3
 	.asciz "This"
 
-LDIFF_SYM1853=LTDIE_115_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1853
+LDIFF_SYM1855=LTDIE_115_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1855
 	.byte 2,141,40,3
 	.asciz "updateManager"
 
-LDIFF_SYM1854=LTDIE_61_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1854
+LDIFF_SYM1856=LTDIE_61_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1856
 	.byte 1,104,3
 	.asciz "shortVersion"
 
-LDIFF_SYM1855=LTDIE_29_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1855
+LDIFF_SYM1857=LTDIE_29_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1857
 	.byte 1,105,3
 	.asciz "version"
 
-LDIFF_SYM1856=LTDIE_29_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1856
+LDIFF_SYM1858=LTDIE_29_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1858
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1857=Lfde337_end - Lfde337_start
-	.long LDIFF_SYM1857
+LDIFF_SYM1859=Lfde337_end - Lfde337_start
+	.long LDIFF_SYM1859
 Lfde337_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITHockeyManagerDelegate_Extensions_ShouldDisplayUpdateAlertForUpdateManager_HockeyApp_iOS_IBITHockeyManagerDelegate_HockeyApp_iOS_BITUpdateManager_Foundation_NSString_Foundation_NSString
 
-LDIFF_SYM1858=Lme_1ae - HockeyApp_iOS_BITHockeyManagerDelegate_Extensions_ShouldDisplayUpdateAlertForUpdateManager_HockeyApp_iOS_IBITHockeyManagerDelegate_HockeyApp_iOS_BITUpdateManager_Foundation_NSString_Foundation_NSString
-	.long LDIFF_SYM1858
+LDIFF_SYM1860=Lme_1ae - HockeyApp_iOS_BITHockeyManagerDelegate_Extensions_ShouldDisplayUpdateAlertForUpdateManager_HockeyApp_iOS_IBITHockeyManagerDelegate_HockeyApp_iOS_BITUpdateManager_Foundation_NSString_Foundation_NSString
+	.long LDIFF_SYM1860
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,152,14,153,13,68,154,12
 	.align 3
@@ -91156,27 +91430,27 @@ Lfde337_end:
 	.byte 2,118,16,3
 	.asciz "This"
 
-LDIFF_SYM1859=LTDIE_115_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1859
+LDIFF_SYM1861=LTDIE_115_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1861
 	.byte 2,141,24,3
 	.asciz "updateManager"
 
-LDIFF_SYM1860=LTDIE_61_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1860
+LDIFF_SYM1862=LTDIE_61_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1862
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1861=Lfde338_end - Lfde338_start
-	.long LDIFF_SYM1861
+LDIFF_SYM1863=Lfde338_end - Lfde338_start
+	.long LDIFF_SYM1863
 Lfde338_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITHockeyManagerDelegate_Extensions_ShouldDisplayExpiryAlertForUpdateManager_HockeyApp_iOS_IBITHockeyManagerDelegate_HockeyApp_iOS_BITUpdateManager
 
-LDIFF_SYM1862=Lme_1af - HockeyApp_iOS_BITHockeyManagerDelegate_Extensions_ShouldDisplayExpiryAlertForUpdateManager_HockeyApp_iOS_IBITHockeyManagerDelegate_HockeyApp_iOS_BITUpdateManager
-	.long LDIFF_SYM1862
+LDIFF_SYM1864=Lme_1af - HockeyApp_iOS_BITHockeyManagerDelegate_Extensions_ShouldDisplayExpiryAlertForUpdateManager_HockeyApp_iOS_IBITHockeyManagerDelegate_HockeyApp_iOS_BITUpdateManager
+	.long LDIFF_SYM1864
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,154,10
 	.align 3
@@ -91195,27 +91469,27 @@ Lfde338_end:
 	.byte 2,118,16,3
 	.asciz "This"
 
-LDIFF_SYM1863=LTDIE_115_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1863
+LDIFF_SYM1865=LTDIE_115_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1865
 	.byte 2,141,24,3
 	.asciz "updateManager"
 
-LDIFF_SYM1864=LTDIE_61_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1864
+LDIFF_SYM1866=LTDIE_61_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1866
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1865=Lfde339_end - Lfde339_start
-	.long LDIFF_SYM1865
+LDIFF_SYM1867=Lfde339_end - Lfde339_start
+	.long LDIFF_SYM1867
 Lfde339_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITHockeyManagerDelegate_Extensions_DidDisplayExpiryAlertForUpdateManager_HockeyApp_iOS_IBITHockeyManagerDelegate_HockeyApp_iOS_BITUpdateManager
 
-LDIFF_SYM1866=Lme_1b0 - HockeyApp_iOS_BITHockeyManagerDelegate_Extensions_DidDisplayExpiryAlertForUpdateManager_HockeyApp_iOS_IBITHockeyManagerDelegate_HockeyApp_iOS_BITUpdateManager
-	.long LDIFF_SYM1866
+LDIFF_SYM1868=Lme_1b0 - HockeyApp_iOS_BITHockeyManagerDelegate_Extensions_DidDisplayExpiryAlertForUpdateManager_HockeyApp_iOS_IBITHockeyManagerDelegate_HockeyApp_iOS_BITUpdateManager
+	.long LDIFF_SYM1868
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,154,10
 	.align 3
@@ -91234,27 +91508,27 @@ Lfde339_end:
 	.byte 2,118,16,3
 	.asciz "This"
 
-LDIFF_SYM1867=LTDIE_115_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1867
+LDIFF_SYM1869=LTDIE_115_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1869
 	.byte 2,141,24,3
 	.asciz "updateManager"
 
-LDIFF_SYM1868=LTDIE_61_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1868
+LDIFF_SYM1870=LTDIE_61_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1870
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1869=Lfde340_end - Lfde340_start
-	.long LDIFF_SYM1869
+LDIFF_SYM1871=Lfde340_end - Lfde340_start
+	.long LDIFF_SYM1871
 Lfde340_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITHockeyManagerDelegate_Extensions_UpdateManagerShouldSendUsageData_HockeyApp_iOS_IBITHockeyManagerDelegate_HockeyApp_iOS_BITUpdateManager
 
-LDIFF_SYM1870=Lme_1b1 - HockeyApp_iOS_BITHockeyManagerDelegate_Extensions_UpdateManagerShouldSendUsageData_HockeyApp_iOS_IBITHockeyManagerDelegate_HockeyApp_iOS_BITUpdateManager
-	.long LDIFF_SYM1870
+LDIFF_SYM1872=Lme_1b1 - HockeyApp_iOS_BITHockeyManagerDelegate_Extensions_UpdateManagerShouldSendUsageData_HockeyApp_iOS_IBITHockeyManagerDelegate_HockeyApp_iOS_BITUpdateManager
+	.long LDIFF_SYM1872
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,154,10
 	.align 3
@@ -91273,27 +91547,27 @@ Lfde340_end:
 	.byte 2,118,16,3
 	.asciz "This"
 
-LDIFF_SYM1871=LTDIE_115_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1871
+LDIFF_SYM1873=LTDIE_115_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1873
 	.byte 2,141,24,3
 	.asciz "updateManager"
 
-LDIFF_SYM1872=LTDIE_61_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1872
+LDIFF_SYM1874=LTDIE_61_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1874
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1873=Lfde341_end - Lfde341_start
-	.long LDIFF_SYM1873
+LDIFF_SYM1875=Lfde341_end - Lfde341_start
+	.long LDIFF_SYM1875
 Lfde341_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITHockeyManagerDelegate_Extensions_UpdateManagerWillExitApp_HockeyApp_iOS_IBITHockeyManagerDelegate_HockeyApp_iOS_BITUpdateManager
 
-LDIFF_SYM1874=Lme_1b2 - HockeyApp_iOS_BITHockeyManagerDelegate_Extensions_UpdateManagerWillExitApp_HockeyApp_iOS_IBITHockeyManagerDelegate_HockeyApp_iOS_BITUpdateManager
-	.long LDIFF_SYM1874
+LDIFF_SYM1876=Lme_1b2 - HockeyApp_iOS_BITHockeyManagerDelegate_Extensions_UpdateManagerWillExitApp_HockeyApp_iOS_IBITHockeyManagerDelegate_HockeyApp_iOS_BITUpdateManager
+	.long LDIFF_SYM1876
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,154,10
 	.align 3
@@ -91312,27 +91586,27 @@ Lfde341_end:
 	.byte 2,118,16,3
 	.asciz "This"
 
-LDIFF_SYM1875=LTDIE_115_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1875
+LDIFF_SYM1877=LTDIE_115_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1877
 	.byte 2,141,24,3
 	.asciz "updateManager"
 
-LDIFF_SYM1876=LTDIE_61_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1876
+LDIFF_SYM1878=LTDIE_61_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1878
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1877=Lfde342_end - Lfde342_start
-	.long LDIFF_SYM1877
+LDIFF_SYM1879=Lfde342_end - Lfde342_start
+	.long LDIFF_SYM1879
 Lfde342_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITHockeyManagerDelegate_Extensions_WillStartDownloadAndUpdate_HockeyApp_iOS_IBITHockeyManagerDelegate_HockeyApp_iOS_BITUpdateManager
 
-LDIFF_SYM1878=Lme_1b3 - HockeyApp_iOS_BITHockeyManagerDelegate_Extensions_WillStartDownloadAndUpdate_HockeyApp_iOS_IBITHockeyManagerDelegate_HockeyApp_iOS_BITUpdateManager
-	.long LDIFF_SYM1878
+LDIFF_SYM1880=Lme_1b3 - HockeyApp_iOS_BITHockeyManagerDelegate_Extensions_WillStartDownloadAndUpdate_HockeyApp_iOS_IBITHockeyManagerDelegate_HockeyApp_iOS_BITUpdateManager
+	.long LDIFF_SYM1880
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,154,10
 	.align 3
@@ -91351,27 +91625,27 @@ Lfde342_end:
 	.byte 2,118,16,3
 	.asciz "This"
 
-LDIFF_SYM1879=LTDIE_115_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1879
+LDIFF_SYM1881=LTDIE_115_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1881
 	.byte 2,141,24,3
 	.asciz "feedbackManager"
 
-LDIFF_SYM1880=LTDIE_58_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1880
+LDIFF_SYM1882=LTDIE_58_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1882
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1881=Lfde343_end - Lfde343_start
-	.long LDIFF_SYM1881
+LDIFF_SYM1883=Lfde343_end - Lfde343_start
+	.long LDIFF_SYM1883
 Lfde343_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITHockeyManagerDelegate_Extensions_DidReceiveNewFeedback_HockeyApp_iOS_IBITHockeyManagerDelegate_HockeyApp_iOS_BITFeedbackManager
 
-LDIFF_SYM1882=Lme_1b4 - HockeyApp_iOS_BITHockeyManagerDelegate_Extensions_DidReceiveNewFeedback_HockeyApp_iOS_IBITHockeyManagerDelegate_HockeyApp_iOS_BITFeedbackManager
-	.long LDIFF_SYM1882
+LDIFF_SYM1884=Lme_1b4 - HockeyApp_iOS_BITHockeyManagerDelegate_Extensions_DidReceiveNewFeedback_HockeyApp_iOS_IBITHockeyManagerDelegate_HockeyApp_iOS_BITFeedbackManager
+	.long LDIFF_SYM1884
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,154,10
 	.align 3
@@ -91390,27 +91664,27 @@ Lfde343_end:
 	.byte 2,118,16,3
 	.asciz "This"
 
-LDIFF_SYM1883=LTDIE_115_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1883
+LDIFF_SYM1885=LTDIE_115_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1885
 	.byte 2,141,24,3
 	.asciz "feedbackManager"
 
-LDIFF_SYM1884=LTDIE_58_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1884
+LDIFF_SYM1886=LTDIE_58_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1886
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1885=Lfde344_end - Lfde344_start
-	.long LDIFF_SYM1885
+LDIFF_SYM1887=Lfde344_end - Lfde344_start
+	.long LDIFF_SYM1887
 Lfde344_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITHockeyManagerDelegate_Extensions_AllowAutomaticFetching_HockeyApp_iOS_IBITHockeyManagerDelegate_HockeyApp_iOS_BITFeedbackManager
 
-LDIFF_SYM1886=Lme_1b5 - HockeyApp_iOS_BITHockeyManagerDelegate_Extensions_AllowAutomaticFetching_HockeyApp_iOS_IBITHockeyManagerDelegate_HockeyApp_iOS_BITFeedbackManager
-	.long LDIFF_SYM1886
+LDIFF_SYM1888=Lme_1b5 - HockeyApp_iOS_BITHockeyManagerDelegate_Extensions_AllowAutomaticFetching_HockeyApp_iOS_IBITHockeyManagerDelegate_HockeyApp_iOS_BITFeedbackManager
+	.long LDIFF_SYM1888
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,154,10
 	.align 3
@@ -91429,27 +91703,27 @@ Lfde344_end:
 	.byte 2,118,16,3
 	.asciz "This"
 
-LDIFF_SYM1887=LTDIE_115_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1887
+LDIFF_SYM1889=LTDIE_115_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1889
 	.byte 2,141,24,3
 	.asciz "feedbackManager"
 
-LDIFF_SYM1888=LTDIE_58_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1888
+LDIFF_SYM1890=LTDIE_58_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1890
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1889=Lfde345_end - Lfde345_start
-	.long LDIFF_SYM1889
+LDIFF_SYM1891=Lfde345_end - Lfde345_start
+	.long LDIFF_SYM1891
 Lfde345_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITHockeyManagerDelegate_Extensions_PreparedItemsForFeedbackManager_HockeyApp_iOS_IBITHockeyManagerDelegate_HockeyApp_iOS_BITFeedbackManager
 
-LDIFF_SYM1890=Lme_1b6 - HockeyApp_iOS_BITHockeyManagerDelegate_Extensions_PreparedItemsForFeedbackManager_HockeyApp_iOS_IBITHockeyManagerDelegate_HockeyApp_iOS_BITFeedbackManager
-	.long LDIFF_SYM1890
+LDIFF_SYM1892=Lme_1b6 - HockeyApp_iOS_BITHockeyManagerDelegate_Extensions_PreparedItemsForFeedbackManager_HockeyApp_iOS_IBITHockeyManagerDelegate_HockeyApp_iOS_BITFeedbackManager
+	.long LDIFF_SYM1892
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,154,12
 	.align 3
@@ -91468,27 +91742,27 @@ Lfde345_end:
 	.byte 2,118,16,3
 	.asciz "This"
 
-LDIFF_SYM1891=LTDIE_115_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1891
+LDIFF_SYM1893=LTDIE_115_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1893
 	.byte 2,141,24,3
 	.asciz "feedbackManager"
 
-LDIFF_SYM1892=LTDIE_58_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1892
+LDIFF_SYM1894=LTDIE_58_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1894
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1893=Lfde346_end - Lfde346_start
-	.long LDIFF_SYM1893
+LDIFF_SYM1895=Lfde346_end - Lfde346_start
+	.long LDIFF_SYM1895
 Lfde346_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITHockeyManagerDelegate_Extensions_ForceNewFeedbackThreadForFeedbackManager_HockeyApp_iOS_IBITHockeyManagerDelegate_HockeyApp_iOS_BITFeedbackManager
 
-LDIFF_SYM1894=Lme_1b7 - HockeyApp_iOS_BITHockeyManagerDelegate_Extensions_ForceNewFeedbackThreadForFeedbackManager_HockeyApp_iOS_IBITHockeyManagerDelegate_HockeyApp_iOS_BITFeedbackManager
-	.long LDIFF_SYM1894
+LDIFF_SYM1896=Lme_1b7 - HockeyApp_iOS_BITHockeyManagerDelegate_Extensions_ForceNewFeedbackThreadForFeedbackManager_HockeyApp_iOS_IBITHockeyManagerDelegate_HockeyApp_iOS_BITFeedbackManager
+	.long LDIFF_SYM1896
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,154,10
 	.align 3
@@ -91507,32 +91781,32 @@ Lfde346_end:
 	.byte 2,118,16,3
 	.asciz "This"
 
-LDIFF_SYM1895=LTDIE_115_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1895
+LDIFF_SYM1897=LTDIE_115_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1897
 	.byte 2,141,32,3
 	.asciz "authenticator"
 
-LDIFF_SYM1896=LTDIE_54_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1896
+LDIFF_SYM1898=LTDIE_54_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1898
 	.byte 1,105,3
 	.asciz "viewController"
 
-LDIFF_SYM1897=LTDIE_72_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1897
+LDIFF_SYM1899=LTDIE_72_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1899
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1898=Lfde347_end - Lfde347_start
-	.long LDIFF_SYM1898
+LDIFF_SYM1900=Lfde347_end - Lfde347_start
+	.long LDIFF_SYM1900
 Lfde347_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITHockeyManagerDelegate_Extensions_WillShowAuthenticationController_HockeyApp_iOS_IBITHockeyManagerDelegate_HockeyApp_iOS_BITAuthenticator_UIKit_UIViewController
 
-LDIFF_SYM1899=Lme_1b8 - HockeyApp_iOS_BITHockeyManagerDelegate_Extensions_WillShowAuthenticationController_HockeyApp_iOS_IBITHockeyManagerDelegate_HockeyApp_iOS_BITAuthenticator_UIKit_UIViewController
-	.long LDIFF_SYM1899
+LDIFF_SYM1901=Lme_1b8 - HockeyApp_iOS_BITHockeyManagerDelegate_Extensions_WillShowAuthenticationController_HockeyApp_iOS_IBITHockeyManagerDelegate_HockeyApp_iOS_BITAuthenticator_UIKit_UIViewController
+	.long LDIFF_SYM1901
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,154,9
 	.align 3
@@ -91545,23 +91819,23 @@ LTDIE_116:
 	.asciz "HockeyApp_iOS_BITHockeyManagerDelegateWrapper"
 
 	.byte 24,16
-LDIFF_SYM1900=LTDIE_75 - Ldebug_info_start
-	.long LDIFF_SYM1900
+LDIFF_SYM1902=LTDIE_75 - Ldebug_info_start
+	.long LDIFF_SYM1902
 	.byte 2,35,0,0,7
 	.asciz "HockeyApp_iOS_BITHockeyManagerDelegateWrapper"
 
-LDIFF_SYM1901=LTDIE_116 - Ldebug_info_start
-	.long LDIFF_SYM1901
+LDIFF_SYM1903=LTDIE_116 - Ldebug_info_start
+	.long LDIFF_SYM1903
 LTDIE_116_POINTER:
 
 	.byte 13
-LDIFF_SYM1902=LTDIE_116 - Ldebug_info_start
-	.long LDIFF_SYM1902
+LDIFF_SYM1904=LTDIE_116 - Ldebug_info_start
+	.long LDIFF_SYM1904
 LTDIE_116_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1903=LTDIE_116 - Ldebug_info_start
-	.long LDIFF_SYM1903
+LDIFF_SYM1905=LTDIE_116 - Ldebug_info_start
+	.long LDIFF_SYM1905
 	.byte 2
 	.asciz "HockeyApp.iOS.BITHockeyManagerDelegateWrapper:.ctor"
 	.asciz "HockeyApp_iOS_BITHockeyManagerDelegateWrapper__ctor_intptr_bool"
@@ -91573,32 +91847,32 @@ LDIFF_SYM1903=LTDIE_116 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1904=LTDIE_116_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1904
+LDIFF_SYM1906=LTDIE_116_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1906
 	.byte 2,141,16,3
 	.asciz "handle"
 
-LDIFF_SYM1905=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1905
+LDIFF_SYM1907=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1907
 	.byte 2,141,24,3
 	.asciz "owns"
 
-LDIFF_SYM1906=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1906
+LDIFF_SYM1908=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1908
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1907=Lfde348_end - Lfde348_start
-	.long LDIFF_SYM1907
+LDIFF_SYM1909=Lfde348_end - Lfde348_start
+	.long LDIFF_SYM1909
 Lfde348_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITHockeyManagerDelegateWrapper__ctor_intptr_bool
 
-LDIFF_SYM1908=Lme_1b9 - HockeyApp_iOS_BITHockeyManagerDelegateWrapper__ctor_intptr_bool
-	.long LDIFF_SYM1908
+LDIFF_SYM1910=Lme_1b9 - HockeyApp_iOS_BITHockeyManagerDelegateWrapper__ctor_intptr_bool
+	.long LDIFF_SYM1910
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -91617,22 +91891,22 @@ Lfde348_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1909=LTDIE_57_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1909
+LDIFF_SYM1911=LTDIE_57_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1911
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1910=Lfde349_end - Lfde349_start
-	.long LDIFF_SYM1910
+LDIFF_SYM1912=Lfde349_end - Lfde349_start
+	.long LDIFF_SYM1912
 Lfde349_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITHockeyManagerDelegate__ctor
 
-LDIFF_SYM1911=Lme_1ba - HockeyApp_iOS_BITHockeyManagerDelegate__ctor
-	.long LDIFF_SYM1911
+LDIFF_SYM1913=Lme_1ba - HockeyApp_iOS_BITHockeyManagerDelegate__ctor
+	.long LDIFF_SYM1913
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
@@ -91651,27 +91925,27 @@ Lfde349_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1912=LTDIE_57_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1912
+LDIFF_SYM1914=LTDIE_57_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1914
 	.byte 1,105,3
 	.asciz "t"
 
-LDIFF_SYM1913=LTDIE_52_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1913
+LDIFF_SYM1915=LTDIE_52_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1915
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1914=Lfde350_end - Lfde350_start
-	.long LDIFF_SYM1914
+LDIFF_SYM1916=Lfde350_end - Lfde350_start
+	.long LDIFF_SYM1916
 Lfde350_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITHockeyManagerDelegate__ctor_Foundation_NSObjectFlag
 
-LDIFF_SYM1915=Lme_1bb - HockeyApp_iOS_BITHockeyManagerDelegate__ctor_Foundation_NSObjectFlag
-	.long LDIFF_SYM1915
+LDIFF_SYM1917=Lme_1bb - HockeyApp_iOS_BITHockeyManagerDelegate__ctor_Foundation_NSObjectFlag
+	.long LDIFF_SYM1917
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10
 	.align 3
@@ -91690,27 +91964,27 @@ Lfde350_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1916=LTDIE_57_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1916
+LDIFF_SYM1918=LTDIE_57_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1918
 	.byte 1,105,3
 	.asciz "handle"
 
-LDIFF_SYM1917=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1917
+LDIFF_SYM1919=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1919
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1918=Lfde351_end - Lfde351_start
-	.long LDIFF_SYM1918
+LDIFF_SYM1920=Lfde351_end - Lfde351_start
+	.long LDIFF_SYM1920
 Lfde351_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITHockeyManagerDelegate__ctor_intptr
 
-LDIFF_SYM1919=Lme_1bc - HockeyApp_iOS_BITHockeyManagerDelegate__ctor_intptr
-	.long LDIFF_SYM1919
+LDIFF_SYM1921=Lme_1bc - HockeyApp_iOS_BITHockeyManagerDelegate__ctor_intptr
+	.long LDIFF_SYM1921
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10
 	.align 3
@@ -91729,27 +92003,27 @@ Lfde351_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1920=LTDIE_57_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1920
+LDIFF_SYM1922=LTDIE_57_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1922
 	.byte 2,141,16,3
 	.asciz "feedbackManager"
 
-LDIFF_SYM1921=LTDIE_58_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1921
+LDIFF_SYM1923=LTDIE_58_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1923
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1922=Lfde352_end - Lfde352_start
-	.long LDIFF_SYM1922
+LDIFF_SYM1924=Lfde352_end - Lfde352_start
+	.long LDIFF_SYM1924
 Lfde352_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITHockeyManagerDelegate_AllowAutomaticFetching_HockeyApp_iOS_BITFeedbackManager
 
-LDIFF_SYM1923=Lme_1bd - HockeyApp_iOS_BITHockeyManagerDelegate_AllowAutomaticFetching_HockeyApp_iOS_BITFeedbackManager
-	.long LDIFF_SYM1923
+LDIFF_SYM1925=Lme_1bd - HockeyApp_iOS_BITHockeyManagerDelegate_AllowAutomaticFetching_HockeyApp_iOS_BITFeedbackManager
+	.long LDIFF_SYM1925
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
@@ -91768,27 +92042,27 @@ Lfde352_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1924=LTDIE_57_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1924
+LDIFF_SYM1926=LTDIE_57_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1926
 	.byte 2,141,16,3
 	.asciz "crashManager"
 
-LDIFF_SYM1925=LTDIE_56_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1925
+LDIFF_SYM1927=LTDIE_56_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1927
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1926=Lfde353_end - Lfde353_start
-	.long LDIFF_SYM1926
+LDIFF_SYM1928=Lfde353_end - Lfde353_start
+	.long LDIFF_SYM1928
 Lfde353_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITHockeyManagerDelegate_ApplicationLogForCrashManager_HockeyApp_iOS_BITCrashManager
 
-LDIFF_SYM1927=Lme_1be - HockeyApp_iOS_BITHockeyManagerDelegate_ApplicationLogForCrashManager_HockeyApp_iOS_BITCrashManager
-	.long LDIFF_SYM1927
+LDIFF_SYM1929=Lme_1be - HockeyApp_iOS_BITHockeyManagerDelegate_ApplicationLogForCrashManager_HockeyApp_iOS_BITCrashManager
+	.long LDIFF_SYM1929
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
@@ -91807,27 +92081,27 @@ Lfde353_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1928=LTDIE_57_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1928
+LDIFF_SYM1930=LTDIE_57_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1930
 	.byte 2,141,16,3
 	.asciz "crashManager"
 
-LDIFF_SYM1929=LTDIE_56_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1929
+LDIFF_SYM1931=LTDIE_56_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1931
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1930=Lfde354_end - Lfde354_start
-	.long LDIFF_SYM1930
+LDIFF_SYM1932=Lfde354_end - Lfde354_start
+	.long LDIFF_SYM1932
 Lfde354_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITHockeyManagerDelegate_AttachmentForCrashManager_HockeyApp_iOS_BITCrashManager
 
-LDIFF_SYM1931=Lme_1bf - HockeyApp_iOS_BITHockeyManagerDelegate_AttachmentForCrashManager_HockeyApp_iOS_BITCrashManager
-	.long LDIFF_SYM1931
+LDIFF_SYM1933=Lme_1bf - HockeyApp_iOS_BITHockeyManagerDelegate_AttachmentForCrashManager_HockeyApp_iOS_BITCrashManager
+	.long LDIFF_SYM1933
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
@@ -91846,27 +92120,27 @@ Lfde354_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1932=LTDIE_57_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1932
+LDIFF_SYM1934=LTDIE_57_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1934
 	.byte 2,141,16,3
 	.asciz "crashManager"
 
-LDIFF_SYM1933=LTDIE_56_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1933
+LDIFF_SYM1935=LTDIE_56_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1935
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1934=Lfde355_end - Lfde355_start
-	.long LDIFF_SYM1934
+LDIFF_SYM1936=Lfde355_end - Lfde355_start
+	.long LDIFF_SYM1936
 Lfde355_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITHockeyManagerDelegate_ConsiderAppNotTerminatedCleanlyReportForCrashManager_HockeyApp_iOS_BITCrashManager
 
-LDIFF_SYM1935=Lme_1c0 - HockeyApp_iOS_BITHockeyManagerDelegate_ConsiderAppNotTerminatedCleanlyReportForCrashManager_HockeyApp_iOS_BITCrashManager
-	.long LDIFF_SYM1935
+LDIFF_SYM1937=Lme_1c0 - HockeyApp_iOS_BITHockeyManagerDelegate_ConsiderAppNotTerminatedCleanlyReportForCrashManager_HockeyApp_iOS_BITCrashManager
+	.long LDIFF_SYM1937
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
@@ -91885,27 +92159,27 @@ Lfde355_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1936=LTDIE_57_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1936
+LDIFF_SYM1938=LTDIE_57_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1938
 	.byte 2,141,16,3
 	.asciz "updateManager"
 
-LDIFF_SYM1937=LTDIE_61_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1937
+LDIFF_SYM1939=LTDIE_61_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1939
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1938=Lfde356_end - Lfde356_start
-	.long LDIFF_SYM1938
+LDIFF_SYM1940=Lfde356_end - Lfde356_start
+	.long LDIFF_SYM1940
 Lfde356_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITHockeyManagerDelegate_DidDisplayExpiryAlertForUpdateManager_HockeyApp_iOS_BITUpdateManager
 
-LDIFF_SYM1939=Lme_1c1 - HockeyApp_iOS_BITHockeyManagerDelegate_DidDisplayExpiryAlertForUpdateManager_HockeyApp_iOS_BITUpdateManager
-	.long LDIFF_SYM1939
+LDIFF_SYM1941=Lme_1c1 - HockeyApp_iOS_BITHockeyManagerDelegate_DidDisplayExpiryAlertForUpdateManager_HockeyApp_iOS_BITUpdateManager
+	.long LDIFF_SYM1941
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
@@ -91924,32 +92198,32 @@ Lfde356_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1940=LTDIE_57_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1940
+LDIFF_SYM1942=LTDIE_57_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1942
 	.byte 2,141,16,3
 	.asciz "crashManager"
 
-LDIFF_SYM1941=LTDIE_56_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1941
+LDIFF_SYM1943=LTDIE_56_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1943
 	.byte 2,141,24,3
 	.asciz "error"
 
-LDIFF_SYM1942=LTDIE_14_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1942
+LDIFF_SYM1944=LTDIE_14_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1944
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1943=Lfde357_end - Lfde357_start
-	.long LDIFF_SYM1943
+LDIFF_SYM1945=Lfde357_end - Lfde357_start
+	.long LDIFF_SYM1945
 Lfde357_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITHockeyManagerDelegate_DidFailWithError_HockeyApp_iOS_BITCrashManager_Foundation_NSError
 
-LDIFF_SYM1944=Lme_1c2 - HockeyApp_iOS_BITHockeyManagerDelegate_DidFailWithError_HockeyApp_iOS_BITCrashManager_Foundation_NSError
-	.long LDIFF_SYM1944
+LDIFF_SYM1946=Lme_1c2 - HockeyApp_iOS_BITHockeyManagerDelegate_DidFailWithError_HockeyApp_iOS_BITCrashManager_Foundation_NSError
+	.long LDIFF_SYM1946
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
@@ -91968,27 +92242,27 @@ Lfde357_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1945=LTDIE_57_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1945
+LDIFF_SYM1947=LTDIE_57_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1947
 	.byte 2,141,16,3
 	.asciz "crashManager"
 
-LDIFF_SYM1946=LTDIE_56_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1946
+LDIFF_SYM1948=LTDIE_56_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1948
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1947=Lfde358_end - Lfde358_start
-	.long LDIFF_SYM1947
+LDIFF_SYM1949=Lfde358_end - Lfde358_start
+	.long LDIFF_SYM1949
 Lfde358_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITHockeyManagerDelegate_DidFinishSendingCrashReport_HockeyApp_iOS_BITCrashManager
 
-LDIFF_SYM1948=Lme_1c3 - HockeyApp_iOS_BITHockeyManagerDelegate_DidFinishSendingCrashReport_HockeyApp_iOS_BITCrashManager
-	.long LDIFF_SYM1948
+LDIFF_SYM1950=Lme_1c3 - HockeyApp_iOS_BITHockeyManagerDelegate_DidFinishSendingCrashReport_HockeyApp_iOS_BITCrashManager
+	.long LDIFF_SYM1950
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
@@ -92007,27 +92281,27 @@ Lfde358_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1949=LTDIE_57_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1949
+LDIFF_SYM1951=LTDIE_57_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1951
 	.byte 2,141,16,3
 	.asciz "feedbackManager"
 
-LDIFF_SYM1950=LTDIE_58_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1950
+LDIFF_SYM1952=LTDIE_58_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1952
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1951=Lfde359_end - Lfde359_start
-	.long LDIFF_SYM1951
+LDIFF_SYM1953=Lfde359_end - Lfde359_start
+	.long LDIFF_SYM1953
 Lfde359_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITHockeyManagerDelegate_DidReceiveNewFeedback_HockeyApp_iOS_BITFeedbackManager
 
-LDIFF_SYM1952=Lme_1c4 - HockeyApp_iOS_BITHockeyManagerDelegate_DidReceiveNewFeedback_HockeyApp_iOS_BITFeedbackManager
-	.long LDIFF_SYM1952
+LDIFF_SYM1954=Lme_1c4 - HockeyApp_iOS_BITHockeyManagerDelegate_DidReceiveNewFeedback_HockeyApp_iOS_BITFeedbackManager
+	.long LDIFF_SYM1954
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
@@ -92046,27 +92320,27 @@ Lfde359_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1953=LTDIE_57_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1953
+LDIFF_SYM1955=LTDIE_57_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1955
 	.byte 2,141,16,3
 	.asciz "feedbackManager"
 
-LDIFF_SYM1954=LTDIE_58_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1954
+LDIFF_SYM1956=LTDIE_58_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1956
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1955=Lfde360_end - Lfde360_start
-	.long LDIFF_SYM1955
+LDIFF_SYM1957=Lfde360_end - Lfde360_start
+	.long LDIFF_SYM1957
 Lfde360_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITHockeyManagerDelegate_ForceNewFeedbackThreadForFeedbackManager_HockeyApp_iOS_BITFeedbackManager
 
-LDIFF_SYM1956=Lme_1c5 - HockeyApp_iOS_BITHockeyManagerDelegate_ForceNewFeedbackThreadForFeedbackManager_HockeyApp_iOS_BITFeedbackManager
-	.long LDIFF_SYM1956
+LDIFF_SYM1958=Lme_1c5 - HockeyApp_iOS_BITHockeyManagerDelegate_ForceNewFeedbackThreadForFeedbackManager_HockeyApp_iOS_BITFeedbackManager
+	.long LDIFF_SYM1958
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
@@ -92085,27 +92359,27 @@ Lfde360_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1957=LTDIE_57_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1957
+LDIFF_SYM1959=LTDIE_57_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1959
 	.byte 2,141,16,3
 	.asciz "feedbackManager"
 
-LDIFF_SYM1958=LTDIE_58_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1958
+LDIFF_SYM1960=LTDIE_58_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1960
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1959=Lfde361_end - Lfde361_start
-	.long LDIFF_SYM1959
+LDIFF_SYM1961=Lfde361_end - Lfde361_start
+	.long LDIFF_SYM1961
 Lfde361_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITHockeyManagerDelegate_PreparedItemsForFeedbackManager_HockeyApp_iOS_BITFeedbackManager
 
-LDIFF_SYM1960=Lme_1c6 - HockeyApp_iOS_BITHockeyManagerDelegate_PreparedItemsForFeedbackManager_HockeyApp_iOS_BITFeedbackManager
-	.long LDIFF_SYM1960
+LDIFF_SYM1962=Lme_1c6 - HockeyApp_iOS_BITHockeyManagerDelegate_PreparedItemsForFeedbackManager_HockeyApp_iOS_BITFeedbackManager
+	.long LDIFF_SYM1962
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
@@ -92124,27 +92398,27 @@ Lfde361_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1961=LTDIE_57_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1961
+LDIFF_SYM1963=LTDIE_57_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1963
 	.byte 2,141,16,3
 	.asciz "updateManager"
 
-LDIFF_SYM1962=LTDIE_61_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1962
+LDIFF_SYM1964=LTDIE_61_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1964
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1963=Lfde362_end - Lfde362_start
-	.long LDIFF_SYM1963
+LDIFF_SYM1965=Lfde362_end - Lfde362_start
+	.long LDIFF_SYM1965
 Lfde362_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITHockeyManagerDelegate_ShouldDisplayExpiryAlertForUpdateManager_HockeyApp_iOS_BITUpdateManager
 
-LDIFF_SYM1964=Lme_1c7 - HockeyApp_iOS_BITHockeyManagerDelegate_ShouldDisplayExpiryAlertForUpdateManager_HockeyApp_iOS_BITUpdateManager
-	.long LDIFF_SYM1964
+LDIFF_SYM1966=Lme_1c7 - HockeyApp_iOS_BITHockeyManagerDelegate_ShouldDisplayExpiryAlertForUpdateManager_HockeyApp_iOS_BITUpdateManager
+	.long LDIFF_SYM1966
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
@@ -92163,37 +92437,37 @@ Lfde362_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1965=LTDIE_57_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1965
+LDIFF_SYM1967=LTDIE_57_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1967
 	.byte 2,141,16,3
 	.asciz "updateManager"
 
-LDIFF_SYM1966=LTDIE_61_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1966
+LDIFF_SYM1968=LTDIE_61_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1968
 	.byte 2,141,24,3
 	.asciz "shortVersion"
 
-LDIFF_SYM1967=LTDIE_29_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1967
+LDIFF_SYM1969=LTDIE_29_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1969
 	.byte 2,141,32,3
 	.asciz "version"
 
-LDIFF_SYM1968=LTDIE_29_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1968
+LDIFF_SYM1970=LTDIE_29_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1970
 	.byte 2,141,40,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1969=Lfde363_end - Lfde363_start
-	.long LDIFF_SYM1969
+LDIFF_SYM1971=Lfde363_end - Lfde363_start
+	.long LDIFF_SYM1971
 Lfde363_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITHockeyManagerDelegate_ShouldDisplayUpdateAlertForUpdateManager_HockeyApp_iOS_BITUpdateManager_Foundation_NSString_Foundation_NSString
 
-LDIFF_SYM1970=Lme_1c8 - HockeyApp_iOS_BITHockeyManagerDelegate_ShouldDisplayUpdateAlertForUpdateManager_HockeyApp_iOS_BITUpdateManager_Foundation_NSString_Foundation_NSString
-	.long LDIFF_SYM1970
+LDIFF_SYM1972=Lme_1c8 - HockeyApp_iOS_BITHockeyManagerDelegate_ShouldDisplayUpdateAlertForUpdateManager_HockeyApp_iOS_BITUpdateManager_Foundation_NSString_Foundation_NSString
+	.long LDIFF_SYM1972
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29
 	.align 3
@@ -92212,27 +92486,27 @@ Lfde363_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1971=LTDIE_57_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1971
+LDIFF_SYM1973=LTDIE_57_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1973
 	.byte 2,141,16,3
 	.asciz "manager"
 
-LDIFF_SYM1972=LTDIE_32_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1972
+LDIFF_SYM1974=LTDIE_32_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1974
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1973=Lfde364_end - Lfde364_start
-	.long LDIFF_SYM1973
+LDIFF_SYM1975=Lfde364_end - Lfde364_start
+	.long LDIFF_SYM1975
 Lfde364_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITHockeyManagerDelegate_ShouldUseLiveIdentifierForHockeyManager_HockeyApp_iOS_BITHockeyManager
 
-LDIFF_SYM1974=Lme_1c9 - HockeyApp_iOS_BITHockeyManagerDelegate_ShouldUseLiveIdentifierForHockeyManager_HockeyApp_iOS_BITHockeyManager
-	.long LDIFF_SYM1974
+LDIFF_SYM1976=Lme_1c9 - HockeyApp_iOS_BITHockeyManagerDelegate_ShouldUseLiveIdentifierForHockeyManager_HockeyApp_iOS_BITHockeyManager
+	.long LDIFF_SYM1976
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
@@ -92251,27 +92525,27 @@ Lfde364_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1975=LTDIE_57_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1975
+LDIFF_SYM1977=LTDIE_57_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1977
 	.byte 2,141,16,3
 	.asciz "updateManager"
 
-LDIFF_SYM1976=LTDIE_61_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1976
+LDIFF_SYM1978=LTDIE_61_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1978
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1977=Lfde365_end - Lfde365_start
-	.long LDIFF_SYM1977
+LDIFF_SYM1979=Lfde365_end - Lfde365_start
+	.long LDIFF_SYM1979
 Lfde365_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITHockeyManagerDelegate_UpdateManagerShouldSendUsageData_HockeyApp_iOS_BITUpdateManager
 
-LDIFF_SYM1978=Lme_1ca - HockeyApp_iOS_BITHockeyManagerDelegate_UpdateManagerShouldSendUsageData_HockeyApp_iOS_BITUpdateManager
-	.long LDIFF_SYM1978
+LDIFF_SYM1980=Lme_1ca - HockeyApp_iOS_BITHockeyManagerDelegate_UpdateManagerShouldSendUsageData_HockeyApp_iOS_BITUpdateManager
+	.long LDIFF_SYM1980
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
@@ -92290,27 +92564,27 @@ Lfde365_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1979=LTDIE_57_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1979
+LDIFF_SYM1981=LTDIE_57_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1981
 	.byte 2,141,16,3
 	.asciz "updateManager"
 
-LDIFF_SYM1980=LTDIE_61_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1980
+LDIFF_SYM1982=LTDIE_61_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1982
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1981=Lfde366_end - Lfde366_start
-	.long LDIFF_SYM1981
+LDIFF_SYM1983=Lfde366_end - Lfde366_start
+	.long LDIFF_SYM1983
 Lfde366_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITHockeyManagerDelegate_UpdateManagerWillExitApp_HockeyApp_iOS_BITUpdateManager
 
-LDIFF_SYM1982=Lme_1cb - HockeyApp_iOS_BITHockeyManagerDelegate_UpdateManagerWillExitApp_HockeyApp_iOS_BITUpdateManager
-	.long LDIFF_SYM1982
+LDIFF_SYM1984=Lme_1cb - HockeyApp_iOS_BITHockeyManagerDelegate_UpdateManagerWillExitApp_HockeyApp_iOS_BITUpdateManager
+	.long LDIFF_SYM1984
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
@@ -92329,32 +92603,32 @@ Lfde366_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1983=LTDIE_57_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1983
+LDIFF_SYM1985=LTDIE_57_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1985
 	.byte 2,141,16,3
 	.asciz "hockeyManager"
 
-LDIFF_SYM1984=LTDIE_32_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1984
+LDIFF_SYM1986=LTDIE_32_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1986
 	.byte 2,141,24,3
 	.asciz "componentManager"
 
-LDIFF_SYM1985=LTDIE_55_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1985
+LDIFF_SYM1987=LTDIE_55_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1987
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1986=Lfde367_end - Lfde367_start
-	.long LDIFF_SYM1986
+LDIFF_SYM1988=Lfde367_end - Lfde367_start
+	.long LDIFF_SYM1988
 Lfde367_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITHockeyManagerDelegate_UserEmailForHockeyManager_HockeyApp_iOS_BITHockeyManager_HockeyApp_iOS_BITHockeyBaseManager
 
-LDIFF_SYM1987=Lme_1cc - HockeyApp_iOS_BITHockeyManagerDelegate_UserEmailForHockeyManager_HockeyApp_iOS_BITHockeyManager_HockeyApp_iOS_BITHockeyBaseManager
-	.long LDIFF_SYM1987
+LDIFF_SYM1989=Lme_1cc - HockeyApp_iOS_BITHockeyManagerDelegate_UserEmailForHockeyManager_HockeyApp_iOS_BITHockeyManager_HockeyApp_iOS_BITHockeyBaseManager
+	.long LDIFF_SYM1989
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
@@ -92373,32 +92647,32 @@ Lfde367_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1988=LTDIE_57_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1988
+LDIFF_SYM1990=LTDIE_57_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1990
 	.byte 2,141,16,3
 	.asciz "hockeyManager"
 
-LDIFF_SYM1989=LTDIE_32_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1989
+LDIFF_SYM1991=LTDIE_32_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1991
 	.byte 2,141,24,3
 	.asciz "componentManager"
 
-LDIFF_SYM1990=LTDIE_55_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1990
+LDIFF_SYM1992=LTDIE_55_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1992
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1991=Lfde368_end - Lfde368_start
-	.long LDIFF_SYM1991
+LDIFF_SYM1993=Lfde368_end - Lfde368_start
+	.long LDIFF_SYM1993
 Lfde368_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITHockeyManagerDelegate_UserIdForHockeyManager_HockeyApp_iOS_BITHockeyManager_HockeyApp_iOS_BITHockeyBaseManager
 
-LDIFF_SYM1992=Lme_1cd - HockeyApp_iOS_BITHockeyManagerDelegate_UserIdForHockeyManager_HockeyApp_iOS_BITHockeyManager_HockeyApp_iOS_BITHockeyBaseManager
-	.long LDIFF_SYM1992
+LDIFF_SYM1994=Lme_1cd - HockeyApp_iOS_BITHockeyManagerDelegate_UserIdForHockeyManager_HockeyApp_iOS_BITHockeyManager_HockeyApp_iOS_BITHockeyBaseManager
+	.long LDIFF_SYM1994
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
@@ -92417,32 +92691,32 @@ Lfde368_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1993=LTDIE_57_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1993
+LDIFF_SYM1995=LTDIE_57_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1995
 	.byte 2,141,16,3
 	.asciz "hockeyManager"
 
-LDIFF_SYM1994=LTDIE_32_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1994
+LDIFF_SYM1996=LTDIE_32_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1996
 	.byte 2,141,24,3
 	.asciz "componentManager"
 
-LDIFF_SYM1995=LTDIE_55_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1995
+LDIFF_SYM1997=LTDIE_55_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1997
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1996=Lfde369_end - Lfde369_start
-	.long LDIFF_SYM1996
+LDIFF_SYM1998=Lfde369_end - Lfde369_start
+	.long LDIFF_SYM1998
 Lfde369_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITHockeyManagerDelegate_UserNameForHockeyManager_HockeyApp_iOS_BITHockeyManager_HockeyApp_iOS_BITHockeyBaseManager
 
-LDIFF_SYM1997=Lme_1ce - HockeyApp_iOS_BITHockeyManagerDelegate_UserNameForHockeyManager_HockeyApp_iOS_BITHockeyManager_HockeyApp_iOS_BITHockeyBaseManager
-	.long LDIFF_SYM1997
+LDIFF_SYM1999=Lme_1ce - HockeyApp_iOS_BITHockeyManagerDelegate_UserNameForHockeyManager_HockeyApp_iOS_BITHockeyManager_HockeyApp_iOS_BITHockeyBaseManager
+	.long LDIFF_SYM1999
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
@@ -92461,32 +92735,32 @@ Lfde369_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1998=LTDIE_57_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1998
+LDIFF_SYM2000=LTDIE_57_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2000
 	.byte 2,141,16,3
 	.asciz "hockeyManager"
 
-LDIFF_SYM1999=LTDIE_32_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1999
+LDIFF_SYM2001=LTDIE_32_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2001
 	.byte 2,141,24,3
 	.asciz "componentManager"
 
-LDIFF_SYM2000=LTDIE_55_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2000
+LDIFF_SYM2002=LTDIE_55_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2002
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2001=Lfde370_end - Lfde370_start
-	.long LDIFF_SYM2001
+LDIFF_SYM2003=Lfde370_end - Lfde370_start
+	.long LDIFF_SYM2003
 Lfde370_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITHockeyManagerDelegate_ViewControllerForHockeyManager_HockeyApp_iOS_BITHockeyManager_HockeyApp_iOS_BITHockeyBaseManager
 
-LDIFF_SYM2002=Lme_1cf - HockeyApp_iOS_BITHockeyManagerDelegate_ViewControllerForHockeyManager_HockeyApp_iOS_BITHockeyManager_HockeyApp_iOS_BITHockeyBaseManager
-	.long LDIFF_SYM2002
+LDIFF_SYM2004=Lme_1cf - HockeyApp_iOS_BITHockeyManagerDelegate_ViewControllerForHockeyManager_HockeyApp_iOS_BITHockeyManager_HockeyApp_iOS_BITHockeyBaseManager
+	.long LDIFF_SYM2004
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
@@ -92505,27 +92779,27 @@ Lfde370_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2003=LTDIE_57_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2003
+LDIFF_SYM2005=LTDIE_57_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2005
 	.byte 2,141,16,3
 	.asciz "crashManager"
 
-LDIFF_SYM2004=LTDIE_56_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2004
+LDIFF_SYM2006=LTDIE_56_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2006
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2005=Lfde371_end - Lfde371_start
-	.long LDIFF_SYM2005
+LDIFF_SYM2007=Lfde371_end - Lfde371_start
+	.long LDIFF_SYM2007
 Lfde371_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITHockeyManagerDelegate_WillCancelSendingCrashReport_HockeyApp_iOS_BITCrashManager
 
-LDIFF_SYM2006=Lme_1d0 - HockeyApp_iOS_BITHockeyManagerDelegate_WillCancelSendingCrashReport_HockeyApp_iOS_BITCrashManager
-	.long LDIFF_SYM2006
+LDIFF_SYM2008=Lme_1d0 - HockeyApp_iOS_BITHockeyManagerDelegate_WillCancelSendingCrashReport_HockeyApp_iOS_BITCrashManager
+	.long LDIFF_SYM2008
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
@@ -92544,27 +92818,27 @@ Lfde371_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2007=LTDIE_57_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2007
+LDIFF_SYM2009=LTDIE_57_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2009
 	.byte 2,141,16,3
 	.asciz "crashManager"
 
-LDIFF_SYM2008=LTDIE_56_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2008
+LDIFF_SYM2010=LTDIE_56_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2010
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2009=Lfde372_end - Lfde372_start
-	.long LDIFF_SYM2009
+LDIFF_SYM2011=Lfde372_end - Lfde372_start
+	.long LDIFF_SYM2011
 Lfde372_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITHockeyManagerDelegate_WillSendCrashReport_HockeyApp_iOS_BITCrashManager
 
-LDIFF_SYM2010=Lme_1d1 - HockeyApp_iOS_BITHockeyManagerDelegate_WillSendCrashReport_HockeyApp_iOS_BITCrashManager
-	.long LDIFF_SYM2010
+LDIFF_SYM2012=Lme_1d1 - HockeyApp_iOS_BITHockeyManagerDelegate_WillSendCrashReport_HockeyApp_iOS_BITCrashManager
+	.long LDIFF_SYM2012
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
@@ -92583,27 +92857,27 @@ Lfde372_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2011=LTDIE_57_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2011
+LDIFF_SYM2013=LTDIE_57_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2013
 	.byte 2,141,16,3
 	.asciz "crashManager"
 
-LDIFF_SYM2012=LTDIE_56_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2012
+LDIFF_SYM2014=LTDIE_56_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2014
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2013=Lfde373_end - Lfde373_start
-	.long LDIFF_SYM2013
+LDIFF_SYM2015=Lfde373_end - Lfde373_start
+	.long LDIFF_SYM2015
 Lfde373_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITHockeyManagerDelegate_WillSendCrashReportsAlways_HockeyApp_iOS_BITCrashManager
 
-LDIFF_SYM2014=Lme_1d2 - HockeyApp_iOS_BITHockeyManagerDelegate_WillSendCrashReportsAlways_HockeyApp_iOS_BITCrashManager
-	.long LDIFF_SYM2014
+LDIFF_SYM2016=Lme_1d2 - HockeyApp_iOS_BITHockeyManagerDelegate_WillSendCrashReportsAlways_HockeyApp_iOS_BITCrashManager
+	.long LDIFF_SYM2016
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
@@ -92622,32 +92896,32 @@ Lfde373_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2015=LTDIE_57_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2015
+LDIFF_SYM2017=LTDIE_57_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2017
 	.byte 2,141,16,3
 	.asciz "authenticator"
 
-LDIFF_SYM2016=LTDIE_54_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2016
+LDIFF_SYM2018=LTDIE_54_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2018
 	.byte 2,141,24,3
 	.asciz "viewController"
 
-LDIFF_SYM2017=LTDIE_72_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2017
+LDIFF_SYM2019=LTDIE_72_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2019
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2018=Lfde374_end - Lfde374_start
-	.long LDIFF_SYM2018
+LDIFF_SYM2020=Lfde374_end - Lfde374_start
+	.long LDIFF_SYM2020
 Lfde374_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITHockeyManagerDelegate_WillShowAuthenticationController_HockeyApp_iOS_BITAuthenticator_UIKit_UIViewController
 
-LDIFF_SYM2019=Lme_1d3 - HockeyApp_iOS_BITHockeyManagerDelegate_WillShowAuthenticationController_HockeyApp_iOS_BITAuthenticator_UIKit_UIViewController
-	.long LDIFF_SYM2019
+LDIFF_SYM2021=Lme_1d3 - HockeyApp_iOS_BITHockeyManagerDelegate_WillShowAuthenticationController_HockeyApp_iOS_BITAuthenticator_UIKit_UIViewController
+	.long LDIFF_SYM2021
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
@@ -92666,27 +92940,27 @@ Lfde374_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2020=LTDIE_57_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2020
+LDIFF_SYM2022=LTDIE_57_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2022
 	.byte 2,141,16,3
 	.asciz "crashManager"
 
-LDIFF_SYM2021=LTDIE_56_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2021
+LDIFF_SYM2023=LTDIE_56_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2023
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2022=Lfde375_end - Lfde375_start
-	.long LDIFF_SYM2022
+LDIFF_SYM2024=Lfde375_end - Lfde375_start
+	.long LDIFF_SYM2024
 Lfde375_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITHockeyManagerDelegate_WillShowSubmitCrashReportAlert_HockeyApp_iOS_BITCrashManager
 
-LDIFF_SYM2023=Lme_1d4 - HockeyApp_iOS_BITHockeyManagerDelegate_WillShowSubmitCrashReportAlert_HockeyApp_iOS_BITCrashManager
-	.long LDIFF_SYM2023
+LDIFF_SYM2025=Lme_1d4 - HockeyApp_iOS_BITHockeyManagerDelegate_WillShowSubmitCrashReportAlert_HockeyApp_iOS_BITCrashManager
+	.long LDIFF_SYM2025
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
@@ -92705,27 +92979,27 @@ Lfde375_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2024=LTDIE_57_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2024
+LDIFF_SYM2026=LTDIE_57_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2026
 	.byte 2,141,16,3
 	.asciz "updateManager"
 
-LDIFF_SYM2025=LTDIE_61_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2025
+LDIFF_SYM2027=LTDIE_61_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2027
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2026=Lfde376_end - Lfde376_start
-	.long LDIFF_SYM2026
+LDIFF_SYM2028=Lfde376_end - Lfde376_start
+	.long LDIFF_SYM2028
 Lfde376_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITHockeyManagerDelegate_WillStartDownloadAndUpdate_HockeyApp_iOS_BITUpdateManager
 
-LDIFF_SYM2027=Lme_1d5 - HockeyApp_iOS_BITHockeyManagerDelegate_WillStartDownloadAndUpdate_HockeyApp_iOS_BITUpdateManager
-	.long LDIFF_SYM2027
+LDIFF_SYM2029=Lme_1d5 - HockeyApp_iOS_BITHockeyManagerDelegate_WillStartDownloadAndUpdate_HockeyApp_iOS_BITUpdateManager
+	.long LDIFF_SYM2029
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
@@ -92744,22 +93018,22 @@ Lfde376_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2028=LTDIE_59_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2028
+LDIFF_SYM2030=LTDIE_59_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2030
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2029=Lfde377_end - Lfde377_start
-	.long LDIFF_SYM2029
+LDIFF_SYM2031=Lfde377_end - Lfde377_start
+	.long LDIFF_SYM2031
 Lfde377_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITMetricsManager_get_ClassHandle
 
-LDIFF_SYM2030=Lme_1d6 - HockeyApp_iOS_BITMetricsManager_get_ClassHandle
-	.long LDIFF_SYM2030
+LDIFF_SYM2032=Lme_1d6 - HockeyApp_iOS_BITMetricsManager_get_ClassHandle
+	.long LDIFF_SYM2032
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -92778,22 +93052,22 @@ Lfde377_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2031=LTDIE_59_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2031
+LDIFF_SYM2033=LTDIE_59_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2033
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2032=Lfde378_end - Lfde378_start
-	.long LDIFF_SYM2032
+LDIFF_SYM2034=Lfde378_end - Lfde378_start
+	.long LDIFF_SYM2034
 Lfde378_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITMetricsManager__ctor
 
-LDIFF_SYM2033=Lme_1d7 - HockeyApp_iOS_BITMetricsManager__ctor
-	.long LDIFF_SYM2033
+LDIFF_SYM2035=Lme_1d7 - HockeyApp_iOS_BITMetricsManager__ctor
+	.long LDIFF_SYM2035
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
@@ -92812,27 +93086,27 @@ Lfde378_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2034=LTDIE_59_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2034
+LDIFF_SYM2036=LTDIE_59_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2036
 	.byte 1,105,3
 	.asciz "t"
 
-LDIFF_SYM2035=LTDIE_52_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2035
+LDIFF_SYM2037=LTDIE_52_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2037
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2036=Lfde379_end - Lfde379_start
-	.long LDIFF_SYM2036
+LDIFF_SYM2038=Lfde379_end - Lfde379_start
+	.long LDIFF_SYM2038
 Lfde379_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITMetricsManager__ctor_Foundation_NSObjectFlag
 
-LDIFF_SYM2037=Lme_1d8 - HockeyApp_iOS_BITMetricsManager__ctor_Foundation_NSObjectFlag
-	.long LDIFF_SYM2037
+LDIFF_SYM2039=Lme_1d8 - HockeyApp_iOS_BITMetricsManager__ctor_Foundation_NSObjectFlag
+	.long LDIFF_SYM2039
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10
 	.align 3
@@ -92851,27 +93125,27 @@ Lfde379_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2038=LTDIE_59_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2038
+LDIFF_SYM2040=LTDIE_59_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2040
 	.byte 1,105,3
 	.asciz "handle"
 
-LDIFF_SYM2039=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2039
+LDIFF_SYM2041=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2041
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2040=Lfde380_end - Lfde380_start
-	.long LDIFF_SYM2040
+LDIFF_SYM2042=Lfde380_end - Lfde380_start
+	.long LDIFF_SYM2042
 Lfde380_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITMetricsManager__ctor_intptr
 
-LDIFF_SYM2041=Lme_1d9 - HockeyApp_iOS_BITMetricsManager__ctor_intptr
-	.long LDIFF_SYM2041
+LDIFF_SYM2043=Lme_1d9 - HockeyApp_iOS_BITMetricsManager__ctor_intptr
+	.long LDIFF_SYM2043
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10
 	.align 3
@@ -92890,32 +93164,32 @@ Lfde380_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2042=LTDIE_59_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2042
+LDIFF_SYM2044=LTDIE_59_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2044
 	.byte 1,105,3
 	.asciz "eventName"
 
-LDIFF_SYM2043=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM2043
+LDIFF_SYM2045=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM2045
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2044=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2044
+LDIFF_SYM2046=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2046
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2045=Lfde381_end - Lfde381_start
-	.long LDIFF_SYM2045
+LDIFF_SYM2047=Lfde381_end - Lfde381_start
+	.long LDIFF_SYM2047
 Lfde381_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITMetricsManager_TrackEvent_string
 
-LDIFF_SYM2046=Lme_1da - HockeyApp_iOS_BITMetricsManager_TrackEvent_string
-	.long LDIFF_SYM2046
+LDIFF_SYM2048=Lme_1da - HockeyApp_iOS_BITMetricsManager_TrackEvent_string
+	.long LDIFF_SYM2048
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,152,8,153,7,68,154,6
 	.align 3
@@ -92928,23 +93202,23 @@ LTDIE_117:
 	.asciz "Foundation_NSDictionary"
 
 	.byte 40,16
-LDIFF_SYM2047=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM2047
+LDIFF_SYM2049=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM2049
 	.byte 2,35,0,0,7
 	.asciz "Foundation_NSDictionary"
 
-LDIFF_SYM2048=LTDIE_117 - Ldebug_info_start
-	.long LDIFF_SYM2048
+LDIFF_SYM2050=LTDIE_117 - Ldebug_info_start
+	.long LDIFF_SYM2050
 LTDIE_117_POINTER:
 
 	.byte 13
-LDIFF_SYM2049=LTDIE_117 - Ldebug_info_start
-	.long LDIFF_SYM2049
+LDIFF_SYM2051=LTDIE_117 - Ldebug_info_start
+	.long LDIFF_SYM2051
 LTDIE_117_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2050=LTDIE_117 - Ldebug_info_start
-	.long LDIFF_SYM2050
+LDIFF_SYM2052=LTDIE_117 - Ldebug_info_start
+	.long LDIFF_SYM2052
 	.byte 2
 	.asciz "HockeyApp.iOS.BITMetricsManager:TrackEvent"
 	.asciz "HockeyApp_iOS_BITMetricsManager_TrackEvent_string_Foundation_NSDictionary_Foundation_NSDictionary"
@@ -92956,42 +93230,42 @@ LDIFF_SYM2050=LTDIE_117 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2051=LTDIE_59_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2051
+LDIFF_SYM2053=LTDIE_59_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2053
 	.byte 1,103,3
 	.asciz "eventName"
 
-LDIFF_SYM2052=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM2052
+LDIFF_SYM2054=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM2054
 	.byte 1,104,3
 	.asciz "properties"
 
-LDIFF_SYM2053=LTDIE_117_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2053
+LDIFF_SYM2055=LTDIE_117_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2055
 	.byte 1,105,3
 	.asciz "measurements"
 
-LDIFF_SYM2054=LTDIE_117_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2054
+LDIFF_SYM2056=LTDIE_117_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2056
 	.byte 3,141,208,0,11
 	.asciz "V_0"
 
-LDIFF_SYM2055=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2055
+LDIFF_SYM2057=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2057
 	.byte 3,141,240,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2056=Lfde382_end - Lfde382_start
-	.long LDIFF_SYM2056
+LDIFF_SYM2058=Lfde382_end - Lfde382_start
+	.long LDIFF_SYM2058
 Lfde382_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITMetricsManager_TrackEvent_string_Foundation_NSDictionary_Foundation_NSDictionary
 
-LDIFF_SYM2057=Lme_1db - HockeyApp_iOS_BITMetricsManager_TrackEvent_string_Foundation_NSDictionary_Foundation_NSDictionary
-	.long LDIFF_SYM2057
+LDIFF_SYM2059=Lme_1db - HockeyApp_iOS_BITMetricsManager_TrackEvent_string_Foundation_NSDictionary_Foundation_NSDictionary
+	.long LDIFF_SYM2059
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
@@ -93011,22 +93285,22 @@ Lfde382_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2058=LTDIE_59_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2058
+LDIFF_SYM2060=LTDIE_59_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2060
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2059=Lfde383_end - Lfde383_start
-	.long LDIFF_SYM2059
+LDIFF_SYM2061=Lfde383_end - Lfde383_start
+	.long LDIFF_SYM2061
 Lfde383_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITMetricsManager_get_Disabled
 
-LDIFF_SYM2060=Lme_1dc - HockeyApp_iOS_BITMetricsManager_get_Disabled
-	.long LDIFF_SYM2060
+LDIFF_SYM2062=Lme_1dc - HockeyApp_iOS_BITMetricsManager_get_Disabled
+	.long LDIFF_SYM2062
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
@@ -93045,27 +93319,27 @@ Lfde383_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2061=LTDIE_59_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2061
+LDIFF_SYM2063=LTDIE_59_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2063
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM2062=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2062
+LDIFF_SYM2064=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2064
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2063=Lfde384_end - Lfde384_start
-	.long LDIFF_SYM2063
+LDIFF_SYM2065=Lfde384_end - Lfde384_start
+	.long LDIFF_SYM2065
 Lfde384_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITMetricsManager_set_Disabled_bool
 
-LDIFF_SYM2064=Lme_1dd - HockeyApp_iOS_BITMetricsManager_set_Disabled_bool
-	.long LDIFF_SYM2064
+LDIFF_SYM2066=Lme_1dd - HockeyApp_iOS_BITMetricsManager_set_Disabled_bool
+	.long LDIFF_SYM2066
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8,154,7
 	.align 3
@@ -93084,22 +93358,22 @@ Lfde384_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2065=LTDIE_59_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2065
+LDIFF_SYM2067=LTDIE_59_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2067
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2066=Lfde385_end - Lfde385_start
-	.long LDIFF_SYM2066
+LDIFF_SYM2068=Lfde385_end - Lfde385_start
+	.long LDIFF_SYM2068
 Lfde385_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITMetricsManager_get_ServerURL
 
-LDIFF_SYM2067=Lme_1de - HockeyApp_iOS_BITMetricsManager_get_ServerURL
-	.long LDIFF_SYM2067
+LDIFF_SYM2069=Lme_1de - HockeyApp_iOS_BITMetricsManager_get_ServerURL
+	.long LDIFF_SYM2069
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
@@ -93118,32 +93392,32 @@ Lfde385_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2068=LTDIE_59_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2068
+LDIFF_SYM2070=LTDIE_59_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2070
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM2069=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM2069
+LDIFF_SYM2071=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM2071
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2070=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2070
+LDIFF_SYM2072=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2072
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2071=Lfde386_end - Lfde386_start
-	.long LDIFF_SYM2071
+LDIFF_SYM2073=Lfde386_end - Lfde386_start
+	.long LDIFF_SYM2073
 Lfde386_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITMetricsManager_set_ServerURL_string
 
-LDIFF_SYM2072=Lme_1df - HockeyApp_iOS_BITMetricsManager_set_ServerURL_string
-	.long LDIFF_SYM2072
+LDIFF_SYM2074=Lme_1df - HockeyApp_iOS_BITMetricsManager_set_ServerURL_string
+	.long LDIFF_SYM2074
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,152,8,153,7,68,154,6
 	.align 3
@@ -93163,16 +93437,16 @@ Lfde386_end:
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2073=Lfde387_end - Lfde387_start
-	.long LDIFF_SYM2073
+LDIFF_SYM2075=Lfde387_end - Lfde387_start
+	.long LDIFF_SYM2075
 Lfde387_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITMetricsManager__cctor
 
-LDIFF_SYM2074=Lme_1e0 - HockeyApp_iOS_BITMetricsManager__cctor
-	.long LDIFF_SYM2074
+LDIFF_SYM2076=Lme_1e0 - HockeyApp_iOS_BITMetricsManager__cctor
+	.long LDIFF_SYM2076
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -93191,22 +93465,22 @@ Lfde387_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2075=LTDIE_60_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2075
+LDIFF_SYM2077=LTDIE_60_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2077
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2076=Lfde388_end - Lfde388_start
-	.long LDIFF_SYM2076
+LDIFF_SYM2078=Lfde388_end - Lfde388_start
+	.long LDIFF_SYM2078
 Lfde388_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITStoreUpdateManager_get_ClassHandle
 
-LDIFF_SYM2077=Lme_1e1 - HockeyApp_iOS_BITStoreUpdateManager_get_ClassHandle
-	.long LDIFF_SYM2077
+LDIFF_SYM2079=Lme_1e1 - HockeyApp_iOS_BITStoreUpdateManager_get_ClassHandle
+	.long LDIFF_SYM2079
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -93225,22 +93499,22 @@ Lfde388_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2078=LTDIE_60_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2078
+LDIFF_SYM2080=LTDIE_60_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2080
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2079=Lfde389_end - Lfde389_start
-	.long LDIFF_SYM2079
+LDIFF_SYM2081=Lfde389_end - Lfde389_start
+	.long LDIFF_SYM2081
 Lfde389_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITStoreUpdateManager__ctor
 
-LDIFF_SYM2080=Lme_1e2 - HockeyApp_iOS_BITStoreUpdateManager__ctor
-	.long LDIFF_SYM2080
+LDIFF_SYM2082=Lme_1e2 - HockeyApp_iOS_BITStoreUpdateManager__ctor
+	.long LDIFF_SYM2082
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
@@ -93259,27 +93533,27 @@ Lfde389_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2081=LTDIE_60_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2081
+LDIFF_SYM2083=LTDIE_60_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2083
 	.byte 1,105,3
 	.asciz "t"
 
-LDIFF_SYM2082=LTDIE_52_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2082
+LDIFF_SYM2084=LTDIE_52_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2084
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2083=Lfde390_end - Lfde390_start
-	.long LDIFF_SYM2083
+LDIFF_SYM2085=Lfde390_end - Lfde390_start
+	.long LDIFF_SYM2085
 Lfde390_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITStoreUpdateManager__ctor_Foundation_NSObjectFlag
 
-LDIFF_SYM2084=Lme_1e3 - HockeyApp_iOS_BITStoreUpdateManager__ctor_Foundation_NSObjectFlag
-	.long LDIFF_SYM2084
+LDIFF_SYM2086=Lme_1e3 - HockeyApp_iOS_BITStoreUpdateManager__ctor_Foundation_NSObjectFlag
+	.long LDIFF_SYM2086
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10
 	.align 3
@@ -93298,27 +93572,27 @@ Lfde390_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2085=LTDIE_60_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2085
+LDIFF_SYM2087=LTDIE_60_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2087
 	.byte 1,105,3
 	.asciz "handle"
 
-LDIFF_SYM2086=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2086
+LDIFF_SYM2088=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2088
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2087=Lfde391_end - Lfde391_start
-	.long LDIFF_SYM2087
+LDIFF_SYM2089=Lfde391_end - Lfde391_start
+	.long LDIFF_SYM2089
 Lfde391_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITStoreUpdateManager__ctor_intptr
 
-LDIFF_SYM2088=Lme_1e4 - HockeyApp_iOS_BITStoreUpdateManager__ctor_intptr
-	.long LDIFF_SYM2088
+LDIFF_SYM2090=Lme_1e4 - HockeyApp_iOS_BITStoreUpdateManager__ctor_intptr
+	.long LDIFF_SYM2090
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10
 	.align 3
@@ -93337,22 +93611,22 @@ Lfde391_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2089=LTDIE_60_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2089
+LDIFF_SYM2091=LTDIE_60_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2091
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2090=Lfde392_end - Lfde392_start
-	.long LDIFF_SYM2090
+LDIFF_SYM2092=Lfde392_end - Lfde392_start
+	.long LDIFF_SYM2092
 Lfde392_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITStoreUpdateManager_CheckForUpdate
 
-LDIFF_SYM2091=Lme_1e5 - HockeyApp_iOS_BITStoreUpdateManager_CheckForUpdate
-	.long LDIFF_SYM2091
+LDIFF_SYM2093=Lme_1e5 - HockeyApp_iOS_BITStoreUpdateManager_CheckForUpdate
+	.long LDIFF_SYM2093
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
 	.align 3
@@ -93371,22 +93645,22 @@ Lfde392_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2092=LTDIE_60_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2092
+LDIFF_SYM2094=LTDIE_60_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2094
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2093=Lfde393_end - Lfde393_start
-	.long LDIFF_SYM2093
+LDIFF_SYM2095=Lfde393_end - Lfde393_start
+	.long LDIFF_SYM2095
 Lfde393_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITStoreUpdateManager_get_CheckForUpdateOnLaunch
 
-LDIFF_SYM2094=Lme_1e6 - HockeyApp_iOS_BITStoreUpdateManager_get_CheckForUpdateOnLaunch
-	.long LDIFF_SYM2094
+LDIFF_SYM2096=Lme_1e6 - HockeyApp_iOS_BITStoreUpdateManager_get_CheckForUpdateOnLaunch
+	.long LDIFF_SYM2096
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
@@ -93405,27 +93679,27 @@ Lfde393_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2095=LTDIE_60_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2095
+LDIFF_SYM2097=LTDIE_60_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2097
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM2096=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2096
+LDIFF_SYM2098=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2098
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2097=Lfde394_end - Lfde394_start
-	.long LDIFF_SYM2097
+LDIFF_SYM2099=Lfde394_end - Lfde394_start
+	.long LDIFF_SYM2099
 Lfde394_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITStoreUpdateManager_set_CheckForUpdateOnLaunch_bool
 
-LDIFF_SYM2098=Lme_1e7 - HockeyApp_iOS_BITStoreUpdateManager_set_CheckForUpdateOnLaunch_bool
-	.long LDIFF_SYM2098
+LDIFF_SYM2100=Lme_1e7 - HockeyApp_iOS_BITStoreUpdateManager_set_CheckForUpdateOnLaunch_bool
+	.long LDIFF_SYM2100
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8,154,7
 	.align 3
@@ -93444,22 +93718,22 @@ Lfde394_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2099=LTDIE_60_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2099
+LDIFF_SYM2101=LTDIE_60_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2101
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2100=Lfde395_end - Lfde395_start
-	.long LDIFF_SYM2100
+LDIFF_SYM2102=Lfde395_end - Lfde395_start
+	.long LDIFF_SYM2102
 Lfde395_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITStoreUpdateManager_get_CountryCode
 
-LDIFF_SYM2101=Lme_1e8 - HockeyApp_iOS_BITStoreUpdateManager_get_CountryCode
-	.long LDIFF_SYM2101
+LDIFF_SYM2103=Lme_1e8 - HockeyApp_iOS_BITStoreUpdateManager_get_CountryCode
+	.long LDIFF_SYM2103
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
@@ -93478,32 +93752,32 @@ Lfde395_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2102=LTDIE_60_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2102
+LDIFF_SYM2104=LTDIE_60_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2104
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM2103=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM2103
+LDIFF_SYM2105=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM2105
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2104=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2104
+LDIFF_SYM2106=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2106
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2105=Lfde396_end - Lfde396_start
-	.long LDIFF_SYM2105
+LDIFF_SYM2107=Lfde396_end - Lfde396_start
+	.long LDIFF_SYM2107
 Lfde396_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITStoreUpdateManager_set_CountryCode_string
 
-LDIFF_SYM2106=Lme_1e9 - HockeyApp_iOS_BITStoreUpdateManager_set_CountryCode_string
-	.long LDIFF_SYM2106
+LDIFF_SYM2108=Lme_1e9 - HockeyApp_iOS_BITStoreUpdateManager_set_CountryCode_string
+	.long LDIFF_SYM2108
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,152,8,153,7,68,154,6
 	.align 3
@@ -93516,8 +93790,8 @@ LTDIE_118:
 	.asciz "HockeyApp_iOS_BITUpdateSetting"
 
 	.byte 8
-LDIFF_SYM2107=LDIE_U8 - Ldebug_info_start
-	.long LDIFF_SYM2107
+LDIFF_SYM2109=LDIE_U8 - Ldebug_info_start
+	.long LDIFF_SYM2109
 	.byte 9
 	.asciz "CheckStartup"
 
@@ -93530,18 +93804,18 @@ LDIFF_SYM2107=LDIE_U8 - Ldebug_info_start
 	.byte 2,0,7
 	.asciz "HockeyApp_iOS_BITUpdateSetting"
 
-LDIFF_SYM2108=LTDIE_118 - Ldebug_info_start
-	.long LDIFF_SYM2108
+LDIFF_SYM2110=LTDIE_118 - Ldebug_info_start
+	.long LDIFF_SYM2110
 LTDIE_118_POINTER:
 
 	.byte 13
-LDIFF_SYM2109=LTDIE_118 - Ldebug_info_start
-	.long LDIFF_SYM2109
+LDIFF_SYM2111=LTDIE_118 - Ldebug_info_start
+	.long LDIFF_SYM2111
 LTDIE_118_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2110=LTDIE_118 - Ldebug_info_start
-	.long LDIFF_SYM2110
+LDIFF_SYM2112=LTDIE_118 - Ldebug_info_start
+	.long LDIFF_SYM2112
 	.byte 2
 	.asciz "HockeyApp.iOS.BITStoreUpdateManager:get_UpdateSetting"
 	.asciz "HockeyApp_iOS_BITStoreUpdateManager_get_UpdateSetting"
@@ -93553,27 +93827,27 @@ LDIFF_SYM2110=LTDIE_118 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2111=LTDIE_60_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2111
+LDIFF_SYM2113=LTDIE_60_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2113
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2112=LTDIE_118 - Ldebug_info_start
-	.long LDIFF_SYM2112
+LDIFF_SYM2114=LTDIE_118 - Ldebug_info_start
+	.long LDIFF_SYM2114
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2113=Lfde397_end - Lfde397_start
-	.long LDIFF_SYM2113
+LDIFF_SYM2115=Lfde397_end - Lfde397_start
+	.long LDIFF_SYM2115
 Lfde397_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITStoreUpdateManager_get_UpdateSetting
 
-LDIFF_SYM2114=Lme_1ea - HockeyApp_iOS_BITStoreUpdateManager_get_UpdateSetting
-	.long LDIFF_SYM2114
+LDIFF_SYM2116=Lme_1ea - HockeyApp_iOS_BITStoreUpdateManager_get_UpdateSetting
+	.long LDIFF_SYM2116
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,154,9
 	.align 3
@@ -93592,27 +93866,27 @@ Lfde397_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2115=LTDIE_60_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2115
+LDIFF_SYM2117=LTDIE_60_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2117
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM2116=LTDIE_118 - Ldebug_info_start
-	.long LDIFF_SYM2116
+LDIFF_SYM2118=LTDIE_118 - Ldebug_info_start
+	.long LDIFF_SYM2118
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2117=Lfde398_end - Lfde398_start
-	.long LDIFF_SYM2117
+LDIFF_SYM2119=Lfde398_end - Lfde398_start
+	.long LDIFF_SYM2119
 Lfde398_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITStoreUpdateManager_set_UpdateSetting_HockeyApp_iOS_BITUpdateSetting
 
-LDIFF_SYM2118=Lme_1eb - HockeyApp_iOS_BITStoreUpdateManager_set_UpdateSetting_HockeyApp_iOS_BITUpdateSetting
-	.long LDIFF_SYM2118
+LDIFF_SYM2120=Lme_1eb - HockeyApp_iOS_BITStoreUpdateManager_set_UpdateSetting_HockeyApp_iOS_BITUpdateSetting
+	.long LDIFF_SYM2120
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8,154,7
 	.align 3
@@ -93631,22 +93905,22 @@ Lfde398_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2119=LTDIE_60_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2119
+LDIFF_SYM2121=LTDIE_60_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2121
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2120=Lfde399_end - Lfde399_start
-	.long LDIFF_SYM2120
+LDIFF_SYM2122=Lfde399_end - Lfde399_start
+	.long LDIFF_SYM2122
 Lfde399_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITStoreUpdateManager_get_UpdateUIEnabled
 
-LDIFF_SYM2121=Lme_1ec - HockeyApp_iOS_BITStoreUpdateManager_get_UpdateUIEnabled
-	.long LDIFF_SYM2121
+LDIFF_SYM2123=Lme_1ec - HockeyApp_iOS_BITStoreUpdateManager_get_UpdateUIEnabled
+	.long LDIFF_SYM2123
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
@@ -93665,27 +93939,27 @@ Lfde399_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2122=LTDIE_60_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2122
+LDIFF_SYM2124=LTDIE_60_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2124
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM2123=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2123
+LDIFF_SYM2125=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2125
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2124=Lfde400_end - Lfde400_start
-	.long LDIFF_SYM2124
+LDIFF_SYM2126=Lfde400_end - Lfde400_start
+	.long LDIFF_SYM2126
 Lfde400_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITStoreUpdateManager_set_UpdateUIEnabled_bool
 
-LDIFF_SYM2125=Lme_1ed - HockeyApp_iOS_BITStoreUpdateManager_set_UpdateUIEnabled_bool
-	.long LDIFF_SYM2125
+LDIFF_SYM2127=Lme_1ed - HockeyApp_iOS_BITStoreUpdateManager_set_UpdateUIEnabled_bool
+	.long LDIFF_SYM2127
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8,154,7
 	.align 3
@@ -93705,16 +93979,16 @@ Lfde400_end:
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2126=Lfde401_end - Lfde401_start
-	.long LDIFF_SYM2126
+LDIFF_SYM2128=Lfde401_end - Lfde401_start
+	.long LDIFF_SYM2128
 Lfde401_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITStoreUpdateManager__cctor
 
-LDIFF_SYM2127=Lme_1ee - HockeyApp_iOS_BITStoreUpdateManager__cctor
-	.long LDIFF_SYM2127
+LDIFF_SYM2129=Lme_1ee - HockeyApp_iOS_BITStoreUpdateManager__cctor
+	.long LDIFF_SYM2129
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -93729,18 +94003,18 @@ LTDIE_119:
 	.byte 16,7
 	.asciz "HockeyApp_iOS_IBITStoreUpdateManagerDelegate"
 
-LDIFF_SYM2128=LTDIE_119 - Ldebug_info_start
-	.long LDIFF_SYM2128
+LDIFF_SYM2130=LTDIE_119 - Ldebug_info_start
+	.long LDIFF_SYM2130
 LTDIE_119_POINTER:
 
 	.byte 13
-LDIFF_SYM2129=LTDIE_119 - Ldebug_info_start
-	.long LDIFF_SYM2129
+LDIFF_SYM2131=LTDIE_119 - Ldebug_info_start
+	.long LDIFF_SYM2131
 LTDIE_119_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2130=LTDIE_119 - Ldebug_info_start
-	.long LDIFF_SYM2130
+LDIFF_SYM2132=LTDIE_119 - Ldebug_info_start
+	.long LDIFF_SYM2132
 	.byte 2
 	.asciz "HockeyApp.iOS.BITStoreUpdateManagerDelegate_Extensions:DetectedUpdateFromStoreUpdateManager"
 	.asciz "HockeyApp_iOS_BITStoreUpdateManagerDelegate_Extensions_DetectedUpdateFromStoreUpdateManager_HockeyApp_iOS_IBITStoreUpdateManagerDelegate_HockeyApp_iOS_BITStoreUpdateManager_string_Foundation_NSUrl"
@@ -93752,42 +94026,42 @@ LDIFF_SYM2130=LTDIE_119 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "This"
 
-LDIFF_SYM2131=LTDIE_119_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2131
+LDIFF_SYM2133=LTDIE_119_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2133
 	.byte 2,141,48,3
 	.asciz "storeUpdateManager"
 
-LDIFF_SYM2132=LTDIE_60_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2132
+LDIFF_SYM2134=LTDIE_60_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2134
 	.byte 1,104,3
 	.asciz "newVersion"
 
-LDIFF_SYM2133=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM2133
+LDIFF_SYM2135=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM2135
 	.byte 1,105,3
 	.asciz "storeUrl"
 
-LDIFF_SYM2134=LTDIE_68_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2134
+LDIFF_SYM2136=LTDIE_68_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2136
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2135=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2135
+LDIFF_SYM2137=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2137
 	.byte 1,102,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2136=Lfde402_end - Lfde402_start
-	.long LDIFF_SYM2136
+LDIFF_SYM2138=Lfde402_end - Lfde402_start
+	.long LDIFF_SYM2138
 Lfde402_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITStoreUpdateManagerDelegate_Extensions_DetectedUpdateFromStoreUpdateManager_HockeyApp_iOS_IBITStoreUpdateManagerDelegate_HockeyApp_iOS_BITStoreUpdateManager_string_Foundation_NSUrl
 
-LDIFF_SYM2137=Lme_1ef - HockeyApp_iOS_BITStoreUpdateManagerDelegate_Extensions_DetectedUpdateFromStoreUpdateManager_HockeyApp_iOS_IBITStoreUpdateManagerDelegate_HockeyApp_iOS_BITStoreUpdateManager_string_Foundation_NSUrl
-	.long LDIFF_SYM2137
+LDIFF_SYM2139=Lme_1ef - HockeyApp_iOS_BITStoreUpdateManagerDelegate_Extensions_DetectedUpdateFromStoreUpdateManager_HockeyApp_iOS_IBITStoreUpdateManagerDelegate_HockeyApp_iOS_BITStoreUpdateManager_string_Foundation_NSUrl
+	.long LDIFF_SYM2139
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,150,14,68,152,13,153,12,68,154,11
 	.align 3
@@ -93800,23 +94074,23 @@ LTDIE_120:
 	.asciz "HockeyApp_iOS_BITStoreUpdateManagerDelegateWrapper"
 
 	.byte 24,16
-LDIFF_SYM2138=LTDIE_75 - Ldebug_info_start
-	.long LDIFF_SYM2138
+LDIFF_SYM2140=LTDIE_75 - Ldebug_info_start
+	.long LDIFF_SYM2140
 	.byte 2,35,0,0,7
 	.asciz "HockeyApp_iOS_BITStoreUpdateManagerDelegateWrapper"
 
-LDIFF_SYM2139=LTDIE_120 - Ldebug_info_start
-	.long LDIFF_SYM2139
+LDIFF_SYM2141=LTDIE_120 - Ldebug_info_start
+	.long LDIFF_SYM2141
 LTDIE_120_POINTER:
 
 	.byte 13
-LDIFF_SYM2140=LTDIE_120 - Ldebug_info_start
-	.long LDIFF_SYM2140
+LDIFF_SYM2142=LTDIE_120 - Ldebug_info_start
+	.long LDIFF_SYM2142
 LTDIE_120_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2141=LTDIE_120 - Ldebug_info_start
-	.long LDIFF_SYM2141
+LDIFF_SYM2143=LTDIE_120 - Ldebug_info_start
+	.long LDIFF_SYM2143
 	.byte 2
 	.asciz "HockeyApp.iOS.BITStoreUpdateManagerDelegateWrapper:.ctor"
 	.asciz "HockeyApp_iOS_BITStoreUpdateManagerDelegateWrapper__ctor_intptr_bool"
@@ -93828,32 +94102,32 @@ LDIFF_SYM2141=LTDIE_120 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2142=LTDIE_120_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2142
+LDIFF_SYM2144=LTDIE_120_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2144
 	.byte 2,141,16,3
 	.asciz "handle"
 
-LDIFF_SYM2143=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2143
+LDIFF_SYM2145=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2145
 	.byte 2,141,24,3
 	.asciz "owns"
 
-LDIFF_SYM2144=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2144
+LDIFF_SYM2146=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2146
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2145=Lfde403_end - Lfde403_start
-	.long LDIFF_SYM2145
+LDIFF_SYM2147=Lfde403_end - Lfde403_start
+	.long LDIFF_SYM2147
 Lfde403_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITStoreUpdateManagerDelegateWrapper__ctor_intptr_bool
 
-LDIFF_SYM2146=Lme_1f0 - HockeyApp_iOS_BITStoreUpdateManagerDelegateWrapper__ctor_intptr_bool
-	.long LDIFF_SYM2146
+LDIFF_SYM2148=Lme_1f0 - HockeyApp_iOS_BITStoreUpdateManagerDelegateWrapper__ctor_intptr_bool
+	.long LDIFF_SYM2148
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -93866,23 +94140,23 @@ LTDIE_121:
 	.asciz "HockeyApp_iOS_BITStoreUpdateManagerDelegate"
 
 	.byte 40,16
-LDIFF_SYM2147=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM2147
+LDIFF_SYM2149=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM2149
 	.byte 2,35,0,0,7
 	.asciz "HockeyApp_iOS_BITStoreUpdateManagerDelegate"
 
-LDIFF_SYM2148=LTDIE_121 - Ldebug_info_start
-	.long LDIFF_SYM2148
+LDIFF_SYM2150=LTDIE_121 - Ldebug_info_start
+	.long LDIFF_SYM2150
 LTDIE_121_POINTER:
 
 	.byte 13
-LDIFF_SYM2149=LTDIE_121 - Ldebug_info_start
-	.long LDIFF_SYM2149
+LDIFF_SYM2151=LTDIE_121 - Ldebug_info_start
+	.long LDIFF_SYM2151
 LTDIE_121_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2150=LTDIE_121 - Ldebug_info_start
-	.long LDIFF_SYM2150
+LDIFF_SYM2152=LTDIE_121 - Ldebug_info_start
+	.long LDIFF_SYM2152
 	.byte 2
 	.asciz "HockeyApp.iOS.BITStoreUpdateManagerDelegate:.ctor"
 	.asciz "HockeyApp_iOS_BITStoreUpdateManagerDelegate__ctor"
@@ -93894,22 +94168,22 @@ LDIFF_SYM2150=LTDIE_121 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2151=LTDIE_121_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2151
+LDIFF_SYM2153=LTDIE_121_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2153
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2152=Lfde404_end - Lfde404_start
-	.long LDIFF_SYM2152
+LDIFF_SYM2154=Lfde404_end - Lfde404_start
+	.long LDIFF_SYM2154
 Lfde404_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITStoreUpdateManagerDelegate__ctor
 
-LDIFF_SYM2153=Lme_1f1 - HockeyApp_iOS_BITStoreUpdateManagerDelegate__ctor
-	.long LDIFF_SYM2153
+LDIFF_SYM2155=Lme_1f1 - HockeyApp_iOS_BITStoreUpdateManagerDelegate__ctor
+	.long LDIFF_SYM2155
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
@@ -93928,27 +94202,27 @@ Lfde404_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2154=LTDIE_121_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2154
+LDIFF_SYM2156=LTDIE_121_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2156
 	.byte 1,105,3
 	.asciz "t"
 
-LDIFF_SYM2155=LTDIE_52_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2155
+LDIFF_SYM2157=LTDIE_52_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2157
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2156=Lfde405_end - Lfde405_start
-	.long LDIFF_SYM2156
+LDIFF_SYM2158=Lfde405_end - Lfde405_start
+	.long LDIFF_SYM2158
 Lfde405_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITStoreUpdateManagerDelegate__ctor_Foundation_NSObjectFlag
 
-LDIFF_SYM2157=Lme_1f2 - HockeyApp_iOS_BITStoreUpdateManagerDelegate__ctor_Foundation_NSObjectFlag
-	.long LDIFF_SYM2157
+LDIFF_SYM2159=Lme_1f2 - HockeyApp_iOS_BITStoreUpdateManagerDelegate__ctor_Foundation_NSObjectFlag
+	.long LDIFF_SYM2159
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10
 	.align 3
@@ -93967,27 +94241,27 @@ Lfde405_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2158=LTDIE_121_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2158
+LDIFF_SYM2160=LTDIE_121_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2160
 	.byte 1,105,3
 	.asciz "handle"
 
-LDIFF_SYM2159=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2159
+LDIFF_SYM2161=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2161
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2160=Lfde406_end - Lfde406_start
-	.long LDIFF_SYM2160
+LDIFF_SYM2162=Lfde406_end - Lfde406_start
+	.long LDIFF_SYM2162
 Lfde406_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITStoreUpdateManagerDelegate__ctor_intptr
 
-LDIFF_SYM2161=Lme_1f3 - HockeyApp_iOS_BITStoreUpdateManagerDelegate__ctor_intptr
-	.long LDIFF_SYM2161
+LDIFF_SYM2163=Lme_1f3 - HockeyApp_iOS_BITStoreUpdateManagerDelegate__ctor_intptr
+	.long LDIFF_SYM2163
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10
 	.align 3
@@ -94006,37 +94280,37 @@ Lfde406_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2162=LTDIE_121_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2162
+LDIFF_SYM2164=LTDIE_121_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2164
 	.byte 2,141,16,3
 	.asciz "storeUpdateManager"
 
-LDIFF_SYM2163=LTDIE_60_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2163
+LDIFF_SYM2165=LTDIE_60_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2165
 	.byte 2,141,24,3
 	.asciz "newVersion"
 
-LDIFF_SYM2164=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM2164
+LDIFF_SYM2166=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM2166
 	.byte 2,141,32,3
 	.asciz "storeUrl"
 
-LDIFF_SYM2165=LTDIE_68_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2165
+LDIFF_SYM2167=LTDIE_68_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2167
 	.byte 2,141,40,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2166=Lfde407_end - Lfde407_start
-	.long LDIFF_SYM2166
+LDIFF_SYM2168=Lfde407_end - Lfde407_start
+	.long LDIFF_SYM2168
 Lfde407_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITStoreUpdateManagerDelegate_DetectedUpdateFromStoreUpdateManager_HockeyApp_iOS_BITStoreUpdateManager_string_Foundation_NSUrl
 
-LDIFF_SYM2167=Lme_1f4 - HockeyApp_iOS_BITStoreUpdateManagerDelegate_DetectedUpdateFromStoreUpdateManager_HockeyApp_iOS_BITStoreUpdateManager_string_Foundation_NSUrl
-	.long LDIFF_SYM2167
+LDIFF_SYM2169=Lme_1f4 - HockeyApp_iOS_BITStoreUpdateManagerDelegate_DetectedUpdateFromStoreUpdateManager_HockeyApp_iOS_BITStoreUpdateManager_string_Foundation_NSUrl
+	.long LDIFF_SYM2169
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29
 	.align 3
@@ -94055,22 +94329,22 @@ Lfde407_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2168=LTDIE_61_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2168
+LDIFF_SYM2170=LTDIE_61_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2170
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2169=Lfde408_end - Lfde408_start
-	.long LDIFF_SYM2169
+LDIFF_SYM2171=Lfde408_end - Lfde408_start
+	.long LDIFF_SYM2171
 Lfde408_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITUpdateManager_get_ClassHandle
 
-LDIFF_SYM2170=Lme_1f5 - HockeyApp_iOS_BITUpdateManager_get_ClassHandle
-	.long LDIFF_SYM2170
+LDIFF_SYM2172=Lme_1f5 - HockeyApp_iOS_BITUpdateManager_get_ClassHandle
+	.long LDIFF_SYM2172
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -94089,22 +94363,22 @@ Lfde408_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2171=LTDIE_61_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2171
+LDIFF_SYM2173=LTDIE_61_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2173
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2172=Lfde409_end - Lfde409_start
-	.long LDIFF_SYM2172
+LDIFF_SYM2174=Lfde409_end - Lfde409_start
+	.long LDIFF_SYM2174
 Lfde409_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITUpdateManager__ctor
 
-LDIFF_SYM2173=Lme_1f6 - HockeyApp_iOS_BITUpdateManager__ctor
-	.long LDIFF_SYM2173
+LDIFF_SYM2175=Lme_1f6 - HockeyApp_iOS_BITUpdateManager__ctor
+	.long LDIFF_SYM2175
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
@@ -94123,27 +94397,27 @@ Lfde409_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2174=LTDIE_61_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2174
+LDIFF_SYM2176=LTDIE_61_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2176
 	.byte 1,105,3
 	.asciz "t"
 
-LDIFF_SYM2175=LTDIE_52_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2175
+LDIFF_SYM2177=LTDIE_52_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2177
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2176=Lfde410_end - Lfde410_start
-	.long LDIFF_SYM2176
+LDIFF_SYM2178=Lfde410_end - Lfde410_start
+	.long LDIFF_SYM2178
 Lfde410_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITUpdateManager__ctor_Foundation_NSObjectFlag
 
-LDIFF_SYM2177=Lme_1f7 - HockeyApp_iOS_BITUpdateManager__ctor_Foundation_NSObjectFlag
-	.long LDIFF_SYM2177
+LDIFF_SYM2179=Lme_1f7 - HockeyApp_iOS_BITUpdateManager__ctor_Foundation_NSObjectFlag
+	.long LDIFF_SYM2179
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10
 	.align 3
@@ -94162,27 +94436,27 @@ Lfde410_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2178=LTDIE_61_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2178
+LDIFF_SYM2180=LTDIE_61_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2180
 	.byte 1,105,3
 	.asciz "handle"
 
-LDIFF_SYM2179=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2179
+LDIFF_SYM2181=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2181
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2180=Lfde411_end - Lfde411_start
-	.long LDIFF_SYM2180
+LDIFF_SYM2182=Lfde411_end - Lfde411_start
+	.long LDIFF_SYM2182
 Lfde411_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITUpdateManager__ctor_intptr
 
-LDIFF_SYM2181=Lme_1f8 - HockeyApp_iOS_BITUpdateManager__ctor_intptr
-	.long LDIFF_SYM2181
+LDIFF_SYM2183=Lme_1f8 - HockeyApp_iOS_BITUpdateManager__ctor_intptr
+	.long LDIFF_SYM2183
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10
 	.align 3
@@ -94201,22 +94475,22 @@ Lfde411_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2182=LTDIE_61_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2182
+LDIFF_SYM2184=LTDIE_61_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2184
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2183=Lfde412_end - Lfde412_start
-	.long LDIFF_SYM2183
+LDIFF_SYM2185=Lfde412_end - Lfde412_start
+	.long LDIFF_SYM2185
 Lfde412_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITUpdateManager_CheckForUpdate
 
-LDIFF_SYM2184=Lme_1f9 - HockeyApp_iOS_BITUpdateManager_CheckForUpdate
-	.long LDIFF_SYM2184
+LDIFF_SYM2186=Lme_1f9 - HockeyApp_iOS_BITUpdateManager_CheckForUpdate
+	.long LDIFF_SYM2186
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
 	.align 3
@@ -94235,27 +94509,27 @@ Lfde412_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2185=LTDIE_61_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2185
+LDIFF_SYM2187=LTDIE_61_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2187
 	.byte 1,105,3
 	.asciz "modal"
 
-LDIFF_SYM2186=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2186
+LDIFF_SYM2188=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2188
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2187=Lfde413_end - Lfde413_start
-	.long LDIFF_SYM2187
+LDIFF_SYM2189=Lfde413_end - Lfde413_start
+	.long LDIFF_SYM2189
 Lfde413_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITUpdateManager_HockeyViewController_bool
 
-LDIFF_SYM2188=Lme_1fa - HockeyApp_iOS_BITUpdateManager_HockeyViewController_bool
-	.long LDIFF_SYM2188
+LDIFF_SYM2190=Lme_1fa - HockeyApp_iOS_BITUpdateManager_HockeyViewController_bool
+	.long LDIFF_SYM2190
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,154,9
 	.align 3
@@ -94274,22 +94548,22 @@ Lfde413_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2189=LTDIE_61_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2189
+LDIFF_SYM2191=LTDIE_61_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2191
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2190=Lfde414_end - Lfde414_start
-	.long LDIFF_SYM2190
+LDIFF_SYM2192=Lfde414_end - Lfde414_start
+	.long LDIFF_SYM2192
 Lfde414_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITUpdateManager_ShowUpdateView
 
-LDIFF_SYM2191=Lme_1fb - HockeyApp_iOS_BITUpdateManager_ShowUpdateView
-	.long LDIFF_SYM2191
+LDIFF_SYM2193=Lme_1fb - HockeyApp_iOS_BITUpdateManager_ShowUpdateView
+	.long LDIFF_SYM2193
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
 	.align 3
@@ -94308,22 +94582,22 @@ Lfde414_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2192=LTDIE_61_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2192
+LDIFF_SYM2194=LTDIE_61_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2194
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2193=Lfde415_end - Lfde415_start
-	.long LDIFF_SYM2193
+LDIFF_SYM2195=Lfde415_end - Lfde415_start
+	.long LDIFF_SYM2195
 Lfde415_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITUpdateManager_get_AlwaysShowUpdateReminder
 
-LDIFF_SYM2194=Lme_1fc - HockeyApp_iOS_BITUpdateManager_get_AlwaysShowUpdateReminder
-	.long LDIFF_SYM2194
+LDIFF_SYM2196=Lme_1fc - HockeyApp_iOS_BITUpdateManager_get_AlwaysShowUpdateReminder
+	.long LDIFF_SYM2196
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
@@ -94342,27 +94616,27 @@ Lfde415_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2195=LTDIE_61_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2195
+LDIFF_SYM2197=LTDIE_61_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2197
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM2196=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2196
+LDIFF_SYM2198=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2198
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2197=Lfde416_end - Lfde416_start
-	.long LDIFF_SYM2197
+LDIFF_SYM2199=Lfde416_end - Lfde416_start
+	.long LDIFF_SYM2199
 Lfde416_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITUpdateManager_set_AlwaysShowUpdateReminder_bool
 
-LDIFF_SYM2198=Lme_1fd - HockeyApp_iOS_BITUpdateManager_set_AlwaysShowUpdateReminder_bool
-	.long LDIFF_SYM2198
+LDIFF_SYM2200=Lme_1fd - HockeyApp_iOS_BITUpdateManager_set_AlwaysShowUpdateReminder_bool
+	.long LDIFF_SYM2200
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8,154,7
 	.align 3
@@ -94381,22 +94655,22 @@ Lfde416_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2199=LTDIE_61_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2199
+LDIFF_SYM2201=LTDIE_61_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2201
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2200=Lfde417_end - Lfde417_start
-	.long LDIFF_SYM2200
+LDIFF_SYM2202=Lfde417_end - Lfde417_start
+	.long LDIFF_SYM2202
 Lfde417_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITUpdateManager_get_CheckForUpdateOnLaunch
 
-LDIFF_SYM2201=Lme_1fe - HockeyApp_iOS_BITUpdateManager_get_CheckForUpdateOnLaunch
-	.long LDIFF_SYM2201
+LDIFF_SYM2203=Lme_1fe - HockeyApp_iOS_BITUpdateManager_get_CheckForUpdateOnLaunch
+	.long LDIFF_SYM2203
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
@@ -94415,27 +94689,27 @@ Lfde417_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2202=LTDIE_61_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2202
+LDIFF_SYM2204=LTDIE_61_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2204
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM2203=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2203
+LDIFF_SYM2205=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2205
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2204=Lfde418_end - Lfde418_start
-	.long LDIFF_SYM2204
+LDIFF_SYM2206=Lfde418_end - Lfde418_start
+	.long LDIFF_SYM2206
 Lfde418_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITUpdateManager_set_CheckForUpdateOnLaunch_bool
 
-LDIFF_SYM2205=Lme_1ff - HockeyApp_iOS_BITUpdateManager_set_CheckForUpdateOnLaunch_bool
-	.long LDIFF_SYM2205
+LDIFF_SYM2207=Lme_1ff - HockeyApp_iOS_BITUpdateManager_set_CheckForUpdateOnLaunch_bool
+	.long LDIFF_SYM2207
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8,154,7
 	.align 3
@@ -94454,22 +94728,22 @@ Lfde418_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2206=LTDIE_61_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2206
+LDIFF_SYM2208=LTDIE_61_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2208
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2207=Lfde419_end - Lfde419_start
-	.long LDIFF_SYM2207
+LDIFF_SYM2209=Lfde419_end - Lfde419_start
+	.long LDIFF_SYM2209
 Lfde419_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITUpdateManager_get_DisableUpdateCheckOptionWhenExpired
 
-LDIFF_SYM2208=Lme_200 - HockeyApp_iOS_BITUpdateManager_get_DisableUpdateCheckOptionWhenExpired
-	.long LDIFF_SYM2208
+LDIFF_SYM2210=Lme_200 - HockeyApp_iOS_BITUpdateManager_get_DisableUpdateCheckOptionWhenExpired
+	.long LDIFF_SYM2210
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
@@ -94488,27 +94762,27 @@ Lfde419_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2209=LTDIE_61_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2209
+LDIFF_SYM2211=LTDIE_61_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2211
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM2210=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2210
+LDIFF_SYM2212=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2212
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2211=Lfde420_end - Lfde420_start
-	.long LDIFF_SYM2211
+LDIFF_SYM2213=Lfde420_end - Lfde420_start
+	.long LDIFF_SYM2213
 Lfde420_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITUpdateManager_set_DisableUpdateCheckOptionWhenExpired_bool
 
-LDIFF_SYM2212=Lme_201 - HockeyApp_iOS_BITUpdateManager_set_DisableUpdateCheckOptionWhenExpired_bool
-	.long LDIFF_SYM2212
+LDIFF_SYM2214=Lme_201 - HockeyApp_iOS_BITUpdateManager_set_DisableUpdateCheckOptionWhenExpired_bool
+	.long LDIFF_SYM2214
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8,154,7
 	.align 3
@@ -94527,27 +94801,27 @@ Lfde420_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2213=LTDIE_61_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2213
+LDIFF_SYM2215=LTDIE_61_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2215
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2214=LTDIE_82_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2214
+LDIFF_SYM2216=LTDIE_82_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2216
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2215=Lfde421_end - Lfde421_start
-	.long LDIFF_SYM2215
+LDIFF_SYM2217=Lfde421_end - Lfde421_start
+	.long LDIFF_SYM2217
 Lfde421_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITUpdateManager_get_ExpiryDate
 
-LDIFF_SYM2216=Lme_202 - HockeyApp_iOS_BITUpdateManager_get_ExpiryDate
-	.long LDIFF_SYM2216
+LDIFF_SYM2218=Lme_202 - HockeyApp_iOS_BITUpdateManager_get_ExpiryDate
+	.long LDIFF_SYM2218
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,154,9
 	.align 3
@@ -94566,27 +94840,27 @@ Lfde421_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2217=LTDIE_61_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2217
+LDIFF_SYM2219=LTDIE_61_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2219
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM2218=LTDIE_82_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2218
+LDIFF_SYM2220=LTDIE_82_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2220
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2219=Lfde422_end - Lfde422_start
-	.long LDIFF_SYM2219
+LDIFF_SYM2221=Lfde422_end - Lfde422_start
+	.long LDIFF_SYM2221
 Lfde422_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITUpdateManager_set_ExpiryDate_Foundation_NSDate
 
-LDIFF_SYM2220=Lme_203 - HockeyApp_iOS_BITUpdateManager_set_ExpiryDate_Foundation_NSDate
-	.long LDIFF_SYM2220
+LDIFF_SYM2222=Lme_203 - HockeyApp_iOS_BITUpdateManager_set_ExpiryDate_Foundation_NSDate
+	.long LDIFF_SYM2222
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,154,9
 	.align 3
@@ -94605,22 +94879,22 @@ Lfde422_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2221=LTDIE_61_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2221
+LDIFF_SYM2223=LTDIE_61_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2223
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2222=Lfde423_end - Lfde423_start
-	.long LDIFF_SYM2222
+LDIFF_SYM2224=Lfde423_end - Lfde423_start
+	.long LDIFF_SYM2224
 Lfde423_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITUpdateManager_get_ShowDirectInstallOption
 
-LDIFF_SYM2223=Lme_204 - HockeyApp_iOS_BITUpdateManager_get_ShowDirectInstallOption
-	.long LDIFF_SYM2223
+LDIFF_SYM2225=Lme_204 - HockeyApp_iOS_BITUpdateManager_get_ShowDirectInstallOption
+	.long LDIFF_SYM2225
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
@@ -94639,27 +94913,27 @@ Lfde423_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2224=LTDIE_61_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2224
+LDIFF_SYM2226=LTDIE_61_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2226
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM2225=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2225
+LDIFF_SYM2227=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2227
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2226=Lfde424_end - Lfde424_start
-	.long LDIFF_SYM2226
+LDIFF_SYM2228=Lfde424_end - Lfde424_start
+	.long LDIFF_SYM2228
 Lfde424_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITUpdateManager_set_ShowDirectInstallOption_bool
 
-LDIFF_SYM2227=Lme_205 - HockeyApp_iOS_BITUpdateManager_set_ShowDirectInstallOption_bool
-	.long LDIFF_SYM2227
+LDIFF_SYM2229=Lme_205 - HockeyApp_iOS_BITUpdateManager_set_ShowDirectInstallOption_bool
+	.long LDIFF_SYM2229
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8,154,7
 	.align 3
@@ -94678,27 +94952,27 @@ Lfde424_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2228=LTDIE_61_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2228
+LDIFF_SYM2230=LTDIE_61_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2230
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2229=LTDIE_118 - Ldebug_info_start
-	.long LDIFF_SYM2229
+LDIFF_SYM2231=LTDIE_118 - Ldebug_info_start
+	.long LDIFF_SYM2231
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2230=Lfde425_end - Lfde425_start
-	.long LDIFF_SYM2230
+LDIFF_SYM2232=Lfde425_end - Lfde425_start
+	.long LDIFF_SYM2232
 Lfde425_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITUpdateManager_get_UpdateSetting
 
-LDIFF_SYM2231=Lme_206 - HockeyApp_iOS_BITUpdateManager_get_UpdateSetting
-	.long LDIFF_SYM2231
+LDIFF_SYM2233=Lme_206 - HockeyApp_iOS_BITUpdateManager_get_UpdateSetting
+	.long LDIFF_SYM2233
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,154,9
 	.align 3
@@ -94717,27 +94991,27 @@ Lfde425_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2232=LTDIE_61_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2232
+LDIFF_SYM2234=LTDIE_61_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2234
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM2233=LTDIE_118 - Ldebug_info_start
-	.long LDIFF_SYM2233
+LDIFF_SYM2235=LTDIE_118 - Ldebug_info_start
+	.long LDIFF_SYM2235
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2234=Lfde426_end - Lfde426_start
-	.long LDIFF_SYM2234
+LDIFF_SYM2236=Lfde426_end - Lfde426_start
+	.long LDIFF_SYM2236
 Lfde426_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITUpdateManager_set_UpdateSetting_HockeyApp_iOS_BITUpdateSetting
 
-LDIFF_SYM2235=Lme_207 - HockeyApp_iOS_BITUpdateManager_set_UpdateSetting_HockeyApp_iOS_BITUpdateSetting
-	.long LDIFF_SYM2235
+LDIFF_SYM2237=Lme_207 - HockeyApp_iOS_BITUpdateManager_set_UpdateSetting_HockeyApp_iOS_BITUpdateSetting
+	.long LDIFF_SYM2237
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8,154,7
 	.align 3
@@ -94757,16 +95031,16 @@ Lfde426_end:
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2236=Lfde427_end - Lfde427_start
-	.long LDIFF_SYM2236
+LDIFF_SYM2238=Lfde427_end - Lfde427_start
+	.long LDIFF_SYM2238
 Lfde427_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITUpdateManager__cctor
 
-LDIFF_SYM2237=Lme_208 - HockeyApp_iOS_BITUpdateManager__cctor
-	.long LDIFF_SYM2237
+LDIFF_SYM2239=Lme_208 - HockeyApp_iOS_BITUpdateManager__cctor
+	.long LDIFF_SYM2239
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -94781,18 +95055,18 @@ LTDIE_122:
 	.byte 16,7
 	.asciz "HockeyApp_iOS_IBITUpdateManagerDelegate"
 
-LDIFF_SYM2238=LTDIE_122 - Ldebug_info_start
-	.long LDIFF_SYM2238
+LDIFF_SYM2240=LTDIE_122 - Ldebug_info_start
+	.long LDIFF_SYM2240
 LTDIE_122_POINTER:
 
 	.byte 13
-LDIFF_SYM2239=LTDIE_122 - Ldebug_info_start
-	.long LDIFF_SYM2239
+LDIFF_SYM2241=LTDIE_122 - Ldebug_info_start
+	.long LDIFF_SYM2241
 LTDIE_122_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2240=LTDIE_122 - Ldebug_info_start
-	.long LDIFF_SYM2240
+LDIFF_SYM2242=LTDIE_122 - Ldebug_info_start
+	.long LDIFF_SYM2242
 	.byte 2
 	.asciz "HockeyApp.iOS.BITUpdateManagerDelegate_Extensions:ShouldDisplayUpdateAlertForUpdateManager"
 	.asciz "HockeyApp_iOS_BITUpdateManagerDelegate_Extensions_ShouldDisplayUpdateAlertForUpdateManager_HockeyApp_iOS_IBITUpdateManagerDelegate_HockeyApp_iOS_BITUpdateManager_Foundation_NSString_Foundation_NSString"
@@ -94804,37 +95078,37 @@ LDIFF_SYM2240=LTDIE_122 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "This"
 
-LDIFF_SYM2241=LTDIE_122_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2241
+LDIFF_SYM2243=LTDIE_122_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2243
 	.byte 2,141,40,3
 	.asciz "updateManager"
 
-LDIFF_SYM2242=LTDIE_61_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2242
+LDIFF_SYM2244=LTDIE_61_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2244
 	.byte 1,104,3
 	.asciz "shortVersion"
 
-LDIFF_SYM2243=LTDIE_29_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2243
+LDIFF_SYM2245=LTDIE_29_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2245
 	.byte 1,105,3
 	.asciz "version"
 
-LDIFF_SYM2244=LTDIE_29_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2244
+LDIFF_SYM2246=LTDIE_29_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2246
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2245=Lfde428_end - Lfde428_start
-	.long LDIFF_SYM2245
+LDIFF_SYM2247=Lfde428_end - Lfde428_start
+	.long LDIFF_SYM2247
 Lfde428_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITUpdateManagerDelegate_Extensions_ShouldDisplayUpdateAlertForUpdateManager_HockeyApp_iOS_IBITUpdateManagerDelegate_HockeyApp_iOS_BITUpdateManager_Foundation_NSString_Foundation_NSString
 
-LDIFF_SYM2246=Lme_209 - HockeyApp_iOS_BITUpdateManagerDelegate_Extensions_ShouldDisplayUpdateAlertForUpdateManager_HockeyApp_iOS_IBITUpdateManagerDelegate_HockeyApp_iOS_BITUpdateManager_Foundation_NSString_Foundation_NSString
-	.long LDIFF_SYM2246
+LDIFF_SYM2248=Lme_209 - HockeyApp_iOS_BITUpdateManagerDelegate_Extensions_ShouldDisplayUpdateAlertForUpdateManager_HockeyApp_iOS_IBITUpdateManagerDelegate_HockeyApp_iOS_BITUpdateManager_Foundation_NSString_Foundation_NSString
+	.long LDIFF_SYM2248
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,152,14,153,13,68,154,12
 	.align 3
@@ -94853,27 +95127,27 @@ Lfde428_end:
 	.byte 2,118,16,3
 	.asciz "This"
 
-LDIFF_SYM2247=LTDIE_122_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2247
+LDIFF_SYM2249=LTDIE_122_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2249
 	.byte 2,141,24,3
 	.asciz "updateManager"
 
-LDIFF_SYM2248=LTDIE_61_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2248
+LDIFF_SYM2250=LTDIE_61_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2250
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2249=Lfde429_end - Lfde429_start
-	.long LDIFF_SYM2249
+LDIFF_SYM2251=Lfde429_end - Lfde429_start
+	.long LDIFF_SYM2251
 Lfde429_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITUpdateManagerDelegate_Extensions_ShouldDisplayExpiryAlertForUpdateManager_HockeyApp_iOS_IBITUpdateManagerDelegate_HockeyApp_iOS_BITUpdateManager
 
-LDIFF_SYM2250=Lme_20a - HockeyApp_iOS_BITUpdateManagerDelegate_Extensions_ShouldDisplayExpiryAlertForUpdateManager_HockeyApp_iOS_IBITUpdateManagerDelegate_HockeyApp_iOS_BITUpdateManager
-	.long LDIFF_SYM2250
+LDIFF_SYM2252=Lme_20a - HockeyApp_iOS_BITUpdateManagerDelegate_Extensions_ShouldDisplayExpiryAlertForUpdateManager_HockeyApp_iOS_IBITUpdateManagerDelegate_HockeyApp_iOS_BITUpdateManager
+	.long LDIFF_SYM2252
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,154,10
 	.align 3
@@ -94892,27 +95166,27 @@ Lfde429_end:
 	.byte 2,118,16,3
 	.asciz "This"
 
-LDIFF_SYM2251=LTDIE_122_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2251
+LDIFF_SYM2253=LTDIE_122_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2253
 	.byte 2,141,24,3
 	.asciz "updateManager"
 
-LDIFF_SYM2252=LTDIE_61_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2252
+LDIFF_SYM2254=LTDIE_61_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2254
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2253=Lfde430_end - Lfde430_start
-	.long LDIFF_SYM2253
+LDIFF_SYM2255=Lfde430_end - Lfde430_start
+	.long LDIFF_SYM2255
 Lfde430_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITUpdateManagerDelegate_Extensions_DidDisplayExpiryAlertForUpdateManager_HockeyApp_iOS_IBITUpdateManagerDelegate_HockeyApp_iOS_BITUpdateManager
 
-LDIFF_SYM2254=Lme_20b - HockeyApp_iOS_BITUpdateManagerDelegate_Extensions_DidDisplayExpiryAlertForUpdateManager_HockeyApp_iOS_IBITUpdateManagerDelegate_HockeyApp_iOS_BITUpdateManager
-	.long LDIFF_SYM2254
+LDIFF_SYM2256=Lme_20b - HockeyApp_iOS_BITUpdateManagerDelegate_Extensions_DidDisplayExpiryAlertForUpdateManager_HockeyApp_iOS_IBITUpdateManagerDelegate_HockeyApp_iOS_BITUpdateManager
+	.long LDIFF_SYM2256
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,154,10
 	.align 3
@@ -94931,27 +95205,27 @@ Lfde430_end:
 	.byte 2,118,16,3
 	.asciz "This"
 
-LDIFF_SYM2255=LTDIE_122_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2255
+LDIFF_SYM2257=LTDIE_122_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2257
 	.byte 2,141,24,3
 	.asciz "updateManager"
 
-LDIFF_SYM2256=LTDIE_61_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2256
+LDIFF_SYM2258=LTDIE_61_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2258
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2257=Lfde431_end - Lfde431_start
-	.long LDIFF_SYM2257
+LDIFF_SYM2259=Lfde431_end - Lfde431_start
+	.long LDIFF_SYM2259
 Lfde431_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITUpdateManagerDelegate_Extensions_UpdateManagerShouldSendUsageData_HockeyApp_iOS_IBITUpdateManagerDelegate_HockeyApp_iOS_BITUpdateManager
 
-LDIFF_SYM2258=Lme_20c - HockeyApp_iOS_BITUpdateManagerDelegate_Extensions_UpdateManagerShouldSendUsageData_HockeyApp_iOS_IBITUpdateManagerDelegate_HockeyApp_iOS_BITUpdateManager
-	.long LDIFF_SYM2258
+LDIFF_SYM2260=Lme_20c - HockeyApp_iOS_BITUpdateManagerDelegate_Extensions_UpdateManagerShouldSendUsageData_HockeyApp_iOS_IBITUpdateManagerDelegate_HockeyApp_iOS_BITUpdateManager
+	.long LDIFF_SYM2260
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,154,10
 	.align 3
@@ -94970,27 +95244,27 @@ Lfde431_end:
 	.byte 2,118,16,3
 	.asciz "This"
 
-LDIFF_SYM2259=LTDIE_122_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2259
+LDIFF_SYM2261=LTDIE_122_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2261
 	.byte 2,141,24,3
 	.asciz "updateManager"
 
-LDIFF_SYM2260=LTDIE_61_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2260
+LDIFF_SYM2262=LTDIE_61_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2262
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2261=Lfde432_end - Lfde432_start
-	.long LDIFF_SYM2261
+LDIFF_SYM2263=Lfde432_end - Lfde432_start
+	.long LDIFF_SYM2263
 Lfde432_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITUpdateManagerDelegate_Extensions_UpdateManagerWillExitApp_HockeyApp_iOS_IBITUpdateManagerDelegate_HockeyApp_iOS_BITUpdateManager
 
-LDIFF_SYM2262=Lme_20d - HockeyApp_iOS_BITUpdateManagerDelegate_Extensions_UpdateManagerWillExitApp_HockeyApp_iOS_IBITUpdateManagerDelegate_HockeyApp_iOS_BITUpdateManager
-	.long LDIFF_SYM2262
+LDIFF_SYM2264=Lme_20d - HockeyApp_iOS_BITUpdateManagerDelegate_Extensions_UpdateManagerWillExitApp_HockeyApp_iOS_IBITUpdateManagerDelegate_HockeyApp_iOS_BITUpdateManager
+	.long LDIFF_SYM2264
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,154,10
 	.align 3
@@ -95009,27 +95283,27 @@ Lfde432_end:
 	.byte 2,118,16,3
 	.asciz "This"
 
-LDIFF_SYM2263=LTDIE_122_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2263
+LDIFF_SYM2265=LTDIE_122_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2265
 	.byte 2,141,24,3
 	.asciz "updateManager"
 
-LDIFF_SYM2264=LTDIE_61_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2264
+LDIFF_SYM2266=LTDIE_61_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2266
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2265=Lfde433_end - Lfde433_start
-	.long LDIFF_SYM2265
+LDIFF_SYM2267=Lfde433_end - Lfde433_start
+	.long LDIFF_SYM2267
 Lfde433_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITUpdateManagerDelegate_Extensions_WillStartDownloadAndUpdated_HockeyApp_iOS_IBITUpdateManagerDelegate_HockeyApp_iOS_BITUpdateManager
 
-LDIFF_SYM2266=Lme_20e - HockeyApp_iOS_BITUpdateManagerDelegate_Extensions_WillStartDownloadAndUpdated_HockeyApp_iOS_IBITUpdateManagerDelegate_HockeyApp_iOS_BITUpdateManager
-	.long LDIFF_SYM2266
+LDIFF_SYM2268=Lme_20e - HockeyApp_iOS_BITUpdateManagerDelegate_Extensions_WillStartDownloadAndUpdated_HockeyApp_iOS_IBITUpdateManagerDelegate_HockeyApp_iOS_BITUpdateManager
+	.long LDIFF_SYM2268
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,154,10
 	.align 3
@@ -95042,23 +95316,23 @@ LTDIE_123:
 	.asciz "HockeyApp_iOS_BITUpdateManagerDelegateWrapper"
 
 	.byte 24,16
-LDIFF_SYM2267=LTDIE_75 - Ldebug_info_start
-	.long LDIFF_SYM2267
+LDIFF_SYM2269=LTDIE_75 - Ldebug_info_start
+	.long LDIFF_SYM2269
 	.byte 2,35,0,0,7
 	.asciz "HockeyApp_iOS_BITUpdateManagerDelegateWrapper"
 
-LDIFF_SYM2268=LTDIE_123 - Ldebug_info_start
-	.long LDIFF_SYM2268
+LDIFF_SYM2270=LTDIE_123 - Ldebug_info_start
+	.long LDIFF_SYM2270
 LTDIE_123_POINTER:
 
 	.byte 13
-LDIFF_SYM2269=LTDIE_123 - Ldebug_info_start
-	.long LDIFF_SYM2269
+LDIFF_SYM2271=LTDIE_123 - Ldebug_info_start
+	.long LDIFF_SYM2271
 LTDIE_123_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2270=LTDIE_123 - Ldebug_info_start
-	.long LDIFF_SYM2270
+LDIFF_SYM2272=LTDIE_123 - Ldebug_info_start
+	.long LDIFF_SYM2272
 	.byte 2
 	.asciz "HockeyApp.iOS.BITUpdateManagerDelegateWrapper:.ctor"
 	.asciz "HockeyApp_iOS_BITUpdateManagerDelegateWrapper__ctor_intptr_bool"
@@ -95070,32 +95344,32 @@ LDIFF_SYM2270=LTDIE_123 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2271=LTDIE_123_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2271
+LDIFF_SYM2273=LTDIE_123_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2273
 	.byte 2,141,16,3
 	.asciz "handle"
 
-LDIFF_SYM2272=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2272
+LDIFF_SYM2274=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2274
 	.byte 2,141,24,3
 	.asciz "owns"
 
-LDIFF_SYM2273=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2273
+LDIFF_SYM2275=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2275
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2274=Lfde434_end - Lfde434_start
-	.long LDIFF_SYM2274
+LDIFF_SYM2276=Lfde434_end - Lfde434_start
+	.long LDIFF_SYM2276
 Lfde434_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITUpdateManagerDelegateWrapper__ctor_intptr_bool
 
-LDIFF_SYM2275=Lme_20f - HockeyApp_iOS_BITUpdateManagerDelegateWrapper__ctor_intptr_bool
-	.long LDIFF_SYM2275
+LDIFF_SYM2277=Lme_20f - HockeyApp_iOS_BITUpdateManagerDelegateWrapper__ctor_intptr_bool
+	.long LDIFF_SYM2277
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -95108,23 +95382,23 @@ LTDIE_124:
 	.asciz "HockeyApp_iOS_BITUpdateManagerDelegate"
 
 	.byte 40,16
-LDIFF_SYM2276=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM2276
+LDIFF_SYM2278=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM2278
 	.byte 2,35,0,0,7
 	.asciz "HockeyApp_iOS_BITUpdateManagerDelegate"
 
-LDIFF_SYM2277=LTDIE_124 - Ldebug_info_start
-	.long LDIFF_SYM2277
+LDIFF_SYM2279=LTDIE_124 - Ldebug_info_start
+	.long LDIFF_SYM2279
 LTDIE_124_POINTER:
 
 	.byte 13
-LDIFF_SYM2278=LTDIE_124 - Ldebug_info_start
-	.long LDIFF_SYM2278
+LDIFF_SYM2280=LTDIE_124 - Ldebug_info_start
+	.long LDIFF_SYM2280
 LTDIE_124_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2279=LTDIE_124 - Ldebug_info_start
-	.long LDIFF_SYM2279
+LDIFF_SYM2281=LTDIE_124 - Ldebug_info_start
+	.long LDIFF_SYM2281
 	.byte 2
 	.asciz "HockeyApp.iOS.BITUpdateManagerDelegate:.ctor"
 	.asciz "HockeyApp_iOS_BITUpdateManagerDelegate__ctor"
@@ -95136,22 +95410,22 @@ LDIFF_SYM2279=LTDIE_124 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2280=LTDIE_124_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2280
+LDIFF_SYM2282=LTDIE_124_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2282
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2281=Lfde435_end - Lfde435_start
-	.long LDIFF_SYM2281
+LDIFF_SYM2283=Lfde435_end - Lfde435_start
+	.long LDIFF_SYM2283
 Lfde435_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITUpdateManagerDelegate__ctor
 
-LDIFF_SYM2282=Lme_210 - HockeyApp_iOS_BITUpdateManagerDelegate__ctor
-	.long LDIFF_SYM2282
+LDIFF_SYM2284=Lme_210 - HockeyApp_iOS_BITUpdateManagerDelegate__ctor
+	.long LDIFF_SYM2284
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
@@ -95170,27 +95444,27 @@ Lfde435_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2283=LTDIE_124_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2283
+LDIFF_SYM2285=LTDIE_124_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2285
 	.byte 1,105,3
 	.asciz "t"
 
-LDIFF_SYM2284=LTDIE_52_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2284
+LDIFF_SYM2286=LTDIE_52_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2286
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2285=Lfde436_end - Lfde436_start
-	.long LDIFF_SYM2285
+LDIFF_SYM2287=Lfde436_end - Lfde436_start
+	.long LDIFF_SYM2287
 Lfde436_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITUpdateManagerDelegate__ctor_Foundation_NSObjectFlag
 
-LDIFF_SYM2286=Lme_211 - HockeyApp_iOS_BITUpdateManagerDelegate__ctor_Foundation_NSObjectFlag
-	.long LDIFF_SYM2286
+LDIFF_SYM2288=Lme_211 - HockeyApp_iOS_BITUpdateManagerDelegate__ctor_Foundation_NSObjectFlag
+	.long LDIFF_SYM2288
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10
 	.align 3
@@ -95209,27 +95483,27 @@ Lfde436_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2287=LTDIE_124_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2287
+LDIFF_SYM2289=LTDIE_124_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2289
 	.byte 1,105,3
 	.asciz "handle"
 
-LDIFF_SYM2288=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2288
+LDIFF_SYM2290=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2290
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2289=Lfde437_end - Lfde437_start
-	.long LDIFF_SYM2289
+LDIFF_SYM2291=Lfde437_end - Lfde437_start
+	.long LDIFF_SYM2291
 Lfde437_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITUpdateManagerDelegate__ctor_intptr
 
-LDIFF_SYM2290=Lme_212 - HockeyApp_iOS_BITUpdateManagerDelegate__ctor_intptr
-	.long LDIFF_SYM2290
+LDIFF_SYM2292=Lme_212 - HockeyApp_iOS_BITUpdateManagerDelegate__ctor_intptr
+	.long LDIFF_SYM2292
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10
 	.align 3
@@ -95248,27 +95522,27 @@ Lfde437_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2291=LTDIE_124_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2291
+LDIFF_SYM2293=LTDIE_124_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2293
 	.byte 2,141,16,3
 	.asciz "updateManager"
 
-LDIFF_SYM2292=LTDIE_61_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2292
+LDIFF_SYM2294=LTDIE_61_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2294
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2293=Lfde438_end - Lfde438_start
-	.long LDIFF_SYM2293
+LDIFF_SYM2295=Lfde438_end - Lfde438_start
+	.long LDIFF_SYM2295
 Lfde438_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITUpdateManagerDelegate_DidDisplayExpiryAlertForUpdateManager_HockeyApp_iOS_BITUpdateManager
 
-LDIFF_SYM2294=Lme_213 - HockeyApp_iOS_BITUpdateManagerDelegate_DidDisplayExpiryAlertForUpdateManager_HockeyApp_iOS_BITUpdateManager
-	.long LDIFF_SYM2294
+LDIFF_SYM2296=Lme_213 - HockeyApp_iOS_BITUpdateManagerDelegate_DidDisplayExpiryAlertForUpdateManager_HockeyApp_iOS_BITUpdateManager
+	.long LDIFF_SYM2296
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
@@ -95287,27 +95561,27 @@ Lfde438_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2295=LTDIE_124_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2295
+LDIFF_SYM2297=LTDIE_124_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2297
 	.byte 2,141,16,3
 	.asciz "updateManager"
 
-LDIFF_SYM2296=LTDIE_61_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2296
+LDIFF_SYM2298=LTDIE_61_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2298
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2297=Lfde439_end - Lfde439_start
-	.long LDIFF_SYM2297
+LDIFF_SYM2299=Lfde439_end - Lfde439_start
+	.long LDIFF_SYM2299
 Lfde439_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITUpdateManagerDelegate_ShouldDisplayExpiryAlertForUpdateManager_HockeyApp_iOS_BITUpdateManager
 
-LDIFF_SYM2298=Lme_214 - HockeyApp_iOS_BITUpdateManagerDelegate_ShouldDisplayExpiryAlertForUpdateManager_HockeyApp_iOS_BITUpdateManager
-	.long LDIFF_SYM2298
+LDIFF_SYM2300=Lme_214 - HockeyApp_iOS_BITUpdateManagerDelegate_ShouldDisplayExpiryAlertForUpdateManager_HockeyApp_iOS_BITUpdateManager
+	.long LDIFF_SYM2300
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
@@ -95326,37 +95600,37 @@ Lfde439_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2299=LTDIE_124_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2299
+LDIFF_SYM2301=LTDIE_124_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2301
 	.byte 2,141,16,3
 	.asciz "updateManager"
 
-LDIFF_SYM2300=LTDIE_61_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2300
+LDIFF_SYM2302=LTDIE_61_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2302
 	.byte 2,141,24,3
 	.asciz "shortVersion"
 
-LDIFF_SYM2301=LTDIE_29_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2301
+LDIFF_SYM2303=LTDIE_29_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2303
 	.byte 2,141,32,3
 	.asciz "version"
 
-LDIFF_SYM2302=LTDIE_29_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2302
+LDIFF_SYM2304=LTDIE_29_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2304
 	.byte 2,141,40,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2303=Lfde440_end - Lfde440_start
-	.long LDIFF_SYM2303
+LDIFF_SYM2305=Lfde440_end - Lfde440_start
+	.long LDIFF_SYM2305
 Lfde440_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITUpdateManagerDelegate_ShouldDisplayUpdateAlertForUpdateManager_HockeyApp_iOS_BITUpdateManager_Foundation_NSString_Foundation_NSString
 
-LDIFF_SYM2304=Lme_215 - HockeyApp_iOS_BITUpdateManagerDelegate_ShouldDisplayUpdateAlertForUpdateManager_HockeyApp_iOS_BITUpdateManager_Foundation_NSString_Foundation_NSString
-	.long LDIFF_SYM2304
+LDIFF_SYM2306=Lme_215 - HockeyApp_iOS_BITUpdateManagerDelegate_ShouldDisplayUpdateAlertForUpdateManager_HockeyApp_iOS_BITUpdateManager_Foundation_NSString_Foundation_NSString
+	.long LDIFF_SYM2306
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29
 	.align 3
@@ -95375,27 +95649,27 @@ Lfde440_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2305=LTDIE_124_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2305
+LDIFF_SYM2307=LTDIE_124_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2307
 	.byte 2,141,16,3
 	.asciz "updateManager"
 
-LDIFF_SYM2306=LTDIE_61_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2306
+LDIFF_SYM2308=LTDIE_61_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2308
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2307=Lfde441_end - Lfde441_start
-	.long LDIFF_SYM2307
+LDIFF_SYM2309=Lfde441_end - Lfde441_start
+	.long LDIFF_SYM2309
 Lfde441_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITUpdateManagerDelegate_UpdateManagerShouldSendUsageData_HockeyApp_iOS_BITUpdateManager
 
-LDIFF_SYM2308=Lme_216 - HockeyApp_iOS_BITUpdateManagerDelegate_UpdateManagerShouldSendUsageData_HockeyApp_iOS_BITUpdateManager
-	.long LDIFF_SYM2308
+LDIFF_SYM2310=Lme_216 - HockeyApp_iOS_BITUpdateManagerDelegate_UpdateManagerShouldSendUsageData_HockeyApp_iOS_BITUpdateManager
+	.long LDIFF_SYM2310
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
@@ -95414,27 +95688,27 @@ Lfde441_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2309=LTDIE_124_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2309
+LDIFF_SYM2311=LTDIE_124_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2311
 	.byte 2,141,16,3
 	.asciz "updateManager"
 
-LDIFF_SYM2310=LTDIE_61_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2310
+LDIFF_SYM2312=LTDIE_61_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2312
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2311=Lfde442_end - Lfde442_start
-	.long LDIFF_SYM2311
+LDIFF_SYM2313=Lfde442_end - Lfde442_start
+	.long LDIFF_SYM2313
 Lfde442_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITUpdateManagerDelegate_UpdateManagerWillExitApp_HockeyApp_iOS_BITUpdateManager
 
-LDIFF_SYM2312=Lme_217 - HockeyApp_iOS_BITUpdateManagerDelegate_UpdateManagerWillExitApp_HockeyApp_iOS_BITUpdateManager
-	.long LDIFF_SYM2312
+LDIFF_SYM2314=Lme_217 - HockeyApp_iOS_BITUpdateManagerDelegate_UpdateManagerWillExitApp_HockeyApp_iOS_BITUpdateManager
+	.long LDIFF_SYM2314
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
@@ -95453,27 +95727,27 @@ Lfde442_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2313=LTDIE_124_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2313
+LDIFF_SYM2315=LTDIE_124_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2315
 	.byte 2,141,16,3
 	.asciz "updateManager"
 
-LDIFF_SYM2314=LTDIE_61_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2314
+LDIFF_SYM2316=LTDIE_61_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2316
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2315=Lfde443_end - Lfde443_start
-	.long LDIFF_SYM2315
+LDIFF_SYM2317=Lfde443_end - Lfde443_start
+	.long LDIFF_SYM2317
 Lfde443_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITUpdateManagerDelegate_WillStartDownloadAndUpdated_HockeyApp_iOS_BITUpdateManager
 
-LDIFF_SYM2316=Lme_218 - HockeyApp_iOS_BITUpdateManagerDelegate_WillStartDownloadAndUpdated_HockeyApp_iOS_BITUpdateManager
-	.long LDIFF_SYM2316
+LDIFF_SYM2318=Lme_218 - HockeyApp_iOS_BITUpdateManagerDelegate_WillStartDownloadAndUpdated_HockeyApp_iOS_BITUpdateManager
+	.long LDIFF_SYM2318
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
@@ -95485,24 +95759,24 @@ LTDIE_125:
 	.byte 5
 	.asciz "HockeyApp_iOS_BITUpdateViewController"
 
-	.byte 48,16
-LDIFF_SYM2317=LTDIE_99 - Ldebug_info_start
-	.long LDIFF_SYM2317
+	.byte 56,16
+LDIFF_SYM2319=LTDIE_99 - Ldebug_info_start
+	.long LDIFF_SYM2319
 	.byte 2,35,0,0,7
 	.asciz "HockeyApp_iOS_BITUpdateViewController"
 
-LDIFF_SYM2318=LTDIE_125 - Ldebug_info_start
-	.long LDIFF_SYM2318
+LDIFF_SYM2320=LTDIE_125 - Ldebug_info_start
+	.long LDIFF_SYM2320
 LTDIE_125_POINTER:
 
 	.byte 13
-LDIFF_SYM2319=LTDIE_125 - Ldebug_info_start
-	.long LDIFF_SYM2319
+LDIFF_SYM2321=LTDIE_125 - Ldebug_info_start
+	.long LDIFF_SYM2321
 LTDIE_125_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2320=LTDIE_125 - Ldebug_info_start
-	.long LDIFF_SYM2320
+LDIFF_SYM2322=LTDIE_125 - Ldebug_info_start
+	.long LDIFF_SYM2322
 	.byte 2
 	.asciz "HockeyApp.iOS.BITUpdateViewController:get_ClassHandle"
 	.asciz "HockeyApp_iOS_BITUpdateViewController_get_ClassHandle"
@@ -95514,22 +95788,22 @@ LDIFF_SYM2320=LTDIE_125 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2321=LTDIE_125_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2321
+LDIFF_SYM2323=LTDIE_125_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2323
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2322=Lfde444_end - Lfde444_start
-	.long LDIFF_SYM2322
+LDIFF_SYM2324=Lfde444_end - Lfde444_start
+	.long LDIFF_SYM2324
 Lfde444_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITUpdateViewController_get_ClassHandle
 
-LDIFF_SYM2323=Lme_219 - HockeyApp_iOS_BITUpdateViewController_get_ClassHandle
-	.long LDIFF_SYM2323
+LDIFF_SYM2325=Lme_219 - HockeyApp_iOS_BITUpdateViewController_get_ClassHandle
+	.long LDIFF_SYM2325
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -95548,22 +95822,22 @@ Lfde444_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2324=LTDIE_125_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2324
+LDIFF_SYM2326=LTDIE_125_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2326
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2325=Lfde445_end - Lfde445_start
-	.long LDIFF_SYM2325
+LDIFF_SYM2327=Lfde445_end - Lfde445_start
+	.long LDIFF_SYM2327
 Lfde445_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITUpdateViewController__ctor
 
-LDIFF_SYM2326=Lme_21a - HockeyApp_iOS_BITUpdateViewController__ctor
-	.long LDIFF_SYM2326
+LDIFF_SYM2328=Lme_21a - HockeyApp_iOS_BITUpdateViewController__ctor
+	.long LDIFF_SYM2328
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
@@ -95582,27 +95856,27 @@ Lfde445_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2327=LTDIE_125_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2327
+LDIFF_SYM2329=LTDIE_125_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2329
 	.byte 1,105,3
 	.asciz "coder"
 
-LDIFF_SYM2328=LTDIE_79_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2328
+LDIFF_SYM2330=LTDIE_79_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2330
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2329=Lfde446_end - Lfde446_start
-	.long LDIFF_SYM2329
+LDIFF_SYM2331=Lfde446_end - Lfde446_start
+	.long LDIFF_SYM2331
 Lfde446_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITUpdateViewController__ctor_Foundation_NSCoder
 
-LDIFF_SYM2330=Lme_21b - HockeyApp_iOS_BITUpdateViewController__ctor_Foundation_NSCoder
-	.long LDIFF_SYM2330
+LDIFF_SYM2332=Lme_21b - HockeyApp_iOS_BITUpdateViewController__ctor_Foundation_NSCoder
+	.long LDIFF_SYM2332
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,154,9
 	.align 3
@@ -95621,27 +95895,27 @@ Lfde446_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2331=LTDIE_125_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2331
+LDIFF_SYM2333=LTDIE_125_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2333
 	.byte 1,105,3
 	.asciz "t"
 
-LDIFF_SYM2332=LTDIE_52_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2332
+LDIFF_SYM2334=LTDIE_52_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2334
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2333=Lfde447_end - Lfde447_start
-	.long LDIFF_SYM2333
+LDIFF_SYM2335=Lfde447_end - Lfde447_start
+	.long LDIFF_SYM2335
 Lfde447_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITUpdateViewController__ctor_Foundation_NSObjectFlag
 
-LDIFF_SYM2334=Lme_21c - HockeyApp_iOS_BITUpdateViewController__ctor_Foundation_NSObjectFlag
-	.long LDIFF_SYM2334
+LDIFF_SYM2336=Lme_21c - HockeyApp_iOS_BITUpdateViewController__ctor_Foundation_NSObjectFlag
+	.long LDIFF_SYM2336
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10
 	.align 3
@@ -95660,27 +95934,27 @@ Lfde447_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2335=LTDIE_125_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2335
+LDIFF_SYM2337=LTDIE_125_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2337
 	.byte 1,105,3
 	.asciz "handle"
 
-LDIFF_SYM2336=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2336
+LDIFF_SYM2338=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2338
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2337=Lfde448_end - Lfde448_start
-	.long LDIFF_SYM2337
+LDIFF_SYM2339=Lfde448_end - Lfde448_start
+	.long LDIFF_SYM2339
 Lfde448_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITUpdateViewController__ctor_intptr
 
-LDIFF_SYM2338=Lme_21d - HockeyApp_iOS_BITUpdateViewController__ctor_intptr
-	.long LDIFF_SYM2338
+LDIFF_SYM2340=Lme_21d - HockeyApp_iOS_BITUpdateViewController__ctor_intptr
+	.long LDIFF_SYM2340
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10
 	.align 3
@@ -95700,16 +95974,16 @@ Lfde448_end:
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2339=Lfde449_end - Lfde449_start
-	.long LDIFF_SYM2339
+LDIFF_SYM2341=Lfde449_end - Lfde449_start
+	.long LDIFF_SYM2341
 Lfde449_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_BITUpdateViewController__cctor
 
-LDIFF_SYM2340=Lme_21e - HockeyApp_iOS_BITUpdateViewController__cctor
-	.long LDIFF_SYM2340
+LDIFF_SYM2342=Lme_21e - HockeyApp_iOS_BITUpdateViewController__cctor
+	.long LDIFF_SYM2342
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -95729,16 +96003,16 @@ Lfde449_end:
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2341=Lfde450_end - Lfde450_start
-	.long LDIFF_SYM2341
+LDIFF_SYM2343=Lfde450_end - Lfde450_start
+	.long LDIFF_SYM2343
 Lfde450_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_Constants_get_AuthenticatorErrorDomain
 
-LDIFF_SYM2342=Lme_21f - HockeyApp_iOS_Constants_get_AuthenticatorErrorDomain
-	.long LDIFF_SYM2342
+LDIFF_SYM2344=Lme_21f - HockeyApp_iOS_Constants_get_AuthenticatorErrorDomain
+	.long LDIFF_SYM2344
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -95758,16 +96032,16 @@ Lfde450_end:
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2343=Lfde451_end - Lfde451_start
-	.long LDIFF_SYM2343
+LDIFF_SYM2345=Lfde451_end - Lfde451_start
+	.long LDIFF_SYM2345
 Lfde451_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_Constants_get_CrashErrorDomain
 
-LDIFF_SYM2344=Lme_220 - HockeyApp_iOS_Constants_get_CrashErrorDomain
-	.long LDIFF_SYM2344
+LDIFF_SYM2346=Lme_220 - HockeyApp_iOS_Constants_get_CrashErrorDomain
+	.long LDIFF_SYM2346
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -95787,16 +96061,16 @@ Lfde451_end:
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2345=Lfde452_end - Lfde452_start
-	.long LDIFF_SYM2345
+LDIFF_SYM2347=Lfde452_end - Lfde452_start
+	.long LDIFF_SYM2347
 Lfde452_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_Constants_get_FeedbackErrorDomain
 
-LDIFF_SYM2346=Lme_221 - HockeyApp_iOS_Constants_get_FeedbackErrorDomain
-	.long LDIFF_SYM2346
+LDIFF_SYM2348=Lme_221 - HockeyApp_iOS_Constants_get_FeedbackErrorDomain
+	.long LDIFF_SYM2348
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -95816,16 +96090,16 @@ Lfde452_end:
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2347=Lfde453_end - Lfde453_start
-	.long LDIFF_SYM2347
+LDIFF_SYM2349=Lfde453_end - Lfde453_start
+	.long LDIFF_SYM2349
 Lfde453_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_Constants_get_HockeyErrorDomain
 
-LDIFF_SYM2348=Lme_222 - HockeyApp_iOS_Constants_get_HockeyErrorDomain
-	.long LDIFF_SYM2348
+LDIFF_SYM2350=Lme_222 - HockeyApp_iOS_Constants_get_HockeyErrorDomain
+	.long LDIFF_SYM2350
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -95845,16 +96119,16 @@ Lfde453_end:
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2349=Lfde454_end - Lfde454_start
-	.long LDIFF_SYM2349
+LDIFF_SYM2351=Lfde454_end - Lfde454_start
+	.long LDIFF_SYM2351
 Lfde454_start:
 
 	.long 0
 	.align 3
 	.quad HockeyApp_iOS_Constants_get_UpdateErrorDomain
 
-LDIFF_SYM2350=Lme_223 - HockeyApp_iOS_Constants_get_UpdateErrorDomain
-	.long LDIFF_SYM2350
+LDIFF_SYM2352=Lme_223 - HockeyApp_iOS_Constants_get_UpdateErrorDomain
+	.long LDIFF_SYM2352
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -95867,46 +96141,46 @@ LTDIE_126:
 	.asciz "System_EventHandler`1"
 
 	.byte 112,16
-LDIFF_SYM2351=LTDIE_5 - Ldebug_info_start
-	.long LDIFF_SYM2351
+LDIFF_SYM2353=LTDIE_5 - Ldebug_info_start
+	.long LDIFF_SYM2353
 	.byte 2,35,0,0,7
 	.asciz "System_EventHandler`1"
 
-LDIFF_SYM2352=LTDIE_126 - Ldebug_info_start
-	.long LDIFF_SYM2352
+LDIFF_SYM2354=LTDIE_126 - Ldebug_info_start
+	.long LDIFF_SYM2354
 LTDIE_126_POINTER:
 
 	.byte 13
-LDIFF_SYM2353=LTDIE_126 - Ldebug_info_start
-	.long LDIFF_SYM2353
+LDIFF_SYM2355=LTDIE_126 - Ldebug_info_start
+	.long LDIFF_SYM2355
 LTDIE_126_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2354=LTDIE_126 - Ldebug_info_start
-	.long LDIFF_SYM2354
+LDIFF_SYM2356=LTDIE_126 - Ldebug_info_start
+	.long LDIFF_SYM2356
 LTDIE_127:
 
 	.byte 5
 	.asciz "System_Array"
 
 	.byte 16,16
-LDIFF_SYM2355=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM2355
+LDIFF_SYM2357=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM2357
 	.byte 2,35,0,0,7
 	.asciz "System_Array"
 
-LDIFF_SYM2356=LTDIE_127 - Ldebug_info_start
-	.long LDIFF_SYM2356
+LDIFF_SYM2358=LTDIE_127 - Ldebug_info_start
+	.long LDIFF_SYM2358
 LTDIE_127_POINTER:
 
 	.byte 13
-LDIFF_SYM2357=LTDIE_127 - Ldebug_info_start
-	.long LDIFF_SYM2357
+LDIFF_SYM2359=LTDIE_127 - Ldebug_info_start
+	.long LDIFF_SYM2359
 LTDIE_127_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2358=LTDIE_127 - Ldebug_info_start
-	.long LDIFF_SYM2358
+LDIFF_SYM2360=LTDIE_127 - Ldebug_info_start
+	.long LDIFF_SYM2360
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.EventHandler`1<System.Threading.Tasks.UnobservedTaskExceptionEventArgs>:invoke_void_object_TEventArgs"
 	.asciz "wrapper_delegate_invoke_System_EventHandler_1_System_Threading_Tasks_UnobservedTaskExceptionEventArgs_invoke_void_object_TEventArgs_object_System_Threading_Tasks_UnobservedTaskExceptionEventArgs"
@@ -95918,57 +96192,57 @@ LDIFF_SYM2358=LTDIE_127 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2359=LTDIE_126_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2359
+LDIFF_SYM2361=LTDIE_126_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2361
 	.byte 1,104,3
 	.asciz "param0"
 
-LDIFF_SYM2360=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2360
+LDIFF_SYM2362=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2362
 	.byte 1,105,3
 	.asciz "param1"
 
-LDIFF_SYM2361=LTDIE_64_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2361
+LDIFF_SYM2363=LTDIE_64_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2363
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2362=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2362
+LDIFF_SYM2364=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2364
 	.byte 1,103,11
 	.asciz "V_1"
 
-LDIFF_SYM2363=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2363
+LDIFF_SYM2365=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2365
 	.byte 1,102,11
 	.asciz "V_2"
 
-LDIFF_SYM2364=LTDIE_127_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2364
+LDIFF_SYM2366=LTDIE_127_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2366
 	.byte 1,101,11
 	.asciz "V_3"
 
-LDIFF_SYM2365=LTDIE_5_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2365
+LDIFF_SYM2367=LTDIE_5_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2367
 	.byte 1,100,11
 	.asciz "V_4"
 
-LDIFF_SYM2366=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2366
+LDIFF_SYM2368=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2368
 	.byte 1,99,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2367=Lfde455_end - Lfde455_start
-	.long LDIFF_SYM2367
+LDIFF_SYM2369=Lfde455_end - Lfde455_start
+	.long LDIFF_SYM2369
 Lfde455_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_EventHandler_1_System_Threading_Tasks_UnobservedTaskExceptionEventArgs_invoke_void_object_TEventArgs_object_System_Threading_Tasks_UnobservedTaskExceptionEventArgs
 
-LDIFF_SYM2368=Lme_235 - wrapper_delegate_invoke_System_EventHandler_1_System_Threading_Tasks_UnobservedTaskExceptionEventArgs_invoke_void_object_TEventArgs_object_System_Threading_Tasks_UnobservedTaskExceptionEventArgs
-	.long LDIFF_SYM2368
+LDIFF_SYM2370=Lme_235 - wrapper_delegate_invoke_System_EventHandler_1_System_Threading_Tasks_UnobservedTaskExceptionEventArgs_invoke_void_object_TEventArgs_object_System_Threading_Tasks_UnobservedTaskExceptionEventArgs
+	.long LDIFF_SYM2370
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
@@ -95984,18 +96258,18 @@ LTDIE_128:
 	.byte 16,7
 	.asciz "_<Module>"
 
-LDIFF_SYM2369=LTDIE_128 - Ldebug_info_start
-	.long LDIFF_SYM2369
+LDIFF_SYM2371=LTDIE_128 - Ldebug_info_start
+	.long LDIFF_SYM2371
 LTDIE_128_POINTER:
 
 	.byte 13
-LDIFF_SYM2370=LTDIE_128 - Ldebug_info_start
-	.long LDIFF_SYM2370
+LDIFF_SYM2372=LTDIE_128 - Ldebug_info_start
+	.long LDIFF_SYM2372
 LTDIE_128_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2371=LTDIE_128 - Ldebug_info_start
-	.long LDIFF_SYM2371
+LDIFF_SYM2373=LTDIE_128 - Ldebug_info_start
+	.long LDIFF_SYM2373
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_<Module>:invoke_void_intptr_bool_intptr"
 	.asciz "wrapper_delegate_invoke__Module_invoke_void_intptr_bool_intptr_intptr_bool_intptr"
@@ -96007,62 +96281,62 @@ LDIFF_SYM2371=LTDIE_128 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2372=LTDIE_128_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2372
+LDIFF_SYM2374=LTDIE_128_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2374
 	.byte 1,103,3
 	.asciz "param0"
 
-LDIFF_SYM2373=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2373
+LDIFF_SYM2375=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2375
 	.byte 1,104,3
 	.asciz "param1"
 
-LDIFF_SYM2374=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2374
+LDIFF_SYM2376=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2376
 	.byte 1,105,3
 	.asciz "param2"
 
-LDIFF_SYM2375=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2375
+LDIFF_SYM2377=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2377
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2376=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2376
+LDIFF_SYM2378=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2378
 	.byte 1,102,11
 	.asciz "V_1"
 
-LDIFF_SYM2377=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2377
+LDIFF_SYM2379=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2379
 	.byte 1,101,11
 	.asciz "V_2"
 
-LDIFF_SYM2378=LTDIE_127_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2378
+LDIFF_SYM2380=LTDIE_127_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2380
 	.byte 1,100,11
 	.asciz "V_3"
 
-LDIFF_SYM2379=LTDIE_5_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2379
+LDIFF_SYM2381=LTDIE_5_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2381
 	.byte 1,99,11
 	.asciz "V_4"
 
-LDIFF_SYM2380=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2380
+LDIFF_SYM2382=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2382
 	.byte 3,141,232,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2381=Lfde456_end - Lfde456_start
-	.long LDIFF_SYM2381
+LDIFF_SYM2383=Lfde456_end - Lfde456_start
+	.long LDIFF_SYM2383
 Lfde456_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke__Module_invoke_void_intptr_bool_intptr_intptr_bool_intptr
 
-LDIFF_SYM2382=Lme_236 - wrapper_delegate_invoke__Module_invoke_void_intptr_bool_intptr_intptr_bool_intptr
-	.long LDIFF_SYM2382
+LDIFF_SYM2384=Lme_236 - wrapper_delegate_invoke__Module_invoke_void_intptr_bool_intptr_intptr_bool_intptr
+	.long LDIFF_SYM2384
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
@@ -96076,23 +96350,23 @@ LTDIE_129:
 	.asciz "System_AsyncCallback"
 
 	.byte 112,16
-LDIFF_SYM2383=LTDIE_5 - Ldebug_info_start
-	.long LDIFF_SYM2383
+LDIFF_SYM2385=LTDIE_5 - Ldebug_info_start
+	.long LDIFF_SYM2385
 	.byte 2,35,0,0,7
 	.asciz "System_AsyncCallback"
 
-LDIFF_SYM2384=LTDIE_129 - Ldebug_info_start
-	.long LDIFF_SYM2384
+LDIFF_SYM2386=LTDIE_129 - Ldebug_info_start
+	.long LDIFF_SYM2386
 LTDIE_129_POINTER:
 
 	.byte 13
-LDIFF_SYM2385=LTDIE_129 - Ldebug_info_start
-	.long LDIFF_SYM2385
+LDIFF_SYM2387=LTDIE_129 - Ldebug_info_start
+	.long LDIFF_SYM2387
 LTDIE_129_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2386=LTDIE_129 - Ldebug_info_start
-	.long LDIFF_SYM2386
+LDIFF_SYM2388=LTDIE_129 - Ldebug_info_start
+	.long LDIFF_SYM2388
 	.byte 2
 	.asciz "(wrapper_delegate-begin-invoke)_<Module>:begin_invoke_IAsyncResult__this___intptr_bool_intptr_AsyncCallback_object"
 	.asciz "wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___intptr_bool_intptr_AsyncCallback_object_intptr_bool_intptr_System_AsyncCallback_object"
@@ -96104,57 +96378,57 @@ LDIFF_SYM2386=LTDIE_129 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2387=LTDIE_128_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2387
+LDIFF_SYM2389=LTDIE_128_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2389
 	.byte 2,141,48,3
 	.asciz "param0"
 
-LDIFF_SYM2388=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2388
+LDIFF_SYM2390=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2390
 	.byte 2,141,56,3
 	.asciz "param1"
 
-LDIFF_SYM2389=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2389
+LDIFF_SYM2391=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2391
 	.byte 3,141,192,0,3
 	.asciz "param2"
 
-LDIFF_SYM2390=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2390
+LDIFF_SYM2392=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2392
 	.byte 3,141,200,0,3
 	.asciz "param3"
 
-LDIFF_SYM2391=LTDIE_129_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2391
+LDIFF_SYM2393=LTDIE_129_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2393
 	.byte 3,141,208,0,3
 	.asciz "param4"
 
-LDIFF_SYM2392=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2392
+LDIFF_SYM2394=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2394
 	.byte 3,141,216,0,11
 	.asciz "V_0"
 
-LDIFF_SYM2393=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2393
+LDIFF_SYM2395=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2395
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM2394=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2394
+LDIFF_SYM2396=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2396
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2395=Lfde457_end - Lfde457_start
-	.long LDIFF_SYM2395
+LDIFF_SYM2397=Lfde457_end - Lfde457_start
+	.long LDIFF_SYM2397
 Lfde457_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___intptr_bool_intptr_AsyncCallback_object_intptr_bool_intptr_System_AsyncCallback_object
 
-LDIFF_SYM2396=Lme_237 - wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___intptr_bool_intptr_AsyncCallback_object_intptr_bool_intptr_System_AsyncCallback_object
-	.long LDIFF_SYM2396
+LDIFF_SYM2398=Lme_237 - wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___intptr_bool_intptr_AsyncCallback_object_intptr_bool_intptr_System_AsyncCallback_object
+	.long LDIFF_SYM2398
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,150,16,151,15,68,152,14,153,13
 	.align 3
@@ -96169,18 +96443,18 @@ LTDIE_130:
 	.byte 16,7
 	.asciz "System_IAsyncResult"
 
-LDIFF_SYM2397=LTDIE_130 - Ldebug_info_start
-	.long LDIFF_SYM2397
+LDIFF_SYM2399=LTDIE_130 - Ldebug_info_start
+	.long LDIFF_SYM2399
 LTDIE_130_POINTER:
 
 	.byte 13
-LDIFF_SYM2398=LTDIE_130 - Ldebug_info_start
-	.long LDIFF_SYM2398
+LDIFF_SYM2400=LTDIE_130 - Ldebug_info_start
+	.long LDIFF_SYM2400
 LTDIE_130_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2399=LTDIE_130 - Ldebug_info_start
-	.long LDIFF_SYM2399
+LDIFF_SYM2401=LTDIE_130 - Ldebug_info_start
+	.long LDIFF_SYM2401
 	.byte 2
 	.asciz "(wrapper_delegate-end-invoke)_<Module>:end_invoke_void__this___IAsyncResult"
 	.asciz "wrapper_delegate_end_invoke__Module_end_invoke_void__this___IAsyncResult_System_IAsyncResult"
@@ -96192,37 +96466,37 @@ LDIFF_SYM2399=LTDIE_130 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2400=LTDIE_128_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2400
+LDIFF_SYM2402=LTDIE_128_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2402
 	.byte 2,141,48,3
 	.asciz "param0"
 
-LDIFF_SYM2401=LTDIE_130_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2401
+LDIFF_SYM2403=LTDIE_130_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2403
 	.byte 2,141,56,11
 	.asciz "V_0"
 
-LDIFF_SYM2402=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2402
+LDIFF_SYM2404=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2404
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM2403=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2403
+LDIFF_SYM2405=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2405
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2404=Lfde458_end - Lfde458_start
-	.long LDIFF_SYM2404
+LDIFF_SYM2406=Lfde458_end - Lfde458_start
+	.long LDIFF_SYM2406
 Lfde458_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_end_invoke__Module_end_invoke_void__this___IAsyncResult_System_IAsyncResult
 
-LDIFF_SYM2405=Lme_238 - wrapper_delegate_end_invoke__Module_end_invoke_void__this___IAsyncResult_System_IAsyncResult
-	.long LDIFF_SYM2405
+LDIFF_SYM2407=Lme_238 - wrapper_delegate_end_invoke__Module_end_invoke_void__this___IAsyncResult_System_IAsyncResult
+	.long LDIFF_SYM2407
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,150,10,151,9,68,152,8,153,7
 	.align 3
@@ -96241,57 +96515,57 @@ Lfde458_end:
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM2406=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2406
+LDIFF_SYM2408=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2408
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM2407=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2407
+LDIFF_SYM2409=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2409
 	.byte 2,141,24,3
 	.asciz "param2"
 
-LDIFF_SYM2408=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2408
+LDIFF_SYM2410=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2410
 	.byte 2,141,32,3
 	.asciz "param3"
 
-LDIFF_SYM2409=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2409
+LDIFF_SYM2411=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2411
 	.byte 2,141,40,11
 	.asciz "V_0"
 
-LDIFF_SYM2410=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2410
+LDIFF_SYM2412=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2412
 	.byte 3,141,192,1,11
 	.asciz "V_1"
 
-LDIFF_SYM2411=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2411
+LDIFF_SYM2413=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2413
 	.byte 3,141,200,1,11
 	.asciz "V_2"
 
-LDIFF_SYM2412=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2412
+LDIFF_SYM2414=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2414
 	.byte 3,141,208,1,11
 	.asciz "V_3"
 
-LDIFF_SYM2413=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2413
+LDIFF_SYM2415=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2415
 	.byte 1,101,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2414=Lfde459_end - Lfde459_start
-	.long LDIFF_SYM2414
+LDIFF_SYM2416=Lfde459_end - Lfde459_start
+	.long LDIFF_SYM2416
 Lfde459_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_ObjCRuntime_Trampolines_DBITAuthenticatorIdentifyCallback_wrapper_aot_native_object_intptr_bool_intptr
 
-LDIFF_SYM2415=Lme_239 - wrapper_managed_to_native_ObjCRuntime_Trampolines_DBITAuthenticatorIdentifyCallback_wrapper_aot_native_object_intptr_bool_intptr
-	.long LDIFF_SYM2415
+LDIFF_SYM2417=Lme_239 - wrapper_managed_to_native_ObjCRuntime_Trampolines_DBITAuthenticatorIdentifyCallback_wrapper_aot_native_object_intptr_bool_intptr
+	.long LDIFF_SYM2417
 	.long 0
 	.byte 12,31,0,68,14,224,1,157,28,158,27,68,13,29,76,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9,68,155,8,156,7
@@ -96311,62 +96585,62 @@ Lfde459_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2416=LTDIE_128_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2416
+LDIFF_SYM2418=LTDIE_128_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2418
 	.byte 1,103,3
 	.asciz "param0"
 
-LDIFF_SYM2417=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2417
+LDIFF_SYM2419=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2419
 	.byte 1,104,3
 	.asciz "param1"
 
-LDIFF_SYM2418=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2418
+LDIFF_SYM2420=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2420
 	.byte 1,105,3
 	.asciz "param2"
 
-LDIFF_SYM2419=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2419
+LDIFF_SYM2421=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2421
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2420=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2420
+LDIFF_SYM2422=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2422
 	.byte 1,102,11
 	.asciz "V_1"
 
-LDIFF_SYM2421=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2421
+LDIFF_SYM2423=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2423
 	.byte 1,101,11
 	.asciz "V_2"
 
-LDIFF_SYM2422=LTDIE_127_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2422
+LDIFF_SYM2424=LTDIE_127_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2424
 	.byte 1,100,11
 	.asciz "V_3"
 
-LDIFF_SYM2423=LTDIE_5_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2423
+LDIFF_SYM2425=LTDIE_5_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2425
 	.byte 1,99,11
 	.asciz "V_4"
 
-LDIFF_SYM2424=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2424
+LDIFF_SYM2426=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2426
 	.byte 3,141,232,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2425=Lfde460_end - Lfde460_start
-	.long LDIFF_SYM2425
+LDIFF_SYM2427=Lfde460_end - Lfde460_start
+	.long LDIFF_SYM2427
 Lfde460_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke__Module_invoke_bound_void_object_intptr_bool_intptr_intptr_bool_intptr
 
-LDIFF_SYM2426=Lme_23a - wrapper_delegate_invoke__Module_invoke_bound_void_object_intptr_bool_intptr_intptr_bool_intptr
-	.long LDIFF_SYM2426
+LDIFF_SYM2428=Lme_23a - wrapper_delegate_invoke__Module_invoke_bound_void_object_intptr_bool_intptr_intptr_bool_intptr
+	.long LDIFF_SYM2428
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
@@ -96386,57 +96660,57 @@ Lfde460_end:
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM2427=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2427
+LDIFF_SYM2429=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2429
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM2428=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2428
+LDIFF_SYM2430=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2430
 	.byte 2,141,24,3
 	.asciz "param2"
 
-LDIFF_SYM2429=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2429
+LDIFF_SYM2431=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2431
 	.byte 2,141,32,3
 	.asciz "param3"
 
-LDIFF_SYM2430=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2430
+LDIFF_SYM2432=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2432
 	.byte 2,141,40,11
 	.asciz "V_0"
 
-LDIFF_SYM2431=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2431
+LDIFF_SYM2433=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2433
 	.byte 3,141,192,1,11
 	.asciz "V_1"
 
-LDIFF_SYM2432=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2432
+LDIFF_SYM2434=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2434
 	.byte 3,141,200,1,11
 	.asciz "V_2"
 
-LDIFF_SYM2433=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2433
+LDIFF_SYM2435=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2435
 	.byte 3,141,208,1,11
 	.asciz "V_3"
 
-LDIFF_SYM2434=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2434
+LDIFF_SYM2436=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2436
 	.byte 1,101,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2435=Lfde461_end - Lfde461_start
-	.long LDIFF_SYM2435
+LDIFF_SYM2437=Lfde461_end - Lfde461_start
+	.long LDIFF_SYM2437
 Lfde461_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_ObjCRuntime_Trampolines_DBITAuthenticatorValidateCallback_wrapper_aot_native_object_intptr_bool_intptr
 
-LDIFF_SYM2436=Lme_23b - wrapper_managed_to_native_ObjCRuntime_Trampolines_DBITAuthenticatorValidateCallback_wrapper_aot_native_object_intptr_bool_intptr
-	.long LDIFF_SYM2436
+LDIFF_SYM2438=Lme_23b - wrapper_managed_to_native_ObjCRuntime_Trampolines_DBITAuthenticatorValidateCallback_wrapper_aot_native_object_intptr_bool_intptr
+	.long LDIFF_SYM2438
 	.long 0
 	.byte 12,31,0,68,14,224,1,157,28,158,27,68,13,29,76,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9,68,155,8,156,7
@@ -96456,77 +96730,77 @@ Lfde461_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2437=LTDIE_128_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2437
+LDIFF_SYM2439=LTDIE_128_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2439
 	.byte 1,100,3
 	.asciz "param0"
 
-LDIFF_SYM2438=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2438
+LDIFF_SYM2440=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2440
 	.byte 1,101,3
 	.asciz "param1"
 
-LDIFF_SYM2439=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2439
+LDIFF_SYM2441=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2441
 	.byte 1,102,3
 	.asciz "param2"
 
-LDIFF_SYM2440=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2440
+LDIFF_SYM2442=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2442
 	.byte 1,103,3
 	.asciz "param3"
 
-LDIFF_SYM2441=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2441
+LDIFF_SYM2443=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2443
 	.byte 1,104,3
 	.asciz "param4"
 
-LDIFF_SYM2442=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2442
+LDIFF_SYM2444=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2444
 	.byte 3,141,208,0,3
 	.asciz "param5"
 
-LDIFF_SYM2443=LDIE_U4 - Ldebug_info_start
-	.long LDIFF_SYM2443
+LDIFF_SYM2445=LDIE_U4 - Ldebug_info_start
+	.long LDIFF_SYM2445
 	.byte 3,141,216,0,11
 	.asciz "V_0"
 
-LDIFF_SYM2444=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2444
+LDIFF_SYM2446=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2446
 	.byte 1,99,11
 	.asciz "V_1"
 
-LDIFF_SYM2445=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2445
+LDIFF_SYM2447=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2447
 	.byte 3,141,248,0,11
 	.asciz "V_2"
 
-LDIFF_SYM2446=LTDIE_127_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2446
+LDIFF_SYM2448=LTDIE_127_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2448
 	.byte 1,106,11
 	.asciz "V_3"
 
-LDIFF_SYM2447=LTDIE_5_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2447
+LDIFF_SYM2449=LTDIE_5_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2449
 	.byte 1,105,11
 	.asciz "V_4"
 
-LDIFF_SYM2448=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2448
+LDIFF_SYM2450=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2450
 	.byte 3,141,128,1,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2449=Lfde462_end - Lfde462_start
-	.long LDIFF_SYM2449
+LDIFF_SYM2451=Lfde462_end - Lfde462_start
+	.long LDIFF_SYM2451
 Lfde462_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke__Module_invoke_void_intptr_intptr_nuint_intptr_intptr_uint_intptr_intptr_System_nuint_intptr_intptr_uint
 
-LDIFF_SYM2450=Lme_23c - wrapper_delegate_invoke__Module_invoke_void_intptr_intptr_nuint_intptr_intptr_uint_intptr_intptr_System_nuint_intptr_intptr_uint
-	.long LDIFF_SYM2450
+LDIFF_SYM2452=Lme_23c - wrapper_delegate_invoke__Module_invoke_void_intptr_intptr_nuint_intptr_intptr_uint_intptr_intptr_System_nuint_intptr_intptr_uint
+	.long LDIFF_SYM2452
 	.long 0
 	.byte 12,31,0,68,14,176,1,157,22,158,21,68,13,29,68,147,20,148,19,68,149,18,150,17,68,151,16,152,15,68,153,14
 	.byte 154,13
@@ -96546,72 +96820,72 @@ Lfde462_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2451=LTDIE_128_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2451
+LDIFF_SYM2453=LTDIE_128_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2453
 	.byte 2,141,56,3
 	.asciz "param0"
 
-LDIFF_SYM2452=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2452
+LDIFF_SYM2454=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2454
 	.byte 3,141,192,0,3
 	.asciz "param1"
 
-LDIFF_SYM2453=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2453
+LDIFF_SYM2455=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2455
 	.byte 3,141,200,0,3
 	.asciz "param2"
 
-LDIFF_SYM2454=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2454
+LDIFF_SYM2456=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2456
 	.byte 3,141,208,0,3
 	.asciz "param3"
 
-LDIFF_SYM2455=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2455
+LDIFF_SYM2457=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2457
 	.byte 3,141,216,0,3
 	.asciz "param4"
 
-LDIFF_SYM2456=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2456
+LDIFF_SYM2458=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2458
 	.byte 3,141,224,0,3
 	.asciz "param5"
 
-LDIFF_SYM2457=LDIE_U4 - Ldebug_info_start
-	.long LDIFF_SYM2457
+LDIFF_SYM2459=LDIE_U4 - Ldebug_info_start
+	.long LDIFF_SYM2459
 	.byte 3,141,232,0,3
 	.asciz "param6"
 
-LDIFF_SYM2458=LTDIE_129_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2458
+LDIFF_SYM2460=LTDIE_129_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2460
 	.byte 3,141,240,0,3
 	.asciz "param7"
 
-LDIFF_SYM2459=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2459
+LDIFF_SYM2461=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2461
 	.byte 2,140,0,11
 	.asciz "V_0"
 
-LDIFF_SYM2460=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2460
+LDIFF_SYM2462=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2462
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM2461=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2461
+LDIFF_SYM2463=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2463
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2462=Lfde463_end - Lfde463_start
-	.long LDIFF_SYM2462
+LDIFF_SYM2464=Lfde463_end - Lfde463_start
+	.long LDIFF_SYM2464
 Lfde463_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___intptr_intptr_nuint_intptr_intptr_uint_AsyncCallback_object_intptr_intptr_System_nuint_intptr_intptr_uint_System_AsyncCallback_object
 
-LDIFF_SYM2463=Lme_23d - wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___intptr_intptr_nuint_intptr_intptr_uint_AsyncCallback_object_intptr_intptr_System_nuint_intptr_intptr_uint_System_AsyncCallback_object
-	.long LDIFF_SYM2463
+LDIFF_SYM2465=Lme_23d - wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___intptr_intptr_nuint_intptr_intptr_uint_AsyncCallback_object_intptr_intptr_System_nuint_intptr_intptr_uint_System_AsyncCallback_object
+	.long LDIFF_SYM2465
 	.long 0
 	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,150,18,151,17,68,152,16,153,15,68,156,14
 	.align 3
@@ -96630,67 +96904,67 @@ Lfde463_end:
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM2464=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2464
+LDIFF_SYM2466=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2466
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM2465=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2465
+LDIFF_SYM2467=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2467
 	.byte 2,141,24,3
 	.asciz "param2"
 
-LDIFF_SYM2466=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2466
+LDIFF_SYM2468=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2468
 	.byte 2,141,32,3
 	.asciz "param3"
 
-LDIFF_SYM2467=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2467
+LDIFF_SYM2469=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2469
 	.byte 2,141,40,3
 	.asciz "param4"
 
-LDIFF_SYM2468=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2468
+LDIFF_SYM2470=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2470
 	.byte 2,141,48,3
 	.asciz "param5"
 
-LDIFF_SYM2469=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2469
+LDIFF_SYM2471=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2471
 	.byte 2,141,56,3
 	.asciz "param6"
 
-LDIFF_SYM2470=LDIE_U4 - Ldebug_info_start
-	.long LDIFF_SYM2470
+LDIFF_SYM2472=LDIE_U4 - Ldebug_info_start
+	.long LDIFF_SYM2472
 	.byte 3,141,192,0,11
 	.asciz "V_0"
 
-LDIFF_SYM2471=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2471
+LDIFF_SYM2473=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2473
 	.byte 3,141,216,1,11
 	.asciz "V_1"
 
-LDIFF_SYM2472=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2472
+LDIFF_SYM2474=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2474
 	.byte 3,141,224,1,11
 	.asciz "V_2"
 
-LDIFF_SYM2473=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2473
+LDIFF_SYM2475=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2475
 	.byte 3,141,232,1,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2474=Lfde464_end - Lfde464_start
-	.long LDIFF_SYM2474
+LDIFF_SYM2476=Lfde464_end - Lfde464_start
+	.long LDIFF_SYM2476
 Lfde464_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_ObjCRuntime_Trampolines_DBITLogHandler_wrapper_aot_native_object_intptr_intptr_System_nuint_intptr_intptr_uint
 
-LDIFF_SYM2475=Lme_23e - wrapper_managed_to_native_ObjCRuntime_Trampolines_DBITLogHandler_wrapper_aot_native_object_intptr_intptr_System_nuint_intptr_intptr_uint
-	.long LDIFF_SYM2475
+LDIFF_SYM2477=Lme_23e - wrapper_managed_to_native_ObjCRuntime_Trampolines_DBITLogHandler_wrapper_aot_native_object_intptr_intptr_System_nuint_intptr_intptr_uint
+	.long LDIFF_SYM2477
 	.long 0
 	.byte 12,31,0,68,14,240,1,157,30,158,29,68,13,29,76,147,15,148,14,68,149,13,150,12,68,151,11,152,10,68,153,9
 	.byte 154,8,68,155,7,156,6
@@ -96710,77 +96984,77 @@ Lfde464_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2476=LTDIE_128_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2476
+LDIFF_SYM2478=LTDIE_128_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2478
 	.byte 1,100,3
 	.asciz "param0"
 
-LDIFF_SYM2477=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2477
+LDIFF_SYM2479=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2479
 	.byte 1,101,3
 	.asciz "param1"
 
-LDIFF_SYM2478=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2478
+LDIFF_SYM2480=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2480
 	.byte 1,102,3
 	.asciz "param2"
 
-LDIFF_SYM2479=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2479
+LDIFF_SYM2481=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2481
 	.byte 1,103,3
 	.asciz "param3"
 
-LDIFF_SYM2480=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2480
+LDIFF_SYM2482=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2482
 	.byte 3,141,208,0,3
 	.asciz "param4"
 
-LDIFF_SYM2481=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2481
+LDIFF_SYM2483=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2483
 	.byte 3,141,216,0,3
 	.asciz "param5"
 
-LDIFF_SYM2482=LDIE_U4 - Ldebug_info_start
-	.long LDIFF_SYM2482
+LDIFF_SYM2484=LDIE_U4 - Ldebug_info_start
+	.long LDIFF_SYM2484
 	.byte 3,141,224,0,11
 	.asciz "V_0"
 
-LDIFF_SYM2483=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2483
+LDIFF_SYM2485=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2485
 	.byte 1,99,11
 	.asciz "V_1"
 
-LDIFF_SYM2484=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2484
+LDIFF_SYM2486=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2486
 	.byte 1,106,11
 	.asciz "V_2"
 
-LDIFF_SYM2485=LTDIE_127_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2485
+LDIFF_SYM2487=LTDIE_127_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2487
 	.byte 1,105,11
 	.asciz "V_3"
 
-LDIFF_SYM2486=LTDIE_5_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2486
+LDIFF_SYM2488=LTDIE_5_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2488
 	.byte 1,104,11
 	.asciz "V_4"
 
-LDIFF_SYM2487=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2487
+LDIFF_SYM2489=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2489
 	.byte 3,141,128,1,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2488=Lfde465_end - Lfde465_start
-	.long LDIFF_SYM2488
+LDIFF_SYM2490=Lfde465_end - Lfde465_start
+	.long LDIFF_SYM2490
 Lfde465_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke__Module_invoke_bound_void_object_intptr_intptr_nuint_intptr_intptr_uint_intptr_intptr_System_nuint_intptr_intptr_uint
 
-LDIFF_SYM2489=Lme_23f - wrapper_delegate_invoke__Module_invoke_bound_void_object_intptr_intptr_nuint_intptr_intptr_uint_intptr_intptr_System_nuint_intptr_intptr_uint
-	.long LDIFF_SYM2489
+LDIFF_SYM2491=Lme_23f - wrapper_delegate_invoke__Module_invoke_bound_void_object_intptr_intptr_nuint_intptr_intptr_uint_intptr_intptr_System_nuint_intptr_intptr_uint
+	.long LDIFF_SYM2491
 	.long 0
 	.byte 12,31,0,68,14,176,1,157,22,158,21,68,13,29,68,147,20,148,19,68,149,18,150,17,68,151,16,152,15,68,153,14
 	.byte 154,13
@@ -96800,52 +97074,52 @@ Lfde465_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2490=LTDIE_128_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2490
+LDIFF_SYM2492=LTDIE_128_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2492
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM2491=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2491
+LDIFF_SYM2493=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2493
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2492=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2492
+LDIFF_SYM2494=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2494
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM2493=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2493
+LDIFF_SYM2495=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2495
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM2494=LTDIE_127_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2494
+LDIFF_SYM2496=LTDIE_127_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2496
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM2495=LTDIE_5_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2495
+LDIFF_SYM2497=LTDIE_5_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2497
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM2496=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2496
+LDIFF_SYM2498=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2498
 	.byte 1,100,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2497=Lfde466_end - Lfde466_start
-	.long LDIFF_SYM2497
+LDIFF_SYM2499=Lfde466_end - Lfde466_start
+	.long LDIFF_SYM2499
 Lfde466_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke__Module_invoke_void_intptr_intptr
 
-LDIFF_SYM2498=Lme_240 - wrapper_delegate_invoke__Module_invoke_void_intptr_intptr
-	.long LDIFF_SYM2498
+LDIFF_SYM2500=Lme_240 - wrapper_delegate_invoke__Module_invoke_void_intptr_intptr
+	.long LDIFF_SYM2500
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,152,9,68,153,8
 	.byte 154,7
@@ -96865,47 +97139,47 @@ Lfde466_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2499=LTDIE_128_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2499
+LDIFF_SYM2501=LTDIE_128_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2501
 	.byte 2,141,48,3
 	.asciz "param0"
 
-LDIFF_SYM2500=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2500
+LDIFF_SYM2502=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2502
 	.byte 2,141,56,3
 	.asciz "param1"
 
-LDIFF_SYM2501=LTDIE_129_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2501
+LDIFF_SYM2503=LTDIE_129_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2503
 	.byte 3,141,192,0,3
 	.asciz "param2"
 
-LDIFF_SYM2502=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2502
+LDIFF_SYM2504=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2504
 	.byte 3,141,200,0,11
 	.asciz "V_0"
 
-LDIFF_SYM2503=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2503
+LDIFF_SYM2505=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2505
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM2504=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2504
+LDIFF_SYM2506=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2506
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2505=Lfde467_end - Lfde467_start
-	.long LDIFF_SYM2505
+LDIFF_SYM2507=Lfde467_end - Lfde467_start
+	.long LDIFF_SYM2507
 Lfde467_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___intptr_AsyncCallback_object_intptr_System_AsyncCallback_object
 
-LDIFF_SYM2506=Lme_241 - wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___intptr_AsyncCallback_object_intptr_System_AsyncCallback_object
-	.long LDIFF_SYM2506
+LDIFF_SYM2508=Lme_241 - wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___intptr_AsyncCallback_object_intptr_System_AsyncCallback_object
+	.long LDIFF_SYM2508
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,150,14,151,13,68,152,12,153,11
 	.align 3
@@ -96924,42 +97198,42 @@ Lfde467_end:
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM2507=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2507
+LDIFF_SYM2509=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2509
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM2508=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2508
+LDIFF_SYM2510=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2510
 	.byte 2,141,24,11
 	.asciz "V_0"
 
-LDIFF_SYM2509=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2509
+LDIFF_SYM2511=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2511
 	.byte 3,141,176,1,11
 	.asciz "V_1"
 
-LDIFF_SYM2510=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2510
+LDIFF_SYM2512=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2512
 	.byte 3,141,184,1,11
 	.asciz "V_2"
 
-LDIFF_SYM2511=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2511
+LDIFF_SYM2513=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2513
 	.byte 3,141,192,1,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2512=Lfde468_end - Lfde468_start
-	.long LDIFF_SYM2512
+LDIFF_SYM2514=Lfde468_end - Lfde468_start
+	.long LDIFF_SYM2514
 Lfde468_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_ObjCRuntime_Trampolines_DAction_wrapper_aot_native_object_intptr
 
-LDIFF_SYM2513=Lme_242 - wrapper_managed_to_native_ObjCRuntime_Trampolines_DAction_wrapper_aot_native_object_intptr
-	.long LDIFF_SYM2513
+LDIFF_SYM2515=Lme_242 - wrapper_managed_to_native_ObjCRuntime_Trampolines_DAction_wrapper_aot_native_object_intptr
+	.long LDIFF_SYM2515
 	.long 0
 	.byte 12,31,0,68,14,208,1,157,26,158,25,68,13,29,76,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9,68,155,8,156,7
@@ -96979,52 +97253,52 @@ Lfde468_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2514=LTDIE_128_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2514
+LDIFF_SYM2516=LTDIE_128_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2516
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM2515=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2515
+LDIFF_SYM2517=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2517
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2516=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2516
+LDIFF_SYM2518=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2518
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM2517=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2517
+LDIFF_SYM2519=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2519
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM2518=LTDIE_127_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2518
+LDIFF_SYM2520=LTDIE_127_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2520
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM2519=LTDIE_5_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2519
+LDIFF_SYM2521=LTDIE_5_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2521
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM2520=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2520
+LDIFF_SYM2522=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2522
 	.byte 1,100,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2521=Lfde469_end - Lfde469_start
-	.long LDIFF_SYM2521
+LDIFF_SYM2523=Lfde469_end - Lfde469_start
+	.long LDIFF_SYM2523
 Lfde469_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke__Module_invoke_bound_void_object_intptr_intptr
 
-LDIFF_SYM2522=Lme_243 - wrapper_delegate_invoke__Module_invoke_bound_void_object_intptr_intptr
-	.long LDIFF_SYM2522
+LDIFF_SYM2524=Lme_243 - wrapper_delegate_invoke__Module_invoke_bound_void_object_intptr_intptr
+	.long LDIFF_SYM2524
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,152,9,68,153,8
 	.byte 154,7
@@ -97044,57 +97318,57 @@ Lfde469_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2523=LTDIE_128_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2523
+LDIFF_SYM2525=LTDIE_128_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2525
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM2524=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2524
+LDIFF_SYM2526=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2526
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2525=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2525
+LDIFF_SYM2527=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2527
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM2526=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2526
+LDIFF_SYM2528=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2528
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM2527=LTDIE_127_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2527
+LDIFF_SYM2529=LTDIE_127_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2529
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM2528=LTDIE_5_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2528
+LDIFF_SYM2530=LTDIE_5_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2530
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM2529=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2529
+LDIFF_SYM2531=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2531
 	.byte 1,100,11
 	.asciz "V_5"
 
-LDIFF_SYM2530=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2530
+LDIFF_SYM2532=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2532
 	.byte 1,99,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2531=Lfde470_end - Lfde470_start
-	.long LDIFF_SYM2531
+LDIFF_SYM2533=Lfde470_end - Lfde470_start
+	.long LDIFF_SYM2533
 Lfde470_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke__Module_invoke_intptr_intptr_intptr
 
-LDIFF_SYM2532=Lme_244 - wrapper_delegate_invoke__Module_invoke_intptr_intptr_intptr
-	.long LDIFF_SYM2532
+LDIFF_SYM2534=Lme_244 - wrapper_delegate_invoke__Module_invoke_intptr_intptr_intptr
+	.long LDIFF_SYM2534
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
@@ -97114,37 +97388,37 @@ Lfde470_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2533=LTDIE_128_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2533
+LDIFF_SYM2535=LTDIE_128_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2535
 	.byte 2,141,48,3
 	.asciz "param0"
 
-LDIFF_SYM2534=LTDIE_130_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2534
+LDIFF_SYM2536=LTDIE_130_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2536
 	.byte 2,141,56,11
 	.asciz "V_0"
 
-LDIFF_SYM2535=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2535
+LDIFF_SYM2537=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2537
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM2536=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2536
+LDIFF_SYM2538=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2538
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2537=Lfde471_end - Lfde471_start
-	.long LDIFF_SYM2537
+LDIFF_SYM2539=Lfde471_end - Lfde471_start
+	.long LDIFF_SYM2539
 Lfde471_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_end_invoke__Module_end_invoke_intptr__this___IAsyncResult_System_IAsyncResult
 
-LDIFF_SYM2538=Lme_245 - wrapper_delegate_end_invoke__Module_end_invoke_intptr__this___IAsyncResult_System_IAsyncResult
-	.long LDIFF_SYM2538
+LDIFF_SYM2540=Lme_245 - wrapper_delegate_end_invoke__Module_end_invoke_intptr__this___IAsyncResult_System_IAsyncResult
+	.long LDIFF_SYM2540
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,150,12,151,11,68,152,10,153,9
 	.align 3
@@ -97163,47 +97437,47 @@ Lfde471_end:
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM2539=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2539
+LDIFF_SYM2541=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2541
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM2540=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2540
+LDIFF_SYM2542=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2542
 	.byte 2,141,24,11
 	.asciz "V_0"
 
-LDIFF_SYM2541=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2541
+LDIFF_SYM2543=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2543
 	.byte 3,141,176,1,11
 	.asciz "V_1"
 
-LDIFF_SYM2542=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2542
+LDIFF_SYM2544=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2544
 	.byte 3,141,184,1,11
 	.asciz "V_2"
 
-LDIFF_SYM2543=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2543
+LDIFF_SYM2545=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2545
 	.byte 3,141,192,1,11
 	.asciz "V_3"
 
-LDIFF_SYM2544=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2544
+LDIFF_SYM2546=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2546
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2545=Lfde472_end - Lfde472_start
-	.long LDIFF_SYM2545
+LDIFF_SYM2547=Lfde472_end - Lfde472_start
+	.long LDIFF_SYM2547
 Lfde472_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_ObjCRuntime_Trampolines_DBITLogMessageProvider_wrapper_aot_native_object_intptr
 
-LDIFF_SYM2546=Lme_246 - wrapper_managed_to_native_ObjCRuntime_Trampolines_DBITLogMessageProvider_wrapper_aot_native_object_intptr
-	.long LDIFF_SYM2546
+LDIFF_SYM2548=Lme_246 - wrapper_managed_to_native_ObjCRuntime_Trampolines_DBITLogMessageProvider_wrapper_aot_native_object_intptr
+	.long LDIFF_SYM2548
 	.long 0
 	.byte 12,31,0,68,14,208,1,157,26,158,25,68,13,29,76,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9,68,155,8,156,7
@@ -97223,57 +97497,57 @@ Lfde472_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2547=LTDIE_128_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2547
+LDIFF_SYM2549=LTDIE_128_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2549
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM2548=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2548
+LDIFF_SYM2550=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2550
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2549=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2549
+LDIFF_SYM2551=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2551
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM2550=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2550
+LDIFF_SYM2552=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2552
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM2551=LTDIE_127_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2551
+LDIFF_SYM2553=LTDIE_127_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2553
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM2552=LTDIE_5_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2552
+LDIFF_SYM2554=LTDIE_5_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2554
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM2553=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2553
+LDIFF_SYM2555=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2555
 	.byte 1,100,11
 	.asciz "V_5"
 
-LDIFF_SYM2554=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2554
+LDIFF_SYM2556=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2556
 	.byte 1,99,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2555=Lfde473_end - Lfde473_start
-	.long LDIFF_SYM2555
+LDIFF_SYM2557=Lfde473_end - Lfde473_start
+	.long LDIFF_SYM2557
 Lfde473_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke__Module_invoke_bound_intptr_object_intptr_intptr
 
-LDIFF_SYM2556=Lme_247 - wrapper_delegate_invoke__Module_invoke_bound_intptr_object_intptr_intptr
-	.long LDIFF_SYM2556
+LDIFF_SYM2558=Lme_247 - wrapper_delegate_invoke__Module_invoke_bound_intptr_object_intptr_intptr
+	.long LDIFF_SYM2558
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
@@ -97293,57 +97567,57 @@ Lfde473_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2557=LTDIE_128_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2557
+LDIFF_SYM2559=LTDIE_128_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2559
 	.byte 1,104,3
 	.asciz "param0"
 
-LDIFF_SYM2558=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2558
+LDIFF_SYM2560=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2560
 	.byte 1,105,3
 	.asciz "param1"
 
-LDIFF_SYM2559=LTDIE_14_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2559
+LDIFF_SYM2561=LTDIE_14_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2561
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2560=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2560
+LDIFF_SYM2562=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2562
 	.byte 1,103,11
 	.asciz "V_1"
 
-LDIFF_SYM2561=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2561
+LDIFF_SYM2563=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2563
 	.byte 1,102,11
 	.asciz "V_2"
 
-LDIFF_SYM2562=LTDIE_127_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2562
+LDIFF_SYM2564=LTDIE_127_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2564
 	.byte 1,101,11
 	.asciz "V_3"
 
-LDIFF_SYM2563=LTDIE_5_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2563
+LDIFF_SYM2565=LTDIE_5_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2565
 	.byte 1,100,11
 	.asciz "V_4"
 
-LDIFF_SYM2564=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2564
+LDIFF_SYM2566=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2566
 	.byte 1,99,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2565=Lfde474_end - Lfde474_start
-	.long LDIFF_SYM2565
+LDIFF_SYM2567=Lfde474_end - Lfde474_start
+	.long LDIFF_SYM2567
 Lfde474_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke__Module_invoke_void_bool_NSError_bool_Foundation_NSError
 
-LDIFF_SYM2566=Lme_248 - wrapper_delegate_invoke__Module_invoke_void_bool_NSError_bool_Foundation_NSError
-	.long LDIFF_SYM2566
+LDIFF_SYM2568=Lme_248 - wrapper_delegate_invoke__Module_invoke_void_bool_NSError_bool_Foundation_NSError
+	.long LDIFF_SYM2568
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
@@ -97363,52 +97637,52 @@ Lfde474_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2567=LTDIE_128_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2567
+LDIFF_SYM2569=LTDIE_128_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2569
 	.byte 2,141,48,3
 	.asciz "param0"
 
-LDIFF_SYM2568=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2568
+LDIFF_SYM2570=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2570
 	.byte 2,141,56,3
 	.asciz "param1"
 
-LDIFF_SYM2569=LTDIE_14_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2569
+LDIFF_SYM2571=LTDIE_14_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2571
 	.byte 3,141,192,0,3
 	.asciz "param2"
 
-LDIFF_SYM2570=LTDIE_129_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2570
+LDIFF_SYM2572=LTDIE_129_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2572
 	.byte 3,141,200,0,3
 	.asciz "param3"
 
-LDIFF_SYM2571=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2571
+LDIFF_SYM2573=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2573
 	.byte 3,141,208,0,11
 	.asciz "V_0"
 
-LDIFF_SYM2572=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2572
+LDIFF_SYM2574=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2574
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM2573=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2573
+LDIFF_SYM2575=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2575
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2574=Lfde475_end - Lfde475_start
-	.long LDIFF_SYM2574
+LDIFF_SYM2576=Lfde475_end - Lfde475_start
+	.long LDIFF_SYM2576
 Lfde475_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___bool_NSError_AsyncCallback_object_bool_Foundation_NSError_System_AsyncCallback_object
 
-LDIFF_SYM2575=Lme_249 - wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___bool_NSError_AsyncCallback_object_bool_Foundation_NSError_System_AsyncCallback_object
-	.long LDIFF_SYM2575
+LDIFF_SYM2577=Lme_249 - wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___bool_NSError_AsyncCallback_object_bool_Foundation_NSError_System_AsyncCallback_object
+	.long LDIFF_SYM2577
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,150,14,151,13,68,152,12,153,11
 	.align 3
@@ -97427,72 +97701,72 @@ Lfde475_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2576=LTDIE_128_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2576
+LDIFF_SYM2578=LTDIE_128_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2578
 	.byte 1,101,3
 	.asciz "param0"
 
-LDIFF_SYM2577=LTDIE_24_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2577
+LDIFF_SYM2579=LTDIE_24_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2579
 	.byte 1,102,3
 	.asciz "param1"
 
-LDIFF_SYM2578=LTDIE_25 - Ldebug_info_start
-	.long LDIFF_SYM2578
+LDIFF_SYM2580=LTDIE_25 - Ldebug_info_start
+	.long LDIFF_SYM2580
 	.byte 1,103,3
 	.asciz "param2"
 
-LDIFF_SYM2579=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2579
+LDIFF_SYM2581=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2581
 	.byte 1,104,3
 	.asciz "param3"
 
-LDIFF_SYM2580=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2580
+LDIFF_SYM2582=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2582
 	.byte 3,141,208,0,3
 	.asciz "param4"
 
-LDIFF_SYM2581=LDIE_U4 - Ldebug_info_start
-	.long LDIFF_SYM2581
+LDIFF_SYM2583=LDIE_U4 - Ldebug_info_start
+	.long LDIFF_SYM2583
 	.byte 3,141,216,0,11
 	.asciz "V_0"
 
-LDIFF_SYM2582=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2582
+LDIFF_SYM2584=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2584
 	.byte 1,100,11
 	.asciz "V_1"
 
-LDIFF_SYM2583=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2583
+LDIFF_SYM2585=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2585
 	.byte 1,99,11
 	.asciz "V_2"
 
-LDIFF_SYM2584=LTDIE_127_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2584
+LDIFF_SYM2586=LTDIE_127_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2586
 	.byte 1,106,11
 	.asciz "V_3"
 
-LDIFF_SYM2585=LTDIE_5_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2585
+LDIFF_SYM2587=LTDIE_5_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2587
 	.byte 1,105,11
 	.asciz "V_4"
 
-LDIFF_SYM2586=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2586
+LDIFF_SYM2588=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2588
 	.byte 3,141,248,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2587=Lfde476_end - Lfde476_start
-	.long LDIFF_SYM2587
+LDIFF_SYM2589=Lfde476_end - Lfde476_start
+	.long LDIFF_SYM2589
 Lfde476_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke__Module_invoke_void_BITLogMessageProvider_BITLogLevel_intptr_intptr_uint_HockeyApp_iOS_BITLogMessageProvider_HockeyApp_iOS_BITLogLevel_intptr_intptr_uint
 
-LDIFF_SYM2588=Lme_24a - wrapper_delegate_invoke__Module_invoke_void_BITLogMessageProvider_BITLogLevel_intptr_intptr_uint_HockeyApp_iOS_BITLogMessageProvider_HockeyApp_iOS_BITLogLevel_intptr_intptr_uint
-	.long LDIFF_SYM2588
+LDIFF_SYM2590=Lme_24a - wrapper_delegate_invoke__Module_invoke_void_BITLogMessageProvider_BITLogLevel_intptr_intptr_uint_HockeyApp_iOS_BITLogMessageProvider_HockeyApp_iOS_BITLogLevel_intptr_intptr_uint
+	.long LDIFF_SYM2590
 	.long 0
 	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,147,18,148,17,68,149,16,150,15,68,151,14,152,13,68,153,12
 	.byte 154,11
@@ -97512,67 +97786,67 @@ Lfde476_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2589=LTDIE_128_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2589
+LDIFF_SYM2591=LTDIE_128_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2591
 	.byte 2,141,48,3
 	.asciz "param0"
 
-LDIFF_SYM2590=LTDIE_24_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2590
+LDIFF_SYM2592=LTDIE_24_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2592
 	.byte 2,141,56,3
 	.asciz "param1"
 
-LDIFF_SYM2591=LTDIE_25 - Ldebug_info_start
-	.long LDIFF_SYM2591
+LDIFF_SYM2593=LTDIE_25 - Ldebug_info_start
+	.long LDIFF_SYM2593
 	.byte 3,141,192,0,3
 	.asciz "param2"
 
-LDIFF_SYM2592=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2592
+LDIFF_SYM2594=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2594
 	.byte 3,141,200,0,3
 	.asciz "param3"
 
-LDIFF_SYM2593=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2593
+LDIFF_SYM2595=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2595
 	.byte 3,141,208,0,3
 	.asciz "param4"
 
-LDIFF_SYM2594=LDIE_U4 - Ldebug_info_start
-	.long LDIFF_SYM2594
+LDIFF_SYM2596=LDIE_U4 - Ldebug_info_start
+	.long LDIFF_SYM2596
 	.byte 3,141,216,0,3
 	.asciz "param5"
 
-LDIFF_SYM2595=LTDIE_129_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2595
+LDIFF_SYM2597=LTDIE_129_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2597
 	.byte 3,141,224,0,3
 	.asciz "param6"
 
-LDIFF_SYM2596=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2596
+LDIFF_SYM2598=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2598
 	.byte 3,141,232,0,11
 	.asciz "V_0"
 
-LDIFF_SYM2597=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2597
+LDIFF_SYM2599=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2599
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM2598=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2598
+LDIFF_SYM2600=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2600
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2599=Lfde477_end - Lfde477_start
-	.long LDIFF_SYM2599
+LDIFF_SYM2601=Lfde477_end - Lfde477_start
+	.long LDIFF_SYM2601
 Lfde477_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___BITLogMessageProvider_BITLogLevel_intptr_intptr_uint_AsyncCallback_object_HockeyApp_iOS_BITLogMessageProvider_HockeyApp_iOS_BITLogLevel_intptr_intptr_uint_System_AsyncCallback_object
 
-LDIFF_SYM2600=Lme_24b - wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___BITLogMessageProvider_BITLogLevel_intptr_intptr_uint_AsyncCallback_object_HockeyApp_iOS_BITLogMessageProvider_HockeyApp_iOS_BITLogLevel_intptr_intptr_uint_System_AsyncCallback_object
-	.long LDIFF_SYM2600
+LDIFF_SYM2602=Lme_24b - wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___BITLogMessageProvider_BITLogLevel_intptr_intptr_uint_AsyncCallback_object_HockeyApp_iOS_BITLogMessageProvider_HockeyApp_iOS_BITLogLevel_intptr_intptr_uint_System_AsyncCallback_object
+	.long LDIFF_SYM2602
 	.long 0
 	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,150,18,151,17,68,152,16,153,15
 	.align 3
@@ -97591,52 +97865,52 @@ Lfde477_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2601=LTDIE_128_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2601
+LDIFF_SYM2603=LTDIE_128_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2603
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2602=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2602
+LDIFF_SYM2604=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2604
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM2603=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2603
+LDIFF_SYM2605=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2605
 	.byte 1,104,11
 	.asciz "V_2"
 
-LDIFF_SYM2604=LTDIE_127_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2604
+LDIFF_SYM2606=LTDIE_127_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2606
 	.byte 1,103,11
 	.asciz "V_3"
 
-LDIFF_SYM2605=LTDIE_5_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2605
+LDIFF_SYM2607=LTDIE_5_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2607
 	.byte 1,102,11
 	.asciz "V_4"
 
-LDIFF_SYM2606=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2606
+LDIFF_SYM2608=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2608
 	.byte 1,101,11
 	.asciz "V_5"
 
-LDIFF_SYM2607=LTDIE_29_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2607
+LDIFF_SYM2609=LTDIE_29_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2609
 	.byte 1,100,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2608=Lfde478_end - Lfde478_start
-	.long LDIFF_SYM2608
+LDIFF_SYM2610=Lfde478_end - Lfde478_start
+	.long LDIFF_SYM2610
 Lfde478_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke__Module_invoke_NSString
 
-LDIFF_SYM2609=Lme_24c - wrapper_delegate_invoke__Module_invoke_NSString
-	.long LDIFF_SYM2609
+LDIFF_SYM2611=Lme_24c - wrapper_delegate_invoke__Module_invoke_NSString
+	.long LDIFF_SYM2611
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,152,9,68,153,8
 	.byte 154,7
@@ -97656,42 +97930,42 @@ Lfde478_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2610=LTDIE_128_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2610
+LDIFF_SYM2612=LTDIE_128_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2612
 	.byte 2,141,48,3
 	.asciz "param0"
 
-LDIFF_SYM2611=LTDIE_129_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2611
+LDIFF_SYM2613=LTDIE_129_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2613
 	.byte 2,141,56,3
 	.asciz "param1"
 
-LDIFF_SYM2612=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2612
+LDIFF_SYM2614=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2614
 	.byte 3,141,192,0,11
 	.asciz "V_0"
 
-LDIFF_SYM2613=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2613
+LDIFF_SYM2615=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2615
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM2614=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2614
+LDIFF_SYM2616=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2616
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2615=Lfde479_end - Lfde479_start
-	.long LDIFF_SYM2615
+LDIFF_SYM2617=Lfde479_end - Lfde479_start
+	.long LDIFF_SYM2617
 Lfde479_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___AsyncCallback_object_System_AsyncCallback_object
 
-LDIFF_SYM2616=Lme_24d - wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___AsyncCallback_object_System_AsyncCallback_object
-	.long LDIFF_SYM2616
+LDIFF_SYM2618=Lme_24d - wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___AsyncCallback_object_System_AsyncCallback_object
+	.long LDIFF_SYM2618
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,150,12,151,11,68,152,10,153,9
 	.align 3
@@ -97710,37 +97984,37 @@ Lfde479_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2617=LTDIE_128_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2617
+LDIFF_SYM2619=LTDIE_128_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2619
 	.byte 2,141,48,3
 	.asciz "param0"
 
-LDIFF_SYM2618=LTDIE_130_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2618
+LDIFF_SYM2620=LTDIE_130_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2620
 	.byte 2,141,56,11
 	.asciz "V_0"
 
-LDIFF_SYM2619=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2619
+LDIFF_SYM2621=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2621
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM2620=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2620
+LDIFF_SYM2622=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2622
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2621=Lfde480_end - Lfde480_start
-	.long LDIFF_SYM2621
+LDIFF_SYM2623=Lfde480_end - Lfde480_start
+	.long LDIFF_SYM2623
 Lfde480_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_end_invoke__Module_end_invoke_NSString__this___IAsyncResult_System_IAsyncResult
 
-LDIFF_SYM2622=Lme_24e - wrapper_delegate_end_invoke__Module_end_invoke_NSString__this___IAsyncResult_System_IAsyncResult
-	.long LDIFF_SYM2622
+LDIFF_SYM2624=Lme_24e - wrapper_delegate_end_invoke__Module_end_invoke_NSString__this___IAsyncResult_System_IAsyncResult
+	.long LDIFF_SYM2624
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,150,12,151,11,68,152,10,153,9
 	.align 3
@@ -97759,47 +98033,47 @@ Lfde480_end:
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM2623=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2623
+LDIFF_SYM2625=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2625
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM2624=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2624
+LDIFF_SYM2626=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2626
 	.byte 2,141,24,11
 	.asciz "V_0"
 
-LDIFF_SYM2625=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2625
+LDIFF_SYM2627=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2627
 	.byte 3,141,176,1,11
 	.asciz "V_1"
 
-LDIFF_SYM2626=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2626
+LDIFF_SYM2628=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2628
 	.byte 3,141,184,1,11
 	.asciz "V_2"
 
-LDIFF_SYM2627=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2627
+LDIFF_SYM2629=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2629
 	.byte 3,141,192,1,11
 	.asciz "V_3"
 
-LDIFF_SYM2628=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2628
+LDIFF_SYM2630=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2630
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2629=Lfde481_end - Lfde481_start
-	.long LDIFF_SYM2629
+LDIFF_SYM2631=Lfde481_end - Lfde481_start
+	.long LDIFF_SYM2631
 Lfde481_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_ApiDefinition_Messaging_IntPtr_objc_msgSend_intptr_intptr
 
-LDIFF_SYM2630=Lme_24f - wrapper_managed_to_native_ApiDefinition_Messaging_IntPtr_objc_msgSend_intptr_intptr
-	.long LDIFF_SYM2630
+LDIFF_SYM2632=Lme_24f - wrapper_managed_to_native_ApiDefinition_Messaging_IntPtr_objc_msgSend_intptr_intptr
+	.long LDIFF_SYM2632
 	.long 0
 	.byte 12,31,0,68,14,208,1,157,26,158,25,68,13,29,76,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9,68,155,8,156,7
@@ -97819,47 +98093,47 @@ Lfde481_end:
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM2631=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2631
+LDIFF_SYM2633=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2633
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM2632=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2632
+LDIFF_SYM2634=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2634
 	.byte 2,141,24,11
 	.asciz "V_0"
 
-LDIFF_SYM2633=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2633
+LDIFF_SYM2635=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2635
 	.byte 3,141,176,1,11
 	.asciz "V_1"
 
-LDIFF_SYM2634=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2634
+LDIFF_SYM2636=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2636
 	.byte 3,141,184,1,11
 	.asciz "V_2"
 
-LDIFF_SYM2635=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2635
+LDIFF_SYM2637=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2637
 	.byte 3,141,192,1,11
 	.asciz "V_3"
 
-LDIFF_SYM2636=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2636
+LDIFF_SYM2638=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2638
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2637=Lfde482_end - Lfde482_start
-	.long LDIFF_SYM2637
+LDIFF_SYM2639=Lfde482_end - Lfde482_start
+	.long LDIFF_SYM2639
 Lfde482_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_ApiDefinition_Messaging_IntPtr_objc_msgSendSuper_intptr_intptr
 
-LDIFF_SYM2638=Lme_250 - wrapper_managed_to_native_ApiDefinition_Messaging_IntPtr_objc_msgSendSuper_intptr_intptr
-	.long LDIFF_SYM2638
+LDIFF_SYM2640=Lme_250 - wrapper_managed_to_native_ApiDefinition_Messaging_IntPtr_objc_msgSendSuper_intptr_intptr
+	.long LDIFF_SYM2640
 	.long 0
 	.byte 12,31,0,68,14,208,1,157,26,158,25,68,13,29,76,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9,68,155,8,156,7
@@ -97879,52 +98153,52 @@ Lfde482_end:
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM2639=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2639
+LDIFF_SYM2641=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2641
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM2640=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2640
+LDIFF_SYM2642=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2642
 	.byte 2,141,24,3
 	.asciz "param2"
 
-LDIFF_SYM2641=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2641
+LDIFF_SYM2643=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2643
 	.byte 2,141,32,11
 	.asciz "V_0"
 
-LDIFF_SYM2642=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2642
+LDIFF_SYM2644=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2644
 	.byte 3,141,184,1,11
 	.asciz "V_1"
 
-LDIFF_SYM2643=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2643
+LDIFF_SYM2645=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2645
 	.byte 3,141,192,1,11
 	.asciz "V_2"
 
-LDIFF_SYM2644=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2644
+LDIFF_SYM2646=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2646
 	.byte 3,141,200,1,11
 	.asciz "V_3"
 
-LDIFF_SYM2645=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2645
+LDIFF_SYM2647=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2647
 	.byte 1,102,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2646=Lfde483_end - Lfde483_start
-	.long LDIFF_SYM2646
+LDIFF_SYM2648=Lfde483_end - Lfde483_start
+	.long LDIFF_SYM2648
 Lfde483_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_ApiDefinition_Messaging_IntPtr_objc_msgSend_IntPtr_intptr_intptr_intptr
 
-LDIFF_SYM2647=Lme_251 - wrapper_managed_to_native_ApiDefinition_Messaging_IntPtr_objc_msgSend_IntPtr_intptr_intptr_intptr
-	.long LDIFF_SYM2647
+LDIFF_SYM2649=Lme_251 - wrapper_managed_to_native_ApiDefinition_Messaging_IntPtr_objc_msgSend_IntPtr_intptr_intptr_intptr
+	.long LDIFF_SYM2649
 	.long 0
 	.byte 12,31,0,68,14,208,1,157,26,158,25,68,13,29,76,147,15,148,14,68,149,13,150,12,68,151,11,152,10,68,153,9
 	.byte 154,8,68,155,7,156,6
@@ -97944,52 +98218,52 @@ Lfde483_end:
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM2648=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2648
+LDIFF_SYM2650=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2650
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM2649=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2649
+LDIFF_SYM2651=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2651
 	.byte 2,141,24,3
 	.asciz "param2"
 
-LDIFF_SYM2650=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2650
+LDIFF_SYM2652=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2652
 	.byte 2,141,32,11
 	.asciz "V_0"
 
-LDIFF_SYM2651=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2651
+LDIFF_SYM2653=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2653
 	.byte 3,141,184,1,11
 	.asciz "V_1"
 
-LDIFF_SYM2652=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2652
+LDIFF_SYM2654=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2654
 	.byte 3,141,192,1,11
 	.asciz "V_2"
 
-LDIFF_SYM2653=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2653
+LDIFF_SYM2655=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2655
 	.byte 3,141,200,1,11
 	.asciz "V_3"
 
-LDIFF_SYM2654=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2654
+LDIFF_SYM2656=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2656
 	.byte 1,102,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2655=Lfde484_end - Lfde484_start
-	.long LDIFF_SYM2655
+LDIFF_SYM2657=Lfde484_end - Lfde484_start
+	.long LDIFF_SYM2657
 Lfde484_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_ApiDefinition_Messaging_IntPtr_objc_msgSendSuper_IntPtr_intptr_intptr_intptr
 
-LDIFF_SYM2656=Lme_252 - wrapper_managed_to_native_ApiDefinition_Messaging_IntPtr_objc_msgSendSuper_IntPtr_intptr_intptr_intptr
-	.long LDIFF_SYM2656
+LDIFF_SYM2658=Lme_252 - wrapper_managed_to_native_ApiDefinition_Messaging_IntPtr_objc_msgSendSuper_IntPtr_intptr_intptr_intptr
+	.long LDIFF_SYM2658
 	.long 0
 	.byte 12,31,0,68,14,208,1,157,26,158,25,68,13,29,76,147,15,148,14,68,149,13,150,12,68,151,11,152,10,68,153,9
 	.byte 154,8,68,155,7,156,6
@@ -98009,47 +98283,47 @@ Lfde484_end:
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM2657=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2657
+LDIFF_SYM2659=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2659
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM2658=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2658
+LDIFF_SYM2660=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2660
 	.byte 2,141,24,11
 	.asciz "V_0"
 
-LDIFF_SYM2659=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2659
+LDIFF_SYM2661=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2661
 	.byte 3,141,176,1,11
 	.asciz "V_1"
 
-LDIFF_SYM2660=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2660
+LDIFF_SYM2662=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2662
 	.byte 3,141,184,1,11
 	.asciz "V_2"
 
-LDIFF_SYM2661=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2661
+LDIFF_SYM2663=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2663
 	.byte 3,141,192,1,11
 	.asciz "V_3"
 
-LDIFF_SYM2662=LDIE_U4 - Ldebug_info_start
-	.long LDIFF_SYM2662
+LDIFF_SYM2664=LDIE_U4 - Ldebug_info_start
+	.long LDIFF_SYM2664
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2663=Lfde485_end - Lfde485_start
-	.long LDIFF_SYM2663
+LDIFF_SYM2665=Lfde485_end - Lfde485_start
+	.long LDIFF_SYM2665
 Lfde485_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_ApiDefinition_Messaging_UInt32_objc_msgSend_intptr_intptr
 
-LDIFF_SYM2664=Lme_253 - wrapper_managed_to_native_ApiDefinition_Messaging_UInt32_objc_msgSend_intptr_intptr
-	.long LDIFF_SYM2664
+LDIFF_SYM2666=Lme_253 - wrapper_managed_to_native_ApiDefinition_Messaging_UInt32_objc_msgSend_intptr_intptr
+	.long LDIFF_SYM2666
 	.long 0
 	.byte 12,31,0,68,14,208,1,157,26,158,25,68,13,29,76,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9,68,155,8,156,7
@@ -98069,47 +98343,47 @@ Lfde485_end:
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM2665=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2665
+LDIFF_SYM2667=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2667
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM2666=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2666
+LDIFF_SYM2668=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2668
 	.byte 2,141,24,11
 	.asciz "V_0"
 
-LDIFF_SYM2667=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2667
+LDIFF_SYM2669=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2669
 	.byte 3,141,176,1,11
 	.asciz "V_1"
 
-LDIFF_SYM2668=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2668
+LDIFF_SYM2670=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2670
 	.byte 3,141,184,1,11
 	.asciz "V_2"
 
-LDIFF_SYM2669=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2669
+LDIFF_SYM2671=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2671
 	.byte 3,141,192,1,11
 	.asciz "V_3"
 
-LDIFF_SYM2670=LDIE_U4 - Ldebug_info_start
-	.long LDIFF_SYM2670
+LDIFF_SYM2672=LDIE_U4 - Ldebug_info_start
+	.long LDIFF_SYM2672
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2671=Lfde486_end - Lfde486_start
-	.long LDIFF_SYM2671
+LDIFF_SYM2673=Lfde486_end - Lfde486_start
+	.long LDIFF_SYM2673
 Lfde486_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_ApiDefinition_Messaging_UInt32_objc_msgSendSuper_intptr_intptr
 
-LDIFF_SYM2672=Lme_254 - wrapper_managed_to_native_ApiDefinition_Messaging_UInt32_objc_msgSendSuper_intptr_intptr
-	.long LDIFF_SYM2672
+LDIFF_SYM2674=Lme_254 - wrapper_managed_to_native_ApiDefinition_Messaging_UInt32_objc_msgSendSuper_intptr_intptr
+	.long LDIFF_SYM2674
 	.long 0
 	.byte 12,31,0,68,14,208,1,157,26,158,25,68,13,29,76,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9,68,155,8,156,7
@@ -98123,28 +98397,28 @@ LTDIE_131:
 	.asciz "System_UInt64"
 
 	.byte 24,16
-LDIFF_SYM2673=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM2673
+LDIFF_SYM2675=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM2675
 	.byte 2,35,0,6
 	.asciz "m_value"
 
-LDIFF_SYM2674=LDIE_U8 - Ldebug_info_start
-	.long LDIFF_SYM2674
+LDIFF_SYM2676=LDIE_U8 - Ldebug_info_start
+	.long LDIFF_SYM2676
 	.byte 2,35,16,0,7
 	.asciz "System_UInt64"
 
-LDIFF_SYM2675=LTDIE_131 - Ldebug_info_start
-	.long LDIFF_SYM2675
+LDIFF_SYM2677=LTDIE_131 - Ldebug_info_start
+	.long LDIFF_SYM2677
 LTDIE_131_POINTER:
 
 	.byte 13
-LDIFF_SYM2676=LTDIE_131 - Ldebug_info_start
-	.long LDIFF_SYM2676
+LDIFF_SYM2678=LTDIE_131 - Ldebug_info_start
+	.long LDIFF_SYM2678
 LTDIE_131_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2677=LTDIE_131 - Ldebug_info_start
-	.long LDIFF_SYM2677
+LDIFF_SYM2679=LTDIE_131 - Ldebug_info_start
+	.long LDIFF_SYM2679
 	.byte 2
 	.asciz "(wrapper_managed-to-native)_ApiDefinition.Messaging:UInt64_objc_msgSend"
 	.asciz "wrapper_managed_to_native_ApiDefinition_Messaging_UInt64_objc_msgSend_intptr_intptr"
@@ -98156,47 +98430,47 @@ LDIFF_SYM2677=LTDIE_131 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM2678=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2678
+LDIFF_SYM2680=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2680
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM2679=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2679
+LDIFF_SYM2681=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2681
 	.byte 2,141,24,11
 	.asciz "V_0"
 
-LDIFF_SYM2680=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2680
+LDIFF_SYM2682=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2682
 	.byte 3,141,176,1,11
 	.asciz "V_1"
 
-LDIFF_SYM2681=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2681
+LDIFF_SYM2683=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2683
 	.byte 3,141,184,1,11
 	.asciz "V_2"
 
-LDIFF_SYM2682=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2682
+LDIFF_SYM2684=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2684
 	.byte 3,141,192,1,11
 	.asciz "V_3"
 
-LDIFF_SYM2683=LDIE_U8 - Ldebug_info_start
-	.long LDIFF_SYM2683
+LDIFF_SYM2685=LDIE_U8 - Ldebug_info_start
+	.long LDIFF_SYM2685
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2684=Lfde487_end - Lfde487_start
-	.long LDIFF_SYM2684
+LDIFF_SYM2686=Lfde487_end - Lfde487_start
+	.long LDIFF_SYM2686
 Lfde487_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_ApiDefinition_Messaging_UInt64_objc_msgSend_intptr_intptr
 
-LDIFF_SYM2685=Lme_255 - wrapper_managed_to_native_ApiDefinition_Messaging_UInt64_objc_msgSend_intptr_intptr
-	.long LDIFF_SYM2685
+LDIFF_SYM2687=Lme_255 - wrapper_managed_to_native_ApiDefinition_Messaging_UInt64_objc_msgSend_intptr_intptr
+	.long LDIFF_SYM2687
 	.long 0
 	.byte 12,31,0,68,14,208,1,157,26,158,25,68,13,29,76,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9,68,155,8,156,7
@@ -98216,47 +98490,47 @@ Lfde487_end:
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM2686=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2686
+LDIFF_SYM2688=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2688
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM2687=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2687
+LDIFF_SYM2689=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2689
 	.byte 2,141,24,11
 	.asciz "V_0"
 
-LDIFF_SYM2688=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2688
+LDIFF_SYM2690=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2690
 	.byte 3,141,176,1,11
 	.asciz "V_1"
 
-LDIFF_SYM2689=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2689
+LDIFF_SYM2691=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2691
 	.byte 3,141,184,1,11
 	.asciz "V_2"
 
-LDIFF_SYM2690=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2690
+LDIFF_SYM2692=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2692
 	.byte 3,141,192,1,11
 	.asciz "V_3"
 
-LDIFF_SYM2691=LDIE_U8 - Ldebug_info_start
-	.long LDIFF_SYM2691
+LDIFF_SYM2693=LDIE_U8 - Ldebug_info_start
+	.long LDIFF_SYM2693
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2692=Lfde488_end - Lfde488_start
-	.long LDIFF_SYM2692
+LDIFF_SYM2694=Lfde488_end - Lfde488_start
+	.long LDIFF_SYM2694
 Lfde488_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_ApiDefinition_Messaging_UInt64_objc_msgSendSuper_intptr_intptr
 
-LDIFF_SYM2693=Lme_256 - wrapper_managed_to_native_ApiDefinition_Messaging_UInt64_objc_msgSendSuper_intptr_intptr
-	.long LDIFF_SYM2693
+LDIFF_SYM2695=Lme_256 - wrapper_managed_to_native_ApiDefinition_Messaging_UInt64_objc_msgSendSuper_intptr_intptr
+	.long LDIFF_SYM2695
 	.long 0
 	.byte 12,31,0,68,14,208,1,157,26,158,25,68,13,29,76,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9,68,155,8,156,7
@@ -98276,47 +98550,47 @@ Lfde488_end:
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM2694=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2694
+LDIFF_SYM2696=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2696
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM2695=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2695
+LDIFF_SYM2697=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2697
 	.byte 2,141,24,3
 	.asciz "param2"
 
-LDIFF_SYM2696=LDIE_U4 - Ldebug_info_start
-	.long LDIFF_SYM2696
+LDIFF_SYM2698=LDIE_U4 - Ldebug_info_start
+	.long LDIFF_SYM2698
 	.byte 2,141,32,11
 	.asciz "V_0"
 
-LDIFF_SYM2697=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2697
+LDIFF_SYM2699=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2699
 	.byte 3,141,184,1,11
 	.asciz "V_1"
 
-LDIFF_SYM2698=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2698
+LDIFF_SYM2700=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2700
 	.byte 3,141,192,1,11
 	.asciz "V_2"
 
-LDIFF_SYM2699=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2699
+LDIFF_SYM2701=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2701
 	.byte 3,141,200,1,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2700=Lfde489_end - Lfde489_start
-	.long LDIFF_SYM2700
+LDIFF_SYM2702=Lfde489_end - Lfde489_start
+	.long LDIFF_SYM2702
 Lfde489_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSend_UInt32_intptr_intptr_uint
 
-LDIFF_SYM2701=Lme_257 - wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSend_UInt32_intptr_intptr_uint
-	.long LDIFF_SYM2701
+LDIFF_SYM2703=Lme_257 - wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSend_UInt32_intptr_intptr_uint
+	.long LDIFF_SYM2703
 	.long 0
 	.byte 12,31,0,68,14,208,1,157,26,158,25,68,13,29,76,147,15,148,14,68,149,13,150,12,68,151,11,152,10,68,153,9
 	.byte 154,8,68,155,7,156,6
@@ -98336,47 +98610,47 @@ Lfde489_end:
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM2702=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2702
+LDIFF_SYM2704=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2704
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM2703=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2703
+LDIFF_SYM2705=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2705
 	.byte 2,141,24,3
 	.asciz "param2"
 
-LDIFF_SYM2704=LDIE_U4 - Ldebug_info_start
-	.long LDIFF_SYM2704
+LDIFF_SYM2706=LDIE_U4 - Ldebug_info_start
+	.long LDIFF_SYM2706
 	.byte 2,141,32,11
 	.asciz "V_0"
 
-LDIFF_SYM2705=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2705
+LDIFF_SYM2707=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2707
 	.byte 3,141,184,1,11
 	.asciz "V_1"
 
-LDIFF_SYM2706=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2706
+LDIFF_SYM2708=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2708
 	.byte 3,141,192,1,11
 	.asciz "V_2"
 
-LDIFF_SYM2707=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2707
+LDIFF_SYM2709=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2709
 	.byte 3,141,200,1,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2708=Lfde490_end - Lfde490_start
-	.long LDIFF_SYM2708
+LDIFF_SYM2710=Lfde490_end - Lfde490_start
+	.long LDIFF_SYM2710
 Lfde490_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSendSuper_UInt32_intptr_intptr_uint
 
-LDIFF_SYM2709=Lme_258 - wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSendSuper_UInt32_intptr_intptr_uint
-	.long LDIFF_SYM2709
+LDIFF_SYM2711=Lme_258 - wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSendSuper_UInt32_intptr_intptr_uint
+	.long LDIFF_SYM2711
 	.long 0
 	.byte 12,31,0,68,14,208,1,157,26,158,25,68,13,29,76,147,15,148,14,68,149,13,150,12,68,151,11,152,10,68,153,9
 	.byte 154,8,68,155,7,156,6
@@ -98396,47 +98670,47 @@ Lfde490_end:
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM2710=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2710
+LDIFF_SYM2712=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2712
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM2711=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2711
+LDIFF_SYM2713=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2713
 	.byte 2,141,24,3
 	.asciz "param2"
 
-LDIFF_SYM2712=LDIE_U8 - Ldebug_info_start
-	.long LDIFF_SYM2712
+LDIFF_SYM2714=LDIE_U8 - Ldebug_info_start
+	.long LDIFF_SYM2714
 	.byte 2,141,32,11
 	.asciz "V_0"
 
-LDIFF_SYM2713=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2713
+LDIFF_SYM2715=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2715
 	.byte 3,141,184,1,11
 	.asciz "V_1"
 
-LDIFF_SYM2714=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2714
+LDIFF_SYM2716=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2716
 	.byte 3,141,192,1,11
 	.asciz "V_2"
 
-LDIFF_SYM2715=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2715
+LDIFF_SYM2717=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2717
 	.byte 3,141,200,1,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2716=Lfde491_end - Lfde491_start
-	.long LDIFF_SYM2716
+LDIFF_SYM2718=Lfde491_end - Lfde491_start
+	.long LDIFF_SYM2718
 Lfde491_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSend_UInt64_intptr_intptr_ulong
 
-LDIFF_SYM2717=Lme_259 - wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSend_UInt64_intptr_intptr_ulong
-	.long LDIFF_SYM2717
+LDIFF_SYM2719=Lme_259 - wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSend_UInt64_intptr_intptr_ulong
+	.long LDIFF_SYM2719
 	.long 0
 	.byte 12,31,0,68,14,208,1,157,26,158,25,68,13,29,76,147,15,148,14,68,149,13,150,12,68,151,11,152,10,68,153,9
 	.byte 154,8,68,155,7,156,6
@@ -98456,47 +98730,47 @@ Lfde491_end:
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM2718=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2718
+LDIFF_SYM2720=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2720
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM2719=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2719
+LDIFF_SYM2721=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2721
 	.byte 2,141,24,3
 	.asciz "param2"
 
-LDIFF_SYM2720=LDIE_U8 - Ldebug_info_start
-	.long LDIFF_SYM2720
+LDIFF_SYM2722=LDIE_U8 - Ldebug_info_start
+	.long LDIFF_SYM2722
 	.byte 2,141,32,11
 	.asciz "V_0"
 
-LDIFF_SYM2721=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2721
+LDIFF_SYM2723=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2723
 	.byte 3,141,184,1,11
 	.asciz "V_1"
 
-LDIFF_SYM2722=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2722
+LDIFF_SYM2724=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2724
 	.byte 3,141,192,1,11
 	.asciz "V_2"
 
-LDIFF_SYM2723=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2723
+LDIFF_SYM2725=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2725
 	.byte 3,141,200,1,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2724=Lfde492_end - Lfde492_start
-	.long LDIFF_SYM2724
+LDIFF_SYM2726=Lfde492_end - Lfde492_start
+	.long LDIFF_SYM2726
 Lfde492_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSendSuper_UInt64_intptr_intptr_ulong
 
-LDIFF_SYM2725=Lme_25a - wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSendSuper_UInt64_intptr_intptr_ulong
-	.long LDIFF_SYM2725
+LDIFF_SYM2727=Lme_25a - wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSendSuper_UInt64_intptr_intptr_ulong
+	.long LDIFF_SYM2727
 	.long 0
 	.byte 12,31,0,68,14,208,1,157,26,158,25,68,13,29,76,147,15,148,14,68,149,13,150,12,68,151,11,152,10,68,153,9
 	.byte 154,8,68,155,7,156,6
@@ -98516,47 +98790,47 @@ Lfde492_end:
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM2726=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2726
+LDIFF_SYM2728=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2728
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM2727=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2727
+LDIFF_SYM2729=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2729
 	.byte 2,141,24,11
 	.asciz "V_0"
 
-LDIFF_SYM2728=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2728
+LDIFF_SYM2730=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2730
 	.byte 3,141,176,1,11
 	.asciz "V_1"
 
-LDIFF_SYM2729=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2729
+LDIFF_SYM2731=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2731
 	.byte 3,141,184,1,11
 	.asciz "V_2"
 
-LDIFF_SYM2730=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2730
+LDIFF_SYM2732=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2732
 	.byte 3,141,192,1,11
 	.asciz "V_3"
 
-LDIFF_SYM2731=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2731
+LDIFF_SYM2733=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2733
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2732=Lfde493_end - Lfde493_start
-	.long LDIFF_SYM2732
+LDIFF_SYM2734=Lfde493_end - Lfde493_start
+	.long LDIFF_SYM2734
 Lfde493_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_ApiDefinition_Messaging_bool_objc_msgSend_intptr_intptr
 
-LDIFF_SYM2733=Lme_25b - wrapper_managed_to_native_ApiDefinition_Messaging_bool_objc_msgSend_intptr_intptr
-	.long LDIFF_SYM2733
+LDIFF_SYM2735=Lme_25b - wrapper_managed_to_native_ApiDefinition_Messaging_bool_objc_msgSend_intptr_intptr
+	.long LDIFF_SYM2735
 	.long 0
 	.byte 12,31,0,68,14,208,1,157,26,158,25,68,13,29,76,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9,68,155,8,156,7
@@ -98576,47 +98850,47 @@ Lfde493_end:
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM2734=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2734
+LDIFF_SYM2736=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2736
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM2735=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2735
+LDIFF_SYM2737=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2737
 	.byte 2,141,24,11
 	.asciz "V_0"
 
-LDIFF_SYM2736=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2736
+LDIFF_SYM2738=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2738
 	.byte 3,141,176,1,11
 	.asciz "V_1"
 
-LDIFF_SYM2737=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2737
+LDIFF_SYM2739=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2739
 	.byte 3,141,184,1,11
 	.asciz "V_2"
 
-LDIFF_SYM2738=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2738
+LDIFF_SYM2740=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2740
 	.byte 3,141,192,1,11
 	.asciz "V_3"
 
-LDIFF_SYM2739=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2739
+LDIFF_SYM2741=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2741
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2740=Lfde494_end - Lfde494_start
-	.long LDIFF_SYM2740
+LDIFF_SYM2742=Lfde494_end - Lfde494_start
+	.long LDIFF_SYM2742
 Lfde494_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_ApiDefinition_Messaging_bool_objc_msgSendSuper_intptr_intptr
 
-LDIFF_SYM2741=Lme_25c - wrapper_managed_to_native_ApiDefinition_Messaging_bool_objc_msgSendSuper_intptr_intptr
-	.long LDIFF_SYM2741
+LDIFF_SYM2743=Lme_25c - wrapper_managed_to_native_ApiDefinition_Messaging_bool_objc_msgSendSuper_intptr_intptr
+	.long LDIFF_SYM2743
 	.long 0
 	.byte 12,31,0,68,14,208,1,157,26,158,25,68,13,29,76,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9,68,155,8,156,7
@@ -98636,52 +98910,52 @@ Lfde494_end:
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM2742=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2742
+LDIFF_SYM2744=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2744
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM2743=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2743
+LDIFF_SYM2745=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2745
 	.byte 2,141,24,3
 	.asciz "param2"
 
-LDIFF_SYM2744=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2744
+LDIFF_SYM2746=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2746
 	.byte 2,141,32,11
 	.asciz "V_0"
 
-LDIFF_SYM2745=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2745
+LDIFF_SYM2747=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2747
 	.byte 3,141,184,1,11
 	.asciz "V_1"
 
-LDIFF_SYM2746=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2746
+LDIFF_SYM2748=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2748
 	.byte 3,141,192,1,11
 	.asciz "V_2"
 
-LDIFF_SYM2747=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2747
+LDIFF_SYM2749=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2749
 	.byte 3,141,200,1,11
 	.asciz "V_3"
 
-LDIFF_SYM2748=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2748
+LDIFF_SYM2750=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2750
 	.byte 1,102,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2749=Lfde495_end - Lfde495_start
-	.long LDIFF_SYM2749
+LDIFF_SYM2751=Lfde495_end - Lfde495_start
+	.long LDIFF_SYM2751
 Lfde495_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSend_bool_intptr_intptr_bool
 
-LDIFF_SYM2750=Lme_25d - wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSend_bool_intptr_intptr_bool
-	.long LDIFF_SYM2750
+LDIFF_SYM2752=Lme_25d - wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSend_bool_intptr_intptr_bool
+	.long LDIFF_SYM2752
 	.long 0
 	.byte 12,31,0,68,14,208,1,157,26,158,25,68,13,29,76,147,15,148,14,68,149,13,150,12,68,151,11,152,10,68,153,9
 	.byte 154,8,68,155,7,156,6
@@ -98701,52 +98975,52 @@ Lfde495_end:
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM2751=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2751
+LDIFF_SYM2753=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2753
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM2752=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2752
+LDIFF_SYM2754=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2754
 	.byte 2,141,24,3
 	.asciz "param2"
 
-LDIFF_SYM2753=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2753
+LDIFF_SYM2755=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2755
 	.byte 2,141,32,11
 	.asciz "V_0"
 
-LDIFF_SYM2754=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2754
+LDIFF_SYM2756=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2756
 	.byte 3,141,184,1,11
 	.asciz "V_1"
 
-LDIFF_SYM2755=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2755
+LDIFF_SYM2757=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2757
 	.byte 3,141,192,1,11
 	.asciz "V_2"
 
-LDIFF_SYM2756=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2756
+LDIFF_SYM2758=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2758
 	.byte 3,141,200,1,11
 	.asciz "V_3"
 
-LDIFF_SYM2757=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2757
+LDIFF_SYM2759=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2759
 	.byte 1,102,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2758=Lfde496_end - Lfde496_start
-	.long LDIFF_SYM2758
+LDIFF_SYM2760=Lfde496_end - Lfde496_start
+	.long LDIFF_SYM2760
 Lfde496_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSendSuper_bool_intptr_intptr_bool
 
-LDIFF_SYM2759=Lme_25e - wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSendSuper_bool_intptr_intptr_bool
-	.long LDIFF_SYM2759
+LDIFF_SYM2761=Lme_25e - wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSendSuper_bool_intptr_intptr_bool
+	.long LDIFF_SYM2761
 	.long 0
 	.byte 12,31,0,68,14,208,1,157,26,158,25,68,13,29,76,147,15,148,14,68,149,13,150,12,68,151,11,152,10,68,153,9
 	.byte 154,8,68,155,7,156,6
@@ -98766,47 +99040,47 @@ Lfde496_end:
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM2760=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2760
+LDIFF_SYM2762=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2762
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM2761=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2761
+LDIFF_SYM2763=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2763
 	.byte 2,141,24,3
 	.asciz "param2"
 
-LDIFF_SYM2762=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2762
+LDIFF_SYM2764=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2764
 	.byte 2,141,32,11
 	.asciz "V_0"
 
-LDIFF_SYM2763=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2763
+LDIFF_SYM2765=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2765
 	.byte 3,141,184,1,11
 	.asciz "V_1"
 
-LDIFF_SYM2764=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2764
+LDIFF_SYM2766=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2766
 	.byte 3,141,192,1,11
 	.asciz "V_2"
 
-LDIFF_SYM2765=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2765
+LDIFF_SYM2767=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2767
 	.byte 3,141,200,1,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2766=Lfde497_end - Lfde497_start
-	.long LDIFF_SYM2766
+LDIFF_SYM2768=Lfde497_end - Lfde497_start
+	.long LDIFF_SYM2768
 Lfde497_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSend_IntPtr_intptr_intptr_intptr
 
-LDIFF_SYM2767=Lme_25f - wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSend_IntPtr_intptr_intptr_intptr
-	.long LDIFF_SYM2767
+LDIFF_SYM2769=Lme_25f - wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSend_IntPtr_intptr_intptr_intptr
+	.long LDIFF_SYM2769
 	.long 0
 	.byte 12,31,0,68,14,208,1,157,26,158,25,68,13,29,76,147,15,148,14,68,149,13,150,12,68,151,11,152,10,68,153,9
 	.byte 154,8,68,155,7,156,6
@@ -98826,47 +99100,47 @@ Lfde497_end:
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM2768=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2768
+LDIFF_SYM2770=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2770
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM2769=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2769
+LDIFF_SYM2771=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2771
 	.byte 2,141,24,3
 	.asciz "param2"
 
-LDIFF_SYM2770=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2770
+LDIFF_SYM2772=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2772
 	.byte 2,141,32,11
 	.asciz "V_0"
 
-LDIFF_SYM2771=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2771
+LDIFF_SYM2773=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2773
 	.byte 3,141,184,1,11
 	.asciz "V_1"
 
-LDIFF_SYM2772=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2772
+LDIFF_SYM2774=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2774
 	.byte 3,141,192,1,11
 	.asciz "V_2"
 
-LDIFF_SYM2773=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2773
+LDIFF_SYM2775=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2775
 	.byte 3,141,200,1,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2774=Lfde498_end - Lfde498_start
-	.long LDIFF_SYM2774
+LDIFF_SYM2776=Lfde498_end - Lfde498_start
+	.long LDIFF_SYM2776
 Lfde498_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSendSuper_IntPtr_intptr_intptr_intptr
 
-LDIFF_SYM2775=Lme_260 - wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSendSuper_IntPtr_intptr_intptr_intptr
-	.long LDIFF_SYM2775
+LDIFF_SYM2777=Lme_260 - wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSendSuper_IntPtr_intptr_intptr_intptr
+	.long LDIFF_SYM2777
 	.long 0
 	.byte 12,31,0,68,14,208,1,157,26,158,25,68,13,29,76,147,15,148,14,68,149,13,150,12,68,151,11,152,10,68,153,9
 	.byte 154,8,68,155,7,156,6
@@ -98886,62 +99160,62 @@ Lfde498_end:
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM2776=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2776
+LDIFF_SYM2778=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2778
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM2777=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2777
+LDIFF_SYM2779=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2779
 	.byte 2,141,24,3
 	.asciz "param2"
 
-LDIFF_SYM2778=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2778
+LDIFF_SYM2780=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2780
 	.byte 2,141,32,3
 	.asciz "param3"
 
-LDIFF_SYM2779=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2779
+LDIFF_SYM2781=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2781
 	.byte 2,141,40,3
 	.asciz "param4"
 
-LDIFF_SYM2780=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2780
+LDIFF_SYM2782=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2782
 	.byte 2,141,48,11
 	.asciz "V_0"
 
-LDIFF_SYM2781=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2781
+LDIFF_SYM2783=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2783
 	.byte 3,141,200,1,11
 	.asciz "V_1"
 
-LDIFF_SYM2782=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2782
+LDIFF_SYM2784=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2784
 	.byte 3,141,208,1,11
 	.asciz "V_2"
 
-LDIFF_SYM2783=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2783
+LDIFF_SYM2785=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2785
 	.byte 3,141,216,1,11
 	.asciz "V_3"
 
-LDIFF_SYM2784=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2784
+LDIFF_SYM2786=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2786
 	.byte 1,100,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2785=Lfde499_end - Lfde499_start
-	.long LDIFF_SYM2785
+LDIFF_SYM2787=Lfde499_end - Lfde499_start
+	.long LDIFF_SYM2787
 Lfde499_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_ApiDefinition_Messaging_bool_objc_msgSend_IntPtr_IntPtr_IntPtr_intptr_intptr_intptr_intptr_intptr
 
-LDIFF_SYM2786=Lme_261 - wrapper_managed_to_native_ApiDefinition_Messaging_bool_objc_msgSend_IntPtr_IntPtr_IntPtr_intptr_intptr_intptr_intptr_intptr
-	.long LDIFF_SYM2786
+LDIFF_SYM2788=Lme_261 - wrapper_managed_to_native_ApiDefinition_Messaging_bool_objc_msgSend_IntPtr_IntPtr_IntPtr_intptr_intptr_intptr_intptr_intptr
+	.long LDIFF_SYM2788
 	.long 0
 	.byte 12,31,0,68,14,240,1,157,30,158,29,68,13,29,76,147,17,148,16,68,149,15,150,14,68,151,13,152,12,68,153,11
 	.byte 154,10,68,155,9,156,8
@@ -98961,62 +99235,62 @@ Lfde499_end:
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM2787=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2787
+LDIFF_SYM2789=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2789
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM2788=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2788
+LDIFF_SYM2790=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2790
 	.byte 2,141,24,3
 	.asciz "param2"
 
-LDIFF_SYM2789=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2789
+LDIFF_SYM2791=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2791
 	.byte 2,141,32,3
 	.asciz "param3"
 
-LDIFF_SYM2790=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2790
+LDIFF_SYM2792=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2792
 	.byte 2,141,40,3
 	.asciz "param4"
 
-LDIFF_SYM2791=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2791
+LDIFF_SYM2793=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2793
 	.byte 2,141,48,11
 	.asciz "V_0"
 
-LDIFF_SYM2792=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2792
+LDIFF_SYM2794=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2794
 	.byte 3,141,200,1,11
 	.asciz "V_1"
 
-LDIFF_SYM2793=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2793
+LDIFF_SYM2795=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2795
 	.byte 3,141,208,1,11
 	.asciz "V_2"
 
-LDIFF_SYM2794=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2794
+LDIFF_SYM2796=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2796
 	.byte 3,141,216,1,11
 	.asciz "V_3"
 
-LDIFF_SYM2795=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2795
+LDIFF_SYM2797=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2797
 	.byte 1,100,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2796=Lfde500_end - Lfde500_start
-	.long LDIFF_SYM2796
+LDIFF_SYM2798=Lfde500_end - Lfde500_start
+	.long LDIFF_SYM2798
 Lfde500_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_ApiDefinition_Messaging_bool_objc_msgSendSuper_IntPtr_IntPtr_IntPtr_intptr_intptr_intptr_intptr_intptr
 
-LDIFF_SYM2797=Lme_262 - wrapper_managed_to_native_ApiDefinition_Messaging_bool_objc_msgSendSuper_IntPtr_IntPtr_IntPtr_intptr_intptr_intptr_intptr_intptr
-	.long LDIFF_SYM2797
+LDIFF_SYM2799=Lme_262 - wrapper_managed_to_native_ApiDefinition_Messaging_bool_objc_msgSendSuper_IntPtr_IntPtr_IntPtr_intptr_intptr_intptr_intptr_intptr
+	.long LDIFF_SYM2799
 	.long 0
 	.byte 12,31,0,68,14,240,1,157,30,158,29,68,13,29,76,147,17,148,16,68,149,15,150,14,68,151,13,152,12,68,153,11
 	.byte 154,10,68,155,9,156,8
@@ -99036,42 +99310,42 @@ Lfde500_end:
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM2798=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2798
+LDIFF_SYM2800=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2800
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM2799=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2799
+LDIFF_SYM2801=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2801
 	.byte 2,141,24,11
 	.asciz "V_0"
 
-LDIFF_SYM2800=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2800
+LDIFF_SYM2802=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2802
 	.byte 3,141,176,1,11
 	.asciz "V_1"
 
-LDIFF_SYM2801=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2801
+LDIFF_SYM2803=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2803
 	.byte 3,141,184,1,11
 	.asciz "V_2"
 
-LDIFF_SYM2802=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2802
+LDIFF_SYM2804=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2804
 	.byte 3,141,192,1,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2803=Lfde501_end - Lfde501_start
-	.long LDIFF_SYM2803
+LDIFF_SYM2805=Lfde501_end - Lfde501_start
+	.long LDIFF_SYM2805
 Lfde501_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSend_intptr_intptr
 
-LDIFF_SYM2804=Lme_263 - wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSend_intptr_intptr
-	.long LDIFF_SYM2804
+LDIFF_SYM2806=Lme_263 - wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSend_intptr_intptr
+	.long LDIFF_SYM2806
 	.long 0
 	.byte 12,31,0,68,14,208,1,157,26,158,25,68,13,29,76,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9,68,155,8,156,7
@@ -99091,42 +99365,42 @@ Lfde501_end:
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM2805=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2805
+LDIFF_SYM2807=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2807
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM2806=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2806
+LDIFF_SYM2808=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2808
 	.byte 2,141,24,11
 	.asciz "V_0"
 
-LDIFF_SYM2807=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2807
+LDIFF_SYM2809=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2809
 	.byte 3,141,176,1,11
 	.asciz "V_1"
 
-LDIFF_SYM2808=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2808
+LDIFF_SYM2810=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2810
 	.byte 3,141,184,1,11
 	.asciz "V_2"
 
-LDIFF_SYM2809=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2809
+LDIFF_SYM2811=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2811
 	.byte 3,141,192,1,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2810=Lfde502_end - Lfde502_start
-	.long LDIFF_SYM2810
+LDIFF_SYM2812=Lfde502_end - Lfde502_start
+	.long LDIFF_SYM2812
 Lfde502_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSendSuper_intptr_intptr
 
-LDIFF_SYM2811=Lme_264 - wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSendSuper_intptr_intptr
-	.long LDIFF_SYM2811
+LDIFF_SYM2813=Lme_264 - wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSendSuper_intptr_intptr
+	.long LDIFF_SYM2813
 	.long 0
 	.byte 12,31,0,68,14,208,1,157,26,158,25,68,13,29,76,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9,68,155,8,156,7
@@ -99146,52 +99420,52 @@ Lfde502_end:
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM2812=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2812
+LDIFF_SYM2814=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2814
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM2813=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2813
+LDIFF_SYM2815=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2815
 	.byte 2,141,24,3
 	.asciz "param2"
 
-LDIFF_SYM2814=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2814
+LDIFF_SYM2816=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2816
 	.byte 2,141,32,11
 	.asciz "V_0"
 
-LDIFF_SYM2815=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2815
+LDIFF_SYM2817=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2817
 	.byte 3,141,184,1,11
 	.asciz "V_1"
 
-LDIFF_SYM2816=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2816
+LDIFF_SYM2818=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2818
 	.byte 3,141,192,1,11
 	.asciz "V_2"
 
-LDIFF_SYM2817=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2817
+LDIFF_SYM2819=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2819
 	.byte 3,141,200,1,11
 	.asciz "V_3"
 
-LDIFF_SYM2818=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2818
+LDIFF_SYM2820=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2820
 	.byte 1,102,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2819=Lfde503_end - Lfde503_start
-	.long LDIFF_SYM2819
+LDIFF_SYM2821=Lfde503_end - Lfde503_start
+	.long LDIFF_SYM2821
 Lfde503_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_ApiDefinition_Messaging_bool_objc_msgSend_IntPtr_intptr_intptr_intptr
 
-LDIFF_SYM2820=Lme_265 - wrapper_managed_to_native_ApiDefinition_Messaging_bool_objc_msgSend_IntPtr_intptr_intptr_intptr
-	.long LDIFF_SYM2820
+LDIFF_SYM2822=Lme_265 - wrapper_managed_to_native_ApiDefinition_Messaging_bool_objc_msgSend_IntPtr_intptr_intptr_intptr
+	.long LDIFF_SYM2822
 	.long 0
 	.byte 12,31,0,68,14,208,1,157,26,158,25,68,13,29,76,147,15,148,14,68,149,13,150,12,68,151,11,152,10,68,153,9
 	.byte 154,8,68,155,7,156,6
@@ -99211,52 +99485,52 @@ Lfde503_end:
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM2821=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2821
+LDIFF_SYM2823=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2823
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM2822=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2822
+LDIFF_SYM2824=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2824
 	.byte 2,141,24,3
 	.asciz "param2"
 
-LDIFF_SYM2823=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2823
+LDIFF_SYM2825=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2825
 	.byte 2,141,32,11
 	.asciz "V_0"
 
-LDIFF_SYM2824=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2824
+LDIFF_SYM2826=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2826
 	.byte 3,141,184,1,11
 	.asciz "V_1"
 
-LDIFF_SYM2825=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2825
+LDIFF_SYM2827=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2827
 	.byte 3,141,192,1,11
 	.asciz "V_2"
 
-LDIFF_SYM2826=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2826
+LDIFF_SYM2828=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2828
 	.byte 3,141,200,1,11
 	.asciz "V_3"
 
-LDIFF_SYM2827=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2827
+LDIFF_SYM2829=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2829
 	.byte 1,102,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2828=Lfde504_end - Lfde504_start
-	.long LDIFF_SYM2828
+LDIFF_SYM2830=Lfde504_end - Lfde504_start
+	.long LDIFF_SYM2830
 Lfde504_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_ApiDefinition_Messaging_bool_objc_msgSendSuper_IntPtr_intptr_intptr_intptr
 
-LDIFF_SYM2829=Lme_266 - wrapper_managed_to_native_ApiDefinition_Messaging_bool_objc_msgSendSuper_IntPtr_intptr_intptr_intptr
-	.long LDIFF_SYM2829
+LDIFF_SYM2831=Lme_266 - wrapper_managed_to_native_ApiDefinition_Messaging_bool_objc_msgSendSuper_IntPtr_intptr_intptr_intptr
+	.long LDIFF_SYM2831
 	.long 0
 	.byte 12,31,0,68,14,208,1,157,26,158,25,68,13,29,76,147,15,148,14,68,149,13,150,12,68,151,11,152,10,68,153,9
 	.byte 154,8,68,155,7,156,6
@@ -99276,52 +99550,52 @@ Lfde504_end:
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM2830=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2830
+LDIFF_SYM2832=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2832
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM2831=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2831
+LDIFF_SYM2833=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2833
 	.byte 2,141,24,3
 	.asciz "param2"
 
-LDIFF_SYM2832=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2832
+LDIFF_SYM2834=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2834
 	.byte 2,141,32,3
 	.asciz "param3"
 
-LDIFF_SYM2833=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2833
+LDIFF_SYM2835=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2835
 	.byte 2,141,40,11
 	.asciz "V_0"
 
-LDIFF_SYM2834=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2834
+LDIFF_SYM2836=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2836
 	.byte 3,141,192,1,11
 	.asciz "V_1"
 
-LDIFF_SYM2835=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2835
+LDIFF_SYM2837=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2837
 	.byte 3,141,200,1,11
 	.asciz "V_2"
 
-LDIFF_SYM2836=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2836
+LDIFF_SYM2838=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2838
 	.byte 3,141,208,1,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2837=Lfde505_end - Lfde505_start
-	.long LDIFF_SYM2837
+LDIFF_SYM2839=Lfde505_end - Lfde505_start
+	.long LDIFF_SYM2839
 Lfde505_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSend_IntPtr_IntPtr_intptr_intptr_intptr_intptr
 
-LDIFF_SYM2838=Lme_267 - wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSend_IntPtr_IntPtr_intptr_intptr_intptr_intptr
-	.long LDIFF_SYM2838
+LDIFF_SYM2840=Lme_267 - wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSend_IntPtr_IntPtr_intptr_intptr_intptr_intptr
+	.long LDIFF_SYM2840
 	.long 0
 	.byte 12,31,0,68,14,224,1,157,28,158,27,68,13,29,76,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9,68,155,8,156,7
@@ -99341,52 +99615,52 @@ Lfde505_end:
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM2839=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2839
+LDIFF_SYM2841=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2841
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM2840=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2840
+LDIFF_SYM2842=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2842
 	.byte 2,141,24,3
 	.asciz "param2"
 
-LDIFF_SYM2841=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2841
+LDIFF_SYM2843=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2843
 	.byte 2,141,32,3
 	.asciz "param3"
 
-LDIFF_SYM2842=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2842
+LDIFF_SYM2844=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2844
 	.byte 2,141,40,11
 	.asciz "V_0"
 
-LDIFF_SYM2843=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2843
+LDIFF_SYM2845=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2845
 	.byte 3,141,192,1,11
 	.asciz "V_1"
 
-LDIFF_SYM2844=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2844
+LDIFF_SYM2846=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2846
 	.byte 3,141,200,1,11
 	.asciz "V_2"
 
-LDIFF_SYM2845=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2845
+LDIFF_SYM2847=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2847
 	.byte 3,141,208,1,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2846=Lfde506_end - Lfde506_start
-	.long LDIFF_SYM2846
+LDIFF_SYM2848=Lfde506_end - Lfde506_start
+	.long LDIFF_SYM2848
 Lfde506_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSendSuper_IntPtr_IntPtr_intptr_intptr_intptr_intptr
 
-LDIFF_SYM2847=Lme_268 - wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSendSuper_IntPtr_IntPtr_intptr_intptr_intptr_intptr
-	.long LDIFF_SYM2847
+LDIFF_SYM2849=Lme_268 - wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSendSuper_IntPtr_IntPtr_intptr_intptr_intptr_intptr
+	.long LDIFF_SYM2849
 	.long 0
 	.byte 12,31,0,68,14,224,1,157,28,158,27,68,13,29,76,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9,68,155,8,156,7
@@ -99406,62 +99680,62 @@ Lfde506_end:
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM2848=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2848
+LDIFF_SYM2850=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2850
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM2849=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2849
+LDIFF_SYM2851=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2851
 	.byte 2,141,24,3
 	.asciz "param2"
 
-LDIFF_SYM2850=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2850
+LDIFF_SYM2852=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2852
 	.byte 2,141,32,3
 	.asciz "param3"
 
-LDIFF_SYM2851=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2851
+LDIFF_SYM2853=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2853
 	.byte 2,141,40,3
 	.asciz "param4"
 
-LDIFF_SYM2852=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2852
+LDIFF_SYM2854=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2854
 	.byte 2,141,48,11
 	.asciz "V_0"
 
-LDIFF_SYM2853=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2853
+LDIFF_SYM2855=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2855
 	.byte 3,141,200,1,11
 	.asciz "V_1"
 
-LDIFF_SYM2854=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2854
+LDIFF_SYM2856=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2856
 	.byte 3,141,208,1,11
 	.asciz "V_2"
 
-LDIFF_SYM2855=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2855
+LDIFF_SYM2857=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2857
 	.byte 3,141,216,1,11
 	.asciz "V_3"
 
-LDIFF_SYM2856=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2856
+LDIFF_SYM2858=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2858
 	.byte 1,100,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2857=Lfde507_end - Lfde507_start
-	.long LDIFF_SYM2857
+LDIFF_SYM2859=Lfde507_end - Lfde507_start
+	.long LDIFF_SYM2859
 Lfde507_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_ApiDefinition_Messaging_IntPtr_objc_msgSend_IntPtr_IntPtr_IntPtr_intptr_intptr_intptr_intptr_intptr
 
-LDIFF_SYM2858=Lme_269 - wrapper_managed_to_native_ApiDefinition_Messaging_IntPtr_objc_msgSend_IntPtr_IntPtr_IntPtr_intptr_intptr_intptr_intptr_intptr
-	.long LDIFF_SYM2858
+LDIFF_SYM2860=Lme_269 - wrapper_managed_to_native_ApiDefinition_Messaging_IntPtr_objc_msgSend_IntPtr_IntPtr_IntPtr_intptr_intptr_intptr_intptr_intptr
+	.long LDIFF_SYM2860
 	.long 0
 	.byte 12,31,0,68,14,240,1,157,30,158,29,68,13,29,76,147,17,148,16,68,149,15,150,14,68,151,13,152,12,68,153,11
 	.byte 154,10,68,155,9,156,8
@@ -99481,62 +99755,62 @@ Lfde507_end:
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM2859=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2859
+LDIFF_SYM2861=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2861
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM2860=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2860
+LDIFF_SYM2862=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2862
 	.byte 2,141,24,3
 	.asciz "param2"
 
-LDIFF_SYM2861=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2861
+LDIFF_SYM2863=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2863
 	.byte 2,141,32,3
 	.asciz "param3"
 
-LDIFF_SYM2862=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2862
+LDIFF_SYM2864=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2864
 	.byte 2,141,40,3
 	.asciz "param4"
 
-LDIFF_SYM2863=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2863
+LDIFF_SYM2865=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2865
 	.byte 2,141,48,11
 	.asciz "V_0"
 
-LDIFF_SYM2864=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2864
+LDIFF_SYM2866=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2866
 	.byte 3,141,200,1,11
 	.asciz "V_1"
 
-LDIFF_SYM2865=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2865
+LDIFF_SYM2867=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2867
 	.byte 3,141,208,1,11
 	.asciz "V_2"
 
-LDIFF_SYM2866=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2866
+LDIFF_SYM2868=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2868
 	.byte 3,141,216,1,11
 	.asciz "V_3"
 
-LDIFF_SYM2867=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2867
+LDIFF_SYM2869=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2869
 	.byte 1,100,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2868=Lfde508_end - Lfde508_start
-	.long LDIFF_SYM2868
+LDIFF_SYM2870=Lfde508_end - Lfde508_start
+	.long LDIFF_SYM2870
 Lfde508_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_ApiDefinition_Messaging_IntPtr_objc_msgSendSuper_IntPtr_IntPtr_IntPtr_intptr_intptr_intptr_intptr_intptr
 
-LDIFF_SYM2869=Lme_26a - wrapper_managed_to_native_ApiDefinition_Messaging_IntPtr_objc_msgSendSuper_IntPtr_IntPtr_IntPtr_intptr_intptr_intptr_intptr_intptr
-	.long LDIFF_SYM2869
+LDIFF_SYM2871=Lme_26a - wrapper_managed_to_native_ApiDefinition_Messaging_IntPtr_objc_msgSendSuper_IntPtr_IntPtr_IntPtr_intptr_intptr_intptr_intptr_intptr
+	.long LDIFF_SYM2871
 	.long 0
 	.byte 12,31,0,68,14,240,1,157,30,158,29,68,13,29,76,147,17,148,16,68,149,15,150,14,68,151,13,152,12,68,153,11
 	.byte 154,10,68,155,9,156,8
@@ -99556,52 +99830,52 @@ Lfde508_end:
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM2870=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2870
+LDIFF_SYM2872=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2872
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM2871=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2871
+LDIFF_SYM2873=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2873
 	.byte 2,141,24,11
 	.asciz "V_0"
 
-LDIFF_SYM2872=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2872
+LDIFF_SYM2874=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2874
 	.byte 3,141,176,1,11
 	.asciz "V_1"
 
-LDIFF_SYM2873=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2873
+LDIFF_SYM2875=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2875
 	.byte 3,141,184,1,11
 	.asciz "V_2"
 
-LDIFF_SYM2874=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2874
+LDIFF_SYM2876=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2876
 	.byte 3,141,192,1,11
 	.asciz "V_3"
 
-LDIFF_SYM2875=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2875
+LDIFF_SYM2877=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2877
 	.byte 1,103,11
 	.asciz "V_4"
 
-LDIFF_SYM2876=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2876
+LDIFF_SYM2878=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2878
 	.byte 3,141,200,1,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2877=Lfde509_end - Lfde509_start
-	.long LDIFF_SYM2877
+LDIFF_SYM2879=Lfde509_end - Lfde509_start
+	.long LDIFF_SYM2879
 Lfde509_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_ApiDefinition_Messaging_nuint_objc_msgSend_intptr_intptr
 
-LDIFF_SYM2878=Lme_26b - wrapper_managed_to_native_ApiDefinition_Messaging_nuint_objc_msgSend_intptr_intptr
-	.long LDIFF_SYM2878
+LDIFF_SYM2880=Lme_26b - wrapper_managed_to_native_ApiDefinition_Messaging_nuint_objc_msgSend_intptr_intptr
+	.long LDIFF_SYM2880
 	.long 0
 	.byte 12,31,0,68,14,208,1,157,26,158,25,68,13,29,76,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9,68,155,8,156,7
@@ -99621,52 +99895,52 @@ Lfde509_end:
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM2879=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2879
+LDIFF_SYM2881=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2881
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM2880=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2880
+LDIFF_SYM2882=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2882
 	.byte 2,141,24,11
 	.asciz "V_0"
 
-LDIFF_SYM2881=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2881
+LDIFF_SYM2883=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2883
 	.byte 3,141,176,1,11
 	.asciz "V_1"
 
-LDIFF_SYM2882=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2882
+LDIFF_SYM2884=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2884
 	.byte 3,141,184,1,11
 	.asciz "V_2"
 
-LDIFF_SYM2883=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2883
+LDIFF_SYM2885=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2885
 	.byte 3,141,192,1,11
 	.asciz "V_3"
 
-LDIFF_SYM2884=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2884
+LDIFF_SYM2886=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2886
 	.byte 1,103,11
 	.asciz "V_4"
 
-LDIFF_SYM2885=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2885
+LDIFF_SYM2887=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2887
 	.byte 3,141,200,1,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2886=Lfde510_end - Lfde510_start
-	.long LDIFF_SYM2886
+LDIFF_SYM2888=Lfde510_end - Lfde510_start
+	.long LDIFF_SYM2888
 Lfde510_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_ApiDefinition_Messaging_nuint_objc_msgSendSuper_intptr_intptr
 
-LDIFF_SYM2887=Lme_26c - wrapper_managed_to_native_ApiDefinition_Messaging_nuint_objc_msgSendSuper_intptr_intptr
-	.long LDIFF_SYM2887
+LDIFF_SYM2889=Lme_26c - wrapper_managed_to_native_ApiDefinition_Messaging_nuint_objc_msgSendSuper_intptr_intptr
+	.long LDIFF_SYM2889
 	.long 0
 	.byte 12,31,0,68,14,208,1,157,26,158,25,68,13,29,76,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9,68,155,8,156,7
@@ -99680,28 +99954,28 @@ LTDIE_132:
 	.asciz "System_Double"
 
 	.byte 24,16
-LDIFF_SYM2888=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM2888
+LDIFF_SYM2890=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM2890
 	.byte 2,35,0,6
 	.asciz "m_value"
 
-LDIFF_SYM2889=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM2889
+LDIFF_SYM2891=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM2891
 	.byte 2,35,16,0,7
 	.asciz "System_Double"
 
-LDIFF_SYM2890=LTDIE_132 - Ldebug_info_start
-	.long LDIFF_SYM2890
+LDIFF_SYM2892=LTDIE_132 - Ldebug_info_start
+	.long LDIFF_SYM2892
 LTDIE_132_POINTER:
 
 	.byte 13
-LDIFF_SYM2891=LTDIE_132 - Ldebug_info_start
-	.long LDIFF_SYM2891
+LDIFF_SYM2893=LTDIE_132 - Ldebug_info_start
+	.long LDIFF_SYM2893
 LTDIE_132_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2892=LTDIE_132 - Ldebug_info_start
-	.long LDIFF_SYM2892
+LDIFF_SYM2894=LTDIE_132 - Ldebug_info_start
+	.long LDIFF_SYM2894
 	.byte 2
 	.asciz "(wrapper_managed-to-native)_ApiDefinition.Messaging:Double_objc_msgSend"
 	.asciz "wrapper_managed_to_native_ApiDefinition_Messaging_Double_objc_msgSend_intptr_intptr"
@@ -99713,47 +99987,47 @@ LDIFF_SYM2892=LTDIE_132 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM2893=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2893
+LDIFF_SYM2895=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2895
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM2894=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2894
+LDIFF_SYM2896=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2896
 	.byte 2,141,24,11
 	.asciz "V_0"
 
-LDIFF_SYM2895=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2895
+LDIFF_SYM2897=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2897
 	.byte 3,141,176,1,11
 	.asciz "V_1"
 
-LDIFF_SYM2896=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2896
+LDIFF_SYM2898=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2898
 	.byte 3,141,184,1,11
 	.asciz "V_2"
 
-LDIFF_SYM2897=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2897
+LDIFF_SYM2899=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2899
 	.byte 3,141,192,1,11
 	.asciz "V_3"
 
-LDIFF_SYM2898=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM2898
+LDIFF_SYM2900=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM2900
 	.byte 3,141,200,1,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2899=Lfde511_end - Lfde511_start
-	.long LDIFF_SYM2899
+LDIFF_SYM2901=Lfde511_end - Lfde511_start
+	.long LDIFF_SYM2901
 Lfde511_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_ApiDefinition_Messaging_Double_objc_msgSend_intptr_intptr
 
-LDIFF_SYM2900=Lme_26d - wrapper_managed_to_native_ApiDefinition_Messaging_Double_objc_msgSend_intptr_intptr
-	.long LDIFF_SYM2900
+LDIFF_SYM2902=Lme_26d - wrapper_managed_to_native_ApiDefinition_Messaging_Double_objc_msgSend_intptr_intptr
+	.long LDIFF_SYM2902
 	.long 0
 	.byte 12,31,0,68,14,224,1,157,28,158,27,68,13,29,76,147,18,148,17,68,149,16,150,15,68,151,14,152,13,68,153,12
 	.byte 154,11,68,155,10,156,9
@@ -99773,47 +100047,47 @@ Lfde511_end:
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM2901=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2901
+LDIFF_SYM2903=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2903
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM2902=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2902
+LDIFF_SYM2904=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2904
 	.byte 2,141,24,11
 	.asciz "V_0"
 
-LDIFF_SYM2903=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2903
+LDIFF_SYM2905=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2905
 	.byte 3,141,176,1,11
 	.asciz "V_1"
 
-LDIFF_SYM2904=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2904
+LDIFF_SYM2906=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2906
 	.byte 3,141,184,1,11
 	.asciz "V_2"
 
-LDIFF_SYM2905=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2905
+LDIFF_SYM2907=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2907
 	.byte 3,141,192,1,11
 	.asciz "V_3"
 
-LDIFF_SYM2906=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM2906
+LDIFF_SYM2908=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM2908
 	.byte 3,141,200,1,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2907=Lfde512_end - Lfde512_start
-	.long LDIFF_SYM2907
+LDIFF_SYM2909=Lfde512_end - Lfde512_start
+	.long LDIFF_SYM2909
 Lfde512_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_ApiDefinition_Messaging_Double_objc_msgSendSuper_intptr_intptr
 
-LDIFF_SYM2908=Lme_26e - wrapper_managed_to_native_ApiDefinition_Messaging_Double_objc_msgSendSuper_intptr_intptr
-	.long LDIFF_SYM2908
+LDIFF_SYM2910=Lme_26e - wrapper_managed_to_native_ApiDefinition_Messaging_Double_objc_msgSendSuper_intptr_intptr
+	.long LDIFF_SYM2910
 	.long 0
 	.byte 12,31,0,68,14,224,1,157,28,158,27,68,13,29,76,147,18,148,17,68,149,16,150,15,68,151,14,152,13,68,153,12
 	.byte 154,11,68,155,10,156,9
@@ -99833,57 +100107,57 @@ Lfde512_end:
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM2909=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2909
+LDIFF_SYM2911=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2911
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM2910=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2910
+LDIFF_SYM2912=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2912
 	.byte 2,141,24,3
 	.asciz "param2"
 
-LDIFF_SYM2911=LDIE_U4 - Ldebug_info_start
-	.long LDIFF_SYM2911
+LDIFF_SYM2913=LDIE_U4 - Ldebug_info_start
+	.long LDIFF_SYM2913
 	.byte 2,141,32,3
 	.asciz "param3"
 
-LDIFF_SYM2912=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2912
+LDIFF_SYM2914=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2914
 	.byte 2,141,40,11
 	.asciz "V_0"
 
-LDIFF_SYM2913=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2913
+LDIFF_SYM2915=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2915
 	.byte 3,141,192,1,11
 	.asciz "V_1"
 
-LDIFF_SYM2914=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2914
+LDIFF_SYM2916=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2916
 	.byte 3,141,200,1,11
 	.asciz "V_2"
 
-LDIFF_SYM2915=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2915
+LDIFF_SYM2917=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2917
 	.byte 3,141,208,1,11
 	.asciz "V_3"
 
-LDIFF_SYM2916=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2916
+LDIFF_SYM2918=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2918
 	.byte 1,101,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2917=Lfde513_end - Lfde513_start
-	.long LDIFF_SYM2917
+LDIFF_SYM2919=Lfde513_end - Lfde513_start
+	.long LDIFF_SYM2919
 Lfde513_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_ApiDefinition_Messaging_bool_objc_msgSend_UInt32_IntPtr_intptr_intptr_uint_intptr
 
-LDIFF_SYM2918=Lme_26f - wrapper_managed_to_native_ApiDefinition_Messaging_bool_objc_msgSend_UInt32_IntPtr_intptr_intptr_uint_intptr
-	.long LDIFF_SYM2918
+LDIFF_SYM2920=Lme_26f - wrapper_managed_to_native_ApiDefinition_Messaging_bool_objc_msgSend_UInt32_IntPtr_intptr_intptr_uint_intptr
+	.long LDIFF_SYM2920
 	.long 0
 	.byte 12,31,0,68,14,224,1,157,28,158,27,68,13,29,76,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9,68,155,8,156,7
@@ -99903,57 +100177,57 @@ Lfde513_end:
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM2919=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2919
+LDIFF_SYM2921=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2921
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM2920=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2920
+LDIFF_SYM2922=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2922
 	.byte 2,141,24,3
 	.asciz "param2"
 
-LDIFF_SYM2921=LDIE_U4 - Ldebug_info_start
-	.long LDIFF_SYM2921
+LDIFF_SYM2923=LDIE_U4 - Ldebug_info_start
+	.long LDIFF_SYM2923
 	.byte 2,141,32,3
 	.asciz "param3"
 
-LDIFF_SYM2922=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2922
+LDIFF_SYM2924=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2924
 	.byte 2,141,40,11
 	.asciz "V_0"
 
-LDIFF_SYM2923=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2923
+LDIFF_SYM2925=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2925
 	.byte 3,141,192,1,11
 	.asciz "V_1"
 
-LDIFF_SYM2924=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2924
+LDIFF_SYM2926=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2926
 	.byte 3,141,200,1,11
 	.asciz "V_2"
 
-LDIFF_SYM2925=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2925
+LDIFF_SYM2927=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2927
 	.byte 3,141,208,1,11
 	.asciz "V_3"
 
-LDIFF_SYM2926=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2926
+LDIFF_SYM2928=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2928
 	.byte 1,101,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2927=Lfde514_end - Lfde514_start
-	.long LDIFF_SYM2927
+LDIFF_SYM2929=Lfde514_end - Lfde514_start
+	.long LDIFF_SYM2929
 Lfde514_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_ApiDefinition_Messaging_bool_objc_msgSendSuper_UInt32_IntPtr_intptr_intptr_uint_intptr
 
-LDIFF_SYM2928=Lme_270 - wrapper_managed_to_native_ApiDefinition_Messaging_bool_objc_msgSendSuper_UInt32_IntPtr_intptr_intptr_uint_intptr
-	.long LDIFF_SYM2928
+LDIFF_SYM2930=Lme_270 - wrapper_managed_to_native_ApiDefinition_Messaging_bool_objc_msgSendSuper_UInt32_IntPtr_intptr_intptr_uint_intptr
+	.long LDIFF_SYM2930
 	.long 0
 	.byte 12,31,0,68,14,224,1,157,28,158,27,68,13,29,76,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9,68,155,8,156,7
@@ -99973,57 +100247,57 @@ Lfde514_end:
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM2929=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2929
+LDIFF_SYM2931=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2931
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM2930=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2930
+LDIFF_SYM2932=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2932
 	.byte 2,141,24,3
 	.asciz "param2"
 
-LDIFF_SYM2931=LDIE_U8 - Ldebug_info_start
-	.long LDIFF_SYM2931
+LDIFF_SYM2933=LDIE_U8 - Ldebug_info_start
+	.long LDIFF_SYM2933
 	.byte 2,141,32,3
 	.asciz "param3"
 
-LDIFF_SYM2932=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2932
+LDIFF_SYM2934=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2934
 	.byte 2,141,40,11
 	.asciz "V_0"
 
-LDIFF_SYM2933=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2933
+LDIFF_SYM2935=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2935
 	.byte 3,141,192,1,11
 	.asciz "V_1"
 
-LDIFF_SYM2934=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2934
+LDIFF_SYM2936=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2936
 	.byte 3,141,200,1,11
 	.asciz "V_2"
 
-LDIFF_SYM2935=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2935
+LDIFF_SYM2937=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2937
 	.byte 3,141,208,1,11
 	.asciz "V_3"
 
-LDIFF_SYM2936=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2936
+LDIFF_SYM2938=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2938
 	.byte 1,101,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2937=Lfde515_end - Lfde515_start
-	.long LDIFF_SYM2937
+LDIFF_SYM2939=Lfde515_end - Lfde515_start
+	.long LDIFF_SYM2939
 Lfde515_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_ApiDefinition_Messaging_bool_objc_msgSend_UInt64_IntPtr_intptr_intptr_ulong_intptr
 
-LDIFF_SYM2938=Lme_271 - wrapper_managed_to_native_ApiDefinition_Messaging_bool_objc_msgSend_UInt64_IntPtr_intptr_intptr_ulong_intptr
-	.long LDIFF_SYM2938
+LDIFF_SYM2940=Lme_271 - wrapper_managed_to_native_ApiDefinition_Messaging_bool_objc_msgSend_UInt64_IntPtr_intptr_intptr_ulong_intptr
+	.long LDIFF_SYM2940
 	.long 0
 	.byte 12,31,0,68,14,224,1,157,28,158,27,68,13,29,76,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9,68,155,8,156,7
@@ -100043,57 +100317,57 @@ Lfde515_end:
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM2939=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2939
+LDIFF_SYM2941=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2941
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM2940=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2940
+LDIFF_SYM2942=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2942
 	.byte 2,141,24,3
 	.asciz "param2"
 
-LDIFF_SYM2941=LDIE_U8 - Ldebug_info_start
-	.long LDIFF_SYM2941
+LDIFF_SYM2943=LDIE_U8 - Ldebug_info_start
+	.long LDIFF_SYM2943
 	.byte 2,141,32,3
 	.asciz "param3"
 
-LDIFF_SYM2942=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2942
+LDIFF_SYM2944=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2944
 	.byte 2,141,40,11
 	.asciz "V_0"
 
-LDIFF_SYM2943=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2943
+LDIFF_SYM2945=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2945
 	.byte 3,141,192,1,11
 	.asciz "V_1"
 
-LDIFF_SYM2944=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2944
+LDIFF_SYM2946=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2946
 	.byte 3,141,200,1,11
 	.asciz "V_2"
 
-LDIFF_SYM2945=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2945
+LDIFF_SYM2947=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2947
 	.byte 3,141,208,1,11
 	.asciz "V_3"
 
-LDIFF_SYM2946=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2946
+LDIFF_SYM2948=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2948
 	.byte 1,101,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2947=Lfde516_end - Lfde516_start
-	.long LDIFF_SYM2947
+LDIFF_SYM2949=Lfde516_end - Lfde516_start
+	.long LDIFF_SYM2949
 Lfde516_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_ApiDefinition_Messaging_bool_objc_msgSendSuper_UInt64_IntPtr_intptr_intptr_ulong_intptr
 
-LDIFF_SYM2948=Lme_272 - wrapper_managed_to_native_ApiDefinition_Messaging_bool_objc_msgSendSuper_UInt64_IntPtr_intptr_intptr_ulong_intptr
-	.long LDIFF_SYM2948
+LDIFF_SYM2950=Lme_272 - wrapper_managed_to_native_ApiDefinition_Messaging_bool_objc_msgSendSuper_UInt64_IntPtr_intptr_intptr_ulong_intptr
+	.long LDIFF_SYM2950
 	.long 0
 	.byte 12,31,0,68,14,224,1,157,28,158,27,68,13,29,76,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9,68,155,8,156,7
@@ -100113,52 +100387,52 @@ Lfde516_end:
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM2949=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2949
+LDIFF_SYM2951=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2951
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM2950=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2950
+LDIFF_SYM2952=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2952
 	.byte 2,141,24,3
 	.asciz "param2"
 
-LDIFF_SYM2951=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2951
+LDIFF_SYM2953=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2953
 	.byte 2,141,32,3
 	.asciz "param3"
 
-LDIFF_SYM2952=LDIE_U4 - Ldebug_info_start
-	.long LDIFF_SYM2952
+LDIFF_SYM2954=LDIE_U4 - Ldebug_info_start
+	.long LDIFF_SYM2954
 	.byte 2,141,40,11
 	.asciz "V_0"
 
-LDIFF_SYM2953=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2953
+LDIFF_SYM2955=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2955
 	.byte 3,141,192,1,11
 	.asciz "V_1"
 
-LDIFF_SYM2954=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2954
+LDIFF_SYM2956=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2956
 	.byte 3,141,200,1,11
 	.asciz "V_2"
 
-LDIFF_SYM2955=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2955
+LDIFF_SYM2957=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2957
 	.byte 3,141,208,1,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2956=Lfde517_end - Lfde517_start
-	.long LDIFF_SYM2956
+LDIFF_SYM2958=Lfde517_end - Lfde517_start
+	.long LDIFF_SYM2958
 Lfde517_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSend_IntPtr_UInt32_intptr_intptr_intptr_uint
 
-LDIFF_SYM2957=Lme_273 - wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSend_IntPtr_UInt32_intptr_intptr_intptr_uint
-	.long LDIFF_SYM2957
+LDIFF_SYM2959=Lme_273 - wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSend_IntPtr_UInt32_intptr_intptr_intptr_uint
+	.long LDIFF_SYM2959
 	.long 0
 	.byte 12,31,0,68,14,224,1,157,28,158,27,68,13,29,76,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9,68,155,8,156,7
@@ -100178,52 +100452,52 @@ Lfde517_end:
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM2958=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2958
+LDIFF_SYM2960=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2960
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM2959=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2959
+LDIFF_SYM2961=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2961
 	.byte 2,141,24,3
 	.asciz "param2"
 
-LDIFF_SYM2960=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2960
+LDIFF_SYM2962=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2962
 	.byte 2,141,32,3
 	.asciz "param3"
 
-LDIFF_SYM2961=LDIE_U4 - Ldebug_info_start
-	.long LDIFF_SYM2961
+LDIFF_SYM2963=LDIE_U4 - Ldebug_info_start
+	.long LDIFF_SYM2963
 	.byte 2,141,40,11
 	.asciz "V_0"
 
-LDIFF_SYM2962=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2962
+LDIFF_SYM2964=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2964
 	.byte 3,141,192,1,11
 	.asciz "V_1"
 
-LDIFF_SYM2963=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2963
+LDIFF_SYM2965=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2965
 	.byte 3,141,200,1,11
 	.asciz "V_2"
 
-LDIFF_SYM2964=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2964
+LDIFF_SYM2966=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2966
 	.byte 3,141,208,1,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2965=Lfde518_end - Lfde518_start
-	.long LDIFF_SYM2965
+LDIFF_SYM2967=Lfde518_end - Lfde518_start
+	.long LDIFF_SYM2967
 Lfde518_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSendSuper_IntPtr_UInt32_intptr_intptr_intptr_uint
 
-LDIFF_SYM2966=Lme_274 - wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSendSuper_IntPtr_UInt32_intptr_intptr_intptr_uint
-	.long LDIFF_SYM2966
+LDIFF_SYM2968=Lme_274 - wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSendSuper_IntPtr_UInt32_intptr_intptr_intptr_uint
+	.long LDIFF_SYM2968
 	.long 0
 	.byte 12,31,0,68,14,224,1,157,28,158,27,68,13,29,76,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9,68,155,8,156,7
@@ -100243,52 +100517,52 @@ Lfde518_end:
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM2967=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2967
+LDIFF_SYM2969=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2969
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM2968=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2968
+LDIFF_SYM2970=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2970
 	.byte 2,141,24,3
 	.asciz "param2"
 
-LDIFF_SYM2969=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2969
+LDIFF_SYM2971=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2971
 	.byte 2,141,32,3
 	.asciz "param3"
 
-LDIFF_SYM2970=LDIE_U8 - Ldebug_info_start
-	.long LDIFF_SYM2970
+LDIFF_SYM2972=LDIE_U8 - Ldebug_info_start
+	.long LDIFF_SYM2972
 	.byte 2,141,40,11
 	.asciz "V_0"
 
-LDIFF_SYM2971=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2971
+LDIFF_SYM2973=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2973
 	.byte 3,141,192,1,11
 	.asciz "V_1"
 
-LDIFF_SYM2972=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2972
+LDIFF_SYM2974=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2974
 	.byte 3,141,200,1,11
 	.asciz "V_2"
 
-LDIFF_SYM2973=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2973
+LDIFF_SYM2975=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2975
 	.byte 3,141,208,1,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2974=Lfde519_end - Lfde519_start
-	.long LDIFF_SYM2974
+LDIFF_SYM2976=Lfde519_end - Lfde519_start
+	.long LDIFF_SYM2976
 Lfde519_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSend_IntPtr_UInt64_intptr_intptr_intptr_ulong
 
-LDIFF_SYM2975=Lme_275 - wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSend_IntPtr_UInt64_intptr_intptr_intptr_ulong
-	.long LDIFF_SYM2975
+LDIFF_SYM2977=Lme_275 - wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSend_IntPtr_UInt64_intptr_intptr_intptr_ulong
+	.long LDIFF_SYM2977
 	.long 0
 	.byte 12,31,0,68,14,224,1,157,28,158,27,68,13,29,76,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9,68,155,8,156,7
@@ -100308,52 +100582,52 @@ Lfde519_end:
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM2976=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2976
+LDIFF_SYM2978=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2978
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM2977=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2977
+LDIFF_SYM2979=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2979
 	.byte 2,141,24,3
 	.asciz "param2"
 
-LDIFF_SYM2978=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2978
+LDIFF_SYM2980=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2980
 	.byte 2,141,32,3
 	.asciz "param3"
 
-LDIFF_SYM2979=LDIE_U8 - Ldebug_info_start
-	.long LDIFF_SYM2979
+LDIFF_SYM2981=LDIE_U8 - Ldebug_info_start
+	.long LDIFF_SYM2981
 	.byte 2,141,40,11
 	.asciz "V_0"
 
-LDIFF_SYM2980=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2980
+LDIFF_SYM2982=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2982
 	.byte 3,141,192,1,11
 	.asciz "V_1"
 
-LDIFF_SYM2981=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2981
+LDIFF_SYM2983=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2983
 	.byte 3,141,200,1,11
 	.asciz "V_2"
 
-LDIFF_SYM2982=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2982
+LDIFF_SYM2984=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2984
 	.byte 3,141,208,1,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2983=Lfde520_end - Lfde520_start
-	.long LDIFF_SYM2983
+LDIFF_SYM2985=Lfde520_end - Lfde520_start
+	.long LDIFF_SYM2985
 Lfde520_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSendSuper_IntPtr_UInt64_intptr_intptr_intptr_ulong
 
-LDIFF_SYM2984=Lme_276 - wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSendSuper_IntPtr_UInt64_intptr_intptr_intptr_ulong
-	.long LDIFF_SYM2984
+LDIFF_SYM2986=Lme_276 - wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSendSuper_IntPtr_UInt64_intptr_intptr_intptr_ulong
+	.long LDIFF_SYM2986
 	.long 0
 	.byte 12,31,0,68,14,224,1,157,28,158,27,68,13,29,76,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9,68,155,8,156,7
@@ -100373,62 +100647,62 @@ Lfde520_end:
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM2985=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2985
+LDIFF_SYM2987=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2987
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM2986=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2986
+LDIFF_SYM2988=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2988
 	.byte 2,141,24,3
 	.asciz "param2"
 
-LDIFF_SYM2987=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2987
+LDIFF_SYM2989=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2989
 	.byte 2,141,32,3
 	.asciz "param3"
 
-LDIFF_SYM2988=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2988
+LDIFF_SYM2990=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2990
 	.byte 2,141,40,11
 	.asciz "V_0"
 
-LDIFF_SYM2989=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2989
+LDIFF_SYM2991=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2991
 	.byte 3,141,192,1,11
 	.asciz "V_1"
 
-LDIFF_SYM2990=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2990
+LDIFF_SYM2992=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2992
 	.byte 3,141,200,1,11
 	.asciz "V_2"
 
-LDIFF_SYM2991=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2991
+LDIFF_SYM2993=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2993
 	.byte 3,141,208,1,11
 	.asciz "V_3"
 
-LDIFF_SYM2992=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2992
+LDIFF_SYM2994=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2994
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM2993=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2993
+LDIFF_SYM2995=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2995
 	.byte 3,141,216,1,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2994=Lfde521_end - Lfde521_start
-	.long LDIFF_SYM2994
+LDIFF_SYM2996=Lfde521_end - Lfde521_start
+	.long LDIFF_SYM2996
 Lfde521_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_ApiDefinition_Messaging_nint_objc_msgSend_IntPtr_nint_intptr_intptr_intptr_System_nint
 
-LDIFF_SYM2995=Lme_277 - wrapper_managed_to_native_ApiDefinition_Messaging_nint_objc_msgSend_IntPtr_nint_intptr_intptr_intptr_System_nint
-	.long LDIFF_SYM2995
+LDIFF_SYM2997=Lme_277 - wrapper_managed_to_native_ApiDefinition_Messaging_nint_objc_msgSend_IntPtr_nint_intptr_intptr_intptr_System_nint
+	.long LDIFF_SYM2997
 	.long 0
 	.byte 12,31,0,68,14,240,1,157,30,158,29,68,13,29,76,147,18,148,17,68,149,16,150,15,68,151,14,152,13,68,153,12
 	.byte 154,11,68,155,10,156,9
@@ -100448,62 +100722,62 @@ Lfde521_end:
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM2996=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2996
+LDIFF_SYM2998=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2998
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM2997=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2997
+LDIFF_SYM2999=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2999
 	.byte 2,141,24,3
 	.asciz "param2"
 
-LDIFF_SYM2998=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2998
+LDIFF_SYM3000=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3000
 	.byte 2,141,32,3
 	.asciz "param3"
 
-LDIFF_SYM2999=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2999
+LDIFF_SYM3001=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3001
 	.byte 2,141,40,11
 	.asciz "V_0"
 
-LDIFF_SYM3000=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3000
+LDIFF_SYM3002=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3002
 	.byte 3,141,192,1,11
 	.asciz "V_1"
 
-LDIFF_SYM3001=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3001
+LDIFF_SYM3003=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3003
 	.byte 3,141,200,1,11
 	.asciz "V_2"
 
-LDIFF_SYM3002=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM3002
+LDIFF_SYM3004=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM3004
 	.byte 3,141,208,1,11
 	.asciz "V_3"
 
-LDIFF_SYM3003=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3003
+LDIFF_SYM3005=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3005
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM3004=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3004
+LDIFF_SYM3006=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3006
 	.byte 3,141,216,1,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3005=Lfde522_end - Lfde522_start
-	.long LDIFF_SYM3005
+LDIFF_SYM3007=Lfde522_end - Lfde522_start
+	.long LDIFF_SYM3007
 Lfde522_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_ApiDefinition_Messaging_nint_objc_msgSendSuper_IntPtr_nint_intptr_intptr_intptr_System_nint
 
-LDIFF_SYM3006=Lme_278 - wrapper_managed_to_native_ApiDefinition_Messaging_nint_objc_msgSendSuper_IntPtr_nint_intptr_intptr_intptr_System_nint
-	.long LDIFF_SYM3006
+LDIFF_SYM3008=Lme_278 - wrapper_managed_to_native_ApiDefinition_Messaging_nint_objc_msgSendSuper_IntPtr_nint_intptr_intptr_intptr_System_nint
+	.long LDIFF_SYM3008
 	.long 0
 	.byte 12,31,0,68,14,240,1,157,30,158,29,68,13,29,76,147,18,148,17,68,149,16,150,15,68,151,14,152,13,68,153,12
 	.byte 154,11,68,155,10,156,9
@@ -100523,57 +100797,57 @@ Lfde522_end:
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM3007=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3007
+LDIFF_SYM3009=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3009
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM3008=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3008
+LDIFF_SYM3010=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3010
 	.byte 2,141,24,3
 	.asciz "param2"
 
-LDIFF_SYM3009=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3009
+LDIFF_SYM3011=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3011
 	.byte 2,141,32,3
 	.asciz "param3"
 
-LDIFF_SYM3010=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3010
+LDIFF_SYM3012=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3012
 	.byte 2,141,40,11
 	.asciz "V_0"
 
-LDIFF_SYM3011=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3011
+LDIFF_SYM3013=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3013
 	.byte 3,141,192,1,11
 	.asciz "V_1"
 
-LDIFF_SYM3012=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3012
+LDIFF_SYM3014=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3014
 	.byte 3,141,200,1,11
 	.asciz "V_2"
 
-LDIFF_SYM3013=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM3013
+LDIFF_SYM3015=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM3015
 	.byte 3,141,208,1,11
 	.asciz "V_3"
 
-LDIFF_SYM3014=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3014
+LDIFF_SYM3016=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3016
 	.byte 1,101,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3015=Lfde523_end - Lfde523_start
-	.long LDIFF_SYM3015
+LDIFF_SYM3017=Lfde523_end - Lfde523_start
+	.long LDIFF_SYM3017
 Lfde523_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_ApiDefinition_Messaging_IntPtr_objc_msgSend_IntPtr_IntPtr_intptr_intptr_intptr_intptr
 
-LDIFF_SYM3016=Lme_279 - wrapper_managed_to_native_ApiDefinition_Messaging_IntPtr_objc_msgSend_IntPtr_IntPtr_intptr_intptr_intptr_intptr
-	.long LDIFF_SYM3016
+LDIFF_SYM3018=Lme_279 - wrapper_managed_to_native_ApiDefinition_Messaging_IntPtr_objc_msgSend_IntPtr_IntPtr_intptr_intptr_intptr_intptr
+	.long LDIFF_SYM3018
 	.long 0
 	.byte 12,31,0,68,14,224,1,157,28,158,27,68,13,29,76,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9,68,155,8,156,7
@@ -100593,57 +100867,57 @@ Lfde523_end:
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM3017=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3017
+LDIFF_SYM3019=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3019
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM3018=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3018
+LDIFF_SYM3020=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3020
 	.byte 2,141,24,3
 	.asciz "param2"
 
-LDIFF_SYM3019=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3019
+LDIFF_SYM3021=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3021
 	.byte 2,141,32,3
 	.asciz "param3"
 
-LDIFF_SYM3020=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3020
+LDIFF_SYM3022=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3022
 	.byte 2,141,40,11
 	.asciz "V_0"
 
-LDIFF_SYM3021=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3021
+LDIFF_SYM3023=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3023
 	.byte 3,141,192,1,11
 	.asciz "V_1"
 
-LDIFF_SYM3022=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3022
+LDIFF_SYM3024=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3024
 	.byte 3,141,200,1,11
 	.asciz "V_2"
 
-LDIFF_SYM3023=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM3023
+LDIFF_SYM3025=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM3025
 	.byte 3,141,208,1,11
 	.asciz "V_3"
 
-LDIFF_SYM3024=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3024
+LDIFF_SYM3026=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3026
 	.byte 1,101,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3025=Lfde524_end - Lfde524_start
-	.long LDIFF_SYM3025
+LDIFF_SYM3027=Lfde524_end - Lfde524_start
+	.long LDIFF_SYM3027
 Lfde524_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_ApiDefinition_Messaging_IntPtr_objc_msgSendSuper_IntPtr_IntPtr_intptr_intptr_intptr_intptr
 
-LDIFF_SYM3026=Lme_27a - wrapper_managed_to_native_ApiDefinition_Messaging_IntPtr_objc_msgSendSuper_IntPtr_IntPtr_intptr_intptr_intptr_intptr
-	.long LDIFF_SYM3026
+LDIFF_SYM3028=Lme_27a - wrapper_managed_to_native_ApiDefinition_Messaging_IntPtr_objc_msgSendSuper_IntPtr_IntPtr_intptr_intptr_intptr_intptr
+	.long LDIFF_SYM3028
 	.long 0
 	.byte 12,31,0,68,14,224,1,157,28,158,27,68,13,29,76,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9,68,155,8,156,7
@@ -100663,57 +100937,57 @@ Lfde524_end:
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM3027=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3027
+LDIFF_SYM3029=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3029
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM3028=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3028
+LDIFF_SYM3030=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3030
 	.byte 2,141,24,3
 	.asciz "param2"
 
-LDIFF_SYM3029=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3029
+LDIFF_SYM3031=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3031
 	.byte 2,141,32,11
 	.asciz "V_0"
 
-LDIFF_SYM3030=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3030
+LDIFF_SYM3032=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3032
 	.byte 3,141,184,1,11
 	.asciz "V_1"
 
-LDIFF_SYM3031=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3031
+LDIFF_SYM3033=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3033
 	.byte 3,141,192,1,11
 	.asciz "V_2"
 
-LDIFF_SYM3032=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM3032
+LDIFF_SYM3034=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM3034
 	.byte 3,141,200,1,11
 	.asciz "V_3"
 
-LDIFF_SYM3033=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3033
+LDIFF_SYM3035=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3035
 	.byte 1,102,11
 	.asciz "V_4"
 
-LDIFF_SYM3034=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3034
+LDIFF_SYM3036=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3036
 	.byte 3,141,208,1,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3035=Lfde525_end - Lfde525_start
-	.long LDIFF_SYM3035
+LDIFF_SYM3037=Lfde525_end - Lfde525_start
+	.long LDIFF_SYM3037
 Lfde525_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_ApiDefinition_Messaging_nint_objc_msgSend_IntPtr_intptr_intptr_intptr
 
-LDIFF_SYM3036=Lme_27b - wrapper_managed_to_native_ApiDefinition_Messaging_nint_objc_msgSend_IntPtr_intptr_intptr_intptr
-	.long LDIFF_SYM3036
+LDIFF_SYM3038=Lme_27b - wrapper_managed_to_native_ApiDefinition_Messaging_nint_objc_msgSend_IntPtr_intptr_intptr_intptr
+	.long LDIFF_SYM3038
 	.long 0
 	.byte 12,31,0,68,14,224,1,157,28,158,27,68,13,29,76,147,17,148,16,68,149,15,150,14,68,151,13,152,12,68,153,11
 	.byte 154,10,68,155,9,156,8
@@ -100733,57 +101007,57 @@ Lfde525_end:
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM3037=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3037
+LDIFF_SYM3039=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3039
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM3038=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3038
+LDIFF_SYM3040=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3040
 	.byte 2,141,24,3
 	.asciz "param2"
 
-LDIFF_SYM3039=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3039
+LDIFF_SYM3041=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3041
 	.byte 2,141,32,11
 	.asciz "V_0"
 
-LDIFF_SYM3040=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3040
+LDIFF_SYM3042=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3042
 	.byte 3,141,184,1,11
 	.asciz "V_1"
 
-LDIFF_SYM3041=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3041
+LDIFF_SYM3043=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3043
 	.byte 3,141,192,1,11
 	.asciz "V_2"
 
-LDIFF_SYM3042=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM3042
+LDIFF_SYM3044=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM3044
 	.byte 3,141,200,1,11
 	.asciz "V_3"
 
-LDIFF_SYM3043=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3043
+LDIFF_SYM3045=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3045
 	.byte 1,102,11
 	.asciz "V_4"
 
-LDIFF_SYM3044=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3044
+LDIFF_SYM3046=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3046
 	.byte 3,141,208,1,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3045=Lfde526_end - Lfde526_start
-	.long LDIFF_SYM3045
+LDIFF_SYM3047=Lfde526_end - Lfde526_start
+	.long LDIFF_SYM3047
 Lfde526_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_ApiDefinition_Messaging_nint_objc_msgSendSuper_IntPtr_intptr_intptr_intptr
 
-LDIFF_SYM3046=Lme_27c - wrapper_managed_to_native_ApiDefinition_Messaging_nint_objc_msgSendSuper_IntPtr_intptr_intptr_intptr
-	.long LDIFF_SYM3046
+LDIFF_SYM3048=Lme_27c - wrapper_managed_to_native_ApiDefinition_Messaging_nint_objc_msgSendSuper_IntPtr_intptr_intptr_intptr
+	.long LDIFF_SYM3048
 	.long 0
 	.byte 12,31,0,68,14,224,1,157,28,158,27,68,13,29,76,147,17,148,16,68,149,15,150,14,68,151,13,152,12,68,153,11
 	.byte 154,10,68,155,9,156,8
@@ -100803,57 +101077,57 @@ Lfde526_end:
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM3047=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3047
+LDIFF_SYM3049=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3049
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM3048=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3048
+LDIFF_SYM3050=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3050
 	.byte 2,141,24,3
 	.asciz "param2"
 
-LDIFF_SYM3049=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3049
+LDIFF_SYM3051=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3051
 	.byte 2,141,32,3
 	.asciz "param3"
 
-LDIFF_SYM3050=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3050
+LDIFF_SYM3052=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3052
 	.byte 2,141,40,11
 	.asciz "V_0"
 
-LDIFF_SYM3051=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3051
+LDIFF_SYM3053=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3053
 	.byte 3,141,192,1,11
 	.asciz "V_1"
 
-LDIFF_SYM3052=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3052
+LDIFF_SYM3054=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3054
 	.byte 3,141,200,1,11
 	.asciz "V_2"
 
-LDIFF_SYM3053=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM3053
+LDIFF_SYM3055=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM3055
 	.byte 3,141,208,1,11
 	.asciz "V_3"
 
-LDIFF_SYM3054=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3054
+LDIFF_SYM3056=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3056
 	.byte 1,101,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3055=Lfde527_end - Lfde527_start
-	.long LDIFF_SYM3055
+LDIFF_SYM3057=Lfde527_end - Lfde527_start
+	.long LDIFF_SYM3057
 Lfde527_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_ApiDefinition_Messaging_IntPtr_objc_msgSend_IntPtr_nint_intptr_intptr_intptr_System_nint
 
-LDIFF_SYM3056=Lme_27d - wrapper_managed_to_native_ApiDefinition_Messaging_IntPtr_objc_msgSend_IntPtr_nint_intptr_intptr_intptr_System_nint
-	.long LDIFF_SYM3056
+LDIFF_SYM3058=Lme_27d - wrapper_managed_to_native_ApiDefinition_Messaging_IntPtr_objc_msgSend_IntPtr_nint_intptr_intptr_intptr_System_nint
+	.long LDIFF_SYM3058
 	.long 0
 	.byte 12,31,0,68,14,224,1,157,28,158,27,68,13,29,76,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9,68,155,8,156,7
@@ -100873,57 +101147,57 @@ Lfde527_end:
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM3057=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3057
+LDIFF_SYM3059=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3059
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM3058=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3058
+LDIFF_SYM3060=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3060
 	.byte 2,141,24,3
 	.asciz "param2"
 
-LDIFF_SYM3059=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3059
+LDIFF_SYM3061=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3061
 	.byte 2,141,32,3
 	.asciz "param3"
 
-LDIFF_SYM3060=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3060
+LDIFF_SYM3062=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3062
 	.byte 2,141,40,11
 	.asciz "V_0"
 
-LDIFF_SYM3061=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3061
+LDIFF_SYM3063=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3063
 	.byte 3,141,192,1,11
 	.asciz "V_1"
 
-LDIFF_SYM3062=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3062
+LDIFF_SYM3064=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3064
 	.byte 3,141,200,1,11
 	.asciz "V_2"
 
-LDIFF_SYM3063=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM3063
+LDIFF_SYM3065=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM3065
 	.byte 3,141,208,1,11
 	.asciz "V_3"
 
-LDIFF_SYM3064=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3064
+LDIFF_SYM3066=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3066
 	.byte 1,101,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3065=Lfde528_end - Lfde528_start
-	.long LDIFF_SYM3065
+LDIFF_SYM3067=Lfde528_end - Lfde528_start
+	.long LDIFF_SYM3067
 Lfde528_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_ApiDefinition_Messaging_IntPtr_objc_msgSendSuper_IntPtr_nint_intptr_intptr_intptr_System_nint
 
-LDIFF_SYM3066=Lme_27e - wrapper_managed_to_native_ApiDefinition_Messaging_IntPtr_objc_msgSendSuper_IntPtr_nint_intptr_intptr_intptr_System_nint
-	.long LDIFF_SYM3066
+LDIFF_SYM3068=Lme_27e - wrapper_managed_to_native_ApiDefinition_Messaging_IntPtr_objc_msgSendSuper_IntPtr_nint_intptr_intptr_intptr_System_nint
+	.long LDIFF_SYM3068
 	.long 0
 	.byte 12,31,0,68,14,224,1,157,28,158,27,68,13,29,76,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9,68,155,8,156,7
@@ -100943,47 +101217,47 @@ Lfde528_end:
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM3067=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3067
+LDIFF_SYM3069=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3069
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM3068=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3068
+LDIFF_SYM3070=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3070
 	.byte 2,141,24,11
 	.asciz "V_0"
 
-LDIFF_SYM3069=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3069
+LDIFF_SYM3071=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3071
 	.byte 3,141,176,1,11
 	.asciz "V_1"
 
-LDIFF_SYM3070=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3070
+LDIFF_SYM3072=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3072
 	.byte 3,141,184,1,11
 	.asciz "V_2"
 
-LDIFF_SYM3071=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM3071
+LDIFF_SYM3073=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM3073
 	.byte 3,141,192,1,11
 	.asciz "V_3"
 
-LDIFF_SYM3072=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3072
+LDIFF_SYM3074=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3074
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3073=Lfde529_end - Lfde529_start
-	.long LDIFF_SYM3073
+LDIFF_SYM3075=Lfde529_end - Lfde529_start
+	.long LDIFF_SYM3075
 Lfde529_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_ApiDefinition_Messaging_int_objc_msgSend_intptr_intptr
 
-LDIFF_SYM3074=Lme_27f - wrapper_managed_to_native_ApiDefinition_Messaging_int_objc_msgSend_intptr_intptr
-	.long LDIFF_SYM3074
+LDIFF_SYM3076=Lme_27f - wrapper_managed_to_native_ApiDefinition_Messaging_int_objc_msgSend_intptr_intptr
+	.long LDIFF_SYM3076
 	.long 0
 	.byte 12,31,0,68,14,208,1,157,26,158,25,68,13,29,76,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9,68,155,8,156,7
@@ -101003,47 +101277,47 @@ Lfde529_end:
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM3075=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3075
+LDIFF_SYM3077=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3077
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM3076=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3076
+LDIFF_SYM3078=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3078
 	.byte 2,141,24,11
 	.asciz "V_0"
 
-LDIFF_SYM3077=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3077
+LDIFF_SYM3079=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3079
 	.byte 3,141,176,1,11
 	.asciz "V_1"
 
-LDIFF_SYM3078=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3078
+LDIFF_SYM3080=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3080
 	.byte 3,141,184,1,11
 	.asciz "V_2"
 
-LDIFF_SYM3079=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM3079
+LDIFF_SYM3081=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM3081
 	.byte 3,141,192,1,11
 	.asciz "V_3"
 
-LDIFF_SYM3080=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3080
+LDIFF_SYM3082=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3082
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3081=Lfde530_end - Lfde530_start
-	.long LDIFF_SYM3081
+LDIFF_SYM3083=Lfde530_end - Lfde530_start
+	.long LDIFF_SYM3083
 Lfde530_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_ApiDefinition_Messaging_int_objc_msgSendSuper_intptr_intptr
 
-LDIFF_SYM3082=Lme_280 - wrapper_managed_to_native_ApiDefinition_Messaging_int_objc_msgSendSuper_intptr_intptr
-	.long LDIFF_SYM3082
+LDIFF_SYM3084=Lme_280 - wrapper_managed_to_native_ApiDefinition_Messaging_int_objc_msgSendSuper_intptr_intptr
+	.long LDIFF_SYM3084
 	.long 0
 	.byte 12,31,0,68,14,208,1,157,26,158,25,68,13,29,76,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9,68,155,8,156,7
@@ -101057,28 +101331,28 @@ LTDIE_133:
 	.asciz "System_Int64"
 
 	.byte 24,16
-LDIFF_SYM3083=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM3083
+LDIFF_SYM3085=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM3085
 	.byte 2,35,0,6
 	.asciz "m_value"
 
-LDIFF_SYM3084=LDIE_I8 - Ldebug_info_start
-	.long LDIFF_SYM3084
+LDIFF_SYM3086=LDIE_I8 - Ldebug_info_start
+	.long LDIFF_SYM3086
 	.byte 2,35,16,0,7
 	.asciz "System_Int64"
 
-LDIFF_SYM3085=LTDIE_133 - Ldebug_info_start
-	.long LDIFF_SYM3085
+LDIFF_SYM3087=LTDIE_133 - Ldebug_info_start
+	.long LDIFF_SYM3087
 LTDIE_133_POINTER:
 
 	.byte 13
-LDIFF_SYM3086=LTDIE_133 - Ldebug_info_start
-	.long LDIFF_SYM3086
+LDIFF_SYM3088=LTDIE_133 - Ldebug_info_start
+	.long LDIFF_SYM3088
 LTDIE_133_REFERENCE:
 
 	.byte 14
-LDIFF_SYM3087=LTDIE_133 - Ldebug_info_start
-	.long LDIFF_SYM3087
+LDIFF_SYM3089=LTDIE_133 - Ldebug_info_start
+	.long LDIFF_SYM3089
 	.byte 2
 	.asciz "(wrapper_managed-to-native)_ApiDefinition.Messaging:Int64_objc_msgSend"
 	.asciz "wrapper_managed_to_native_ApiDefinition_Messaging_Int64_objc_msgSend_intptr_intptr"
@@ -101090,47 +101364,47 @@ LDIFF_SYM3087=LTDIE_133 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM3088=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3088
+LDIFF_SYM3090=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3090
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM3089=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3089
+LDIFF_SYM3091=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3091
 	.byte 2,141,24,11
 	.asciz "V_0"
 
-LDIFF_SYM3090=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3090
+LDIFF_SYM3092=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3092
 	.byte 3,141,176,1,11
 	.asciz "V_1"
 
-LDIFF_SYM3091=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3091
+LDIFF_SYM3093=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3093
 	.byte 3,141,184,1,11
 	.asciz "V_2"
 
-LDIFF_SYM3092=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM3092
+LDIFF_SYM3094=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM3094
 	.byte 3,141,192,1,11
 	.asciz "V_3"
 
-LDIFF_SYM3093=LDIE_I8 - Ldebug_info_start
-	.long LDIFF_SYM3093
+LDIFF_SYM3095=LDIE_I8 - Ldebug_info_start
+	.long LDIFF_SYM3095
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3094=Lfde531_end - Lfde531_start
-	.long LDIFF_SYM3094
+LDIFF_SYM3096=Lfde531_end - Lfde531_start
+	.long LDIFF_SYM3096
 Lfde531_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_ApiDefinition_Messaging_Int64_objc_msgSend_intptr_intptr
 
-LDIFF_SYM3095=Lme_281 - wrapper_managed_to_native_ApiDefinition_Messaging_Int64_objc_msgSend_intptr_intptr
-	.long LDIFF_SYM3095
+LDIFF_SYM3097=Lme_281 - wrapper_managed_to_native_ApiDefinition_Messaging_Int64_objc_msgSend_intptr_intptr
+	.long LDIFF_SYM3097
 	.long 0
 	.byte 12,31,0,68,14,208,1,157,26,158,25,68,13,29,76,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9,68,155,8,156,7
@@ -101150,47 +101424,47 @@ Lfde531_end:
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM3096=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3096
+LDIFF_SYM3098=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3098
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM3097=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3097
+LDIFF_SYM3099=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3099
 	.byte 2,141,24,11
 	.asciz "V_0"
 
-LDIFF_SYM3098=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3098
+LDIFF_SYM3100=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3100
 	.byte 3,141,176,1,11
 	.asciz "V_1"
 
-LDIFF_SYM3099=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3099
+LDIFF_SYM3101=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3101
 	.byte 3,141,184,1,11
 	.asciz "V_2"
 
-LDIFF_SYM3100=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM3100
+LDIFF_SYM3102=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM3102
 	.byte 3,141,192,1,11
 	.asciz "V_3"
 
-LDIFF_SYM3101=LDIE_I8 - Ldebug_info_start
-	.long LDIFF_SYM3101
+LDIFF_SYM3103=LDIE_I8 - Ldebug_info_start
+	.long LDIFF_SYM3103
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3102=Lfde532_end - Lfde532_start
-	.long LDIFF_SYM3102
+LDIFF_SYM3104=Lfde532_end - Lfde532_start
+	.long LDIFF_SYM3104
 Lfde532_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_ApiDefinition_Messaging_Int64_objc_msgSendSuper_intptr_intptr
 
-LDIFF_SYM3103=Lme_282 - wrapper_managed_to_native_ApiDefinition_Messaging_Int64_objc_msgSendSuper_intptr_intptr
-	.long LDIFF_SYM3103
+LDIFF_SYM3105=Lme_282 - wrapper_managed_to_native_ApiDefinition_Messaging_Int64_objc_msgSendSuper_intptr_intptr
+	.long LDIFF_SYM3105
 	.long 0
 	.byte 12,31,0,68,14,208,1,157,26,158,25,68,13,29,76,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9,68,155,8,156,7
@@ -101210,47 +101484,47 @@ Lfde532_end:
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM3104=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3104
+LDIFF_SYM3106=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3106
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM3105=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3105
+LDIFF_SYM3107=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3107
 	.byte 2,141,24,3
 	.asciz "param2"
 
-LDIFF_SYM3106=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3106
+LDIFF_SYM3108=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3108
 	.byte 2,141,32,11
 	.asciz "V_0"
 
-LDIFF_SYM3107=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3107
+LDIFF_SYM3109=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3109
 	.byte 3,141,184,1,11
 	.asciz "V_1"
 
-LDIFF_SYM3108=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3108
+LDIFF_SYM3110=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3110
 	.byte 3,141,192,1,11
 	.asciz "V_2"
 
-LDIFF_SYM3109=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM3109
+LDIFF_SYM3111=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM3111
 	.byte 3,141,200,1,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3110=Lfde533_end - Lfde533_start
-	.long LDIFF_SYM3110
+LDIFF_SYM3112=Lfde533_end - Lfde533_start
+	.long LDIFF_SYM3112
 Lfde533_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSend_int_intptr_intptr_int
 
-LDIFF_SYM3111=Lme_283 - wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSend_int_intptr_intptr_int
-	.long LDIFF_SYM3111
+LDIFF_SYM3113=Lme_283 - wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSend_int_intptr_intptr_int
+	.long LDIFF_SYM3113
 	.long 0
 	.byte 12,31,0,68,14,208,1,157,26,158,25,68,13,29,76,147,15,148,14,68,149,13,150,12,68,151,11,152,10,68,153,9
 	.byte 154,8,68,155,7,156,6
@@ -101270,47 +101544,47 @@ Lfde533_end:
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM3112=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3112
+LDIFF_SYM3114=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3114
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM3113=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3113
+LDIFF_SYM3115=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3115
 	.byte 2,141,24,3
 	.asciz "param2"
 
-LDIFF_SYM3114=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3114
+LDIFF_SYM3116=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3116
 	.byte 2,141,32,11
 	.asciz "V_0"
 
-LDIFF_SYM3115=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3115
+LDIFF_SYM3117=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3117
 	.byte 3,141,184,1,11
 	.asciz "V_1"
 
-LDIFF_SYM3116=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3116
+LDIFF_SYM3118=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3118
 	.byte 3,141,192,1,11
 	.asciz "V_2"
 
-LDIFF_SYM3117=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM3117
+LDIFF_SYM3119=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM3119
 	.byte 3,141,200,1,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3118=Lfde534_end - Lfde534_start
-	.long LDIFF_SYM3118
+LDIFF_SYM3120=Lfde534_end - Lfde534_start
+	.long LDIFF_SYM3120
 Lfde534_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSendSuper_int_intptr_intptr_int
 
-LDIFF_SYM3119=Lme_284 - wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSendSuper_int_intptr_intptr_int
-	.long LDIFF_SYM3119
+LDIFF_SYM3121=Lme_284 - wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSendSuper_int_intptr_intptr_int
+	.long LDIFF_SYM3121
 	.long 0
 	.byte 12,31,0,68,14,208,1,157,26,158,25,68,13,29,76,147,15,148,14,68,149,13,150,12,68,151,11,152,10,68,153,9
 	.byte 154,8,68,155,7,156,6
@@ -101330,47 +101604,47 @@ Lfde534_end:
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM3120=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3120
+LDIFF_SYM3122=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3122
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM3121=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3121
+LDIFF_SYM3123=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3123
 	.byte 2,141,24,3
 	.asciz "param2"
 
-LDIFF_SYM3122=LDIE_I8 - Ldebug_info_start
-	.long LDIFF_SYM3122
+LDIFF_SYM3124=LDIE_I8 - Ldebug_info_start
+	.long LDIFF_SYM3124
 	.byte 2,141,32,11
 	.asciz "V_0"
 
-LDIFF_SYM3123=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3123
+LDIFF_SYM3125=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3125
 	.byte 3,141,184,1,11
 	.asciz "V_1"
 
-LDIFF_SYM3124=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3124
+LDIFF_SYM3126=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3126
 	.byte 3,141,192,1,11
 	.asciz "V_2"
 
-LDIFF_SYM3125=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM3125
+LDIFF_SYM3127=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM3127
 	.byte 3,141,200,1,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3126=Lfde535_end - Lfde535_start
-	.long LDIFF_SYM3126
+LDIFF_SYM3128=Lfde535_end - Lfde535_start
+	.long LDIFF_SYM3128
 Lfde535_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSend_Int64_intptr_intptr_long
 
-LDIFF_SYM3127=Lme_285 - wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSend_Int64_intptr_intptr_long
-	.long LDIFF_SYM3127
+LDIFF_SYM3129=Lme_285 - wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSend_Int64_intptr_intptr_long
+	.long LDIFF_SYM3129
 	.long 0
 	.byte 12,31,0,68,14,208,1,157,26,158,25,68,13,29,76,147,15,148,14,68,149,13,150,12,68,151,11,152,10,68,153,9
 	.byte 154,8,68,155,7,156,6
@@ -101390,47 +101664,47 @@ Lfde535_end:
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM3128=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3128
+LDIFF_SYM3130=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3130
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM3129=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3129
+LDIFF_SYM3131=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3131
 	.byte 2,141,24,3
 	.asciz "param2"
 
-LDIFF_SYM3130=LDIE_I8 - Ldebug_info_start
-	.long LDIFF_SYM3130
+LDIFF_SYM3132=LDIE_I8 - Ldebug_info_start
+	.long LDIFF_SYM3132
 	.byte 2,141,32,11
 	.asciz "V_0"
 
-LDIFF_SYM3131=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3131
+LDIFF_SYM3133=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3133
 	.byte 3,141,184,1,11
 	.asciz "V_1"
 
-LDIFF_SYM3132=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3132
+LDIFF_SYM3134=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3134
 	.byte 3,141,192,1,11
 	.asciz "V_2"
 
-LDIFF_SYM3133=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM3133
+LDIFF_SYM3135=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM3135
 	.byte 3,141,200,1,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3134=Lfde536_end - Lfde536_start
-	.long LDIFF_SYM3134
+LDIFF_SYM3136=Lfde536_end - Lfde536_start
+	.long LDIFF_SYM3136
 Lfde536_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSendSuper_Int64_intptr_intptr_long
 
-LDIFF_SYM3135=Lme_286 - wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSendSuper_Int64_intptr_intptr_long
-	.long LDIFF_SYM3135
+LDIFF_SYM3137=Lme_286 - wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSendSuper_Int64_intptr_intptr_long
+	.long LDIFF_SYM3137
 	.long 0
 	.byte 12,31,0,68,14,208,1,157,26,158,25,68,13,29,76,147,15,148,14,68,149,13,150,12,68,151,11,152,10,68,153,9
 	.byte 154,8,68,155,7,156,6
@@ -101450,57 +101724,57 @@ Lfde536_end:
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM3136=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3136
+LDIFF_SYM3138=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3138
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM3137=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3137
+LDIFF_SYM3139=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3139
 	.byte 2,141,24,3
 	.asciz "param2"
 
-LDIFF_SYM3138=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM3138
+LDIFF_SYM3140=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM3140
 	.byte 2,141,32,11
 	.asciz "V_0"
 
-LDIFF_SYM3139=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3139
+LDIFF_SYM3141=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3141
 	.byte 3,141,184,1,11
 	.asciz "V_1"
 
-LDIFF_SYM3140=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3140
+LDIFF_SYM3142=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3142
 	.byte 3,141,192,1,11
 	.asciz "V_2"
 
-LDIFF_SYM3141=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM3141
+LDIFF_SYM3143=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM3143
 	.byte 3,141,200,1,11
 	.asciz "V_3"
 
-LDIFF_SYM3142=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3142
+LDIFF_SYM3144=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3144
 	.byte 1,102,11
 	.asciz "V_4"
 
-LDIFF_SYM3143=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3143
+LDIFF_SYM3145=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3145
 	.byte 1,101,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3144=Lfde537_end - Lfde537_start
-	.long LDIFF_SYM3144
+LDIFF_SYM3146=Lfde537_end - Lfde537_start
+	.long LDIFF_SYM3146
 Lfde537_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_ApiDefinition_Messaging_IntPtr_objc_msgSend_bool_intptr_intptr_bool
 
-LDIFF_SYM3145=Lme_287 - wrapper_managed_to_native_ApiDefinition_Messaging_IntPtr_objc_msgSend_bool_intptr_intptr_bool
-	.long LDIFF_SYM3145
+LDIFF_SYM3147=Lme_287 - wrapper_managed_to_native_ApiDefinition_Messaging_IntPtr_objc_msgSend_bool_intptr_intptr_bool
+	.long LDIFF_SYM3147
 	.long 0
 	.byte 12,31,0,68,14,208,1,157,26,158,25,68,13,29,76,147,15,148,14,68,149,13,150,12,68,151,11,152,10,68,153,9
 	.byte 154,8,68,155,7,156,6
@@ -101520,57 +101794,57 @@ Lfde537_end:
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM3146=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3146
+LDIFF_SYM3148=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3148
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM3147=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3147
+LDIFF_SYM3149=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3149
 	.byte 2,141,24,3
 	.asciz "param2"
 
-LDIFF_SYM3148=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM3148
+LDIFF_SYM3150=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM3150
 	.byte 2,141,32,11
 	.asciz "V_0"
 
-LDIFF_SYM3149=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3149
+LDIFF_SYM3151=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3151
 	.byte 3,141,184,1,11
 	.asciz "V_1"
 
-LDIFF_SYM3150=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3150
+LDIFF_SYM3152=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3152
 	.byte 3,141,192,1,11
 	.asciz "V_2"
 
-LDIFF_SYM3151=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM3151
+LDIFF_SYM3153=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM3153
 	.byte 3,141,200,1,11
 	.asciz "V_3"
 
-LDIFF_SYM3152=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3152
+LDIFF_SYM3154=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3154
 	.byte 1,102,11
 	.asciz "V_4"
 
-LDIFF_SYM3153=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3153
+LDIFF_SYM3155=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3155
 	.byte 1,101,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3154=Lfde538_end - Lfde538_start
-	.long LDIFF_SYM3154
+LDIFF_SYM3156=Lfde538_end - Lfde538_start
+	.long LDIFF_SYM3156
 Lfde538_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_ApiDefinition_Messaging_IntPtr_objc_msgSendSuper_bool_intptr_intptr_bool
 
-LDIFF_SYM3155=Lme_288 - wrapper_managed_to_native_ApiDefinition_Messaging_IntPtr_objc_msgSendSuper_bool_intptr_intptr_bool
-	.long LDIFF_SYM3155
+LDIFF_SYM3157=Lme_288 - wrapper_managed_to_native_ApiDefinition_Messaging_IntPtr_objc_msgSendSuper_bool_intptr_intptr_bool
+	.long LDIFF_SYM3157
 	.long 0
 	.byte 12,31,0,68,14,208,1,157,26,158,25,68,13,29,76,147,15,148,14,68,149,13,150,12,68,151,11,152,10,68,153,9
 	.byte 154,8,68,155,7,156,6
@@ -101590,62 +101864,62 @@ Lfde538_end:
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM3156=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3156
+LDIFF_SYM3158=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3158
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM3157=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3157
+LDIFF_SYM3159=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3159
 	.byte 2,141,24,3
 	.asciz "param2"
 
-LDIFF_SYM3158=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3158
+LDIFF_SYM3160=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3160
 	.byte 2,141,32,3
 	.asciz "param3"
 
-LDIFF_SYM3159=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM3159
+LDIFF_SYM3161=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM3161
 	.byte 2,141,40,11
 	.asciz "V_0"
 
-LDIFF_SYM3160=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3160
+LDIFF_SYM3162=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3162
 	.byte 3,141,192,1,11
 	.asciz "V_1"
 
-LDIFF_SYM3161=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3161
+LDIFF_SYM3163=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3163
 	.byte 3,141,200,1,11
 	.asciz "V_2"
 
-LDIFF_SYM3162=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM3162
+LDIFF_SYM3164=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM3164
 	.byte 3,141,208,1,11
 	.asciz "V_3"
 
-LDIFF_SYM3163=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3163
+LDIFF_SYM3165=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3165
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM3164=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3164
+LDIFF_SYM3166=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3166
 	.byte 1,100,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3165=Lfde539_end - Lfde539_start
-	.long LDIFF_SYM3165
+LDIFF_SYM3167=Lfde539_end - Lfde539_start
+	.long LDIFF_SYM3167
 Lfde539_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_ApiDefinition_Messaging_IntPtr_objc_msgSend_int_bool_intptr_intptr_int_bool
 
-LDIFF_SYM3166=Lme_289 - wrapper_managed_to_native_ApiDefinition_Messaging_IntPtr_objc_msgSend_int_bool_intptr_intptr_int_bool
-	.long LDIFF_SYM3166
+LDIFF_SYM3168=Lme_289 - wrapper_managed_to_native_ApiDefinition_Messaging_IntPtr_objc_msgSend_int_bool_intptr_intptr_int_bool
+	.long LDIFF_SYM3168
 	.long 0
 	.byte 12,31,0,68,14,224,1,157,28,158,27,68,13,29,76,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9,68,155,8,156,7
@@ -101665,62 +101939,62 @@ Lfde539_end:
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM3167=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3167
+LDIFF_SYM3169=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3169
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM3168=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3168
+LDIFF_SYM3170=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3170
 	.byte 2,141,24,3
 	.asciz "param2"
 
-LDIFF_SYM3169=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3169
+LDIFF_SYM3171=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3171
 	.byte 2,141,32,3
 	.asciz "param3"
 
-LDIFF_SYM3170=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM3170
+LDIFF_SYM3172=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM3172
 	.byte 2,141,40,11
 	.asciz "V_0"
 
-LDIFF_SYM3171=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3171
+LDIFF_SYM3173=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3173
 	.byte 3,141,192,1,11
 	.asciz "V_1"
 
-LDIFF_SYM3172=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3172
+LDIFF_SYM3174=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3174
 	.byte 3,141,200,1,11
 	.asciz "V_2"
 
-LDIFF_SYM3173=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM3173
+LDIFF_SYM3175=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM3175
 	.byte 3,141,208,1,11
 	.asciz "V_3"
 
-LDIFF_SYM3174=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3174
+LDIFF_SYM3176=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3176
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM3175=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3175
+LDIFF_SYM3177=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3177
 	.byte 1,100,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3176=Lfde540_end - Lfde540_start
-	.long LDIFF_SYM3176
+LDIFF_SYM3178=Lfde540_end - Lfde540_start
+	.long LDIFF_SYM3178
 Lfde540_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_ApiDefinition_Messaging_IntPtr_objc_msgSendSuper_int_bool_intptr_intptr_int_bool
 
-LDIFF_SYM3177=Lme_28a - wrapper_managed_to_native_ApiDefinition_Messaging_IntPtr_objc_msgSendSuper_int_bool_intptr_intptr_int_bool
-	.long LDIFF_SYM3177
+LDIFF_SYM3179=Lme_28a - wrapper_managed_to_native_ApiDefinition_Messaging_IntPtr_objc_msgSendSuper_int_bool_intptr_intptr_int_bool
+	.long LDIFF_SYM3179
 	.long 0
 	.byte 12,31,0,68,14,224,1,157,28,158,27,68,13,29,76,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9,68,155,8,156,7
@@ -101740,62 +102014,62 @@ Lfde540_end:
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM3178=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3178
+LDIFF_SYM3180=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3180
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM3179=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3179
+LDIFF_SYM3181=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3181
 	.byte 2,141,24,3
 	.asciz "param2"
 
-LDIFF_SYM3180=LDIE_I8 - Ldebug_info_start
-	.long LDIFF_SYM3180
+LDIFF_SYM3182=LDIE_I8 - Ldebug_info_start
+	.long LDIFF_SYM3182
 	.byte 2,141,32,3
 	.asciz "param3"
 
-LDIFF_SYM3181=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM3181
+LDIFF_SYM3183=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM3183
 	.byte 2,141,40,11
 	.asciz "V_0"
 
-LDIFF_SYM3182=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3182
+LDIFF_SYM3184=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3184
 	.byte 3,141,192,1,11
 	.asciz "V_1"
 
-LDIFF_SYM3183=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3183
+LDIFF_SYM3185=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3185
 	.byte 3,141,200,1,11
 	.asciz "V_2"
 
-LDIFF_SYM3184=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM3184
+LDIFF_SYM3186=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM3186
 	.byte 3,141,208,1,11
 	.asciz "V_3"
 
-LDIFF_SYM3185=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3185
+LDIFF_SYM3187=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3187
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM3186=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3186
+LDIFF_SYM3188=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3188
 	.byte 1,100,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3187=Lfde541_end - Lfde541_start
-	.long LDIFF_SYM3187
+LDIFF_SYM3189=Lfde541_end - Lfde541_start
+	.long LDIFF_SYM3189
 Lfde541_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_ApiDefinition_Messaging_IntPtr_objc_msgSend_Int64_bool_intptr_intptr_long_bool
 
-LDIFF_SYM3188=Lme_28b - wrapper_managed_to_native_ApiDefinition_Messaging_IntPtr_objc_msgSend_Int64_bool_intptr_intptr_long_bool
-	.long LDIFF_SYM3188
+LDIFF_SYM3190=Lme_28b - wrapper_managed_to_native_ApiDefinition_Messaging_IntPtr_objc_msgSend_Int64_bool_intptr_intptr_long_bool
+	.long LDIFF_SYM3190
 	.long 0
 	.byte 12,31,0,68,14,224,1,157,28,158,27,68,13,29,76,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9,68,155,8,156,7
@@ -101815,62 +102089,62 @@ Lfde541_end:
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM3189=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3189
+LDIFF_SYM3191=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3191
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM3190=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3190
+LDIFF_SYM3192=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3192
 	.byte 2,141,24,3
 	.asciz "param2"
 
-LDIFF_SYM3191=LDIE_I8 - Ldebug_info_start
-	.long LDIFF_SYM3191
+LDIFF_SYM3193=LDIE_I8 - Ldebug_info_start
+	.long LDIFF_SYM3193
 	.byte 2,141,32,3
 	.asciz "param3"
 
-LDIFF_SYM3192=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM3192
+LDIFF_SYM3194=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM3194
 	.byte 2,141,40,11
 	.asciz "V_0"
 
-LDIFF_SYM3193=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3193
+LDIFF_SYM3195=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3195
 	.byte 3,141,192,1,11
 	.asciz "V_1"
 
-LDIFF_SYM3194=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3194
+LDIFF_SYM3196=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3196
 	.byte 3,141,200,1,11
 	.asciz "V_2"
 
-LDIFF_SYM3195=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM3195
+LDIFF_SYM3197=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM3197
 	.byte 3,141,208,1,11
 	.asciz "V_3"
 
-LDIFF_SYM3196=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3196
+LDIFF_SYM3198=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3198
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM3197=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3197
+LDIFF_SYM3199=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3199
 	.byte 1,100,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3198=Lfde542_end - Lfde542_start
-	.long LDIFF_SYM3198
+LDIFF_SYM3200=Lfde542_end - Lfde542_start
+	.long LDIFF_SYM3200
 Lfde542_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_ApiDefinition_Messaging_IntPtr_objc_msgSendSuper_Int64_bool_intptr_intptr_long_bool
 
-LDIFF_SYM3199=Lme_28c - wrapper_managed_to_native_ApiDefinition_Messaging_IntPtr_objc_msgSendSuper_Int64_bool_intptr_intptr_long_bool
-	.long LDIFF_SYM3199
+LDIFF_SYM3201=Lme_28c - wrapper_managed_to_native_ApiDefinition_Messaging_IntPtr_objc_msgSendSuper_Int64_bool_intptr_intptr_long_bool
+	.long LDIFF_SYM3201
 	.long 0
 	.byte 12,31,0,68,14,224,1,157,28,158,27,68,13,29,76,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9,68,155,8,156,7
@@ -101890,57 +102164,57 @@ Lfde542_end:
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM3200=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3200
+LDIFF_SYM3202=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3202
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM3201=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3201
+LDIFF_SYM3203=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3203
 	.byte 2,141,24,3
 	.asciz "param2"
 
-LDIFF_SYM3202=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3202
+LDIFF_SYM3204=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3204
 	.byte 2,141,32,3
 	.asciz "param3"
 
-LDIFF_SYM3203=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3203
+LDIFF_SYM3205=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3205
 	.byte 2,141,40,3
 	.asciz "param4"
 
-LDIFF_SYM3204=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3204
+LDIFF_SYM3206=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3206
 	.byte 2,141,48,11
 	.asciz "V_0"
 
-LDIFF_SYM3205=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3205
+LDIFF_SYM3207=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3207
 	.byte 3,141,200,1,11
 	.asciz "V_1"
 
-LDIFF_SYM3206=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3206
+LDIFF_SYM3208=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3208
 	.byte 3,141,208,1,11
 	.asciz "V_2"
 
-LDIFF_SYM3207=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM3207
+LDIFF_SYM3209=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM3209
 	.byte 3,141,216,1,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3208=Lfde543_end - Lfde543_start
-	.long LDIFF_SYM3208
+LDIFF_SYM3210=Lfde543_end - Lfde543_start
+	.long LDIFF_SYM3210
 Lfde543_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSend_IntPtr_IntPtr_IntPtr_intptr_intptr_intptr_intptr_intptr
 
-LDIFF_SYM3209=Lme_28d - wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSend_IntPtr_IntPtr_IntPtr_intptr_intptr_intptr_intptr_intptr
-	.long LDIFF_SYM3209
+LDIFF_SYM3211=Lme_28d - wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSend_IntPtr_IntPtr_IntPtr_intptr_intptr_intptr_intptr_intptr
+	.long LDIFF_SYM3211
 	.long 0
 	.byte 12,31,0,68,14,240,1,157,30,158,29,68,13,29,76,147,17,148,16,68,149,15,150,14,68,151,13,152,12,68,153,11
 	.byte 154,10,68,155,9,156,8
@@ -101960,57 +102234,57 @@ Lfde543_end:
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM3210=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3210
+LDIFF_SYM3212=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3212
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM3211=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3211
+LDIFF_SYM3213=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3213
 	.byte 2,141,24,3
 	.asciz "param2"
 
-LDIFF_SYM3212=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3212
+LDIFF_SYM3214=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3214
 	.byte 2,141,32,3
 	.asciz "param3"
 
-LDIFF_SYM3213=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3213
+LDIFF_SYM3215=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3215
 	.byte 2,141,40,3
 	.asciz "param4"
 
-LDIFF_SYM3214=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3214
+LDIFF_SYM3216=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3216
 	.byte 2,141,48,11
 	.asciz "V_0"
 
-LDIFF_SYM3215=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3215
+LDIFF_SYM3217=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3217
 	.byte 3,141,200,1,11
 	.asciz "V_1"
 
-LDIFF_SYM3216=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3216
+LDIFF_SYM3218=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3218
 	.byte 3,141,208,1,11
 	.asciz "V_2"
 
-LDIFF_SYM3217=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM3217
+LDIFF_SYM3219=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM3219
 	.byte 3,141,216,1,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3218=Lfde544_end - Lfde544_start
-	.long LDIFF_SYM3218
+LDIFF_SYM3220=Lfde544_end - Lfde544_start
+	.long LDIFF_SYM3220
 Lfde544_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSendSuper_IntPtr_IntPtr_IntPtr_intptr_intptr_intptr_intptr_intptr
 
-LDIFF_SYM3219=Lme_28e - wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSendSuper_IntPtr_IntPtr_IntPtr_intptr_intptr_intptr_intptr_intptr
-	.long LDIFF_SYM3219
+LDIFF_SYM3221=Lme_28e - wrapper_managed_to_native_ApiDefinition_Messaging_void_objc_msgSendSuper_IntPtr_IntPtr_IntPtr_intptr_intptr_intptr_intptr_intptr
+	.long LDIFF_SYM3221
 	.long 0
 	.byte 12,31,0,68,14,240,1,157,30,158,29,68,13,29,76,147,17,148,16,68,149,15,150,14,68,151,13,152,12,68,153,11
 	.byte 154,10,68,155,9,156,8
@@ -102030,42 +102304,42 @@ Lfde544_end:
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM3220=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3220
+LDIFF_SYM3222=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3222
 	.byte 2,141,16,11
 	.asciz "V_0"
 
-LDIFF_SYM3221=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3221
+LDIFF_SYM3223=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3223
 	.byte 3,141,168,1,11
 	.asciz "V_1"
 
-LDIFF_SYM3222=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3222
+LDIFF_SYM3224=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3224
 	.byte 3,141,176,1,11
 	.asciz "V_2"
 
-LDIFF_SYM3223=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM3223
+LDIFF_SYM3225=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM3225
 	.byte 3,141,184,1,11
 	.asciz "V_3"
 
-LDIFF_SYM3224=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3224
+LDIFF_SYM3226=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3226
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3225=Lfde545_end - Lfde545_start
-	.long LDIFF_SYM3225
+LDIFF_SYM3227=Lfde545_end - Lfde545_start
+	.long LDIFF_SYM3227
 Lfde545_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_ObjCRuntime_Trampolines__Block_copy_intptr
 
-LDIFF_SYM3226=Lme_28f - wrapper_managed_to_native_ObjCRuntime_Trampolines__Block_copy_intptr
-	.long LDIFF_SYM3226
+LDIFF_SYM3228=Lme_28f - wrapper_managed_to_native_ObjCRuntime_Trampolines__Block_copy_intptr
+	.long LDIFF_SYM3228
 	.long 0
 	.byte 12,31,0,68,14,192,1,157,24,158,23,68,13,29,76,147,15,148,14,68,149,13,150,12,68,151,11,152,10,68,153,9
 	.byte 154,8,68,155,7,156,6
@@ -102085,37 +102359,37 @@ Lfde545_end:
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM3227=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3227
+LDIFF_SYM3229=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3229
 	.byte 2,141,16,11
 	.asciz "V_0"
 
-LDIFF_SYM3228=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3228
+LDIFF_SYM3230=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3230
 	.byte 3,141,168,1,11
 	.asciz "V_1"
 
-LDIFF_SYM3229=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3229
+LDIFF_SYM3231=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3231
 	.byte 3,141,176,1,11
 	.asciz "V_2"
 
-LDIFF_SYM3230=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM3230
+LDIFF_SYM3232=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM3232
 	.byte 3,141,184,1,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3231=Lfde546_end - Lfde546_start
-	.long LDIFF_SYM3231
+LDIFF_SYM3233=Lfde546_end - Lfde546_start
+	.long LDIFF_SYM3233
 Lfde546_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_ObjCRuntime_Trampolines__Block_release_intptr
 
-LDIFF_SYM3232=Lme_290 - wrapper_managed_to_native_ObjCRuntime_Trampolines__Block_release_intptr
-	.long LDIFF_SYM3232
+LDIFF_SYM3234=Lme_290 - wrapper_managed_to_native_ObjCRuntime_Trampolines__Block_release_intptr
+	.long LDIFF_SYM3234
 	.long 0
 	.byte 12,31,0,68,14,192,1,157,24,158,23,68,13,29,76,147,15,148,14,68,149,13,150,12,68,151,11,152,10,68,153,9
 	.byte 154,8,68,155,7,156,6
@@ -102135,42 +102409,42 @@ Lfde546_end:
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM3233=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3233
+LDIFF_SYM3235=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3235
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM3234=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3234
+LDIFF_SYM3236=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3236
 	.byte 2,141,24,11
 	.asciz "V_0"
 
-LDIFF_SYM3235=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3235
+LDIFF_SYM3237=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3237
 	.byte 3,141,176,1,11
 	.asciz "V_1"
 
-LDIFF_SYM3236=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3236
+LDIFF_SYM3238=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3238
 	.byte 3,141,184,1,11
 	.asciz "V_2"
 
-LDIFF_SYM3237=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM3237
+LDIFF_SYM3239=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM3239
 	.byte 3,141,192,1,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3238=Lfde547_end - Lfde547_start
-	.long LDIFF_SYM3238
+LDIFF_SYM3240=Lfde547_end - Lfde547_start
+	.long LDIFF_SYM3240
 Lfde547_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_Xamarin_ObjCRuntime_Messaging_void_objc_msgSend_intptr_intptr
 
-LDIFF_SYM3239=Lme_291 - wrapper_managed_to_native_Xamarin_ObjCRuntime_Messaging_void_objc_msgSend_intptr_intptr
-	.long LDIFF_SYM3239
+LDIFF_SYM3241=Lme_291 - wrapper_managed_to_native_Xamarin_ObjCRuntime_Messaging_void_objc_msgSend_intptr_intptr
+	.long LDIFF_SYM3241
 	.long 0
 	.byte 12,31,0,68,14,208,1,157,26,158,25,68,13,29,76,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9,68,155,8,156,7
@@ -102184,8 +102458,8 @@ LTDIE_134:
 	.asciz "_Signal"
 
 	.byte 4
-LDIFF_SYM3240=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3240
+LDIFF_SYM3242=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3242
 	.byte 9
 	.asciz "SIGBUS"
 
@@ -102195,18 +102469,18 @@ LDIFF_SYM3240=LDIE_I4 - Ldebug_info_start
 	.byte 11,0,7
 	.asciz "_Signal"
 
-LDIFF_SYM3241=LTDIE_134 - Ldebug_info_start
-	.long LDIFF_SYM3241
+LDIFF_SYM3243=LTDIE_134 - Ldebug_info_start
+	.long LDIFF_SYM3243
 LTDIE_134_POINTER:
 
 	.byte 13
-LDIFF_SYM3242=LTDIE_134 - Ldebug_info_start
-	.long LDIFF_SYM3242
+LDIFF_SYM3244=LTDIE_134 - Ldebug_info_start
+	.long LDIFF_SYM3244
 LTDIE_134_REFERENCE:
 
 	.byte 14
-LDIFF_SYM3243=LTDIE_134 - Ldebug_info_start
-	.long LDIFF_SYM3243
+LDIFF_SYM3245=LTDIE_134 - Ldebug_info_start
+	.long LDIFF_SYM3245
 	.byte 2
 	.asciz "(wrapper_managed-to-native)_HockeyApp.iOS.BITHockeyManager:sigaction"
 	.asciz "wrapper_managed_to_native_HockeyApp_iOS_BITHockeyManager_sigaction_HockeyApp_iOS_BITHockeyManager_Signal_intptr_intptr"
@@ -102218,52 +102492,52 @@ LDIFF_SYM3243=LTDIE_134 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM3244=LTDIE_134 - Ldebug_info_start
-	.long LDIFF_SYM3244
+LDIFF_SYM3246=LTDIE_134 - Ldebug_info_start
+	.long LDIFF_SYM3246
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM3245=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3245
+LDIFF_SYM3247=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3247
 	.byte 2,141,24,3
 	.asciz "param2"
 
-LDIFF_SYM3246=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3246
+LDIFF_SYM3248=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3248
 	.byte 2,141,32,11
 	.asciz "V_0"
 
-LDIFF_SYM3247=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3247
+LDIFF_SYM3249=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3249
 	.byte 3,141,184,1,11
 	.asciz "V_1"
 
-LDIFF_SYM3248=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3248
+LDIFF_SYM3250=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3250
 	.byte 3,141,192,1,11
 	.asciz "V_2"
 
-LDIFF_SYM3249=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM3249
+LDIFF_SYM3251=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM3251
 	.byte 3,141,200,1,11
 	.asciz "V_3"
 
-LDIFF_SYM3250=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3250
+LDIFF_SYM3252=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3252
 	.byte 1,102,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3251=Lfde548_end - Lfde548_start
-	.long LDIFF_SYM3251
+LDIFF_SYM3253=Lfde548_end - Lfde548_start
+	.long LDIFF_SYM3253
 Lfde548_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_HockeyApp_iOS_BITHockeyManager_sigaction_HockeyApp_iOS_BITHockeyManager_Signal_intptr_intptr
 
-LDIFF_SYM3252=Lme_292 - wrapper_managed_to_native_HockeyApp_iOS_BITHockeyManager_sigaction_HockeyApp_iOS_BITHockeyManager_Signal_intptr_intptr
-	.long LDIFF_SYM3252
+LDIFF_SYM3254=Lme_292 - wrapper_managed_to_native_HockeyApp_iOS_BITHockeyManager_sigaction_HockeyApp_iOS_BITHockeyManager_Signal_intptr_intptr
+	.long LDIFF_SYM3254
 	.long 0
 	.byte 12,31,0,68,14,208,1,157,26,158,25,68,13,29,76,147,15,148,14,68,149,13,150,12,68,151,11,152,10,68,153,9
 	.byte 154,8,68,155,7,156,6
@@ -102283,37 +102557,37 @@ Lfde548_end:
 	.byte 2,118,16,11
 	.asciz "V_0"
 
-LDIFF_SYM3253=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3253
+LDIFF_SYM3255=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3255
 	.byte 3,141,160,1,11
 	.asciz "V_1"
 
-LDIFF_SYM3254=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3254
+LDIFF_SYM3256=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3256
 	.byte 3,141,168,1,11
 	.asciz "V_2"
 
-LDIFF_SYM3255=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM3255
+LDIFF_SYM3257=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM3257
 	.byte 3,141,176,1,11
 	.asciz "V_3"
 
-LDIFF_SYM3256=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3256
+LDIFF_SYM3258=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3258
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3257=Lfde549_end - Lfde549_start
-	.long LDIFF_SYM3257
+LDIFF_SYM3259=Lfde549_end - Lfde549_start
+	.long LDIFF_SYM3259
 Lfde549_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_HockeyApp_iOS_BITHockeyManager_NSGetUncaughtExceptionHandler
 
-LDIFF_SYM3258=Lme_293 - wrapper_managed_to_native_HockeyApp_iOS_BITHockeyManager_NSGetUncaughtExceptionHandler
-	.long LDIFF_SYM3258
+LDIFF_SYM3260=Lme_293 - wrapper_managed_to_native_HockeyApp_iOS_BITHockeyManager_NSGetUncaughtExceptionHandler
+	.long LDIFF_SYM3260
 	.long 0
 	.byte 12,31,0,68,14,192,1,157,24,158,23,68,13,29,76,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9,68,155,8,156,7
@@ -102333,74 +102607,74 @@ Lfde549_end:
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM3259=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3259
-	.byte 2,141,48,3
-	.asciz "param1"
-
-LDIFF_SYM3260=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3260
-	.byte 2,141,56,3
-	.asciz "param2"
-
 LDIFF_SYM3261=LDIE_I - Ldebug_info_start
 	.long LDIFF_SYM3261
-	.byte 3,141,192,0,11
-	.asciz "V_0"
+	.byte 2,141,40,3
+	.asciz "param1"
 
-LDIFF_SYM3262=LDIE_I - Ldebug_info_start
+LDIFF_SYM3262=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM3262
-	.byte 3,141,224,0,11
-	.asciz "V_1"
+	.byte 2,141,48,3
+	.asciz "param2"
 
 LDIFF_SYM3263=LDIE_I - Ldebug_info_start
 	.long LDIFF_SYM3263
-	.byte 3,141,232,0,11
+	.byte 2,141,56,11
+	.asciz "V_0"
+
+LDIFF_SYM3264=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3264
+	.byte 3,141,216,0,11
+	.asciz "V_1"
+
+LDIFF_SYM3265=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3265
+	.byte 3,141,224,0,11
 	.asciz "V_2"
 
-LDIFF_SYM3264=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM3264
-	.byte 3,141,240,0,11
+LDIFF_SYM3266=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM3266
+	.byte 3,141,232,0,11
 	.asciz "V_3"
 
-LDIFF_SYM3265=LDIE_U4 - Ldebug_info_start
-	.long LDIFF_SYM3265
-	.byte 3,141,248,0,11
+LDIFF_SYM3267=LDIE_U4 - Ldebug_info_start
+	.long LDIFF_SYM3267
+	.byte 3,141,240,0,11
 	.asciz "V_4"
 
-LDIFF_SYM3266=LTDIE_33_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3266
-	.byte 3,141,128,1,11
+LDIFF_SYM3268=LTDIE_33_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3268
+	.byte 3,141,248,0,11
 	.asciz "V_5"
 
-LDIFF_SYM3267=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3267
-	.byte 3,141,136,1,11
+LDIFF_SYM3269=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3269
+	.byte 3,141,128,1,11
 	.asciz "V_6"
 
-LDIFF_SYM3268=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3268
-	.byte 3,141,144,1,11
+LDIFF_SYM3270=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3270
+	.byte 3,141,136,1,11
 	.asciz "V_7"
 
-LDIFF_SYM3269=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM3269
-	.byte 1,101,0
+LDIFF_SYM3271=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM3271
+	.byte 1,102,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3270=Lfde550_end - Lfde550_start
-	.long LDIFF_SYM3270
+LDIFF_SYM3272=Lfde550_end - Lfde550_start
+	.long LDIFF_SYM3272
 Lfde550_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_native_to_managed_ObjCRuntime_Trampolines_SDBITAuthenticatorIdentifyCallback_Invoke_intptr_int_intptr
 
-LDIFF_SYM3271=Lme_294 - wrapper_native_to_managed_ObjCRuntime_Trampolines_SDBITAuthenticatorIdentifyCallback_Invoke_intptr_int_intptr
-	.long LDIFF_SYM3271
+LDIFF_SYM3273=Lme_294 - wrapper_native_to_managed_ObjCRuntime_Trampolines_SDBITAuthenticatorIdentifyCallback_Invoke_intptr_int_intptr
+	.long LDIFF_SYM3273
 	.long 0
-	.byte 12,31,0,68,14,176,1,157,22,158,21,68,13,29,68,148,20,149,19,68,153,18,154,17
+	.byte 12,31,0,68,14,240,1,157,30,158,29,68,13,29,68,147,28,148,27,68,150,26
 	.align 3
 Lfde550_end:
 
@@ -102417,74 +102691,74 @@ Lfde550_end:
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM3272=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3272
-	.byte 2,141,48,3
-	.asciz "param1"
-
-LDIFF_SYM3273=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3273
-	.byte 2,141,56,3
-	.asciz "param2"
-
 LDIFF_SYM3274=LDIE_I - Ldebug_info_start
 	.long LDIFF_SYM3274
-	.byte 3,141,192,0,11
-	.asciz "V_0"
+	.byte 2,141,40,3
+	.asciz "param1"
 
-LDIFF_SYM3275=LDIE_I - Ldebug_info_start
+LDIFF_SYM3275=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM3275
-	.byte 3,141,224,0,11
-	.asciz "V_1"
+	.byte 2,141,48,3
+	.asciz "param2"
 
 LDIFF_SYM3276=LDIE_I - Ldebug_info_start
 	.long LDIFF_SYM3276
-	.byte 3,141,232,0,11
+	.byte 2,141,56,11
+	.asciz "V_0"
+
+LDIFF_SYM3277=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3277
+	.byte 3,141,216,0,11
+	.asciz "V_1"
+
+LDIFF_SYM3278=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3278
+	.byte 3,141,224,0,11
 	.asciz "V_2"
 
-LDIFF_SYM3277=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM3277
-	.byte 3,141,240,0,11
+LDIFF_SYM3279=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM3279
+	.byte 3,141,232,0,11
 	.asciz "V_3"
 
-LDIFF_SYM3278=LDIE_U4 - Ldebug_info_start
-	.long LDIFF_SYM3278
-	.byte 3,141,248,0,11
+LDIFF_SYM3280=LDIE_U4 - Ldebug_info_start
+	.long LDIFF_SYM3280
+	.byte 3,141,240,0,11
 	.asciz "V_4"
 
-LDIFF_SYM3279=LTDIE_33_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3279
-	.byte 3,141,128,1,11
+LDIFF_SYM3281=LTDIE_33_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3281
+	.byte 3,141,248,0,11
 	.asciz "V_5"
 
-LDIFF_SYM3280=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3280
-	.byte 3,141,136,1,11
+LDIFF_SYM3282=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3282
+	.byte 3,141,128,1,11
 	.asciz "V_6"
 
-LDIFF_SYM3281=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3281
-	.byte 3,141,144,1,11
+LDIFF_SYM3283=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3283
+	.byte 3,141,136,1,11
 	.asciz "V_7"
 
-LDIFF_SYM3282=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM3282
-	.byte 1,101,0
+LDIFF_SYM3284=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM3284
+	.byte 1,102,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3283=Lfde551_end - Lfde551_start
-	.long LDIFF_SYM3283
+LDIFF_SYM3285=Lfde551_end - Lfde551_start
+	.long LDIFF_SYM3285
 Lfde551_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_native_to_managed_ObjCRuntime_Trampolines_SDBITAuthenticatorValidateCallback_Invoke_intptr_int_intptr
 
-LDIFF_SYM3284=Lme_295 - wrapper_native_to_managed_ObjCRuntime_Trampolines_SDBITAuthenticatorValidateCallback_Invoke_intptr_int_intptr
-	.long LDIFF_SYM3284
+LDIFF_SYM3286=Lme_295 - wrapper_native_to_managed_ObjCRuntime_Trampolines_SDBITAuthenticatorValidateCallback_Invoke_intptr_int_intptr
+	.long LDIFF_SYM3286
 	.long 0
-	.byte 12,31,0,68,14,176,1,157,22,158,21,68,13,29,68,148,20,149,19,68,153,18,154,17
+	.byte 12,31,0,68,14,240,1,157,30,158,29,68,13,29,68,147,28,148,27,68,150,26
 	.align 3
 Lfde551_end:
 
@@ -102501,84 +102775,84 @@ Lfde551_end:
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM3285=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3285
-	.byte 2,141,40,3
-	.asciz "param1"
-
-LDIFF_SYM3286=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3286
-	.byte 2,141,48,3
-	.asciz "param2"
-
-LDIFF_SYM3287=LDIE_I4 - Ldebug_info_start
+LDIFF_SYM3287=LDIE_I - Ldebug_info_start
 	.long LDIFF_SYM3287
-	.byte 2,141,56,3
-	.asciz "param3"
+	.byte 2,141,32,3
+	.asciz "param1"
 
 LDIFF_SYM3288=LDIE_I - Ldebug_info_start
 	.long LDIFF_SYM3288
-	.byte 3,141,192,0,3
-	.asciz "param4"
+	.byte 2,141,40,3
+	.asciz "param2"
 
-LDIFF_SYM3289=LDIE_I - Ldebug_info_start
+LDIFF_SYM3289=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM3289
-	.byte 3,141,200,0,3
-	.asciz "param5"
+	.byte 2,141,48,3
+	.asciz "param3"
 
-LDIFF_SYM3290=LDIE_U4 - Ldebug_info_start
+LDIFF_SYM3290=LDIE_I - Ldebug_info_start
 	.long LDIFF_SYM3290
-	.byte 3,141,208,0,11
-	.asciz "V_0"
+	.byte 2,141,56,3
+	.asciz "param4"
 
 LDIFF_SYM3291=LDIE_I - Ldebug_info_start
 	.long LDIFF_SYM3291
-	.byte 3,141,240,0,11
+	.byte 3,141,192,0,3
+	.asciz "param5"
+
+LDIFF_SYM3292=LDIE_U4 - Ldebug_info_start
+	.long LDIFF_SYM3292
+	.byte 3,141,200,0,11
+	.asciz "V_0"
+
+LDIFF_SYM3293=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3293
+	.byte 3,141,232,0,11
 	.asciz "V_1"
 
-LDIFF_SYM3292=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3292
-	.byte 3,141,248,0,11
+LDIFF_SYM3294=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3294
+	.byte 3,141,240,0,11
 	.asciz "V_2"
 
-LDIFF_SYM3293=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM3293
-	.byte 3,141,128,1,11
+LDIFF_SYM3295=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM3295
+	.byte 3,141,248,0,11
 	.asciz "V_3"
 
-LDIFF_SYM3294=LDIE_U4 - Ldebug_info_start
-	.long LDIFF_SYM3294
-	.byte 3,141,136,1,11
+LDIFF_SYM3296=LDIE_U4 - Ldebug_info_start
+	.long LDIFF_SYM3296
+	.byte 3,141,128,1,11
 	.asciz "V_4"
 
-LDIFF_SYM3295=LTDIE_33_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3295
-	.byte 3,141,144,1,11
+LDIFF_SYM3297=LTDIE_33_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3297
+	.byte 3,141,136,1,11
 	.asciz "V_5"
 
-LDIFF_SYM3296=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3296
-	.byte 3,141,152,1,11
+LDIFF_SYM3298=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3298
+	.byte 3,141,144,1,11
 	.asciz "V_6"
 
-LDIFF_SYM3297=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3297
-	.byte 3,141,160,1,0
+LDIFF_SYM3299=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3299
+	.byte 3,141,152,1,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3298=Lfde552_end - Lfde552_start
-	.long LDIFF_SYM3298
+LDIFF_SYM3300=Lfde552_end - Lfde552_start
+	.long LDIFF_SYM3300
 Lfde552_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_native_to_managed_ObjCRuntime_Trampolines_SDBITLogHandler_Invoke_intptr_intptr_System_nuint_intptr_intptr_uint
 
-LDIFF_SYM3299=Lme_296 - wrapper_native_to_managed_ObjCRuntime_Trampolines_SDBITLogHandler_Invoke_intptr_intptr_System_nuint_intptr_intptr_uint
-	.long LDIFF_SYM3299
+LDIFF_SYM3301=Lme_296 - wrapper_native_to_managed_ObjCRuntime_Trampolines_SDBITLogHandler_Invoke_intptr_intptr_System_nuint_intptr_intptr_uint
+	.long LDIFF_SYM3301
 	.long 0
-	.byte 12,31,0,68,14,192,1,157,24,158,23,68,13,29,68,151,22,152,21,68,154,20
+	.byte 12,31,0,68,14,128,2,157,32,158,31,68,13,29,68,153,30,154,29
 	.align 3
 Lfde552_end:
 
@@ -102595,59 +102869,59 @@ Lfde552_end:
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM3300=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3300
-	.byte 2,141,40,11
-	.asciz "V_0"
-
-LDIFF_SYM3301=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3301
-	.byte 3,141,200,0,11
-	.asciz "V_1"
-
 LDIFF_SYM3302=LDIE_I - Ldebug_info_start
 	.long LDIFF_SYM3302
-	.byte 3,141,208,0,11
+	.byte 2,141,32,11
+	.asciz "V_0"
+
+LDIFF_SYM3303=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3303
+	.byte 3,141,192,0,11
+	.asciz "V_1"
+
+LDIFF_SYM3304=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3304
+	.byte 3,141,200,0,11
 	.asciz "V_2"
 
-LDIFF_SYM3303=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM3303
-	.byte 3,141,216,0,11
+LDIFF_SYM3305=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM3305
+	.byte 3,141,208,0,11
 	.asciz "V_3"
 
-LDIFF_SYM3304=LDIE_U4 - Ldebug_info_start
-	.long LDIFF_SYM3304
-	.byte 3,141,224,0,11
+LDIFF_SYM3306=LDIE_U4 - Ldebug_info_start
+	.long LDIFF_SYM3306
+	.byte 3,141,216,0,11
 	.asciz "V_4"
 
-LDIFF_SYM3305=LTDIE_33_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3305
-	.byte 3,141,232,0,11
+LDIFF_SYM3307=LTDIE_33_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3307
+	.byte 3,141,224,0,11
 	.asciz "V_5"
 
-LDIFF_SYM3306=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3306
-	.byte 3,141,240,0,11
+LDIFF_SYM3308=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3308
+	.byte 3,141,232,0,11
 	.asciz "V_6"
 
-LDIFF_SYM3307=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3307
-	.byte 3,141,248,0,0
+LDIFF_SYM3309=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3309
+	.byte 3,141,240,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3308=Lfde553_end - Lfde553_start
-	.long LDIFF_SYM3308
+LDIFF_SYM3310=Lfde553_end - Lfde553_start
+	.long LDIFF_SYM3310
 Lfde553_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_native_to_managed_ObjCRuntime_Trampolines_SDAction_Invoke_intptr
 
-LDIFF_SYM3309=Lme_297 - wrapper_native_to_managed_ObjCRuntime_Trampolines_SDAction_Invoke_intptr
-	.long LDIFF_SYM3309
+LDIFF_SYM3311=Lme_297 - wrapper_native_to_managed_ObjCRuntime_Trampolines_SDAction_Invoke_intptr
+	.long LDIFF_SYM3311
 	.long 0
-	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,148,18,149,17,68,151,16
+	.byte 12,31,0,68,14,208,1,157,26,158,25,68,13,29,68,150,24,151,23
 	.align 3
 Lfde553_end:
 
@@ -102664,64 +102938,64 @@ Lfde553_end:
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM3310=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3310
-	.byte 2,141,48,11
-	.asciz "V_0"
-
-LDIFF_SYM3311=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3311
-	.byte 3,141,208,0,11
-	.asciz "V_1"
-
 LDIFF_SYM3312=LDIE_I - Ldebug_info_start
 	.long LDIFF_SYM3312
-	.byte 3,141,216,0,11
-	.asciz "V_2"
+	.byte 2,141,32,11
+	.asciz "V_0"
 
-LDIFF_SYM3313=LDIE_BOOLEAN - Ldebug_info_start
+LDIFF_SYM3313=LDIE_I - Ldebug_info_start
 	.long LDIFF_SYM3313
-	.byte 3,141,224,0,11
-	.asciz "V_3"
+	.byte 3,141,192,0,11
+	.asciz "V_1"
 
 LDIFF_SYM3314=LDIE_I - Ldebug_info_start
 	.long LDIFF_SYM3314
-	.byte 1,104,11
+	.byte 3,141,200,0,11
+	.asciz "V_2"
+
+LDIFF_SYM3315=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM3315
+	.byte 3,141,208,0,11
+	.asciz "V_3"
+
+LDIFF_SYM3316=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3316
+	.byte 3,141,216,0,11
 	.asciz "V_4"
 
-LDIFF_SYM3315=LDIE_U4 - Ldebug_info_start
-	.long LDIFF_SYM3315
-	.byte 3,141,232,0,11
+LDIFF_SYM3317=LDIE_U4 - Ldebug_info_start
+	.long LDIFF_SYM3317
+	.byte 3,141,224,0,11
 	.asciz "V_5"
 
-LDIFF_SYM3316=LTDIE_33_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3316
-	.byte 3,141,240,0,11
+LDIFF_SYM3318=LTDIE_33_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3318
+	.byte 3,141,232,0,11
 	.asciz "V_6"
 
-LDIFF_SYM3317=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3317
-	.byte 3,141,248,0,11
+LDIFF_SYM3319=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3319
+	.byte 3,141,240,0,11
 	.asciz "V_7"
 
-LDIFF_SYM3318=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3318
-	.byte 3,141,128,1,0
+LDIFF_SYM3320=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3320
+	.byte 3,141,248,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3319=Lfde554_end - Lfde554_start
-	.long LDIFF_SYM3319
+LDIFF_SYM3321=Lfde554_end - Lfde554_start
+	.long LDIFF_SYM3321
 Lfde554_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_native_to_managed_ObjCRuntime_Trampolines_SDBITLogMessageProvider_Invoke_intptr
 
-LDIFF_SYM3320=Lme_298 - wrapper_native_to_managed_ObjCRuntime_Trampolines_SDBITLogMessageProvider_Invoke_intptr
-	.long LDIFF_SYM3320
+LDIFF_SYM3322=Lme_298 - wrapper_native_to_managed_ObjCRuntime_Trampolines_SDBITLogMessageProvider_Invoke_intptr
+	.long LDIFF_SYM3322
 	.long 0
-	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,147,18,148,17,68,150,16,68,152,15
+	.byte 12,31,0,68,14,224,1,157,28,158,27,68,13,29,68,150,26,151,25
 	.align 3
 Lfde554_end:
 

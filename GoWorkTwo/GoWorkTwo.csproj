@@ -22,10 +22,12 @@
     <Folder Include="Classes\" />
     <Folder Include="Images\" />
     <Folder Include="Demos\" />
+    <Folder Include="V1\" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="Images\GwIcon.png" />
     <None Remove="Images\attdico_nocircle.png" />
+    <None Remove="Images\blueback.png" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Images\GwIcon.png">
@@ -33,6 +35,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Images\attdico_nocircle.png">
       <LogicalName>attdico_nocircle.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\blueback.png">
+      <LogicalName>blueback.png</LogicalName>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

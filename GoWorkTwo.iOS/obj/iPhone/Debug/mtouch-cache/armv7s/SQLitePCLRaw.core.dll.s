@@ -21,7 +21,7 @@ Ldebug_info_begin:
 	.short 2
 	.long 0
 	.byte 4,1
-	.asciz "Mono AOT Compiler 5.14.0 (explicit/d31dbe843a5 Tue Aug 14 13:32:50 EDT 2018)"
+	.asciz "Mono AOT Compiler 5.12.0 (tarball Mon Sep 17 21:25:59 EDT 2018)"
 	.asciz "SQLitePCLRaw.core.dll"
 	.asciz ""
 
@@ -4256,7 +4256,7 @@ bl _p_33
 	.byte 0,0,159,231,64,19,160,227,64,19,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -4318,7 +4318,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_open_string_in
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -4341,7 +4341,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_open_v2_string
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -4363,7 +4363,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_close_v2_intpt
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -4385,7 +4385,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_close_intptr:
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -4407,7 +4407,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_enable_shared_
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -4429,7 +4429,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_interrupt_intp
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -4452,7 +4452,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3__vfs__delete_s
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -4475,7 +4475,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_exec_intptr_st
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -4497,7 +4497,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_complete_strin
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -4519,7 +4519,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_compileoption_
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -4541,7 +4541,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_compileoption_
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -4565,7 +4565,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_table_column_m
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -4588,7 +4588,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_prepare_v2_int
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -4610,7 +4610,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_sql_intptr:
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -4632,7 +4632,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_db_handle_intp
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -4656,7 +4656,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_blob_open_intp
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -4678,7 +4678,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_blob_bytes_int
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -4700,7 +4700,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_blob_close_int
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -4723,7 +4723,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_blob_read_intp
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -4746,7 +4746,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_blob_write_int
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -4769,7 +4769,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_blob_read_intp
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -4792,7 +4792,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_blob_write_int
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -4815,7 +4815,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_backup_init_in
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -4838,7 +4838,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_backup_step_in
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -4860,7 +4860,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_backup_finish_
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -4882,7 +4882,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_backup_remaini
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -4904,7 +4904,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_backup_pagecou
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -4927,7 +4927,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_next_stmt_intp
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -4949,7 +4949,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_last_insert_ro
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -4971,7 +4971,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_changes_intptr
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -4993,7 +4993,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_total_changes_
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -5016,7 +5016,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_extended_resul
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -5038,7 +5038,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_errstr_int:
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -5060,7 +5060,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_errcode_intptr
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -5082,7 +5082,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_extended_errco
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -5105,7 +5105,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_busy_timeout_i
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -5127,7 +5127,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_get_autocommit
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -5150,7 +5150,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_db_readonly_in
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -5173,7 +5173,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_db_filename_in
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -5195,7 +5195,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_errmsg_intptr:
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -5217,7 +5217,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_libversion:
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -5239,7 +5239,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_libversion_num
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -5261,7 +5261,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_threadsafe:
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -5283,7 +5283,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_initialize:
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -5305,7 +5305,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_shutdown:
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -5327,7 +5327,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_config_int:
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -5350,7 +5350,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_config_int_int
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -5373,7 +5373,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_enable_load_ex
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -5396,7 +5396,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_config_log_SQL
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -5419,7 +5419,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_commit_hook_in
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -5442,7 +5442,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_create_functio
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -5466,7 +5466,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_create_functio
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -5489,7 +5489,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_db_status_intp
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -5512,7 +5512,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_create_collati
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -5535,7 +5535,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_update_hook_in
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -5558,7 +5558,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_rollback_hook_
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -5581,7 +5581,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_trace_intptr_S
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -5604,7 +5604,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_profile_intptr
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -5627,7 +5627,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_progress_handl
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -5649,7 +5649,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_memory_used:
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -5671,7 +5671,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_memory_highwat
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -5694,7 +5694,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_status_int_int
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -5716,7 +5716,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_sourceid:
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -5739,7 +5739,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_result_int64_i
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -5762,7 +5762,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_result_int_int
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -5785,7 +5785,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_result_double_
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -5807,7 +5807,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_result_null_in
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -5830,7 +5830,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_result_error_i
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -5853,7 +5853,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_result_text_in
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -5876,7 +5876,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_result_blob_in
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -5899,7 +5899,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_result_zeroblo
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -5921,7 +5921,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_result_error_t
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -5943,7 +5943,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_result_error_n
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -5966,7 +5966,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_result_error_c
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -5988,7 +5988,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_value_blob_int
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -6010,7 +6010,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_value_bytes_in
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -6032,7 +6032,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_value_double_i
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -6054,7 +6054,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_value_int_intp
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -6076,7 +6076,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_value_int64_in
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -6098,7 +6098,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_value_type_int
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -6120,7 +6120,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_value_text_int
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -6143,7 +6143,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_bind_int_intpt
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -6166,7 +6166,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_bind_int64_int
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -6189,7 +6189,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_bind_text_intp
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -6212,7 +6212,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_bind_double_in
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -6235,7 +6235,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_bind_blob_intp
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -6258,7 +6258,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_bind_blob_intp
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -6281,7 +6281,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_bind_zeroblob_
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -6304,7 +6304,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_bind_null_intp
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -6326,7 +6326,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_bind_parameter
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -6349,7 +6349,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_bind_parameter
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -6372,7 +6372,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_bind_parameter
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -6394,7 +6394,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_step_intptr:
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -6416,7 +6416,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_stmt_busy_intp
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -6438,7 +6438,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_stmt_readonly_
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -6461,7 +6461,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_column_int_int
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -6484,7 +6484,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_column_int64_i
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -6507,7 +6507,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_column_text_in
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -6530,7 +6530,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_column_decltyp
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -6553,7 +6553,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_column_double_
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -6576,7 +6576,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_column_blob_in
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -6599,7 +6599,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_column_blob_in
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -6622,7 +6622,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_column_type_in
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -6645,7 +6645,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_column_bytes_i
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -6667,7 +6667,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_column_count_i
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -6689,7 +6689,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_data_count_int
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -6712,7 +6712,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_column_name_in
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -6735,7 +6735,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_column_origin_
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -6758,7 +6758,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_column_table_n
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -6781,7 +6781,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_column_databas
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -6803,7 +6803,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_reset_intptr:
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -6825,7 +6825,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_clear_bindings
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -6848,7 +6848,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_stmt_status_in
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -6870,7 +6870,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_finalize_intpt
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -6893,7 +6893,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_wal_autocheckp
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -6916,7 +6916,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_wal_checkpoint
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -6939,7 +6939,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_wal_checkpoint
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -6962,7 +6962,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_set_authorizer
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -6985,7 +6985,7 @@ SQLitePCL_SQLite3Provider_bait_SQLitePCL_ISQLite3Provider_sqlite3_win32_set_dire
 	.byte 0,0,159,231,78,31,160,227,78,31,160,227
 bl _p_34
 
-	.byte 0,16,160,225,215,0,0,227,0,2,64,227,215,0,0,227,0,2,64,227
+	.byte 0,16,160,225,207,0,0,227,0,2,64,227,207,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -6996,7 +6996,7 @@ Lme_1bb:
 	.align 2
 	.no_dead_strip System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_IsValueWriteAtomic
 System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_IsValueWriteAtomic:
-.file 2 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.16.0.1/src/Xamarin.iOS/external/corefx/src/System.Collections.Concurrent/src/System/Collections/Concurrent/ConcurrentDictionary.cs"
+.file 2 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.0.0.15/src/Xamarin.iOS/external/corefx/src/System.Collections.Concurrent/src/System/Collections/Concurrent/ConcurrentDictionary.cs"
 .loc 2 100 0 prologue_end
 
 	.byte 128,64,45,233,13,112,160,225,96,5,45,233,6,223,77,226,8,128,141,229,0,0,159,229,0,0,0,234
@@ -7035,7 +7035,7 @@ bl _p_39
 bl _p_40
 
 	.byte 16,0,141,229,0,224,157,229,156,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,16,0,157,229,2,31,160,227
-	.byte 1,0,80,225,0,0,160,19,1,0,160,3,6,0,0,234
+	.byte 2,15,80,227,0,0,160,19,1,0,160,3,6,0,0,234
 .loc 2 123 0
 
 	.byte 0,224,157,229,200,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,0,15,160,227,0,15,160,227,0,224,157,229
@@ -7083,13 +7083,13 @@ System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_Init
 	.byte 0,0,94,227,0,224,158,21,0,0,160,225,68,0,155,229,76,0,139,229,64,0,155,229,0,0,144,229
 bl _p_44
 
-	.byte 0,32,160,225,76,16,155,229,1,0,160,225,0,16,145,229,2,128,160,225,15,224,160,225,20,240,17,229,72,0,139,229
+	.byte 0,32,160,225,76,16,155,229,1,0,160,225,0,16,145,229,2,128,160,225,15,224,160,225,24,240,17,229,72,0,139,229
 	.byte 16,224,155,229,212,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,72,0,155,229,28,0,139,229,214,0,0,234
 	.byte 20,224,155,229,0,224,158,229,16,224,155,229,252,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,28,0,155,229
 	.byte 80,0,139,229,64,0,155,229,0,0,144,229
 bl _p_45
 
-	.byte 0,48,160,225,80,32,155,229,11,31,139,226,2,0,160,225,0,32,146,229,3,128,160,225,15,224,160,225,48,240,18,229
+	.byte 0,48,160,225,80,32,155,229,11,31,139,226,2,0,160,225,0,32,146,229,3,128,160,225,15,224,160,225,12,240,18,229
 	.byte 16,224,155,229,68,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,11,15,139,226,8,15,139,226,44,0,155,229
 	.byte 32,0,139,229,48,0,155,229,36,0,139,229
 .loc 2 233 0
@@ -7131,7 +7131,7 @@ bl _p_47
 	.byte 0,0,94,227,0,224,158,21,0,0,160,225,64,0,155,229,0,0,144,229
 bl _p_50
 
-	.byte 0,48,160,225,112,16,155,229,116,32,155,229,2,0,160,225,0,32,146,229,3,128,160,225,15,224,160,225,12,240,18,229
+	.byte 0,48,160,225,112,16,155,229,116,32,155,229,2,0,160,225,0,32,146,229,3,128,160,225,15,224,160,225,28,240,18,229
 	.byte 92,0,139,229,16,224,155,229,24,227,158,229,0,0,94,227,0,224,158,21,0,0,160,225,8,15,139,226,104,0,139,229
 	.byte 64,0,155,229,0,0,144,229
 bl _p_46
@@ -7149,11 +7149,11 @@ bl _p_52
 	.byte 16,224,155,229,228,227,158,229,0,0,94,227,0,224,158,21,0,0,160,225,72,0,155,229,0,15,80,227,18,0,0,26
 .loc 2 237 0
 
-	.byte 20,224,155,229,0,224,158,229,16,224,155,229,12,228,158,229,0,0,94,227,0,224,158,21,0,0,160,225,228,12,15,227
-	.byte 1,0,64,227,228,12,15,227,1,0,64,227
+	.byte 20,224,155,229,0,224,158,229,16,224,155,229,12,228,158,229,0,0,94,227,0,224,158,21,0,0,160,225,246,13,15,227
+	.byte 1,0,64,227,246,13,15,227,1,0,64,227
 bl _p_53
 
-	.byte 0,16,160,225,170,0,0,227,0,2,64,227,170,0,0,227,0,2,64,227
+	.byte 0,16,160,225,161,0,0,227,0,2,64,227,161,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 .loc 2 231 0
@@ -7189,10 +7189,10 @@ bl _p_54
 	.byte 0,0,159,229
 bl _p_55
 
-	.byte 26,1,0,0,14,16,160,225,0,0,159,229
+	.byte 18,1,0,0,14,16,160,225,0,0,159,229
 bl _p_55
 
-	.byte 203,0,0,0
+	.byte 195,0,0,0
 
 Lme_1bf:
 .text
@@ -7209,33 +7209,33 @@ System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF__cto
 	.byte 0,224,158,229,0,224,155,229,136,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,24,0,155,229
 .loc 2 270 0
 
-	.byte 0,224,155,229,160,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,5,0,160,225,64,3,160,227,0,0,85,225
+	.byte 0,224,155,229,160,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,5,0,160,225,64,3,160,227,64,3,85,227
 	.byte 23,0,0,170
 .loc 2 272 0
 
-	.byte 0,224,155,229,196,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,62,13,15,227,1,0,64,227,62,13,15,227
+	.byte 0,224,155,229,196,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,80,14,15,227,1,0,64,227,80,14,15,227
 	.byte 1,0,64,227
 bl _p_53
 
-	.byte 40,0,139,229,96,13,15,227,1,0,64,227,96,13,15,227,1,0,64,227
+	.byte 40,0,139,229,114,14,15,227,1,0,64,227,114,14,15,227,1,0,64,227
 bl _p_53
 
-	.byte 0,32,160,225,40,16,155,229,172,0,0,227,0,2,64,227,172,0,0,227,0,2,64,227
+	.byte 0,32,160,225,40,16,155,229,163,0,0,227,0,2,64,227,163,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_2
 bl _p_35
 .loc 2 274 0
 
-	.byte 0,224,155,229,36,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,28,0,155,229,0,31,160,227,1,0,80,225
+	.byte 0,224,155,229,36,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,28,0,155,229,0,31,160,227,0,15,80,227
 	.byte 21,0,0,170
 .loc 2 276 0
 
-	.byte 0,224,155,229,72,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,197,14,2,227,197,14,2,227
+	.byte 0,224,155,229,72,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,210,7,2,227,210,7,2,227
 bl _p_53
 
-	.byte 40,0,139,229,192,13,15,227,1,0,64,227,192,13,15,227,1,0,64,227
+	.byte 40,0,139,229,210,14,15,227,1,0,64,227,210,14,15,227,1,0,64,227
 bl _p_53
 
-	.byte 0,32,160,225,40,16,155,229,172,0,0,227,0,2,64,227,172,0,0,227,0,2,64,227
+	.byte 0,32,160,225,40,16,155,229,163,0,0,227,0,2,64,227,163,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_2
 bl _p_35
 .loc 2 281 0
@@ -7340,10 +7340,10 @@ bl _p_62
 	.byte 0,224,158,21,0,0,160,225,16,223,139,226,112,13,189,232,128,128,189,232,14,16,160,225,0,0,159,229
 bl _p_55
 
-	.byte 26,1,0,0,14,16,160,225,0,0,159,229
+	.byte 18,1,0,0,14,16,160,225,0,0,159,229
 bl _p_55
 
-	.byte 203,0,0,0
+	.byte 195,0,0,0
 
 Lme_1c0:
 .text
@@ -7371,7 +7371,7 @@ bl _p_64
 	.byte 64,0,139,229,6,0,160,225,28,0,155,229,12,0,144,229,68,0,139,229,6,0,160,225,28,0,155,229,0,0,144,229
 bl _p_65
 
-	.byte 0,48,160,225,68,32,155,229,2,0,160,225,6,16,160,225,0,32,146,229,3,128,160,225,15,224,160,225,12,240,18,229
+	.byte 0,48,160,225,68,32,155,229,2,0,160,225,6,16,160,225,0,32,146,229,3,128,160,225,15,224,160,225,28,240,18,229
 	.byte 56,0,139,229,16,224,155,229,48,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,64,0,155,229,32,16,155,229
 	.byte 60,16,139,229,0,31,160,227,64,19,160,227,6,31,139,226,48,16,139,229,0,224,208,229,52,0,139,229,28,0,155,229
 	.byte 0,0,144,229
@@ -7460,7 +7460,7 @@ System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_TryR
 	.byte 0,0,160,225,64,0,155,229,12,0,144,229,96,0,139,229,68,0,155,229,92,0,139,229,64,0,155,229,0,0,144,229
 bl _p_73
 
-	.byte 0,48,160,225,92,16,155,229,96,32,155,229,2,0,160,225,0,32,146,229,3,128,160,225,15,224,160,225,12,240,18,229
+	.byte 0,48,160,225,92,16,155,229,96,32,155,229,2,0,160,225,0,32,146,229,3,128,160,225,15,224,160,225,28,240,18,229
 	.byte 88,0,139,229,8,224,155,229,12,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,88,0,155,229,16,0,139,229
 .loc 2 374 0
 
@@ -7515,7 +7515,7 @@ bl _p_54
 bl _p_77
 
 	.byte 0,192,160,225,92,16,155,229,96,32,155,229,100,48,155,229,3,0,160,225,0,48,147,229,12,128,160,225,15,224,160,225
-	.byte 16,240,19,229,255,0,0,226,88,0,139,229,8,224,155,229,216,227,158,229,0,0,94,227,0,224,158,21,0,0,160,225
+	.byte 68,240,19,229,255,0,0,226,88,0,139,229,8,224,155,229,216,227,158,229,0,0,94,227,0,224,158,21,0,0,160,225
 	.byte 88,0,155,229,0,15,80,227,219,0,0,10
 .loc 2 395 0
 
@@ -7626,10 +7626,10 @@ bl _p_82
 	.byte 14,16,160,225,0,0,159,229
 bl _p_55
 
-	.byte 253,0,0,0,14,16,160,225,0,0,159,229
+	.byte 245,0,0,0,14,16,160,225,0,0,159,229
 bl _p_55
 
-	.byte 176,0,0,0
+	.byte 167,0,0,0
 
 Lme_1c4:
 .text
@@ -7657,7 +7657,7 @@ bl _p_84
 	.byte 32,0,141,229,6,0,160,225,8,0,157,229,12,0,144,229,36,0,141,229,6,0,160,225,8,0,157,229,0,0,144,229
 bl _p_85
 
-	.byte 0,48,160,225,36,32,157,229,2,0,160,225,6,16,160,225,0,32,146,229,3,128,160,225,15,224,160,225,12,240,18,229
+	.byte 0,48,160,225,36,32,157,229,2,0,160,225,6,16,160,225,0,32,146,229,3,128,160,225,15,224,160,225,28,240,18,229
 	.byte 24,0,141,229,0,224,157,229,36,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,32,0,157,229,12,16,157,229
 	.byte 28,16,141,229,0,224,208,229,20,0,141,229,8,0,157,229,0,0,144,229
 bl _p_86
@@ -7711,7 +7711,7 @@ bl _p_90
 bl _p_91
 
 	.byte 0,192,160,225,20,16,157,229,24,48,157,229,3,0,160,225,5,32,160,225,0,48,147,229,12,128,160,225,15,224,160,225
-	.byte 16,240,19,229,255,0,0,226,16,0,141,229,0,224,157,229,88,226,158,229,0,0,94,227,0,224,158,21,0,0,160,225
+	.byte 68,240,19,229,255,0,0,226,16,0,141,229,0,224,157,229,88,226,158,229,0,0,94,227,0,224,158,21,0,0,160,225
 	.byte 16,0,157,229,0,15,80,227,24,0,0,10
 .loc 2 464 0
 
@@ -7740,10 +7740,10 @@ bl _p_91
 	.byte 0,0,159,229
 bl _p_55
 
-	.byte 253,0,0,0,14,16,160,225,0,0,159,229
+	.byte 245,0,0,0,14,16,160,225,0,0,159,229
 bl _p_55
 
-	.byte 176,0,0,0
+	.byte 167,0,0,0
 
 Lme_1c6:
 .text
@@ -7830,10 +7830,10 @@ bl _p_97
 	.byte 0,0,159,229
 bl _p_55
 
-	.byte 26,1,0,0,14,16,160,225,0,0,159,229
+	.byte 18,1,0,0,14,16,160,225,0,0,159,229
 bl _p_55
 
-	.byte 203,0,0,0
+	.byte 195,0,0,0
 
 Lme_1c7:
 .text
@@ -7848,24 +7848,24 @@ System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_Syst
 	.byte 0,0,159,231,0,0,139,229,0,224,155,229,0,224,158,229,4,224,139,229,0,15,160,227,8,0,139,229,0,95,160,227
 	.byte 0,79,160,227,0,224,155,229,92,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,4,224,155,229,0,224,158,229
 	.byte 0,224,155,229,120,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,6,0,160,225,0,15,86,227,16,0,0,26
-	.byte 4,224,155,229,0,224,158,229,0,224,155,229,160,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,163,14,2,227
-	.byte 163,14,2,227
+	.byte 4,224,155,229,0,224,158,229,0,224,155,229,160,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,176,7,2,227
+	.byte 176,7,2,227
 bl _p_53
 
-	.byte 0,16,160,225,171,0,0,227,0,2,64,227,171,0,0,227,0,2,64,227
+	.byte 0,16,160,225,162,0,0,227,0,2,64,227,162,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 .loc 2 620 0
 
 	.byte 4,224,155,229,0,224,158,229,0,224,155,229,228,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,10,0,160,225
-	.byte 0,15,160,227,0,0,90,225,23,0,0,170,4,224,155,229,0,224,158,229,0,224,155,229,16,225,158,229,0,0,94,227
-	.byte 0,224,158,21,0,0,160,225,89,15,2,227,89,15,2,227
+	.byte 0,15,160,227,0,15,90,227,23,0,0,170,4,224,155,229,0,224,158,229,0,224,155,229,16,225,158,229,0,0,94,227
+	.byte 0,224,158,21,0,0,160,225,114,8,2,227,114,8,2,227
 bl _p_53
 
-	.byte 32,0,139,229,58,14,15,227,1,0,64,227,58,14,15,227,1,0,64,227
+	.byte 32,0,139,229,76,15,15,227,1,0,64,227,76,15,15,227,1,0,64,227
 bl _p_53
 
-	.byte 0,32,160,225,32,16,155,229,172,0,0,227,0,2,64,227,172,0,0,227,0,2,64,227
+	.byte 0,32,160,225,32,16,155,229,163,0,0,227,0,2,64,227,163,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_2
 bl _p_35
 .loc 2 622 0
@@ -7896,19 +7896,19 @@ bl _p_98
 	.byte 0,224,155,229,120,226,158,229,0,0,94,227,0,224,158,21,0,0,160,225,4,0,160,225,64,3,132,226,0,64,160,225
 	.byte 4,224,155,229,0,224,158,229,0,224,155,229,160,226,158,229,0,0,94,227,0,224,158,21,0,0,160,225,4,0,160,225
 	.byte 28,0,155,229,8,0,144,229,32,0,139,229,91,240,127,245,32,0,155,229,12,0,144,229,12,0,144,229,0,0,84,225
-	.byte 3,0,0,170,5,0,160,225,0,15,160,227,0,0,85,225,199,255,255,170
+	.byte 3,0,0,170,5,0,160,225,0,15,160,227,0,15,85,227,199,255,255,170
 .loc 2 634 0
 
 	.byte 4,224,155,229,0,224,158,229,0,224,155,229,244,226,158,229,0,0,94,227,0,224,158,21,0,0,160,225,6,0,160,225
 	.byte 12,0,150,229,5,16,160,225,5,0,64,224,10,16,160,225,10,0,80,225,3,0,0,186,5,0,160,225,0,15,160,227
-	.byte 0,0,85,225,18,0,0,170
+	.byte 0,15,85,227,18,0,0,170
 .loc 2 636 0
 
-	.byte 4,224,155,229,0,224,158,229,0,224,155,229,60,227,158,229,0,0,94,227,0,224,158,21,0,0,160,225,134,14,15,227
-	.byte 1,0,64,227,134,14,15,227,1,0,64,227
+	.byte 4,224,155,229,0,224,158,229,0,224,155,229,60,227,158,229,0,0,94,227,0,224,158,21,0,0,160,225,152,15,15,227
+	.byte 1,0,64,227,152,15,15,227,1,0,64,227
 bl _p_53
 
-	.byte 0,16,160,225,170,0,0,227,0,2,64,227,170,0,0,227,0,2,64,227
+	.byte 0,16,160,225,161,0,0,227,0,2,64,227,161,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 .loc 2 639 0
@@ -7942,7 +7942,7 @@ bl _p_100
 	.byte 0,0,159,229
 bl _p_55
 
-	.byte 253,0,0,0
+	.byte 245,0,0,0
 
 Lme_1c8:
 .text
@@ -8042,10 +8042,10 @@ bl _p_106
 	.byte 128,128,189,232,14,16,160,225,0,0,159,229
 bl _p_55
 
-	.byte 26,1,0,0,14,16,160,225,0,0,159,229
+	.byte 18,1,0,0,14,16,160,225,0,0,159,229
 bl _p_55
 
-	.byte 253,0,0,0
+	.byte 245,0,0,0
 
 Lme_1c9:
 .text
@@ -8104,7 +8104,7 @@ bl _p_108
 	.byte 0,224,158,21,0,0,160,225,14,223,141,226,112,13,189,232,128,128,189,232,14,16,160,225,0,0,159,229
 bl _p_55
 
-	.byte 253,0,0,0
+	.byte 245,0,0,0
 
 Lme_1ca:
 .text
@@ -8168,7 +8168,7 @@ bl _p_110
 	.byte 0,224,158,21,0,0,160,225,10,223,141,226,112,13,189,232,128,128,189,232,14,16,160,225,0,0,159,229
 bl _p_55
 
-	.byte 253,0,0,0
+	.byte 245,0,0,0
 
 Lme_1cb:
 .text
@@ -8233,7 +8233,7 @@ bl _p_1
 	.byte 0,224,158,21,0,0,160,225,14,223,141,226,112,13,189,232,128,128,189,232,14,16,160,225,0,0,159,229
 bl _p_55
 
-	.byte 253,0,0,0
+	.byte 245,0,0,0
 
 Lme_1cc:
 .text
@@ -8334,7 +8334,7 @@ bl _p_54
 bl _p_117
 
 	.byte 0,192,160,225,92,16,155,229,96,32,155,229,100,48,155,229,3,0,160,225,0,48,147,229,12,128,160,225,15,224,160,225
-	.byte 16,240,19,229,255,0,0,226,88,0,139,229,8,224,155,229,188,227,158,229,0,0,94,227,0,224,158,21,0,0,160,225
+	.byte 68,240,19,229,255,0,0,226,88,0,139,229,8,224,155,229,188,227,158,229,0,0,94,227,0,224,158,21,0,0,160,225
 	.byte 88,0,155,229,0,15,80,227,246,0,0,10
 .loc 2 804 0
 
@@ -8525,13 +8525,13 @@ bl _p_123
 	.byte 14,16,160,225,0,0,159,229
 bl _p_55
 
-	.byte 253,0,0,0,14,16,160,225,0,0,159,229
+	.byte 245,0,0,0,14,16,160,225,0,0,159,229
 bl _p_55
 
-	.byte 26,1,0,0,14,16,160,225,0,0,159,229
+	.byte 18,1,0,0,14,16,160,225,0,0,159,229
 bl _p_55
 
-	.byte 176,0,0,0
+	.byte 167,0,0,0
 
 Lme_1ce:
 .text
@@ -8597,7 +8597,7 @@ bl _p_129
 	.byte 60,0,139,229,6,0,160,225,28,0,155,229,12,0,144,229,64,0,139,229,6,0,160,225,28,0,155,229,0,0,144,229
 bl _p_130
 
-	.byte 0,48,160,225,64,32,155,229,2,0,160,225,6,16,160,225,0,32,146,229,3,128,160,225,15,224,160,225,12,240,18,229
+	.byte 0,48,160,225,64,32,155,229,2,0,160,225,6,16,160,225,0,32,146,229,3,128,160,225,15,224,160,225,28,240,18,229
 	.byte 52,0,139,229,16,224,155,229,48,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,60,0,155,229,32,16,155,229
 	.byte 56,16,139,229,64,19,160,227,64,19,160,227,6,31,139,226,44,16,139,229,0,224,208,229,48,0,139,229,28,0,155,229
 	.byte 0,0,144,229
@@ -8622,15 +8622,15 @@ System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_Thro
 	.long mono_aot_SQLitePCLRaw_core_got - . + 1792
 	.byte 0,0,159,231,0,0,141,229,0,224,157,229,0,224,158,229,4,224,141,229,0,224,157,229,68,224,158,229,0,0,94,227
 	.byte 0,224,158,21,0,0,160,225,4,224,157,229,0,224,158,229,0,224,157,229,96,224,158,229,0,0,94,227,0,224,158,21
-	.byte 0,0,160,225,53,14,2,227,53,14,2,227
+	.byte 0,0,160,225,66,7,2,227,66,7,2,227
 bl _p_53
 
 	.byte 20,0,141,229,12,16,157,229,1,0,160,225,0,16,145,229,15,224,160,225,36,240,145,229,24,0,141,229,0,224,157,229
 	.byte 156,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,20,0,157,229,24,16,157,229
 bl _p_132
 
-	.byte 16,0,141,229,0,224,157,229,192,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,16,16,157,229,159,4,0,227
-	.byte 0,2,64,227,159,4,0,227,0,2,64,227
+	.byte 16,0,141,229,0,224,157,229,192,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,16,16,157,229,191,4,0,227
+	.byte 0,2,64,227,191,4,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -8647,10 +8647,10 @@ System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_Thro
 	.long mono_aot_SQLitePCLRaw_core_got - . + 1796
 	.byte 0,0,159,231,0,0,141,229,0,224,157,229,0,224,158,229,4,224,141,229,0,224,157,229,64,224,158,229,0,0,94,227
 	.byte 0,224,158,21,0,0,160,225,4,224,157,229,0,224,158,229,0,224,157,229,92,224,158,229,0,0,94,227,0,224,158,21
-	.byte 0,0,160,225,34,12,2,227,34,12,2,227
+	.byte 0,0,160,225,68,4,2,227,68,4,2,227
 bl _p_53
 
-	.byte 0,16,160,225,171,0,0,227,0,2,64,227,171,0,0,227,0,2,64,227
+	.byte 0,16,160,225,162,0,0,227,0,2,64,227,162,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -8737,7 +8737,7 @@ System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_GetC
 	.byte 0,0,159,229
 bl _p_55
 
-	.byte 253,0,0,0
+	.byte 245,0,0,0
 
 Lme_1d4:
 .text
@@ -8762,11 +8762,11 @@ bl _p_137
 .loc 2 996 0
 
 	.byte 20,224,155,229,0,224,158,229,16,224,155,229,212,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,32,0,155,229
-	.byte 0,15,80,227,14,0,0,26,16,224,155,229,244,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,169,12,4,227
-	.byte 169,12,4,227
+	.byte 0,15,80,227,14,0,0,26,16,224,155,229,244,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,221,6,4,227
+	.byte 221,6,4,227
 bl _p_53
 
-	.byte 0,16,160,225,171,0,0,227,0,2,64,227,171,0,0,227,0,2,64,227
+	.byte 0,16,160,225,162,0,0,227,0,2,64,227,162,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 .loc 2 998 0
@@ -8775,7 +8775,7 @@ bl _p_35
 	.byte 6,0,160,225,28,0,155,229,0,0,144,229
 bl _p_138
 
-	.byte 0,48,160,225,64,32,155,229,2,0,160,225,6,16,160,225,0,32,146,229,3,128,160,225,15,224,160,225,12,240,18,229
+	.byte 0,48,160,225,64,32,155,229,2,0,160,225,6,16,160,225,0,32,146,229,3,128,160,225,15,224,160,225,28,240,18,229
 	.byte 60,0,139,229,16,224,155,229,132,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,60,0,155,229,56,0,139,229
 	.byte 0,80,160,225
 .loc 2 1001 0
@@ -8823,11 +8823,11 @@ bl _p_141
 	.byte 188,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,24,0,157,229,0,15,80,227,16,0,0,26
 .loc 2 1269 0
 
-	.byte 0,224,157,229,220,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,5,0,0,227,2,0,64,227,5,0,0,227
+	.byte 0,224,157,229,220,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,23,1,0,227,2,0,64,227,23,1,0,227
 	.byte 2,0,64,227
 bl _p_53
 
-	.byte 0,16,160,225,170,0,0,227,0,2,64,227,170,0,0,227,0,2,64,227
+	.byte 0,16,160,225,161,0,0,227,0,2,64,227,161,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 .loc 2 1271 0
@@ -8956,7 +8956,7 @@ bl _p_149
 bl _p_150
 
 	.byte 0,192,160,225,24,16,155,229,28,32,155,229,32,48,155,229,3,0,160,225,0,48,147,229,12,128,160,225,15,224,160,225
-	.byte 44,240,19,229
+	.byte 56,240,19,229
 .loc 2 1356 0
 
 	.byte 0,224,155,229,84,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,0,224,155,229,104,225,158,229,0,0,94,227
@@ -9046,13 +9046,13 @@ bl _p_157
 
 	.byte 0,16,160,225,32,0,155,229,36,32,155,229,2,128,160,225,49,255,47,225,8,224,155,229,188,224,158,229,0,0,94,227
 	.byte 0,224,158,21,0,0,160,225,23,0,0,234,8,224,155,229,212,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225
-	.byte 91,0,0,227,2,0,64,227,91,0,0,227,2,0,64,227
+	.byte 109,1,0,227,2,0,64,227,109,1,0,227,2,0,64,227
 bl _p_53
 
-	.byte 32,0,139,229,117,0,0,227,2,0,64,227,117,0,0,227,2,0,64,227
+	.byte 32,0,139,229,135,1,0,227,2,0,64,227,135,1,0,227,2,0,64,227
 bl _p_53
 
-	.byte 0,32,160,225,32,16,155,229,171,0,0,227,0,2,64,227,171,0,0,227,0,2,64,227
+	.byte 0,32,160,225,32,16,155,229,162,0,0,227,0,2,64,227,162,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_2
 bl _p_35
 .loc 2 1405 0
@@ -9129,10 +9129,10 @@ bl _p_163
 bl _p_164
 
 	.byte 0,15,80,227,18,0,0,26,4,224,155,229,0,224,158,229,0,224,155,229,28,225,158,229,0,0,94,227,0,224,158,21
-	.byte 0,0,160,225,211,0,0,227,2,0,64,227,211,0,0,227,2,0,64,227
+	.byte 0,0,160,225,229,1,0,227,2,0,64,227,229,1,0,227,2,0,64,227
 bl _p_53
 
-	.byte 0,16,160,225,170,0,0,227,0,2,64,227,170,0,0,227,0,2,64,227
+	.byte 0,16,160,225,161,0,0,227,0,2,64,227,161,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 .loc 2 1455 0
@@ -9153,11 +9153,11 @@ bl _p_166
 	.byte 0,224,155,229,192,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225
 .loc 2 1459 0
 
-	.byte 0,224,155,229,212,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,63,1,0,227,2,0,64,227,63,1,0,227
+	.byte 0,224,155,229,212,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,81,2,0,227,2,0,64,227,81,2,0,227
 	.byte 2,0,64,227
 bl _p_53
 
-	.byte 0,16,160,225,170,0,0,227,0,2,64,227,170,0,0,227,0,2,64,227
+	.byte 0,16,160,225,161,0,0,227,0,2,64,227,161,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 .loc 2 1462 0
@@ -9172,14 +9172,14 @@ bl _p_167
 bl _p_168
 
 	.byte 0,192,160,225,40,16,155,229,44,48,155,229,3,0,160,225,5,32,160,225,0,48,147,229,12,128,160,225,15,224,160,225
-	.byte 44,240,19,229
+	.byte 56,240,19,229
 .loc 2 1463 0
 
 	.byte 0,224,155,229,184,226,158,229,0,0,94,227,0,224,158,21,0,0,160,225,0,224,155,229,204,226,158,229,0,0,94,227
 	.byte 0,224,158,21,0,0,160,225,14,223,139,226,96,9,189,232,128,128,189,232,14,16,160,225,0,0,159,229
 bl _p_55
 
-	.byte 3,1,0,0
+	.byte 251,0,0,0
 
 Lme_1e1:
 .text
@@ -9223,7 +9223,7 @@ bl _p_173
 	.byte 0,0,159,229
 bl _p_55
 
-	.byte 3,1,0,0
+	.byte 251,0,0,0
 
 Lme_1e2:
 .text
@@ -9344,7 +9344,7 @@ bl _p_181
 	.byte 0,0,159,229
 bl _p_55
 
-	.byte 3,1,0,0
+	.byte 251,0,0,0
 
 Lme_1e7:
 .text
@@ -9412,7 +9412,7 @@ bl _p_187
 	.byte 128,128,189,232,14,16,160,225,0,0,159,229
 bl _p_55
 
-	.byte 3,1,0,0
+	.byte 251,0,0,0
 
 Lme_1e9:
 .text
@@ -9443,11 +9443,11 @@ bl _p_190
 	.byte 0,32,160,225,4,16,146,229,8,0,157,229
 bl _p_164
 
-	.byte 0,15,80,227,16,0,0,26,0,224,157,229,4,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,211,0,0,227
-	.byte 2,0,64,227,211,0,0,227,2,0,64,227
+	.byte 0,15,80,227,16,0,0,26,0,224,157,229,4,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,229,1,0,227
+	.byte 2,0,64,227,229,1,0,227,2,0,64,227
 bl _p_53
 
-	.byte 0,16,160,225,170,0,0,227,0,2,64,227,170,0,0,227,0,2,64,227
+	.byte 0,16,160,225,161,0,0,227,0,2,64,227,161,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 .loc 2 1594 0
@@ -9459,11 +9459,11 @@ bl _p_191
 	.byte 0,32,160,225,4,16,146,229,12,0,157,229
 bl _p_164
 
-	.byte 0,15,80,227,16,0,0,26,0,224,157,229,136,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,63,1,0,227
-	.byte 2,0,64,227,63,1,0,227,2,0,64,227
+	.byte 0,15,80,227,16,0,0,26,0,224,157,229,136,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,81,2,0,227
+	.byte 2,0,64,227,81,2,0,227,2,0,64,227
 bl _p_53
 
-	.byte 0,16,160,225,170,0,0,227,0,2,64,227,170,0,0,227,0,2,64,227
+	.byte 0,16,160,225,161,0,0,227,0,2,64,227,161,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 .loc 2 1596 0
@@ -9490,7 +9490,7 @@ bl _p_193
 	.byte 0,224,158,21,0,0,160,225,14,223,141,226,64,1,189,232,128,128,189,232,14,16,160,225,0,0,159,229
 bl _p_55
 
-	.byte 3,1,0,0
+	.byte 251,0,0,0
 
 Lme_1ea:
 .text
@@ -9506,23 +9506,23 @@ System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_Syst
 	.byte 0,79,160,227,0,15,160,227,12,0,139,229,0,15,160,227,16,0,139,229,0,15,160,227,20,0,139,229,0,175,160,227
 	.byte 0,224,155,229,120,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,4,224,155,229,0,224,158,229,0,224,155,229
 	.byte 148,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,6,0,160,225,0,15,86,227,16,0,0,26,4,224,155,229
-	.byte 0,224,158,229,0,224,155,229,188,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,163,14,2,227,163,14,2,227
+	.byte 0,224,158,229,0,224,155,229,188,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,176,7,2,227,176,7,2,227
 bl _p_53
 
-	.byte 0,16,160,225,171,0,0,227,0,2,64,227,171,0,0,227,0,2,64,227
+	.byte 0,16,160,225,162,0,0,227,0,2,64,227,162,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 .loc 2 1625 0
 
 	.byte 4,224,155,229,0,224,158,229,0,224,155,229,0,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,76,0,155,229
-	.byte 0,31,160,227,1,0,80,225,23,0,0,170,4,224,155,229,0,224,158,229,0,224,155,229,44,225,158,229,0,0,94,227
-	.byte 0,224,158,21,0,0,160,225,89,15,2,227,89,15,2,227
+	.byte 0,31,160,227,0,15,80,227,23,0,0,170,4,224,155,229,0,224,158,229,0,224,155,229,44,225,158,229,0,0,94,227
+	.byte 0,224,158,21,0,0,160,225,114,8,2,227,114,8,2,227
 bl _p_53
 
-	.byte 80,0,139,229,58,14,15,227,1,0,64,227,58,14,15,227,1,0,64,227
+	.byte 80,0,139,229,76,15,15,227,1,0,64,227,76,15,15,227,1,0,64,227
 bl _p_53
 
-	.byte 0,32,160,225,80,16,155,229,172,0,0,227,0,2,64,227,172,0,0,227,0,2,64,227
+	.byte 0,32,160,225,80,16,155,229,163,0,0,227,0,2,64,227,163,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_2
 bl _p_35
 .loc 2 1627 0
@@ -9555,21 +9555,21 @@ bl _p_194
 
 	.byte 0,224,155,229,176,226,158,229,0,0,94,227,0,224,158,21,0,0,160,225,10,0,160,225,64,3,138,226,0,160,160,225
 	.byte 4,224,155,229,0,224,158,229,0,224,155,229,216,226,158,229,0,0,94,227,0,224,158,21,0,0,160,225,10,0,160,225
-	.byte 5,0,160,225,12,0,149,229,12,0,144,229,0,0,90,225,3,0,0,170,4,0,160,225,0,15,160,227,0,0,84,225
+	.byte 5,0,160,225,12,0,149,229,12,0,144,229,0,0,90,225,3,0,0,170,4,0,160,225,0,15,160,227,0,15,84,227
 	.byte 207,255,255,170
 .loc 2 1640 0
 
 	.byte 4,224,155,229,0,224,158,229,0,224,155,229,28,227,158,229,0,0,94,227,0,224,158,21,0,0,160,225,6,0,160,225
 	.byte 12,0,150,229,80,0,139,229,0,224,155,229,60,227,158,229,0,0,94,227,0,224,158,21,0,0,160,225,80,0,155,229
-	.byte 4,16,160,225,4,0,64,224,76,16,155,229,1,0,80,225,3,0,0,186,4,0,160,225,0,15,160,227,0,0,84,225
+	.byte 4,16,160,225,4,0,64,224,76,16,155,229,1,0,80,225,3,0,0,186,4,0,160,225,0,15,160,227,0,15,84,227
 	.byte 18,0,0,170
 .loc 2 1642 0
 
-	.byte 4,224,155,229,0,224,158,229,0,224,155,229,128,227,158,229,0,0,94,227,0,224,158,21,0,0,160,225,134,14,15,227
-	.byte 1,0,64,227,134,14,15,227,1,0,64,227
+	.byte 4,224,155,229,0,224,158,229,0,224,155,229,128,227,158,229,0,0,94,227,0,224,158,21,0,0,160,225,152,15,15,227
+	.byte 1,0,64,227,152,15,15,227,1,0,64,227
 bl _p_53
 
-	.byte 0,16,160,225,170,0,0,227,0,2,64,227,170,0,0,227,0,2,64,227
+	.byte 0,16,160,225,161,0,0,227,0,2,64,227,161,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 .loc 2 1651 0
@@ -9654,14 +9654,14 @@ bl _p_54
 	.byte 50,0,0,234
 .loc 2 1672 0
 
-	.byte 4,224,155,229,0,224,158,229,0,224,155,229,104,231,158,229,0,0,94,227,0,224,158,21,0,0,160,225,175,1,0,227
-	.byte 2,0,64,227,175,1,0,227,2,0,64,227
+	.byte 4,224,155,229,0,224,158,229,0,224,155,229,104,231,158,229,0,0,94,227,0,224,158,21,0,0,160,225,193,2,0,227
+	.byte 2,0,64,227,193,2,0,227,2,0,64,227
 bl _p_53
 
-	.byte 80,0,139,229,163,14,2,227,163,14,2,227
+	.byte 80,0,139,229,176,7,2,227,176,7,2,227
 bl _p_53
 
-	.byte 0,32,160,225,80,16,155,229,170,0,0,227,0,2,64,227,170,0,0,227,0,2,64,227
+	.byte 0,32,160,225,80,16,155,229,161,0,0,227,0,2,64,227,161,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_2
 bl _p_35
 
@@ -9683,7 +9683,7 @@ bl _p_199
 	.byte 0,0,159,229
 bl _p_55
 
-	.byte 253,0,0,0
+	.byte 245,0,0,0
 
 Lme_1eb:
 .text
@@ -9710,10 +9710,10 @@ System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_Syst
 	.long mono_aot_SQLitePCLRaw_core_got - . + 1916
 	.byte 0,0,159,231,0,0,141,229,0,224,157,229,0,224,158,229,4,224,141,229,0,224,157,229,64,224,158,229,0,0,94,227
 	.byte 0,224,158,21,0,0,160,225,4,224,157,229,0,224,158,229,0,224,157,229,92,224,158,229,0,0,94,227,0,224,158,21
-	.byte 0,0,160,225,184,2,0,227,2,0,64,227,184,2,0,227,2,0,64,227
+	.byte 0,0,160,225,202,3,0,227,2,0,64,227,202,3,0,227,2,0,64,227
 bl _p_53
 
-	.byte 0,16,160,225,18,1,0,227,0,2,64,227,18,1,0,227,0,2,64,227
+	.byte 0,16,160,225,10,1,0,227,0,2,64,227,10,1,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
 bl _p_35
 
@@ -9749,10 +9749,10 @@ bl _p_200
 .loc 2 1729 0
 
 	.byte 12,224,155,229,0,224,158,229,8,224,155,229,132,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,0,15,160,227
-	.byte 72,0,139,229,51,3,0,235,72,0,155,229,0,15,80,227,0,0,0,10
+	.byte 72,0,139,229,53,3,0,235,72,0,155,229,0,15,80,227,0,0,0,10
 bl _p_54
 
-	.byte 75,3,0,234
+	.byte 77,3,0,234
 .loc 2 1733 0
 
 	.byte 12,224,155,229,0,224,158,229,8,224,155,229,192,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,0,15,160,227
@@ -9764,7 +9764,7 @@ bl _p_54
 
 	.byte 12,224,155,229,0,224,158,229,8,224,155,229,16,226,158,229,0,0,94,227,0,224,158,21,0,0,160,225,20,16,155,229
 	.byte 24,0,155,229,120,0,139,229,112,0,155,229,16,32,144,229,91,240,127,245,120,0,155,229,10,48,160,225,12,48,146,229
-	.byte 10,0,83,225,60,3,0,155,10,49,160,225,3,32,130,224,4,47,130,226,0,48,146,229,0,47,224,227,2,0,83,225
+	.byte 10,0,83,225,62,3,0,155,10,49,160,225,3,32,130,224,4,47,130,226,0,48,146,229,0,47,224,227,2,0,83,225
 	.byte 0,32,160,227,1,32,160,195,64,35,66,226,3,16,145,224,2,0,176,224,20,16,139,229,24,0,139,229
 .loc 2 1734 0
 
@@ -9774,8 +9774,8 @@ bl _p_54
 .loc 2 1742 0
 
 	.byte 12,224,155,229,0,224,158,229,8,224,155,229,236,226,158,229,0,0,94,227,0,224,158,21,0,0,160,225,20,0,155,229
-	.byte 100,0,139,229,24,80,155,229,112,0,155,229,8,0,144,229,12,0,144,229,1,31,160,227,0,15,81,227,3,3,0,11
-	.byte 0,31,160,227,128,4,80,227,0,32,160,19,1,32,160,3,2,16,1,224,64,3,81,227,248,2,0,11,1,31,160,227
+	.byte 100,0,139,229,24,80,155,229,112,0,155,229,8,0,144,229,12,0,144,229,1,31,160,227,0,15,81,227,5,3,0,11
+	.byte 0,31,160,227,128,4,80,227,0,16,160,19,1,16,160,3,0,31,1,226,64,3,81,227,250,2,0,11,1,31,160,227
 bl _p_201
 
 	.byte 0,64,160,225,0,15,224,227,0,0,84,225,0,0,160,227,1,0,160,195,64,99,64,226,6,0,85,225,53,0,0,202
@@ -9783,11 +9783,11 @@ bl _p_201
 .loc 2 1744 0
 
 	.byte 12,224,155,229,0,224,158,229,8,224,155,229,132,227,158,229,0,0,94,227,0,224,158,21,0,0,160,225,108,0,155,229
-	.byte 128,19,160,227,108,32,155,229,24,32,146,229,146,1,1,224,24,16,128,229
+	.byte 128,19,160,227,108,16,155,229,24,16,145,229,129,16,160,225,24,16,128,229
 .loc 2 1745 0
 
 	.byte 8,224,155,229,176,227,158,229,0,0,94,227,0,224,158,21,0,0,160,225,108,0,155,229,24,0,144,229,0,31,160,227
-	.byte 1,0,80,225,10,0,0,170
+	.byte 0,15,80,227,10,0,0,170
 .loc 2 1747 0
 
 	.byte 12,224,155,229,0,224,158,229,8,224,155,229,224,227,158,229,0,0,94,227,0,224,158,21,0,0,160,225,108,0,155,229
@@ -9795,10 +9795,10 @@ bl _p_201
 .loc 2 1749 0
 
 	.byte 12,224,155,229,0,224,158,229,8,224,155,229,12,228,158,229,0,0,94,227,0,224,158,21,0,0,160,225,0,15,160,227
-	.byte 72,0,139,229,145,2,0,235,72,0,155,229,0,15,80,227,0,0,0,10
+	.byte 72,0,139,229,147,2,0,235,72,0,155,229,0,15,80,227,0,0,0,10
 bl _p_54
 
-	.byte 169,2,0,234
+	.byte 171,2,0,234
 .loc 2 1755 0
 
 	.byte 12,224,155,229,0,224,158,229,8,224,155,229,72,228,158,229,0,0,94,227,0,224,158,21,0,0,160,225,0,15,160,227
@@ -9812,48 +9812,48 @@ bl _p_54
 	.byte 8,0,144,229,12,0,144,229,128,19,160,227,128,19,160,227
 bl _p_202
 
-	.byte 64,19,160,227,1,0,144,224,151,2,0,107,28,0,139,229,11,0,0,234
+	.byte 64,19,160,227,1,0,144,224,153,2,0,107,28,0,139,229,11,0,0,234
 .loc 2 1768 0
 
 	.byte 12,224,155,229,0,224,158,229,8,224,155,229,212,228,158,229,0,0,94,227,0,224,158,21,0,0,160,225,28,0,155,229
-	.byte 128,19,160,227,1,0,144,224,138,2,0,107,28,0,139,229
+	.byte 128,19,160,227,1,0,144,224,140,2,0,107,28,0,139,229
 .loc 2 1766 0
 
 	.byte 12,224,155,229,0,224,158,229,8,224,155,229,4,229,158,229,0,0,94,227,0,224,158,21,0,0,160,225,28,0,155,229
-	.byte 192,19,160,227,0,15,81,227,130,2,0,11,0,31,160,227,128,4,80,227,0,32,160,19,1,32,160,3,2,16,1,224
-	.byte 64,3,81,227,119,2,0,11,192,19,160,227
+	.byte 192,19,160,227,0,15,81,227,132,2,0,11,0,31,160,227,128,4,80,227,0,16,160,19,1,16,160,3,0,31,1,226
+	.byte 64,3,81,227,121,2,0,11,192,19,160,227
 bl _p_203
 
-	.byte 0,15,80,227,221,255,255,10,28,0,155,229,80,18,160,227,0,15,81,227,115,2,0,11,0,31,160,227,128,4,80,227
-	.byte 0,32,160,19,1,32,160,3,2,16,1,224,64,3,81,227,104,2,0,11,80,18,160,227
+	.byte 0,15,80,227,221,255,255,10,28,0,155,229,80,18,160,227,0,15,81,227,117,2,0,11,0,31,160,227,128,4,80,227
+	.byte 0,16,160,19,1,16,160,3,0,31,1,226,64,3,81,227,106,2,0,11,80,18,160,227
 bl _p_203
 
-	.byte 0,15,80,227,206,255,255,10,28,0,155,229,112,18,160,227,0,15,81,227,100,2,0,11,0,31,160,227,128,4,80,227
-	.byte 0,32,160,19,1,32,160,3,2,16,1,224,64,3,81,227,89,2,0,11,112,18,160,227
+	.byte 0,15,80,227,206,255,255,10,28,0,155,229,112,18,160,227,0,15,81,227,102,2,0,11,0,31,160,227,128,4,80,227
+	.byte 0,16,160,19,1,16,160,3,0,31,1,226,64,3,81,227,91,2,0,11,112,18,160,227
 bl _p_203
 
 	.byte 0,15,80,227,191,255,255,10
 .loc 2 1773 0
 
 	.byte 12,224,155,229,0,224,158,229,8,224,155,229,212,229,158,229,0,0,94,227,0,224,158,21,0,0,160,225,28,0,155,229
-	.byte 255,31,15,227,239,31,71,227,1,0,80,225,9,0,0,218
+	.byte 255,31,15,227,239,31,71,227,255,31,15,227,239,31,71,227,1,0,80,225,9,0,0,218
 .loc 2 1775 0
 
-	.byte 12,224,155,229,0,224,158,229,8,224,155,229,4,230,158,229,0,0,94,227,0,224,158,21,0,0,160,225,64,3,160,227
+	.byte 12,224,155,229,0,224,158,229,8,224,155,229,12,230,158,229,0,0,94,227,0,224,158,21,0,0,160,225,64,3,160,227
 	.byte 255,16,0,226,32,0,203,229
 .loc 2 1778 0
 
-	.byte 12,224,155,229,0,224,158,229,8,224,155,229,44,230,158,229,0,0,94,227,0,224,158,21,0,0,160,225,25,0,0,234
+	.byte 12,224,155,229,0,224,158,229,8,224,155,229,52,230,158,229,0,0,94,227,0,224,158,21,0,0,160,225,25,0,0,234
 	.byte 68,0,139,229
 .loc 2 1779 0
 
-	.byte 8,224,155,229,72,230,158,229,0,0,94,227,0,224,158,21,0,0,160,225
+	.byte 8,224,155,229,80,230,158,229,0,0,94,227,0,224,158,21,0,0,160,225
 .loc 2 1781 0
 
-	.byte 8,224,155,229,92,230,158,229,0,0,94,227,0,224,158,21,0,0,160,225,64,3,160,227,255,16,0,226,32,0,203,229
+	.byte 8,224,155,229,100,230,158,229,0,0,94,227,0,224,158,21,0,0,160,225,64,3,160,227,255,16,0,226,32,0,203,229
 .loc 2 1782 0
 
-	.byte 8,224,155,229,124,230,158,229,0,0,94,227,0,224,158,21,0,0,160,225
+	.byte 8,224,155,229,132,230,158,229,0,0,94,227,0,224,158,21,0,0,160,225
 bl _p_204
 
 	.byte 104,0,139,229,0,15,80,227,1,0,0,10,104,0,155,229
@@ -9862,19 +9862,19 @@ bl _p_35
 	.byte 255,255,255,234
 .loc 2 1784 0
 
-	.byte 12,224,155,229,0,224,158,229,8,224,155,229,180,230,158,229,0,0,94,227,0,224,158,21,0,0,160,225,32,0,219,229
+	.byte 12,224,155,229,0,224,158,229,8,224,155,229,188,230,158,229,0,0,94,227,0,224,158,21,0,0,160,225,32,0,219,229
 	.byte 0,15,80,227,18,0,0,10
 .loc 2 1786 0
 
-	.byte 12,224,155,229,0,224,158,229,8,224,155,229,220,230,158,229,0,0,94,227,0,224,158,21,0,0,160,225,255,15,15,227
+	.byte 12,224,155,229,0,224,158,229,8,224,155,229,228,230,158,229,0,0,94,227,0,224,158,21,0,0,160,225,255,15,15,227
 	.byte 239,15,71,227,28,0,139,229
 .loc 2 1793 0
 
-	.byte 8,224,155,229,252,230,158,229,0,0,94,227,0,224,158,21,0,0,160,225,108,0,155,229,128,20,224,227,128,20,224,227
+	.byte 8,224,155,229,4,231,158,229,0,0,94,227,0,224,158,21,0,0,160,225,108,0,155,229,128,20,224,227,128,20,224,227
 	.byte 24,16,128,229
 .loc 2 1797 0
 
-	.byte 12,224,155,229,0,224,158,229,8,224,155,229,40,231,158,229,0,0,94,227,0,224,158,21,0,0,160,225,108,0,155,229
+	.byte 12,224,155,229,0,224,158,229,8,224,155,229,48,231,158,229,0,0,94,227,0,224,158,21,0,0,160,225,108,0,155,229
 	.byte 64,19,160,227,112,16,155,229,12,16,145,229,12,16,145,229,124,16,139,229,4,31,139,226,128,16,139,229,0,224,208,229
 	.byte 120,0,139,229,108,0,155,229,0,0,144,229
 bl _p_200
@@ -9882,14 +9882,14 @@ bl _p_200
 	.byte 0,192,160,225,120,0,155,229,124,32,155,229,128,48,155,229,64,19,160,227,60,255,47,225
 .loc 2 1799 0
 
-	.byte 8,224,155,229,136,231,158,229,0,0,94,227,0,224,158,21,0,0,160,225,112,0,155,229,12,0,144,229,36,0,139,229
+	.byte 8,224,155,229,144,231,158,229,0,0,94,227,0,224,158,21,0,0,160,225,112,0,155,229,12,0,144,229,36,0,139,229
 .loc 2 1802 0
 
-	.byte 8,224,155,229,168,231,158,229,0,0,94,227,0,224,158,21,0,0,160,225,108,0,155,229,20,0,208,229,0,15,80,227
-	.byte 101,0,0,10,112,0,155,229,12,0,144,229,12,0,144,229,64,30,160,227,1,0,80,225,95,0,0,170
+	.byte 8,224,155,229,176,231,158,229,0,0,94,227,0,224,158,21,0,0,160,225,108,0,155,229,20,0,208,229,0,15,80,227
+	.byte 101,0,0,10,112,0,155,229,12,0,144,229,12,0,144,229,64,30,160,227,64,14,80,227,95,0,0,170
 .loc 2 1804 0
 
-	.byte 12,224,155,229,0,224,158,229,8,224,155,229,236,231,158,229,0,0,94,227,0,224,158,21,0,0,160,225,112,0,155,229
+	.byte 12,224,155,229,0,224,158,229,8,224,155,229,244,231,158,229,0,0,94,227,0,224,158,21,0,0,160,225,112,0,155,229
 	.byte 12,0,144,229,12,0,144,229,128,16,160,225,0,0,159,229,0,0,0,234
 	.long mono_aot_SQLitePCLRaw_core_got - . + 1716
 	.byte 0,0,159,231
@@ -9898,16 +9898,16 @@ bl _p_56
 	.byte 36,0,139,229
 .loc 2 1805 0
 
-	.byte 8,224,155,229,40,232,158,229,0,0,94,227,0,224,158,21,0,0,160,225,112,0,155,229,12,0,144,229,0,31,160,227
+	.byte 8,224,155,229,48,232,158,229,0,0,94,227,0,224,158,21,0,0,160,225,112,0,155,229,12,0,144,229,0,31,160,227
 	.byte 36,32,155,229,0,31,160,227,112,16,155,229,12,16,145,229,12,192,145,229,0,31,160,227,0,63,160,227,0,192,141,229
 bl _p_205
 .loc 2 1806 0
 
-	.byte 8,224,155,229,108,232,158,229,0,0,94,227,0,224,158,21,0,0,160,225,112,0,155,229,12,0,144,229,12,0,144,229
+	.byte 8,224,155,229,116,232,158,229,0,0,94,227,0,224,158,21,0,0,160,225,112,0,155,229,12,0,144,229,12,0,144,229
 	.byte 48,0,139,229,39,0,0,234
 .loc 2 1808 0
 
-	.byte 12,224,155,229,0,224,158,229,8,224,155,229,156,232,158,229,0,0,94,227,0,224,158,21,0,0,160,225,36,0,155,229
+	.byte 12,224,155,229,0,224,158,229,8,224,155,229,164,232,158,229,0,0,94,227,0,224,158,21,0,0,160,225,36,0,155,229
 	.byte 128,0,139,229,48,0,155,229,120,0,139,229,0,0,159,229,0,0,0,234
 	.long mono_aot_SQLitePCLRaw_core_got - . + 1720
 	.byte 0,0,159,231,2,31,160,227,2,31,160,227
@@ -9916,16 +9916,16 @@ bl _p_1
 	.byte 124,0,139,229
 bl _p_57
 
-	.byte 8,224,155,229,228,232,158,229,0,0,94,227,0,224,158,21,0,0,160,225,120,16,155,229,124,32,155,229,128,48,155,229
+	.byte 8,224,155,229,236,232,158,229,0,0,94,227,0,224,158,21,0,0,160,225,120,16,155,229,124,32,155,229,128,48,155,229
 	.byte 3,0,160,225,0,48,147,229,15,224,160,225,132,240,147,229
 .loc 2 1806 0
 
-	.byte 8,224,155,229,20,233,158,229,0,0,94,227,0,224,158,21,0,0,160,225,48,0,155,229,64,3,128,226,48,0,139,229
-	.byte 12,224,155,229,0,224,158,229,8,224,155,229,60,233,158,229,0,0,94,227,0,224,158,21,0,0,160,225,48,0,155,229
+	.byte 8,224,155,229,28,233,158,229,0,0,94,227,0,224,158,21,0,0,160,225,48,0,155,229,64,3,128,226,48,0,139,229
+	.byte 12,224,155,229,0,224,158,229,8,224,155,229,68,233,158,229,0,0,94,227,0,224,158,21,0,0,160,225,48,0,155,229
 	.byte 36,16,155,229,12,16,145,229,1,0,80,225,203,255,255,186
 .loc 2 1812 0
 
-	.byte 12,224,155,229,0,224,158,229,8,224,155,229,108,233,158,229,0,0,94,227,0,224,158,21,0,0,160,225,28,0,155,229
+	.byte 12,224,155,229,0,224,158,229,8,224,155,229,116,233,158,229,0,0,94,227,0,224,158,21,0,0,160,225,28,0,155,229
 	.byte 120,0,139,229,108,0,155,229,0,0,144,229
 bl _p_206
 
@@ -9935,7 +9935,7 @@ bl _p_56
 	.byte 40,0,139,229
 .loc 2 1813 0
 
-	.byte 8,224,155,229,160,233,158,229,0,0,94,227,0,224,158,21,0,0,160,225,36,0,155,229,12,16,144,229,0,0,159,229
+	.byte 8,224,155,229,168,233,158,229,0,0,94,227,0,224,158,21,0,0,160,225,36,0,155,229,12,16,144,229,0,0,159,229
 	.byte 0,0,0,234
 	.long mono_aot_SQLitePCLRaw_core_got - . + 1724
 	.byte 0,0,159,231
@@ -9944,19 +9944,19 @@ bl _p_56
 	.byte 44,0,139,229
 .loc 2 1816 0
 
-	.byte 8,224,155,229,212,233,158,229,0,0,94,227,0,224,158,21,0,0,160,225,0,15,160,227,52,0,139,229,174,0,0,234
+	.byte 8,224,155,229,220,233,158,229,0,0,94,227,0,224,158,21,0,0,160,225,0,15,160,227,52,0,139,229,174,0,0,234
 .loc 2 1818 0
 
-	.byte 12,224,155,229,0,224,158,229,8,224,155,229,252,233,158,229,0,0,94,227,0,224,158,21,0,0,160,225,112,0,155,229
+	.byte 12,224,155,229,0,224,158,229,8,224,155,229,4,234,158,229,0,0,94,227,0,224,158,21,0,0,160,225,112,0,155,229
 	.byte 8,0,144,229,52,16,155,229,12,32,144,229,1,0,82,225,70,1,0,155,1,17,160,225,1,0,128,224,4,15,128,226
 	.byte 0,0,144,229,56,0,139,229,135,0,0,234
 .loc 2 1821 0
 
-	.byte 12,224,155,229,0,224,158,229,8,224,155,229,72,234,158,229,0,0,94,227,0,224,158,21,0,0,160,225,56,0,155,229
+	.byte 12,224,155,229,0,224,158,229,8,224,155,229,80,234,158,229,0,0,94,227,0,224,158,21,0,0,160,225,56,0,155,229
 	.byte 12,0,144,229,120,0,139,229,91,240,127,245
 .loc 2 1823 0
 
-	.byte 8,224,155,229,108,234,158,229,0,0,94,227,0,224,158,21,0,0,160,225,56,0,155,229,20,0,144,229,168,0,139,229
+	.byte 8,224,155,229,116,234,158,229,0,0,94,227,0,224,158,21,0,0,160,225,56,0,155,229,20,0,144,229,168,0,139,229
 	.byte 15,15,139,226,176,0,139,229,16,15,139,226,180,0,139,229,40,0,155,229,12,0,144,229,184,0,139,229,36,0,155,229
 	.byte 12,0,144,229,164,0,139,229,108,0,155,229,0,0,144,229
 bl _p_207
@@ -9968,7 +9968,7 @@ bl _p_208
 	.byte 164,0,155,229,0,0,141,229,160,0,155,229,60,255,47,225
 .loc 2 1825 0
 
-	.byte 8,224,155,229,0,235,158,229,0,0,94,227,0,224,158,21,0,0,160,225,40,0,155,229,132,0,139,229,60,0,155,229
+	.byte 8,224,155,229,8,235,158,229,0,0,94,227,0,224,158,21,0,0,160,225,40,0,155,229,132,0,139,229,60,0,155,229
 	.byte 124,0,139,229,56,0,155,229,16,0,144,229,148,0,139,229,56,0,155,229,8,0,144,229,152,0,139,229,56,0,155,229
 	.byte 20,0,144,229,156,0,139,229,40,0,155,229,60,16,155,229,12,32,144,229,1,0,82,225,249,0,0,155,1,17,160,225
 	.byte 1,0,128,224,4,15,128,226,0,0,144,229,140,0,139,229,108,0,155,229,0,0,144,229
@@ -9981,28 +9981,28 @@ bl _p_1
 bl _p_210
 
 	.byte 0,192,160,225,144,0,155,229,148,16,155,229,152,32,155,229,156,48,155,229,128,0,139,229,136,0,139,229,140,0,155,229
-	.byte 0,0,141,229,136,0,155,229,60,255,47,225,8,224,155,229,196,235,158,229,0,0,94,227,0,224,158,21,0,0,160,225
+	.byte 0,0,141,229,136,0,155,229,60,255,47,225,8,224,155,229,204,235,158,229,0,0,94,227,0,224,158,21,0,0,160,225
 	.byte 124,16,155,229,128,32,155,229,132,48,155,229,3,0,160,225,0,48,147,229,15,224,160,225,132,240,147,229
 .loc 2 1829 0
 
-	.byte 8,224,155,229,244,235,158,229,0,0,94,227,0,224,158,21,0,0,160,225,44,0,155,229,64,16,155,229,12,32,144,229
+	.byte 8,224,155,229,252,235,158,229,0,0,94,227,0,224,158,21,0,0,160,225,44,0,155,229,64,16,155,229,12,32,144,229
 	.byte 1,0,82,225,201,0,0,155,1,17,160,225,1,0,128,224,4,15,128,226,76,0,139,229,0,16,160,225,0,16,145,229
 	.byte 64,35,160,227,2,16,145,224,184,0,0,107,0,16,128,229
 .loc 2 1832 0
 
-	.byte 8,224,155,229,68,236,158,229,0,0,94,227,0,224,158,21,0,0,160,225,120,0,155,229,56,0,139,229
+	.byte 8,224,155,229,76,236,158,229,0,0,94,227,0,224,158,21,0,0,160,225,120,0,155,229,56,0,139,229
 .loc 2 1819 0
 
-	.byte 12,224,155,229,0,224,158,229,8,224,155,229,104,236,158,229,0,0,94,227,0,224,158,21,0,0,160,225,56,0,155,229
+	.byte 12,224,155,229,0,224,158,229,8,224,155,229,112,236,158,229,0,0,94,227,0,224,158,21,0,0,160,225,56,0,155,229
 	.byte 0,15,80,227,109,255,255,26
 .loc 2 1816 0
 
-	.byte 12,224,155,229,0,224,158,229,8,224,155,229,144,236,158,229,0,0,94,227,0,224,158,21,0,0,160,225,52,0,155,229
-	.byte 64,3,128,226,52,0,139,229,12,224,155,229,0,224,158,229,8,224,155,229,184,236,158,229,0,0,94,227,0,224,158,21
+	.byte 12,224,155,229,0,224,158,229,8,224,155,229,152,236,158,229,0,0,94,227,0,224,158,21,0,0,160,225,52,0,155,229
+	.byte 64,3,128,226,52,0,139,229,12,224,155,229,0,224,158,229,8,224,155,229,192,236,158,229,0,0,94,227,0,224,158,21
 	.byte 0,0,160,225,52,0,155,229,112,16,155,229,8,16,145,229,12,16,145,229,1,0,80,225,67,255,255,186
 .loc 2 1837 0
 
-	.byte 12,224,155,229,0,224,158,229,8,224,155,229,236,236,158,229,0,0,94,227,0,224,158,21,0,0,160,225,108,0,155,229
+	.byte 12,224,155,229,0,224,158,229,8,224,155,229,244,236,158,229,0,0,94,227,0,224,158,21,0,0,160,225,108,0,155,229
 	.byte 144,0,139,229,64,3,160,227,40,0,155,229,12,0,144,229,36,16,155,229,12,16,145,229,0,15,81,227,131,0,0,11
 	.byte 0,47,224,227,2,0,81,225,0,32,160,19,1,32,160,3,128,4,80,227,0,48,160,19,1,48,160,3,3,32,2,224
 	.byte 64,3,82,227,117,0,0,11
@@ -10011,11 +10011,11 @@ bl _p_201
 	.byte 0,16,160,225,64,3,160,227
 bl _p_96
 
-	.byte 148,0,139,229,8,224,155,229,96,237,158,229,0,0,94,227,0,224,158,21,0,0,160,225,144,0,155,229,148,16,155,229
+	.byte 148,0,139,229,8,224,155,229,104,237,158,229,0,0,94,227,0,224,158,21,0,0,160,225,144,0,155,229,148,16,155,229
 	.byte 24,16,128,229
 .loc 2 1840 0
 
-	.byte 8,224,155,229,128,237,158,229,0,0,94,227,0,224,158,21,0,0,160,225,108,0,155,229,124,0,139,229,40,0,155,229
+	.byte 8,224,155,229,136,237,158,229,0,0,94,227,0,224,158,21,0,0,160,225,108,0,155,229,124,0,139,229,40,0,155,229
 	.byte 132,0,139,229,36,0,155,229,136,0,139,229,44,0,155,229,140,0,139,229,108,0,155,229,0,0,144,229
 bl _p_211
 
@@ -10026,41 +10026,41 @@ bl _p_1
 bl _p_212
 
 	.byte 0,192,160,225,128,0,155,229,132,16,155,229,136,32,155,229,140,48,155,229,120,0,139,229,60,255,47,225,8,224,155,229
-	.byte 248,237,158,229,0,0,94,227,0,224,158,21,0,0,160,225,124,16,155,229,91,240,127,245,120,0,155,229,8,0,129,229
+	.byte 0,238,158,229,0,0,94,227,0,224,158,21,0,0,160,225,124,16,155,229,91,240,127,245,120,0,155,229,8,0,129,229
 	.byte 2,31,129,226,161,20,160,225,0,32,159,229,0,0,0,234
 	.long mono_aot_SQLitePCLRaw_core_got - . -4
 	.byte 2,32,159,231,2,16,129,224,64,35,160,227,0,32,193,229
 .loc 2 1841 0
 
-	.byte 8,224,155,229,64,238,158,229,0,0,94,227,0,224,158,21,0,0,160,225,0,15,160,227,72,0,139,229,4,0,0,235
+	.byte 8,224,155,229,72,238,158,229,0,0,94,227,0,224,158,21,0,0,160,225,0,15,160,227,72,0,139,229,4,0,0,235
 	.byte 72,0,155,229,0,15,80,227,0,0,0,10
 bl _p_54
 
 	.byte 28,0,0,234,2,223,77,226,96,224,139,229
 .loc 2 1845 0
 
-	.byte 8,224,155,229,124,238,158,229,0,0,94,227,0,224,158,21,0,0,160,225,108,0,155,229,0,31,160,227,16,16,155,229
+	.byte 8,224,155,229,132,238,158,229,0,0,94,227,0,224,158,21,0,0,160,225,108,0,155,229,0,31,160,227,16,16,155,229
 	.byte 124,16,139,229,0,224,208,229,120,0,139,229,108,0,155,229,0,0,144,229
 bl _p_213
 
 	.byte 0,48,160,225,120,0,155,229,124,32,155,229,0,31,160,227,51,255,47,225
 .loc 2 1846 0
 
-	.byte 8,224,155,229,200,238,158,229,0,0,94,227,0,224,158,21,0,0,160,225,2,223,141,226,96,192,155,229,12,240,160,225
+	.byte 8,224,155,229,208,238,158,229,0,0,94,227,0,224,158,21,0,0,160,225,2,223,141,226,96,192,155,229,12,240,160,225
 .loc 2 1847 0
 
-	.byte 12,224,155,229,0,224,158,229,8,224,155,229,240,238,158,229,0,0,94,227,0,224,158,21,0,0,160,225,8,224,155,229
-	.byte 4,239,158,229,0,0,94,227,0,224,158,21,0,0,160,225,48,223,139,226,112,13,189,232,128,128,189,232,14,16,160,225
+	.byte 12,224,155,229,0,224,158,229,8,224,155,229,248,238,158,229,0,0,94,227,0,224,158,21,0,0,160,225,8,224,155,229
+	.byte 12,239,158,229,0,0,94,227,0,224,158,21,0,0,160,225,48,223,139,226,112,13,189,232,128,128,189,232,14,16,160,225
 	.byte 0,0,159,229
 bl _p_55
 
-	.byte 26,1,0,0,14,16,160,225,0,0,159,229
+	.byte 18,1,0,0,14,16,160,225,0,0,159,229
 bl _p_55
 
-	.byte 203,0,0,0,14,16,160,225,0,0,159,229
+	.byte 195,0,0,0,14,16,160,225,0,0,159,229
 bl _p_55
 
-	.byte 253,0,0,0
+	.byte 245,0,0,0
 
 Lme_1ee:
 .text
@@ -10083,10 +10083,10 @@ System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_GetB
 	.byte 0,0,94,227,0,224,158,21,0,0,160,225,9,223,141,226,0,1,189,232,128,128,189,232,14,16,160,225,0,0,159,229
 bl _p_55
 
-	.byte 26,1,0,0,14,16,160,225,0,0,159,229
+	.byte 18,1,0,0,14,16,160,225,0,0,159,229
 bl _p_55
 
-	.byte 203,0,0,0
+	.byte 195,0,0,0
 
 Lme_1ef:
 .text
@@ -10114,10 +10114,10 @@ System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_GetB
 	.byte 0,224,158,21,0,0,160,225,8,223,139,226,0,9,189,232,128,128,189,232,14,16,160,225,0,0,159,229
 bl _p_55
 
-	.byte 26,1,0,0,14,16,160,225,0,0,159,229
+	.byte 18,1,0,0,14,16,160,225,0,0,159,229
 bl _p_55
 
-	.byte 203,0,0,0
+	.byte 195,0,0,0
 
 Lme_1f0:
 .text
@@ -10241,7 +10241,7 @@ bl _p_54
 	.byte 0,0,159,229
 bl _p_55
 
-	.byte 253,0,0,0
+	.byte 245,0,0,0
 
 Lme_1f3:
 .text
@@ -10273,7 +10273,7 @@ bl _p_82
 	.byte 0,224,158,21,0,0,160,225,7,223,141,226,32,5,189,232,128,128,189,232,14,16,160,225,0,0,159,229
 bl _p_55
 
-	.byte 253,0,0,0
+	.byte 245,0,0,0
 
 Lme_1f4:
 .text
@@ -10304,9 +10304,9 @@ bl _p_219
 	.byte 0,16,160,225,44,0,155,229,49,255,47,225,40,0,139,229
 .loc 2 1951 0
 
-	.byte 0,224,155,229,28,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,40,0,155,229,16,0,139,229,0,32,160,225
-	.byte 16,0,155,229,0,31,160,227,20,32,139,229,1,0,80,225,11,0,0,170,20,0,155,229,0,224,155,229,84,225,158,229
-	.byte 0,0,94,227,0,224,158,21,0,0,160,225,25,1,0,227,0,2,64,227,25,1,0,227,0,2,64,227
+	.byte 0,224,155,229,28,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,40,0,155,229,16,0,139,229,0,16,160,225
+	.byte 16,0,155,229,0,47,160,227,20,16,139,229,0,15,80,227,11,0,0,170,20,0,155,229,0,224,155,229,84,225,158,229
+	.byte 0,0,94,227,0,224,158,21,0,0,160,225,17,1,0,227,0,2,64,227,17,1,0,227,0,2,64,227
 bl _mono_create_corlib_exception_0
 bl _p_35
 
@@ -10400,7 +10400,7 @@ bl _p_225
 	.byte 128,128,189,232,14,16,160,225,0,0,159,229
 bl _p_55
 
-	.byte 253,0,0,0
+	.byte 245,0,0,0
 
 Lme_1f5:
 .text
@@ -10431,9 +10431,9 @@ bl _p_227
 	.byte 0,16,160,225,44,0,155,229,49,255,47,225,40,0,139,229
 .loc 2 1983 0
 
-	.byte 0,224,155,229,28,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,40,0,155,229,16,0,139,229,0,32,160,225
-	.byte 16,0,155,229,0,31,160,227,20,32,139,229,1,0,80,225,11,0,0,170,20,0,155,229,0,224,155,229,84,225,158,229
-	.byte 0,0,94,227,0,224,158,21,0,0,160,225,25,1,0,227,0,2,64,227,25,1,0,227,0,2,64,227
+	.byte 0,224,155,229,28,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,40,0,155,229,16,0,139,229,0,16,160,225
+	.byte 16,0,155,229,0,47,160,227,20,16,139,229,0,15,80,227,11,0,0,170,20,0,155,229,0,224,155,229,84,225,158,229
+	.byte 0,0,94,227,0,224,158,21,0,0,160,225,17,1,0,227,0,2,64,227,17,1,0,227,0,2,64,227
 bl _mono_create_corlib_exception_0
 bl _p_35
 
@@ -10523,7 +10523,7 @@ bl _p_233
 	.byte 128,128,189,232,14,16,160,225,0,0,159,229
 bl _p_55
 
-	.byte 253,0,0,0
+	.byte 245,0,0,0
 
 Lme_1f6:
 .text
@@ -10781,7 +10781,7 @@ bl _p_35
 	.byte 128,128,189,232,14,16,160,225,0,0,159,229
 bl _p_55
 
-	.byte 253,0,0,0
+	.byte 245,0,0,0
 
 Lme_1fe:
 .text
@@ -10891,7 +10891,7 @@ bl _p_35
 	.byte 14,16,160,225,0,0,159,229
 bl _p_55
 
-	.byte 253,0,0,0
+	.byte 245,0,0,0
 
 Lme_201:
 .text
@@ -10959,7 +10959,7 @@ bl _p_244
 	.byte 0,0,94,227,0,224,158,21,0,0,160,225,6,223,139,226,112,13,189,232,128,128,189,232,14,16,160,225,0,0,159,229
 bl _p_55
 
-	.byte 3,1,0,0
+	.byte 251,0,0,0
 
 Lme_203:
 .text
@@ -11007,7 +11007,7 @@ bl _p_35
 	.byte 0,0,94,227,0,224,158,21,0,0,160,225,10,223,141,226,112,13,189,232,128,128,189,232,14,16,160,225,0,0,159,229
 bl _p_55
 
-	.byte 253,0,0,0
+	.byte 245,0,0,0
 
 Lme_204:
 .text
@@ -11081,7 +11081,7 @@ bl _p_35
 	.byte 14,16,160,225,0,0,159,229
 bl _p_55
 
-	.byte 253,0,0,0
+	.byte 245,0,0,0
 
 Lme_206:
 .text
@@ -11128,7 +11128,7 @@ bl _p_35
 	.byte 10,223,141,226,112,13,189,232,128,128,189,232,14,16,160,225,0,0,159,229
 bl _p_55
 
-	.byte 253,0,0,0
+	.byte 245,0,0,0
 
 Lme_207:
 .text
@@ -11207,7 +11207,7 @@ bl _p_35
 	.byte 0,0,159,229
 bl _p_55
 
-	.byte 253,0,0,0
+	.byte 245,0,0,0
 
 Lme_209:
 .text
@@ -11292,7 +11292,7 @@ bl _p_35
 	.byte 0,0,160,225,20,223,139,226,112,13,189,232,128,128,189,232,14,16,160,225,0,0,159,229
 bl _p_55
 
-	.byte 253,0,0,0
+	.byte 245,0,0,0
 
 Lme_20b:
 .text
@@ -11380,7 +11380,7 @@ bl _p_35
 	.byte 0,0,159,229
 bl _p_55
 
-	.byte 253,0,0,0
+	.byte 245,0,0,0
 
 Lme_20d:
 .text
@@ -11463,7 +11463,7 @@ bl _p_35
 	.byte 0,0,159,229
 bl _p_55
 
-	.byte 253,0,0,0
+	.byte 245,0,0,0
 
 Lme_20f:
 .text
@@ -11543,7 +11543,7 @@ bl _p_35
 	.byte 128,128,189,232,14,16,160,225,0,0,159,229
 bl _p_55
 
-	.byte 253,0,0,0
+	.byte 245,0,0,0
 
 Lme_211:
 .text
@@ -11622,7 +11622,7 @@ bl _p_35
 	.byte 10,223,141,226,112,13,189,232,128,128,189,232,14,16,160,225,0,0,159,229
 bl _p_55
 
-	.byte 253,0,0,0
+	.byte 245,0,0,0
 
 Lme_213:
 .text
@@ -11672,7 +11672,7 @@ LDIFF_SYM3=ut_end - ut_533
 	.align 2
 	.no_dead_strip System_Collections_Generic_KeyValuePair_2_TKey_INTPTR_TValue_REF_get_Value
 System_Collections_Generic_KeyValuePair_2_TKey_INTPTR_TValue_REF_get_Value:
-.file 3 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.16.0.1/src/Xamarin.iOS/external/corefx/src/Common/src/CoreLib/System/Collections/Generic/KeyValuePair.cs"
+.file 3 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.0.0.15/src/Xamarin.iOS/external/corefx/src/Common/src/CoreLib/System/Collections/Generic/KeyValuePair.cs"
 .loc 3 72 0 prologue_end
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,5,223,77,226,8,128,141,229,12,0,141,229,0,0,159,229,0,0,0,234
@@ -11707,7 +11707,7 @@ Lme_216:
 	.align 2
 	.no_dead_strip System_Collections_Generic_EqualityComparer_1_T_INTPTR_get_Default
 System_Collections_Generic_EqualityComparer_1_T_INTPTR_get_Default:
-.file 4 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.16.0.1/src/Xamarin.iOS/mcs/class/referencesource/mscorlib/system/collections/generic/equalitycomparer.cs"
+.file 4 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.0.0.15/src/Xamarin.iOS/mcs/class/referencesource/mscorlib/system/collections/generic/equalitycomparer.cs"
 .loc 4 32 0 prologue_end
 
 	.byte 128,64,45,233,13,112,160,225,0,5,45,233,10,223,77,226,8,128,141,229,0,0,159,229,0,0,0,234
@@ -11788,8 +11788,8 @@ Lme_218:
 	.align 2
 	.no_dead_strip System_Array_Empty_T_GSHAREDVT
 System_Array_Empty_T_GSHAREDVT:
-.file 5 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.16.0.1/src/Xamarin.iOS/mcs/class/corlib/System/Array.cs"
-.loc 5 647 0 prologue_end
+.file 5 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.0.0.15/src/Xamarin.iOS/mcs/class/corlib/System/Array.cs"
+.loc 5 648 0 prologue_end
 
 	.byte 128,64,45,233,13,112,160,225,0,9,45,233,8,223,77,226,13,176,160,225,12,128,139,229,0,0,159,229,0,0,0,234
 	.long mono_aot_SQLitePCLRaw_core_got - . + 2096
@@ -11930,28 +11930,28 @@ Lme_21d:
 	.align 2
 	.no_dead_strip System_Collections_ObjectModel_ReadOnlyCollection_1_T_INTPTR__ctor_System_Collections_Generic_IList_1_T_INTPTR
 System_Collections_ObjectModel_ReadOnlyCollection_1_T_INTPTR__ctor_System_Collections_Generic_IList_1_T_INTPTR:
-.file 6 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.16.0.1/src/Xamarin.iOS/external/corefx/src/Common/src/CoreLib/System/Collections/ObjectModel/ReadOnlyCollection.cs"
-.loc 6 22 0 prologue_end
+.file 6 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.0.0.15/src/Xamarin.iOS/mcs/class/referencesource/mscorlib/system/collections/objectmodel/readonlycollection.cs"
+.loc 6 27 0 prologue_end
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,5,223,77,226,8,0,141,229,12,16,141,229,0,0,159,229,0,0,0,234
 	.long mono_aot_SQLitePCLRaw_core_got - . + 2116
 	.byte 0,0,159,231,0,0,141,229,0,224,157,229,0,224,158,229,4,224,141,229,0,224,157,229,68,224,158,229,0,0,94,227
 	.byte 0,224,158,21,0,0,160,225,4,224,157,229,0,224,158,229,0,224,157,229,96,224,158,229,0,0,94,227,0,224,158,21
 	.byte 0,0,160,225,8,0,157,229
-.loc 6 24 0
+.loc 6 28 0
 
 	.byte 0,224,157,229,120,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,12,0,157,229,0,15,80,227,7,0,0,26
-.loc 6 26 0
+.loc 6 29 0
 
 	.byte 0,224,157,229,152,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,112,2,160,227,112,2,160,227
 bl _p_257
-.loc 6 28 0
+.loc 6 31 0
 
 	.byte 4,224,157,229,0,224,158,229,0,224,157,229,192,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,8,16,157,229
 	.byte 12,0,157,229,8,0,129,229,2,31,129,226,161,20,160,225,0,32,159,229,0,0,0,234
 	.long mono_aot_SQLitePCLRaw_core_got - . -4
 	.byte 2,32,159,231,2,16,129,224,64,35,160,227,0,32,193,229
-.loc 6 29 0
+.loc 6 32 0
 
 	.byte 0,224,157,229,4,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,0,224,157,229,24,225,158,229,0,0,94,227
 	.byte 0,224,158,21,0,0,160,225,5,223,141,226,0,1,189,232,128,128,189,232
@@ -11961,77 +11961,59 @@ Lme_21e:
 	.align 2
 	.no_dead_strip System_Collections_Generic_List_1_T_INTPTR_Add_T_INTPTR
 System_Collections_Generic_List_1_T_INTPTR_Add_T_INTPTR:
-.file 7 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.16.0.1/src/Xamarin.iOS/external/corefx/src/Common/src/CoreLib/System/Collections/Generic/List.cs"
-.loc 7 231 0 prologue_end
+.file 7 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.0.0.15/src/Xamarin.iOS/mcs/class/referencesource/mscorlib/system/collections/generic/list.cs"
+.loc 7 228 0 prologue_end
 
-	.byte 128,64,45,233,13,112,160,225,96,1,45,233,7,223,77,226,8,0,141,229,12,16,141,229,0,0,159,229,0,0,0,234
+	.byte 128,64,45,233,13,112,160,225,64,1,45,233,6,223,77,226,8,0,141,229,12,16,141,229,0,0,159,229,0,0,0,234
 	.long mono_aot_SQLitePCLRaw_core_got - . + 2120
-	.byte 0,0,159,231,0,0,141,229,0,224,157,229,0,224,158,229,4,224,141,229,0,111,160,227,0,95,160,227,0,224,157,229
-	.byte 76,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,4,224,157,229,0,224,158,229,0,224,157,229,104,224,158,229
-	.byte 0,0,94,227,0,224,158,21,0,0,160,225,8,0,157,229,8,0,144,229,0,96,160,225
-.loc 7 232 0
-
-	.byte 0,224,157,229,136,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,8,0,157,229,16,0,144,229,0,80,160,225
-.loc 7 233 0
-
-	.byte 0,224,157,229,168,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,8,0,157,229,0,16,160,225,20,16,145,229
-	.byte 64,19,129,226,20,16,128,229
-.loc 7 234 0
-
-	.byte 0,224,157,229,208,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,5,0,160,225,6,0,160,225,12,0,150,229
-	.byte 0,0,85,225,29,0,0,42
-.loc 7 236 0
-
-	.byte 0,224,157,229,248,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,8,0,157,229,5,16,160,225,64,19,133,226
-	.byte 16,16,128,229
-.loc 7 237 0
-
-	.byte 0,224,157,229,28,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,6,0,160,225,5,0,160,225,12,16,157,229
-	.byte 12,0,150,229,5,0,80,225,39,0,0,155,5,1,160,225,0,0,134,224,4,15,128,226,0,16,128,229
-.loc 7 238 0
-
-	.byte 0,224,157,229,88,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,21,0,0,234
-.loc 7 241 0
-
-	.byte 0,224,157,229,112,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,8,0,157,229,12,16,157,229,20,16,141,229
-	.byte 0,224,208,229,16,0,141,229,8,0,157,229,0,0,144,229
+	.byte 0,0,159,231,0,0,141,229,0,224,157,229,0,224,158,229,4,224,141,229,0,111,160,227,0,224,157,229,72,224,158,229
+	.byte 0,0,94,227,0,224,158,21,0,0,160,225,4,224,157,229,0,224,158,229,0,224,157,229,100,224,158,229,0,0,94,227
+	.byte 0,224,158,21,0,0,160,225,8,0,157,229,16,0,144,229,8,16,157,229,8,16,145,229,12,16,145,229,1,0,80,225
+	.byte 18,0,0,26,0,224,157,229,148,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,8,0,157,229,0,16,160,225
+	.byte 16,16,145,229,64,19,129,226,20,16,141,229,0,224,208,229,16,0,141,229,8,0,157,229,0,0,144,229
 bl _p_258
 
 	.byte 0,32,160,225,16,0,157,229,20,16,157,229,50,255,47,225
-.loc 7 243 0
+.loc 7 229 0
 
-	.byte 0,224,157,229,180,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,0,224,157,229,200,225,158,229,0,0,94,227
-	.byte 0,224,158,21,0,0,160,225,7,223,141,226,96,1,189,232,128,128,189,232,14,16,160,225,0,0,159,229
+	.byte 4,224,157,229,0,224,158,229,0,224,157,229,232,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,8,0,157,229
+	.byte 8,0,144,229,8,16,157,229,1,32,160,225,16,32,146,229,2,96,160,225,64,35,130,226,16,32,129,229,6,16,160,225
+	.byte 12,16,157,229,12,32,144,229,6,0,82,225,26,0,0,155,6,33,160,225,2,0,128,224,4,15,128,226,0,16,128,229
+.loc 7 230 0
+
+	.byte 0,224,157,229,64,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,8,0,157,229,0,16,160,225,20,16,145,229
+	.byte 64,19,129,226,20,16,128,229
+.loc 7 231 0
+
+	.byte 0,224,157,229,104,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,0,224,157,229,124,225,158,229,0,0,94,227
+	.byte 0,224,158,21,0,0,160,225,6,223,141,226,64,1,189,232,128,128,189,232,14,16,160,225,0,0,159,229
 bl _p_55
 
-	.byte 253,0,0,0
+	.byte 245,0,0,0
 
 Lme_21f:
 .text
 	.align 2
 	.no_dead_strip System_Collections_Generic_List_1_T_INTPTR__ctor_int
 System_Collections_Generic_List_1_T_INTPTR__ctor_int:
-.loc 7 49 0 prologue_end
+.loc 7 60 0 prologue_end
 
 	.byte 128,64,45,233,13,112,160,225,0,5,45,233,6,223,77,226,8,0,141,229,1,160,160,225,0,0,159,229,0,0,0,234
 	.long mono_aot_SQLitePCLRaw_core_got - . + 2124
 	.byte 0,0,159,231,0,0,141,229,0,224,157,229,0,224,158,229,4,224,141,229,0,224,157,229,68,224,158,229,0,0,94,227
 	.byte 0,224,158,21,0,0,160,225,4,224,157,229,0,224,158,229,0,224,157,229,96,224,158,229,0,0,94,227,0,224,158,21
 	.byte 0,0,160,225,8,0,157,229
-.loc 7 51 0
+.loc 7 61 0
 
-	.byte 0,224,157,229,120,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,10,0,160,225,0,15,160,227,0,0,90,225
-	.byte 9,0,0,170
-.loc 7 52 0
-
-	.byte 0,224,157,229,156,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,3,15,160,227,1,15,160,227,3,15,160,227
-	.byte 1,31,160,227
+	.byte 0,224,157,229,120,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,10,0,160,225,0,15,160,227,0,15,90,227
+	.byte 9,0,0,170,0,224,157,229,156,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,3,15,160,227,1,15,160,227
+	.byte 3,15,160,227,1,31,160,227
 bl _p_259
-.loc 7 54 0
+.loc 7 64 0
 
 	.byte 4,224,157,229,0,224,158,229,0,224,157,229,204,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,10,0,160,225
 	.byte 0,15,90,227,29,0,0,26
-.loc 7 55 0
+.loc 7 65 0
 
 	.byte 0,224,157,229,236,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,8,0,157,229,16,0,141,229,8,0,157,229
 	.byte 0,0,144,229
@@ -12046,7 +12028,7 @@ bl _p_261
 	.byte 16,16,157,229,0,0,144,229,8,0,129,229,2,31,129,226,161,20,160,225,0,32,159,229,0,0,0,234
 	.long mono_aot_SQLitePCLRaw_core_got - . -4
 	.byte 2,32,159,231,2,16,129,224,64,35,160,227,0,32,193,229,28,0,0,234
-.loc 7 57 0
+.loc 7 67 0
 
 	.byte 0,224,157,229,100,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,8,0,157,229,16,0,141,229,10,0,160,225
 	.byte 8,0,157,229,0,0,144,229
@@ -12058,7 +12040,7 @@ bl _p_56
 	.byte 16,16,157,229,8,0,129,229,2,31,129,226,161,20,160,225,0,32,159,229,0,0,0,234
 	.long mono_aot_SQLitePCLRaw_core_got - . -4
 	.byte 2,32,159,231,2,16,129,224,64,35,160,227,0,32,193,229
-.loc 7 58 0
+.loc 7 68 0
 
 	.byte 0,224,157,229,196,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,0,224,157,229,216,225,158,229,0,0,94,227
 	.byte 0,224,158,21,0,0,160,225,6,223,141,226,0,5,189,232,128,128,189,232
@@ -12068,27 +12050,27 @@ Lme_220:
 	.align 2
 	.no_dead_strip System_Collections_ObjectModel_ReadOnlyCollection_1_T_REF__ctor_System_Collections_Generic_IList_1_T_REF
 System_Collections_ObjectModel_ReadOnlyCollection_1_T_REF__ctor_System_Collections_Generic_IList_1_T_REF:
-.loc 6 22 0 prologue_end
+.loc 6 27 0 prologue_end
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,5,223,77,226,8,0,141,229,12,16,141,229,0,0,159,229,0,0,0,234
 	.long mono_aot_SQLitePCLRaw_core_got - . + 2128
 	.byte 0,0,159,231,0,0,141,229,0,224,157,229,0,224,158,229,4,224,141,229,0,224,157,229,68,224,158,229,0,0,94,227
 	.byte 0,224,158,21,0,0,160,225,4,224,157,229,0,224,158,229,0,224,157,229,96,224,158,229,0,0,94,227,0,224,158,21
 	.byte 0,0,160,225,8,0,157,229
-.loc 6 24 0
+.loc 6 28 0
 
 	.byte 0,224,157,229,120,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,12,0,157,229,0,15,80,227,7,0,0,26
-.loc 6 26 0
+.loc 6 29 0
 
 	.byte 0,224,157,229,152,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,112,2,160,227,112,2,160,227
 bl _p_257
-.loc 6 28 0
+.loc 6 31 0
 
 	.byte 4,224,157,229,0,224,158,229,0,224,157,229,192,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,8,16,157,229
 	.byte 12,0,157,229,8,0,129,229,2,31,129,226,161,20,160,225,0,32,159,229,0,0,0,234
 	.long mono_aot_SQLitePCLRaw_core_got - . -4
 	.byte 2,32,159,231,2,16,129,224,64,35,160,227,0,32,193,229
-.loc 6 29 0
+.loc 6 32 0
 
 	.byte 0,224,157,229,4,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,0,224,157,229,24,225,158,229,0,0,94,227
 	.byte 0,224,158,21,0,0,160,225,5,223,141,226,0,1,189,232,128,128,189,232
@@ -12098,70 +12080,53 @@ Lme_221:
 	.align 2
 	.no_dead_strip System_Collections_Generic_List_1_T_REF_Add_T_REF
 System_Collections_Generic_List_1_T_REF_Add_T_REF:
-.loc 7 231 0 prologue_end
+.loc 7 228 0 prologue_end
 
-	.byte 128,64,45,233,13,112,160,225,96,1,45,233,5,223,77,226,8,0,141,229,12,16,141,229,0,0,159,229,0,0,0,234
+	.byte 128,64,45,233,13,112,160,225,64,1,45,233,4,223,77,226,8,0,141,229,12,16,141,229,0,0,159,229,0,0,0,234
 	.long mono_aot_SQLitePCLRaw_core_got - . + 2132
-	.byte 0,0,159,231,0,0,141,229,0,224,157,229,0,224,158,229,4,224,141,229,0,111,160,227,0,95,160,227,0,224,157,229
-	.byte 76,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,4,224,157,229,0,224,158,229,0,224,157,229,104,224,158,229
-	.byte 0,0,94,227,0,224,158,21,0,0,160,225,8,0,157,229,8,0,144,229,0,96,160,225
-.loc 7 232 0
-
-	.byte 0,224,157,229,136,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,8,0,157,229,16,0,144,229,0,80,160,225
-.loc 7 233 0
-
-	.byte 0,224,157,229,168,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,8,0,157,229,0,16,160,225,20,16,145,229
-	.byte 64,19,129,226,20,16,128,229
-.loc 7 234 0
-
-	.byte 0,224,157,229,208,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,5,0,160,225,6,0,160,225,12,0,150,229
-	.byte 0,0,85,225,27,0,0,42
-.loc 7 236 0
-
-	.byte 0,224,157,229,248,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,8,0,157,229,5,16,160,225,64,19,133,226
-	.byte 16,16,128,229
-.loc 7 237 0
-
-	.byte 0,224,157,229,28,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,6,0,160,225,5,0,160,225,12,32,157,229
-	.byte 6,0,160,225,5,16,160,225,0,48,150,229,15,224,160,225,132,240,147,229
-.loc 7 238 0
-
-	.byte 0,224,157,229,80,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,12,0,0,234
-.loc 7 241 0
-
-	.byte 0,224,157,229,104,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,8,0,157,229,12,16,157,229
+	.byte 0,0,159,231,0,0,141,229,0,224,157,229,0,224,158,229,4,224,141,229,0,111,160,227,0,224,157,229,72,224,158,229
+	.byte 0,0,94,227,0,224,158,21,0,0,160,225,4,224,157,229,0,224,158,229,0,224,157,229,100,224,158,229,0,0,94,227
+	.byte 0,224,158,21,0,0,160,225,8,0,157,229,16,0,144,229,8,16,157,229,8,16,145,229,12,16,145,229,1,0,80,225
+	.byte 9,0,0,26,0,224,157,229,148,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,8,0,157,229,0,16,160,225
+	.byte 16,16,145,229,64,19,129,226
 bl _p_263
-.loc 7 243 0
+.loc 7 229 0
 
-	.byte 0,224,157,229,136,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,0,224,157,229,156,225,158,229,0,0,94,227
-	.byte 0,224,158,21,0,0,160,225,5,223,141,226,96,1,189,232,128,128,189,232
+	.byte 4,224,157,229,0,224,158,229,0,224,157,229,196,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,8,0,157,229
+	.byte 8,48,144,229,8,0,157,229,0,16,160,225,16,16,145,229,1,96,160,225,64,19,129,226,16,16,128,229,6,0,160,225
+	.byte 12,32,157,229,3,0,160,225,6,16,160,225,0,48,147,229,15,224,160,225,132,240,147,229
+.loc 7 230 0
+
+	.byte 0,224,157,229,20,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,8,0,157,229,0,16,160,225,20,16,145,229
+	.byte 64,19,129,226,20,16,128,229
+.loc 7 231 0
+
+	.byte 0,224,157,229,60,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,0,224,157,229,80,225,158,229,0,0,94,227
+	.byte 0,224,158,21,0,0,160,225,4,223,141,226,64,1,189,232,128,128,189,232
 
 Lme_222:
 .text
 	.align 2
 	.no_dead_strip System_Collections_Generic_List_1_T_REF__ctor_int
 System_Collections_Generic_List_1_T_REF__ctor_int:
-.loc 7 49 0 prologue_end
+.loc 7 60 0 prologue_end
 
 	.byte 128,64,45,233,13,112,160,225,0,5,45,233,6,223,77,226,8,0,141,229,1,160,160,225,0,0,159,229,0,0,0,234
 	.long mono_aot_SQLitePCLRaw_core_got - . + 2136
 	.byte 0,0,159,231,0,0,141,229,0,224,157,229,0,224,158,229,4,224,141,229,0,224,157,229,68,224,158,229,0,0,94,227
 	.byte 0,224,158,21,0,0,160,225,4,224,157,229,0,224,158,229,0,224,157,229,96,224,158,229,0,0,94,227,0,224,158,21
 	.byte 0,0,160,225,8,0,157,229
-.loc 7 51 0
+.loc 7 61 0
 
-	.byte 0,224,157,229,120,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,10,0,160,225,0,15,160,227,0,0,90,225
-	.byte 9,0,0,170
-.loc 7 52 0
-
-	.byte 0,224,157,229,156,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,3,15,160,227,1,15,160,227,3,15,160,227
-	.byte 1,31,160,227
+	.byte 0,224,157,229,120,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,10,0,160,225,0,15,160,227,0,15,90,227
+	.byte 9,0,0,170,0,224,157,229,156,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,3,15,160,227,1,15,160,227
+	.byte 3,15,160,227,1,31,160,227
 bl _p_259
-.loc 7 54 0
+.loc 7 64 0
 
 	.byte 4,224,157,229,0,224,158,229,0,224,157,229,204,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,10,0,160,225
 	.byte 0,15,90,227,29,0,0,26
-.loc 7 55 0
+.loc 7 65 0
 
 	.byte 0,224,157,229,236,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,8,0,157,229,16,0,141,229,8,0,157,229
 	.byte 0,0,144,229
@@ -12176,7 +12141,7 @@ bl _p_265
 	.byte 16,16,157,229,0,0,144,229,8,0,129,229,2,31,129,226,161,20,160,225,0,32,159,229,0,0,0,234
 	.long mono_aot_SQLitePCLRaw_core_got - . -4
 	.byte 2,32,159,231,2,16,129,224,64,35,160,227,0,32,193,229,28,0,0,234
-.loc 7 57 0
+.loc 7 67 0
 
 	.byte 0,224,157,229,100,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,8,0,157,229,16,0,141,229,10,0,160,225
 	.byte 8,0,157,229,0,0,144,229
@@ -12188,7 +12153,7 @@ bl _p_56
 	.byte 16,16,157,229,8,0,129,229,2,31,129,226,161,20,160,225,0,32,159,229,0,0,0,234
 	.long mono_aot_SQLitePCLRaw_core_got - . -4
 	.byte 2,32,159,231,2,16,129,224,64,35,160,227,0,32,193,229
-.loc 7 58 0
+.loc 7 68 0
 
 	.byte 0,224,157,229,196,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,0,224,157,229,216,225,158,229,0,0,94,227
 	.byte 0,224,158,21,0,0,160,225,6,223,141,226,0,5,189,232,128,128,189,232
@@ -12287,7 +12252,7 @@ bl _p_269
 
 	.byte 0,224,157,229,52,228,158,229,0,0,94,227,0,224,158,21,0,0,160,225,10,0,160,225,10,0,160,225,0,16,154,229
 	.byte 15,224,160,225,184,240,145,229,88,0,141,229,0,224,157,229,96,228,158,229,0,0,94,227,0,224,158,21,0,0,160,225
-	.byte 88,0,157,229,0,47,160,227,12,16,144,229,2,0,81,225,87,1,0,155,16,0,144,229,28,0,141,229,0,15,80,227
+	.byte 88,0,157,229,0,31,160,227,12,16,144,229,0,15,81,227,87,1,0,155,16,0,144,229,28,0,141,229,0,15,80,227
 	.byte 10,0,0,10,28,0,157,229,0,0,144,229,0,0,144,229,8,0,144,229,16,0,144,229,0,16,159,229,0,0,0,234
 	.long mono_aot_SQLitePCLRaw_core_got - . + 2144
 	.byte 1,16,159,231,1,0,80,225,68,1,0,27,28,0,157,229,0,96,160,225
@@ -12402,10 +12367,10 @@ bl _p_275
 	.byte 112,13,189,232,128,128,189,232,14,16,160,225,0,0,159,229
 bl _p_55
 
-	.byte 3,1,0,0,14,16,160,225,0,0,159,229
+	.byte 251,0,0,0,14,16,160,225,0,0,159,229
 bl _p_55
 
-	.byte 253,0,0,0
+	.byte 245,0,0,0
 
 Lme_224:
 .text
@@ -12501,7 +12466,7 @@ bl _p_277
 
 	.byte 0,224,157,229,52,228,158,229,0,0,94,227,0,224,158,21,0,0,160,225,10,0,160,225,10,0,160,225,0,16,154,229
 	.byte 15,224,160,225,184,240,145,229,88,0,141,229,0,224,157,229,96,228,158,229,0,0,94,227,0,224,158,21,0,0,160,225
-	.byte 88,0,157,229,0,47,160,227,12,16,144,229,2,0,81,225,82,1,0,155,16,0,144,229,28,0,141,229,0,15,80,227
+	.byte 88,0,157,229,0,31,160,227,12,16,144,229,0,15,81,227,82,1,0,155,16,0,144,229,28,0,141,229,0,15,80,227
 	.byte 10,0,0,10,28,0,157,229,0,0,144,229,0,0,144,229,8,0,144,229,16,0,144,229,0,16,159,229,0,0,0,234
 	.long mono_aot_SQLitePCLRaw_core_got - . + 2144
 	.byte 1,16,159,231,1,0,80,225,63,1,0,27,28,0,157,229,0,96,160,225
@@ -12615,74 +12580,86 @@ bl _p_280
 	.byte 0,0,94,227,0,224,158,21,0,0,160,225,26,223,141,226,112,13,189,232,128,128,189,232,14,16,160,225,0,0,159,229
 bl _p_55
 
-	.byte 3,1,0,0,14,16,160,225,0,0,159,229
+	.byte 251,0,0,0,14,16,160,225,0,0,159,229
 bl _p_55
 
-	.byte 253,0,0,0
+	.byte 245,0,0,0
 
 Lme_225:
 .text
 	.align 2
-	.no_dead_strip System_Collections_Generic_List_1_T_INTPTR_AddWithResize_T_INTPTR
-System_Collections_Generic_List_1_T_INTPTR_AddWithResize_T_INTPTR:
-.loc 7 249 0 prologue_end
+	.no_dead_strip System_Collections_Generic_List_1_T_INTPTR_EnsureCapacity_int
+System_Collections_Generic_List_1_T_INTPTR_EnsureCapacity_int:
+.loc 7 413 0 prologue_end
 
-	.byte 128,64,45,233,13,112,160,225,64,1,45,233,6,223,77,226,8,0,141,229,12,16,141,229,0,0,159,229,0,0,0,234
+	.byte 128,64,45,233,13,112,160,225,96,5,45,233,6,223,77,226,8,0,141,229,1,160,160,225,0,0,159,229,0,0,0,234
 	.long mono_aot_SQLitePCLRaw_core_got - . + 2252
 	.byte 0,0,159,231,0,0,141,229,0,224,157,229,0,224,158,229,4,224,141,229,0,111,160,227,0,224,157,229,72,224,158,229
 	.byte 0,0,94,227,0,224,158,21,0,0,160,225,4,224,157,229,0,224,158,229,0,224,157,229,100,224,158,229,0,0,94,227
-	.byte 0,224,158,21,0,0,160,225,8,0,157,229,16,0,144,229,0,96,160,225
-.loc 7 250 0
+	.byte 0,224,158,21,0,0,160,225,8,0,157,229,8,0,144,229,12,0,144,229,10,16,160,225,10,0,80,225,74,0,0,170
+.loc 7 414 0
 
-	.byte 0,224,157,229,132,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,8,0,157,229,6,16,160,225,64,19,134,226
-	.byte 20,16,141,229,0,224,208,229,16,0,141,229,8,0,157,229,0,0,144,229
+	.byte 0,224,157,229,144,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,8,0,157,229,8,0,144,229,12,0,144,229
+	.byte 0,15,80,227,5,0,0,10,8,0,157,229,8,0,144,229,12,0,144,229,128,0,160,225,0,80,160,225,1,0,0,234
+	.byte 1,15,160,227,1,95,160,227,5,0,160,225,5,96,160,225
+.loc 7 417 0
+
+	.byte 0,224,157,229,224,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,5,0,160,225,255,15,15,227,239,15,71,227
+	.byte 255,15,15,227,239,15,71,227,0,0,85,225,6,0,0,154,0,224,157,229,16,225,158,229,0,0,94,227,0,224,158,21
+	.byte 0,0,160,225,255,111,15,227,239,111,71,227
+.loc 7 418 0
+
+	.byte 4,224,157,229,0,224,158,229,0,224,157,229,52,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,6,0,160,225
+	.byte 10,0,160,225,10,0,86,225,6,0,0,170,0,224,157,229,88,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225
+	.byte 10,0,160,225,10,96,160,225
+.loc 7 419 0
+
+	.byte 4,224,157,229,0,224,158,229,0,224,157,229,124,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,8,0,157,229
+	.byte 6,16,160,225,0,224,208,229,16,0,141,229,8,0,157,229,0,0,144,229
 bl _p_281
 
-	.byte 0,32,160,225,16,0,157,229,20,16,157,229,50,255,47,225
-.loc 7 251 0
+	.byte 0,32,160,225,16,0,157,229,6,16,160,225,50,255,47,225
+.loc 7 421 0
 
-	.byte 0,224,157,229,204,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,8,0,157,229,6,16,160,225,64,19,129,226
-	.byte 16,16,128,229
-.loc 7 252 0
-
-	.byte 0,224,157,229,240,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,8,0,157,229,8,0,144,229,6,32,160,225
-	.byte 12,16,157,229,12,48,144,229,2,0,83,225,16,0,0,155,2,33,160,225,2,0,128,224,4,15,128,226,0,16,128,229
-.loc 7 253 0
-
-	.byte 0,224,157,229,48,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,0,224,157,229,68,225,158,229,0,0,94,227
-	.byte 0,224,158,21,0,0,160,225,6,223,141,226,64,1,189,232,128,128,189,232,14,16,160,225,0,0,159,229
-bl _p_55
-
-	.byte 253,0,0,0
+	.byte 4,224,157,229,0,224,158,229,0,224,157,229,196,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,0,224,157,229
+	.byte 216,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,6,223,141,226,96,5,189,232,128,128,189,232
 
 Lme_226:
 .text
 	.align 2
-	.no_dead_strip System_Collections_Generic_List_1_T_REF_AddWithResize_T_REF
-System_Collections_Generic_List_1_T_REF_AddWithResize_T_REF:
-.loc 7 249 0 prologue_end
+	.no_dead_strip System_Collections_Generic_List_1_T_REF_EnsureCapacity_int
+System_Collections_Generic_List_1_T_REF_EnsureCapacity_int:
+.loc 7 413 0 prologue_end
 
-	.byte 128,64,45,233,13,112,160,225,64,1,45,233,4,223,77,226,8,0,141,229,12,16,141,229,0,0,159,229,0,0,0,234
+	.byte 128,64,45,233,13,112,160,225,96,5,45,233,4,223,77,226,8,0,141,229,1,160,160,225,0,0,159,229,0,0,0,234
 	.long mono_aot_SQLitePCLRaw_core_got - . + 2256
 	.byte 0,0,159,231,0,0,141,229,0,224,157,229,0,224,158,229,4,224,141,229,0,111,160,227,0,224,157,229,72,224,158,229
 	.byte 0,0,94,227,0,224,158,21,0,0,160,225,4,224,157,229,0,224,158,229,0,224,157,229,100,224,158,229,0,0,94,227
-	.byte 0,224,158,21,0,0,160,225,8,0,157,229,16,0,144,229,0,96,160,225
-.loc 7 250 0
+	.byte 0,224,158,21,0,0,160,225,8,0,157,229,8,0,144,229,12,0,144,229,10,16,160,225,10,0,80,225,67,0,0,170
+.loc 7 414 0
 
-	.byte 0,224,157,229,132,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,8,0,157,229,6,16,160,225,64,19,134,226
+	.byte 0,224,157,229,144,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,8,0,157,229,8,0,144,229,12,0,144,229
+	.byte 0,15,80,227,5,0,0,10,8,0,157,229,8,0,144,229,12,0,144,229,128,0,160,225,0,80,160,225,1,0,0,234
+	.byte 1,15,160,227,1,95,160,227,5,0,160,225,5,96,160,225
+.loc 7 417 0
+
+	.byte 0,224,157,229,224,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,5,0,160,225,255,15,15,227,239,15,71,227
+	.byte 255,15,15,227,239,15,71,227,0,0,85,225,6,0,0,154,0,224,157,229,16,225,158,229,0,0,94,227,0,224,158,21
+	.byte 0,0,160,225,255,111,15,227,239,111,71,227
+.loc 7 418 0
+
+	.byte 4,224,157,229,0,224,158,229,0,224,157,229,52,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,6,0,160,225
+	.byte 10,0,160,225,10,0,86,225,6,0,0,170,0,224,157,229,88,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225
+	.byte 10,0,160,225,10,96,160,225
+.loc 7 419 0
+
+	.byte 4,224,157,229,0,224,158,229,0,224,157,229,124,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,8,0,157,229
+	.byte 6,16,160,225,6,16,160,225
 bl _p_282
-.loc 7 251 0
+.loc 7 421 0
 
-	.byte 0,224,157,229,168,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,8,0,157,229,6,16,160,225,64,19,129,226
-	.byte 16,16,128,229
-.loc 7 252 0
-
-	.byte 0,224,157,229,204,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,8,0,157,229,8,48,144,229,6,16,160,225
-	.byte 12,32,157,229,3,0,160,225,0,48,147,229,15,224,160,225,132,240,147,229
-.loc 7 253 0
-
-	.byte 0,224,157,229,0,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,0,224,157,229,20,225,158,229,0,0,94,227
-	.byte 0,224,158,21,0,0,160,225,4,223,141,226,64,1,189,232,128,128,189,232
+	.byte 4,224,157,229,0,224,158,229,0,224,157,229,168,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,0,224,157,229
+	.byte 188,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,4,223,141,226,96,5,189,232,128,128,189,232
 
 Lme_227:
 .text
@@ -12717,78 +12694,148 @@ bl _p_284
 Lme_229:
 .text
 	.align 2
-	.no_dead_strip System_Collections_Generic_List_1_T_INTPTR_EnsureCapacity_int
-System_Collections_Generic_List_1_T_INTPTR_EnsureCapacity_int:
-.loc 7 446 0 prologue_end
+	.no_dead_strip System_Collections_Generic_List_1_T_INTPTR_set_Capacity_int
+System_Collections_Generic_List_1_T_INTPTR_set_Capacity_int:
+.loc 7 116 0 prologue_end
 
-	.byte 128,64,45,233,13,112,160,225,96,5,45,233,6,223,77,226,8,0,141,229,1,160,160,225,0,0,159,229,0,0,0,234
+	.byte 128,64,45,233,13,112,160,225,64,13,45,233,8,223,77,226,13,176,160,225,16,0,139,229,1,160,160,225,0,0,159,229
+	.byte 0,0,0,234
 	.long mono_aot_SQLitePCLRaw_core_got - . + 2268
-	.byte 0,0,159,231,0,0,141,229,0,224,157,229,0,224,158,229,4,224,141,229,0,111,160,227,0,224,157,229,72,224,158,229
-	.byte 0,0,94,227,0,224,158,21,0,0,160,225,4,224,157,229,0,224,158,229,0,224,157,229,100,224,158,229,0,0,94,227
-	.byte 0,224,158,21,0,0,160,225,8,0,157,229,8,0,144,229,12,0,144,229,10,16,160,225,10,0,80,225,72,0,0,170
-.loc 7 448 0
+	.byte 0,0,159,231,8,0,139,229,8,224,155,229,0,224,158,229,12,224,139,229,0,111,160,227,8,224,155,229,76,224,158,229
+	.byte 0,0,94,227,0,224,158,21,0,0,160,225,12,224,155,229,0,224,158,229,8,224,155,229,104,224,158,229,0,0,94,227
+	.byte 0,224,158,21,0,0,160,225,10,0,160,225,16,0,155,229,16,0,144,229,0,0,90,225,9,0,0,170
+.loc 7 117 0
 
-	.byte 0,224,157,229,144,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,8,0,157,229,8,0,144,229,12,0,144,229
-	.byte 0,15,80,227,5,0,0,10,8,0,157,229,8,0,144,229,12,0,144,229,128,0,160,225,0,80,160,225,1,0,0,234
-	.byte 1,15,160,227,1,95,160,227,5,0,160,225,5,96,160,225
-.loc 7 452 0
+	.byte 8,224,155,229,144,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,240,2,160,227,84,1,160,227,240,2,160,227
+	.byte 84,17,160,227
+bl _p_259
+.loc 7 121 0
 
-	.byte 0,224,157,229,224,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,5,0,160,225,255,15,15,227,239,15,71,227
-	.byte 0,0,85,225,6,0,0,154,0,224,157,229,8,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,255,111,15,227
-	.byte 239,111,71,227
-.loc 7 456 0
+	.byte 12,224,155,229,0,224,158,229,8,224,155,229,192,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,10,0,160,225
+	.byte 16,0,155,229,8,0,144,229,12,0,144,229,0,0,90,225,101,0,0,10
+.loc 7 122 0
 
-	.byte 4,224,157,229,0,224,158,229,0,224,157,229,44,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,6,0,160,225
-	.byte 10,0,160,225,10,0,86,225,6,0,0,170,0,224,157,229,80,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225
-	.byte 10,0,160,225,10,96,160,225
-.loc 7 457 0
+	.byte 8,224,155,229,236,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,10,0,160,225,0,15,160,227,0,15,90,227
+	.byte 63,0,0,218
+.loc 7 123 0
 
-	.byte 4,224,157,229,0,224,158,229,0,224,157,229,116,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,8,0,157,229
-	.byte 6,16,160,225,0,224,208,229,16,0,141,229,8,0,157,229,0,0,144,229
+	.byte 8,224,155,229,16,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,10,0,160,225,16,0,155,229,0,0,144,229
 bl _p_285
 
-	.byte 0,32,160,225,16,0,157,229,6,16,160,225,50,255,47,225
-.loc 7 459 0
+	.byte 10,16,160,225
+bl _p_56
 
-	.byte 4,224,157,229,0,224,158,229,0,224,157,229,188,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,0,224,157,229
-	.byte 208,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,6,223,141,226,96,5,189,232,128,128,189,232
+	.byte 0,96,160,225
+.loc 7 124 0
+
+	.byte 8,224,155,229,64,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,16,0,155,229,16,0,144,229,0,31,160,227
+	.byte 0,15,80,227,16,0,0,218
+.loc 7 125 0
+
+	.byte 8,224,155,229,104,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,16,0,155,229,8,0,144,229,0,31,160,227
+	.byte 6,16,160,225,0,31,160,227,16,16,155,229,16,192,145,229,0,31,160,227,6,32,160,225,0,63,160,227,0,192,141,229
+bl _p_205
+.loc 7 127 0
+
+	.byte 12,224,155,229,0,224,158,229,8,224,155,229,180,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,16,0,155,229
+	.byte 6,16,160,225,8,96,128,229,2,15,128,226,160,4,160,225,0,16,159,229,0,0,0,234
+	.long mono_aot_SQLitePCLRaw_core_got - . -4
+	.byte 1,16,159,231,1,0,128,224,64,19,160,227,0,16,192,229
+.loc 7 128 0
+
+	.byte 8,224,155,229,248,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,35,0,0,234
+.loc 7 130 0
+
+	.byte 8,224,155,229,16,226,158,229,0,0,94,227,0,224,158,21,0,0,160,225,16,0,155,229,24,0,139,229,16,0,155,229
+	.byte 0,0,144,229
+bl _p_286
+
+	.byte 217,193,208,225,0,0,92,227,0,0,0,26
+bl _p_3
+
+	.byte 16,0,155,229,0,0,144,229
+bl _p_287
+
+	.byte 24,16,155,229,0,0,144,229,8,0,129,229,2,31,129,226,161,20,160,225,0,32,159,229,0,0,0,234
+	.long mono_aot_SQLitePCLRaw_core_got - . -4
+	.byte 2,32,159,231,2,16,129,224,64,35,160,227,0,32,193,229
+.loc 7 133 0
+
+	.byte 12,224,155,229,0,224,158,229,8,224,155,229,140,226,158,229,0,0,94,227,0,224,158,21,0,0,160,225,8,224,155,229
+	.byte 160,226,158,229,0,0,94,227,0,224,158,21,0,0,160,225,8,223,139,226,64,13,189,232,128,128,189,232
 
 Lme_22a:
 .text
 	.align 2
-	.no_dead_strip System_Collections_Generic_List_1_T_REF_EnsureCapacity_int
-System_Collections_Generic_List_1_T_REF_EnsureCapacity_int:
-.loc 7 446 0 prologue_end
+	.no_dead_strip System_Collections_Generic_List_1_T_REF_set_Capacity_int
+System_Collections_Generic_List_1_T_REF_set_Capacity_int:
+.loc 7 116 0 prologue_end
 
-	.byte 128,64,45,233,13,112,160,225,96,5,45,233,4,223,77,226,8,0,141,229,1,160,160,225,0,0,159,229,0,0,0,234
+	.byte 128,64,45,233,13,112,160,225,64,13,45,233,8,223,77,226,13,176,160,225,16,0,139,229,1,160,160,225,0,0,159,229
+	.byte 0,0,0,234
 	.long mono_aot_SQLitePCLRaw_core_got - . + 2272
-	.byte 0,0,159,231,0,0,141,229,0,224,157,229,0,224,158,229,4,224,141,229,0,111,160,227,0,224,157,229,72,224,158,229
-	.byte 0,0,94,227,0,224,158,21,0,0,160,225,4,224,157,229,0,224,158,229,0,224,157,229,100,224,158,229,0,0,94,227
-	.byte 0,224,158,21,0,0,160,225,8,0,157,229,8,0,144,229,12,0,144,229,10,16,160,225,10,0,80,225,65,0,0,170
-.loc 7 448 0
+	.byte 0,0,159,231,8,0,139,229,8,224,155,229,0,224,158,229,12,224,139,229,0,111,160,227,8,224,155,229,76,224,158,229
+	.byte 0,0,94,227,0,224,158,21,0,0,160,225,12,224,155,229,0,224,158,229,8,224,155,229,104,224,158,229,0,0,94,227
+	.byte 0,224,158,21,0,0,160,225,10,0,160,225,16,0,155,229,16,0,144,229,0,0,90,225,9,0,0,170
+.loc 7 117 0
 
-	.byte 0,224,157,229,144,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,8,0,157,229,8,0,144,229,12,0,144,229
-	.byte 0,15,80,227,5,0,0,10,8,0,157,229,8,0,144,229,12,0,144,229,128,0,160,225,0,80,160,225,1,0,0,234
-	.byte 1,15,160,227,1,95,160,227,5,0,160,225,5,96,160,225
-.loc 7 452 0
+	.byte 8,224,155,229,144,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,240,2,160,227,84,1,160,227,240,2,160,227
+	.byte 84,17,160,227
+bl _p_259
+.loc 7 121 0
 
-	.byte 0,224,157,229,224,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,5,0,160,225,255,15,15,227,239,15,71,227
-	.byte 0,0,85,225,6,0,0,154,0,224,157,229,8,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,255,111,15,227
-	.byte 239,111,71,227
-.loc 7 456 0
+	.byte 12,224,155,229,0,224,158,229,8,224,155,229,192,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,10,0,160,225
+	.byte 16,0,155,229,8,0,144,229,12,0,144,229,0,0,90,225,101,0,0,10
+.loc 7 122 0
 
-	.byte 4,224,157,229,0,224,158,229,0,224,157,229,44,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,6,0,160,225
-	.byte 10,0,160,225,10,0,86,225,6,0,0,170,0,224,157,229,80,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225
-	.byte 10,0,160,225,10,96,160,225
-.loc 7 457 0
+	.byte 8,224,155,229,236,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,10,0,160,225,0,15,160,227,0,15,90,227
+	.byte 63,0,0,218
+.loc 7 123 0
 
-	.byte 4,224,157,229,0,224,158,229,0,224,157,229,116,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,8,0,157,229
-	.byte 6,16,160,225,6,16,160,225
-bl _p_286
-.loc 7 459 0
+	.byte 8,224,155,229,16,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,10,0,160,225,16,0,155,229,0,0,144,229
+bl _p_288
 
-	.byte 4,224,157,229,0,224,158,229,0,224,157,229,160,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,0,224,157,229
-	.byte 180,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,4,223,141,226,96,5,189,232,128,128,189,232
+	.byte 10,16,160,225
+bl _p_56
+
+	.byte 0,96,160,225
+.loc 7 124 0
+
+	.byte 8,224,155,229,64,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,16,0,155,229,16,0,144,229,0,31,160,227
+	.byte 0,15,80,227,16,0,0,218
+.loc 7 125 0
+
+	.byte 8,224,155,229,104,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,16,0,155,229,8,0,144,229,0,31,160,227
+	.byte 6,16,160,225,0,31,160,227,16,16,155,229,16,192,145,229,0,31,160,227,6,32,160,225,0,63,160,227,0,192,141,229
+bl _p_205
+.loc 7 127 0
+
+	.byte 12,224,155,229,0,224,158,229,8,224,155,229,180,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,16,0,155,229
+	.byte 6,16,160,225,8,96,128,229,2,15,128,226,160,4,160,225,0,16,159,229,0,0,0,234
+	.long mono_aot_SQLitePCLRaw_core_got - . -4
+	.byte 1,16,159,231,1,0,128,224,64,19,160,227,0,16,192,229
+.loc 7 128 0
+
+	.byte 8,224,155,229,248,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,35,0,0,234
+.loc 7 130 0
+
+	.byte 8,224,155,229,16,226,158,229,0,0,94,227,0,224,158,21,0,0,160,225,16,0,155,229,24,0,139,229,16,0,155,229
+	.byte 0,0,144,229
+bl _p_289
+
+	.byte 217,193,208,225,0,0,92,227,0,0,0,26
+bl _p_3
+
+	.byte 16,0,155,229,0,0,144,229
+bl _p_290
+
+	.byte 24,16,155,229,0,0,144,229,8,0,129,229,2,31,129,226,161,20,160,225,0,32,159,229,0,0,0,234
+	.long mono_aot_SQLitePCLRaw_core_got - . -4
+	.byte 2,32,159,231,2,16,129,224,64,35,160,227,0,32,193,229
+.loc 7 133 0
+
+	.byte 12,224,155,229,0,224,158,229,8,224,155,229,140,226,158,229,0,0,94,227,0,224,158,21,0,0,160,225,8,224,155,229
+	.byte 160,226,158,229,0,0,94,227,0,224,158,21,0,0,160,225,8,223,139,226,64,13,189,232,128,128,189,232
 
 Lme_22b:
 .text
@@ -12815,152 +12862,6 @@ System_Collections_Generic_EqualityComparer_1_T_REF__ctor:
 	.byte 0,224,157,229,108,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,5,223,141,226,0,1,189,232,128,128,189,232
 
 Lme_22d:
-.text
-	.align 2
-	.no_dead_strip System_Collections_Generic_List_1_T_INTPTR_set_Capacity_int
-System_Collections_Generic_List_1_T_INTPTR_set_Capacity_int:
-.loc 7 104 0 prologue_end
-
-	.byte 128,64,45,233,13,112,160,225,64,13,45,233,8,223,77,226,13,176,160,225,16,0,139,229,1,160,160,225,0,0,159,229
-	.byte 0,0,0,234
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2284
-	.byte 0,0,159,231,8,0,139,229,8,224,155,229,0,224,158,229,12,224,139,229,0,111,160,227,8,224,155,229,76,224,158,229
-	.byte 0,0,94,227,0,224,158,21,0,0,160,225,12,224,155,229,0,224,158,229,8,224,155,229,104,224,158,229,0,0,94,227
-	.byte 0,224,158,21,0,0,160,225,10,0,160,225,16,0,155,229,16,0,144,229,0,0,90,225,9,0,0,170
-.loc 7 106 0
-
-	.byte 8,224,155,229,144,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,240,2,160,227,84,1,160,227,240,2,160,227
-	.byte 84,17,160,227
-bl _p_259
-.loc 7 109 0
-
-	.byte 12,224,155,229,0,224,158,229,8,224,155,229,192,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,10,0,160,225
-	.byte 16,0,155,229,8,0,144,229,12,0,144,229,0,0,90,225,101,0,0,10
-.loc 7 111 0
-
-	.byte 8,224,155,229,236,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,10,0,160,225,0,15,160,227,0,0,90,225
-	.byte 63,0,0,218
-.loc 7 113 0
-
-	.byte 8,224,155,229,16,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,10,0,160,225,16,0,155,229,0,0,144,229
-bl _p_287
-
-	.byte 10,16,160,225
-bl _p_56
-
-	.byte 0,96,160,225
-.loc 7 114 0
-
-	.byte 8,224,155,229,64,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,16,0,155,229,16,0,144,229,0,31,160,227
-	.byte 1,0,80,225,16,0,0,218
-.loc 7 116 0
-
-	.byte 8,224,155,229,104,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,16,0,155,229,8,0,144,229,0,31,160,227
-	.byte 6,16,160,225,0,31,160,227,16,16,155,229,16,192,145,229,0,31,160,227,6,32,160,225,0,63,160,227,0,192,141,229
-bl _p_205
-.loc 7 118 0
-
-	.byte 12,224,155,229,0,224,158,229,8,224,155,229,180,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,16,0,155,229
-	.byte 6,16,160,225,8,96,128,229,2,15,128,226,160,4,160,225,0,16,159,229,0,0,0,234
-	.long mono_aot_SQLitePCLRaw_core_got - . -4
-	.byte 1,16,159,231,1,0,128,224,64,19,160,227,0,16,192,229
-.loc 7 119 0
-
-	.byte 8,224,155,229,248,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,35,0,0,234
-.loc 7 122 0
-
-	.byte 8,224,155,229,16,226,158,229,0,0,94,227,0,224,158,21,0,0,160,225,16,0,155,229,24,0,139,229,16,0,155,229
-	.byte 0,0,144,229
-bl _p_288
-
-	.byte 217,193,208,225,0,0,92,227,0,0,0,26
-bl _p_3
-
-	.byte 16,0,155,229,0,0,144,229
-bl _p_289
-
-	.byte 24,16,155,229,0,0,144,229,8,0,129,229,2,31,129,226,161,20,160,225,0,32,159,229,0,0,0,234
-	.long mono_aot_SQLitePCLRaw_core_got - . -4
-	.byte 2,32,159,231,2,16,129,224,64,35,160,227,0,32,193,229
-.loc 7 125 0
-
-	.byte 12,224,155,229,0,224,158,229,8,224,155,229,140,226,158,229,0,0,94,227,0,224,158,21,0,0,160,225,8,224,155,229
-	.byte 160,226,158,229,0,0,94,227,0,224,158,21,0,0,160,225,8,223,139,226,64,13,189,232,128,128,189,232
-
-Lme_22e:
-.text
-	.align 2
-	.no_dead_strip System_Collections_Generic_List_1_T_REF_set_Capacity_int
-System_Collections_Generic_List_1_T_REF_set_Capacity_int:
-.loc 7 104 0 prologue_end
-
-	.byte 128,64,45,233,13,112,160,225,64,13,45,233,8,223,77,226,13,176,160,225,16,0,139,229,1,160,160,225,0,0,159,229
-	.byte 0,0,0,234
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2288
-	.byte 0,0,159,231,8,0,139,229,8,224,155,229,0,224,158,229,12,224,139,229,0,111,160,227,8,224,155,229,76,224,158,229
-	.byte 0,0,94,227,0,224,158,21,0,0,160,225,12,224,155,229,0,224,158,229,8,224,155,229,104,224,158,229,0,0,94,227
-	.byte 0,224,158,21,0,0,160,225,10,0,160,225,16,0,155,229,16,0,144,229,0,0,90,225,9,0,0,170
-.loc 7 106 0
-
-	.byte 8,224,155,229,144,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,240,2,160,227,84,1,160,227,240,2,160,227
-	.byte 84,17,160,227
-bl _p_259
-.loc 7 109 0
-
-	.byte 12,224,155,229,0,224,158,229,8,224,155,229,192,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,10,0,160,225
-	.byte 16,0,155,229,8,0,144,229,12,0,144,229,0,0,90,225,101,0,0,10
-.loc 7 111 0
-
-	.byte 8,224,155,229,236,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,10,0,160,225,0,15,160,227,0,0,90,225
-	.byte 63,0,0,218
-.loc 7 113 0
-
-	.byte 8,224,155,229,16,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,10,0,160,225,16,0,155,229,0,0,144,229
-bl _p_290
-
-	.byte 10,16,160,225
-bl _p_56
-
-	.byte 0,96,160,225
-.loc 7 114 0
-
-	.byte 8,224,155,229,64,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,16,0,155,229,16,0,144,229,0,31,160,227
-	.byte 1,0,80,225,16,0,0,218
-.loc 7 116 0
-
-	.byte 8,224,155,229,104,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,16,0,155,229,8,0,144,229,0,31,160,227
-	.byte 6,16,160,225,0,31,160,227,16,16,155,229,16,192,145,229,0,31,160,227,6,32,160,225,0,63,160,227,0,192,141,229
-bl _p_205
-.loc 7 118 0
-
-	.byte 12,224,155,229,0,224,158,229,8,224,155,229,180,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,16,0,155,229
-	.byte 6,16,160,225,8,96,128,229,2,15,128,226,160,4,160,225,0,16,159,229,0,0,0,234
-	.long mono_aot_SQLitePCLRaw_core_got - . -4
-	.byte 1,16,159,231,1,0,128,224,64,19,160,227,0,16,192,229
-.loc 7 119 0
-
-	.byte 8,224,155,229,248,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,35,0,0,234
-.loc 7 122 0
-
-	.byte 8,224,155,229,16,226,158,229,0,0,94,227,0,224,158,21,0,0,160,225,16,0,155,229,24,0,139,229,16,0,155,229
-	.byte 0,0,144,229
-bl _p_291
-
-	.byte 217,193,208,225,0,0,92,227,0,0,0,26
-bl _p_3
-
-	.byte 16,0,155,229,0,0,144,229
-bl _p_292
-
-	.byte 24,16,155,229,0,0,144,229,8,0,129,229,2,31,129,226,161,20,160,225,0,32,159,229,0,0,0,234
-	.long mono_aot_SQLitePCLRaw_core_got - . -4
-	.byte 2,32,159,231,2,16,129,224,64,35,160,227,0,32,193,229
-.loc 7 125 0
-
-	.byte 12,224,155,229,0,224,158,229,8,224,155,229,140,226,158,229,0,0,94,227,0,224,158,21,0,0,160,225,8,224,155,229
-	.byte 160,226,158,229,0,0,94,227,0,224,158,21,0,0,160,225,8,223,139,226,64,13,189,232,128,128,189,232
-
-Lme_22f:
 .text
 	.align 3
 jit_code_end:
@@ -13520,16 +13421,14 @@ bl System_Collections_Generic_List_1_T_REF_Add_T_REF
 bl System_Collections_Generic_List_1_T_REF__ctor_int
 bl System_Collections_Generic_EqualityComparer_1_T_INTPTR_CreateComparer
 bl System_Collections_Generic_EqualityComparer_1_T_REF_CreateComparer
-bl System_Collections_Generic_List_1_T_INTPTR_AddWithResize_T_INTPTR
-bl System_Collections_Generic_List_1_T_REF_AddWithResize_T_REF
-bl System_Collections_Generic_ObjectEqualityComparer_1_T_INTPTR__ctor
-bl System_Collections_Generic_ObjectEqualityComparer_1_T_REF__ctor
 bl System_Collections_Generic_List_1_T_INTPTR_EnsureCapacity_int
 bl System_Collections_Generic_List_1_T_REF_EnsureCapacity_int
-bl System_Collections_Generic_EqualityComparer_1_T_INTPTR__ctor
-bl System_Collections_Generic_EqualityComparer_1_T_REF__ctor
+bl System_Collections_Generic_ObjectEqualityComparer_1_T_INTPTR__ctor
+bl System_Collections_Generic_ObjectEqualityComparer_1_T_REF__ctor
 bl System_Collections_Generic_List_1_T_INTPTR_set_Capacity_int
 bl System_Collections_Generic_List_1_T_REF_set_Capacity_int
+bl System_Collections_Generic_EqualityComparer_1_T_INTPTR__ctor
+bl System_Collections_Generic_EqualityComparer_1_T_REF__ctor
 method_addresses_end:
 
 .section __TEXT, __const
@@ -13667,7 +13566,7 @@ unwind_info:
 	.byte 133,7,134,6,136,5,138,4,139,3,142,1,68,14,128,1,68,13,11,3,60,8,10,68,13,13,14,32,68,8,4,8
 	.byte 5,8,6,8,8,8,10,8,11,14,8,68,11,31,12,13,0,68,14,8,135,2,72,14,12,136,3,142,1,68,14,32
 	.byte 2,152,10,68,14,12,68,8,8,14,8,68,11,58,12,13,0,68,14,8,135,2,72,14,32,132,8,133,7,134,6,136
-	.byte 5,138,4,139,3,142,1,68,14,224,1,68,13,11,3,248,14,10,68,13,13,14,32,68,8,4,8,5,8,6,8,8
+	.byte 5,138,4,139,3,142,1,68,14,224,1,68,13,11,3,0,15,10,68,13,13,14,32,68,8,4,8,5,8,6,8,8
 	.byte 8,10,8,11,14,8,68,11,31,12,13,0,68,14,8,135,2,72,14,12,136,3,142,1,68,14,48,2,212,10,68,14
 	.byte 12,68,8,8,14,8,68,11,41,12,13,0,68,14,8,135,2,72,14,16,136,4,139,3,142,1,68,14,48,68,13,11
 	.byte 3,68,1,10,68,13,13,14,16,68,8,8,8,11,14,8,68,11,31,12,13,0,68,14,8,135,2,72,14,12,136,3
@@ -13721,24 +13620,22 @@ unwind_info:
 	.byte 11,2,196,10,68,13,13,14,16,68,8,8,8,11,14,8,68,11,31,12,13,0,68,14,8,135,2,72,14,12,136,3
 	.byte 142,1,68,14,40,2,216,10,68,14,12,68,8,8,14,8,68,11,41,12,13,0,68,14,8,135,2,72,14,16,136,4
 	.byte 139,3,142,1,68,14,56,68,13,11,3,104,1,10,68,13,13,14,16,68,8,8,8,11,14,8,68,11,32,12,13,0
-	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,32,3,16,1,10,68,14,12,68,8,8,14,8,68,11,40,12,13
-	.byte 0,68,14,8,135,2,72,14,20,133,5,134,4,136,3,142,1,68,14,48,3,192,1,10,68,14,20,68,8,5,8,6
-	.byte 8,8,14,8,68,11,36,12,13,0,68,14,8,135,2,72,14,16,136,4,138,3,142,1,68,14,40,3,208,1,10,68
-	.byte 14,16,68,8,8,8,10,14,8,68,11,40,12,13,0,68,14,8,135,2,72,14,20,133,5,134,4,136,3,142,1,68
-	.byte 14,40,3,148,1,10,68,14,20,68,8,5,8,6,8,8,14,8,68,11,53,12,13,0,68,14,8,135,2,72,14,32
-	.byte 132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,136,1,3,176,9,10,68,14,32,68,8,4,8,5,8,6
-	.byte 8,8,8,10,8,11,14,8,68,11,53,12,13,0,68,14,8,135,2,72,14,32,132,8,133,7,134,6,136,5,138,4
-	.byte 139,3,142,1,68,14,136,1,3,156,9,10,68,14,32,68,8,4,8,5,8,6,8,8,8,10,8,11,14,8,68,11
-	.byte 36,12,13,0,68,14,8,135,2,72,14,16,134,4,136,3,142,1,68,14,40,3,60,1,10,68,14,16,68,8,6,8
-	.byte 8,14,8,68,11,36,12,13,0,68,14,8,135,2,72,14,16,134,4,136,3,142,1,68,14,32,3,12,1,10,68,14
-	.byte 16,68,8,6,8,8,14,8,68,11,31,12,13,0,68,14,8,135,2,72,14,12,136,3,142,1,68,14,40,2,132,10
-	.byte 68,14,12,68,8,8,14,8,68,11,31,12,13,0,68,14,8,135,2,72,14,12,136,3,142,1,68,14,32,2,104,10
-	.byte 68,14,12,68,8,8,14,8,68,11,44,12,13,0,68,14,8,135,2,72,14,24,133,6,134,5,136,4,138,3,142,1
-	.byte 68,14,48,3,200,1,10,68,14,24,68,8,5,8,6,8,8,8,10,14,8,68,11,44,12,13,0,68,14,8,135,2
-	.byte 72,14,24,133,6,134,5,136,4,138,3,142,1,68,14,40,3,172,1,10,68,14,24,68,8,5,8,6,8,8,8,10
+	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,32,3,16,1,10,68,14,12,68,8,8,14,8,68,11,36,12,13
+	.byte 0,68,14,8,135,2,72,14,16,134,4,136,3,142,1,68,14,40,3,116,1,10,68,14,16,68,8,6,8,8,14,8
+	.byte 68,11,36,12,13,0,68,14,8,135,2,72,14,16,136,4,138,3,142,1,68,14,40,3,208,1,10,68,14,16,68,8
+	.byte 8,8,10,14,8,68,11,36,12,13,0,68,14,8,135,2,72,14,16,134,4,136,3,142,1,68,14,32,3,72,1,10
+	.byte 68,14,16,68,8,6,8,8,14,8,68,11,53,12,13,0,68,14,8,135,2,72,14,32,132,8,133,7,134,6,136,5
+	.byte 138,4,139,3,142,1,68,14,136,1,3,176,9,10,68,14,32,68,8,4,8,5,8,6,8,8,8,10,8,11,14,8
+	.byte 68,11,53,12,13,0,68,14,8,135,2,72,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,136,1
+	.byte 3,156,9,10,68,14,32,68,8,4,8,5,8,6,8,8,8,10,8,11,14,8,68,11,44,12,13,0,68,14,8,135
+	.byte 2,72,14,24,133,6,134,5,136,4,138,3,142,1,68,14,48,3,208,1,10,68,14,24,68,8,5,8,6,8,8,8
+	.byte 10,14,8,68,11,44,12,13,0,68,14,8,135,2,72,14,24,133,6,134,5,136,4,138,3,142,1,68,14,40,3,180
+	.byte 1,10,68,14,24,68,8,5,8,6,8,8,8,10,14,8,68,11,31,12,13,0,68,14,8,135,2,72,14,12,136,3
+	.byte 142,1,68,14,40,2,132,10,68,14,12,68,8,8,14,8,68,11,31,12,13,0,68,14,8,135,2,72,14,12,136,3
+	.byte 142,1,68,14,32,2,104,10,68,14,12,68,8,8,14,8,68,11,49,12,13,0,68,14,8,135,2,72,14,24,134,6
+	.byte 136,5,138,4,139,3,142,1,68,14,56,68,13,11,3,148,2,10,68,13,13,14,24,68,8,6,8,8,8,10,8,11
 	.byte 14,8,68,11,31,12,13,0,68,14,8,135,2,72,14,12,136,3,142,1,68,14,32,2,100,10,68,14,12,68,8,8
-	.byte 14,8,68,11,49,12,13,0,68,14,8,135,2,72,14,24,134,6,136,5,138,4,139,3,142,1,68,14,56,68,13,11
-	.byte 3,148,2,10,68,13,13,14,24,68,8,6,8,8,8,10,8,11,14,8,68,11
+	.byte 14,8,68,11
 
 .text
 	.align 4
@@ -13749,1757 +13646,1745 @@ plt_wrapper_alloc_object_AllocSmall_intptr_intptr:
 _p_1:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2304,6690
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2296,6642
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_bait__ctor
 plt_SQLitePCL_SQLite3Provider_bait__ctor:
 _p_2:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2308,6698
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2300,6650
 	.no_dead_strip plt__jit_icall_mono_generic_class_init
 plt__jit_icall_mono_generic_class_init:
 _p_3:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2312,6701
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2304,6653
 	.no_dead_strip plt_SQLitePCL_sqlite3__ctor_intptr
 plt_SQLitePCL_sqlite3__ctor_intptr:
 _p_4:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2316,6727
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2308,6679
 	.no_dead_strip plt_SQLitePCL_sqlite3_get_ptr
 plt_SQLitePCL_sqlite3_get_ptr:
 _p_5:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2320,6730
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2312,6682
 	.no_dead_strip plt_SQLitePCL_sqlite3_set_already_disposed
 plt_SQLitePCL_sqlite3_set_already_disposed:
 _p_6:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2324,6733
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2316,6685
 	.no_dead_strip plt_SQLitePCL_raw_sqlite3_prepare_v2_SQLitePCL_sqlite3_string_SQLitePCL_sqlite3_stmt__string_
 plt_SQLitePCL_raw_sqlite3_prepare_v2_SQLitePCL_sqlite3_string_SQLitePCL_sqlite3_stmt__string_:
 _p_7:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2328,6736
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2320,6688
 	.no_dead_strip plt_SQLitePCL_sqlite3_stmt__ctor_intptr_SQLitePCL_sqlite3
 plt_SQLitePCL_sqlite3_stmt__ctor_intptr_SQLitePCL_sqlite3:
 _p_8:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2332,6738
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2324,6690
 	.no_dead_strip plt_SQLitePCL_sqlite3_stmt_get_ptr
 plt_SQLitePCL_sqlite3_stmt_get_ptr:
 _p_9:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2336,6741
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2328,6693
 	.no_dead_strip plt_SQLitePCL_sqlite3_stmt_set_already_disposed
 plt_SQLitePCL_sqlite3_stmt_set_already_disposed:
 _p_10:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2340,6744
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2332,6696
 	.no_dead_strip plt_SQLitePCL_sqlite3_stmt_get_db
 plt_SQLitePCL_sqlite3_stmt_get_db:
 _p_11:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2344,6747
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2336,6699
 	.no_dead_strip plt_intptr_op_Equality_intptr_intptr
 plt_intptr_op_Equality_intptr_intptr:
 _p_12:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2348,6750
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2340,6702
 	.no_dead_strip plt_SQLitePCL_sqlite3_find_stmt_intptr
 plt_SQLitePCL_sqlite3_find_stmt_intptr:
 _p_13:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2352,6755
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2344,6707
 	.no_dead_strip plt_SQLitePCL_sqlite3_context_get_user_data
 plt_SQLitePCL_sqlite3_context_get_user_data:
 _p_14:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2356,6758
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2348,6710
 	.no_dead_strip plt_SQLitePCL_sqlite3_context_get_ptr
 plt_SQLitePCL_sqlite3_context_get_ptr:
 _p_15:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2360,6761
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2352,6713
 	.no_dead_strip plt_SQLitePCL_sqlite3_value_get_ptr
 plt_SQLitePCL_sqlite3_value_get_ptr:
 _p_16:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2364,6764
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2356,6716
 	.no_dead_strip plt_SQLitePCL_raw_sqlite3_bind_blob_SQLitePCL_sqlite3_stmt_int_byte___int
 plt_SQLitePCL_raw_sqlite3_bind_blob_SQLitePCL_sqlite3_stmt_int_byte___int:
 _p_17:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2368,6767
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2360,6719
 	.no_dead_strip plt_SQLitePCL_sqlite3_backup__ctor_intptr
 plt_SQLitePCL_sqlite3_backup__ctor_intptr:
 _p_18:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2372,6769
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2364,6721
 	.no_dead_strip plt_SQLitePCL_sqlite3_backup_get_ptr
 plt_SQLitePCL_sqlite3_backup_get_ptr:
 _p_19:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2376,6771
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2368,6723
 	.no_dead_strip plt_SQLitePCL_sqlite3_backup_set_already_disposed
 plt_SQLitePCL_sqlite3_backup_set_already_disposed:
 _p_20:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2380,6774
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2372,6726
 	.no_dead_strip plt_SQLitePCL_sqlite3_blob__ctor_intptr
 plt_SQLitePCL_sqlite3_blob__ctor_intptr:
 _p_21:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2384,6777
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2376,6729
 	.no_dead_strip plt_SQLitePCL_sqlite3_blob_get_ptr
 plt_SQLitePCL_sqlite3_blob_get_ptr:
 _p_22:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2388,6780
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2380,6732
 	.no_dead_strip plt_SQLitePCL_sqlite3_blob_set_already_disposed
 plt_SQLitePCL_sqlite3_blob_set_already_disposed:
 _p_23:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2392,6783
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2384,6735
 	.no_dead_strip plt_SQLitePCL_raw_sqlite3_backup_finish_SQLitePCL_sqlite3_backup
 plt_SQLitePCL_raw_sqlite3_backup_finish_SQLitePCL_sqlite3_backup:
 _p_24:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2396,6786
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2388,6738
 	.no_dead_strip plt_SQLitePCL_raw_sqlite3_blob_close_SQLitePCL_sqlite3_blob
 plt_SQLitePCL_raw_sqlite3_blob_close_SQLitePCL_sqlite3_blob:
 _p_25:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2400,6788
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2392,6740
 	.no_dead_strip plt_SQLitePCL_sqlite3_add_stmt_SQLitePCL_sqlite3_stmt
 plt_SQLitePCL_sqlite3_add_stmt_SQLitePCL_sqlite3_stmt:
 _p_26:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2404,6790
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2396,6742
 	.no_dead_strip plt_SQLitePCL_raw_sqlite3_finalize_SQLitePCL_sqlite3_stmt
 plt_SQLitePCL_raw_sqlite3_finalize_SQLitePCL_sqlite3_stmt:
 _p_27:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2408,6793
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2400,6745
 	.no_dead_strip plt_SQLitePCL_sqlite3_remove_stmt_SQLitePCL_sqlite3_stmt
 plt_SQLitePCL_sqlite3_remove_stmt_SQLitePCL_sqlite3_stmt:
 _p_28:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2412,6795
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2404,6747
 	.no_dead_strip plt_SQLitePCL_sqlite3_enable_sqlite3_next_stmt_bool
 plt_SQLitePCL_sqlite3_enable_sqlite3_next_stmt_bool:
 _p_29:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2416,6798
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2408,6750
 	.no_dead_strip plt_System_Collections_Concurrent_ConcurrentDictionary_2_intptr_SQLitePCL_sqlite3_stmt__ctor
 plt_System_Collections_Concurrent_ConcurrentDictionary_2_intptr_SQLitePCL_sqlite3_stmt__ctor:
 _p_30:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2420,6801
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2412,6753
 	.no_dead_strip plt_SQLitePCL_raw_sqlite3_close_SQLitePCL_sqlite3
 plt_SQLitePCL_raw_sqlite3_close_SQLitePCL_sqlite3:
 _p_31:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2424,6812
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2416,6764
 	.no_dead_strip plt_System_Collections_Concurrent_ConcurrentDictionary_2_intptr_SQLitePCL_sqlite3_stmt_set_Item_intptr_SQLitePCL_sqlite3_stmt
 plt_System_Collections_Concurrent_ConcurrentDictionary_2_intptr_SQLitePCL_sqlite3_stmt_set_Item_intptr_SQLitePCL_sqlite3_stmt:
 _p_32:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2428,6814
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2420,6766
 	.no_dead_strip plt_System_Collections_Concurrent_ConcurrentDictionary_2_intptr_SQLitePCL_sqlite3_stmt_get_Item_intptr
 plt_System_Collections_Concurrent_ConcurrentDictionary_2_intptr_SQLitePCL_sqlite3_stmt_get_Item_intptr:
 _p_33:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2432,6825
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2424,6777
 	.no_dead_strip plt__jit_icall_mono_helper_ldstr
 plt__jit_icall_mono_helper_ldstr:
 _p_34:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2436,6836
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2428,6788
 	.no_dead_strip plt__jit_icall_mono_arch_throw_exception
 plt__jit_icall_mono_arch_throw_exception:
 _p_35:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2440,6856
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2432,6808
 	.no_dead_strip plt_System_Collections_Concurrent_ConcurrentDictionary_2_intptr_SQLitePCL_sqlite3_stmt_TryRemove_intptr_SQLitePCL_sqlite3_stmt_
 plt_System_Collections_Concurrent_ConcurrentDictionary_2_intptr_SQLitePCL_sqlite3_stmt_TryRemove_intptr_SQLitePCL_sqlite3_stmt_:
 _p_36:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2444,6884
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2436,6836
 	.no_dead_strip plt__rgctx_fetch_0
 plt__rgctx_fetch_0:
 _p_37:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2448,6916
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2440,6868
 	.no_dead_strip plt_System_Type_get_IsValueType
 plt_System_Type_get_IsValueType:
 _p_38:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2452,6924
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2444,6876
 	.no_dead_strip plt_System_Type_GetTypeCode_System_Type
 plt_System_Type_GetTypeCode_System_Type:
 _p_39:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2456,6929
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2448,6881
 	.no_dead_strip plt_intptr_get_Size
 plt_intptr_get_Size:
 _p_40:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2460,6934
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2452,6886
 	.no_dead_strip plt__rgctx_fetch_1
 plt__rgctx_fetch_1:
 _p_41:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2464,6960
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2456,6912
 	.no_dead_strip plt__rgctx_fetch_2
 plt__rgctx_fetch_2:
 _p_42:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2468,6968
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2460,6920
 	.no_dead_strip plt__rgctx_fetch_3
 plt__rgctx_fetch_3:
 _p_43:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2472,6994
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2464,6946
 	.no_dead_strip plt__rgctx_fetch_4
 plt__rgctx_fetch_4:
 _p_44:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2476,7062
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2468,7014
 	.no_dead_strip plt__rgctx_fetch_5
 plt__rgctx_fetch_5:
 _p_45:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2480,7094
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2472,7046
 	.no_dead_strip plt__rgctx_fetch_6
 plt__rgctx_fetch_6:
 _p_46:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2484,7117
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2476,7069
 	.no_dead_strip plt__rgctx_fetch_7
 plt__rgctx_fetch_7:
 _p_47:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2488,7125
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2480,7077
 	.no_dead_strip plt__rgctx_fetch_8
 plt__rgctx_fetch_8:
 _p_48:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2492,7151
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2484,7103
 	.no_dead_strip plt__rgctx_fetch_9
 plt__rgctx_fetch_9:
 _p_49:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2496,7159
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2488,7111
 	.no_dead_strip plt__rgctx_fetch_10
 plt__rgctx_fetch_10:
 _p_50:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2500,7194
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2492,7146
 	.no_dead_strip plt__rgctx_fetch_11
 plt__rgctx_fetch_11:
 _p_51:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2504,7217
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2496,7169
 	.no_dead_strip plt__rgctx_fetch_12
 plt__rgctx_fetch_12:
 _p_52:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2508,7243
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2500,7195
 	.no_dead_strip plt__jit_icall_mono_helper_ldstr_mscorlib
 plt__jit_icall_mono_helper_ldstr_mscorlib:
 _p_53:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2512,7269
-	.no_dead_strip plt__jit_icall_ves_icall_thread_finish_async_abort
-plt__jit_icall_ves_icall_thread_finish_async_abort:
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2504,7221
+	.no_dead_strip plt__jit_icall_mono_thread_self_abort
+plt__jit_icall_mono_thread_self_abort:
 _p_54:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2516,7298
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2508,7250
 	.no_dead_strip plt__jit_icall_mono_arch_throw_corlib_exception
 plt__jit_icall_mono_arch_throw_corlib_exception:
 _p_55:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2520,7336
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2512,7275
 	.no_dead_strip plt_wrapper_alloc_object_AllocVector_intptr_intptr
 plt_wrapper_alloc_object_AllocVector_intptr_intptr:
 _p_56:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2524,7371
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2516,7310
 	.no_dead_strip plt_object__ctor
 plt_object__ctor:
 _p_57:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2528,7379
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2520,7318
 	.no_dead_strip plt__rgctx_fetch_13
 plt__rgctx_fetch_13:
 _p_58:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2532,7417
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2524,7356
 	.no_dead_strip plt__rgctx_fetch_14
 plt__rgctx_fetch_14:
 _p_59:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2536,7439
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2528,7378
 	.no_dead_strip plt__rgctx_fetch_15
 plt__rgctx_fetch_15:
 _p_60:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2540,7447
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2532,7386
 	.no_dead_strip plt__rgctx_fetch_16
 plt__rgctx_fetch_16:
 _p_61:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2544,7482
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2536,7421
 	.no_dead_strip plt__rgctx_fetch_17
 plt__rgctx_fetch_17:
 _p_62:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2548,7490
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2540,7429
 	.no_dead_strip plt__rgctx_fetch_18
 plt__rgctx_fetch_18:
 _p_63:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2552,7534
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2544,7473
 	.no_dead_strip plt__rgctx_fetch_19
 plt__rgctx_fetch_19:
 _p_64:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2556,7542
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2548,7481
 	.no_dead_strip plt__rgctx_fetch_20
 plt__rgctx_fetch_20:
 _p_65:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2560,7568
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2552,7507
 	.no_dead_strip plt__rgctx_fetch_21
 plt__rgctx_fetch_21:
 _p_66:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2564,7591
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2556,7530
 	.no_dead_strip plt__rgctx_fetch_22
 plt__rgctx_fetch_22:
 _p_67:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2568,7638
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2560,7577
 	.no_dead_strip plt__rgctx_fetch_23
 plt__rgctx_fetch_23:
 _p_68:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2572,7646
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2564,7585
 	.no_dead_strip plt__rgctx_fetch_24
 plt__rgctx_fetch_24:
 _p_69:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2576,7672
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2568,7611
 	.no_dead_strip plt__rgctx_fetch_25
 plt__rgctx_fetch_25:
 _p_70:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2580,7719
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2572,7658
 	.no_dead_strip plt__rgctx_fetch_26
 plt__rgctx_fetch_26:
 _p_71:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2584,7727
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2576,7666
 	.no_dead_strip plt__rgctx_fetch_27
 plt__rgctx_fetch_27:
 _p_72:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2588,7753
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2580,7692
 	.no_dead_strip plt__rgctx_fetch_28
 plt__rgctx_fetch_28:
 _p_73:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2592,7800
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2584,7739
 	.no_dead_strip plt__rgctx_fetch_29
 plt__rgctx_fetch_29:
 _p_74:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2596,7823
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2588,7762
 	.no_dead_strip plt__rgctx_fetch_30
 plt__rgctx_fetch_30:
 _p_75:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2600,7831
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2592,7770
 	.no_dead_strip plt__jit_icall_mono_monitor_enter_v4_internal
 plt__jit_icall_mono_monitor_enter_v4_internal:
 _p_76:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2604,7857
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2596,7796
 	.no_dead_strip plt__rgctx_fetch_31
 plt__rgctx_fetch_31:
 _p_77:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2608,7890
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2600,7829
 	.no_dead_strip plt__rgctx_fetch_32
 plt__rgctx_fetch_32:
 _p_78:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2612,7922
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2604,7861
 	.no_dead_strip plt_System_Collections_Generic_EqualityComparer_1_TValue_REF_get_Default
 plt_System_Collections_Generic_EqualityComparer_1_TValue_REF_get_Default:
 _p_79:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2616,7930
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2608,7869
 	.no_dead_strip plt__rgctx_fetch_33
 plt__rgctx_fetch_33:
 _p_80:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2620,7949
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2612,7888
 	.no_dead_strip plt__rgctx_fetch_34
 plt__rgctx_fetch_34:
 _p_81:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2624,7959
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2616,7898
 	.no_dead_strip plt_System_Threading_Monitor_Exit_object
 plt_System_Threading_Monitor_Exit_object:
 _p_82:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2628,7983
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2620,7922
 	.no_dead_strip plt__rgctx_fetch_35
 plt__rgctx_fetch_35:
 _p_83:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2632,8009
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2624,7948
 	.no_dead_strip plt__rgctx_fetch_36
 plt__rgctx_fetch_36:
 _p_84:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2636,8017
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2628,7956
 	.no_dead_strip plt__rgctx_fetch_37
 plt__rgctx_fetch_37:
 _p_85:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2640,8043
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2632,7982
 	.no_dead_strip plt__rgctx_fetch_38
 plt__rgctx_fetch_38:
 _p_86:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2644,8066
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2636,8005
 	.no_dead_strip plt__rgctx_fetch_39
 plt__rgctx_fetch_39:
 _p_87:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2648,8113
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2640,8052
 	.no_dead_strip plt__rgctx_fetch_40
 plt__rgctx_fetch_40:
 _p_88:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2652,8121
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2644,8060
 	.no_dead_strip plt__rgctx_fetch_41
 plt__rgctx_fetch_41:
 _p_89:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2656,8147
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2648,8086
 	.no_dead_strip plt__rgctx_fetch_42
 plt__rgctx_fetch_42:
 _p_90:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2660,8157
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2652,8096
 	.no_dead_strip plt__rgctx_fetch_43
 plt__rgctx_fetch_43:
 _p_91:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2664,8181
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2656,8120
 	.no_dead_strip plt__rgctx_fetch_44
 plt__rgctx_fetch_44:
 _p_92:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2668,8225
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2660,8164
 	.no_dead_strip plt__rgctx_fetch_45
 plt__rgctx_fetch_45:
 _p_93:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2672,8251
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2664,8190
 	.no_dead_strip plt__rgctx_fetch_46
 plt__rgctx_fetch_46:
 _p_94:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2676,8261
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2668,8200
 	.no_dead_strip plt__rgctx_fetch_47
 plt__rgctx_fetch_47:
 _p_95:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2680,8269
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2672,8208
 	.no_dead_strip plt_System_Math_Max_int_int
 plt_System_Math_Max_int_int:
 _p_96:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2684,8295
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2676,8234
 	.no_dead_strip plt__rgctx_fetch_48
 plt__rgctx_fetch_48:
 _p_97:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2688,8300
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2680,8239
 	.no_dead_strip plt__rgctx_fetch_49
 plt__rgctx_fetch_49:
 _p_98:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2692,8347
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2684,8286
 	.no_dead_strip plt__rgctx_fetch_50
 plt__rgctx_fetch_50:
 _p_99:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2696,8373
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2688,8312
 	.no_dead_strip plt__rgctx_fetch_51
 plt__rgctx_fetch_51:
 _p_100:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2700,8399
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2692,8338
 	.no_dead_strip plt__rgctx_fetch_52
 plt__rgctx_fetch_52:
 _p_101:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2704,8446
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2696,8385
 	.no_dead_strip plt__rgctx_fetch_53
 plt__rgctx_fetch_53:
 _p_102:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2708,8472
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2700,8411
 	.no_dead_strip plt__rgctx_fetch_54
 plt__rgctx_fetch_54:
 _p_103:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2712,8495
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2704,8434
 	.no_dead_strip plt__rgctx_fetch_55
 plt__rgctx_fetch_55:
 _p_104:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2716,8518
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2708,8457
 	.no_dead_strip plt__rgctx_fetch_56
 plt__rgctx_fetch_56:
 _p_105:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2720,8528
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2712,8467
 	.no_dead_strip plt__rgctx_fetch_57
 plt__rgctx_fetch_57:
 _p_106:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2724,8554
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2716,8493
 	.no_dead_strip plt__rgctx_fetch_58
 plt__rgctx_fetch_58:
 _p_107:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2728,8601
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2720,8540
 	.no_dead_strip plt__rgctx_fetch_59
 plt__rgctx_fetch_59:
 _p_108:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2732,8609
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2724,8548
 	.no_dead_strip plt__rgctx_fetch_60
 plt__rgctx_fetch_60:
 _p_109:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2736,8656
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2728,8595
 	.no_dead_strip plt_System_Collections_DictionaryEntry__ctor_object_object
 plt_System_Collections_DictionaryEntry__ctor_object_object:
 _p_110:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2740,8664
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2732,8603
 	.no_dead_strip plt__rgctx_fetch_61
 plt__rgctx_fetch_61:
 _p_111:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2744,8690
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2736,8629
 	.no_dead_strip plt__rgctx_fetch_62
 plt__rgctx_fetch_62:
 _p_112:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2748,8698
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2740,8637
 	.no_dead_strip plt__rgctx_fetch_63
 plt__rgctx_fetch_63:
 _p_113:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2752,8757
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2744,8696
 	.no_dead_strip plt__rgctx_fetch_64
 plt__rgctx_fetch_64:
 _p_114:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2756,8765
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2748,8704
 	.no_dead_strip plt__rgctx_fetch_65
 plt__rgctx_fetch_65:
 _p_115:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2760,8812
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2752,8751
 	.no_dead_strip plt__rgctx_fetch_66
 plt__rgctx_fetch_66:
 _p_116:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2764,8820
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2756,8759
 	.no_dead_strip plt__rgctx_fetch_67
 plt__rgctx_fetch_67:
 _p_117:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2768,8846
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2760,8785
 	.no_dead_strip plt__rgctx_fetch_68
 plt__rgctx_fetch_68:
 _p_118:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2772,8869
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2764,8808
 	.no_dead_strip plt__rgctx_fetch_69
 plt__rgctx_fetch_69:
 _p_119:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2776,8877
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2768,8816
 	.no_dead_strip plt__rgctx_fetch_70
 plt__rgctx_fetch_70:
 _p_120:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2780,8885
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2772,8824
 	.no_dead_strip plt__rgctx_fetch_71
 plt__rgctx_fetch_71:
 _p_121:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2784,8911
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2776,8850
 	.no_dead_strip plt__rgctx_fetch_72
 plt__rgctx_fetch_72:
 _p_122:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2788,8921
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2780,8860
 	.no_dead_strip plt__rgctx_fetch_73
 plt__rgctx_fetch_73:
 _p_123:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2792,8945
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2784,8884
 	.no_dead_strip plt__rgctx_fetch_74
 plt__rgctx_fetch_74:
 _p_124:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2796,8992
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2788,8931
 	.no_dead_strip plt__rgctx_fetch_75
 plt__rgctx_fetch_75:
 _p_125:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2800,9018
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2792,8957
 	.no_dead_strip plt__rgctx_fetch_76
 plt__rgctx_fetch_76:
 _p_126:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2804,9026
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2796,8965
 	.no_dead_strip plt__rgctx_fetch_77
 plt__rgctx_fetch_77:
 _p_127:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2808,9034
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2800,8973
 	.no_dead_strip plt__rgctx_fetch_78
 plt__rgctx_fetch_78:
 _p_128:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2812,9081
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2804,9020
 	.no_dead_strip plt__rgctx_fetch_79
 plt__rgctx_fetch_79:
 _p_129:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2816,9089
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2808,9028
 	.no_dead_strip plt__rgctx_fetch_80
 plt__rgctx_fetch_80:
 _p_130:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2820,9115
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2812,9054
 	.no_dead_strip plt__rgctx_fetch_81
 plt__rgctx_fetch_81:
 _p_131:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2824,9138
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2816,9077
 	.no_dead_strip plt_SR_Format_string_object
 plt_SR_Format_string_object:
 _p_132:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2828,9164
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2820,9103
 	.no_dead_strip plt__rgctx_fetch_82
 plt__rgctx_fetch_82:
 _p_133:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2832,9190
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2824,9129
 	.no_dead_strip plt__rgctx_fetch_83
 plt__rgctx_fetch_83:
 _p_134:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2836,9216
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2828,9155
 	.no_dead_strip plt__rgctx_fetch_84
 plt__rgctx_fetch_84:
 _p_135:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2840,9242
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2832,9181
 	.no_dead_strip plt__rgctx_fetch_85
 plt__rgctx_fetch_85:
 _p_136:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2844,9289
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2836,9228
 	.no_dead_strip plt__rgctx_fetch_86
 plt__rgctx_fetch_86:
 _p_137:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2848,9297
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2840,9236
 	.no_dead_strip plt__rgctx_fetch_87
 plt__rgctx_fetch_87:
 _p_138:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2852,9323
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2844,9262
 	.no_dead_strip plt__rgctx_fetch_88
 plt__rgctx_fetch_88:
 _p_139:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2856,9346
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2848,9285
 	.no_dead_strip plt__rgctx_fetch_89
 plt__rgctx_fetch_89:
 _p_140:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2860,9372
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2852,9311
 	.no_dead_strip plt__rgctx_fetch_90
 plt__rgctx_fetch_90:
 _p_141:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2864,9419
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2856,9358
 	.no_dead_strip plt__rgctx_fetch_91
 plt__rgctx_fetch_91:
 _p_142:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2868,9466
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2860,9405
 	.no_dead_strip plt__rgctx_fetch_92
 plt__rgctx_fetch_92:
 _p_143:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2872,9513
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2864,9452
 	.no_dead_strip plt__rgctx_fetch_93
 plt__rgctx_fetch_93:
 _p_144:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2876,9560
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2868,9499
 	.no_dead_strip plt__rgctx_fetch_94
 plt__rgctx_fetch_94:
 _p_145:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2880,9607
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2872,9546
 	.no_dead_strip plt__rgctx_fetch_95
 plt__rgctx_fetch_95:
 _p_146:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2884,9654
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2876,9593
 	.no_dead_strip plt__rgctx_fetch_96
 plt__rgctx_fetch_96:
 _p_147:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2888,9701
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2880,9640
 	.no_dead_strip plt__rgctx_fetch_97
 plt__rgctx_fetch_97:
 _p_148:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2892,9709
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2884,9648
 	.no_dead_strip plt__rgctx_fetch_98
 plt__rgctx_fetch_98:
 _p_149:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2896,9735
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2888,9674
 	.no_dead_strip plt__rgctx_fetch_99
 plt__rgctx_fetch_99:
 _p_150:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2900,9773
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2892,9712
 	.no_dead_strip plt__rgctx_fetch_100
 plt__rgctx_fetch_100:
 _p_151:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2904,9820
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2896,9759
 	.no_dead_strip plt__rgctx_fetch_101
 plt__rgctx_fetch_101:
 _p_152:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2908,9828
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2900,9767
 	.no_dead_strip plt__rgctx_fetch_102
 plt__rgctx_fetch_102:
 _p_153:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2912,9854
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2904,9793
 	.no_dead_strip plt__rgctx_fetch_103
 plt__rgctx_fetch_103:
 _p_154:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2916,9880
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2908,9819
 	.no_dead_strip plt__rgctx_fetch_104
 plt__rgctx_fetch_104:
 _p_155:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2920,9888
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2912,9827
 	.no_dead_strip plt__rgctx_fetch_105
 plt__rgctx_fetch_105:
 _p_156:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2924,9935
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2916,9874
 	.no_dead_strip plt__rgctx_fetch_106
 plt__rgctx_fetch_106:
 _p_157:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2928,9943
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2920,9882
 	.no_dead_strip plt__rgctx_fetch_107
 plt__rgctx_fetch_107:
 _p_158:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2932,9969
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2924,9908
 	.no_dead_strip plt__rgctx_fetch_108
 plt__rgctx_fetch_108:
 _p_159:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2936,9995
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2928,9934
 	.no_dead_strip plt__rgctx_fetch_109
 plt__rgctx_fetch_109:
 _p_160:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2940,10042
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2932,9981
 	.no_dead_strip plt__rgctx_fetch_110
 plt__rgctx_fetch_110:
 _p_161:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2944,10089
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2936,10028
 	.no_dead_strip plt__rgctx_fetch_111
 plt__rgctx_fetch_111:
 _p_162:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2948,10097
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2940,10036
 	.no_dead_strip plt__rgctx_fetch_112
 plt__rgctx_fetch_112:
 _p_163:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2952,10123
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2944,10062
 	.no_dead_strip plt_wrapper_castclass_object___isinst_with_cache_object_intptr_intptr
 plt_wrapper_castclass_object___isinst_with_cache_object_intptr_intptr:
 _p_164:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2956,10131
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2948,10070
 	.no_dead_strip plt__rgctx_fetch_113
 plt__rgctx_fetch_113:
 _p_165:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2960,10139
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2952,10078
 	.no_dead_strip plt_wrapper_castclass_object___castclass_with_cache_object_intptr_intptr
 plt_wrapper_castclass_object___castclass_with_cache_object_intptr_intptr:
 _p_166:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2964,10147
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2956,10086
 	.no_dead_strip plt__rgctx_fetch_114
 plt__rgctx_fetch_114:
 _p_167:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2968,10155
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2960,10094
 	.no_dead_strip plt__rgctx_fetch_115
 plt__rgctx_fetch_115:
 _p_168:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2972,10163
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2964,10102
 	.no_dead_strip plt__rgctx_fetch_116
 plt__rgctx_fetch_116:
 _p_169:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2976,10210
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2968,10149
 	.no_dead_strip plt__rgctx_fetch_117
 plt__rgctx_fetch_117:
 _p_170:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2980,10218
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2972,10157
 	.no_dead_strip plt__rgctx_fetch_118
 plt__rgctx_fetch_118:
 _p_171:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2984,10244
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2976,10183
 	.no_dead_strip plt__rgctx_fetch_119
 plt__rgctx_fetch_119:
 _p_172:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2988,10252
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2980,10191
 	.no_dead_strip plt__rgctx_fetch_120
 plt__rgctx_fetch_120:
 _p_173:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2992,10260
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2984,10199
 	.no_dead_strip plt__rgctx_fetch_121
 plt__rgctx_fetch_121:
 _p_174:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 2996,10319
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2988,10258
 	.no_dead_strip plt__rgctx_fetch_122
 plt__rgctx_fetch_122:
 _p_175:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3000,10327
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2992,10266
 	.no_dead_strip plt__rgctx_fetch_123
 plt__rgctx_fetch_123:
 _p_176:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3004,10374
+	.long mono_aot_SQLitePCLRaw_core_got - . + 2996,10313
 	.no_dead_strip plt__rgctx_fetch_124
 plt__rgctx_fetch_124:
 _p_177:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3008,10421
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3000,10360
 	.no_dead_strip plt__rgctx_fetch_125
 plt__rgctx_fetch_125:
 _p_178:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3012,10429
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3004,10368
 	.no_dead_strip plt__rgctx_fetch_126
 plt__rgctx_fetch_126:
 _p_179:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3016,10455
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3008,10394
 	.no_dead_strip plt__rgctx_fetch_127
 plt__rgctx_fetch_127:
 _p_180:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3020,10463
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3012,10402
 	.no_dead_strip plt__rgctx_fetch_128
 plt__rgctx_fetch_128:
 _p_181:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3024,10471
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3016,10410
 	.no_dead_strip plt__rgctx_fetch_129
 plt__rgctx_fetch_129:
 _p_182:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3028,10518
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3020,10457
 	.no_dead_strip plt__rgctx_fetch_130
 plt__rgctx_fetch_130:
 _p_183:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3032,10565
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3024,10504
 	.no_dead_strip plt__rgctx_fetch_131
 plt__rgctx_fetch_131:
 _p_184:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3036,10573
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3028,10512
 	.no_dead_strip plt__rgctx_fetch_132
 plt__rgctx_fetch_132:
 _p_185:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3040,10599
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3032,10538
 	.no_dead_strip plt__rgctx_fetch_133
 plt__rgctx_fetch_133:
 _p_186:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3044,10607
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3036,10546
 	.no_dead_strip plt__rgctx_fetch_134
 plt__rgctx_fetch_134:
 _p_187:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3048,10615
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3040,10554
 	.no_dead_strip plt__rgctx_fetch_135
 plt__rgctx_fetch_135:
 _p_188:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3052,10662
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3044,10601
 	.no_dead_strip plt__rgctx_fetch_136
 plt__rgctx_fetch_136:
 _p_189:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3056,10670
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3048,10609
 	.no_dead_strip plt__rgctx_fetch_137
 plt__rgctx_fetch_137:
 _p_190:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3060,10696
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3052,10635
 	.no_dead_strip plt__rgctx_fetch_138
 plt__rgctx_fetch_138:
 _p_191:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3064,10704
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3056,10643
 	.no_dead_strip plt__rgctx_fetch_139
 plt__rgctx_fetch_139:
 _p_192:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3068,10712
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3060,10651
 	.no_dead_strip plt__rgctx_fetch_140
 plt__rgctx_fetch_140:
 _p_193:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3072,10720
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3064,10659
 	.no_dead_strip plt__rgctx_fetch_141
 plt__rgctx_fetch_141:
 _p_194:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3076,10767
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3068,10706
 	.no_dead_strip plt__rgctx_fetch_142
 plt__rgctx_fetch_142:
 _p_195:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3080,10793
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3072,10732
 	.no_dead_strip plt__rgctx_fetch_143
 plt__rgctx_fetch_143:
 _p_196:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3084,10803
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3076,10742
 	.no_dead_strip plt__rgctx_fetch_144
 plt__rgctx_fetch_144:
 _p_197:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3088,10829
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3080,10768
 	.no_dead_strip plt__rgctx_fetch_145
 plt__rgctx_fetch_145:
 _p_198:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3092,10855
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3084,10794
 	.no_dead_strip plt__rgctx_fetch_146
 plt__rgctx_fetch_146:
 _p_199:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3096,10881
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3088,10820
 	.no_dead_strip plt__rgctx_fetch_147
 plt__rgctx_fetch_147:
 _p_200:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3100,10928
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3092,10867
 	.no_dead_strip plt__jit_icall___emul_op_idiv
 plt__jit_icall___emul_op_idiv:
 _p_201:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3104,10954
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3096,10893
 	.no_dead_strip plt__jit_icall___emul_op_imul_ovf
 plt__jit_icall___emul_op_imul_ovf:
 _p_202:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3108,10971
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3100,10910
 	.no_dead_strip plt__jit_icall___emul_op_irem
 plt__jit_icall___emul_op_irem:
 _p_203:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3112,10992
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3104,10931
 	.no_dead_strip plt__jit_icall_mono_thread_get_undeniable_exception
 plt__jit_icall_mono_thread_get_undeniable_exception:
 _p_204:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3116,11009
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3108,10948
 	.no_dead_strip plt_System_Array_Copy_System_Array_int_System_Array_int_int
 plt_System_Array_Copy_System_Array_int_System_Array_int_int:
 _p_205:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3120,11048
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3112,10987
 	.no_dead_strip plt__rgctx_fetch_148
 plt__rgctx_fetch_148:
 _p_206:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3124,11053
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3116,10992
 	.no_dead_strip plt__rgctx_fetch_149
 plt__rgctx_fetch_149:
 _p_207:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3128,11063
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3120,11002
 	.no_dead_strip plt__rgctx_fetch_150
 plt__rgctx_fetch_150:
 _p_208:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3132,11071
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3124,11010
 	.no_dead_strip plt__rgctx_fetch_151
 plt__rgctx_fetch_151:
 _p_209:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3136,11097
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3128,11036
 	.no_dead_strip plt__rgctx_fetch_152
 plt__rgctx_fetch_152:
 _p_210:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3140,11105
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3132,11044
 	.no_dead_strip plt__rgctx_fetch_153
 plt__rgctx_fetch_153:
 _p_211:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3144,11131
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3136,11070
 	.no_dead_strip plt__rgctx_fetch_154
 plt__rgctx_fetch_154:
 _p_212:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3148,11139
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3140,11078
 	.no_dead_strip plt__rgctx_fetch_155
 plt__rgctx_fetch_155:
 _p_213:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3152,11165
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3144,11104
 	.no_dead_strip plt_System_Threading_PlatformHelper_get_ProcessorCount
 plt_System_Threading_PlatformHelper_get_ProcessorCount:
 _p_214:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3156,11191
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3148,11130
 	.no_dead_strip plt_System_Diagnostics_Tracing_EventSource_IsEnabled
 plt_System_Diagnostics_Tracing_EventSource_IsEnabled:
 _p_215:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3160,11196
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3152,11135
 	.no_dead_strip plt_System_Collections_Concurrent_CDSCollectionETWBCLProvider_ConcurrentDictionary_AcquiringAllLocks_int
 plt_System_Collections_Concurrent_CDSCollectionETWBCLProvider_ConcurrentDictionary_AcquiringAllLocks_int:
 _p_216:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3164,11201
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3156,11140
 	.no_dead_strip plt__rgctx_fetch_156
 plt__rgctx_fetch_156:
 _p_217:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3168,11227
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3160,11166
 	.no_dead_strip plt__rgctx_fetch_157
 plt__rgctx_fetch_157:
 _p_218:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3172,11274
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3164,11213
 	.no_dead_strip plt__rgctx_fetch_158
 plt__rgctx_fetch_158:
 _p_219:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3176,11300
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3168,11239
 	.no_dead_strip plt__rgctx_fetch_159
 plt__rgctx_fetch_159:
 _p_220:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3180,11335
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3172,11274
 	.no_dead_strip plt__rgctx_fetch_160
 plt__rgctx_fetch_160:
 _p_221:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3184,11343
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3176,11282
 	.no_dead_strip plt__rgctx_fetch_161
 plt__rgctx_fetch_161:
 _p_222:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3188,11366
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3180,11305
 	.no_dead_strip plt__rgctx_fetch_162
 plt__rgctx_fetch_162:
 _p_223:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3192,11398
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3184,11337
 	.no_dead_strip plt__rgctx_fetch_163
 plt__rgctx_fetch_163:
 _p_224:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3196,11406
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3188,11345
 	.no_dead_strip plt__rgctx_fetch_164
 plt__rgctx_fetch_164:
 _p_225:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3200,11429
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3192,11368
 	.no_dead_strip plt__rgctx_fetch_165
 plt__rgctx_fetch_165:
 _p_226:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3204,11476
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3196,11415
 	.no_dead_strip plt__rgctx_fetch_166
 plt__rgctx_fetch_166:
 _p_227:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3208,11502
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3200,11441
 	.no_dead_strip plt__rgctx_fetch_167
 plt__rgctx_fetch_167:
 _p_228:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3212,11537
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3204,11476
 	.no_dead_strip plt_System_Collections_Generic_List_1_TValue_REF__ctor_int
 plt_System_Collections_Generic_List_1_TValue_REF__ctor_int:
 _p_229:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3216,11545
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3208,11484
 	.no_dead_strip plt_System_Collections_Generic_List_1_TValue_REF_Add_TValue_REF
 plt_System_Collections_Generic_List_1_TValue_REF_Add_TValue_REF:
 _p_230:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3220,11564
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3212,11503
 	.no_dead_strip plt__rgctx_fetch_168
 plt__rgctx_fetch_168:
 _p_231:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3224,11592
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3216,11531
 	.no_dead_strip plt_System_Collections_ObjectModel_ReadOnlyCollection_1_TValue_REF__ctor_System_Collections_Generic_IList_1_TValue_REF
 plt_System_Collections_ObjectModel_ReadOnlyCollection_1_TValue_REF__ctor_System_Collections_Generic_IList_1_TValue_REF:
 _p_232:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3228,11600
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3220,11539
 	.no_dead_strip plt__rgctx_fetch_169
 plt__rgctx_fetch_169:
 _p_233:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3232,11619
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3224,11558
 	.no_dead_strip plt__rgctx_fetch_170
 plt__rgctx_fetch_170:
 _p_234:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3236,11666
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3228,11605
 	.no_dead_strip plt__rgctx_fetch_171
 plt__rgctx_fetch_171:
 _p_235:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3240,11713
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3232,11652
 	.no_dead_strip plt__rgctx_fetch_172
 plt__rgctx_fetch_172:
 _p_236:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3244,11723
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3236,11662
 	.no_dead_strip plt__rgctx_fetch_173
 plt__rgctx_fetch_173:
 _p_237:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3248,11731
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3240,11670
 	.no_dead_strip plt__rgctx_fetch_174
 plt__rgctx_fetch_174:
 _p_238:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3252,11757
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3244,11696
 	.no_dead_strip plt__rgctx_fetch_175
 plt__rgctx_fetch_175:
 _p_239:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3256,11804
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3248,11743
 	.no_dead_strip plt__rgctx_fetch_176
 plt__rgctx_fetch_176:
 _p_240:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3260,11812
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3252,11751
 	.no_dead_strip plt__rgctx_fetch_177
 plt__rgctx_fetch_177:
 _p_241:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3264,11838
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3256,11777
 	.no_dead_strip plt__jit_icall_mono_thread_interruption_checkpoint
 plt__jit_icall_mono_thread_interruption_checkpoint:
 _p_242:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3268,11846
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3260,11785
 	.no_dead_strip plt__jit_icall_mono_delegate_begin_invoke
 plt__jit_icall_mono_delegate_begin_invoke:
 _p_243:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3272,11884
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3264,11823
 	.no_dead_strip plt__jit_icall_mono_delegate_end_invoke
 plt__jit_icall_mono_delegate_end_invoke:
 _p_244:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3276,11913
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3268,11852
 	.no_dead_strip plt__rgctx_fetch_178
 plt__rgctx_fetch_178:
 _p_245:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3280,11958
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3272,11897
 	.no_dead_strip plt__rgctx_fetch_179
 plt__rgctx_fetch_179:
 _p_246:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3284,11966
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3276,11905
 	.no_dead_strip plt__rgctx_fetch_180
 plt__rgctx_fetch_180:
 _p_247:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3288,11974
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3280,11913
 	.no_dead_strip plt__rgctx_fetch_181
 plt__rgctx_fetch_181:
 _p_248:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3292,12015
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3284,11954
 	.no_dead_strip plt__rgctx_fetch_182
 plt__rgctx_fetch_182:
 _p_249:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3296,12023
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3288,11962
 	.no_dead_strip plt_System_Collections_Generic_EqualityComparer_1_T_REF_CreateComparer
 plt_System_Collections_Generic_EqualityComparer_1_T_REF_CreateComparer:
 _p_250:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3300,12031
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3292,11970
 	.no_dead_strip plt__rgctx_fetch_183
 plt__rgctx_fetch_183:
 _p_251:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3304,12068
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3296,12007
 	.no_dead_strip plt__rgctx_fetch_184
 plt__rgctx_fetch_184:
 _p_252:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3308,12103
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3300,12042
 	.no_dead_strip plt__rgctx_fetch_185
 plt__rgctx_fetch_185:
 _p_253:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3312,12111
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3304,12050
 	.no_dead_strip plt__rgctx_fetch_186
 plt__rgctx_fetch_186:
 _p_254:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3316,12119
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3308,12058
 	.no_dead_strip plt__rgctx_fetch_187
 plt__rgctx_fetch_187:
 _p_255:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3320,12162
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3312,12101
 	.no_dead_strip plt__rgctx_fetch_188
 plt__rgctx_fetch_188:
 _p_256:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3324,12170
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3316,12109
 	.no_dead_strip plt_System_ThrowHelper_ThrowArgumentNullException_System_ExceptionArgument
 plt_System_ThrowHelper_ThrowArgumentNullException_System_ExceptionArgument:
 _p_257:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3328,12196
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3320,12135
 	.no_dead_strip plt__rgctx_fetch_189
 plt__rgctx_fetch_189:
 _p_258:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3332,12219
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3324,12158
 	.no_dead_strip plt_System_ThrowHelper_ThrowArgumentOutOfRangeException_System_ExceptionArgument_System_ExceptionResource
 plt_System_ThrowHelper_ThrowArgumentOutOfRangeException_System_ExceptionArgument_System_ExceptionResource:
 _p_259:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3336,12242
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3328,12181
 	.no_dead_strip plt__rgctx_fetch_190
 plt__rgctx_fetch_190:
 _p_260:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3340,12265
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3332,12204
 	.no_dead_strip plt__rgctx_fetch_191
 plt__rgctx_fetch_191:
 _p_261:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3344,12273
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3336,12212
 	.no_dead_strip plt__rgctx_fetch_192
 plt__rgctx_fetch_192:
 _p_262:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3348,12281
-	.no_dead_strip plt_System_Collections_Generic_List_1_T_REF_AddWithResize_T_REF
-plt_System_Collections_Generic_List_1_T_REF_AddWithResize_T_REF:
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3340,12220
+	.no_dead_strip plt_System_Collections_Generic_List_1_T_REF_EnsureCapacity_int
+plt_System_Collections_Generic_List_1_T_REF_EnsureCapacity_int:
 _p_263:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3352,12291
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3344,12230
 	.no_dead_strip plt__rgctx_fetch_193
 plt__rgctx_fetch_193:
 _p_264:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3356,12328
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3348,12267
 	.no_dead_strip plt__rgctx_fetch_194
 plt__rgctx_fetch_194:
 _p_265:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3360,12336
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3352,12275
 	.no_dead_strip plt__rgctx_fetch_195
 plt__rgctx_fetch_195:
 _p_266:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3364,12344
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3356,12283
 	.no_dead_strip plt__rgctx_fetch_196
 plt__rgctx_fetch_196:
 _p_267:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3368,12372
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3360,12311
 	.no_dead_strip plt_System_Collections_Generic_ByteEqualityComparer__ctor
 plt_System_Collections_Generic_ByteEqualityComparer__ctor:
 _p_268:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3372,12380
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3364,12319
 	.no_dead_strip plt__rgctx_fetch_197
 plt__rgctx_fetch_197:
 _p_269:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3376,12385
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3368,12324
 	.no_dead_strip plt_System_Collections_Generic_InternalStringComparer__ctor
 plt_System_Collections_Generic_InternalStringComparer__ctor:
 _p_270:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3380,12393
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3372,12332
 	.no_dead_strip plt__rgctx_fetch_198
 plt__rgctx_fetch_198:
 _p_271:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3384,12407
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3376,12346
 	.no_dead_strip plt_System_RuntimeType_CreateInstanceForAnotherGenericParameter_System_Type_System_RuntimeType
 plt_System_RuntimeType_CreateInstanceForAnotherGenericParameter_System_Type_System_RuntimeType:
 _p_272:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3388,12415
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3380,12354
 	.no_dead_strip plt_System_Enum_GetUnderlyingType_System_Type
 plt_System_Enum_GetUnderlyingType_System_Type:
 _p_273:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3392,12420
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3384,12359
 	.no_dead_strip plt__rgctx_fetch_199
 plt__rgctx_fetch_199:
 _p_274:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3396,12434
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3388,12373
 	.no_dead_strip plt__rgctx_fetch_200
 plt__rgctx_fetch_200:
 _p_275:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3400,12442
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3392,12381
 	.no_dead_strip plt__rgctx_fetch_201
 plt__rgctx_fetch_201:
 _p_276:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3404,12483
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3396,12422
 	.no_dead_strip plt__rgctx_fetch_202
 plt__rgctx_fetch_202:
 _p_277:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3408,12491
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3400,12430
 	.no_dead_strip plt__rgctx_fetch_203
 plt__rgctx_fetch_203:
 _p_278:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3412,12508
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3404,12447
 	.no_dead_strip plt__rgctx_fetch_204
 plt__rgctx_fetch_204:
 _p_279:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3416,12525
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3408,12464
 	.no_dead_strip plt_System_Collections_Generic_ObjectEqualityComparer_1_T_REF__ctor
 plt_System_Collections_Generic_ObjectEqualityComparer_1_T_REF__ctor:
 _p_280:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3420,12533
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3412,12472
 	.no_dead_strip plt__rgctx_fetch_205
 plt__rgctx_fetch_205:
 _p_281:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3424,12570
-	.no_dead_strip plt_System_Collections_Generic_List_1_T_REF_EnsureCapacity_int
-plt_System_Collections_Generic_List_1_T_REF_EnsureCapacity_int:
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3416,12509
+	.no_dead_strip plt_System_Collections_Generic_List_1_T_REF_set_Capacity_int
+plt_System_Collections_Generic_List_1_T_REF_set_Capacity_int:
 _p_282:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3428,12593
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3420,12532
 	.no_dead_strip plt__rgctx_fetch_206
 plt__rgctx_fetch_206:
 _p_283:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3432,12639
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3424,12578
 	.no_dead_strip plt_System_Collections_Generic_EqualityComparer_1_T_REF__ctor
 plt_System_Collections_Generic_EqualityComparer_1_T_REF__ctor:
 _p_284:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3436,12671
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3428,12610
 	.no_dead_strip plt__rgctx_fetch_207
 plt__rgctx_fetch_207:
 _p_285:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3440,12708
-	.no_dead_strip plt_System_Collections_Generic_List_1_T_REF_set_Capacity_int
-plt_System_Collections_Generic_List_1_T_REF_set_Capacity_int:
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3432,12647
+	.no_dead_strip plt__rgctx_fetch_208
+plt__rgctx_fetch_208:
 _p_286:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3444,12731
-	.no_dead_strip plt__rgctx_fetch_208
-plt__rgctx_fetch_208:
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3436,12657
+	.no_dead_strip plt__rgctx_fetch_209
+plt__rgctx_fetch_209:
 _p_287:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3448,12768
-	.no_dead_strip plt__rgctx_fetch_209
-plt__rgctx_fetch_209:
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3440,12665
+	.no_dead_strip plt__rgctx_fetch_210
+plt__rgctx_fetch_210:
 _p_288:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3452,12778
-	.no_dead_strip plt__rgctx_fetch_210
-plt__rgctx_fetch_210:
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3444,12691
+	.no_dead_strip plt__rgctx_fetch_211
+plt__rgctx_fetch_211:
 _p_289:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3456,12786
-	.no_dead_strip plt__rgctx_fetch_211
-plt__rgctx_fetch_211:
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3448,12701
+	.no_dead_strip plt__rgctx_fetch_212
+plt__rgctx_fetch_212:
 _p_290:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3460,12812
-	.no_dead_strip plt__rgctx_fetch_212
-plt__rgctx_fetch_212:
-_p_291:
-
-	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3464,12822
-	.no_dead_strip plt__rgctx_fetch_213
-plt__rgctx_fetch_213:
-_p_292:
-
-	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_SQLitePCLRaw_core_got - . + 3468,12830
+	.long mono_aot_SQLitePCLRaw_core_got - . + 3452,12709
 plt_end:
 .section __DATA, __bss
 	.align 3
-.lcomm mono_aot_SQLitePCLRaw_core_got, 3476
+.lcomm mono_aot_SQLitePCLRaw_core_got, 3460
 got_end:
 .section __TEXT, __const
 	.align 3
@@ -15609,13 +15494,13 @@ _mono_aot_file_info:
 	.align 2
 	.long unbox_trampoline_addresses
 
-	.long 576,3476,293,560,70,387000831,0,60460
-	.long 128,4,4,8,0,25,67592,7120
-	.long 6920,5032,0,5976,6864,5208,0,4104
-	.long 744,7112,0,0,0,0,0,0
+	.long 574,3460,291,558,70,387000831,0,60017
+	.long 128,4,4,8,0,25,67104,7080
+	.long 6880,5000,0,5944,6824,5176,0,4088
+	.long 744,7072,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0
-	.byte 133,198,246,158,95,10,208,107,149,222,97,184,248,57,4,166
+	.byte 247,223,110,207,74,213,118,46,199,236,46,140,124,189,148,2
 	.globl _mono_aot_module_SQLitePCLRaw_core_info
 	.align 2
 _mono_aot_module_SQLitePCLRaw_core_info:
@@ -30419,7 +30304,7 @@ Lfde322_start:
 
 LDIFF_SYM1750=Lme_1ee - System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_GrowTable_System_Collections_Concurrent_ConcurrentDictionary_2_Tables_TKey_INTPTR_TValue_REF
 	.long LDIFF_SYM1750
-	.byte 68,14,8,135,2,72,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,224,1,68,13,11,3,248,14
+	.byte 68,14,8,135,2,72,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,224,1,68,13,11,3,0,15
 	.byte 10,68,13,13,14,32,68,8,4,8,5,8,6,8,8,8,10,8,11,14,8,68,11
 	.align 2
 Lfde322_end:
@@ -33161,7 +33046,7 @@ Lfde362_end:
 	.asciz "System.Array:Empty<T_GSHAREDVT>"
 	.asciz "System_Array_Empty_T_GSHAREDVT"
 
-	.byte 4,135,5
+	.byte 4,136,5
 	.long System_Array_Empty_T_GSHAREDVT
 	.long Lme_219
 
@@ -33411,21 +33296,21 @@ LDIFF_SYM2177=LDIE_I4 - Ldebug_info_start
 LDIFF_SYM2178=LTDIE_60_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2178
 	.byte 2,35,16,6
-	.asciz "<buckets>5__2"
+	.asciz "<buckets>5__1"
 
 LDIFF_SYM2179=LDIE_SZARRAY - Ldebug_info_start
 	.long LDIFF_SYM2179
 	.byte 2,35,20,6
+	.asciz "<current>5__2"
+
+LDIFF_SYM2180=LTDIE_63_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2180
+	.byte 2,35,24,6
 	.asciz "<i>5__3"
 
-LDIFF_SYM2180=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2180
-	.byte 2,35,32,6
-	.asciz "<current>5__4"
-
-LDIFF_SYM2181=LTDIE_63_REFERENCE - Ldebug_info_start
+LDIFF_SYM2181=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM2181
-	.byte 2,35,24,0,7
+	.byte 2,35,32,0,7
 	.asciz "_<GetEnumerator>d__35"
 
 LDIFF_SYM2182=LTDIE_59 - Ldebug_info_start
@@ -33831,7 +33716,7 @@ LDIFF_SYM2245=LTDIE_70 - Ldebug_info_start
 	.asciz "System.Collections.ObjectModel.ReadOnlyCollection`1<T_INTPTR>:.ctor"
 	.asciz "System_Collections_ObjectModel_ReadOnlyCollection_1_T_INTPTR__ctor_System_Collections_Generic_IList_1_T_INTPTR"
 
-	.byte 5,22
+	.byte 5,27
 	.long System_Collections_ObjectModel_ReadOnlyCollection_1_T_INTPTR__ctor_System_Collections_Generic_IList_1_T_INTPTR
 	.long Lme_21e
 
@@ -33911,7 +33796,7 @@ LDIFF_SYM2257=LTDIE_72 - Ldebug_info_start
 	.asciz "System.Collections.Generic.List`1<T_INTPTR>:Add"
 	.asciz "System_Collections_Generic_List_1_T_INTPTR_Add_T_INTPTR"
 
-	.byte 6,231,1
+	.byte 6,228,1
 	.long System_Collections_Generic_List_1_T_INTPTR_Add_T_INTPTR
 	.long Lme_21f
 
@@ -33926,31 +33811,26 @@ LDIFF_SYM2258=LTDIE_72_REFERENCE - Ldebug_info_start
 LDIFF_SYM2259=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM2259
 	.byte 2,125,12,11
-	.asciz "array"
+	.asciz "V_0"
 
-LDIFF_SYM2260=LDIE_SZARRAY - Ldebug_info_start
+LDIFF_SYM2260=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM2260
-	.byte 1,86,11
-	.asciz "size"
-
-LDIFF_SYM2261=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2261
-	.byte 1,85,0
+	.byte 1,86,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2262=Lfde369_end - Lfde369_start
-	.long LDIFF_SYM2262
+LDIFF_SYM2261=Lfde369_end - Lfde369_start
+	.long LDIFF_SYM2261
 Lfde369_start:
 
 	.long 0
 	.align 2
 	.long System_Collections_Generic_List_1_T_INTPTR_Add_T_INTPTR
 
-LDIFF_SYM2263=Lme_21f - System_Collections_Generic_List_1_T_INTPTR_Add_T_INTPTR
-	.long LDIFF_SYM2263
-	.byte 68,14,8,135,2,72,14,20,133,5,134,4,136,3,142,1,68,14,48,3,192,1,10,68,14,20,68,8,5,8,6,8
-	.byte 8,14,8,68,11
+LDIFF_SYM2262=Lme_21f - System_Collections_Generic_List_1_T_INTPTR_Add_T_INTPTR
+	.long LDIFF_SYM2262
+	.byte 68,14,8,135,2,72,14,16,134,4,136,3,142,1,68,14,40,3,116,1,10,68,14,16,68,8,6,8,8,14,8,68
+	.byte 11
 	.align 2
 Lfde369_end:
 
@@ -33960,34 +33840,34 @@ Lfde369_end:
 	.asciz "System.Collections.Generic.List`1<T_INTPTR>:.ctor"
 	.asciz "System_Collections_Generic_List_1_T_INTPTR__ctor_int"
 
-	.byte 6,49
+	.byte 6,60
 	.long System_Collections_Generic_List_1_T_INTPTR__ctor_int
 	.long Lme_220
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2264=LTDIE_72_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2264
+LDIFF_SYM2263=LTDIE_72_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2263
 	.byte 2,125,8,3
 	.asciz "capacity"
 
-LDIFF_SYM2265=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2265
+LDIFF_SYM2264=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2264
 	.byte 1,90,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2266=Lfde370_end - Lfde370_start
-	.long LDIFF_SYM2266
+LDIFF_SYM2265=Lfde370_end - Lfde370_start
+	.long LDIFF_SYM2265
 Lfde370_start:
 
 	.long 0
 	.align 2
 	.long System_Collections_Generic_List_1_T_INTPTR__ctor_int
 
-LDIFF_SYM2267=Lme_220 - System_Collections_Generic_List_1_T_INTPTR__ctor_int
-	.long LDIFF_SYM2267
+LDIFF_SYM2266=Lme_220 - System_Collections_Generic_List_1_T_INTPTR__ctor_int
+	.long LDIFF_SYM2266
 	.byte 68,14,8,135,2,72,14,16,136,4,138,3,142,1,68,14,40,3,208,1,10,68,14,16,68,8,8,8,10,14,8,68
 	.byte 11
 	.align 2
@@ -34002,83 +33882,83 @@ LTDIE_74:
 	.byte 8,7
 	.asciz "System_Collections_Generic_IList`1"
 
-LDIFF_SYM2268=LTDIE_74 - Ldebug_info_start
-	.long LDIFF_SYM2268
+LDIFF_SYM2267=LTDIE_74 - Ldebug_info_start
+	.long LDIFF_SYM2267
 LTDIE_74_POINTER:
 
 	.byte 13
-LDIFF_SYM2269=LTDIE_74 - Ldebug_info_start
-	.long LDIFF_SYM2269
+LDIFF_SYM2268=LTDIE_74 - Ldebug_info_start
+	.long LDIFF_SYM2268
 LTDIE_74_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2270=LTDIE_74 - Ldebug_info_start
-	.long LDIFF_SYM2270
+LDIFF_SYM2269=LTDIE_74 - Ldebug_info_start
+	.long LDIFF_SYM2269
 LTDIE_73:
 
 	.byte 5
 	.asciz "System_Collections_ObjectModel_ReadOnlyCollection`1"
 
 	.byte 16,16
-LDIFF_SYM2271=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM2271
+LDIFF_SYM2270=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM2270
 	.byte 2,35,0,6
 	.asciz "list"
 
-LDIFF_SYM2272=LTDIE_74_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2272
+LDIFF_SYM2271=LTDIE_74_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2271
 	.byte 2,35,8,6
 	.asciz "_syncRoot"
 
-LDIFF_SYM2273=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2273
+LDIFF_SYM2272=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2272
 	.byte 2,35,12,0,7
 	.asciz "System_Collections_ObjectModel_ReadOnlyCollection`1"
 
-LDIFF_SYM2274=LTDIE_73 - Ldebug_info_start
-	.long LDIFF_SYM2274
+LDIFF_SYM2273=LTDIE_73 - Ldebug_info_start
+	.long LDIFF_SYM2273
 LTDIE_73_POINTER:
 
 	.byte 13
-LDIFF_SYM2275=LTDIE_73 - Ldebug_info_start
-	.long LDIFF_SYM2275
+LDIFF_SYM2274=LTDIE_73 - Ldebug_info_start
+	.long LDIFF_SYM2274
 LTDIE_73_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2276=LTDIE_73 - Ldebug_info_start
-	.long LDIFF_SYM2276
+LDIFF_SYM2275=LTDIE_73 - Ldebug_info_start
+	.long LDIFF_SYM2275
 	.byte 2
 	.asciz "System.Collections.ObjectModel.ReadOnlyCollection`1<T_REF>:.ctor"
 	.asciz "System_Collections_ObjectModel_ReadOnlyCollection_1_T_REF__ctor_System_Collections_Generic_IList_1_T_REF"
 
-	.byte 5,22
+	.byte 5,27
 	.long System_Collections_ObjectModel_ReadOnlyCollection_1_T_REF__ctor_System_Collections_Generic_IList_1_T_REF
 	.long Lme_221
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2277=LTDIE_73_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2277
+LDIFF_SYM2276=LTDIE_73_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2276
 	.byte 2,125,8,3
 	.asciz "list"
 
-LDIFF_SYM2278=LTDIE_74_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2278
+LDIFF_SYM2277=LTDIE_74_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2277
 	.byte 2,125,12,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2279=Lfde371_end - Lfde371_start
-	.long LDIFF_SYM2279
+LDIFF_SYM2278=Lfde371_end - Lfde371_start
+	.long LDIFF_SYM2278
 Lfde371_start:
 
 	.long 0
 	.align 2
 	.long System_Collections_ObjectModel_ReadOnlyCollection_1_T_REF__ctor_System_Collections_Generic_IList_1_T_REF
 
-LDIFF_SYM2280=Lme_221 - System_Collections_ObjectModel_ReadOnlyCollection_1_T_REF__ctor_System_Collections_Generic_IList_1_T_REF
-	.long LDIFF_SYM2280
+LDIFF_SYM2279=Lme_221 - System_Collections_ObjectModel_ReadOnlyCollection_1_T_REF__ctor_System_Collections_Generic_IList_1_T_REF
+	.long LDIFF_SYM2279
 	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,32,3,16,1,10,68,14,12,68,8,8,14,8,68,11
 	.align 2
 Lfde371_end:
@@ -34090,87 +33970,82 @@ LTDIE_75:
 	.asciz "System_Collections_Generic_List`1"
 
 	.byte 24,16
-LDIFF_SYM2281=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM2281
+LDIFF_SYM2280=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM2280
 	.byte 2,35,0,6
 	.asciz "_items"
 
-LDIFF_SYM2282=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM2282
+LDIFF_SYM2281=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM2281
 	.byte 2,35,8,6
 	.asciz "_size"
 
-LDIFF_SYM2283=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2283
+LDIFF_SYM2282=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2282
 	.byte 2,35,16,6
 	.asciz "_version"
 
-LDIFF_SYM2284=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2284
+LDIFF_SYM2283=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2283
 	.byte 2,35,20,6
 	.asciz "_syncRoot"
 
-LDIFF_SYM2285=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2285
+LDIFF_SYM2284=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2284
 	.byte 2,35,12,0,7
 	.asciz "System_Collections_Generic_List`1"
 
-LDIFF_SYM2286=LTDIE_75 - Ldebug_info_start
-	.long LDIFF_SYM2286
+LDIFF_SYM2285=LTDIE_75 - Ldebug_info_start
+	.long LDIFF_SYM2285
 LTDIE_75_POINTER:
 
 	.byte 13
-LDIFF_SYM2287=LTDIE_75 - Ldebug_info_start
-	.long LDIFF_SYM2287
+LDIFF_SYM2286=LTDIE_75 - Ldebug_info_start
+	.long LDIFF_SYM2286
 LTDIE_75_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2288=LTDIE_75 - Ldebug_info_start
-	.long LDIFF_SYM2288
+LDIFF_SYM2287=LTDIE_75 - Ldebug_info_start
+	.long LDIFF_SYM2287
 	.byte 2
 	.asciz "System.Collections.Generic.List`1<T_REF>:Add"
 	.asciz "System_Collections_Generic_List_1_T_REF_Add_T_REF"
 
-	.byte 6,231,1
+	.byte 6,228,1
 	.long System_Collections_Generic_List_1_T_REF_Add_T_REF
 	.long Lme_222
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2289=LTDIE_75_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2289
+LDIFF_SYM2288=LTDIE_75_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2288
 	.byte 2,125,8,3
 	.asciz "item"
 
+LDIFF_SYM2289=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2289
+	.byte 2,125,12,11
+	.asciz "V_0"
+
 LDIFF_SYM2290=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM2290
-	.byte 2,125,12,11
-	.asciz "array"
-
-LDIFF_SYM2291=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM2291
-	.byte 1,86,11
-	.asciz "size"
-
-LDIFF_SYM2292=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2292
-	.byte 1,85,0
+	.byte 1,86,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2293=Lfde372_end - Lfde372_start
-	.long LDIFF_SYM2293
+LDIFF_SYM2291=Lfde372_end - Lfde372_start
+	.long LDIFF_SYM2291
 Lfde372_start:
 
 	.long 0
 	.align 2
 	.long System_Collections_Generic_List_1_T_REF_Add_T_REF
 
-LDIFF_SYM2294=Lme_222 - System_Collections_Generic_List_1_T_REF_Add_T_REF
-	.long LDIFF_SYM2294
-	.byte 68,14,8,135,2,72,14,20,133,5,134,4,136,3,142,1,68,14,40,3,148,1,10,68,14,20,68,8,5,8,6,8
-	.byte 8,14,8,68,11
+LDIFF_SYM2292=Lme_222 - System_Collections_Generic_List_1_T_REF_Add_T_REF
+	.long LDIFF_SYM2292
+	.byte 68,14,8,135,2,72,14,16,134,4,136,3,142,1,68,14,32,3,72,1,10,68,14,16,68,8,6,8,8,14,8,68
+	.byte 11
 	.align 2
 Lfde372_end:
 
@@ -34180,34 +34055,34 @@ Lfde372_end:
 	.asciz "System.Collections.Generic.List`1<T_REF>:.ctor"
 	.asciz "System_Collections_Generic_List_1_T_REF__ctor_int"
 
-	.byte 6,49
+	.byte 6,60
 	.long System_Collections_Generic_List_1_T_REF__ctor_int
 	.long Lme_223
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2295=LTDIE_75_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2295
+LDIFF_SYM2293=LTDIE_75_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2293
 	.byte 2,125,8,3
 	.asciz "capacity"
 
-LDIFF_SYM2296=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2296
+LDIFF_SYM2294=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2294
 	.byte 1,90,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2297=Lfde373_end - Lfde373_start
-	.long LDIFF_SYM2297
+LDIFF_SYM2295=Lfde373_end - Lfde373_start
+	.long LDIFF_SYM2295
 Lfde373_start:
 
 	.long 0
 	.align 2
 	.long System_Collections_Generic_List_1_T_REF__ctor_int
 
-LDIFF_SYM2298=Lme_223 - System_Collections_Generic_List_1_T_REF__ctor_int
-	.long LDIFF_SYM2298
+LDIFF_SYM2296=Lme_223 - System_Collections_Generic_List_1_T_REF__ctor_int
+	.long LDIFF_SYM2296
 	.byte 68,14,8,135,2,72,14,16,136,4,138,3,142,1,68,14,40,3,208,1,10,68,14,16,68,8,8,8,10,14,8,68
 	.byte 11
 	.align 2
@@ -34220,178 +34095,178 @@ LTDIE_77:
 	.asciz "System_Reflection_TypeInfo"
 
 	.byte 12,16
-LDIFF_SYM2299=LTDIE_16 - Ldebug_info_start
-	.long LDIFF_SYM2299
+LDIFF_SYM2297=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM2297
 	.byte 2,35,0,0,7
 	.asciz "System_Reflection_TypeInfo"
 
-LDIFF_SYM2300=LTDIE_77 - Ldebug_info_start
-	.long LDIFF_SYM2300
+LDIFF_SYM2298=LTDIE_77 - Ldebug_info_start
+	.long LDIFF_SYM2298
 LTDIE_77_POINTER:
 
 	.byte 13
-LDIFF_SYM2301=LTDIE_77 - Ldebug_info_start
-	.long LDIFF_SYM2301
+LDIFF_SYM2299=LTDIE_77 - Ldebug_info_start
+	.long LDIFF_SYM2299
 LTDIE_77_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2302=LTDIE_77 - Ldebug_info_start
-	.long LDIFF_SYM2302
+LDIFF_SYM2300=LTDIE_77 - Ldebug_info_start
+	.long LDIFF_SYM2300
 LTDIE_81:
 
 	.byte 5
 	.asciz "System_Reflection_ConstructorInfo"
 
 	.byte 8,16
-LDIFF_SYM2303=LTDIE_13 - Ldebug_info_start
-	.long LDIFF_SYM2303
+LDIFF_SYM2301=LTDIE_13 - Ldebug_info_start
+	.long LDIFF_SYM2301
 	.byte 2,35,0,0,7
 	.asciz "System_Reflection_ConstructorInfo"
 
-LDIFF_SYM2304=LTDIE_81 - Ldebug_info_start
-	.long LDIFF_SYM2304
+LDIFF_SYM2302=LTDIE_81 - Ldebug_info_start
+	.long LDIFF_SYM2302
 LTDIE_81_POINTER:
 
 	.byte 13
-LDIFF_SYM2305=LTDIE_81 - Ldebug_info_start
-	.long LDIFF_SYM2305
+LDIFF_SYM2303=LTDIE_81 - Ldebug_info_start
+	.long LDIFF_SYM2303
 LTDIE_81_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2306=LTDIE_81 - Ldebug_info_start
-	.long LDIFF_SYM2306
+LDIFF_SYM2304=LTDIE_81 - Ldebug_info_start
+	.long LDIFF_SYM2304
 LTDIE_80:
 
 	.byte 5
 	.asciz "System_Reflection_RuntimeConstructorInfo"
 
 	.byte 8,16
-LDIFF_SYM2307=LTDIE_81 - Ldebug_info_start
-	.long LDIFF_SYM2307
+LDIFF_SYM2305=LTDIE_81 - Ldebug_info_start
+	.long LDIFF_SYM2305
 	.byte 2,35,0,0,7
 	.asciz "System_Reflection_RuntimeConstructorInfo"
 
-LDIFF_SYM2308=LTDIE_80 - Ldebug_info_start
-	.long LDIFF_SYM2308
+LDIFF_SYM2306=LTDIE_80 - Ldebug_info_start
+	.long LDIFF_SYM2306
 LTDIE_80_POINTER:
 
 	.byte 13
-LDIFF_SYM2309=LTDIE_80 - Ldebug_info_start
-	.long LDIFF_SYM2309
+LDIFF_SYM2307=LTDIE_80 - Ldebug_info_start
+	.long LDIFF_SYM2307
 LTDIE_80_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2310=LTDIE_80 - Ldebug_info_start
-	.long LDIFF_SYM2310
+LDIFF_SYM2308=LTDIE_80 - Ldebug_info_start
+	.long LDIFF_SYM2308
 LTDIE_79:
 
 	.byte 5
 	.asciz "System_Reflection_MonoCMethod"
 
 	.byte 20,16
-LDIFF_SYM2311=LTDIE_80 - Ldebug_info_start
-	.long LDIFF_SYM2311
+LDIFF_SYM2309=LTDIE_80 - Ldebug_info_start
+	.long LDIFF_SYM2309
 	.byte 2,35,0,6
 	.asciz "mhandle"
 
-LDIFF_SYM2312=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2312
+LDIFF_SYM2310=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2310
 	.byte 2,35,8,6
 	.asciz "name"
 
-LDIFF_SYM2313=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM2313
+LDIFF_SYM2311=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM2311
 	.byte 2,35,12,6
 	.asciz "reftype"
 
-LDIFF_SYM2314=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2314
+LDIFF_SYM2312=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2312
 	.byte 2,35,16,0,7
 	.asciz "System_Reflection_MonoCMethod"
 
-LDIFF_SYM2315=LTDIE_79 - Ldebug_info_start
-	.long LDIFF_SYM2315
+LDIFF_SYM2313=LTDIE_79 - Ldebug_info_start
+	.long LDIFF_SYM2313
 LTDIE_79_POINTER:
 
 	.byte 13
-LDIFF_SYM2316=LTDIE_79 - Ldebug_info_start
-	.long LDIFF_SYM2316
+LDIFF_SYM2314=LTDIE_79 - Ldebug_info_start
+	.long LDIFF_SYM2314
 LTDIE_79_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2317=LTDIE_79 - Ldebug_info_start
-	.long LDIFF_SYM2317
+LDIFF_SYM2315=LTDIE_79 - Ldebug_info_start
+	.long LDIFF_SYM2315
 LTDIE_78:
 
 	.byte 5
 	.asciz "System_MonoTypeInfo"
 
 	.byte 16,16
-LDIFF_SYM2318=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM2318
+LDIFF_SYM2316=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM2316
 	.byte 2,35,0,6
 	.asciz "full_name"
 
-LDIFF_SYM2319=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM2319
+LDIFF_SYM2317=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM2317
 	.byte 2,35,8,6
 	.asciz "default_ctor"
 
-LDIFF_SYM2320=LTDIE_79_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2320
+LDIFF_SYM2318=LTDIE_79_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2318
 	.byte 2,35,12,0,7
 	.asciz "System_MonoTypeInfo"
 
-LDIFF_SYM2321=LTDIE_78 - Ldebug_info_start
-	.long LDIFF_SYM2321
+LDIFF_SYM2319=LTDIE_78 - Ldebug_info_start
+	.long LDIFF_SYM2319
 LTDIE_78_POINTER:
 
 	.byte 13
-LDIFF_SYM2322=LTDIE_78 - Ldebug_info_start
-	.long LDIFF_SYM2322
+LDIFF_SYM2320=LTDIE_78 - Ldebug_info_start
+	.long LDIFF_SYM2320
 LTDIE_78_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2323=LTDIE_78 - Ldebug_info_start
-	.long LDIFF_SYM2323
+LDIFF_SYM2321=LTDIE_78 - Ldebug_info_start
+	.long LDIFF_SYM2321
 LTDIE_76:
 
 	.byte 5
 	.asciz "System_RuntimeType"
 
 	.byte 24,16
-LDIFF_SYM2324=LTDIE_77 - Ldebug_info_start
-	.long LDIFF_SYM2324
+LDIFF_SYM2322=LTDIE_77 - Ldebug_info_start
+	.long LDIFF_SYM2322
 	.byte 2,35,0,6
 	.asciz "type_info"
 
-LDIFF_SYM2325=LTDIE_78_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2325
+LDIFF_SYM2323=LTDIE_78_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2323
 	.byte 2,35,12,6
 	.asciz "GenericCache"
 
-LDIFF_SYM2326=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2326
+LDIFF_SYM2324=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2324
 	.byte 2,35,16,6
 	.asciz "m_serializationCtor"
 
-LDIFF_SYM2327=LTDIE_80_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2327
+LDIFF_SYM2325=LTDIE_80_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2325
 	.byte 2,35,20,0,7
 	.asciz "System_RuntimeType"
 
-LDIFF_SYM2328=LTDIE_76 - Ldebug_info_start
-	.long LDIFF_SYM2328
+LDIFF_SYM2326=LTDIE_76 - Ldebug_info_start
+	.long LDIFF_SYM2326
 LTDIE_76_POINTER:
 
 	.byte 13
-LDIFF_SYM2329=LTDIE_76 - Ldebug_info_start
-	.long LDIFF_SYM2329
+LDIFF_SYM2327=LTDIE_76 - Ldebug_info_start
+	.long LDIFF_SYM2327
 LTDIE_76_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2330=LTDIE_76 - Ldebug_info_start
-	.long LDIFF_SYM2330
+LDIFF_SYM2328=LTDIE_76 - Ldebug_info_start
+	.long LDIFF_SYM2328
 	.byte 2
 	.asciz "System.Collections.Generic.EqualityComparer`1<T_INTPTR>:CreateComparer"
 	.asciz "System_Collections_Generic_EqualityComparer_1_T_INTPTR_CreateComparer"
@@ -34403,32 +34278,32 @@ LDIFF_SYM2330=LTDIE_76 - Ldebug_info_start
 	.byte 2,118,16,11
 	.asciz "t"
 
-LDIFF_SYM2331=LTDIE_76_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2331
+LDIFF_SYM2329=LTDIE_76_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2329
 	.byte 1,90,11
 	.asciz "u"
 
-LDIFF_SYM2332=LTDIE_76_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2332
+LDIFF_SYM2330=LTDIE_76_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2330
 	.byte 1,86,11
 	.asciz "underlyingTypeCode"
 
-LDIFF_SYM2333=LTDIE_37 - Ldebug_info_start
-	.long LDIFF_SYM2333
+LDIFF_SYM2331=LTDIE_37 - Ldebug_info_start
+	.long LDIFF_SYM2331
 	.byte 1,85,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2334=Lfde374_end - Lfde374_start
-	.long LDIFF_SYM2334
+LDIFF_SYM2332=Lfde374_end - Lfde374_start
+	.long LDIFF_SYM2332
 Lfde374_start:
 
 	.long 0
 	.align 2
 	.long System_Collections_Generic_EqualityComparer_1_T_INTPTR_CreateComparer
 
-LDIFF_SYM2335=Lme_224 - System_Collections_Generic_EqualityComparer_1_T_INTPTR_CreateComparer
-	.long LDIFF_SYM2335
+LDIFF_SYM2333=Lme_224 - System_Collections_Generic_EqualityComparer_1_T_INTPTR_CreateComparer
+	.long LDIFF_SYM2333
 	.byte 68,14,8,135,2,72,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,136,1,3,176,9,10,68,14
 	.byte 32,68,8,4,8,5,8,6,8,8,8,10,8,11,14,8,68,11
 	.align 2
@@ -34447,32 +34322,32 @@ Lfde374_end:
 	.byte 2,118,16,11
 	.asciz "t"
 
-LDIFF_SYM2336=LTDIE_76_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2336
+LDIFF_SYM2334=LTDIE_76_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2334
 	.byte 1,90,11
 	.asciz "u"
 
-LDIFF_SYM2337=LTDIE_76_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2337
+LDIFF_SYM2335=LTDIE_76_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2335
 	.byte 1,86,11
 	.asciz "underlyingTypeCode"
 
-LDIFF_SYM2338=LTDIE_37 - Ldebug_info_start
-	.long LDIFF_SYM2338
+LDIFF_SYM2336=LTDIE_37 - Ldebug_info_start
+	.long LDIFF_SYM2336
 	.byte 1,85,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2339=Lfde375_end - Lfde375_start
-	.long LDIFF_SYM2339
+LDIFF_SYM2337=Lfde375_end - Lfde375_start
+	.long LDIFF_SYM2337
 Lfde375_start:
 
 	.long 0
 	.align 2
 	.long System_Collections_Generic_EqualityComparer_1_T_REF_CreateComparer
 
-LDIFF_SYM2340=Lme_225 - System_Collections_Generic_EqualityComparer_1_T_REF_CreateComparer
-	.long LDIFF_SYM2340
+LDIFF_SYM2338=Lme_225 - System_Collections_Generic_EqualityComparer_1_T_REF_CreateComparer
+	.long LDIFF_SYM2338
 	.byte 68,14,8,135,2,72,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,136,1,3,156,9,10,68,14
 	.byte 32,68,8,4,8,5,8,6,8,8,8,10,8,11,14,8,68,11
 	.align 2
@@ -34481,88 +34356,88 @@ Lfde375_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "System.Collections.Generic.List`1<T_INTPTR>:AddWithResize"
-	.asciz "System_Collections_Generic_List_1_T_INTPTR_AddWithResize_T_INTPTR"
+	.asciz "System.Collections.Generic.List`1<T_INTPTR>:EnsureCapacity"
+	.asciz "System_Collections_Generic_List_1_T_INTPTR_EnsureCapacity_int"
 
-	.byte 6,249,1
-	.long System_Collections_Generic_List_1_T_INTPTR_AddWithResize_T_INTPTR
+	.byte 6,157,3
+	.long System_Collections_Generic_List_1_T_INTPTR_EnsureCapacity_int
 	.long Lme_226
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2341=LTDIE_72_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2341
+LDIFF_SYM2339=LTDIE_72_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2339
 	.byte 2,125,8,3
-	.asciz "item"
+	.asciz "min"
 
-LDIFF_SYM2342=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2342
-	.byte 2,125,12,11
-	.asciz "size"
+LDIFF_SYM2340=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2340
+	.byte 1,90,11
+	.asciz "newCapacity"
 
-LDIFF_SYM2343=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2343
+LDIFF_SYM2341=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2341
 	.byte 1,86,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2344=Lfde376_end - Lfde376_start
-	.long LDIFF_SYM2344
+LDIFF_SYM2342=Lfde376_end - Lfde376_start
+	.long LDIFF_SYM2342
 Lfde376_start:
 
 	.long 0
 	.align 2
-	.long System_Collections_Generic_List_1_T_INTPTR_AddWithResize_T_INTPTR
+	.long System_Collections_Generic_List_1_T_INTPTR_EnsureCapacity_int
 
-LDIFF_SYM2345=Lme_226 - System_Collections_Generic_List_1_T_INTPTR_AddWithResize_T_INTPTR
-	.long LDIFF_SYM2345
-	.byte 68,14,8,135,2,72,14,16,134,4,136,3,142,1,68,14,40,3,60,1,10,68,14,16,68,8,6,8,8,14,8,68
-	.byte 11
+LDIFF_SYM2343=Lme_226 - System_Collections_Generic_List_1_T_INTPTR_EnsureCapacity_int
+	.long LDIFF_SYM2343
+	.byte 68,14,8,135,2,72,14,24,133,6,134,5,136,4,138,3,142,1,68,14,48,3,208,1,10,68,14,24,68,8,5,8
+	.byte 6,8,8,8,10,14,8,68,11
 	.align 2
 Lfde376_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "System.Collections.Generic.List`1<T_REF>:AddWithResize"
-	.asciz "System_Collections_Generic_List_1_T_REF_AddWithResize_T_REF"
+	.asciz "System.Collections.Generic.List`1<T_REF>:EnsureCapacity"
+	.asciz "System_Collections_Generic_List_1_T_REF_EnsureCapacity_int"
 
-	.byte 6,249,1
-	.long System_Collections_Generic_List_1_T_REF_AddWithResize_T_REF
+	.byte 6,157,3
+	.long System_Collections_Generic_List_1_T_REF_EnsureCapacity_int
 	.long Lme_227
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2346=LTDIE_75_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2346
+LDIFF_SYM2344=LTDIE_75_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2344
 	.byte 2,125,8,3
-	.asciz "item"
+	.asciz "min"
 
-LDIFF_SYM2347=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2347
-	.byte 2,125,12,11
-	.asciz "size"
+LDIFF_SYM2345=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2345
+	.byte 1,90,11
+	.asciz "newCapacity"
 
-LDIFF_SYM2348=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2348
+LDIFF_SYM2346=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2346
 	.byte 1,86,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2349=Lfde377_end - Lfde377_start
-	.long LDIFF_SYM2349
+LDIFF_SYM2347=Lfde377_end - Lfde377_start
+	.long LDIFF_SYM2347
 Lfde377_start:
 
 	.long 0
 	.align 2
-	.long System_Collections_Generic_List_1_T_REF_AddWithResize_T_REF
+	.long System_Collections_Generic_List_1_T_REF_EnsureCapacity_int
 
-LDIFF_SYM2350=Lme_227 - System_Collections_Generic_List_1_T_REF_AddWithResize_T_REF
-	.long LDIFF_SYM2350
-	.byte 68,14,8,135,2,72,14,16,134,4,136,3,142,1,68,14,32,3,12,1,10,68,14,16,68,8,6,8,8,14,8,68
-	.byte 11
+LDIFF_SYM2348=Lme_227 - System_Collections_Generic_List_1_T_REF_EnsureCapacity_int
+	.long LDIFF_SYM2348
+	.byte 68,14,8,135,2,72,14,24,133,6,134,5,136,4,138,3,142,1,68,14,40,3,180,1,10,68,14,24,68,8,5,8
+	.byte 6,8,8,8,10,14,8,68,11
 	.align 2
 Lfde377_end:
 
@@ -34573,46 +34448,46 @@ LTDIE_83:
 	.asciz "System_Collections_Generic_EqualityComparer`1"
 
 	.byte 8,16
-LDIFF_SYM2351=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM2351
+LDIFF_SYM2349=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM2349
 	.byte 2,35,0,0,7
 	.asciz "System_Collections_Generic_EqualityComparer`1"
 
-LDIFF_SYM2352=LTDIE_83 - Ldebug_info_start
-	.long LDIFF_SYM2352
+LDIFF_SYM2350=LTDIE_83 - Ldebug_info_start
+	.long LDIFF_SYM2350
 LTDIE_83_POINTER:
 
 	.byte 13
-LDIFF_SYM2353=LTDIE_83 - Ldebug_info_start
-	.long LDIFF_SYM2353
+LDIFF_SYM2351=LTDIE_83 - Ldebug_info_start
+	.long LDIFF_SYM2351
 LTDIE_83_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2354=LTDIE_83 - Ldebug_info_start
-	.long LDIFF_SYM2354
+LDIFF_SYM2352=LTDIE_83 - Ldebug_info_start
+	.long LDIFF_SYM2352
 LTDIE_82:
 
 	.byte 5
 	.asciz "System_Collections_Generic_ObjectEqualityComparer`1"
 
 	.byte 8,16
-LDIFF_SYM2355=LTDIE_83 - Ldebug_info_start
-	.long LDIFF_SYM2355
+LDIFF_SYM2353=LTDIE_83 - Ldebug_info_start
+	.long LDIFF_SYM2353
 	.byte 2,35,0,0,7
 	.asciz "System_Collections_Generic_ObjectEqualityComparer`1"
 
-LDIFF_SYM2356=LTDIE_82 - Ldebug_info_start
-	.long LDIFF_SYM2356
+LDIFF_SYM2354=LTDIE_82 - Ldebug_info_start
+	.long LDIFF_SYM2354
 LTDIE_82_POINTER:
 
 	.byte 13
-LDIFF_SYM2357=LTDIE_82 - Ldebug_info_start
-	.long LDIFF_SYM2357
+LDIFF_SYM2355=LTDIE_82 - Ldebug_info_start
+	.long LDIFF_SYM2355
 LTDIE_82_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2358=LTDIE_82 - Ldebug_info_start
-	.long LDIFF_SYM2358
+LDIFF_SYM2356=LTDIE_82 - Ldebug_info_start
+	.long LDIFF_SYM2356
 	.byte 2
 	.asciz "System.Collections.Generic.ObjectEqualityComparer`1<T_INTPTR>:.ctor"
 	.asciz "System_Collections_Generic_ObjectEqualityComparer_1_T_INTPTR__ctor"
@@ -34624,22 +34499,22 @@ LDIFF_SYM2358=LTDIE_82 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2359=LTDIE_82_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2359
+LDIFF_SYM2357=LTDIE_82_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2357
 	.byte 2,125,8,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2360=Lfde378_end - Lfde378_start
-	.long LDIFF_SYM2360
+LDIFF_SYM2358=Lfde378_end - Lfde378_start
+	.long LDIFF_SYM2358
 Lfde378_start:
 
 	.long 0
 	.align 2
 	.long System_Collections_Generic_ObjectEqualityComparer_1_T_INTPTR__ctor
 
-LDIFF_SYM2361=Lme_228 - System_Collections_Generic_ObjectEqualityComparer_1_T_INTPTR__ctor
-	.long LDIFF_SYM2361
+LDIFF_SYM2359=Lme_228 - System_Collections_Generic_ObjectEqualityComparer_1_T_INTPTR__ctor
+	.long LDIFF_SYM2359
 	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,40,2,132,10,68,14,12,68,8,8,14,8,68,11
 	.align 2
 Lfde378_end:
@@ -34651,46 +34526,46 @@ LTDIE_85:
 	.asciz "System_Collections_Generic_EqualityComparer`1"
 
 	.byte 8,16
-LDIFF_SYM2362=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM2362
+LDIFF_SYM2360=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM2360
 	.byte 2,35,0,0,7
 	.asciz "System_Collections_Generic_EqualityComparer`1"
 
-LDIFF_SYM2363=LTDIE_85 - Ldebug_info_start
-	.long LDIFF_SYM2363
+LDIFF_SYM2361=LTDIE_85 - Ldebug_info_start
+	.long LDIFF_SYM2361
 LTDIE_85_POINTER:
 
 	.byte 13
-LDIFF_SYM2364=LTDIE_85 - Ldebug_info_start
-	.long LDIFF_SYM2364
+LDIFF_SYM2362=LTDIE_85 - Ldebug_info_start
+	.long LDIFF_SYM2362
 LTDIE_85_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2365=LTDIE_85 - Ldebug_info_start
-	.long LDIFF_SYM2365
+LDIFF_SYM2363=LTDIE_85 - Ldebug_info_start
+	.long LDIFF_SYM2363
 LTDIE_84:
 
 	.byte 5
 	.asciz "System_Collections_Generic_ObjectEqualityComparer`1"
 
 	.byte 8,16
-LDIFF_SYM2366=LTDIE_85 - Ldebug_info_start
-	.long LDIFF_SYM2366
+LDIFF_SYM2364=LTDIE_85 - Ldebug_info_start
+	.long LDIFF_SYM2364
 	.byte 2,35,0,0,7
 	.asciz "System_Collections_Generic_ObjectEqualityComparer`1"
 
-LDIFF_SYM2367=LTDIE_84 - Ldebug_info_start
-	.long LDIFF_SYM2367
+LDIFF_SYM2365=LTDIE_84 - Ldebug_info_start
+	.long LDIFF_SYM2365
 LTDIE_84_POINTER:
 
 	.byte 13
-LDIFF_SYM2368=LTDIE_84 - Ldebug_info_start
-	.long LDIFF_SYM2368
+LDIFF_SYM2366=LTDIE_84 - Ldebug_info_start
+	.long LDIFF_SYM2366
 LTDIE_84_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2369=LTDIE_84 - Ldebug_info_start
-	.long LDIFF_SYM2369
+LDIFF_SYM2367=LTDIE_84 - Ldebug_info_start
+	.long LDIFF_SYM2367
 	.byte 2
 	.asciz "System.Collections.Generic.ObjectEqualityComparer`1<T_REF>:.ctor"
 	.asciz "System_Collections_Generic_ObjectEqualityComparer_1_T_REF__ctor"
@@ -34702,22 +34577,22 @@ LDIFF_SYM2369=LTDIE_84 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2370=LTDIE_84_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2370
+LDIFF_SYM2368=LTDIE_84_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2368
 	.byte 2,125,8,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2371=Lfde379_end - Lfde379_start
-	.long LDIFF_SYM2371
+LDIFF_SYM2369=Lfde379_end - Lfde379_start
+	.long LDIFF_SYM2369
 Lfde379_start:
 
 	.long 0
 	.align 2
 	.long System_Collections_Generic_ObjectEqualityComparer_1_T_REF__ctor
 
-LDIFF_SYM2372=Lme_229 - System_Collections_Generic_ObjectEqualityComparer_1_T_REF__ctor
-	.long LDIFF_SYM2372
+LDIFF_SYM2370=Lme_229 - System_Collections_Generic_ObjectEqualityComparer_1_T_REF__ctor
+	.long LDIFF_SYM2370
 	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,32,2,104,10,68,14,12,68,8,8,14,8,68,11
 	.align 2
 Lfde379_end:
@@ -34725,88 +34600,88 @@ Lfde379_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "System.Collections.Generic.List`1<T_INTPTR>:EnsureCapacity"
-	.asciz "System_Collections_Generic_List_1_T_INTPTR_EnsureCapacity_int"
+	.asciz "System.Collections.Generic.List`1<T_INTPTR>:set_Capacity"
+	.asciz "System_Collections_Generic_List_1_T_INTPTR_set_Capacity_int"
 
-	.byte 6,190,3
-	.long System_Collections_Generic_List_1_T_INTPTR_EnsureCapacity_int
+	.byte 6,116
+	.long System_Collections_Generic_List_1_T_INTPTR_set_Capacity_int
 	.long Lme_22a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2373=LTDIE_72_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2373
-	.byte 2,125,8,3
-	.asciz "min"
+LDIFF_SYM2371=LTDIE_72_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2371
+	.byte 2,123,16,3
+	.asciz "value"
 
-LDIFF_SYM2374=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2374
+LDIFF_SYM2372=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2372
 	.byte 1,90,11
-	.asciz "newCapacity"
+	.asciz "newItems"
 
-LDIFF_SYM2375=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2375
+LDIFF_SYM2373=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM2373
 	.byte 1,86,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2376=Lfde380_end - Lfde380_start
-	.long LDIFF_SYM2376
+LDIFF_SYM2374=Lfde380_end - Lfde380_start
+	.long LDIFF_SYM2374
 Lfde380_start:
 
 	.long 0
 	.align 2
-	.long System_Collections_Generic_List_1_T_INTPTR_EnsureCapacity_int
+	.long System_Collections_Generic_List_1_T_INTPTR_set_Capacity_int
 
-LDIFF_SYM2377=Lme_22a - System_Collections_Generic_List_1_T_INTPTR_EnsureCapacity_int
-	.long LDIFF_SYM2377
-	.byte 68,14,8,135,2,72,14,24,133,6,134,5,136,4,138,3,142,1,68,14,48,3,200,1,10,68,14,24,68,8,5,8
-	.byte 6,8,8,8,10,14,8,68,11
+LDIFF_SYM2375=Lme_22a - System_Collections_Generic_List_1_T_INTPTR_set_Capacity_int
+	.long LDIFF_SYM2375
+	.byte 68,14,8,135,2,72,14,24,134,6,136,5,138,4,139,3,142,1,68,14,56,68,13,11,3,148,2,10,68,13,13,14
+	.byte 24,68,8,6,8,8,8,10,8,11,14,8,68,11
 	.align 2
 Lfde380_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "System.Collections.Generic.List`1<T_REF>:EnsureCapacity"
-	.asciz "System_Collections_Generic_List_1_T_REF_EnsureCapacity_int"
+	.asciz "System.Collections.Generic.List`1<T_REF>:set_Capacity"
+	.asciz "System_Collections_Generic_List_1_T_REF_set_Capacity_int"
 
-	.byte 6,190,3
-	.long System_Collections_Generic_List_1_T_REF_EnsureCapacity_int
+	.byte 6,116
+	.long System_Collections_Generic_List_1_T_REF_set_Capacity_int
 	.long Lme_22b
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2378=LTDIE_75_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2378
-	.byte 2,125,8,3
-	.asciz "min"
+LDIFF_SYM2376=LTDIE_75_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2376
+	.byte 2,123,16,3
+	.asciz "value"
 
-LDIFF_SYM2379=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2379
+LDIFF_SYM2377=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2377
 	.byte 1,90,11
-	.asciz "newCapacity"
+	.asciz "newItems"
 
-LDIFF_SYM2380=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2380
+LDIFF_SYM2378=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM2378
 	.byte 1,86,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2381=Lfde381_end - Lfde381_start
-	.long LDIFF_SYM2381
+LDIFF_SYM2379=Lfde381_end - Lfde381_start
+	.long LDIFF_SYM2379
 Lfde381_start:
 
 	.long 0
 	.align 2
-	.long System_Collections_Generic_List_1_T_REF_EnsureCapacity_int
+	.long System_Collections_Generic_List_1_T_REF_set_Capacity_int
 
-LDIFF_SYM2382=Lme_22b - System_Collections_Generic_List_1_T_REF_EnsureCapacity_int
-	.long LDIFF_SYM2382
-	.byte 68,14,8,135,2,72,14,24,133,6,134,5,136,4,138,3,142,1,68,14,40,3,172,1,10,68,14,24,68,8,5,8
-	.byte 6,8,8,8,10,14,8,68,11
+LDIFF_SYM2380=Lme_22b - System_Collections_Generic_List_1_T_REF_set_Capacity_int
+	.long LDIFF_SYM2380
+	.byte 68,14,8,135,2,72,14,24,134,6,136,5,138,4,139,3,142,1,68,14,56,68,13,11,3,148,2,10,68,13,13,14
+	.byte 24,68,8,6,8,8,8,10,8,11,14,8,68,11
 	.align 2
 Lfde381_end:
 
@@ -34823,22 +34698,22 @@ Lfde381_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2383=LTDIE_57_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2383
+LDIFF_SYM2381=LTDIE_57_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2381
 	.byte 2,125,8,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2384=Lfde382_end - Lfde382_start
-	.long LDIFF_SYM2384
+LDIFF_SYM2382=Lfde382_end - Lfde382_start
+	.long LDIFF_SYM2382
 Lfde382_start:
 
 	.long 0
 	.align 2
 	.long System_Collections_Generic_EqualityComparer_1_T_INTPTR__ctor
 
-LDIFF_SYM2385=Lme_22c - System_Collections_Generic_EqualityComparer_1_T_INTPTR__ctor
-	.long LDIFF_SYM2385
+LDIFF_SYM2383=Lme_22c - System_Collections_Generic_EqualityComparer_1_T_INTPTR__ctor
+	.long LDIFF_SYM2383
 	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,32,2,100,10,68,14,12,68,8,8,14,8,68,11
 	.align 2
 Lfde382_end:
@@ -34856,113 +34731,25 @@ Lfde382_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2386=LTDIE_58_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2386
+LDIFF_SYM2384=LTDIE_58_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2384
 	.byte 2,125,8,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2387=Lfde383_end - Lfde383_start
-	.long LDIFF_SYM2387
+LDIFF_SYM2385=Lfde383_end - Lfde383_start
+	.long LDIFF_SYM2385
 Lfde383_start:
 
 	.long 0
 	.align 2
 	.long System_Collections_Generic_EqualityComparer_1_T_REF__ctor
 
-LDIFF_SYM2388=Lme_22d - System_Collections_Generic_EqualityComparer_1_T_REF__ctor
-	.long LDIFF_SYM2388
+LDIFF_SYM2386=Lme_22d - System_Collections_Generic_EqualityComparer_1_T_REF__ctor
+	.long LDIFF_SYM2386
 	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,32,2,100,10,68,14,12,68,8,8,14,8,68,11
 	.align 2
 Lfde383_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Collections.Generic.List`1<T_INTPTR>:set_Capacity"
-	.asciz "System_Collections_Generic_List_1_T_INTPTR_set_Capacity_int"
-
-	.byte 6,104
-	.long System_Collections_Generic_List_1_T_INTPTR_set_Capacity_int
-	.long Lme_22e
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM2389=LTDIE_72_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2389
-	.byte 2,123,16,3
-	.asciz "value"
-
-LDIFF_SYM2390=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2390
-	.byte 1,90,11
-	.asciz "newItems"
-
-LDIFF_SYM2391=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM2391
-	.byte 1,86,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM2392=Lfde384_end - Lfde384_start
-	.long LDIFF_SYM2392
-Lfde384_start:
-
-	.long 0
-	.align 2
-	.long System_Collections_Generic_List_1_T_INTPTR_set_Capacity_int
-
-LDIFF_SYM2393=Lme_22e - System_Collections_Generic_List_1_T_INTPTR_set_Capacity_int
-	.long LDIFF_SYM2393
-	.byte 68,14,8,135,2,72,14,24,134,6,136,5,138,4,139,3,142,1,68,14,56,68,13,11,3,148,2,10,68,13,13,14
-	.byte 24,68,8,6,8,8,8,10,8,11,14,8,68,11
-	.align 2
-Lfde384_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Collections.Generic.List`1<T_REF>:set_Capacity"
-	.asciz "System_Collections_Generic_List_1_T_REF_set_Capacity_int"
-
-	.byte 6,104
-	.long System_Collections_Generic_List_1_T_REF_set_Capacity_int
-	.long Lme_22f
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM2394=LTDIE_75_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2394
-	.byte 2,123,16,3
-	.asciz "value"
-
-LDIFF_SYM2395=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2395
-	.byte 1,90,11
-	.asciz "newItems"
-
-LDIFF_SYM2396=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM2396
-	.byte 1,86,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM2397=Lfde385_end - Lfde385_start
-	.long LDIFF_SYM2397
-Lfde385_start:
-
-	.long 0
-	.align 2
-	.long System_Collections_Generic_List_1_T_REF_set_Capacity_int
-
-LDIFF_SYM2398=Lme_22f - System_Collections_Generic_List_1_T_REF_set_Capacity_int
-	.long LDIFF_SYM2398
-	.byte 68,14,8,135,2,72,14,24,134,6,136,5,138,4,139,3,142,1,68,14,56,68,13,11,3,148,2,10,68,13,13,14
-	.byte 24,68,8,6,8,8,8,10,8,11,14,8,68,11
-	.align 2
-Lfde385_end:
 
 .section __DWARF, __debug_info,regular,debug
 

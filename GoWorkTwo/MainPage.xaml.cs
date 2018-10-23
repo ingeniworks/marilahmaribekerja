@@ -83,6 +83,9 @@ namespace GoWorkTwo
 
         private void V2InterfaceSetupInit(string syncValue = "0")
         {
+            //BackgroundImage = "blueback.png";
+            //slMPMainLayout.b= backImage;
+
             //Attendance
             lblMPAttTitleText.Text = $"Kedatangan";
             lblMPAttTitleText.FontSize = 24.0;

@@ -21,7 +21,7 @@ Ldebug_info_begin:
 	.short 2
 	.long 0
 	.byte 8,1
-	.asciz "Mono AOT Compiler 5.14.0 (explicit/d31dbe843a5 Tue Aug 14 13:34:52 EDT 2018)"
+	.asciz "Mono AOT Compiler 5.12.0 (tarball Mon Sep 17 21:30:02 EDT 2018)"
 	.asciz "SQLitePCLRaw.batteries_v2.dll"
 	.asciz ""
 
@@ -345,7 +345,7 @@ _mono_aot_file_info:
 	.long 32,760,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0
-	.byte 196,230,113,176,75,50,242,175,166,179,22,76,204,105,238,199
+	.byte 10,64,53,217,45,64,34,255,156,28,218,174,165,152,170,147
 	.globl _mono_aot_module_SQLitePCLRaw_batteries_v2_info
 	.align 3
 _mono_aot_module_SQLitePCLRaw_batteries_v2_info:

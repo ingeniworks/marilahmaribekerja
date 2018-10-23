@@ -10,6 +10,18 @@ namespace GoWorkTwo.V1
         public MainPage()
         {
             InitializeComponent();
+
+            lblMPAttTitle.FontFamily = "Fonts/ChakraPetch-Medium.ttf#ChakraPetch-Medium";
+        }
+
+        public void SyncTapHander (object sender, EventArgs e)
+        {
+
+        }
+
+        public void TrainingTapHander(object sender, EventArgs e)
+        {
+
         }
     }
 }

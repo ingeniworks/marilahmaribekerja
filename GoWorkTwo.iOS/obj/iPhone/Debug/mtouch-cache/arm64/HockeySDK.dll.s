@@ -21,7 +21,7 @@ Ldebug_info_begin:
 	.short 2
 	.long 0
 	.byte 8,1
-	.asciz "Mono AOT Compiler 5.14.0 (explicit/d31dbe843a5 Tue Aug 14 13:34:52 EDT 2018)"
+	.asciz "Mono AOT Compiler 5.12.0 (tarball Mon Sep 17 21:30:02 EDT 2018)"
 	.asciz "HockeySDK.dll"
 	.asciz ""
 
@@ -1670,8 +1670,8 @@ LDIFF_SYM3=ut_end - ut_27
 	.align 4
 	.no_dead_strip System_Array_InternalEnumerator_1_T_INST__ctor_System_Array
 System_Array_InternalEnumerator_1_T_INST__ctor_System_Array:
-.file 2 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.16.0.1/src/Xamarin.iOS/mcs/class/corlib/System/Array.cs"
-.loc 2 217 0 prologue_end
+.file 2 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.0.0.15/src/Xamarin.iOS/mcs/class/corlib/System/Array.cs"
+.loc 2 218 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
 .word 0xf9000bb9
@@ -1712,7 +1712,7 @@ ldr x2, [x16, #16]
 .word 0x8b020021
 .word 0xd280003e
 .word 0x3900003e
-.loc 2 218 0
+.loc 2 219 0
 .word 0xf94013b1
 .word 0xf940a631
 .word 0xb4000051
@@ -1723,7 +1723,7 @@ ldr x2, [x16, #16]
 .word 0x9280003e
 .word 0xf2bffffe
 .word 0xb9000b3e
-.loc 2 219 0
+.loc 2 220 0
 .word 0xf94013b1
 .word 0xf940ce31
 .word 0xb4000051
@@ -1746,7 +1746,7 @@ b System_Array_InternalEnumerator_1_T_INST_Dispose
 	.align 4
 	.no_dead_strip System_Array_InternalEnumerator_1_T_INST_Dispose
 System_Array_InternalEnumerator_1_T_INST_Dispose:
-.loc 2 223 0 prologue_end
+.loc 2 224 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
 .word 0xf9001baf
@@ -1787,7 +1787,7 @@ b System_Array_InternalEnumerator_1_T_INST_MoveNext
 	.align 4
 	.no_dead_strip System_Array_InternalEnumerator_1_T_INST_MoveNext
 System_Array_InternalEnumerator_1_T_INST_MoveNext:
-.loc 2 227 0 prologue_end
+.loc 2 228 0 prologue_end
 .word 0xa9bb7bfd
 .word 0x910003fd
 .word 0xa9016bb9
@@ -1817,11 +1817,13 @@ ldr x16, [x16, #488]
 .word 0xb9800b40
 .word 0x92800021
 .word 0xf2bfffe1
-.word 0x6b01001f
+.word 0x9280003e
+.word 0xf2bffffe
+.word 0x6b1e001f
 .word 0x54000201
-.loc 2 228 0
+.loc 2 229 0
 .word 0xf94013b1
-.word 0xf9408631
+.word 0xf9408e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -1830,26 +1832,28 @@ ldr x16, [x16, #488]
 .word 0xb9801800
 .word 0xf90023a0
 .word 0xf94013b1
-.word 0xf940aa31
+.word 0xf940b231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xb9000b40
-.loc 2 230 0
+.loc 2 231 0
 .word 0xf94017b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf940d231
+.word 0xf940da31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xb9800b40
 .word 0x92800001
 .word 0xf2bfffe1
-.word 0x6b01001f
-.word 0x54000220
+.word 0x9280001e
+.word 0xf2bffffe
+.word 0x6b1e001f
+.word 0x54000260
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 .word 0xb9800b40
@@ -1860,16 +1864,18 @@ ldr x16, [x16, #488]
 .word 0xaa1903e0
 .word 0x92800000
 .word 0xf2bfffe0
-.word 0x6b00033f
+.word 0x9280001e
+.word 0xf2bffffe
+.word 0x6b1e033f
 .word 0x9a9f17e0
 .word 0xd2800001
-.word 0x6b01001f
+.word 0x6b1f001f
 .word 0x9a9f17e0
 .word 0x14000003
 .word 0xd2800000
 .word 0xd2800000
 .word 0xf94013b1
-.word 0xf9414231
+.word 0xf9415a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xa9416bb9
@@ -1886,7 +1892,7 @@ b System_Array_InternalEnumerator_1_T_INST_get_Current
 	.align 4
 	.no_dead_strip System_Array_InternalEnumerator_1_T_INST_get_Current
 System_Array_InternalEnumerator_1_T_INST_get_Current:
-.loc 2 235 0 prologue_end
+.loc 2 236 0 prologue_end
 .word 0xa9b77bfd
 .word 0x910003fd
 .word 0xf9000bba
@@ -1915,52 +1921,56 @@ ldr x16, [x16, #496]
 .word 0xb9800b40
 .word 0x92800021
 .word 0xf2bfffe1
-.word 0x6b01001f
+.word 0x9280003e
+.word 0xf2bffffe
+.word 0x6b1e001f
 .word 0x540001e1
-.loc 2 236 0
+.loc 2 237 0
 .word 0xf94017b1
-.word 0xf9408231
+.word 0xf9408a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2894ae0
-.word 0xd2894ae0
+.word 0xd2889160
+.word 0xd2889160
 bl _p_25
 .word 0xaa0003e1
-.word 0xd2802080
+.word 0xd2801f80
 .word 0xf2a04000
-.word 0xd2802080
+.word 0xd2801f80
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_26
-.loc 2 237 0
+.loc 2 238 0
 .word 0xf94017b1
-.word 0xf940ba31
+.word 0xf940c231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xb9800b40
 .word 0x92800001
 .word 0xf2bfffe1
-.word 0x6b01001f
+.word 0x9280001e
+.word 0xf2bffffe
+.word 0x6b1e001f
 .word 0x540001e1
-.loc 2 238 0
+.loc 2 239 0
 .word 0xf94017b1
-.word 0xf940e231
+.word 0xf940f231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28955a0
-.word 0xd28955a0
+.word 0xd2889c20
+.word 0xd2889c20
 bl _p_25
 .word 0xaa0003e1
-.word 0xd2802080
+.word 0xd2801f80
 .word 0xf2a04000
-.word 0xd2802080
+.word 0xd2801f80
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_26
-.loc 2 240 0
+.loc 2 241 0
 .word 0xf94017b1
-.word 0xf9411a31
+.word 0xf9412a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -1971,7 +1981,7 @@ bl _p_26
 .word 0xb9801800
 .word 0xf90043a0
 .word 0xf94017b1
-.word 0xf9414631
+.word 0xf9415631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94043a0
@@ -2001,7 +2011,7 @@ bl _p_28
 .word 0xf90003c0
 .word 0xf90007c1
 .word 0xf94017b1
-.word 0xf941be31
+.word 0xf941ce31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x910103a0
@@ -2011,7 +2021,7 @@ bl _p_28
 .word 0xf94027a0
 .word 0xf90013a0
 .word 0xf94017b1
-.word 0xf941e631
+.word 0xf941f631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400bba
@@ -2030,7 +2040,7 @@ b System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_Reset
 	.align 4
 	.no_dead_strip System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_Reset
 System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_Reset:
-.loc 2 246 0 prologue_end
+.loc 2 247 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
 .word 0xf9001baf
@@ -2060,7 +2070,7 @@ ldr x16, [x16, #504]
 .word 0x9280003e
 .word 0xf2bffffe
 .word 0xb900081e
-.loc 2 247 0
+.loc 2 248 0
 .word 0xf9400fb1
 .word 0xf9407e31
 .word 0xb4000051
@@ -2082,7 +2092,7 @@ b System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_get_Cu
 	.align 4
 	.no_dead_strip System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_get_Current
 System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_get_Current:
-.loc 2 251 0 prologue_end
+.loc 2 252 0 prologue_end
 .word 0xa9b97bfd
 .word 0x910003fd
 .word 0xf90023af
@@ -2178,7 +2188,7 @@ Lme_20:
 	.align 4
 	.no_dead_strip System_Array_InternalArray__IEnumerable_GetEnumerator_T_INST
 System_Array_InternalArray__IEnumerable_GetEnumerator_T_INST:
-.loc 2 70 0 prologue_end
+.loc 2 71 0 prologue_end
 .word 0xa9b97bfd
 .word 0x910003fd
 .word 0xf9000bba
@@ -2212,7 +2222,7 @@ ldr x16, [x16, #520]
 .word 0xd63f0220
 .word 0xf94033a0
 .word 0x350001c0
-.loc 2 71 0
+.loc 2 72 0
 .word 0xf9400fb1
 .word 0xf9408e31
 .word 0xb4000051
@@ -2226,7 +2236,7 @@ bl _p_33
 bl _p_34
 .word 0xf9400000
 .word 0x14000037
-.loc 2 73 0
+.loc 2 74 0
 .word 0xf9400fb1
 .word 0xf940c231
 .word 0xb4000051
@@ -2296,7 +2306,7 @@ Lme_21:
 	.align 4
 	.no_dead_strip System_Collections_Generic_Dictionary_2_TKey_REF_TValue_DOUBLE__ctor
 System_Collections_Generic_Dictionary_2_TKey_REF_TValue_DOUBLE__ctor:
-.file 3 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.16.0.1/src/Xamarin.iOS/external/corefx/src/Common/src/CoreLib/System/Collections/Generic/Dictionary.cs"
+.file 3 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.0.0.15/src/Xamarin.iOS/external/corefx/src/Common/src/CoreLib/System/Collections/Generic/Dictionary.cs"
 .loc 3 67 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
@@ -2495,7 +2505,7 @@ ldr x16, [x16, #552]
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xd2800000
-.word 0x6b00033f
+.word 0x6b1f033f
 .word 0x5400010a
 .word 0xf94023b1
 .word 0xf9409631
@@ -2515,7 +2525,7 @@ bl _p_40
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xd2800000
-.word 0x6b00033f
+.word 0x6b1f033f
 .word 0x540002ad
 .word 0xf94023b1
 .word 0xf940e231
@@ -2856,7 +2866,7 @@ bl _p_49
 .word 0x91008000
 .word 0xb9800000
 .word 0xd2800001
-.word 0x6b01001f
+.word 0x6b1f001f
 .word 0x540005cb
 .loc 3 109 0
 .word 0xf94037b1
@@ -2954,7 +2964,7 @@ bl _p_51
 .word 0xaa0003ef
 .word 0xaa1903e0
 .word 0xf9400321
-.word 0x928004f0
+.word 0x928005f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -2985,7 +2995,7 @@ bl _p_52
 .word 0xf90053a0
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0x92800bf0
+.word 0x928002f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -3130,10 +3140,10 @@ ldr x15, [x16, #584]
 .word 0x910003bf
 .word 0xa8d27bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2801ea0
 .word 0xaa1103e1
 bl _p_56
-.word 0xd2802060
+.word 0xd2801f60
 .word 0xaa1103e1
 bl _p_56
 
@@ -3891,7 +3901,7 @@ bl _p_71
 .word 0xf9402ba0
 .word 0xaa0003e1
 .word 0xd2800001
-.word 0x6b01001f
+.word 0x6b1f001f
 .word 0x5400026b
 .word 0xf94017b1
 .word 0xf940ea31
@@ -3936,7 +3946,7 @@ bl _p_72
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2801ea0
 .word 0xaa1103e1
 bl _p_56
 
@@ -4241,7 +4251,7 @@ bl _p_81
 .word 0xf9402ba0
 .word 0xaa0003e1
 .word 0xd2800001
-.word 0x6b01001f
+.word 0x6b1f001f
 .word 0x540008ab
 .word 0xf9400fa0
 .word 0xf9400000
@@ -4331,7 +4341,7 @@ bl _p_84
 .word 0x910003bf
 .word 0xa8ca7bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2801ea0
 .word 0xaa1103e1
 bl _p_56
 
@@ -4414,7 +4424,7 @@ bl _p_87
 .word 0xf9402ba0
 .word 0xaa0003e1
 .word 0xd2800001
-.word 0x6b01001f
+.word 0x6b1f001f
 .word 0x54000d8b
 .word 0xf9400fa0
 .word 0xf9400000
@@ -4544,7 +4554,7 @@ bl _p_91
 .word 0x910003bf
 .word 0xa8ca7bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2801ea0
 .word 0xaa1103e1
 bl _p_56
 
@@ -4591,7 +4601,7 @@ ldr x16, [x16, #712]
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xd2800000
-.word 0x6b00035f
+.word 0x6b1f035f
 .word 0x54000c2d
 .loc 3 269 0
 .word 0xf9401bb1
@@ -4716,7 +4726,7 @@ bl _p_92
 .word 0x910003bf
 .word 0xa8c57bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2801ea0
 .word 0xaa1103e1
 bl _p_56
 
@@ -4769,10 +4779,10 @@ bl _p_93
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xd2800001
-.word 0x6b01001f
+.word 0x6b1f001f
 .word 0x9a9fa7e0
 .word 0xd2800001
-.word 0x6b01001f
+.word 0x6b1f001f
 .word 0x9a9f17e0
 .word 0xf94013b1
 .word 0xf940ca31
@@ -4844,7 +4854,7 @@ ldr x16, [x16, #728]
 .word 0x91008000
 .word 0xb9800000
 .word 0xd2800001
-.word 0x6b01001f
+.word 0x6b1f001f
 .word 0x540002cb
 .word 0xf94017a0
 .word 0xf9400c00
@@ -4945,7 +4955,7 @@ bl _p_95
 .word 0x91008000
 .word 0xb9800000
 .word 0xd2800001
-.word 0x6b01001f
+.word 0x6b1f001f
 .word 0x5400046b
 .word 0xaa1903e0
 .word 0xf94017a0
@@ -5026,7 +5036,7 @@ bl _p_95
 .word 0x910003bf
 .word 0xa8c67bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2801ea0
 .word 0xaa1103e1
 bl _p_56
 
@@ -5087,7 +5097,7 @@ bl _p_47
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xd2800000
-.word 0x6b00035f
+.word 0x6b1f035f
 .word 0x540000cb
 .word 0xaa1a03e0
 .word 0xaa1903e0
@@ -5190,7 +5200,7 @@ bl _p_98
 .word 0x91008000
 .word 0xb9800000
 .word 0xd2800001
-.word 0x6b01001f
+.word 0x6b1f001f
 .word 0x54000beb
 .loc 3 331 0
 .word 0xf94027b1
@@ -5327,7 +5337,7 @@ ldr x3, [x16, #16]
 .word 0x910003bf
 .word 0xa8cb7bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2801ea0
 .word 0xaa1103e1
 bl _p_56
 
@@ -5859,7 +5869,7 @@ bl _p_113
 .word 0xaa0203e0
 .word 0xaa1a03e1
 .word 0xf9400042
-.word 0x928002f0
+.word 0x928006f0
 .word 0xf2bffff0
 .word 0xf8706850
 .word 0xd63f0200
@@ -5977,7 +5987,7 @@ bl _p_114
 .word 0xaa0303e0
 .word 0xaa1a03e2
 .word 0xf9400063
-.word 0x928003f0
+.word 0x928010f0
 .word 0xf2bffff0
 .word 0xf8706870
 .word 0xd63f0200
@@ -6029,7 +6039,7 @@ bl _p_114
 .word 0xd63f0220
 .word 0xaa1803e0
 .word 0xd2800000
-.word 0x6b00031f
+.word 0x6b1f031f
 .word 0x54fff3aa
 .loc 3 380 0
 .word 0xf9401fb1
@@ -6053,13 +6063,13 @@ bl _p_114
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2801ea0
 .word 0xaa1103e1
 bl _p_56
-.word 0xd2802340
+.word 0xd2802240
 .word 0xaa1103e1
 bl _p_56
-.word 0xd2801960
+.word 0xd2801860
 .word 0xaa1103e1
 bl _p_56
 
@@ -6243,7 +6253,7 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c67bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2801ea0
 .word 0xaa1103e1
 bl _p_56
 
@@ -6350,7 +6360,7 @@ bl _p_118
 .word 0xaa0203e0
 .word 0xaa1903e1
 .word 0xf9400042
-.word 0x928002f0
+.word 0x928006f0
 .word 0xf2bffff0
 .word 0xf8706850
 .word 0xd63f0200
@@ -6376,7 +6386,7 @@ bl _p_118
 .word 0xb9801800
 .word 0x6b1f001f
 .word 0x10000011
-.word 0x54003f20
+.word 0x54003f60
 .word 0x9280001e
 .word 0xf2bffffe
 .word 0x6b1e001f
@@ -6389,10 +6399,10 @@ bl _p_118
 .word 0xd280003e
 .word 0x6b1e003f
 .word 0x10000011
-.word 0x54003d20
+.word 0x54003d60
 .word 0xf100001f
 .word 0x10000011
-.word 0x54003d20
+.word 0x54003d60
 .word 0x929ffff0
 .word 0xf2b00010
 .word 0xeb10031f
@@ -6404,7 +6414,7 @@ bl _p_118
 .word 0x8a110210
 .word 0xf100061f
 .word 0x10000011
-.word 0x54003b40
+.word 0x54003b80
 .word 0x1ac00f1e
 .word 0x1b00e3c0
 .word 0xaa0003f7
@@ -6426,13 +6436,13 @@ bl _p_118
 .word 0xb9801802
 .word 0xeb01005f
 .word 0x10000011
-.word 0x54003869
+.word 0x540038a9
 .word 0xd37ef421
 .word 0x8b010000
 .word 0x91008000
 .word 0xb9800000
 .word 0xaa0003f4
-.word 0x1400009d
+.word 0x1400009f
 .loc 3 413 0
 .word 0xf9402fb1
 .word 0xf942c231
@@ -6445,7 +6455,7 @@ bl _p_118
 .word 0xb9801802
 .word 0xeb01005f
 .word 0x10000011
-.word 0x54003629
+.word 0x54003669
 .word 0xd280031e
 .word 0x9b1e7c21
 .word 0x8b010000
@@ -6453,7 +6463,7 @@ bl _p_118
 .word 0xb9800000
 .word 0xaa1803e1
 .word 0x6b18001f
-.word 0x54000d81
+.word 0x54000dc1
 .word 0xf94027a0
 .word 0xf9401000
 .word 0xf90043a0
@@ -6464,7 +6474,7 @@ bl _p_118
 .word 0xb9801802
 .word 0xeb01005f
 .word 0x10000011
-.word 0x540033c9
+.word 0x54003409
 .word 0xd280031e
 .word 0x9b1e7c21
 .word 0x8b010000
@@ -6481,7 +6491,7 @@ bl _p_119
 .word 0xaa0303e0
 .word 0xaa1903e2
 .word 0xf9400063
-.word 0x928003f0
+.word 0x928010f0
 .word 0xf2bffff0
 .word 0xf8706870
 .word 0xd63f0200
@@ -6492,7 +6502,7 @@ bl _p_119
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9403ba0
-.word 0x340008a0
+.word 0x340008e0
 .loc 3 415 0
 .word 0xf9402fb1
 .word 0xf943ae31
@@ -6500,11 +6510,12 @@ bl _p_119
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xd2800020
-.word 0x6b00035f
+.word 0xd280003e
+.word 0x6b1e035f
 .word 0x54000461
 .loc 3 417 0
 .word 0xf9402fb1
-.word 0xf943ce31
+.word 0xf943d231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027a0
@@ -6514,7 +6525,7 @@ bl _p_119
 .word 0xb9801802
 .word 0xeb01005f
 .word 0x10000011
-.word 0x54002dc9
+.word 0x54002de9
 .word 0xd280031e
 .word 0x9b1e7c21
 .word 0x8b010000
@@ -6523,7 +6534,7 @@ bl _p_119
 .word 0xfd000800
 .loc 3 418 0
 .word 0xf9402fb1
-.word 0xf9441631
+.word 0xf9441a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027a0
@@ -6533,24 +6544,25 @@ bl _p_119
 .word 0xb9004c01
 .loc 3 419 0
 .word 0xf9402fb1
-.word 0xf9443a31
+.word 0xf9443e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd2800020
 .word 0xd2800020
-.word 0x1400014d
+.word 0x1400014e
 .loc 3 422 0
 .word 0xf9402fb1
-.word 0xf9445631
+.word 0xf9445a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xd2800040
-.word 0x6b00035f
+.word 0xd280005e
+.word 0x6b1e035f
 .word 0x54000101
 .loc 3 424 0
 .word 0xf9402fb1
-.word 0xf9447631
+.word 0xf9447e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
@@ -6562,7 +6574,7 @@ bl _p_120
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf944a231
+.word 0xf944aa31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd2800000
@@ -6574,7 +6586,7 @@ bl _p_120
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf944ce31
+.word 0xf944d631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1603e0
@@ -6582,7 +6594,7 @@ bl _p_120
 .word 0xaa0003f6
 .loc 3 411 0
 .word 0xf9402fb1
-.word 0xf944ea31
+.word 0xf944f231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027a0
@@ -6604,26 +6616,26 @@ bl _p_120
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf9454231
+.word 0xf9454a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1403e0
 .word 0xd2800000
-.word 0x6b00029f
-.word 0x54ffeb2a
+.word 0x6b1f029f
+.word 0x54ffeaea
 .loc 3 433 0
 .word 0xf9402fb1
-.word 0xf9456231
+.word 0xf9456a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027a0
 .word 0xb9804800
 .word 0xd2800001
-.word 0x6b01001f
+.word 0x6b1f001f
 .word 0x5400052d
 .loc 3 435 0
 .word 0xf9402fb1
-.word 0xf9458631
+.word 0xf9458e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027a0
@@ -6631,7 +6643,7 @@ bl _p_120
 .word 0xaa0003f5
 .loc 3 436 0
 .word 0xf9402fb1
-.word 0xf945a231
+.word 0xf945aa31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027a0
@@ -6651,7 +6663,7 @@ bl _p_120
 .word 0xb9004401
 .loc 3 437 0
 .word 0xf9402fb1
-.word 0xf945ee31
+.word 0xf945f631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027a0
@@ -6661,13 +6673,13 @@ bl _p_120
 .word 0xb9004801
 .loc 3 438 0
 .word 0xf9402fb1
-.word 0xf9461231
+.word 0xf9461a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x14000057
 .loc 3 441 0
 .word 0xf9402fb1
-.word 0xf9462631
+.word 0xf9462e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027a0
@@ -6679,7 +6691,7 @@ bl _p_120
 .word 0x54000701
 .loc 3 443 0
 .word 0xf9402fb1
-.word 0xf9465231
+.word 0xf9465a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027a0
@@ -6693,7 +6705,7 @@ bl _p_121
 .word 0xd63f0020
 .loc 3 444 0
 .word 0xf9402fb1
-.word 0xf9468631
+.word 0xf9468e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1803e0
@@ -6740,7 +6752,7 @@ bl _p_121
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf9473e31
+.word 0xf9474631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027a0
@@ -6748,7 +6760,7 @@ bl _p_121
 .word 0xaa0003f5
 .loc 3 447 0
 .word 0xf9402fb1
-.word 0xf9475a31
+.word 0xf9476231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027a0
@@ -6762,7 +6774,7 @@ bl _p_121
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf9478e31
+.word 0xf9479631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027a0
@@ -6781,7 +6793,7 @@ bl _p_121
 .word 0xb9000018
 .loc 3 451 0
 .word 0xf9402fb1
-.word 0xf947d631
+.word 0xf947de31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027a0
@@ -6811,7 +6823,7 @@ bl _p_121
 .word 0xb9000401
 .loc 3 452 0
 .word 0xf9402fb1
-.word 0xf9484a31
+.word 0xf9485231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027a0
@@ -6842,7 +6854,7 @@ ldr x1, [x16, #16]
 .word 0x3900001e
 .loc 3 453 0
 .word 0xf9402fb1
-.word 0xf948be31
+.word 0xf948c631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027a0
@@ -6861,7 +6873,7 @@ ldr x1, [x16, #16]
 .word 0xfd000800
 .loc 3 454 0
 .word 0xf9402fb1
-.word 0xf9490631
+.word 0xf9490e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027a0
@@ -6879,7 +6891,7 @@ ldr x1, [x16, #16]
 .word 0xb9000015
 .loc 3 455 0
 .word 0xf9402fb1
-.word 0xf9494a31
+.word 0xf9495231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027a0
@@ -6889,13 +6901,13 @@ ldr x1, [x16, #16]
 .word 0xb9004c01
 .loc 3 466 0
 .word 0xf9402fb1
-.word 0xf9496e31
+.word 0xf9497631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd2800020
 .word 0xd2800020
 .word 0xf9402fb1
-.word 0xf9498631
+.word 0xf9498e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xa94157b4
@@ -6905,13 +6917,13 @@ ldr x1, [x16, #16]
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2801ea0
 .word 0xaa1103e1
 bl _p_56
-.word 0xd2802340
+.word 0xd2802240
 .word 0xaa1103e1
 bl _p_56
-.word 0xd2801960
+.word 0xd2801860
 .word 0xaa1103e1
 bl _p_56
 
@@ -7372,7 +7384,7 @@ bl _p_136
 .word 0x910003bf
 .word 0xa8cd7bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2801ea0
 .word 0xaa1103e1
 bl _p_56
 
@@ -7508,7 +7520,7 @@ bl _p_110
 .word 0xb9801b01
 .word 0xeb00003f
 .word 0x10000011
-.word 0x54002e29
+.word 0x54002e69
 .word 0xd37ef400
 .word 0x8b000300
 .word 0x91008000
@@ -7579,14 +7591,14 @@ bl _p_140
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x394163a0
-.word 0x34000d40
+.word 0x34000d80
 .loc 3 538 0
 .word 0xf94033b1
 .word 0xf9420231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd2800014
-.word 0x14000058
+.word 0x1400005a
 .loc 3 540 0
 .word 0xf94033b1
 .word 0xf9421a31
@@ -7598,7 +7610,7 @@ bl _p_140
 .word 0xb9801ae1
 .word 0xeb00003f
 .word 0x10000011
-.word 0x540023c9
+.word 0x54002409
 .word 0xd280031e
 .word 0x9b1e7c00
 .word 0x8b0002e0
@@ -7606,11 +7618,13 @@ bl _p_140
 .word 0xb9800000
 .word 0x92800001
 .word 0xf2bfffe1
-.word 0x6b01001f
+.word 0x9280001e
+.word 0xf2bffffe
+.word 0x6b1e001f
 .word 0x54000720
 .loc 3 542 0
 .word 0xf94033b1
-.word 0xf9426a31
+.word 0xf9427231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1703e0
@@ -7649,14 +7663,14 @@ bl _p_141
 .word 0xf9404fa2
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0x928002f0
+.word 0x928006f0
 .word 0xf2bffff0
 .word 0xf8706850
 .word 0xd63f0200
 .word 0x93407c00
 .word 0xf90047a0
 .word 0xf94033b1
-.word 0xf9432231
+.word 0xf9432a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94043a0
@@ -7671,7 +7685,7 @@ bl _p_141
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94033b1
-.word 0xf9435a31
+.word 0xf9436231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1403e0
@@ -7682,27 +7696,27 @@ bl _p_141
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94033b1
-.word 0xf9438631
+.word 0xf9438e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1403e0
 .word 0xaa1603e0
 .word 0x6b16029f
-.word 0x54fff3cb
+.word 0x54fff38b
 .loc 3 547 0
 .word 0xf94037b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94033b1
-.word 0xf943b631
+.word 0xf943be31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd2800013
 .word 0x1400007d
 .loc 3 549 0
 .word 0xf94033b1
-.word 0xf943ce31
+.word 0xf943d631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1703e0
@@ -7718,11 +7732,11 @@ bl _p_141
 .word 0x91008000
 .word 0xb9800000
 .word 0xd2800001
-.word 0x6b01001f
+.word 0x6b1f001f
 .word 0x54000beb
 .loc 3 551 0
 .word 0xf94033b1
-.word 0xf9441a31
+.word 0xf9442231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1703e0
@@ -7774,7 +7788,7 @@ bl _p_141
 .word 0xaa0003f9
 .loc 3 552 0
 .word 0xf94033b1
-.word 0xf944e631
+.word 0xf944ee31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1703e0
@@ -7802,7 +7816,7 @@ bl _p_141
 .word 0xb9000401
 .loc 3 553 0
 .word 0xf94033b1
-.word 0xf9455231
+.word 0xf9455a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1803e0
@@ -7823,7 +7837,7 @@ bl _p_141
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94033b1
-.word 0xf945a231
+.word 0xf945aa31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1303e0
@@ -7834,7 +7848,7 @@ bl _p_141
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94033b1
-.word 0xf945ce31
+.word 0xf945d631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1303e0
@@ -7843,7 +7857,7 @@ bl _p_141
 .word 0x54ffef2b
 .loc 3 557 0
 .word 0xf94033b1
-.word 0xf945ee31
+.word 0xf945f631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027a0
@@ -7863,7 +7877,7 @@ ldr x1, [x16, #16]
 .word 0x3900001e
 .loc 3 558 0
 .word 0xf94033b1
-.word 0xf9463631
+.word 0xf9463e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027a0
@@ -7883,11 +7897,11 @@ ldr x1, [x16, #16]
 .word 0x3900001e
 .loc 3 559 0
 .word 0xf94033b1
-.word 0xf9467e31
+.word 0xf9468631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94033b1
-.word 0xf9468e31
+.word 0xf9469631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xa94153b3
@@ -7897,13 +7911,13 @@ ldr x1, [x16, #16]
 .word 0x910003bf
 .word 0xa8ca7bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2801ea0
 .word 0xaa1103e1
 bl _p_56
-.word 0xd2802340
+.word 0xd2802240
 .word 0xaa1103e1
 bl _p_56
-.word 0xd2801960
+.word 0xd2801860
 .word 0xaa1103e1
 bl _p_56
 
@@ -7983,7 +7997,7 @@ bl _p_142
 .word 0xaa0203e0
 .word 0xaa1a03e1
 .word 0xf9400042
-.word 0x928002f0
+.word 0x928006f0
 .word 0xf2bffff0
 .word 0xf8706850
 .word 0xd63f0200
@@ -8111,7 +8125,7 @@ bl _p_143
 .word 0xaa0303e0
 .word 0xaa1a03e2
 .word 0xf9400063
-.word 0x928003f0
+.word 0x928010f0
 .word 0xf2bffff0
 .word 0xf8706870
 .word 0xd63f0200
@@ -8130,7 +8144,7 @@ bl _p_143
 .word 0xd63f0220
 .word 0xaa1703e0
 .word 0xd2800000
-.word 0x6b0002ff
+.word 0x6b1f02ff
 .word 0x5400030a
 .loc 3 585 0
 .word 0xf94027b1
@@ -8323,7 +8337,7 @@ bl _p_145
 .word 0xd63f0220
 .word 0xaa1603e0
 .word 0xd2800000
-.word 0x6b0002df
+.word 0x6b1f02df
 .word 0x54ffe24a
 .loc 3 612 0
 .word 0xf9402bb1
@@ -8346,13 +8360,13 @@ bl _p_145
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2801ea0
 .word 0xaa1103e1
 bl _p_56
-.word 0xd2802340
+.word 0xd2802240
 .word 0xaa1103e1
 bl _p_56
-.word 0xd2801960
+.word 0xd2801860
 .word 0xaa1103e1
 bl _p_56
 
@@ -8418,7 +8432,7 @@ bl _p_146
 .word 0xf9402ba0
 .word 0xaa0003e1
 .word 0xd2800001
-.word 0x6b01001f
+.word 0x6b1f001f
 .word 0x5400036b
 .loc 3 678 0
 .word 0xf9401bb1
@@ -8471,7 +8485,7 @@ bl _p_146
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2801ea0
 .word 0xaa1103e1
 bl _p_56
 
@@ -8708,7 +8722,8 @@ bl _p_47
 .word 0xd63f0220
 .word 0xf940b3a0
 .word 0xd2800021
-.word 0x6b01001f
+.word 0xd280003e
+.word 0x6b1e001f
 .word 0x54000180
 .loc 3 706 0
 .word 0xf9403bb1
@@ -8716,7 +8731,7 @@ bl _p_47
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94037b1
-.word 0xf9412e31
+.word 0xf9413231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd28000e0
@@ -8728,7 +8743,7 @@ bl _p_98
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94037b1
-.word 0xf9415a31
+.word 0xf9415e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fa0
@@ -8745,7 +8760,7 @@ bl _p_98
 .word 0xf9406fa0
 .word 0xf9006fa0
 .word 0xf94037b1
-.word 0xf9419e31
+.word 0xf941a231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9406fa0
@@ -8756,7 +8771,7 @@ bl _p_98
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94037b1
-.word 0xf941c631
+.word 0xf941ca31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd28000c0
@@ -8768,12 +8783,12 @@ bl _p_98
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94037b1
-.word 0xf941f231
+.word 0xf941f631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xb98063a0
 .word 0xd2800001
-.word 0x6b01001f
+.word 0x6b1f001f
 .word 0x540001cb
 .word 0xb98063a0
 .word 0xf900b3a0
@@ -8781,7 +8796,7 @@ bl _p_98
 .word 0xb9801800
 .word 0xf900b7a0
 .word 0xf94037b1
-.word 0xf9422631
+.word 0xf9422a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf940b3a0
@@ -8794,7 +8809,7 @@ bl _p_98
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94037b1
-.word 0xf9425631
+.word 0xf9425a31
 .word 0xb4000051
 .word 0xd63f0220
 bl _p_96
@@ -8804,14 +8819,14 @@ bl _p_96
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94037b1
-.word 0xf9427a31
+.word 0xf9427e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fa0
 .word 0xb9801800
 .word 0xf900bfa0
 .word 0xf94037b1
-.word 0xf9429631
+.word 0xf9429a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf940bfa0
@@ -8830,7 +8845,7 @@ bl _p_149
 .word 0x93407c00
 .word 0xf900b7a0
 .word 0xf94037b1
-.word 0xf942e231
+.word 0xf942e631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf940b3a0
@@ -8843,7 +8858,7 @@ bl _p_149
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94037b1
-.word 0xf9431231
+.word 0xf9431631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd28000a0
@@ -8855,7 +8870,7 @@ bl _p_98
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94037b1
-.word 0xf9433e31
+.word 0xf9434231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fa0
@@ -8870,7 +8885,7 @@ bl _p_151
 .word 0xf90063a0
 .loc 3 725 0
 .word 0xf94037b1
-.word 0xf9437631
+.word 0xf9437a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94063a0
@@ -8881,7 +8896,7 @@ bl _p_151
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94037b1
-.word 0xf9439e31
+.word 0xf943a231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
@@ -8901,7 +8916,7 @@ bl _p_152
 .word 0xd63f0060
 .loc 3 728 0
 .word 0xf94037b1
-.word 0xf943ea31
+.word 0xf943ee31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x1400020d
@@ -8911,7 +8926,7 @@ bl _p_152
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94037b1
-.word 0xf9440e31
+.word 0xf9441231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fa0
@@ -8951,7 +8966,7 @@ ldr x1, [x16, #904]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94037b1
-.word 0xf944a631
+.word 0xf944aa31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fa0
@@ -8987,7 +9002,7 @@ ldr x1, [x16, #904]
 .word 0xaa0003f7
 .loc 3 732 0
 .word 0xf94037b1
-.word 0xf9452e31
+.word 0xf9453231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
@@ -8995,7 +9010,7 @@ ldr x1, [x16, #904]
 .word 0xaa0003f6
 .loc 3 733 0
 .word 0xf94037b1
-.word 0xf9454a31
+.word 0xf9454e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd2800015
@@ -9006,7 +9021,7 @@ ldr x1, [x16, #904]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94037b1
-.word 0xf9457231
+.word 0xf9457631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1603e0
@@ -9022,7 +9037,7 @@ ldr x1, [x16, #904]
 .word 0x91008000
 .word 0xb9800000
 .word 0xd2800001
-.word 0x6b01001f
+.word 0x6b1f001f
 .word 0x54000d4b
 .loc 3 737 0
 .word 0xf9403bb1
@@ -9030,7 +9045,7 @@ ldr x1, [x16, #904]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94037b1
-.word 0xf945ce31
+.word 0xf945d231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1703e0
@@ -9090,7 +9105,7 @@ bl _p_154
 .word 0xf9405fa0
 .word 0xf9004fa0
 .word 0xf94037b1
-.word 0xf946be31
+.word 0xf946c231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf940b3a0
@@ -9138,7 +9153,7 @@ ldr x2, [x16, #16]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94037b1
-.word 0xf9477231
+.word 0xf9477631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1503e0
@@ -9149,7 +9164,7 @@ ldr x2, [x16, #16]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94037b1
-.word 0xf9479e31
+.word 0xf947a231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1503e0
@@ -9163,7 +9178,7 @@ ldr x2, [x16, #16]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94037b1
-.word 0xf947d231
+.word 0xf947d631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x14000113
@@ -9173,7 +9188,7 @@ ldr x2, [x16, #16]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94037b1
-.word 0xf947f631
+.word 0xf947fa31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fa0
@@ -9216,7 +9231,7 @@ ldr x1, [x16, #920]
 .word 0xaa0003f4
 .loc 3 744 0
 .word 0xf94037b1
-.word 0xf9489631
+.word 0xf9489a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1403e0
@@ -9227,12 +9242,12 @@ ldr x1, [x16, #920]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94037b1
-.word 0xf948be31
+.word 0xf948c231
 .word 0xb4000051
 .word 0xd63f0220
 bl _p_155
 .word 0xf94037b1
-.word 0xf948d231
+.word 0xf948d631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x14000001
@@ -9242,7 +9257,7 @@ bl _p_155
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94037b1
-.word 0xf948f631
+.word 0xf948fa31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
@@ -9250,7 +9265,7 @@ bl _p_155
 .word 0xaa0003f3
 .loc 3 752 0
 .word 0xf94037b1
-.word 0xf9491231
+.word 0xf9491631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
@@ -9258,7 +9273,7 @@ bl _p_155
 .word 0xf90067a0
 .loc 3 753 0
 .word 0xf94037b1
-.word 0xf9492e31
+.word 0xf9493231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd280001a
@@ -9269,7 +9284,7 @@ bl _p_155
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94037b1
-.word 0xf9495631
+.word 0xf9495a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94067a0
@@ -9285,7 +9300,7 @@ bl _p_155
 .word 0x91008000
 .word 0xb9800000
 .word 0xd2800001
-.word 0x6b01001f
+.word 0x6b1f001f
 .word 0x54000ccb
 .loc 3 757 0
 .word 0xf9403bb1
@@ -9293,7 +9308,7 @@ bl _p_155
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94037b1
-.word 0xf949b231
+.word 0xf949b631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1403e0
@@ -9356,7 +9371,7 @@ bl _p_157
 .word 0xf94057a0
 .word 0xf90047a0
 .word 0xf94037b1
-.word 0xf94aae31
+.word 0xf94ab231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
@@ -9396,7 +9411,7 @@ ldr x5, [x16, #16]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94037b1
-.word 0xf94b4631
+.word 0xf94b4a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -9407,7 +9422,7 @@ ldr x5, [x16, #16]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94037b1
-.word 0xf94b7231
+.word 0xf94b7631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -9420,7 +9435,7 @@ ldr x5, [x16, #16]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94037b1
-.word 0xf94ba231
+.word 0xf94ba631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x14000017
@@ -9428,18 +9443,18 @@ ldr x5, [x16, #16]
 .word 0xf9409fa0
 .loc 3 761 0
 .word 0xf94037b1
-.word 0xf94bbe31
+.word 0xf94bc231
 .word 0xb4000051
 .word 0xd63f0220
 .loc 3 763 0
 .word 0xf94037b1
-.word 0xf94bce31
+.word 0xf94bd231
 .word 0xb4000051
 .word 0xd63f0220
 bl _p_155
 .loc 3 764 0
 .word 0xf94037b1
-.word 0xf94be231
+.word 0xf94be631
 .word 0xb4000051
 .word 0xd63f0220
 bl _p_158
@@ -9455,11 +9470,11 @@ bl _p_26
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94037b1
-.word 0xf94c1e31
+.word 0xf94c2231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94037b1
-.word 0xf94c2e31
+.word 0xf94c3231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xa94153b3
@@ -9469,7 +9484,7 @@ bl _p_26
 .word 0x910003bf
 .word 0xa8d97bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2801ea0
 .word 0xaa1103e1
 bl _p_56
 
@@ -9735,7 +9750,7 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2802260
+.word 0xd2802160
 .word 0xaa1103e1
 bl _p_56
 
@@ -10012,7 +10027,7 @@ bl _p_167
 .word 0xf9402ba0
 .word 0xaa0003e1
 .word 0xd2800001
-.word 0x6b01001f
+.word 0x6b1f001f
 .word 0x5400038b
 .loc 3 835 0
 .word 0xf94017b1
@@ -10061,7 +10076,7 @@ bl _p_22
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2801ea0
 .word 0xaa1103e1
 bl _p_56
 
@@ -10297,7 +10312,7 @@ bl _p_26
 .word 0x910003bf
 .word 0xa8cd7bfd
 .word 0xd65f03c0
-.word 0xd2802060
+.word 0xd2801f60
 .word 0xaa1103e1
 bl _p_56
 
@@ -10358,7 +10373,7 @@ bl _p_178
 .word 0xf9401fa0
 bl _p_151
 .word 0xd2800001
-.word 0xeb01001f
+.word 0xeb1f001f
 .word 0x9a9f97e0
 .word 0xf9400fb1
 .word 0xf940d631
@@ -10601,7 +10616,7 @@ bl _p_26
 .word 0x910003bf
 .word 0xa8cd7bfd
 .word 0xd65f03c0
-.word 0xd2802060
+.word 0xd2801f60
 .word 0xaa1103e1
 bl _p_56
 
@@ -11174,7 +11189,7 @@ bl _p_47
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xd2800000
-.word 0x6b00035f
+.word 0x6b1f035f
 .word 0x540000cb
 .word 0xaa1a03e0
 .word 0xaa1903e0
@@ -11280,7 +11295,7 @@ bl _p_98
 .word 0x91008000
 .word 0xb9800000
 .word 0xd2800001
-.word 0x6b01001f
+.word 0x6b1f001f
 .word 0x5400038b
 .word 0xf94027b1
 .word 0xf9426231
@@ -11348,7 +11363,7 @@ bl _p_98
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2801ea0
 .word 0xaa1103e1
 bl _p_56
 
@@ -11926,7 +11941,8 @@ bl _p_47
 .word 0xd63f0220
 .word 0xf9406ba0
 .word 0xd2800021
-.word 0x6b01001f
+.word 0xd280003e
+.word 0x6b1e001f
 .word 0x54000180
 .loc 3 1153 0
 .word 0xf94033b1
@@ -11934,7 +11950,7 @@ bl _p_47
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf9412231
+.word 0xf9412631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd28000e0
@@ -11946,7 +11962,7 @@ bl _p_98
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf9414e31
+.word 0xf9415231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
@@ -11961,7 +11977,7 @@ bl _p_98
 .word 0xf9403ba0
 .word 0xf9003ba0
 .word 0xf9402fb1
-.word 0xf9418a31
+.word 0xf9418e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9403ba0
@@ -11972,7 +11988,7 @@ bl _p_98
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf941b231
+.word 0xf941b631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd28000c0
@@ -11984,19 +12000,19 @@ bl _p_98
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf941de31
+.word 0xf941e231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xd2800000
-.word 0x6b00035f
+.word 0x6b1f035f
 .word 0x5400018b
 .word 0xaa1a03e0
 .word 0xaa1903e0
 .word 0xb9801b20
 .word 0xf9006ba0
 .word 0xf9402fb1
-.word 0xf9420e31
+.word 0xf9421231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9406ba0
@@ -12008,7 +12024,7 @@ bl _p_98
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf9423a31
+.word 0xf9423e31
 .word 0xb4000051
 .word 0xd63f0220
 bl _p_96
@@ -12018,14 +12034,14 @@ bl _p_96
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf9425e31
+.word 0xf9426231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xb9801b20
 .word 0xf90077a0
 .word 0xf9402fb1
-.word 0xf9427a31
+.word 0xf9427e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94077a0
@@ -12045,7 +12061,7 @@ bl _p_206
 .word 0x93407c00
 .word 0xf9006fa0
 .word 0xf9402fb1
-.word 0xf942ca31
+.word 0xf942ce31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9406ba0
@@ -12058,7 +12074,7 @@ bl _p_206
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf942fa31
+.word 0xf942fe31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd28000a0
@@ -12070,7 +12086,7 @@ bl _p_98
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf9432631
+.word 0xf9432a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9003fb9
@@ -12084,7 +12100,7 @@ bl _p_151
 .word 0xaa0003f8
 .loc 3 1172 0
 .word 0xf9402fb1
-.word 0xf9435a31
+.word 0xf9435e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1803e0
@@ -12095,7 +12111,7 @@ bl _p_151
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf9438231
+.word 0xf9438631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
@@ -12113,7 +12129,7 @@ bl _p_208
 .word 0xd63f0060
 .loc 3 1175 0
 .word 0xf9402fb1
-.word 0xf943c631
+.word 0xf943ca31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x140000cd
@@ -12123,7 +12139,7 @@ bl _p_208
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf943ea31
+.word 0xf943ee31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf90043b9
@@ -12165,7 +12181,7 @@ ldr x1, [x16, #920]
 .word 0xaa0003f7
 .loc 3 1179 0
 .word 0xf9402fb1
-.word 0xf9448631
+.word 0xf9448a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1703e0
@@ -12176,7 +12192,7 @@ ldr x1, [x16, #920]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf944ae31
+.word 0xf944b231
 .word 0xb4000051
 .word 0xd63f0220
 bl _p_155
@@ -12186,7 +12202,7 @@ bl _p_155
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf944d231
+.word 0xf944d631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
@@ -12195,7 +12211,7 @@ bl _p_155
 .word 0xaa0003f6
 .loc 3 1185 0
 .word 0xf9402fb1
-.word 0xf944f231
+.word 0xf944f631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
@@ -12208,7 +12224,7 @@ bl _p_155
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf9452231
+.word 0xf9452631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd2800014
@@ -12219,7 +12235,7 @@ bl _p_155
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf9454a31
+.word 0xf9454e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1503e0
@@ -12235,14 +12251,14 @@ bl _p_155
 .word 0x91008000
 .word 0xb9800000
 .word 0xd2800001
-.word 0x6b01001f
+.word 0x6b1f001f
 .word 0x5400040b
 .word 0xf94033b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf945a631
+.word 0xf945aa31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1703e0
@@ -12274,7 +12290,7 @@ bl _p_155
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf9462231
+.word 0xf9462631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1403e0
@@ -12285,7 +12301,7 @@ bl _p_155
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf9464e31
+.word 0xf9465231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1403e0
@@ -12298,7 +12314,7 @@ bl _p_155
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf9467e31
+.word 0xf9468231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x14000017
@@ -12306,18 +12322,18 @@ bl _p_155
 .word 0xf94057a0
 .loc 3 1193 0
 .word 0xf9402fb1
-.word 0xf9469a31
+.word 0xf9469e31
 .word 0xb4000051
 .word 0xd63f0220
 .loc 3 1195 0
 .word 0xf9402fb1
-.word 0xf946aa31
+.word 0xf946ae31
 .word 0xb4000051
 .word 0xd63f0220
 bl _p_155
 .loc 3 1196 0
 .word 0xf9402fb1
-.word 0xf946be31
+.word 0xf946c231
 .word 0xb4000051
 .word 0xd63f0220
 bl _p_158
@@ -12333,11 +12349,11 @@ bl _p_26
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf946fa31
+.word 0xf946fe31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf9470a31
+.word 0xf9470e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xa94153b3
@@ -12347,7 +12363,7 @@ bl _p_26
 .word 0x910003bf
 .word 0xa8cf7bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2801ea0
 .word 0xaa1103e1
 bl _p_56
 
@@ -12678,7 +12694,7 @@ bl _p_47
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xd2800000
-.word 0x6b00035f
+.word 0x6b1f035f
 .word 0x540000cb
 .word 0xaa1a03e0
 .word 0xaa1903e0
@@ -12784,7 +12800,7 @@ bl _p_98
 .word 0x91008000
 .word 0xb9800000
 .word 0xd2800001
-.word 0x6b01001f
+.word 0x6b1f001f
 .word 0x5400042b
 .word 0xf94027b1
 .word 0xf9426231
@@ -12857,7 +12873,7 @@ bl _p_98
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2801ea0
 .word 0xaa1103e1
 bl _p_56
 
@@ -13413,7 +13429,8 @@ bl _p_47
 .word 0xd63f0220
 .word 0xf9406ba0
 .word 0xd2800021
-.word 0x6b01001f
+.word 0xd280003e
+.word 0x6b1e001f
 .word 0x54000180
 .loc 3 1387 0
 .word 0xf94033b1
@@ -13421,7 +13438,7 @@ bl _p_47
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf9412231
+.word 0xf9412631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd28000e0
@@ -13433,7 +13450,7 @@ bl _p_98
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf9414e31
+.word 0xf9415231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
@@ -13448,7 +13465,7 @@ bl _p_98
 .word 0xf9403ba0
 .word 0xf9003ba0
 .word 0xf9402fb1
-.word 0xf9418a31
+.word 0xf9418e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9403ba0
@@ -13459,7 +13476,7 @@ bl _p_98
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf941b231
+.word 0xf941b631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd28000c0
@@ -13471,19 +13488,19 @@ bl _p_98
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf941de31
+.word 0xf941e231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xd2800000
-.word 0x6b00035f
+.word 0x6b1f035f
 .word 0x5400018b
 .word 0xaa1a03e0
 .word 0xaa1903e0
 .word 0xb9801b20
 .word 0xf9006ba0
 .word 0xf9402fb1
-.word 0xf9420e31
+.word 0xf9421231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9406ba0
@@ -13495,7 +13512,7 @@ bl _p_98
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf9423a31
+.word 0xf9423e31
 .word 0xb4000051
 .word 0xd63f0220
 bl _p_96
@@ -13505,14 +13522,14 @@ bl _p_96
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf9425e31
+.word 0xf9426231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xb9801b20
 .word 0xf90077a0
 .word 0xf9402fb1
-.word 0xf9427a31
+.word 0xf9427e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94077a0
@@ -13532,7 +13549,7 @@ bl _p_218
 .word 0x93407c00
 .word 0xf9006fa0
 .word 0xf9402fb1
-.word 0xf942ca31
+.word 0xf942ce31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9406ba0
@@ -13545,7 +13562,7 @@ bl _p_218
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf942fa31
+.word 0xf942fe31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd28000a0
@@ -13557,7 +13574,7 @@ bl _p_98
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf9432631
+.word 0xf9432a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9003fb9
@@ -13571,7 +13588,7 @@ bl _p_151
 .word 0xaa0003f8
 .loc 3 1404 0
 .word 0xf9402fb1
-.word 0xf9435a31
+.word 0xf9435e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1803e0
@@ -13582,7 +13599,7 @@ bl _p_151
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf9438231
+.word 0xf9438631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
@@ -13600,7 +13617,7 @@ bl _p_220
 .word 0xd63f0060
 .loc 3 1407 0
 .word 0xf9402fb1
-.word 0xf943c631
+.word 0xf943ca31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x140000d9
@@ -13610,7 +13627,7 @@ bl _p_220
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf943ea31
+.word 0xf943ee31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf90043b9
@@ -13652,7 +13669,7 @@ ldr x1, [x16, #920]
 .word 0xaa0003f7
 .loc 3 1411 0
 .word 0xf9402fb1
-.word 0xf9448631
+.word 0xf9448a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1703e0
@@ -13663,7 +13680,7 @@ ldr x1, [x16, #920]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf944ae31
+.word 0xf944b231
 .word 0xb4000051
 .word 0xd63f0220
 bl _p_155
@@ -13673,7 +13690,7 @@ bl _p_155
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf944d231
+.word 0xf944d631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
@@ -13682,7 +13699,7 @@ bl _p_155
 .word 0xaa0003f6
 .loc 3 1417 0
 .word 0xf9402fb1
-.word 0xf944f231
+.word 0xf944f631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
@@ -13695,7 +13712,7 @@ bl _p_155
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf9452231
+.word 0xf9452631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd2800014
@@ -13706,7 +13723,7 @@ bl _p_155
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf9454a31
+.word 0xf9454e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1503e0
@@ -13722,14 +13739,14 @@ bl _p_155
 .word 0x91008000
 .word 0xb9800000
 .word 0xd2800001
-.word 0x6b01001f
+.word 0x6b1f001f
 .word 0x5400058b
 .word 0xf94033b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf945a631
+.word 0xf945aa31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1703e0
@@ -13773,7 +13790,7 @@ bl _p_22
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf9465231
+.word 0xf9465631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1403e0
@@ -13784,7 +13801,7 @@ bl _p_22
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf9467e31
+.word 0xf9468231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1403e0
@@ -13797,7 +13814,7 @@ bl _p_22
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf946ae31
+.word 0xf946b231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x14000017
@@ -13805,18 +13822,18 @@ bl _p_22
 .word 0xf94057a0
 .loc 3 1425 0
 .word 0xf9402fb1
-.word 0xf946ca31
+.word 0xf946ce31
 .word 0xb4000051
 .word 0xd63f0220
 .loc 3 1427 0
 .word 0xf9402fb1
-.word 0xf946da31
+.word 0xf946de31
 .word 0xb4000051
 .word 0xd63f0220
 bl _p_155
 .loc 3 1428 0
 .word 0xf9402fb1
-.word 0xf946ee31
+.word 0xf946f231
 .word 0xb4000051
 .word 0xd63f0220
 bl _p_158
@@ -13832,11 +13849,11 @@ bl _p_26
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf9472a31
+.word 0xf9472e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf9473a31
+.word 0xf9473e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xa94153b3
@@ -13846,7 +13863,7 @@ bl _p_26
 .word 0x910003bf
 .word 0xa8d07bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2801ea0
 .word 0xaa1103e1
 bl _p_56
 
@@ -14131,7 +14148,7 @@ bl _p_222
 .word 0xaa1903e0
 .word 0xb9800320
 .word 0xd2800001
-.word 0x6b01001f
+.word 0x6b1f001f
 .word 0x5400080b
 .loc 3 965 0
 .word 0xf94017b1
@@ -14252,7 +14269,7 @@ ldr x3, [x16, #16]
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2801ea0
 .word 0xaa1103e1
 bl _p_56
 
@@ -14420,11 +14437,12 @@ bl _p_225
 .word 0xaa1a03e0
 .word 0xb9802340
 .word 0xd2800021
-.word 0x6b01001f
+.word 0xd280003e
+.word 0x6b1e001f
 .word 0x54000d61
 .loc 3 995 0
 .word 0xf9400fb1
-.word 0xf940ee31
+.word 0xf940f231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -14445,7 +14463,7 @@ bl _p_227
 .word 0xd63f0020
 .word 0xf90043a0
 .word 0xf9400fb1
-.word 0xf9414231
+.word 0xf9414631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -14466,7 +14484,7 @@ bl _p_228
 .word 0xd63f0020
 .word 0xfd0047a0
 .word 0xf9400fb1
-.word 0xf9419631
+.word 0xf9419a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9403ba0
@@ -14491,7 +14509,7 @@ bl _p_154
 .word 0xf94037a0
 .word 0xf90027a0
 .word 0xf9400fb1
-.word 0xf941fa31
+.word 0xf941fe31
 .word 0xb4000051
 .word 0xd63f0220
 
@@ -14534,7 +14552,7 @@ ldr x3, [x16, #16]
 .word 0x14000061
 .loc 3 999 0
 .word 0xf9400fb1
-.word 0xf9429631
+.word 0xf9429a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -14555,7 +14573,7 @@ bl _p_227
 .word 0xd63f0020
 .word 0xf90063a0
 .word 0xf9400fb1
-.word 0xf942ea31
+.word 0xf942ee31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -14576,7 +14594,7 @@ bl _p_228
 .word 0xd63f0020
 .word 0xfd0067a0
 .word 0xf9400fb1
-.word 0xf9433e31
+.word 0xf9434231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x910143a0
@@ -14603,7 +14621,7 @@ bl _p_230
 .word 0xf9402fa0
 .word 0xf9001fa0
 .word 0xf9400fb1
-.word 0xf943aa31
+.word 0xf943ae31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9403ba0
@@ -14631,7 +14649,7 @@ ldr x4, [x16, #16]
 .word 0xf9401fa2
 .word 0xf9000022
 .word 0xf9400fb1
-.word 0xf9441631
+.word 0xf9441a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400bba
@@ -15075,7 +15093,7 @@ b System_Collections_Generic_KeyValuePair_2_TKey_REF_TValue_DOUBLE__ctor_TKey_RE
 	.align 4
 	.no_dead_strip System_Collections_Generic_KeyValuePair_2_TKey_REF_TValue_DOUBLE__ctor_TKey_REF_TValue_DOUBLE
 System_Collections_Generic_KeyValuePair_2_TKey_REF_TValue_DOUBLE__ctor_TKey_REF_TValue_DOUBLE:
-.file 4 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.16.0.1/src/Xamarin.iOS/external/corefx/src/Common/src/CoreLib/System/Collections/Generic/KeyValuePair.cs"
+.file 4 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.0.0.15/src/Xamarin.iOS/external/corefx/src/Common/src/CoreLib/System/Collections/Generic/KeyValuePair.cs"
 .loc 4 61 0 prologue_end
 .word 0xa9bb7bfd
 .word 0x910003fd
@@ -15322,7 +15340,7 @@ Lme_80:
 	.align 4
 	.no_dead_strip System_Array_InternalArray__get_Item_T_INST_int
 System_Array_InternalArray__get_Item_T_INST_int:
-.loc 2 175 0 prologue_end
+.loc 2 176 0 prologue_end
 .word 0xa9b77bfd
 .word 0x910003fd
 .word 0xa9016bb9
@@ -15363,22 +15381,22 @@ ldr x16, [x16, #1400]
 .word 0xf94043a0
 .word 0x6b00035f
 .word 0x540001e3
-.loc 2 176 0
+.loc 2 177 0
 .word 0xf9401bb1
 .word 0xf940aa31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd285eb20
-.word 0xd285eb20
+.word 0xd2850e40
+.word 0xd2850e40
 bl _p_25
 .word 0xaa0003e1
-.word 0xd2801580
+.word 0xd2801460
 .word 0xf2a04000
-.word 0xd2801580
+.word 0xd2801460
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_26
-.loc 2 179 0
+.loc 2 180 0
 .word 0xf9401bb1
 .word 0xf940e231
 .word 0xb4000051
@@ -15428,7 +15446,7 @@ ldr x2, [x16, #16]
 .word 0x8b020021
 .word 0xd280003e
 .word 0x3900003e
-.loc 2 180 0
+.loc 2 181 0
 .word 0xf9401bb1
 .word 0xf9419e31
 .word 0xb4000051
@@ -15461,7 +15479,7 @@ Lme_81:
 	.align 4
 	.no_dead_strip System_Collections_Generic_EqualityComparer_1_T_REF_get_Default
 System_Collections_Generic_EqualityComparer_1_T_REF_get_Default:
-.file 5 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.16.0.1/src/Xamarin.iOS/mcs/class/referencesource/mscorlib/system/collections/generic/equalitycomparer.cs"
+.file 5 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.0.0.15/src/Xamarin.iOS/mcs/class/referencesource/mscorlib/system/collections/generic/equalitycomparer.cs"
 .loc 5 32 0 prologue_end
 .word 0xa9ba7bfd
 .word 0x910003fd
@@ -15686,7 +15704,7 @@ bl _p_26
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2801ea0
 .word 0xaa1103e1
 bl _p_56
 
@@ -15790,7 +15808,7 @@ Lme_84:
 	.align 4
 	.no_dead_strip System_ThrowHelper_IfNullAndNullsAreIllegalThenThrow_T_DOUBLE_object_System_ExceptionArgument
 System_ThrowHelper_IfNullAndNullsAreIllegalThenThrow_T_DOUBLE_object_System_ExceptionArgument:
-.file 6 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.16.0.1/src/Xamarin.iOS/mcs/class/referencesource/mscorlib/system/throwhelper.cs"
+.file 6 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.0.0.15/src/Xamarin.iOS/mcs/class/referencesource/mscorlib/system/throwhelper.cs"
 .loc 6 195 0 prologue_end
 .word 0xa9bb7bfd
 .word 0x910003fd
@@ -16300,9 +16318,9 @@ ldr x1, [x16, #1520]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9407ba0
-.word 0xd2800002
+.word 0xd2800001
 .word 0xb9801801
-.word 0xeb02003f
+.word 0xeb1f003f
 .word 0x10000011
 .word 0x54002789
 .word 0xf9401000
@@ -16636,10 +16654,10 @@ bl _p_262
 .word 0x910003bf
 .word 0xa8d17bfd
 .word 0xd65f03c0
-.word 0xd2802060
+.word 0xd2801f60
 .word 0xaa1103e1
 bl _p_56
-.word 0xd2801fa0
+.word 0xd2801ea0
 .word 0xaa1103e1
 bl _p_56
 
@@ -16917,9 +16935,9 @@ ldr x1, [x16, #1624]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9407ba0
-.word 0xd2800002
+.word 0xd2800001
 .word 0xb9801801
-.word 0xeb02003f
+.word 0xeb1f003f
 .word 0x10000011
 .word 0x54002829
 .word 0xf9401000
@@ -17258,10 +17276,10 @@ bl _p_267
 .word 0x910003bf
 .word 0xa8d17bfd
 .word 0xd65f03c0
-.word 0xd2802060
+.word 0xd2801f60
 .word 0xaa1103e1
 bl _p_56
-.word 0xd2801fa0
+.word 0xd2801ea0
 .word 0xaa1103e1
 bl _p_56
 
@@ -17639,7 +17657,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #1728]
 br x16
-.word 4343
+.word 4341
 	.no_dead_strip plt__jit_icall_ves_icall_object_new_specific
 plt__jit_icall_ves_icall_object_new_specific:
 _p_2:
@@ -17647,7 +17665,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #1736]
 br x16
-.word 4348
+.word 4346
 	.no_dead_strip plt_Foundation_NSMutableDictionary__ctor
 plt_Foundation_NSMutableDictionary__ctor:
 _p_3:
@@ -17655,7 +17673,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #1744]
 br x16
-.word 4380
+.word 4378
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_string_string_GetEnumerator
 plt_System_Collections_Generic_Dictionary_2_string_string_GetEnumerator:
 _p_4:
@@ -17663,7 +17681,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #1752]
 br x16
-.word 4385
+.word 4383
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_Enumerator_string_string_get_Current
 plt_System_Collections_Generic_Dictionary_2_Enumerator_string_string_get_Current:
 _p_5:
@@ -17671,7 +17689,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #1760]
 br x16
-.word 4396
+.word 4394
 	.no_dead_strip plt_System_Collections_Generic_KeyValuePair_2_string_string_get_Key
 plt_System_Collections_Generic_KeyValuePair_2_string_string_get_Key:
 _p_6:
@@ -17679,7 +17697,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #1768]
 br x16
-.word 4407
+.word 4405
 	.no_dead_strip plt_Foundation_NSObject_FromObject_object
 plt_Foundation_NSObject_FromObject_object:
 _p_7:
@@ -17687,7 +17705,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #1776]
 br x16
-.word 4418
+.word 4416
 	.no_dead_strip plt_System_Collections_Generic_KeyValuePair_2_string_string_get_Value
 plt_System_Collections_Generic_KeyValuePair_2_string_string_get_Value:
 _p_8:
@@ -17695,7 +17713,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #1784]
 br x16
-.word 4423
+.word 4421
 	.no_dead_strip plt_Foundation_NSMutableDictionary_Add_Foundation_NSObject_Foundation_NSObject
 plt_Foundation_NSMutableDictionary_Add_Foundation_NSObject_Foundation_NSObject:
 _p_9:
@@ -17703,7 +17721,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #1792]
 br x16
-.word 4434
+.word 4432
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_Enumerator_string_string_MoveNext
 plt_System_Collections_Generic_Dictionary_2_Enumerator_string_string_MoveNext:
 _p_10:
@@ -17711,15 +17729,15 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #1800]
 br x16
-.word 4439
-	.no_dead_strip plt__jit_icall_ves_icall_thread_finish_async_abort
-plt__jit_icall_ves_icall_thread_finish_async_abort:
+.word 4437
+	.no_dead_strip plt__jit_icall_mono_thread_self_abort
+plt__jit_icall_mono_thread_self_abort:
 _p_11:
 adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #1808]
 br x16
-.word 4450
+.word 4448
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_Enumerator_string_string_Dispose
 plt_System_Collections_Generic_Dictionary_2_Enumerator_string_string_Dispose:
 _p_12:
@@ -17727,7 +17745,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #1816]
 br x16
-.word 4488
+.word 4473
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_string_double_GetEnumerator
 plt_System_Collections_Generic_Dictionary_2_string_double_GetEnumerator:
 _p_13:
@@ -17735,7 +17753,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #1824]
 br x16
-.word 4512
+.word 4499
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_Enumerator_string_double_get_Current
 plt_System_Collections_Generic_Dictionary_2_Enumerator_string_double_get_Current:
 _p_14:
@@ -17743,7 +17761,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #1832]
 br x16
-.word 4523
+.word 4510
 	.no_dead_strip plt_System_Collections_Generic_KeyValuePair_2_string_double_get_Key
 plt_System_Collections_Generic_KeyValuePair_2_string_double_get_Key:
 _p_15:
@@ -17751,7 +17769,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #1840]
 br x16
-.word 4534
+.word 4521
 	.no_dead_strip plt_System_Collections_Generic_KeyValuePair_2_string_double_get_Value
 plt_System_Collections_Generic_KeyValuePair_2_string_double_get_Value:
 _p_16:
@@ -17759,7 +17777,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #1848]
 br x16
-.word 4545
+.word 4532
 	.no_dead_strip plt_Foundation_NSNumber_FromDouble_double
 plt_Foundation_NSNumber_FromDouble_double:
 _p_17:
@@ -17767,7 +17785,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #1856]
 br x16
-.word 4556
+.word 4543
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_Enumerator_string_double_MoveNext
 plt_System_Collections_Generic_Dictionary_2_Enumerator_string_double_MoveNext:
 _p_18:
@@ -17775,7 +17793,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #1864]
 br x16
-.word 4561
+.word 4548
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_Enumerator_string_double_Dispose
 plt_System_Collections_Generic_Dictionary_2_Enumerator_string_double_Dispose:
 _p_19:
@@ -17783,7 +17801,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #1872]
 br x16
-.word 4572
+.word 4559
 	.no_dead_strip plt_HockeyApp_iOS_BITHockeyManager_get_TerminateOnUnobservedTaskException
 plt_HockeyApp_iOS_BITHockeyManager_get_TerminateOnUnobservedTaskException:
 _p_20:
@@ -17791,7 +17809,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #1880]
 br x16
-.word 4597
+.word 4585
 	.no_dead_strip plt_HockeyApp_iOS_BITHockeyManager_set_TerminateOnUnobservedTaskException_bool
 plt_HockeyApp_iOS_BITHockeyManager_set_TerminateOnUnobservedTaskException_bool:
 _p_21:
@@ -17799,7 +17817,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #1888]
 br x16
-.word 4602
+.word 4590
 	.no_dead_strip plt_wrapper_alloc_object_AllocSmall_intptr_intptr
 plt_wrapper_alloc_object_AllocSmall_intptr_intptr:
 _p_22:
@@ -17807,7 +17825,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #1896]
 br x16
-.word 4607
+.word 4595
 	.no_dead_strip plt_HockeyApp_PlatformMetricsManager__ctor
 plt_HockeyApp_PlatformMetricsManager__ctor:
 _p_23:
@@ -17815,7 +17833,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #1904]
 br x16
-.word 4615
+.word 4603
 	.no_dead_strip plt_HockeyApp_PlatformCrashManager__ctor
 plt_HockeyApp_PlatformCrashManager__ctor:
 _p_24:
@@ -17823,7 +17841,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #1912]
 br x16
-.word 4617
+.word 4605
 	.no_dead_strip plt__jit_icall_mono_helper_ldstr_mscorlib
 plt__jit_icall_mono_helper_ldstr_mscorlib:
 _p_25:
@@ -17831,7 +17849,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #1920]
 br x16
-.word 4619
+.word 4607
 	.no_dead_strip plt__jit_icall_mono_arch_throw_exception
 plt__jit_icall_mono_arch_throw_exception:
 _p_26:
@@ -17839,7 +17857,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #1928]
 br x16
-.word 4648
+.word 4636
 	.no_dead_strip plt__rgctx_fetch_0
 plt__rgctx_fetch_0:
 _p_27:
@@ -17847,7 +17865,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #1936]
 br x16
-.word 4694
+.word 4682
 	.no_dead_strip plt__rgctx_fetch_1
 plt__rgctx_fetch_1:
 _p_28:
@@ -17855,7 +17873,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #1944]
 br x16
-.word 4717
+.word 4705
 	.no_dead_strip plt__rgctx_fetch_2
 plt__rgctx_fetch_2:
 _p_29:
@@ -17863,7 +17881,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #1952]
 br x16
-.word 4758
+.word 4746
 	.no_dead_strip plt__rgctx_fetch_3
 plt__rgctx_fetch_3:
 _p_30:
@@ -17871,7 +17889,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #1960]
 br x16
-.word 4766
+.word 4754
 	.no_dead_strip plt__rgctx_fetch_4
 plt__rgctx_fetch_4:
 _p_31:
@@ -17879,7 +17897,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #1968]
 br x16
-.word 4789
+.word 4777
 	.no_dead_strip plt__rgctx_fetch_5
 plt__rgctx_fetch_5:
 _p_32:
@@ -17887,7 +17905,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #1976]
 br x16
-.word 4824
+.word 4811
 	.no_dead_strip plt__jit_icall_mono_generic_class_init
 plt__jit_icall_mono_generic_class_init:
 _p_33:
@@ -17895,7 +17913,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #1984]
 br x16
-.word 4832
+.word 4819
 	.no_dead_strip plt__rgctx_fetch_6
 plt__rgctx_fetch_6:
 _p_34:
@@ -17903,7 +17921,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #1992]
 br x16
-.word 4858
+.word 4845
 	.no_dead_strip plt__rgctx_fetch_7
 plt__rgctx_fetch_7:
 _p_35:
@@ -17911,7 +17929,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2000]
 br x16
-.word 4875
+.word 4861
 	.no_dead_strip plt__rgctx_fetch_8
 plt__rgctx_fetch_8:
 _p_36:
@@ -17919,7 +17937,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2008]
 br x16
-.word 4883
+.word 4869
 	.no_dead_strip plt__rgctx_fetch_9
 plt__rgctx_fetch_9:
 _p_37:
@@ -17927,7 +17945,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2016]
 br x16
-.word 4927
+.word 4913
 	.no_dead_strip plt__rgctx_fetch_10
 plt__rgctx_fetch_10:
 _p_38:
@@ -17935,7 +17953,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2024]
 br x16
-.word 4974
+.word 4960
 	.no_dead_strip plt__rgctx_fetch_11
 plt__rgctx_fetch_11:
 _p_39:
@@ -17943,7 +17961,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2032]
 br x16
-.word 5021
+.word 5007
 	.no_dead_strip plt_System_ThrowHelper_ThrowArgumentOutOfRangeException_System_ExceptionArgument
 plt_System_ThrowHelper_ThrowArgumentOutOfRangeException_System_ExceptionArgument:
 _p_40:
@@ -17951,7 +17969,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2040]
 br x16
-.word 5047
+.word 5033
 	.no_dead_strip plt__rgctx_fetch_12
 plt__rgctx_fetch_12:
 _p_41:
@@ -17959,7 +17977,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2048]
 br x16
-.word 5073
+.word 5059
 	.no_dead_strip plt__rgctx_fetch_13
 plt__rgctx_fetch_13:
 _p_42:
@@ -17967,7 +17985,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2056]
 br x16
-.word 5108
+.word 5094
 	.no_dead_strip plt_System_Collections_Generic_EqualityComparer_1_TKey_REF_get_Default
 plt_System_Collections_Generic_EqualityComparer_1_TKey_REF_get_Default:
 _p_43:
@@ -17975,7 +17993,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2064]
 br x16
-.word 5116
+.word 5102
 	.no_dead_strip plt__rgctx_fetch_14
 plt__rgctx_fetch_14:
 _p_44:
@@ -17983,7 +18001,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2072]
 br x16
-.word 5156
+.word 5142
 	.no_dead_strip plt__rgctx_fetch_15
 plt__rgctx_fetch_15:
 _p_45:
@@ -17991,7 +18009,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2080]
 br x16
-.word 5224
+.word 5210
 	.no_dead_strip plt__rgctx_fetch_16
 plt__rgctx_fetch_16:
 _p_46:
@@ -17999,7 +18017,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2088]
 br x16
-.word 5247
+.word 5233
 	.no_dead_strip plt_System_ThrowHelper_ThrowArgumentNullException_System_ExceptionArgument
 plt_System_ThrowHelper_ThrowArgumentNullException_System_ExceptionArgument:
 _p_47:
@@ -18007,7 +18025,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2096]
 br x16
-.word 5273
+.word 5259
 	.no_dead_strip plt__rgctx_fetch_17
 plt__rgctx_fetch_17:
 _p_48:
@@ -18015,7 +18033,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2104]
 br x16
-.word 5278
+.word 5264
 	.no_dead_strip plt__rgctx_fetch_18
 plt__rgctx_fetch_18:
 _p_49:
@@ -18023,7 +18041,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2112]
 br x16
-.word 5286
+.word 5272
 	.no_dead_strip plt__rgctx_fetch_19
 plt__rgctx_fetch_19:
 _p_50:
@@ -18031,7 +18049,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2120]
 br x16
-.word 5294
+.word 5280
 	.no_dead_strip plt__rgctx_fetch_20
 plt__rgctx_fetch_20:
 _p_51:
@@ -18039,7 +18057,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2128]
 br x16
-.word 5329
+.word 5315
 	.no_dead_strip plt__rgctx_fetch_21
 plt__rgctx_fetch_21:
 _p_52:
@@ -18047,7 +18065,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2136]
 br x16
-.word 5361
+.word 5347
 	.no_dead_strip plt__rgctx_fetch_22
 plt__rgctx_fetch_22:
 _p_53:
@@ -18055,7 +18073,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2144]
 br x16
-.word 5384
+.word 5370
 	.no_dead_strip plt__rgctx_fetch_23
 plt__rgctx_fetch_23:
 _p_54:
@@ -18063,7 +18081,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2152]
 br x16
-.word 5392
+.word 5378
 	.no_dead_strip plt__rgctx_fetch_24
 plt__rgctx_fetch_24:
 _p_55:
@@ -18071,7 +18089,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2160]
 br x16
-.word 5418
+.word 5404
 	.no_dead_strip plt__jit_icall_mono_arch_throw_corlib_exception
 plt__jit_icall_mono_arch_throw_corlib_exception:
 _p_56:
@@ -18079,7 +18097,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2168]
 br x16
-.word 5444
+.word 5430
 	.no_dead_strip plt_System_Collections_HashHelpers_get_SerializationInfoTable
 plt_System_Collections_HashHelpers_get_SerializationInfoTable:
 _p_57:
@@ -18087,7 +18105,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2176]
 br x16
-.word 5479
+.word 5465
 	.no_dead_strip plt_System_Runtime_CompilerServices_ConditionalWeakTable_2_object_System_Runtime_Serialization_SerializationInfo_Add_object_System_Runtime_Serialization_SerializationInfo
 plt_System_Runtime_CompilerServices_ConditionalWeakTable_2_object_System_Runtime_Serialization_SerializationInfo_Add_object_System_Runtime_Serialization_SerializationInfo:
 _p_58:
@@ -18095,7 +18113,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2184]
 br x16
-.word 5498
+.word 5484
 	.no_dead_strip plt__rgctx_fetch_25
 plt__rgctx_fetch_25:
 _p_59:
@@ -18103,7 +18121,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2192]
 br x16
-.word 5555
+.word 5541
 	.no_dead_strip plt__rgctx_fetch_26
 plt__rgctx_fetch_26:
 _p_60:
@@ -18111,7 +18129,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2200]
 br x16
-.word 5563
+.word 5549
 	.no_dead_strip plt__rgctx_fetch_27
 plt__rgctx_fetch_27:
 _p_61:
@@ -18119,7 +18137,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2208]
 br x16
-.word 5610
+.word 5596
 	.no_dead_strip plt__rgctx_fetch_28
 plt__rgctx_fetch_28:
 _p_62:
@@ -18127,7 +18145,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2216]
 br x16
-.word 5618
+.word 5604
 	.no_dead_strip plt__rgctx_fetch_29
 plt__rgctx_fetch_29:
 _p_63:
@@ -18135,7 +18153,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2224]
 br x16
-.word 5665
+.word 5651
 	.no_dead_strip plt__rgctx_fetch_30
 plt__rgctx_fetch_30:
 _p_64:
@@ -18143,7 +18161,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2232]
 br x16
-.word 5673
+.word 5659
 	.no_dead_strip plt__rgctx_fetch_31
 plt__rgctx_fetch_31:
 _p_65:
@@ -18151,7 +18169,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2240]
 br x16
-.word 5732
+.word 5718
 	.no_dead_strip plt__rgctx_fetch_32
 plt__rgctx_fetch_32:
 _p_66:
@@ -18159,7 +18177,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2248]
 br x16
-.word 5740
+.word 5726
 	.no_dead_strip plt__rgctx_fetch_33
 plt__rgctx_fetch_33:
 _p_67:
@@ -18167,7 +18185,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2256]
 br x16
-.word 5787
+.word 5773
 	.no_dead_strip plt__rgctx_fetch_34
 plt__rgctx_fetch_34:
 _p_68:
@@ -18175,7 +18193,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2264]
 br x16
-.word 5795
+.word 5781
 	.no_dead_strip plt__rgctx_fetch_35
 plt__rgctx_fetch_35:
 _p_69:
@@ -18183,7 +18201,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2272]
 br x16
-.word 5842
+.word 5828
 	.no_dead_strip plt__rgctx_fetch_36
 plt__rgctx_fetch_36:
 _p_70:
@@ -18191,7 +18209,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2280]
 br x16
-.word 5850
+.word 5836
 	.no_dead_strip plt__rgctx_fetch_37
 plt__rgctx_fetch_37:
 _p_71:
@@ -18199,7 +18217,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2288]
 br x16
-.word 5897
+.word 5883
 	.no_dead_strip plt_System_ThrowHelper_ThrowKeyNotFoundException_object
 plt_System_ThrowHelper_ThrowKeyNotFoundException_object:
 _p_72:
@@ -18207,7 +18225,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2296]
 br x16
-.word 5923
+.word 5909
 	.no_dead_strip plt__rgctx_fetch_38
 plt__rgctx_fetch_38:
 _p_73:
@@ -18215,7 +18233,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2304]
 br x16
-.word 5949
+.word 5935
 	.no_dead_strip plt__rgctx_fetch_39
 plt__rgctx_fetch_39:
 _p_74:
@@ -18223,7 +18241,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2312]
 br x16
-.word 5996
+.word 5982
 	.no_dead_strip plt__rgctx_fetch_40
 plt__rgctx_fetch_40:
 _p_75:
@@ -18231,7 +18249,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2320]
 br x16
-.word 6043
+.word 6029
 	.no_dead_strip plt__rgctx_fetch_41
 plt__rgctx_fetch_41:
 _p_76:
@@ -18239,7 +18257,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2328]
 br x16
-.word 6051
+.word 6037
 	.no_dead_strip plt__rgctx_fetch_42
 plt__rgctx_fetch_42:
 _p_77:
@@ -18247,7 +18265,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2336]
 br x16
-.word 6077
+.word 6063
 	.no_dead_strip plt__rgctx_fetch_43
 plt__rgctx_fetch_43:
 _p_78:
@@ -18255,7 +18273,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2344]
 br x16
-.word 6103
+.word 6089
 	.no_dead_strip plt__rgctx_fetch_44
 plt__rgctx_fetch_44:
 _p_79:
@@ -18263,7 +18281,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2352]
 br x16
-.word 6150
+.word 6136
 	.no_dead_strip plt__rgctx_fetch_45
 plt__rgctx_fetch_45:
 _p_80:
@@ -18271,7 +18289,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2360]
 br x16
-.word 6158
+.word 6144
 	.no_dead_strip plt__rgctx_fetch_46
 plt__rgctx_fetch_46:
 _p_81:
@@ -18279,7 +18297,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2368]
 br x16
-.word 6184
+.word 6170
 	.no_dead_strip plt__rgctx_fetch_47
 plt__rgctx_fetch_47:
 _p_82:
@@ -18287,7 +18305,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2376]
 br x16
-.word 6219
+.word 6205
 	.no_dead_strip plt__rgctx_fetch_48
 plt__rgctx_fetch_48:
 _p_83:
@@ -18295,7 +18313,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2384]
 br x16
-.word 6227
+.word 6213
 	.no_dead_strip plt__rgctx_fetch_49
 plt__rgctx_fetch_49:
 _p_84:
@@ -18303,7 +18321,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2392]
 br x16
-.word 6250
+.word 6236
 	.no_dead_strip plt__rgctx_fetch_50
 plt__rgctx_fetch_50:
 _p_85:
@@ -18311,7 +18329,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2400]
 br x16
-.word 6297
+.word 6283
 	.no_dead_strip plt__rgctx_fetch_51
 plt__rgctx_fetch_51:
 _p_86:
@@ -18319,7 +18337,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2408]
 br x16
-.word 6305
+.word 6291
 	.no_dead_strip plt__rgctx_fetch_52
 plt__rgctx_fetch_52:
 _p_87:
@@ -18327,7 +18345,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2416]
 br x16
-.word 6331
+.word 6317
 	.no_dead_strip plt__rgctx_fetch_53
 plt__rgctx_fetch_53:
 _p_88:
@@ -18335,7 +18353,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2424]
 br x16
-.word 6357
+.word 6343
 	.no_dead_strip plt__rgctx_fetch_54
 plt__rgctx_fetch_54:
 _p_89:
@@ -18343,7 +18361,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2432]
 br x16
-.word 6365
+.word 6351
 	.no_dead_strip plt__rgctx_fetch_55
 plt__rgctx_fetch_55:
 _p_90:
@@ -18351,7 +18369,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2440]
 br x16
-.word 6388
+.word 6374
 	.no_dead_strip plt__rgctx_fetch_56
 plt__rgctx_fetch_56:
 _p_91:
@@ -18359,7 +18377,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2448]
 br x16
-.word 6414
+.word 6400
 	.no_dead_strip plt_System_Array_Clear_System_Array_int_int
 plt_System_Array_Clear_System_Array_int_int:
 _p_92:
@@ -18367,7 +18385,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2456]
 br x16
-.word 6440
+.word 6426
 	.no_dead_strip plt__rgctx_fetch_57
 plt__rgctx_fetch_57:
 _p_93:
@@ -18375,7 +18393,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2464]
 br x16
-.word 6466
+.word 6452
 	.no_dead_strip plt__rgctx_fetch_58
 plt__rgctx_fetch_58:
 _p_94:
@@ -18383,7 +18401,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2472]
 br x16
-.word 6513
+.word 6499
 	.no_dead_strip plt__rgctx_fetch_59
 plt__rgctx_fetch_59:
 _p_95:
@@ -18391,7 +18409,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2480]
 br x16
-.word 6521
+.word 6507
 	.no_dead_strip plt_System_ThrowHelper_ThrowIndexArgumentOutOfRange_NeedNonNegNumException
 plt_System_ThrowHelper_ThrowIndexArgumentOutOfRange_NeedNonNegNumException:
 _p_96:
@@ -18399,7 +18417,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2488]
 br x16
-.word 6544
+.word 6530
 	.no_dead_strip plt__rgctx_fetch_60
 plt__rgctx_fetch_60:
 _p_97:
@@ -18407,7 +18425,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2496]
 br x16
-.word 6570
+.word 6556
 	.no_dead_strip plt_System_ThrowHelper_ThrowArgumentException_System_ExceptionResource
 plt_System_ThrowHelper_ThrowArgumentException_System_ExceptionResource:
 _p_98:
@@ -18415,7 +18433,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2504]
 br x16
-.word 6596
+.word 6582
 	.no_dead_strip plt__rgctx_fetch_61
 plt__rgctx_fetch_61:
 _p_99:
@@ -18423,7 +18441,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2512]
 br x16
-.word 6601
+.word 6587
 	.no_dead_strip plt__rgctx_fetch_62
 plt__rgctx_fetch_62:
 _p_100:
@@ -18431,7 +18449,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2520]
 br x16
-.word 6609
+.word 6595
 	.no_dead_strip plt__rgctx_fetch_63
 plt__rgctx_fetch_63:
 _p_101:
@@ -18439,7 +18457,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2528]
 br x16
-.word 6668
+.word 6654
 	.no_dead_strip plt__rgctx_fetch_64
 plt__rgctx_fetch_64:
 _p_102:
@@ -18447,7 +18465,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2536]
 br x16
-.word 6676
+.word 6662
 	.no_dead_strip plt__rgctx_fetch_65
 plt__rgctx_fetch_65:
 _p_103:
@@ -18455,7 +18473,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2544]
 br x16
-.word 6723
+.word 6709
 	.no_dead_strip plt__rgctx_fetch_66
 plt__rgctx_fetch_66:
 _p_104:
@@ -18463,7 +18481,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2552]
 br x16
-.word 6731
+.word 6717
 	.no_dead_strip plt_System_Runtime_Serialization_SerializationInfo_AddValue_string_int
 plt_System_Runtime_Serialization_SerializationInfo_AddValue_string_int:
 _p_105:
@@ -18471,7 +18489,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2560]
 br x16
-.word 6757
+.word 6743
 	.no_dead_strip plt__rgctx_fetch_67
 plt__rgctx_fetch_67:
 _p_106:
@@ -18479,7 +18497,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2568]
 br x16
-.word 6792
+.word 6778
 	.no_dead_strip plt_System_Runtime_Serialization_SerializationInfo_AddValue_string_object_System_Type
 plt_System_Runtime_Serialization_SerializationInfo_AddValue_string_object_System_Type:
 _p_107:
@@ -18487,7 +18505,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2576]
 br x16
-.word 6800
+.word 6786
 	.no_dead_strip plt__rgctx_fetch_68
 plt__rgctx_fetch_68:
 _p_108:
@@ -18495,7 +18513,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2584]
 br x16
-.word 6805
+.word 6791
 	.no_dead_strip plt__rgctx_fetch_69
 plt__rgctx_fetch_69:
 _p_109:
@@ -18503,7 +18521,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2592]
 br x16
-.word 6831
+.word 6817
 	.no_dead_strip plt_wrapper_alloc_object_AllocVector_intptr_intptr
 plt_wrapper_alloc_object_AllocVector_intptr_intptr:
 _p_110:
@@ -18511,7 +18529,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2600]
 br x16
-.word 6841
+.word 6827
 	.no_dead_strip plt__rgctx_fetch_70
 plt__rgctx_fetch_70:
 _p_111:
@@ -18519,7 +18537,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2608]
 br x16
-.word 6849
+.word 6835
 	.no_dead_strip plt__rgctx_fetch_71
 plt__rgctx_fetch_71:
 _p_112:
@@ -18527,7 +18545,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2616]
 br x16
-.word 6875
+.word 6861
 	.no_dead_strip plt__rgctx_fetch_72
 plt__rgctx_fetch_72:
 _p_113:
@@ -18535,7 +18553,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2624]
 br x16
-.word 6906
+.word 6892
 	.no_dead_strip plt__rgctx_fetch_73
 plt__rgctx_fetch_73:
 _p_114:
@@ -18543,7 +18561,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2632]
 br x16
-.word 6929
+.word 6915
 	.no_dead_strip plt_System_Collections_HashHelpers_GetPrime_int
 plt_System_Collections_HashHelpers_GetPrime_int:
 _p_115:
@@ -18551,7 +18569,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2640]
 br x16
-.word 6952
+.word 6938
 	.no_dead_strip plt__rgctx_fetch_74
 plt__rgctx_fetch_74:
 _p_116:
@@ -18559,7 +18577,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2648]
 br x16
-.word 6990
+.word 6976
 	.no_dead_strip plt__rgctx_fetch_75
 plt__rgctx_fetch_75:
 _p_117:
@@ -18567,7 +18585,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2656]
 br x16
-.word 7021
+.word 7007
 	.no_dead_strip plt__rgctx_fetch_76
 plt__rgctx_fetch_76:
 _p_118:
@@ -18575,7 +18593,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2664]
 br x16
-.word 7047
+.word 7033
 	.no_dead_strip plt__rgctx_fetch_77
 plt__rgctx_fetch_77:
 _p_119:
@@ -18583,7 +18601,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2672]
 br x16
-.word 7070
+.word 7056
 	.no_dead_strip plt_System_ThrowHelper_ThrowAddingDuplicateWithKeyArgumentException_object
 plt_System_ThrowHelper_ThrowAddingDuplicateWithKeyArgumentException_object:
 _p_120:
@@ -18591,7 +18609,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2680]
 br x16
-.word 7093
+.word 7079
 	.no_dead_strip plt__rgctx_fetch_78
 plt__rgctx_fetch_78:
 _p_121:
@@ -18599,7 +18617,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2688]
 br x16
-.word 7098
+.word 7084
 	.no_dead_strip plt_System_Runtime_CompilerServices_ConditionalWeakTable_2_object_System_Runtime_Serialization_SerializationInfo_TryGetValue_object_System_Runtime_Serialization_SerializationInfo_
 plt_System_Runtime_CompilerServices_ConditionalWeakTable_2_object_System_Runtime_Serialization_SerializationInfo_TryGetValue_object_System_Runtime_Serialization_SerializationInfo_:
 _p_122:
@@ -18607,7 +18625,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2696]
 br x16
-.word 7124
+.word 7110
 	.no_dead_strip plt_System_Runtime_Serialization_SerializationInfo_GetInt32_string
 plt_System_Runtime_Serialization_SerializationInfo_GetInt32_string:
 _p_123:
@@ -18615,7 +18633,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2704]
 br x16
-.word 7148
+.word 7134
 	.no_dead_strip plt__rgctx_fetch_79
 plt__rgctx_fetch_79:
 _p_124:
@@ -18623,7 +18641,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2712]
 br x16
-.word 7174
+.word 7160
 	.no_dead_strip plt_System_Runtime_Serialization_SerializationInfo_GetValue_string_System_Type
 plt_System_Runtime_Serialization_SerializationInfo_GetValue_string_System_Type:
 _p_125:
@@ -18631,7 +18649,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2720]
 br x16
-.word 7182
+.word 7168
 	.no_dead_strip plt__rgctx_fetch_80
 plt__rgctx_fetch_80:
 _p_126:
@@ -18639,7 +18657,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2728]
 br x16
-.word 7187
+.word 7173
 	.no_dead_strip plt_wrapper_castclass_object___castclass_with_cache_object_intptr_intptr
 plt_wrapper_castclass_object___castclass_with_cache_object_intptr_intptr:
 _p_127:
@@ -18647,7 +18665,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2736]
 br x16
-.word 7195
+.word 7181
 	.no_dead_strip plt__rgctx_fetch_81
 plt__rgctx_fetch_81:
 _p_128:
@@ -18655,7 +18673,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2744]
 br x16
-.word 7203
+.word 7189
 	.no_dead_strip plt__rgctx_fetch_82
 plt__rgctx_fetch_82:
 _p_129:
@@ -18663,7 +18681,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2752]
 br x16
-.word 7229
+.word 7215
 	.no_dead_strip plt__rgctx_fetch_83
 plt__rgctx_fetch_83:
 _p_130:
@@ -18671,7 +18689,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2760]
 br x16
-.word 7239
+.word 7225
 	.no_dead_strip plt_System_ThrowHelper_ThrowSerializationException_System_ExceptionResource
 plt_System_ThrowHelper_ThrowSerializationException_System_ExceptionResource:
 _p_131:
@@ -18679,7 +18697,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2768]
 br x16
-.word 7249
+.word 7235
 	.no_dead_strip plt__rgctx_fetch_84
 plt__rgctx_fetch_84:
 _p_132:
@@ -18687,7 +18705,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2776]
 br x16
-.word 7254
+.word 7240
 	.no_dead_strip plt__rgctx_fetch_85
 plt__rgctx_fetch_85:
 _p_133:
@@ -18695,7 +18713,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2784]
 br x16
-.word 7262
+.word 7248
 	.no_dead_strip plt__rgctx_fetch_86
 plt__rgctx_fetch_86:
 _p_134:
@@ -18703,7 +18721,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2792]
 br x16
-.word 7288
+.word 7274
 	.no_dead_strip plt__rgctx_fetch_87
 plt__rgctx_fetch_87:
 _p_135:
@@ -18711,7 +18729,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2800]
 br x16
-.word 7314
+.word 7300
 	.no_dead_strip plt_System_Runtime_CompilerServices_ConditionalWeakTable_2_object_System_Runtime_Serialization_SerializationInfo_Remove_object
 plt_System_Runtime_CompilerServices_ConditionalWeakTable_2_object_System_Runtime_Serialization_SerializationInfo_Remove_object:
 _p_136:
@@ -18719,7 +18737,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2808]
 br x16
-.word 7340
+.word 7326
 	.no_dead_strip plt_System_Collections_HashHelpers_ExpandPrime_int
 plt_System_Collections_HashHelpers_ExpandPrime_int:
 _p_137:
@@ -18727,7 +18745,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2816]
 br x16
-.word 7364
+.word 7350
 	.no_dead_strip plt__rgctx_fetch_88
 plt__rgctx_fetch_88:
 _p_138:
@@ -18735,7 +18753,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2824]
 br x16
-.word 7390
+.word 7376
 	.no_dead_strip plt__rgctx_fetch_89
 plt__rgctx_fetch_89:
 _p_139:
@@ -18743,7 +18761,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2832]
 br x16
-.word 7437
+.word 7423
 	.no_dead_strip plt_System_Array_Copy_System_Array_int_System_Array_int_int
 plt_System_Array_Copy_System_Array_int_System_Array_int_int:
 _p_140:
@@ -18751,7 +18769,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2840]
 br x16
-.word 7447
+.word 7433
 	.no_dead_strip plt__rgctx_fetch_90
 plt__rgctx_fetch_90:
 _p_141:
@@ -18759,7 +18777,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2848]
 br x16
-.word 7452
+.word 7438
 	.no_dead_strip plt__rgctx_fetch_91
 plt__rgctx_fetch_91:
 _p_142:
@@ -18767,7 +18785,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2856]
 br x16
-.word 7496
+.word 7482
 	.no_dead_strip plt__rgctx_fetch_92
 plt__rgctx_fetch_92:
 _p_143:
@@ -18775,7 +18793,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2864]
 br x16
-.word 7519
+.word 7505
 	.no_dead_strip plt__rgctx_fetch_93
 plt__rgctx_fetch_93:
 _p_144:
@@ -18783,7 +18801,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2872]
 br x16
-.word 7542
+.word 7528
 	.no_dead_strip plt__rgctx_fetch_94
 plt__rgctx_fetch_94:
 _p_145:
@@ -18791,7 +18809,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2880]
 br x16
-.word 7566
+.word 7552
 	.no_dead_strip plt__rgctx_fetch_95
 plt__rgctx_fetch_95:
 _p_146:
@@ -18799,7 +18817,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2888]
 br x16
-.word 7611
+.word 7597
 	.no_dead_strip plt__rgctx_fetch_96
 plt__rgctx_fetch_96:
 _p_147:
@@ -18807,7 +18825,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2896]
 br x16
-.word 7658
+.word 7644
 	.no_dead_strip plt__rgctx_fetch_97
 plt__rgctx_fetch_97:
 _p_148:
@@ -18815,7 +18833,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2904]
 br x16
-.word 7705
+.word 7691
 	.no_dead_strip plt__rgctx_fetch_98
 plt__rgctx_fetch_98:
 _p_149:
@@ -18823,7 +18841,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2912]
 br x16
-.word 7752
+.word 7738
 	.no_dead_strip plt__rgctx_fetch_99
 plt__rgctx_fetch_99:
 _p_150:
@@ -18831,7 +18849,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2920]
 br x16
-.word 7778
+.word 7764
 	.no_dead_strip plt_wrapper_castclass_object___isinst_with_cache_object_intptr_intptr
 plt_wrapper_castclass_object___isinst_with_cache_object_intptr_intptr:
 _p_151:
@@ -18839,7 +18857,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2928]
 br x16
-.word 7788
+.word 7774
 	.no_dead_strip plt__rgctx_fetch_100
 plt__rgctx_fetch_100:
 _p_152:
@@ -18847,7 +18865,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2936]
 br x16
-.word 7796
+.word 7782
 	.no_dead_strip plt__rgctx_fetch_101
 plt__rgctx_fetch_101:
 _p_153:
@@ -18855,7 +18873,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2944]
 br x16
-.word 7822
+.word 7808
 	.no_dead_strip plt_System_Collections_DictionaryEntry__ctor_object_object
 plt_System_Collections_DictionaryEntry__ctor_object_object:
 _p_154:
@@ -18863,7 +18881,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2952]
 br x16
-.word 7830
+.word 7816
 	.no_dead_strip plt_System_ThrowHelper_ThrowArgumentException_Argument_InvalidArrayType
 plt_System_ThrowHelper_ThrowArgumentException_Argument_InvalidArrayType:
 _p_155:
@@ -18871,7 +18889,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2960]
 br x16
-.word 7835
+.word 7821
 	.no_dead_strip plt__rgctx_fetch_102
 plt__rgctx_fetch_102:
 _p_156:
@@ -18879,7 +18897,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2968]
 br x16
-.word 7840
+.word 7826
 	.no_dead_strip plt__rgctx_fetch_103
 plt__rgctx_fetch_103:
 _p_157:
@@ -18887,7 +18905,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2976]
 br x16
-.word 7848
+.word 7834
 	.no_dead_strip plt__jit_icall_mono_thread_get_undeniable_exception
 plt__jit_icall_mono_thread_get_undeniable_exception:
 _p_158:
@@ -18895,7 +18913,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2984]
 br x16
-.word 7874
+.word 7860
 	.no_dead_strip plt__rgctx_fetch_104
 plt__rgctx_fetch_104:
 _p_159:
@@ -18903,7 +18921,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #2992]
 br x16
-.word 7934
+.word 7920
 	.no_dead_strip plt__rgctx_fetch_105
 plt__rgctx_fetch_105:
 _p_160:
@@ -18911,7 +18929,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3000]
 br x16
-.word 7942
+.word 7928
 	.no_dead_strip plt_object__ctor
 plt_object__ctor:
 _p_161:
@@ -18919,7 +18937,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3008]
 br x16
-.word 7968
+.word 7954
 	.no_dead_strip plt__rgctx_fetch_106
 plt__rgctx_fetch_106:
 _p_162:
@@ -18927,7 +18945,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3016]
 br x16
-.word 7994
+.word 7980
 	.no_dead_strip plt__rgctx_fetch_107
 plt__rgctx_fetch_107:
 _p_163:
@@ -18935,7 +18953,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3024]
 br x16
-.word 8041
+.word 8027
 	.no_dead_strip plt__rgctx_fetch_108
 plt__rgctx_fetch_108:
 _p_164:
@@ -18943,7 +18961,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3032]
 br x16
-.word 8088
+.word 8074
 	.no_dead_strip plt__rgctx_fetch_109
 plt__rgctx_fetch_109:
 _p_165:
@@ -18951,7 +18969,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3040]
 br x16
-.word 8096
+.word 8082
 	.no_dead_strip plt__rgctx_fetch_110
 plt__rgctx_fetch_110:
 _p_166:
@@ -18959,7 +18977,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3048]
 br x16
-.word 8122
+.word 8108
 	.no_dead_strip plt__rgctx_fetch_111
 plt__rgctx_fetch_111:
 _p_167:
@@ -18967,7 +18985,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3056]
 br x16
-.word 8130
+.word 8116
 	.no_dead_strip plt__rgctx_fetch_112
 plt__rgctx_fetch_112:
 _p_168:
@@ -18975,7 +18993,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3064]
 br x16
-.word 8156
+.word 8142
 	.no_dead_strip plt__rgctx_fetch_113
 plt__rgctx_fetch_113:
 _p_169:
@@ -18983,7 +19001,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3072]
 br x16
-.word 8185
+.word 8171
 	.no_dead_strip plt__rgctx_fetch_114
 plt__rgctx_fetch_114:
 _p_170:
@@ -18991,7 +19009,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3080]
 br x16
-.word 8208
+.word 8194
 	.no_dead_strip plt__rgctx_fetch_115
 plt__rgctx_fetch_115:
 _p_171:
@@ -18999,7 +19017,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3088]
 br x16
-.word 8231
+.word 8217
 	.no_dead_strip plt__rgctx_fetch_116
 plt__rgctx_fetch_116:
 _p_172:
@@ -19007,7 +19025,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3096]
 br x16
-.word 8239
+.word 8225
 	.no_dead_strip plt__rgctx_fetch_117
 plt__rgctx_fetch_117:
 _p_173:
@@ -19015,7 +19033,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3104]
 br x16
-.word 8247
+.word 8233
 	.no_dead_strip plt__rgctx_fetch_118
 plt__rgctx_fetch_118:
 _p_174:
@@ -19023,7 +19041,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3112]
 br x16
-.word 8273
+.word 8259
 	.no_dead_strip plt_System_ThrowHelper_ThrowWrongValueTypeArgumentException_object_System_Type
 plt_System_ThrowHelper_ThrowWrongValueTypeArgumentException_object_System_Type:
 _p_175:
@@ -19031,7 +19049,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3120]
 br x16
-.word 8281
+.word 8267
 	.no_dead_strip plt__rgctx_fetch_119
 plt__rgctx_fetch_119:
 _p_176:
@@ -19039,7 +19057,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3128]
 br x16
-.word 8286
+.word 8272
 	.no_dead_strip plt_System_ThrowHelper_ThrowWrongKeyTypeArgumentException_object_System_Type
 plt_System_ThrowHelper_ThrowWrongKeyTypeArgumentException_object_System_Type:
 _p_177:
@@ -19047,7 +19065,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3136]
 br x16
-.word 8294
+.word 8280
 	.no_dead_strip plt__rgctx_fetch_120
 plt__rgctx_fetch_120:
 _p_178:
@@ -19055,7 +19073,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3144]
 br x16
-.word 8320
+.word 8306
 	.no_dead_strip plt__rgctx_fetch_121
 plt__rgctx_fetch_121:
 _p_179:
@@ -19063,7 +19081,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3152]
 br x16
-.word 8349
+.word 8335
 	.no_dead_strip plt__rgctx_fetch_122
 plt__rgctx_fetch_122:
 _p_180:
@@ -19071,7 +19089,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3160]
 br x16
-.word 8372
+.word 8358
 	.no_dead_strip plt__rgctx_fetch_123
 plt__rgctx_fetch_123:
 _p_181:
@@ -19079,7 +19097,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3168]
 br x16
-.word 8395
+.word 8381
 	.no_dead_strip plt__rgctx_fetch_124
 plt__rgctx_fetch_124:
 _p_182:
@@ -19087,7 +19105,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3176]
 br x16
-.word 8403
+.word 8389
 	.no_dead_strip plt__rgctx_fetch_125
 plt__rgctx_fetch_125:
 _p_183:
@@ -19095,7 +19113,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3184]
 br x16
-.word 8411
+.word 8397
 	.no_dead_strip plt__rgctx_fetch_126
 plt__rgctx_fetch_126:
 _p_184:
@@ -19103,7 +19121,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3192]
 br x16
-.word 8437
+.word 8423
 	.no_dead_strip plt__rgctx_fetch_127
 plt__rgctx_fetch_127:
 _p_185:
@@ -19111,7 +19129,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3200]
 br x16
-.word 8445
+.word 8431
 	.no_dead_strip plt__rgctx_fetch_128
 plt__rgctx_fetch_128:
 _p_186:
@@ -19119,7 +19137,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3208]
 br x16
-.word 8474
+.word 8460
 	.no_dead_strip plt__rgctx_fetch_129
 plt__rgctx_fetch_129:
 _p_187:
@@ -19127,7 +19145,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3216]
 br x16
-.word 8482
+.word 8468
 	.no_dead_strip plt__rgctx_fetch_130
 plt__rgctx_fetch_130:
 _p_188:
@@ -19135,7 +19153,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3224]
 br x16
-.word 8508
+.word 8494
 	.no_dead_strip plt__rgctx_fetch_131
 plt__rgctx_fetch_131:
 _p_189:
@@ -19143,7 +19161,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3232]
 br x16
-.word 8516
+.word 8502
 	.no_dead_strip plt__rgctx_fetch_132
 plt__rgctx_fetch_132:
 _p_190:
@@ -19151,7 +19169,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3240]
 br x16
-.word 8563
+.word 8549
 	.no_dead_strip plt__rgctx_fetch_133
 plt__rgctx_fetch_133:
 _p_191:
@@ -19159,7 +19177,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3248]
 br x16
-.word 8571
+.word 8557
 	.no_dead_strip plt__rgctx_fetch_134
 plt__rgctx_fetch_134:
 _p_192:
@@ -19167,7 +19185,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3256]
 br x16
-.word 8618
+.word 8604
 	.no_dead_strip plt__rgctx_fetch_135
 plt__rgctx_fetch_135:
 _p_193:
@@ -19175,7 +19193,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3264]
 br x16
-.word 8626
+.word 8612
 	.no_dead_strip plt__rgctx_fetch_136
 plt__rgctx_fetch_136:
 _p_194:
@@ -19183,7 +19201,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3272]
 br x16
-.word 8652
+.word 8638
 	.no_dead_strip plt__rgctx_fetch_137
 plt__rgctx_fetch_137:
 _p_195:
@@ -19191,7 +19209,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3280]
 br x16
-.word 8660
+.word 8646
 	.no_dead_strip plt__rgctx_fetch_138
 plt__rgctx_fetch_138:
 _p_196:
@@ -19199,7 +19217,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3288]
 br x16
-.word 8719
+.word 8705
 	.no_dead_strip plt__rgctx_fetch_139
 plt__rgctx_fetch_139:
 _p_197:
@@ -19207,7 +19225,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3296]
 br x16
-.word 8727
+.word 8713
 	.no_dead_strip plt__rgctx_fetch_140
 plt__rgctx_fetch_140:
 _p_198:
@@ -19215,7 +19233,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3304]
 br x16
-.word 8786
+.word 8772
 	.no_dead_strip plt__rgctx_fetch_141
 plt__rgctx_fetch_141:
 _p_199:
@@ -19223,7 +19241,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3312]
 br x16
-.word 8833
+.word 8819
 	.no_dead_strip plt_System_ThrowHelper_ThrowNotSupportedException_System_ExceptionResource
 plt_System_ThrowHelper_ThrowNotSupportedException_System_ExceptionResource:
 _p_200:
@@ -19231,7 +19249,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3320]
 br x16
-.word 8859
+.word 8845
 	.no_dead_strip plt__rgctx_fetch_142
 plt__rgctx_fetch_142:
 _p_201:
@@ -19239,7 +19257,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3328]
 br x16
-.word 8885
+.word 8871
 	.no_dead_strip plt__rgctx_fetch_143
 plt__rgctx_fetch_143:
 _p_202:
@@ -19247,7 +19265,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3336]
 br x16
-.word 8932
+.word 8918
 	.no_dead_strip plt__rgctx_fetch_144
 plt__rgctx_fetch_144:
 _p_203:
@@ -19255,7 +19273,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3344]
 br x16
-.word 8940
+.word 8926
 	.no_dead_strip plt__rgctx_fetch_145
 plt__rgctx_fetch_145:
 _p_204:
@@ -19263,7 +19281,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3352]
 br x16
-.word 8987
+.word 8973
 	.no_dead_strip plt__rgctx_fetch_146
 plt__rgctx_fetch_146:
 _p_205:
@@ -19271,7 +19289,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3360]
 br x16
-.word 8995
+.word 8981
 	.no_dead_strip plt__rgctx_fetch_147
 plt__rgctx_fetch_147:
 _p_206:
@@ -19279,7 +19297,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3368]
 br x16
-.word 9042
+.word 9028
 	.no_dead_strip plt__rgctx_fetch_148
 plt__rgctx_fetch_148:
 _p_207:
@@ -19287,7 +19305,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3376]
 br x16
-.word 9068
+.word 9054
 	.no_dead_strip plt__rgctx_fetch_149
 plt__rgctx_fetch_149:
 _p_208:
@@ -19295,7 +19313,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3384]
 br x16
-.word 9078
+.word 9064
 	.no_dead_strip plt__rgctx_fetch_150
 plt__rgctx_fetch_150:
 _p_209:
@@ -19303,7 +19321,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3392]
 br x16
-.word 9137
+.word 9123
 	.no_dead_strip plt__rgctx_fetch_151
 plt__rgctx_fetch_151:
 _p_210:
@@ -19311,7 +19329,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3400]
 br x16
-.word 9145
+.word 9131
 	.no_dead_strip plt__rgctx_fetch_152
 plt__rgctx_fetch_152:
 _p_211:
@@ -19319,7 +19337,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3408]
 br x16
-.word 9204
+.word 9190
 	.no_dead_strip plt__rgctx_fetch_153
 plt__rgctx_fetch_153:
 _p_212:
@@ -19327,7 +19345,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3416]
 br x16
-.word 9251
+.word 9237
 	.no_dead_strip plt__rgctx_fetch_154
 plt__rgctx_fetch_154:
 _p_213:
@@ -19335,7 +19353,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3424]
 br x16
-.word 9298
+.word 9284
 	.no_dead_strip plt__rgctx_fetch_155
 plt__rgctx_fetch_155:
 _p_214:
@@ -19343,7 +19361,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3432]
 br x16
-.word 9345
+.word 9331
 	.no_dead_strip plt__rgctx_fetch_156
 plt__rgctx_fetch_156:
 _p_215:
@@ -19351,7 +19369,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3440]
 br x16
-.word 9353
+.word 9339
 	.no_dead_strip plt__rgctx_fetch_157
 plt__rgctx_fetch_157:
 _p_216:
@@ -19359,7 +19377,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3448]
 br x16
-.word 9400
+.word 9386
 	.no_dead_strip plt__rgctx_fetch_158
 plt__rgctx_fetch_158:
 _p_217:
@@ -19367,7 +19385,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3456]
 br x16
-.word 9408
+.word 9394
 	.no_dead_strip plt__rgctx_fetch_159
 plt__rgctx_fetch_159:
 _p_218:
@@ -19375,7 +19393,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3464]
 br x16
-.word 9455
+.word 9441
 	.no_dead_strip plt__rgctx_fetch_160
 plt__rgctx_fetch_160:
 _p_219:
@@ -19383,7 +19401,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3472]
 br x16
-.word 9481
+.word 9467
 	.no_dead_strip plt__rgctx_fetch_161
 plt__rgctx_fetch_161:
 _p_220:
@@ -19391,7 +19409,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3480]
 br x16
-.word 9491
+.word 9477
 	.no_dead_strip plt__rgctx_fetch_162
 plt__rgctx_fetch_162:
 _p_221:
@@ -19399,7 +19417,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3488]
 br x16
-.word 9517
+.word 9503
 	.no_dead_strip plt_System_ThrowHelper_ThrowInvalidOperationException_InvalidOperation_EnumFailedVersion
 plt_System_ThrowHelper_ThrowInvalidOperationException_InvalidOperation_EnumFailedVersion:
 _p_222:
@@ -19407,7 +19425,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3496]
 br x16
-.word 9525
+.word 9511
 	.no_dead_strip plt__rgctx_fetch_163
 plt__rgctx_fetch_163:
 _p_223:
@@ -19415,7 +19433,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3504]
 br x16
-.word 9563
+.word 9549
 	.no_dead_strip plt__rgctx_fetch_164
 plt__rgctx_fetch_164:
 _p_224:
@@ -19423,7 +19441,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3512]
 br x16
-.word 9571
+.word 9557
 	.no_dead_strip plt_System_ThrowHelper_ThrowInvalidOperationException_InvalidOperation_EnumOpCantHappen
 plt_System_ThrowHelper_ThrowInvalidOperationException_InvalidOperation_EnumOpCantHappen:
 _p_225:
@@ -19431,7 +19449,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3520]
 br x16
-.word 9597
+.word 9583
 	.no_dead_strip plt__rgctx_fetch_165
 plt__rgctx_fetch_165:
 _p_226:
@@ -19439,7 +19457,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3528]
 br x16
-.word 9623
+.word 9609
 	.no_dead_strip plt__rgctx_fetch_166
 plt__rgctx_fetch_166:
 _p_227:
@@ -19447,7 +19465,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3536]
 br x16
-.word 9631
+.word 9617
 	.no_dead_strip plt__rgctx_fetch_167
 plt__rgctx_fetch_167:
 _p_228:
@@ -19455,7 +19473,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3544]
 br x16
-.word 9657
+.word 9643
 	.no_dead_strip plt__rgctx_fetch_168
 plt__rgctx_fetch_168:
 _p_229:
@@ -19463,7 +19481,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3552]
 br x16
-.word 9683
+.word 9669
 	.no_dead_strip plt__rgctx_fetch_169
 plt__rgctx_fetch_169:
 _p_230:
@@ -19471,7 +19489,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3560]
 br x16
-.word 9691
+.word 9677
 	.no_dead_strip plt__rgctx_fetch_170
 plt__rgctx_fetch_170:
 _p_231:
@@ -19479,7 +19497,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3568]
 br x16
-.word 9738
+.word 9724
 	.no_dead_strip plt__rgctx_fetch_171
 plt__rgctx_fetch_171:
 _p_232:
@@ -19487,7 +19505,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3576]
 br x16
-.word 9746
+.word 9732
 	.no_dead_strip plt__rgctx_fetch_172
 plt__rgctx_fetch_172:
 _p_233:
@@ -19495,7 +19513,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3584]
 br x16
-.word 9772
+.word 9758
 	.no_dead_strip plt__rgctx_fetch_173
 plt__rgctx_fetch_173:
 _p_234:
@@ -19503,7 +19521,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3592]
 br x16
-.word 9798
+.word 9784
 	.no_dead_strip plt__rgctx_fetch_174
 plt__rgctx_fetch_174:
 _p_235:
@@ -19511,7 +19529,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3600]
 br x16
-.word 9827
+.word 9813
 	.no_dead_strip plt__rgctx_fetch_175
 plt__rgctx_fetch_175:
 _p_236:
@@ -19519,7 +19537,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3608]
 br x16
-.word 9835
+.word 9821
 	.no_dead_strip plt__rgctx_fetch_176
 plt__rgctx_fetch_176:
 _p_237:
@@ -19527,7 +19545,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3616]
 br x16
-.word 9882
+.word 9868
 	.no_dead_strip plt__rgctx_fetch_177
 plt__rgctx_fetch_177:
 _p_238:
@@ -19535,7 +19553,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3624]
 br x16
-.word 9890
+.word 9876
 	.no_dead_strip plt__rgctx_fetch_178
 plt__rgctx_fetch_178:
 _p_239:
@@ -19543,7 +19561,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3632]
 br x16
-.word 9916
+.word 9902
 	.no_dead_strip plt__rgctx_fetch_179
 plt__rgctx_fetch_179:
 _p_240:
@@ -19551,7 +19569,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3640]
 br x16
-.word 9945
+.word 9931
 	.no_dead_strip plt__rgctx_fetch_180
 plt__rgctx_fetch_180:
 _p_241:
@@ -19559,7 +19577,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3648]
 br x16
-.word 9953
+.word 9939
 	.no_dead_strip plt__rgctx_fetch_181
 plt__rgctx_fetch_181:
 _p_242:
@@ -19567,7 +19585,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3656]
 br x16
-.word 9979
+.word 9965
 	.no_dead_strip plt__rgctx_fetch_182
 plt__rgctx_fetch_182:
 _p_243:
@@ -19575,7 +19593,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3664]
 br x16
-.word 10005
+.word 9991
 	.no_dead_strip plt_System_Collections_Generic_KeyValuePair_PairToString_object_object
 plt_System_Collections_Generic_KeyValuePair_PairToString_object_object:
 _p_244:
@@ -19583,7 +19601,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3672]
 br x16
-.word 10013
+.word 9999
 	.no_dead_strip plt__rgctx_fetch_183
 plt__rgctx_fetch_183:
 _p_245:
@@ -19591,7 +19609,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3680]
 br x16
-.word 10036
+.word 10022
 	.no_dead_strip plt__rgctx_fetch_184
 plt__rgctx_fetch_184:
 _p_246:
@@ -19599,7 +19617,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3688]
 br x16
-.word 10077
+.word 10063
 	.no_dead_strip plt__rgctx_fetch_185
 plt__rgctx_fetch_185:
 _p_247:
@@ -19607,7 +19625,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3696]
 br x16
-.word 10085
+.word 10071
 	.no_dead_strip plt_System_Collections_Generic_EqualityComparer_1_T_REF_CreateComparer
 plt_System_Collections_Generic_EqualityComparer_1_T_REF_CreateComparer:
 _p_248:
@@ -19615,7 +19633,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3704]
 br x16
-.word 10093
+.word 10079
 	.no_dead_strip plt__jit_icall_mono_thread_interruption_checkpoint
 plt__jit_icall_mono_thread_interruption_checkpoint:
 _p_249:
@@ -19623,7 +19641,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3712]
 br x16
-.word 10112
+.word 10098
 	.no_dead_strip plt__rgctx_fetch_186
 plt__rgctx_fetch_186:
 _p_250:
@@ -19631,7 +19649,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3720]
 br x16
-.word 10168
+.word 10154
 	.no_dead_strip plt__rgctx_fetch_187
 plt__rgctx_fetch_187:
 _p_251:
@@ -19639,7 +19657,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3728]
 br x16
-.word 10176
+.word 10162
 	.no_dead_strip plt__rgctx_fetch_188
 plt__rgctx_fetch_188:
 _p_252:
@@ -19647,7 +19665,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3736]
 br x16
-.word 10184
+.word 10170
 	.no_dead_strip plt__rgctx_fetch_189
 plt__rgctx_fetch_189:
 _p_253:
@@ -19655,7 +19673,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3744]
 br x16
-.word 10225
+.word 10211
 	.no_dead_strip plt_System_Collections_Generic_ByteEqualityComparer__ctor
 plt_System_Collections_Generic_ByteEqualityComparer__ctor:
 _p_254:
@@ -19663,7 +19681,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3752]
 br x16
-.word 10233
+.word 10219
 	.no_dead_strip plt__rgctx_fetch_190
 plt__rgctx_fetch_190:
 _p_255:
@@ -19671,7 +19689,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3760]
 br x16
-.word 10238
+.word 10224
 	.no_dead_strip plt_System_Collections_Generic_InternalStringComparer__ctor
 plt_System_Collections_Generic_InternalStringComparer__ctor:
 _p_256:
@@ -19679,7 +19697,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3768]
 br x16
-.word 10246
+.word 10232
 	.no_dead_strip plt__rgctx_fetch_191
 plt__rgctx_fetch_191:
 _p_257:
@@ -19687,7 +19705,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3776]
 br x16
-.word 10260
+.word 10246
 	.no_dead_strip plt_System_RuntimeType_CreateInstanceForAnotherGenericParameter_System_Type_System_RuntimeType
 plt_System_RuntimeType_CreateInstanceForAnotherGenericParameter_System_Type_System_RuntimeType:
 _p_258:
@@ -19695,7 +19713,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3784]
 br x16
-.word 10268
+.word 10254
 	.no_dead_strip plt_System_Enum_GetUnderlyingType_System_Type
 plt_System_Enum_GetUnderlyingType_System_Type:
 _p_259:
@@ -19703,7 +19721,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3792]
 br x16
-.word 10273
+.word 10259
 	.no_dead_strip plt_System_Type_GetTypeCode_System_Type
 plt_System_Type_GetTypeCode_System_Type:
 _p_260:
@@ -19711,7 +19729,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3800]
 br x16
-.word 10278
+.word 10264
 	.no_dead_strip plt__rgctx_fetch_192
 plt__rgctx_fetch_192:
 _p_261:
@@ -19719,7 +19737,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3808]
 br x16
-.word 10292
+.word 10278
 	.no_dead_strip plt_System_Collections_Generic_ObjectEqualityComparer_1_T_REF__ctor
 plt_System_Collections_Generic_ObjectEqualityComparer_1_T_REF__ctor:
 _p_262:
@@ -19727,7 +19745,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3816]
 br x16
-.word 10300
+.word 10286
 	.no_dead_strip plt__rgctx_fetch_193
 plt__rgctx_fetch_193:
 _p_263:
@@ -19735,7 +19753,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3824]
 br x16
-.word 10337
+.word 10323
 	.no_dead_strip plt__rgctx_fetch_194
 plt__rgctx_fetch_194:
 _p_264:
@@ -19743,7 +19761,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3832]
 br x16
-.word 10345
+.word 10331
 	.no_dead_strip plt__rgctx_fetch_195
 plt__rgctx_fetch_195:
 _p_265:
@@ -19751,7 +19769,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3840]
 br x16
-.word 10362
+.word 10348
 	.no_dead_strip plt__rgctx_fetch_196
 plt__rgctx_fetch_196:
 _p_266:
@@ -19759,7 +19777,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3848]
 br x16
-.word 10379
+.word 10365
 	.no_dead_strip plt__rgctx_fetch_197
 plt__rgctx_fetch_197:
 _p_267:
@@ -19767,7 +19785,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3856]
 br x16
-.word 10387
+.word 10373
 	.no_dead_strip plt_System_Collections_Generic_EqualityComparer_1_T_REF__ctor
 plt_System_Collections_Generic_EqualityComparer_1_T_REF__ctor:
 _p_268:
@@ -19775,7 +19793,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3864]
 br x16
-.word 10419
+.word 10405
 	.no_dead_strip plt__rgctx_fetch_198
 plt__rgctx_fetch_198:
 _p_269:
@@ -19783,7 +19801,7 @@ adrp x16, mono_aot_HockeySDK_got@PAGE+0
 add x16, x16, mono_aot_HockeySDK_got@PAGEOFF
 ldr x16, [x16, #3872]
 br x16
-.word 10465
+.word 10451
 plt_end:
 .section __DATA, __bss
 	.align 3
@@ -19897,13 +19915,13 @@ _mono_aot_file_info:
 	.align 3
 	.quad unbox_trampoline_addresses
 
-	.long 215,3880,270,142,70,387000831,0,34000
-	.long 128,8,8,8,0,25,39488,5480
+	.long 215,3880,270,142,70,387000831,0,33986
+	.long 128,8,8,8,0,25,39472,5480
 	.long 5128,4448,0,4808,5096,4504,0,3512
 	.long 216,5472,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0
-	.byte 60,20,234,100,12,170,140,123,215,38,86,138,215,16,129,248
+	.byte 31,53,7,124,124,102,125,228,214,186,190,111,142,84,99,37
 	.globl _mono_aot_module_HockeySDK_info
 	.align 3
 _mono_aot_module_HockeySDK_info:
@@ -21174,7 +21192,7 @@ LDIFF_SYM171=LTDIE_17 - Ldebug_info_start
 	.asciz "System.Array/InternalEnumerator`1<T_INST>:.ctor"
 	.asciz "System_Array_InternalEnumerator_1_T_INST__ctor_System_Array"
 
-	.byte 1,217,1
+	.byte 1,218,1
 	.quad System_Array_InternalEnumerator_1_T_INST__ctor_System_Array
 	.quad Lme_1b
 
@@ -21213,7 +21231,7 @@ Lfde18_end:
 	.asciz "System.Array/InternalEnumerator`1<T_INST>:Dispose"
 	.asciz "System_Array_InternalEnumerator_1_T_INST_Dispose"
 
-	.byte 1,223,1
+	.byte 1,224,1
 	.quad System_Array_InternalEnumerator_1_T_INST_Dispose
 	.quad Lme_1c
 
@@ -21247,7 +21265,7 @@ Lfde19_end:
 	.asciz "System.Array/InternalEnumerator`1<T_INST>:MoveNext"
 	.asciz "System_Array_InternalEnumerator_1_T_INST_MoveNext"
 
-	.byte 1,227,1
+	.byte 1,228,1
 	.quad System_Array_InternalEnumerator_1_T_INST_MoveNext
 	.quad Lme_1d
 
@@ -21286,7 +21304,7 @@ Lfde20_end:
 	.asciz "System.Array/InternalEnumerator`1<T_INST>:get_Current"
 	.asciz "System_Array_InternalEnumerator_1_T_INST_get_Current"
 
-	.byte 1,235,1
+	.byte 1,236,1
 	.quad System_Array_InternalEnumerator_1_T_INST_get_Current
 	.quad Lme_1e
 
@@ -21320,7 +21338,7 @@ Lfde21_end:
 	.asciz "System.Array/InternalEnumerator`1<T_INST>:System.Collections.IEnumerator.Reset"
 	.asciz "System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_Reset"
 
-	.byte 1,246,1
+	.byte 1,247,1
 	.quad System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_Reset
 	.quad Lme_1f
 
@@ -21354,7 +21372,7 @@ Lfde22_end:
 	.asciz "System.Array/InternalEnumerator`1<T_INST>:System.Collections.IEnumerator.get_Current"
 	.asciz "System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_get_Current"
 
-	.byte 1,251,1
+	.byte 1,252,1
 	.quad System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_get_Current
 	.quad Lme_20
 
@@ -21388,7 +21406,7 @@ Lfde23_end:
 	.asciz "System.Array:InternalArray__IEnumerable_GetEnumerator<T_INST>"
 	.asciz "System_Array_InternalArray__IEnumerable_GetEnumerator_T_INST"
 
-	.byte 1,70
+	.byte 1,71
 	.quad System_Array_InternalArray__IEnumerable_GetEnumerator_T_INST
 	.quad Lme_21
 
@@ -26500,7 +26518,7 @@ Lfde119_end:
 	.asciz "System.Array:InternalArray__get_Item<T_INST>"
 	.asciz "System_Array_InternalArray__get_Item_T_INST_int"
 
-	.byte 1,175,1
+	.byte 1,176,1
 	.quad System_Array_InternalArray__get_Item_T_INST_int
 	.quad Lme_81
 
@@ -27034,19 +27052,7 @@ LDIFF_SYM896=LDIE_I4 - Ldebug_info_start
 	.byte 29,9
 	.asciz "comparable"
 
-	.byte 30,9
-	.asciz "exceptions"
-
-	.byte 31,9
-	.asciz "exception"
-
-	.byte 32,9
-	.asciz "action"
-
-	.byte 33,9
-	.asciz "comparison"
-
-	.byte 34,0,7
+	.byte 30,0,7
 	.asciz "System_ExceptionArgument"
 
 LDIFF_SYM897=LTDIE_58 - Ldebug_info_start

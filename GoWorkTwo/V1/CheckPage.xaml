@@ -1,5 +1,28 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="GoWorkTwo.V1.CheckPage">
     <ContentPage.Content>
+        <AbsoluteLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+            <StackLayout BackgroundColor="Teal"
+                         Padding="10,15,10,15"
+                         AbsoluteLayout.LayoutFlags="XProportional,SizeProportional"
+                         AbsoluteLayout.LayoutBounds="1.0,0,1.0,120">
+                <Label Text="Masa" FontSize="20" />
+                <Label Text="12:00 PM" FontSize="50" HorizontalOptions="CenterAndExpand" />
+            </StackLayout>
+            <StackLayout BackgroundColor="Teal"
+                         Padding="10,15,10,15"
+                         AbsoluteLayout.LayoutFlags="XProportional,SizeProportional"
+                         AbsoluteLayout.LayoutBounds="1.0,120,1.0,1">
+                <Label Text="Lokasi:" FontSize="20" />
+                <Label Text="Sila pilih:" FontSize="50" HorizontalOptions="CenterAndExpand" />
+            </StackLayout>
+            <StackLayout BackgroundColor="Teal"
+                         Padding="10,15,10,15"
+                         AbsoluteLayout.LayoutFlags="XProportional,SizeProportional"
+                         AbsoluteLayout.LayoutBounds="1.0,240,1.0,1">
+                <Label Text="Masa" FontSize="20" />
+                <Label Text="12:00 PM" FontSize="50" HorizontalOptions="CenterAndExpand" />
+            </StackLayout>
+        </AbsoluteLayout>
     </ContentPage.Content>
 </ContentPage>

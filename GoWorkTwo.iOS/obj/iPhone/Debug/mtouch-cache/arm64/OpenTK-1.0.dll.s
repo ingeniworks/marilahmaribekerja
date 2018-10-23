@@ -21,7 +21,7 @@ Ldebug_info_begin:
 	.short 2
 	.long 0
 	.byte 8,1
-	.asciz "Mono AOT Compiler 5.14.0 (explicit/d31dbe843a5 Tue Aug 14 13:34:52 EDT 2018)"
+	.asciz "Mono AOT Compiler 5.12.0 (tarball Mon Sep 17 21:30:02 EDT 2018)"
 	.asciz "OpenTK-1.0.dll"
 	.asciz ""
 
@@ -139,13 +139,12 @@ System_Drawing_Color_get_Name:
 .word 0xf9000bba
 .word 0xaa0003fa
 .word 0xf9400b40
-.word 0xb50006a0
+.word 0xb5000680
 .loc 1 83 0
 .word 0x79801340
 .word 0xd28000be
 .word 0xa1e0000
-.word 0xd2800001
-.word 0x6b01001f
+.word 0x6b1f001f
 .word 0x9a9f97e0
 .word 0x34000200
 .loc 1 84 0
@@ -223,8 +222,7 @@ System_Drawing_Color_get_IsKnownColor:
 .word 0x79801000
 .word 0xd280003e
 .word 0xa1e0000
-.word 0xd2800001
-.word 0x6b01001f
+.word 0x6b1f001f
 .word 0x9a9f97e0
 .word 0x910003bf
 .word 0xa8c27bfd
@@ -247,8 +245,7 @@ System_Drawing_Color_get_IsSystemColor:
 .word 0x79801000
 .word 0xd280011e
 .word 0xa1e0000
-.word 0xd2800001
-.word 0x6b01001f
+.word 0x6b1f001f
 .word 0x9a9f97e0
 .word 0x910003bf
 .word 0xa8c27bfd
@@ -271,8 +268,7 @@ System_Drawing_Color_get_IsNamedColor:
 .word 0x79801000
 .word 0xd28000be
 .word 0xa1e0000
-.word 0xd2800001
-.word 0x6b01001f
+.word 0x6b1f001f
 .word 0x9a9f97e0
 .word 0x910003bf
 .word 0xa8c27bfd
@@ -297,12 +293,11 @@ System_Drawing_Color_get_Value:
 .word 0xf90013a0
 .word 0xf90017a0
 .word 0xf9400340
-.word 0xb5000260
+.word 0xb5000240
 .word 0x79801340
 .word 0xd280003e
 .word 0xa1e0000
-.word 0xd2800001
-.word 0x6b01001f
+.word 0x6b1f001f
 .word 0x9a9f97e0
 .word 0x34000180
 .loc 1 116 0
@@ -466,8 +461,7 @@ System_Drawing_Color_FromKnownColor_System_Drawing_KnownColor:
 .word 0x93403c19
 .loc 1 156 0
 .word 0xaa1903e0
-.word 0xd2800001
-.word 0x6b01001f
+.word 0x6b1f001f
 .word 0x5400010d
 
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+0
@@ -502,11 +496,11 @@ bl _p_8
 .word 0xd28000fe
 .word 0x790093be
 .loc 1 163 0
-.word 0xd2800360
-.word 0x6b00033f
+.word 0xd280037e
+.word 0x6b1e033f
 .word 0x5400008b
-.word 0xd2801520
-.word 0x6b00033f
+.word 0xd280153e
+.word 0x6b1e033f
 .word 0x540000ed
 .loc 1 164 0
 .word 0x910103a1
@@ -565,7 +559,7 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c67bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2801ea0
 .word 0xaa1103e1
 bl _p_9
 
@@ -594,70 +588,63 @@ bl _p_7
 .word 0x54000060
 .loc 1 214 0
 .word 0xd2800000
-.word 0x14000048
+.word 0x14000041
 .loc 1 215 0
 .word 0xf9400ba0
 .word 0x79801000
 .word 0xd28000be
 .word 0xa1e0000
-.word 0xd2800001
-.word 0x6b01001f
+.word 0x6b1f001f
 .word 0x9a9f97e0
 .word 0xf9400fa1
 .word 0x79801021
 .word 0xd28000be
 .word 0xa1e0021
-.word 0xd2800002
-.word 0x6b02003f
+.word 0x6b1f003f
 .word 0x9a9f97e1
 .word 0x6b01001f
 .word 0x54000060
 .loc 1 216 0
 .word 0xd2800000
-.word 0x14000036
+.word 0x14000031
 .loc 1 217 0
 .word 0xf9400ba0
 .word 0x79801000
 .word 0xd280011e
 .word 0xa1e0000
-.word 0xd2800001
-.word 0x6b01001f
+.word 0x6b1f001f
 .word 0x9a9f97e0
 .word 0xf9400fa1
 .word 0x79801021
 .word 0xd280011e
 .word 0xa1e0021
-.word 0xd2800002
-.word 0x6b02003f
+.word 0x6b1f003f
 .word 0x9a9f97e1
 .word 0x6b01001f
 .word 0x54000060
 .loc 1 218 0
 .word 0xd2800000
-.word 0x14000024
+.word 0x14000021
 .loc 1 219 0
 .word 0xf9400ba0
 .word 0x79801000
-.word 0xd2800001
-.word 0x6b01001f
+.word 0x6b1f001f
 .word 0x9a9f17e0
 .word 0xf9400fa1
 .word 0x79801021
-.word 0xd2800002
-.word 0x6b02003f
+.word 0x6b1f003f
 .word 0x9a9f17e1
 .word 0x6b01001f
 .word 0x54000060
 .loc 1 220 0
 .word 0xd2800000
-.word 0x14000016
+.word 0x14000015
 .loc 1 221 0
 .word 0xf9400ba0
 .word 0x79801000
 .word 0xd28000be
 .word 0xa1e0000
-.word 0xd2800001
-.word 0x6b01001f
+.word 0x6b1f001f
 .word 0x9a9f97e0
 .word 0x340001a0
 .loc 1 224 0
@@ -695,8 +682,7 @@ System_Drawing_Color_get_IsEmpty:
 .word 0xf9000ba0
 .word 0xf9400ba0
 .word 0x79801000
-.word 0xd2800001
-.word 0x6b01001f
+.word 0x6b1f001f
 .word 0x9a9f17e0
 .word 0x910003bf
 .word 0xa8c27bfd
@@ -874,7 +860,7 @@ bl _p_12
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2802060
+.word 0xd2801f60
 .word 0xaa1103e1
 bl _p_9
 
@@ -913,8 +899,7 @@ bl _p_7
 .word 0x79801340
 .word 0xd28000be
 .word 0xa1e0000
-.word 0xd2800001
-.word 0x6b01001f
+.word 0x6b1f001f
 .word 0x9a9f97e0
 .word 0x34000140
 .loc 1 389 0
@@ -949,8 +934,7 @@ System_Drawing_Color_ToString:
 .word 0xf9000bba
 .word 0xaa0003fa
 .word 0x79801340
-.word 0xd2800001
-.word 0x6b01001f
+.word 0x6b1f001f
 .word 0x9a9f17e0
 .word 0x340000a0
 .loc 1 404 0
@@ -958,13 +942,12 @@ System_Drawing_Color_ToString:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+0
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x0, [x16, #232]
-.word 0x14000070
+.word 0x1400006f
 .loc 1 407 0
 .word 0x79801340
 .word 0xd28000be
 .word 0xa1e0000
-.word 0xd2800001
-.word 0x6b01001f
+.word 0x6b1f001f
 .word 0x9a9f97e0
 .word 0x340001c0
 .loc 1 408 0
@@ -1101,31 +1084,28 @@ System_Drawing_Color_CheckRGBValues_int_int_int:
 .word 0xf9000ba0
 .word 0xf9000fa1
 .word 0xf90013a2
-.word 0xd2801fe1
 .word 0xb98013a0
-.word 0x6b01001f
-.word 0x5400030c
-.word 0xd2800001
+.word 0xd2801ffe
+.word 0x6b1e001f
+.word 0x540002ac
 .word 0xb98013a0
-.word 0x6b01001f
-.word 0x5400028b
+.word 0x6b1f001f
+.word 0x5400024b
 .loc 1 417 0
-.word 0xd2801fe1
 .word 0xb9801ba0
-.word 0x6b01001f
-.word 0x5400032c
-.word 0xd2800001
+.word 0xd2801ffe
+.word 0x6b1e001f
+.word 0x540002ec
 .word 0xb9801ba0
-.word 0x6b01001f
-.word 0x540002ab
+.word 0x6b1f001f
+.word 0x5400028b
 .loc 1 419 0
-.word 0xd2801fe1
 .word 0xb98023a0
-.word 0x6b01001f
-.word 0x5400034c
-.word 0xd2800001
+.word 0xd2801ffe
+.word 0x6b1e001f
+.word 0x5400032c
 .word 0xb98023a0
-.word 0x6b01001f
+.word 0x6b1f001f
 .word 0x540002cb
 .loc 1 421 0
 .word 0x910003bf
@@ -1227,13 +1207,12 @@ System_Drawing_Color_CheckARGBValues_int_int_int_int:
 .word 0xf9000fa1
 .word 0xf90013a2
 .word 0xf90017a3
-.word 0xd2801fe1
 .word 0xb98013a0
-.word 0x6b01001f
-.word 0x5400018c
-.word 0xd2800001
+.word 0xd2801ffe
+.word 0x6b1e001f
+.word 0x5400016c
 .word 0xb98013a0
-.word 0x6b01001f
+.word 0x6b1f001f
 .word 0x5400010b
 .loc 1 434 0
 .word 0xb9801ba0
@@ -2374,7 +2353,7 @@ Lme_16:
 	.no_dead_strip CoreVideo_CVOpenGLESTexture_get_Handle
 CoreVideo_CVOpenGLESTexture_get_Handle:
 .file 3 "/Users/builder/jenkins/workspace/xamarin-macios/xamarin-macios/src/CoreVideo/CVOpenGLESTexture.cs"
-.loc 3 45 0 prologue_end
+.loc 3 47 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -2389,7 +2368,7 @@ Lme_18:
 	.align 4
 	.no_dead_strip CoreVideo_CVOpenGLESTexture_Finalize
 CoreVideo_CVOpenGLESTexture_Finalize:
-.loc 3 50 0 prologue_end
+.loc 3 52 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -2406,7 +2385,7 @@ CoreVideo_CVOpenGLESTexture_Finalize:
 bl _p_27
 .word 0x14000006
 .word 0xf9001fbe
-.loc 3 51 0
+.loc 3 53 0
 .word 0xf9400ba0
 .word 0xf90013a0
 .word 0xf9401fbe
@@ -2420,7 +2399,7 @@ Lme_19:
 	.align 4
 	.no_dead_strip CoreVideo_CVOpenGLESTexture_Dispose
 CoreVideo_CVOpenGLESTexture_Dispose:
-.loc 3 55 0 prologue_end
+.loc 3 57 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -2430,10 +2409,10 @@ CoreVideo_CVOpenGLESTexture_Dispose:
 .word 0xf9400042
 .word 0xf9403850
 .word 0xd63f0200
-.loc 3 56 0
+.loc 3 58 0
 .word 0xf9400ba0
 bl _p_28
-.loc 3 57 0
+.loc 3 59 0
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
@@ -2443,7 +2422,7 @@ Lme_1a:
 	.align 4
 	.no_dead_strip CoreVideo_CVOpenGLESTexture_Dispose_bool
 CoreVideo_CVOpenGLESTexture_Dispose_bool:
-.loc 3 66 0 prologue_end
+.loc 3 68 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -2458,11 +2437,11 @@ ldr x1, [x16, #1720]
 bl _p_29
 .word 0x53001c00
 .word 0x34000140
-.loc 3 67 0
+.loc 3 69 0
 .word 0xf9400ba0
 .word 0xf9400800
 bl _p_30
-.loc 3 68 0
+.loc 3 70 0
 
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+0
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
@@ -2470,7 +2449,7 @@ ldr x0, [x16, #1720]
 .word 0xf9400001
 .word 0xf9400ba0
 .word 0xf9000801
-.loc 3 70 0
+.loc 3 72 0
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
@@ -2480,7 +2459,7 @@ Lme_1b:
 	.align 4
 	.no_dead_strip CoreVideo_CVOpenGLESTexture__ctor_intptr
 CoreVideo_CVOpenGLESTexture__ctor_intptr:
-.loc 3 74 0 prologue_end
+.loc 3 76 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -2488,7 +2467,7 @@ CoreVideo_CVOpenGLESTexture__ctor_intptr:
 .word 0xf9400fa1
 .word 0xf9400ba0
 .word 0xf9000801
-.loc 3 75 0
+.loc 3 77 0
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
@@ -2498,7 +2477,7 @@ Lme_1c:
 	.align 4
 	.no_dead_strip CoreVideo_CVOpenGLESTexture_get_Target
 CoreVideo_CVOpenGLESTexture_get_Target:
-.loc 3 99 0 prologue_end
+.loc 3 101 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -2515,7 +2494,7 @@ Lme_21:
 	.align 4
 	.no_dead_strip CoreVideo_CVOpenGLESTexture_get_Name
 CoreVideo_CVOpenGLESTexture_get_Name:
-.loc 3 105 0 prologue_end
+.loc 3 107 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -2532,7 +2511,7 @@ Lme_22:
 	.align 4
 	.no_dead_strip CoreVideo_CVOpenGLESTexture_get_IsFlipped
 CoreVideo_CVOpenGLESTexture_get_IsFlipped:
-.loc 3 111 0 prologue_end
+.loc 3 113 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -2549,7 +2528,7 @@ Lme_23:
 	.align 4
 	.no_dead_strip CoreVideo_CVOpenGLESTexture_GetCleanTexCoords_single____single____single____single___
 CoreVideo_CVOpenGLESTexture_GetCleanTexCoords_single____single____single____single___:
-.loc 3 125 0 prologue_end
+.loc 3 127 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -2576,7 +2555,7 @@ ldr x2, [x16, #16]
 .word 0x8b020021
 .word 0xd280003e
 .word 0x3900003e
-.loc 3 126 0
+.loc 3 128 0
 
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+0
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
@@ -2596,7 +2575,7 @@ ldr x2, [x16, #16]
 .word 0x8b020021
 .word 0xd280003e
 .word 0x3900003e
-.loc 3 127 0
+.loc 3 129 0
 
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+0
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
@@ -2616,7 +2595,7 @@ ldr x2, [x16, #16]
 .word 0x8b020021
 .word 0xd280003e
 .word 0x3900003e
-.loc 3 128 0
+.loc 3 130 0
 
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+0
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
@@ -2637,7 +2616,7 @@ ldr x3, [x16, #16]
 .word 0x8b030042
 .word 0xd280003e
 .word 0x3900005e
-.loc 3 130 0
+.loc 3 132 0
 .word 0xf9400fa1
 .word 0xf9400021
 .word 0xd2800002
@@ -2649,7 +2628,7 @@ ldr x3, [x16, #16]
 .word 0xd37ef442
 .word 0x8b020021
 .word 0x91008021
-.loc 3 131 0
+.loc 3 133 0
 .word 0xf94013a2
 .word 0xf9400042
 .word 0xd2800003
@@ -2682,15 +2661,15 @@ ldr x3, [x16, #16]
 .word 0xd37ef484
 .word 0x8b040000
 .word 0x91008004
-.loc 3 132 0
+.loc 3 134 0
 .word 0xf9400ba0
 .word 0xf9400800
 bl _p_34
-.loc 3 135 0
+.loc 3 137 0
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2801ea0
 .word 0xaa1103e1
 bl _p_9
 
@@ -2700,7 +2679,7 @@ Lme_24:
 	.no_dead_strip CoreVideo_CVOpenGLESTextureCache_get_Handle
 CoreVideo_CVOpenGLESTextureCache_get_Handle:
 .file 4 "/Users/builder/jenkins/workspace/xamarin-macios/xamarin-macios/src/CoreVideo/CVOpenGLESTextureCache.cs"
-.loc 4 40 0 prologue_end
+.loc 4 42 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -2715,7 +2694,7 @@ Lme_25:
 	.align 4
 	.no_dead_strip CoreVideo_CVOpenGLESTextureCache_Finalize
 CoreVideo_CVOpenGLESTextureCache_Finalize:
-.loc 4 45 0 prologue_end
+.loc 4 47 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -2732,7 +2711,7 @@ CoreVideo_CVOpenGLESTextureCache_Finalize:
 bl _p_27
 .word 0x14000006
 .word 0xf9001fbe
-.loc 4 46 0
+.loc 4 48 0
 .word 0xf9400ba0
 .word 0xf90013a0
 .word 0xf9401fbe
@@ -2746,7 +2725,7 @@ Lme_26:
 	.align 4
 	.no_dead_strip CoreVideo_CVOpenGLESTextureCache_Dispose
 CoreVideo_CVOpenGLESTextureCache_Dispose:
-.loc 4 50 0 prologue_end
+.loc 4 52 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -2756,10 +2735,10 @@ CoreVideo_CVOpenGLESTextureCache_Dispose:
 .word 0xf9400042
 .word 0xf9403850
 .word 0xd63f0200
-.loc 4 51 0
+.loc 4 53 0
 .word 0xf9400ba0
 bl _p_28
-.loc 4 52 0
+.loc 4 54 0
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
@@ -2769,7 +2748,7 @@ Lme_27:
 	.align 4
 	.no_dead_strip CoreVideo_CVOpenGLESTextureCache_Dispose_bool
 CoreVideo_CVOpenGLESTextureCache_Dispose_bool:
-.loc 4 61 0 prologue_end
+.loc 4 63 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -2784,11 +2763,11 @@ ldr x1, [x16, #1720]
 bl _p_29
 .word 0x53001c00
 .word 0x34000140
-.loc 4 62 0
+.loc 4 64 0
 .word 0xf9400ba0
 .word 0xf9400800
 bl _p_30
-.loc 4 63 0
+.loc 4 65 0
 
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+0
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
@@ -2796,7 +2775,7 @@ ldr x0, [x16, #1720]
 .word 0xf9400001
 .word 0xf9400ba0
 .word 0xf9000801
-.loc 4 65 0
+.loc 4 67 0
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
@@ -2806,7 +2785,7 @@ Lme_28:
 	.align 4
 	.no_dead_strip CoreVideo_CVOpenGLESTextureCache__ctor_intptr
 CoreVideo_CVOpenGLESTextureCache__ctor_intptr:
-.loc 4 77 0 prologue_end
+.loc 4 79 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -2814,7 +2793,7 @@ CoreVideo_CVOpenGLESTextureCache__ctor_intptr:
 .word 0xf9400fa1
 .word 0xf9400ba0
 .word 0xf9000801
-.loc 4 78 0
+.loc 4 80 0
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
@@ -2824,14 +2803,14 @@ Lme_2a:
 	.align 4
 	.no_dead_strip CoreVideo_CVOpenGLESTextureCache__ctor_OpenGLES_EAGLContext
 CoreVideo_CVOpenGLESTextureCache__ctor_OpenGLES_EAGLContext:
-.loc 4 82 0 prologue_end
+.loc 4 84 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
 .word 0xf9000bba
 .word 0xf9000fa0
 .word 0xaa0103fa
 .word 0xb40004ba
-.loc 4 85 0
+.loc 4 87 0
 
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+0
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
@@ -2857,7 +2836,7 @@ ldr x3, [x16, #1720]
 bl _p_35
 .word 0x93407c00
 .word 0x34000160
-.loc 4 92 0
+.loc 4 94 0
 
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+0
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
@@ -2865,7 +2844,7 @@ ldr x0, [x16, #0]
 .word 0xd281f741
 bl _p_20
 .word 0xaa0003e1
-.word 0xd2801ae0
+.word 0xd28019e0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_22
@@ -2873,7 +2852,7 @@ bl _p_22
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
-.loc 4 83 0
+.loc 4 85 0
 
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+0
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
@@ -2881,11 +2860,11 @@ ldr x0, [x16, #0]
 .word 0xd281f541
 bl _p_20
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_22
-.word 0xd2802260
+.word 0xd2802160
 .word 0xaa1103e1
 bl _p_9
 
@@ -2894,14 +2873,14 @@ Lme_2b:
 	.align 4
 	.no_dead_strip CoreVideo_CVOpenGLESTextureCache_FromEAGLContext_OpenGLES_EAGLContext
 CoreVideo_CVOpenGLESTextureCache_FromEAGLContext_OpenGLES_EAGLContext:
-.loc 4 97 0 prologue_end
+.loc 4 99 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
 .word 0xf9000bba
 .word 0xaa0003fa
 .word 0xf9000fbf
 .word 0xb400043a
-.loc 4 100 0
+.loc 4 102 0
 
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+0
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
@@ -2923,7 +2902,7 @@ ldr x3, [x16, #1720]
 bl _p_35
 .word 0x93407c00
 .word 0x35000140
-.loc 4 105 0
+.loc 4 107 0
 .word 0xf9400fa0
 .word 0xf90013a0
 
@@ -2934,13 +2913,13 @@ bl _p_36
 .word 0xf94013a1
 .word 0xf9000801
 .word 0x14000002
-.loc 4 106 0
+.loc 4 108 0
 .word 0xd2800000
 .word 0xf9400bba
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.loc 4 98 0
+.loc 4 100 0
 
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+0
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
@@ -2948,7 +2927,7 @@ ldr x0, [x16, #0]
 .word 0xd281f541
 bl _p_20
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_22
@@ -2958,7 +2937,7 @@ Lme_2c:
 	.align 4
 	.no_dead_strip CoreVideo_CVOpenGLESTextureCache_TextureFromImage_CoreVideo_CVImageBuffer_bool_OpenTK_Graphics_ES20_All_int_int_OpenTK_Graphics_ES20_All_OpenTK_Graphics_ES20_DataType_int_CoreVideo_CVReturn_
 CoreVideo_CVOpenGLESTextureCache_TextureFromImage_CoreVideo_CVImageBuffer_bool_OpenTK_Graphics_ES20_All_int_int_OpenTK_Graphics_ES20_All_OpenTK_Graphics_ES20_DataType_int_CoreVideo_CVReturn_:
-.loc 4 111 0 prologue_end
+.loc 4 113 0 prologue_end
 .word 0xa9b87bfd
 .word 0x910003fd
 .word 0xd2800410
@@ -2979,13 +2958,13 @@ CoreVideo_CVOpenGLESTextureCache_TextureFromImage_CoreVideo_CVImageBuffer_bool_O
 .word 0xf9002fbf
 .word 0xf94017a0
 .word 0xb40006c0
-.loc 4 114 0
+.loc 4 116 0
 .word 0x35000073
 .word 0xd291a833
 .word 0x14000002
 .word 0xd281bc33
 .word 0xb90063b3
-.loc 4 116 0
+.loc 4 118 0
 
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+0
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
@@ -3019,13 +2998,13 @@ bl _p_37
 .word 0xaa0003e1
 .word 0xf9400780
 .word 0xb9000001
-.loc 4 124 0
+.loc 4 126 0
 .word 0xb9800000
 .word 0x34000060
-.loc 4 125 0
+.loc 4 127 0
 .word 0xd2800000
 .word 0x14000009
-.loc 4 126 0
+.loc 4 128 0
 .word 0xf9402fa0
 .word 0xf9003ba0
 
@@ -3040,7 +3019,7 @@ bl _p_36
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.loc 4 112 0
+.loc 4 114 0
 
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+0
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
@@ -3048,7 +3027,7 @@ ldr x0, [x16, #0]
 .word 0xd2820001
 bl _p_20
 .word 0xaa0003e1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_22
@@ -3058,7 +3037,7 @@ Lme_2d:
 	.align 4
 	.no_dead_strip CoreVideo_CVOpenGLESTextureCache_Flush_CoreVideo_CVOptionFlags
 CoreVideo_CVOpenGLESTextureCache_Flush_CoreVideo_CVOptionFlags:
-.loc 4 142 0 prologue_end
+.loc 4 144 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -3067,7 +3046,7 @@ CoreVideo_CVOpenGLESTextureCache_Flush_CoreVideo_CVOptionFlags:
 .word 0xf9400800
 .word 0xf9400fa1
 bl _p_38
-.loc 4 143 0
+.loc 4 145 0
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
@@ -3212,7 +3191,7 @@ ldr x1, [x16, #1752]
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd2802060
+.word 0xd2801f60
 .word 0xaa1103e1
 bl _p_9
 
@@ -3283,11 +3262,11 @@ OpenTK_ContextHandle_CompareTo_OpenTK_ContextHandle:
 .word 0xeb1f003f
 .word 0x10000011
 .word 0x54000520
-.word 0xd29fffe2
-.word 0xf2bfffe2
-.word 0xf2dfffe2
-.word 0xf2ffffe2
-.word 0xeb02003f
+.word 0xd29ffffe
+.word 0xf2bffffe
+.word 0xf2dffffe
+.word 0xf2fffffe
+.word 0xeb1e003f
 .word 0x9a9f17e2
 .word 0xd2800003
 .word 0xf2f00003
@@ -3320,10 +3299,10 @@ OpenTK_ContextHandle_CompareTo_OpenTK_ContextHandle:
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd2802340
+.word 0xd2802240
 .word 0xaa1103e1
 bl _p_9
-.word 0xd2801960
+.word 0xd2801860
 .word 0xaa1103e1
 bl _p_9
 
@@ -3410,7 +3389,7 @@ OpenTK_FrameEventArgs_set_Time_double:
 .word 0x1e612000
 .word 0x540000a2
 .loc 7 66 0
-.word 0xd2801580
+.word 0xd2801460
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_22
@@ -3492,8 +3471,7 @@ OpenTK_Graphics_ColorFormat__ctor_int:
 .word 0xf90013ba
 .word 0xaa0003f9
 .word 0xaa0103fa
-.word 0xd2800000
-.word 0x6b00035f
+.word 0x6b1f035f
 .word 0x54000f2b
 .loc 9 55 0
 .word 0xd2800000
@@ -3511,34 +3489,34 @@ OpenTK_Graphics_ColorFormat__ctor_int:
 .loc 9 57 0
 .word 0x3900133f
 .loc 9 59 0
-.word 0xd2800100
-.word 0x6b00035f
+.word 0xd280011e
+.word 0x6b1e035f
 .word 0x5400016c
-.word 0xd2800020
-.word 0x6b00035f
+.word 0xd280003e
+.word 0x6b1e035f
 .word 0x54000900
-.word 0xd2800080
-.word 0x6b00035f
+.word 0xd280009e
+.word 0x6b1e035f
 .word 0x54000780
-.word 0xd2800100
-.word 0x6b00035f
+.word 0xd280011e
+.word 0x6b1e035f
 .word 0x54000600
 .word 0x14000044
-.word 0xd2800200
-.word 0x6b00035f
+.word 0xd280021e
+.word 0x6b1e035f
 .word 0x5400010c
-.word 0xd28001e0
-.word 0x6b00035f
+.word 0xd28001fe
+.word 0x6b1e035f
 .word 0x54000440
-.word 0xd2800200
-.word 0x6b00035f
+.word 0xd280021e
+.word 0x6b1e035f
 .word 0x54000300
 .word 0x1400003a
-.word 0xd2800300
-.word 0x6b00035f
+.word 0xd280031e
+.word 0x6b1e035f
 .word 0x540001a0
-.word 0xd2800400
-.word 0x6b00035f
+.word 0xd280041e
+.word 0x6b1e035f
 .word 0x54000681
 .loc 9 62 0
 .word 0xd280011e
@@ -3657,7 +3635,7 @@ ldr x0, [x16, #0]
 bl _p_20
 .word 0xaa0003e2
 .word 0xf9401ba1
-.word 0xd2801580
+.word 0xd2801460
 .word 0xf2a04000
 bl _mono_create_corlib_exception_2
 bl _p_22
@@ -4047,7 +4025,7 @@ bl _p_40
 .word 0x910003bf
 .word 0xa8c57bfd
 .word 0xd65f03c0
-.word 0xd2802060
+.word 0xd2801f60
 .word 0xaa1103e1
 bl _p_9
 
@@ -4310,7 +4288,7 @@ ldr x0, [x16, #0]
 bl _p_20
 .word 0xaa0003e2
 .word 0xf9405ba1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_2
 bl _p_22
@@ -4331,19 +4309,17 @@ ldr x0, [x16, #0]
 bl _p_20
 .word 0xaa0003e2
 .word 0xf9405ba1
-.word 0xd2801560
+.word 0xd2801440
 .word 0xf2a04000
 bl _mono_create_corlib_exception_2
 bl _p_22
 .loc 10 109 0
-.word 0xd2800000
-.word 0x6b00031f
+.word 0x6b1f031f
 .word 0x5400004c
 .loc 10 110 0
 .word 0xd2800038
 .loc 10 111 0
-.word 0xd2800000
-.word 0x6b00033f
+.word 0x6b1f033f
 .word 0x5400004a
 .loc 10 112 0
 .word 0xd2800019
@@ -4523,15 +4499,15 @@ ldr x0, [x16, #1872]
 .loc 10 143 0
 .word 0xd280009e
 .word 0xa1e0340
-.word 0xd2800081
-.word 0x6b01001f
+.word 0xd280009e
+.word 0x6b1e001f
 .word 0x9a9f17e1
 .word 0x53001c20
 .word 0x3901a3a1
 .word 0x340000c0
-.word 0xd2800021
 .word 0x3941a3a0
-.word 0x6b01001f
+.word 0xd280003e
+.word 0x6b1e001f
 .word 0x540000e0
 .word 0x1400000a
 .loc 10 145 0
@@ -4989,8 +4965,7 @@ ldr x0, [x16, #1888]
 .word 0xb9804020
 .word 0xb9804821
 .word 0x4b010000
-.word 0xd2800001
-.word 0x6b01001f
+.word 0x6b1f001f
 .word 0x5400072d
 .loc 10 361 0
 
@@ -5076,7 +5051,7 @@ bl _p_50
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2802060
+.word 0xd2801f60
 .word 0xaa1103e1
 bl _p_9
 
@@ -5339,7 +5314,7 @@ ldr x15, [x16, #1896]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2802060
+.word 0xd2801f60
 .word 0xaa1103e1
 bl _p_9
 
@@ -5715,24 +5690,20 @@ OpenTK_Graphics_GraphicsMode__ctor_System_Nullable_1_intptr_OpenTK_Graphics_Colo
 .word 0xf90023a5
 .word 0xf90027a6
 .word 0xf9002ba7
-.word 0xd2800001
 .word 0xb98043a0
-.word 0x6b01001f
-.word 0x540005ab
+.word 0x6b1f001f
+.word 0x5400054b
 .loc 12 56 0
-.word 0xd2800001
 .word 0xb9804ba0
-.word 0x6b01001f
-.word 0x5400074b
+.word 0x6b1f001f
+.word 0x5400070b
 .loc 12 57 0
-.word 0xd2800001
 .word 0xb9801380
-.word 0x6b01001f
-.word 0x540008ed
+.word 0x6b1f001f
+.word 0x540008cd
 .loc 12 58 0
-.word 0xd2800001
 .word 0xb98053a0
-.word 0x6b01001f
+.word 0x6b1f001f
 .word 0x54000a8b
 .loc 12 60 0
 .word 0xaa1503e0
@@ -5791,7 +5762,7 @@ ldr x0, [x16, #0]
 bl _p_20
 .word 0xaa0003e2
 .word 0xf94033a1
-.word 0xd2801580
+.word 0xd2801460
 .word 0xf2a04000
 bl _mono_create_corlib_exception_2
 bl _p_22
@@ -5811,7 +5782,7 @@ ldr x0, [x16, #0]
 bl _p_20
 .word 0xaa0003e2
 .word 0xf94033a1
-.word 0xd2801580
+.word 0xd2801460
 .word 0xf2a04000
 bl _mono_create_corlib_exception_2
 bl _p_22
@@ -5831,7 +5802,7 @@ ldr x0, [x16, #0]
 bl _p_20
 .word 0xaa0003e2
 .word 0xf94033a1
-.word 0xd2801580
+.word 0xd2801460
 .word 0xf2a04000
 bl _mono_create_corlib_exception_2
 bl _p_22
@@ -5851,7 +5822,7 @@ ldr x0, [x16, #0]
 bl _p_20
 .word 0xaa0003e2
 .word 0xf94033a1
-.word 0xd2801580
+.word 0xd2801460
 .word 0xf2a04000
 bl _mono_create_corlib_exception_2
 bl _p_22
@@ -6302,7 +6273,7 @@ bl _p_71
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2802260
+.word 0xd2802160
 .word 0xaa1103e1
 bl _p_9
 
@@ -6609,7 +6580,7 @@ bl _p_83
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd2802060
+.word 0xd2801f60
 .word 0xaa1103e1
 bl _p_9
 
@@ -7822,10 +7793,10 @@ ldr x1, [x16, #2144]
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd2802260
+.word 0xd2802160
 .word 0xaa1103e1
 bl _p_9
-.word 0xd2801540
+.word 0xd2801420
 .word 0xaa1103e1
 bl _p_9
 
@@ -8001,10 +7972,9 @@ OpenTK_Platform_Utilities_CreateGraphicsContext_OpenGLES_EAGLRenderingAPI:
 .word 0xf90013ba
 .word 0xaa0003fa
 .word 0xd1000740
-.word 0xaa0003e2
-.word 0xd2800041
-.word 0xaa0203f9
-.word 0xeb01001f
+.word 0xaa0003f9
+.word 0xd280005e
+.word 0xeb1e001f
 .word 0x54000049
 .word 0x14000016
 .word 0xaa1903f8
@@ -8051,7 +8021,7 @@ bl _p_3
 .word 0xf900083a
 bl _p_130
 .word 0xaa0003e1
-.word 0xd2801540
+.word 0xd2801420
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_22
@@ -8081,10 +8051,9 @@ OpenTK_Platform_iPhoneOS_GLCalls_GetGLCalls_OpenGLES_EAGLRenderingAPI:
 .word 0xf90013a0
 .word 0xf94013a0
 .word 0xd1000400
-.word 0xaa0003e2
-.word 0xd2800041
-.word 0xaa0203fa
-.word 0xeb01001f
+.word 0xaa0003fa
+.word 0xd280005e
+.word 0xeb1e001f
 .word 0x54000049
 .word 0x14000013
 .word 0xaa1a03f9
@@ -8117,7 +8086,7 @@ ldr x0, [x16, #0]
 .word 0xd2828121
 bl _p_20
 .word 0xaa0003e1
-.word 0xd2801540
+.word 0xd2801420
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_22
@@ -9177,10 +9146,10 @@ ldr x1, [x16, #16]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2802260
+.word 0xd2802160
 .word 0xaa1103e1
 bl _p_9
-.word 0xd2801540
+.word 0xd2801420
 .word 0xaa1103e1
 bl _p_9
 
@@ -10235,10 +10204,10 @@ ldr x1, [x16, #16]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2802260
+.word 0xd2802160
 .word 0xaa1103e1
 bl _p_9
-.word 0xd2801540
+.word 0xd2801420
 .word 0xaa1103e1
 bl _p_9
 
@@ -11293,10 +11262,10 @@ ldr x1, [x16, #16]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2802260
+.word 0xd2802160
 .word 0xaa1103e1
 bl _p_9
-.word 0xd2801540
+.word 0xd2801420
 .word 0xaa1103e1
 bl _p_9
 
@@ -12455,8 +12424,7 @@ OpenTK_Platform_iPhoneOS_NSTimerTimeSource_Resume:
 .word 0xf9401ba1
 .word 0xeb01001f
 .word 0x9a9f17e0
-.word 0xd2800001
-.word 0x6b01001f
+.word 0x6b1f001f
 .word 0x9a9f17e0
 .word 0x340007a0
 .loc 21 231 0
@@ -12531,10 +12499,10 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c67bfd
 .word 0xd65f03c0
-.word 0xd2802260
+.word 0xd2802160
 .word 0xaa1103e1
 bl _p_9
-.word 0xd2801540
+.word 0xd2801420
 .word 0xaa1103e1
 bl _p_9
 
@@ -12582,8 +12550,8 @@ add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x0, [x16, #3696]
 .word 0xd2800301
 bl _p_3
-.word 0xf9003320
-.word 0x91018321
+.word 0xf9003720
+.word 0x9101a321
 .word 0xd349fc21
 .word 0xd29ffffe
 .word 0xf2a00ffe
@@ -12602,8 +12570,8 @@ add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x0, [x16, #3696]
 .word 0xd2800301
 bl _p_3
-.word 0xf9003720
-.word 0x9101a321
+.word 0xf9003b20
+.word 0x9101c321
 .word 0xd349fc21
 .word 0xd29ffffe
 .word 0xf2a00ffe
@@ -12626,8 +12594,8 @@ add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x0, [x16, #3704]
 .word 0xd2800501
 bl _p_3
-.word 0xf9001f20
-.word 0x9100e321
+.word 0xf9002320
+.word 0x91010321
 .word 0xd349fc21
 .word 0xd29ffffe
 .word 0xf2a00ffe
@@ -12665,8 +12633,8 @@ add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x0, [x16, #3696]
 .word 0xd2800301
 bl _p_3
-.word 0xf9003340
-.word 0x91018341
+.word 0xf9003740
+.word 0x9101a341
 .word 0xd349fc21
 .word 0xd29ffffe
 .word 0xf2a00ffe
@@ -12685,8 +12653,8 @@ add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x0, [x16, #3696]
 .word 0xd2800301
 bl _p_3
-.word 0xf9003740
-.word 0x9101a341
+.word 0xf9003b40
+.word 0x9101c341
 .word 0xd349fc21
 .word 0xd29ffffe
 .word 0xf2a00ffe
@@ -12712,8 +12680,8 @@ add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x0, [x16, #3704]
 .word 0xd2800501
 bl _p_3
-.word 0xf9001f40
-.word 0x9100e341
+.word 0xf9002340
+.word 0x91010341
 .word 0xd349fc21
 .word 0xd29ffffe
 .word 0xf2a00ffe
@@ -12768,7 +12736,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_AssertValid:
 .word 0x910003fd
 .word 0xf9000ba0
 .word 0xf9400ba0
-.word 0x39430400
+.word 0x39432400
 .word 0x35000080
 .loc 21 282 0
 .word 0x910003bf
@@ -12782,7 +12750,7 @@ ldr x0, [x16, #0]
 .word 0xd28285a1
 bl _p_20
 .word 0xaa0003e1
-.word 0xd28022c0
+.word 0xd28021c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_22
@@ -12797,7 +12765,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_AssertContext:
 .word 0x910003fd
 .word 0xf9000ba0
 .word 0xf9400ba0
-.word 0xf9402000
+.word 0xf9402400
 .word 0xb4000080
 .loc 21 288 0
 .word 0x910003bf
@@ -12811,7 +12779,7 @@ ldr x0, [x16, #0]
 .word 0xd28285e1
 bl _p_20
 .word 0xaa0003e1
-.word 0xd2802080
+.word 0xd2801f80
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_22
@@ -12829,7 +12797,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_get_ContextRenderingApi:
 bl _p_184
 .loc 21 294 0
 .word 0xf9400ba0
-.word 0xf9407000
+.word 0xf9407400
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
@@ -12848,12 +12816,12 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_set_ContextRenderingApi_OpenGLES_EAGLR
 bl _p_184
 .loc 21 298 0
 .word 0xf9400ba0
-.word 0xf9402000
+.word 0xf9402400
 .word 0xb50000e0
 .loc 21 300 0
 .word 0xf9400fa1
 .word 0xf9400ba0
-.word 0xf9007001
+.word 0xf9007401
 .loc 21 301 0
 .word 0x910003bf
 .word 0xa8c27bfd
@@ -12866,7 +12834,7 @@ ldr x0, [x16, #0]
 .word 0xd2829741
 bl _p_20
 .word 0xaa0003e1
-.word 0xd2802240
+.word 0xd2802140
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_22
@@ -12881,7 +12849,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_get_GraphicsContext:
 .word 0x910003fd
 .word 0xf9000ba0
 .word 0xf9400ba0
-.word 0xf9402000
+.word 0xf9402400
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
@@ -12898,8 +12866,8 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_set_GraphicsContext_OpenTK_Graphics_IG
 .word 0xf9000fa1
 .word 0xf9400fa0
 .word 0xf9400ba1
-.word 0xf9002020
-.word 0x91010021
+.word 0xf9002420
+.word 0x91012021
 .word 0xd349fc21
 .word 0xd29ffffe
 .word 0xf2a00ffe
@@ -12929,10 +12897,10 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_get_EAGLContext:
 .word 0xaa1a03e0
 bl _p_184
 .loc 21 308 0
-.word 0xf9402340
+.word 0xf9402740
 .word 0xb4000980
 .loc 21 309 0
-.word 0xf9402359
+.word 0xf9402759
 .word 0xaa1903f8
 .word 0xeb1f033f
 .word 0x54000160
@@ -12955,7 +12923,7 @@ ldr x1, [x16, #3728]
 .word 0xf9400b20
 .word 0x1400003a
 .loc 21 312 0
-.word 0xf9402359
+.word 0xf9402759
 .word 0xaa1903fa
 .word 0xeb1f033f
 .word 0x540002c0
@@ -13039,7 +13007,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_get_LayerRetainsBacking:
 bl _p_184
 .loc 21 326 0
 .word 0xf9400ba0
-.word 0x3943a000
+.word 0x3943c000
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
@@ -13058,12 +13026,12 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_set_LayerRetainsBacking_bool:
 bl _p_184
 .loc 21 330 0
 .word 0xf9400ba0
-.word 0xf9402000
+.word 0xf9402400
 .word 0xb50000e0
 .loc 21 332 0
 .word 0x394063a1
 .word 0xf9400ba0
-.word 0x3903a001
+.word 0x3903c001
 .loc 21 333 0
 .word 0x910003bf
 .word 0xa8c27bfd
@@ -13076,7 +13044,7 @@ ldr x0, [x16, #0]
 .word 0xd282a741
 bl _p_20
 .word 0xaa0003e1
-.word 0xd2802240
+.word 0xd2802140
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_22
@@ -13094,7 +13062,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_get_LayerColorFormat:
 bl _p_184
 .loc 21 340 0
 .word 0xf9400ba0
-.word 0xf9402400
+.word 0xf9402800
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
@@ -13113,12 +13081,12 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_set_LayerColorFormat_Foundation_NSStri
 .word 0xaa1903e0
 bl _p_184
 .loc 21 344 0
-.word 0xf9402320
+.word 0xf9402720
 .word 0xb5000240
 .loc 21 346 0
 .word 0xf9400fa0
-.word 0xf9002720
-.word 0x91012321
+.word 0xf9002b20
+.word 0x91014321
 .word 0xd349fc21
 .word 0xd29ffffe
 .word 0xf2a00ffe
@@ -13143,7 +13111,7 @@ ldr x0, [x16, #0]
 .word 0xd282b921
 bl _p_20
 .word 0xaa0003e1
-.word 0xd2802240
+.word 0xd2802140
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_22
@@ -13158,7 +13126,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_get_Framebuffer:
 .word 0x910003fd
 .word 0xf9000ba0
 .word 0xf9400ba0
-.word 0xb980c400
+.word 0xb980cc00
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
@@ -13173,7 +13141,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_get_Renderbuffer:
 .word 0x910003fd
 .word 0xf9000ba0
 .word 0xf9400ba0
-.word 0xb980c800
+.word 0xb980d000
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
@@ -13188,7 +13156,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_get_AutoResize:
 .word 0x910003fd
 .word 0xf9000ba0
 .word 0xf9400ba0
-.word 0x3943a400
+.word 0x3943c400
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
@@ -13205,7 +13173,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_set_AutoResize_bool:
 .word 0xf9000fa1
 .word 0x394063a1
 .word 0xf9400ba0
-.word 0x3903a401
+.word 0x3903c401
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
@@ -13282,11 +13250,11 @@ bl _p_185
 .loc 21 377 0
 .word 0xaa1a03e0
 .word 0xf9400341
-.word 0xf9412c30
+.word 0xf9414030
 .word 0xd63f0200
 .word 0x14000005
 .loc 21 378 0
-.word 0xd2802240
+.word 0xd2802140
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_22
@@ -13318,7 +13286,7 @@ bl _p_185
 .loc 21 384 0
 .word 0xaa1803e0
 .word 0xf9400301
-.word 0xf9412c30
+.word 0xf9414030
 .word 0xd63f0200
 .word 0xf94013a1
 bl _p_11
@@ -13328,7 +13296,7 @@ bl _p_11
 .word 0xaa1803e0
 .word 0xf94013a1
 .word 0xf9400302
-.word 0xf9412850
+.word 0xf9413c50
 .word 0xd63f0200
 .loc 21 386 0
 
@@ -13338,12 +13306,12 @@ ldr x0, [x16, #3752]
 .word 0xf9400001
 .word 0xaa1903e0
 .word 0xf9400322
-.word 0xf9437c50
+.word 0xf943bc50
 .word 0xd63f0200
 .loc 21 388 0
 .word 0x14000005
 .loc 21 390 0
-.word 0xd2802240
+.word 0xd2802140
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_22
@@ -13365,7 +13333,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OnTitleChanged_System_EventArgs:
 .word 0xf9000fa0
 .word 0xf90013a1
 .word 0xf9400fa0
-.word 0xf9404419
+.word 0xf9404819
 .loc 21 397 0
 .word 0xaa1903e0
 .word 0xb4000120
@@ -13394,7 +13362,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_get_Focused:
 .word 0xa9be7bfd
 .word 0x910003fd
 .word 0xf9000ba0
-.word 0xd2802220
+.word 0xd2802120
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_22
@@ -13417,8 +13385,7 @@ bl _p_184
 .word 0xf9400ba0
 bl _p_186
 .word 0x53001c00
-.word 0xd2800001
-.word 0x6b01001f
+.word 0x6b1f001f
 .word 0x9a9f17e0
 .word 0x910003bf
 .word 0xa8c27bfd
@@ -13441,16 +13408,14 @@ bl _p_184
 .word 0xaa1903e0
 bl _p_186
 .word 0x53001c00
-.word 0xd2800002
 .word 0x394063a1
-.word 0x6b02003f
+.word 0x6b1f003f
 .word 0x9a9f17e1
 .word 0x6b01001f
-.word 0x540001e0
+.word 0x540001c0
 .loc 21 413 0
-.word 0xd2800001
 .word 0x394063a0
-.word 0x6b01001f
+.word 0x6b1f001f
 .word 0x9a9f17e1
 .word 0xaa1903e0
 bl _p_187
@@ -13462,7 +13427,7 @@ ldr x0, [x16, #3752]
 .word 0xf9400001
 .word 0xaa1903e0
 .word 0xf9400322
-.word 0xf9437050
+.word 0xf943b050
 .word 0xd63f0200
 .loc 21 416 0
 .word 0xf9400bb9
@@ -13482,7 +13447,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OnVisibleChanged_System_EventArgs:
 .word 0xf9000fa0
 .word 0xf90013a1
 .word 0xf9400fa0
-.word 0xf9404819
+.word 0xf9404c19
 .loc 21 422 0
 .word 0xaa1903e0
 .word 0xb4000120
@@ -13511,7 +13476,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_get_Exists:
 .word 0xa9be7bfd
 .word 0x910003fd
 .word 0xf9000ba0
-.word 0xd2802220
+.word 0xd2802120
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_22
@@ -13557,7 +13522,7 @@ bl _p_185
 .word 0xb4000120
 .word 0xaa1a03e0
 .word 0xf9400341
-.word 0xf9411830
+.word 0xf9412c30
 .word 0xd63f0200
 .word 0x53001c00
 .word 0x34000060
@@ -13593,14 +13558,14 @@ bl _p_185
 .word 0xaa1803e0
 .word 0xb4000320
 .loc 21 453 0
-.word 0xd2800060
-.word 0x6b00035f
+.word 0xd280007e
+.word 0x6b1e035f
 .word 0x9a9f17e0
 .word 0x53001c1a
 .loc 21 460 0
 .word 0xaa1803e0
 .word 0xf9400301
-.word 0xf9411830
+.word 0xf9412c30
 .word 0xd63f0200
 .word 0x53001c00
 .word 0x6b1a001f
@@ -13609,7 +13574,7 @@ bl _p_185
 .word 0xaa1803e0
 .word 0xaa1a03e1
 .word 0xf9400302
-.word 0xf9411450
+.word 0xf9412850
 .word 0xd63f0200
 .loc 21 462 0
 
@@ -13619,7 +13584,7 @@ ldr x0, [x16, #3752]
 .word 0xf9400001
 .word 0xaa1903e0
 .word 0xf9400322
-.word 0xf9436050
+.word 0xf943a050
 .word 0xd63f0200
 .loc 21 466 0
 .word 0xa94167b8
@@ -13640,7 +13605,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OnWindowStateChanged_System_EventArgs:
 .word 0xf9000fa0
 .word 0xf90013a1
 .word 0xf9400fa0
-.word 0xf9404c19
+.word 0xf9405019
 .loc 21 472 0
 .word 0xaa1903e0
 .word 0xb4000120
@@ -13700,7 +13665,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_get_Bounds:
 .word 0xa9bd7bfd
 .word 0x910003fd
 .word 0xf90013a0
-.word 0xd2802240
+.word 0xd2802140
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_22
@@ -13721,7 +13686,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_set_Bounds_System
 .word 0xf9000ba0
 .word 0xf9000fa1
 .word 0xf90013a2
-.word 0xd2802240
+.word 0xd2802140
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_22
@@ -13738,7 +13703,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_get_Location:
 .word 0xa9bd7bfd
 .word 0x910003fd
 .word 0xf90013a0
-.word 0xd2802240
+.word 0xd2802140
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_22
@@ -13757,7 +13722,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_set_Location_Syst
 .word 0x910003fd
 .word 0xf9000ba0
 .word 0xf9000fa1
-.word 0xd2802240
+.word 0xd2802140
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_22
@@ -13778,7 +13743,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_get_Size:
 bl _p_184
 .loc 21 498 0
 .word 0xf94013a0
-.word 0x9103b000
+.word 0x9103d000
 .word 0xb9800001
 .word 0xb90013a1
 .word 0xb9800400
@@ -13802,7 +13767,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_set_Size_System_Drawing_Size:
 .word 0xaa1a03e0
 bl _p_184
 .loc 21 502 0
-.word 0x9103b340
+.word 0x9103d340
 .word 0xb9800001
 .word 0xb9002ba1
 .word 0xb9800400
@@ -13813,7 +13778,7 @@ bl _p_188
 .word 0x53001c00
 .word 0x340001c0
 .loc 21 503 0
-.word 0x9103b340
+.word 0x9103d340
 .word 0xb9801ba1
 .word 0xb9000001
 .word 0xb9801fa1
@@ -13826,7 +13791,7 @@ ldr x0, [x16, #3752]
 .word 0xf9400001
 .word 0xaa1a03e0
 .word 0xf9400342
-.word 0xf9434c50
+.word 0xf9438c50
 .word 0xd63f0200
 .loc 21 506 0
 .word 0xf9400bba
@@ -13846,7 +13811,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OnResize_System_EventArgs:
 .word 0xf9000fa0
 .word 0xf90013a1
 .word 0xf9400fa0
-.word 0xf9403818
+.word 0xf9403c18
 .loc 21 512 0
 .word 0xaa1803e0
 .word 0xb40000c0
@@ -13871,7 +13836,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_get_X:
 .word 0xa9be7bfd
 .word 0x910003fd
 .word 0xf9000ba0
-.word 0xd2802240
+.word 0xd2802140
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_22
@@ -13889,7 +13854,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_set_X_int:
 .word 0x910003fd
 .word 0xf9000ba0
 .word 0xf9000fa1
-.word 0xd2802240
+.word 0xd2802140
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_22
@@ -13906,7 +13871,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_get_Y:
 .word 0xa9be7bfd
 .word 0x910003fd
 .word 0xf9000ba0
-.word 0xd2802240
+.word 0xd2802140
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_22
@@ -13924,7 +13889,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_set_Y_int:
 .word 0x910003fd
 .word 0xf9000ba0
 .word 0xf9000fa1
-.word 0xd2802240
+.word 0xd2802140
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_22
@@ -13941,7 +13906,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_get_Width:
 .word 0xa9be7bfd
 .word 0x910003fd
 .word 0xf9000ba0
-.word 0xd2802240
+.word 0xd2802140
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_22
@@ -13959,7 +13924,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_set_Width_int:
 .word 0x910003fd
 .word 0xf9000ba0
 .word 0xf9000fa1
-.word 0xd2802240
+.word 0xd2802140
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_22
@@ -13976,7 +13941,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_get_Height:
 .word 0xa9be7bfd
 .word 0x910003fd
 .word 0xf9000ba0
-.word 0xd2802240
+.word 0xd2802140
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_22
@@ -13994,7 +13959,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_set_Height_int:
 .word 0x910003fd
 .word 0xf9000ba0
 .word 0xf9000fa1
-.word 0xd2802240
+.word 0xd2802140
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_22
@@ -14011,7 +13976,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_get_ClientRectang
 .word 0xa9bd7bfd
 .word 0x910003fd
 .word 0xf90013a0
-.word 0xd2802240
+.word 0xd2802140
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_22
@@ -14032,7 +13997,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_set_ClientRectang
 .word 0xf9000ba0
 .word 0xf9000fa1
 .word 0xf90013a2
-.word 0xd2802240
+.word 0xd2802140
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_22
@@ -14049,7 +14014,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_get_ClientSize:
 .word 0xa9bd7bfd
 .word 0x910003fd
 .word 0xf90013a0
-.word 0xd2802240
+.word 0xd2802140
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_22
@@ -14068,7 +14033,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_set_ClientSize_Sy
 .word 0x910003fd
 .word 0xf9000ba0
 .word 0xf9000fa1
-.word 0xd2802240
+.word 0xd2802140
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_22
@@ -14111,7 +14076,7 @@ bl _p_190
 .loc 21 552 0
 .word 0xaa1a03e0
 .word 0xf9400341
-.word 0xf9417c30
+.word 0xf941a030
 .word 0xd63f0200
 .word 0xaa0003f9
 .word 0xb4000179
@@ -14210,14 +14175,14 @@ bl _p_193
 .word 0xaa1a03e0
 .word 0xaa1903e1
 .word 0xf9400342
-.word 0xf9434450
+.word 0xf9438450
 .word 0xd63f0200
 .loc 21 559 0
 .word 0xaa1a03e0
 bl _p_194
 bl _p_195
-.word 0xf9002340
-.word 0x91010341
+.word 0xf9002740
+.word 0x91012341
 .word 0xd349fc21
 .word 0xd29ffffe
 .word 0xf2a00ffe
@@ -14233,8 +14198,8 @@ ldr x2, [x16, #16]
 .word 0xaa1a03e0
 bl _p_194
 bl _p_196
-.word 0xf9001740
-.word 0x9100a341
+.word 0xf9001b40
+.word 0x9100c341
 .word 0xd349fc21
 .word 0xd29ffffe
 .word 0xf2a00ffe
@@ -14251,7 +14216,7 @@ ldr x2, [x16, #16]
 .word 0xd280003e
 .word 0xb90093be
 .loc 21 563 0
-.word 0xf9401740
+.word 0xf9401b40
 .word 0xf9402403
 .word 0x910223a2
 .word 0xaa0303e0
@@ -14261,7 +14226,7 @@ ldr x2, [x16, #16]
 .word 0xd63f0200
 .word 0xf9405fa0
 .loc 21 564 0
-.word 0xf9401740
+.word 0xf9401b40
 .word 0xf9402403
 .word 0x910243a2
 .word 0xaa0303e0
@@ -14271,12 +14236,12 @@ ldr x2, [x16, #16]
 .word 0xd63f0200
 .word 0xf9405ba0
 .loc 21 566 0
-.word 0xf9401740
+.word 0xf9401b40
 .word 0xf9402003
 .word 0xeb1f035f
 .word 0x10000011
 .word 0x54001ea0
-.word 0x91032342
+.word 0x91034342
 .word 0xaa0303e0
 .word 0xd2800021
 .word 0xf90057a3
@@ -14284,9 +14249,9 @@ ldr x2, [x16, #16]
 .word 0xd63f0200
 .word 0xf94057a0
 .loc 21 567 0
-.word 0xf9401740
+.word 0xf9401b40
 .word 0xf9400c03
-.word 0xb980cb42
+.word 0xb980d342
 .word 0xaa0303e0
 .word 0xd291a821
 .word 0xf90053a3
@@ -14307,12 +14272,12 @@ bl _p_197
 .word 0x53001c00
 .word 0x340015e0
 .loc 21 576 0
-.word 0xf9401740
+.word 0xf9401b40
 .word 0xf9401c03
 .word 0xeb1f035f
 .word 0x10000011
 .word 0x54001a80
-.word 0x91031342
+.word 0x91033342
 .word 0xaa0303e0
 .word 0xd2800021
 .word 0xf90077a3
@@ -14320,9 +14285,9 @@ bl _p_197
 .word 0xd63f0200
 .word 0xf94077a0
 .loc 21 577 0
-.word 0xf9401740
+.word 0xf9401b40
 .word 0xf9400803
-.word 0xb980c742
+.word 0xb980cf42
 .word 0xaa0303e0
 .word 0xd291a801
 .word 0xf90073a3
@@ -14330,9 +14295,9 @@ bl _p_197
 .word 0xd63f0200
 .word 0xf94073a0
 .loc 21 578 0
-.word 0xf9401740
+.word 0xf9401b40
 .word 0xf9401805
-.word 0xb980cb44
+.word 0xb980d344
 .word 0xaa0503e0
 .word 0xd291a801
 .word 0xd2919c02
@@ -14409,7 +14374,7 @@ bl _p_198
 .word 0xf94017a1
 bl _p_199
 .loc 21 585 0
-.word 0xf9401740
+.word 0xf9401b40
 .word 0xf9402c05
 .word 0xb98083a3
 .word 0xb98087a4
@@ -14421,7 +14386,7 @@ bl _p_199
 .word 0xd63f0200
 .word 0xf94067a0
 .loc 21 586 0
-.word 0xf9401740
+.word 0xf9401b40
 .word 0xf9402805
 .word 0xb98083a3
 .word 0xb98087a4
@@ -14435,7 +14400,7 @@ bl _p_199
 .loc 21 588 0
 .word 0xaa1a03e0
 .word 0xf9400341
-.word 0xf9413c30
+.word 0xf9415c30
 .word 0xd63f0200
 .word 0xf9005fa0
 
@@ -14447,8 +14412,8 @@ bl _p_36
 .word 0xf9005ba0
 bl _p_48
 .word 0xf9405ba0
-.word 0xf9002b40
-.word 0x91014341
+.word 0xf9002f40
+.word 0x91016341
 .word 0xd349fc21
 .word 0xd29ffffe
 .word 0xf2a00ffe
@@ -14463,7 +14428,7 @@ ldr x2, [x16, #16]
 .loc 21 589 0
 .word 0xaa1a03e0
 .word 0xf9400341
-.word 0xf9417c30
+.word 0xf941a030
 .word 0xd63f0200
 .word 0xf90057a0
 
@@ -14475,8 +14440,8 @@ bl _p_36
 .word 0xf90053a0
 bl _p_48
 .word 0xf94053a0
-.word 0xf9002f40
-.word 0x91016341
+.word 0xf9003340
+.word 0x91018341
 .word 0xd349fc21
 .word 0xd29ffffe
 .word 0xf2a00ffe
@@ -14495,12 +14460,12 @@ ldr x2, [x16, #16]
 .word 0xa8d07bfd
 .word 0xd65f03c0
 .loc 21 570 0
-.word 0xf9401740
+.word 0xf9401b40
 .word 0xf9401403
 .word 0xeb1f035f
 .word 0x10000011
 .word 0x540004c0
-.word 0x91032342
+.word 0x91034342
 .word 0xaa0303e0
 .word 0xd2800021
 .word 0xf90057a3
@@ -14508,9 +14473,9 @@ ldr x2, [x16, #16]
 .word 0xd63f0200
 .word 0xf94057a0
 .loc 21 571 0
-.word 0xb900cb5f
+.word 0xb900d35f
 .loc 21 572 0
-.word 0xf9401740
+.word 0xf9401b40
 .word 0xf9400c03
 .word 0xb98093a2
 .word 0xaa0303e0
@@ -14527,7 +14492,7 @@ ldr x0, [x16, #0]
 .word 0xd282df61
 bl _p_20
 .word 0xaa0003e1
-.word 0xd2802080
+.word 0xd2801f80
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_22
@@ -14539,14 +14504,14 @@ ldr x0, [x16, #0]
 .word 0xd282ca41
 bl _p_20
 .word 0xaa0003e1
-.word 0xd2802080
+.word 0xd2801f80
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_22
-.word 0xd2802260
+.word 0xd2802160
 .word 0xaa1103e1
 bl _p_9
-.word 0xd2802060
+.word 0xd2801f60
 .word 0xaa1103e1
 bl _p_9
 
@@ -14583,7 +14548,7 @@ bl _p_200
 bl _p_127
 .word 0xaa0003f9
 .loc 21 601 0
-.word 0xf9402341
+.word 0xf9402741
 .word 0xaa0103e0
 .word 0xf9400021
 
@@ -14599,15 +14564,15 @@ ldr x15, [x16, #1976]
 .loc 21 602 0
 .word 0xaa1a03e0
 .word 0xf9400341
-.word 0xf9433030
+.word 0xf9437030
 .word 0xd63f0200
 .loc 21 604 0
-.word 0xf9401740
+.word 0xf9401b40
 .word 0xf9401003
 .word 0xeb1f035f
 .word 0x10000011
 .word 0x54000760
-.word 0x91031342
+.word 0x91033342
 .word 0xaa0303e0
 .word 0xd2800021
 .word 0xf90017a3
@@ -14615,12 +14580,12 @@ ldr x15, [x16, #1976]
 .word 0xd63f0200
 .word 0xf94017a0
 .loc 21 605 0
-.word 0xf9401740
+.word 0xf9401b40
 .word 0xf9401403
 .word 0xeb1f035f
 .word 0x10000011
 .word 0x540005e0
-.word 0x91032342
+.word 0x91034342
 .word 0xaa0303e0
 .word 0xd2800021
 .word 0xf90013a3
@@ -14628,8 +14593,8 @@ ldr x15, [x16, #1976]
 .word 0xd63f0200
 .word 0xf94013a0
 .loc 21 606 0
-.word 0xb900cb5f
-.word 0xb900c75f
+.word 0xb900d35f
+.word 0xb900cf5f
 .loc 21 608 0
 .word 0xaa1a03e0
 bl _p_197
@@ -14643,7 +14608,7 @@ bl _p_201
 .word 0xd2800000
 bl _p_201
 .loc 21 613 0
-.word 0xf9402341
+.word 0xf9402741
 .word 0xaa0103e0
 .word 0xf9400021
 
@@ -14656,8 +14621,8 @@ ldr x15, [x16, #2016]
 .word 0xd63f0200
 .loc 21 614 0
 .word 0xd2800000
-.word 0xf900235f
-.word 0x91010341
+.word 0xf900275f
+.word 0x91012341
 .word 0xd349fc21
 .word 0xd29ffffe
 .word 0xf2a00ffe
@@ -14670,13 +14635,13 @@ ldr x2, [x16, #16]
 .word 0xd280003e
 .word 0x3900003e
 .loc 21 615 0
-.word 0xf900175f
+.word 0xf9001b5f
 .loc 21 616 0
 .word 0xa9416bb9
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd2802260
+.word 0xd2802160
 .word 0xaa1103e1
 bl _p_9
 
@@ -14700,7 +14665,7 @@ ldr x0, [x16, #3752]
 .word 0xf9400ba0
 .word 0xf9400ba2
 .word 0xf9400042
-.word 0xf9433850
+.word 0xf9437850
 .word 0xd63f0200
 .loc 21 622 0
 .word 0x910003bf
@@ -14719,7 +14684,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OnClosed_System_EventArgs:
 .word 0xf9000fa0
 .word 0xf90013a1
 .word 0xf9400fa0
-.word 0xf9403c18
+.word 0xf9404018
 .loc 21 627 0
 .word 0xaa1803e0
 .word 0xb40000c0
@@ -14746,16 +14711,16 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_Dispose_bool:
 .word 0xf9000bb9
 .word 0xaa0003f9
 .word 0xf9000fa1
-.word 0x39430720
+.word 0x39432720
 .word 0x35000540
 .loc 21 635 0
 .word 0x394063a0
 .word 0x34000320
 .loc 21 636 0
-.word 0xf9401b20
+.word 0xf9401f20
 .word 0xb4000160
 .loc 21 637 0
-.word 0xf9401b21
+.word 0xf9401f21
 .word 0xaa0103e0
 .word 0xf9400021
 
@@ -14767,21 +14732,21 @@ ldr x15, [x16, #3800]
 .word 0xf8706830
 .word 0xd63f0200
 .loc 21 638 0
-.word 0xf9001b3f
+.word 0xf9001f3f
 .loc 21 639 0
-.word 0xf9401f20
+.word 0xf9402320
 .word 0xb40000a0
 .loc 21 640 0
-.word 0xf9401f21
+.word 0xf9402321
 .word 0xaa0103e0
 .word 0x3940003e
 bl _p_202
 .loc 21 641 0
-.word 0xf9001f3f
+.word 0xf900233f
 .loc 21 642 0
 .word 0xaa1903e0
 .word 0xf9400321
-.word 0xf9434030
+.word 0xf9438030
 .word 0xd63f0200
 .loc 21 644 0
 .word 0xaa1903e0
@@ -14789,7 +14754,7 @@ bl _p_202
 bl _p_203
 .loc 21 645 0
 .word 0xd280003e
-.word 0x3903073e
+.word 0x3903273e
 .loc 21 646 0
 .word 0x394063a0
 .word 0x34000120
@@ -14801,7 +14766,7 @@ ldr x0, [x16, #3752]
 .word 0xf9400001
 .word 0xaa1903e0
 .word 0xf9400322
-.word 0xf9433450
+.word 0xf9437450
 .word 0xd63f0200
 .loc 21 648 0
 .word 0xf9400bb9
@@ -14821,7 +14786,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OnDisposed_System_EventArgs:
 .word 0xf9000fa0
 .word 0xf90013a1
 .word 0xf9400fa0
-.word 0xf9404018
+.word 0xf9404418
 .loc 21 653 0
 .word 0xaa1803e0
 .word 0xb40000c0
@@ -14846,7 +14811,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_ProcessEvents:
 .word 0xa9be7bfd
 .word 0x910003fd
 .word 0xf9000ba0
-.word 0xd2802240
+.word 0xd2802140
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_22
@@ -14912,14 +14877,14 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_LayoutSubviews:
 .word 0xaa1a03e0
 bl _p_204
 .loc 21 675 0
-.word 0xf9402340
+.word 0xf9402740
 .word 0xb4000640
 .loc 21 678 0
 .word 0x910083a0
 .word 0xf90023a0
 .word 0xaa1a03e0
 .word 0xf9400341
-.word 0xf941b830
+.word 0xf941e430
 .word 0xd63f0200
 .word 0xf94023be
 .word 0xfd0003c0
@@ -14927,7 +14892,7 @@ bl _p_204
 .word 0xfd000bc2
 .word 0xfd000fc3
 .loc 21 679 0
-.word 0x3943a740
+.word 0x3943c740
 .word 0x340004a0
 .word 0xfd401ba0
 bl _p_198
@@ -14960,12 +14925,12 @@ bl _p_205
 .loc 21 681 0
 .word 0xaa1a03e0
 .word 0xf9400341
-.word 0xf9434030
+.word 0xf9438030
 .word 0xd63f0200
 .loc 21 682 0
 .word 0xaa1a03e0
 .word 0xf9400341
-.word 0xf9434830
+.word 0xf9438830
 .word 0xd63f0200
 .loc 21 684 0
 .word 0xf9400bba
@@ -14989,11 +14954,11 @@ bl _p_184
 .word 0xaa1a03e0
 bl _p_200
 .loc 21 690 0
-.word 0xf9402340
+.word 0xf9402740
 .word 0xf90013a0
 .word 0xaa1a03e0
 .word 0xf9400341
-.word 0xf9436c30
+.word 0xf943ac30
 .word 0xd63f0200
 .word 0xaa0003e1
 .word 0xf94013a2
@@ -15029,9 +14994,9 @@ bl _p_184
 .word 0xaa1a03e0
 bl _p_200
 .loc 21 697 0
-.word 0xf9401740
+.word 0xf9401b40
 .word 0xf9400c03
-.word 0xb980cb42
+.word 0xb980d342
 .word 0xaa0303e0
 .word 0xd291a821
 .word 0xf90013a3
@@ -15039,7 +15004,7 @@ bl _p_200
 .word 0xd63f0200
 .word 0xf94013a0
 .loc 21 698 0
-.word 0xf9402341
+.word 0xf9402741
 .word 0xaa0103e0
 .word 0xf9400021
 
@@ -15096,7 +15061,7 @@ ldr x0, [x16, #0]
 .word 0xd282ea61
 bl _p_20
 .word 0xaa0003e1
-.word 0xd2801540
+.word 0xd2801420
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_22
@@ -15112,10 +15077,10 @@ bl _p_206
 .loc 21 716 0
 .word 0x14000033
 .loc 21 719 0
-.word 0xf9401b40
+.word 0xf9401f40
 .word 0xb4000160
 .loc 21 720 0
-.word 0xf9401b41
+.word 0xf9401f41
 .word 0xaa0103e0
 .word 0xf9400021
 
@@ -15140,8 +15105,8 @@ bl _p_3
 .word 0xaa1a03e1
 bl _p_207
 .word 0xf94013a0
-.word 0xf9001b40
-.word 0x9100c341
+.word 0xf9001f40
+.word 0x9100e341
 .word 0xd349fc21
 .word 0xd29ffffe
 .word 0xf2a00ffe
@@ -15156,7 +15121,7 @@ ldr x2, [x16, #16]
 .loc 21 724 0
 .word 0xaa1a03e0
 .word 0xf9400341
-.word 0xf9434830
+.word 0xf9438830
 .word 0xd63f0200
 .loc 21 725 0
 
@@ -15166,7 +15131,7 @@ ldr x0, [x16, #3752]
 .word 0xf9400001
 .word 0xaa1a03e0
 .word 0xf9400342
-.word 0xf9432050
+.word 0xf9436050
 .word 0xd63f0200
 .loc 21 726 0
 .word 0xaa1a03e0
@@ -15209,15 +15174,15 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_RunWithFrameInterval_int:
 .word 0xaa1903e0
 bl _p_184
 .loc 21 739 0
-.word 0xd2800021
 .word 0xb9801ba0
-.word 0x6b01001f
+.word 0xd280003e
+.word 0x6b1e001f
 .word 0x5400068b
 .loc 21 742 0
-.word 0xf9401b20
+.word 0xf9401f20
 .word 0xb4000160
 .loc 21 743 0
-.word 0xf9401b21
+.word 0xf9401f21
 .word 0xaa0103e0
 .word 0xf9400021
 
@@ -15239,8 +15204,8 @@ bl _p_36
 .word 0xb9801ba2
 bl _p_209
 .word 0xf94013a0
-.word 0xf9001b20
-.word 0x9100c321
+.word 0xf9001f20
+.word 0x9100e321
 .word 0xd349fc21
 .word 0xd29ffffe
 .word 0xf2a00ffe
@@ -15255,7 +15220,7 @@ ldr x2, [x16, #16]
 .loc 21 747 0
 .word 0xaa1903e0
 .word 0xf9400321
-.word 0xf9434830
+.word 0xf9438830
 .word 0xd63f0200
 .loc 21 748 0
 
@@ -15265,7 +15230,7 @@ ldr x0, [x16, #3752]
 .word 0xf9400001
 .word 0xaa1903e0
 .word 0xf9400322
-.word 0xf9432050
+.word 0xf9436050
 .word 0xd63f0200
 .loc 21 749 0
 .word 0xaa1903e0
@@ -15283,7 +15248,7 @@ ldr x0, [x16, #0]
 .word 0xd282eea1
 bl _p_20
 .word 0xaa0003e1
-.word 0xd2801540
+.word 0xd2801420
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_22
@@ -15304,7 +15269,7 @@ ldr x0, [x16, #3824]
 .word 0xf9400000
 .word 0xf90013a0
 .word 0xf9400ba0
-.word 0x91034001
+.word 0x91036001
 .word 0xf94013a2
 .word 0xf9000022
 .loc 21 755 0
@@ -15314,7 +15279,7 @@ add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x1, [x16, #3824]
 .word 0xf9400021
 .word 0xf9000fa1
-.word 0x91036001
+.word 0x91038001
 .word 0xf9400fa2
 .word 0xf9000022
 .loc 21 756 0
@@ -15337,10 +15302,10 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_Stop:
 .word 0xaa1a03e0
 bl _p_184
 .loc 21 762 0
-.word 0xf9401b40
+.word 0xf9401f40
 .word 0xb4000180
 .loc 21 763 0
-.word 0xf9401b41
+.word 0xf9401f41
 .word 0xaa0103e0
 .word 0xf9400021
 
@@ -15352,9 +15317,9 @@ ldr x15, [x16, #3800]
 .word 0xf8706830
 .word 0xd63f0200
 .loc 21 764 0
-.word 0xf9001b5f
+.word 0xf9001f5f
 .loc 21 766 0
-.word 0x3903035f
+.word 0x3903235f
 .loc 21 767 0
 
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+0
@@ -15363,7 +15328,7 @@ ldr x0, [x16, #3752]
 .word 0xf9400001
 .word 0xaa1a03e0
 .word 0xf9400342
-.word 0xf9431c50
+.word 0xf9435c50
 .word 0xd63f0200
 .loc 21 768 0
 .word 0xf9400bba
@@ -15381,10 +15346,10 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_Suspend:
 .word 0x910003fd
 .word 0xf9000bba
 .word 0xaa0003fa
-.word 0xf9401b40
+.word 0xf9401f40
 .word 0xb4000160
 .loc 21 773 0
-.word 0xf9401b41
+.word 0xf9401f41
 .word 0xaa0103e0
 .word 0xf9400021
 
@@ -15396,13 +15361,13 @@ ldr x15, [x16, #3832]
 .word 0xf8706830
 .word 0xd63f0200
 .loc 21 774 0
-.word 0xf9401f41
+.word 0xf9402341
 .word 0xaa0103e0
 .word 0x3940003e
 bl _p_202
 .loc 21 775 0
 .word 0xd280003e
-.word 0x3903035e
+.word 0x3903235e
 .loc 21 776 0
 .word 0xf9400bba
 .word 0x910003bf
@@ -15419,10 +15384,10 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_Resume:
 .word 0x910003fd
 .word 0xf9000bba
 .word 0xaa0003fa
-.word 0xf9401b40
+.word 0xf9401f40
 .word 0xb4000160
 .loc 21 781 0
-.word 0xf9401b41
+.word 0xf9401f41
 .word 0xaa0103e0
 .word 0xf9400021
 
@@ -15434,12 +15399,12 @@ ldr x15, [x16, #3840]
 .word 0xf8706830
 .word 0xd63f0200
 .loc 21 782 0
-.word 0xf9401f41
+.word 0xf9402341
 .word 0xaa0103e0
 .word 0x3940003e
 bl _p_211
 .loc 21 783 0
-.word 0x3903035f
+.word 0x3903235f
 .loc 21 784 0
 .word 0xf9400bba
 .word 0x910003bf
@@ -15466,9 +15431,9 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_Capture:
 .word 0xf9004fbf
 .word 0xf90053bf
 .word 0xf90057bf
-.word 0xf9401740
+.word 0xf9401b40
 .word 0xf9400c03
-.word 0xb980cb42
+.word 0xb980d342
 .word 0xaa0303e0
 .word 0xd291a821
 .word 0xf900b7a3
@@ -15476,7 +15441,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_Capture:
 .word 0xd63f0200
 .word 0xf940b7a0
 .loc 21 799 0
-.word 0xf9401740
+.word 0xf9401b40
 .word 0xf9403004
 .word 0x910223a3
 .word 0xaa0403e0
@@ -15487,7 +15452,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_Capture:
 .word 0xd63f0200
 .word 0xf940b3a0
 .loc 21 800 0
-.word 0xf9401740
+.word 0xf9401b40
 .word 0xf9403004
 .word 0x910243a3
 .word 0xaa0403e0
@@ -15510,7 +15475,7 @@ ldr x0, [x16, #3848]
 bl _p_14
 .word 0xf900aba0
 .loc 21 807 0
-.word 0xf9401740
+.word 0xf9401b40
 .word 0xf9403403
 .word 0xaa0303e0
 .word 0xd281a0a1
@@ -15521,7 +15486,7 @@ bl _p_14
 .word 0xf940a7a0
 .word 0xf940aba7
 .loc 21 808 0
-.word 0xf9401740
+.word 0xf9401b40
 .word 0xf9403809
 .word 0xaa0903e0
 .word 0xd2800001
@@ -15587,7 +15552,7 @@ bl _p_214
 .loc 21 822 0
 .word 0xaa1a03e0
 .word 0xf9400341
-.word 0xf941a030
+.word 0xf941c830
 .word 0xd63f0200
 .word 0x1e624010
 .word 0x1e22c200
@@ -15812,7 +15777,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_WillMoveToWindow_UIKit_UIWindow:
 .word 0xf90013a1
 .word 0xf94013a0
 .word 0xb50000c0
-.word 0x39430320
+.word 0x39432320
 .word 0x35000080
 .loc 21 851 0
 .word 0xaa1903e0
@@ -15821,12 +15786,12 @@ bl _p_223
 .loc 21 852 0
 .word 0xf94013a0
 .word 0xb4000780
-.word 0x39430320
+.word 0x39432320
 .word 0x34000740
 .loc 21 853 0
-.word 0xf9402f20
+.word 0xf9403320
 .word 0xb4000300
-.word 0xf9402f21
+.word 0xf9403321
 .word 0xaa0103e0
 .word 0xf9400021
 .word 0xf9404030
@@ -15846,13 +15811,13 @@ ldr x1, [x16, #3872]
 .word 0x54000561
 .word 0xaa1903e0
 .word 0xf9400321
-.word 0xf9417c30
+.word 0xf941a030
 .word 0xd63f0200
 .word 0xeb00031f
 .word 0x540002e1
-.word 0xf9402b20
+.word 0xf9402f20
 .word 0xb40003a0
-.word 0xf9402b21
+.word 0xf9402f21
 .word 0xaa0103e0
 .word 0xf9400021
 .word 0xf9404030
@@ -15876,12 +15841,12 @@ ldr x1, [x16, #3880]
 .loc 21 856 0
 .word 0xaa1903e0
 .word 0xf9400321
-.word 0xf9434030
+.word 0xf9438030
 .word 0xd63f0200
 .loc 21 857 0
 .word 0xaa1903e0
 .word 0xf9400321
-.word 0xf9434830
+.word 0xf9438830
 .word 0xd63f0200
 .loc 21 860 0
 .word 0xaa1903e0
@@ -15891,7 +15856,7 @@ bl _p_210
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd2802060
+.word 0xd2801f60
 .word 0xaa1103e1
 bl _p_9
 
@@ -15908,7 +15873,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_RunIteration_Foundation_NSTimer:
 .word 0xf9000fa1
 .word 0xf9003fbf
 .word 0xf9003bbf
-.word 0xf9401f41
+.word 0xf9402341
 .word 0x910203a0
 .word 0xf90047a0
 .word 0xaa0103e0
@@ -15917,7 +15882,7 @@ bl _p_224
 .word 0xf94047be
 .word 0xf90003c0
 .loc 21 874 0
-.word 0x91034340
+.word 0x91036340
 .word 0xf9400000
 .word 0xf90027a0
 
@@ -15936,11 +15901,11 @@ ldr x0, [x16, #3824]
 .word 0x9a9f17e0
 .word 0x34000080
 .loc 21 875 0
-.word 0x91034340
+.word 0x91036340
 .word 0xf94043a1
 .word 0xf9000001
 .loc 21 876 0
-.word 0x91034340
+.word 0x91036340
 .word 0xf9400000
 .word 0xf9001fa0
 .word 0x9101c3a0
@@ -15960,25 +15925,25 @@ bl _p_225
 .word 0x1e610800
 .word 0xfd004ba0
 .loc 21 877 0
-.word 0xf9403341
+.word 0xf9403741
 .word 0xfd404ba0
 .word 0xaa0103e0
 .word 0x3940003e
 bl _p_226
 .loc 21 878 0
-.word 0xf9403341
+.word 0xf9403741
 .word 0xaa1a03e0
 .word 0xf9400342
-.word 0xf9431850
+.word 0xf9435850
 .word 0xd63f0200
 .loc 21 879 0
-.word 0x91034340
+.word 0x91036340
 .word 0xf94043a1
 .word 0xf9000001
 .loc 21 881 0
-.word 0xf9401740
+.word 0xf9401b40
 .word 0xf9400803
-.word 0xb980c742
+.word 0xb980cf42
 .word 0xaa0303e0
 .word 0xd291a801
 .word 0xf9005ba3
@@ -15986,7 +15951,7 @@ bl _p_226
 .word 0xd63f0200
 .word 0xf9405ba0
 .loc 21 883 0
-.word 0xf9401f41
+.word 0xf9402341
 .word 0x9101e3a0
 .word 0xf90047a0
 .word 0xaa0103e0
@@ -15995,7 +15960,7 @@ bl _p_224
 .word 0xf94047be
 .word 0xf90003c0
 .loc 21 884 0
-.word 0x91036340
+.word 0x91038340
 .word 0xf9400000
 .word 0xf9001ba0
 
@@ -16014,11 +15979,11 @@ ldr x0, [x16, #3824]
 .word 0x9a9f17e0
 .word 0x34000080
 .loc 21 885 0
-.word 0x91036340
+.word 0x91038340
 .word 0xf9403fa1
 .word 0xf9000001
 .loc 21 886 0
-.word 0x91036340
+.word 0x91038340
 .word 0xf9400000
 .word 0xf90013a0
 .word 0x9101c3a0
@@ -16038,19 +16003,19 @@ bl _p_225
 .word 0x1e610800
 .word 0xfd004ba0
 .loc 21 887 0
-.word 0xf9403741
+.word 0xf9403b41
 .word 0xfd404ba0
 .word 0xaa0103e0
 .word 0x3940003e
 bl _p_226
 .loc 21 888 0
-.word 0xf9403741
+.word 0xf9403b41
 .word 0xaa1a03e0
 .word 0xf9400342
-.word 0xf9431450
+.word 0xf9435450
 .word 0xd63f0200
 .loc 21 889 0
-.word 0x91036340
+.word 0x91038340
 .word 0xf9403fa1
 .word 0xf9000001
 .loc 21 890 0
@@ -16071,7 +16036,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OnLoad_System_EventArgs:
 .word 0xf9000fa0
 .word 0xf90013a1
 .word 0xf9400fa0
-.word 0xf9405018
+.word 0xf9405418
 .loc 21 895 0
 .word 0xaa1803e0
 .word 0xb40000c0
@@ -16098,11 +16063,11 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OnUnload_System_EventArgs:
 .word 0xa90167b8
 .word 0xaa0003f9
 .word 0xf90013a1
-.word 0xf9405738
+.word 0xf9405b38
 .loc 21 902 0
 .word 0xaa1903e0
 .word 0xf9400321
-.word 0xf9434030
+.word 0xf9438030
 .word 0xd63f0200
 .loc 21 903 0
 .word 0xb40000d8
@@ -16130,7 +16095,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OnUpdateFrame_OpenTK_FrameEventArgs:
 .word 0xf9000fa0
 .word 0xf90013a1
 .word 0xf9400fa0
-.word 0xf9405818
+.word 0xf9405c18
 .loc 21 910 0
 .word 0xaa1803e0
 .word 0xb40000c0
@@ -16158,7 +16123,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OnRenderFrame_OpenTK_FrameEventArgs:
 .word 0xf9000fa0
 .word 0xf90013a1
 .word 0xf9400fa0
-.word 0xf9405c18
+.word 0xf9406018
 .loc 21 917 0
 .word 0xaa1803e0
 .word 0xb40000c0
@@ -16184,7 +16149,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_add_Move_System_E
 .word 0x910003fd
 .word 0xf9000ba0
 .word 0xf9000fa1
-.word 0xd2802240
+.word 0xd2802140
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_22
@@ -16202,7 +16167,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_remove_Move_Syste
 .word 0x910003fd
 .word 0xf9000ba0
 .word 0xf9000fa1
-.word 0xd2802240
+.word 0xd2802140
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_22
@@ -16222,7 +16187,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_add_Resize_System_EventHandler_1_Syste
 .word 0xa9036bb9
 .word 0xaa0003f9
 .word 0xaa0103fa
-.word 0xf9403b38
+.word 0xf9403f38
 .word 0xaa1803f7
 .word 0xaa1803e0
 .word 0xaa1a03e1
@@ -16244,7 +16209,7 @@ ldr x1, [x16, #3888]
 .word 0xeb1f033f
 .word 0x10000011
 .word 0x540003e0
-.word 0x9101c321
+.word 0x9101e321
 
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+0
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
@@ -16276,10 +16241,10 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2802260
+.word 0xd2802160
 .word 0xaa1103e1
 bl _p_9
-.word 0xd2802060
+.word 0xd2801f60
 .word 0xaa1103e1
 bl _p_9
 
@@ -16295,7 +16260,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_remove_Resize_System_EventHandler_1_Sy
 .word 0xa9036bb9
 .word 0xaa0003f9
 .word 0xaa0103fa
-.word 0xf9403b38
+.word 0xf9403f38
 .word 0xaa1803f7
 .word 0xaa1803e0
 .word 0xaa1a03e1
@@ -16317,7 +16282,7 @@ ldr x1, [x16, #3888]
 .word 0xeb1f033f
 .word 0x10000011
 .word 0x540003e0
-.word 0x9101c321
+.word 0x9101e321
 
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+0
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
@@ -16349,10 +16314,10 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2802260
+.word 0xd2802160
 .word 0xaa1103e1
 bl _p_9
-.word 0xd2802060
+.word 0xd2801f60
 .word 0xaa1103e1
 bl _p_9
 
@@ -16366,7 +16331,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_add_Closing_Syste
 .word 0x910003fd
 .word 0xf9000ba0
 .word 0xf9000fa1
-.word 0xd2802240
+.word 0xd2802140
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_22
@@ -16384,7 +16349,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_remove_Closing_Sy
 .word 0x910003fd
 .word 0xf9000ba0
 .word 0xf9000fa1
-.word 0xd2802240
+.word 0xd2802140
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_22
@@ -16404,7 +16369,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_add_Closed_System_EventHandler_1_Syste
 .word 0xa9036bb9
 .word 0xaa0003f9
 .word 0xaa0103fa
-.word 0xf9403f38
+.word 0xf9404338
 .word 0xaa1803f7
 .word 0xaa1803e0
 .word 0xaa1a03e1
@@ -16426,7 +16391,7 @@ ldr x1, [x16, #3888]
 .word 0xeb1f033f
 .word 0x10000011
 .word 0x540003e0
-.word 0x9101e321
+.word 0x91020321
 
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+0
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
@@ -16458,10 +16423,10 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2802260
+.word 0xd2802160
 .word 0xaa1103e1
 bl _p_9
-.word 0xd2802060
+.word 0xd2801f60
 .word 0xaa1103e1
 bl _p_9
 
@@ -16477,7 +16442,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_remove_Closed_System_EventHandler_1_Sy
 .word 0xa9036bb9
 .word 0xaa0003f9
 .word 0xaa0103fa
-.word 0xf9403f38
+.word 0xf9404338
 .word 0xaa1803f7
 .word 0xaa1803e0
 .word 0xaa1a03e1
@@ -16499,7 +16464,7 @@ ldr x1, [x16, #3888]
 .word 0xeb1f033f
 .word 0x10000011
 .word 0x540003e0
-.word 0x9101e321
+.word 0x91020321
 
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+0
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
@@ -16531,10 +16496,10 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2802260
+.word 0xd2802160
 .word 0xaa1103e1
 bl _p_9
-.word 0xd2802060
+.word 0xd2801f60
 .word 0xaa1103e1
 bl _p_9
 
@@ -16550,7 +16515,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_add_Disposed_System_EventHandler_1_Sys
 .word 0xa9036bb9
 .word 0xaa0003f9
 .word 0xaa0103fa
-.word 0xf9404338
+.word 0xf9404738
 .word 0xaa1803f7
 .word 0xaa1803e0
 .word 0xaa1a03e1
@@ -16572,7 +16537,7 @@ ldr x1, [x16, #3888]
 .word 0xeb1f033f
 .word 0x10000011
 .word 0x540003e0
-.word 0x91020321
+.word 0x91022321
 
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+0
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
@@ -16604,10 +16569,10 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2802260
+.word 0xd2802160
 .word 0xaa1103e1
 bl _p_9
-.word 0xd2802060
+.word 0xd2801f60
 .word 0xaa1103e1
 bl _p_9
 
@@ -16623,7 +16588,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_remove_Disposed_System_EventHandler_1_
 .word 0xa9036bb9
 .word 0xaa0003f9
 .word 0xaa0103fa
-.word 0xf9404338
+.word 0xf9404738
 .word 0xaa1803f7
 .word 0xaa1803e0
 .word 0xaa1a03e1
@@ -16645,7 +16610,7 @@ ldr x1, [x16, #3888]
 .word 0xeb1f033f
 .word 0x10000011
 .word 0x540003e0
-.word 0x91020321
+.word 0x91022321
 
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+0
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
@@ -16677,10 +16642,10 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2802260
+.word 0xd2802160
 .word 0xaa1103e1
 bl _p_9
-.word 0xd2802060
+.word 0xd2801f60
 .word 0xaa1103e1
 bl _p_9
 
@@ -16696,7 +16661,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_add_TitleChanged_System_EventHandler_1
 .word 0xa9036bb9
 .word 0xaa0003f9
 .word 0xaa0103fa
-.word 0xf9404738
+.word 0xf9404b38
 .word 0xaa1803f7
 .word 0xaa1803e0
 .word 0xaa1a03e1
@@ -16718,7 +16683,7 @@ ldr x1, [x16, #3888]
 .word 0xeb1f033f
 .word 0x10000011
 .word 0x540003e0
-.word 0x91022321
+.word 0x91024321
 
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+0
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
@@ -16750,10 +16715,10 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2802260
+.word 0xd2802160
 .word 0xaa1103e1
 bl _p_9
-.word 0xd2802060
+.word 0xd2801f60
 .word 0xaa1103e1
 bl _p_9
 
@@ -16769,7 +16734,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_remove_TitleChanged_System_EventHandle
 .word 0xa9036bb9
 .word 0xaa0003f9
 .word 0xaa0103fa
-.word 0xf9404738
+.word 0xf9404b38
 .word 0xaa1803f7
 .word 0xaa1803e0
 .word 0xaa1a03e1
@@ -16791,7 +16756,7 @@ ldr x1, [x16, #3888]
 .word 0xeb1f033f
 .word 0x10000011
 .word 0x540003e0
-.word 0x91022321
+.word 0x91024321
 
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+0
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
@@ -16823,10 +16788,10 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2802260
+.word 0xd2802160
 .word 0xaa1103e1
 bl _p_9
-.word 0xd2802060
+.word 0xd2801f60
 .word 0xaa1103e1
 bl _p_9
 
@@ -16842,7 +16807,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_add_VisibleChanged_System_EventHandler
 .word 0xa9036bb9
 .word 0xaa0003f9
 .word 0xaa0103fa
-.word 0xf9404b38
+.word 0xf9404f38
 .word 0xaa1803f7
 .word 0xaa1803e0
 .word 0xaa1a03e1
@@ -16864,7 +16829,7 @@ ldr x1, [x16, #3888]
 .word 0xeb1f033f
 .word 0x10000011
 .word 0x540003e0
-.word 0x91024321
+.word 0x91026321
 
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+0
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
@@ -16896,10 +16861,10 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2802260
+.word 0xd2802160
 .word 0xaa1103e1
 bl _p_9
-.word 0xd2802060
+.word 0xd2801f60
 .word 0xaa1103e1
 bl _p_9
 
@@ -16915,7 +16880,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_remove_VisibleChanged_System_EventHand
 .word 0xa9036bb9
 .word 0xaa0003f9
 .word 0xaa0103fa
-.word 0xf9404b38
+.word 0xf9404f38
 .word 0xaa1803f7
 .word 0xaa1803e0
 .word 0xaa1a03e1
@@ -16937,7 +16902,7 @@ ldr x1, [x16, #3888]
 .word 0xeb1f033f
 .word 0x10000011
 .word 0x540003e0
-.word 0x91024321
+.word 0x91026321
 
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+0
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
@@ -16969,10 +16934,10 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2802260
+.word 0xd2802160
 .word 0xaa1103e1
 bl _p_9
-.word 0xd2802060
+.word 0xd2801f60
 .word 0xaa1103e1
 bl _p_9
 
@@ -16986,7 +16951,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_add_FocusedChange
 .word 0x910003fd
 .word 0xf9000ba0
 .word 0xf9000fa1
-.word 0xd2802240
+.word 0xd2802140
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_22
@@ -17004,7 +16969,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_remove_FocusedCha
 .word 0x910003fd
 .word 0xf9000ba0
 .word 0xf9000fa1
-.word 0xd2802240
+.word 0xd2802140
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_22
@@ -17022,7 +16987,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_add_WindowBorderC
 .word 0x910003fd
 .word 0xf9000ba0
 .word 0xf9000fa1
-.word 0xd2802240
+.word 0xd2802140
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_22
@@ -17040,7 +17005,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_remove_WindowBord
 .word 0x910003fd
 .word 0xf9000ba0
 .word 0xf9000fa1
-.word 0xd2802240
+.word 0xd2802140
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_22
@@ -17060,7 +17025,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_add_WindowStateChanged_System_EventHan
 .word 0xa9036bb9
 .word 0xaa0003f9
 .word 0xaa0103fa
-.word 0xf9404f38
+.word 0xf9405338
 .word 0xaa1803f7
 .word 0xaa1803e0
 .word 0xaa1a03e1
@@ -17082,7 +17047,7 @@ ldr x1, [x16, #3888]
 .word 0xeb1f033f
 .word 0x10000011
 .word 0x540003e0
-.word 0x91026321
+.word 0x91028321
 
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+0
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
@@ -17114,10 +17079,10 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2802260
+.word 0xd2802160
 .word 0xaa1103e1
 bl _p_9
-.word 0xd2802060
+.word 0xd2801f60
 .word 0xaa1103e1
 bl _p_9
 
@@ -17133,7 +17098,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_remove_WindowStateChanged_System_Event
 .word 0xa9036bb9
 .word 0xaa0003f9
 .word 0xaa0103fa
-.word 0xf9404f38
+.word 0xf9405338
 .word 0xaa1803f7
 .word 0xaa1803e0
 .word 0xaa1a03e1
@@ -17155,7 +17120,7 @@ ldr x1, [x16, #3888]
 .word 0xeb1f033f
 .word 0x10000011
 .word 0x540003e0
-.word 0x91026321
+.word 0x91028321
 
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+0
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
@@ -17187,10 +17152,10 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2802260
+.word 0xd2802160
 .word 0xaa1103e1
 bl _p_9
-.word 0xd2802060
+.word 0xd2801f60
 .word 0xaa1103e1
 bl _p_9
 
@@ -17204,7 +17169,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_add_KeyPress_Syst
 .word 0x910003fd
 .word 0xf9000ba0
 .word 0xf9000fa1
-.word 0xd2802240
+.word 0xd2802140
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_22
@@ -17222,7 +17187,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_remove_KeyPress_S
 .word 0x910003fd
 .word 0xf9000ba0
 .word 0xf9000fa1
-.word 0xd2802240
+.word 0xd2802140
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_22
@@ -17242,7 +17207,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_add_Load_System_EventHandler_1_System_
 .word 0xa9036bb9
 .word 0xaa0003f9
 .word 0xaa0103fa
-.word 0xf9405338
+.word 0xf9405738
 .word 0xaa1803f7
 .word 0xaa1803e0
 .word 0xaa1a03e1
@@ -17264,7 +17229,7 @@ ldr x1, [x16, #3888]
 .word 0xeb1f033f
 .word 0x10000011
 .word 0x540003e0
-.word 0x91028321
+.word 0x9102a321
 
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+0
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
@@ -17296,10 +17261,10 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2802260
+.word 0xd2802160
 .word 0xaa1103e1
 bl _p_9
-.word 0xd2802060
+.word 0xd2801f60
 .word 0xaa1103e1
 bl _p_9
 
@@ -17315,7 +17280,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_remove_Load_System_EventHandler_1_Syst
 .word 0xa9036bb9
 .word 0xaa0003f9
 .word 0xaa0103fa
-.word 0xf9405338
+.word 0xf9405738
 .word 0xaa1803f7
 .word 0xaa1803e0
 .word 0xaa1a03e1
@@ -17337,7 +17302,7 @@ ldr x1, [x16, #3888]
 .word 0xeb1f033f
 .word 0x10000011
 .word 0x540003e0
-.word 0x91028321
+.word 0x9102a321
 
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+0
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
@@ -17369,10 +17334,10 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2802260
+.word 0xd2802160
 .word 0xaa1103e1
 bl _p_9
-.word 0xd2802060
+.word 0xd2801f60
 .word 0xaa1103e1
 bl _p_9
 
@@ -17388,7 +17353,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_add_Unload_System_EventHandler_1_Syste
 .word 0xa9036bb9
 .word 0xaa0003f9
 .word 0xaa0103fa
-.word 0xf9405738
+.word 0xf9405b38
 .word 0xaa1803f7
 .word 0xaa1803e0
 .word 0xaa1a03e1
@@ -17410,7 +17375,7 @@ ldr x1, [x16, #3888]
 .word 0xeb1f033f
 .word 0x10000011
 .word 0x540003e0
-.word 0x9102a321
+.word 0x9102c321
 
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+0
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
@@ -17442,10 +17407,10 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2802260
+.word 0xd2802160
 .word 0xaa1103e1
 bl _p_9
-.word 0xd2802060
+.word 0xd2801f60
 .word 0xaa1103e1
 bl _p_9
 
@@ -17461,7 +17426,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_remove_Unload_System_EventHandler_1_Sy
 .word 0xa9036bb9
 .word 0xaa0003f9
 .word 0xaa0103fa
-.word 0xf9405738
+.word 0xf9405b38
 .word 0xaa1803f7
 .word 0xaa1803e0
 .word 0xaa1a03e1
@@ -17483,7 +17448,7 @@ ldr x1, [x16, #3888]
 .word 0xeb1f033f
 .word 0x10000011
 .word 0x540003e0
-.word 0x9102a321
+.word 0x9102c321
 
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+0
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
@@ -17515,10 +17480,10 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2802260
+.word 0xd2802160
 .word 0xaa1103e1
 bl _p_9
-.word 0xd2802060
+.word 0xd2801f60
 .word 0xaa1103e1
 bl _p_9
 
@@ -17534,7 +17499,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_add_UpdateFrame_System_EventHandler_1_
 .word 0xa9036bb9
 .word 0xaa0003f9
 .word 0xaa0103fa
-.word 0xf9405b38
+.word 0xf9405f38
 .word 0xaa1803f7
 .word 0xaa1803e0
 .word 0xaa1a03e1
@@ -17556,7 +17521,7 @@ ldr x1, [x16, #3904]
 .word 0xeb1f033f
 .word 0x10000011
 .word 0x540003e0
-.word 0x9102c321
+.word 0x9102e321
 
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+0
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
@@ -17588,10 +17553,10 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2802260
+.word 0xd2802160
 .word 0xaa1103e1
 bl _p_9
-.word 0xd2802060
+.word 0xd2801f60
 .word 0xaa1103e1
 bl _p_9
 
@@ -17607,7 +17572,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_remove_UpdateFrame_System_EventHandler
 .word 0xa9036bb9
 .word 0xaa0003f9
 .word 0xaa0103fa
-.word 0xf9405b38
+.word 0xf9405f38
 .word 0xaa1803f7
 .word 0xaa1803e0
 .word 0xaa1a03e1
@@ -17629,7 +17594,7 @@ ldr x1, [x16, #3904]
 .word 0xeb1f033f
 .word 0x10000011
 .word 0x540003e0
-.word 0x9102c321
+.word 0x9102e321
 
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+0
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
@@ -17661,10 +17626,10 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2802260
+.word 0xd2802160
 .word 0xaa1103e1
 bl _p_9
-.word 0xd2802060
+.word 0xd2801f60
 .word 0xaa1103e1
 bl _p_9
 
@@ -17680,7 +17645,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_add_RenderFrame_System_EventHandler_1_
 .word 0xa9036bb9
 .word 0xaa0003f9
 .word 0xaa0103fa
-.word 0xf9405f38
+.word 0xf9406338
 .word 0xaa1803f7
 .word 0xaa1803e0
 .word 0xaa1a03e1
@@ -17702,7 +17667,7 @@ ldr x1, [x16, #3904]
 .word 0xeb1f033f
 .word 0x10000011
 .word 0x540003e0
-.word 0x9102e321
+.word 0x91030321
 
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+0
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
@@ -17734,10 +17699,10 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2802260
+.word 0xd2802160
 .word 0xaa1103e1
 bl _p_9
-.word 0xd2802060
+.word 0xd2801f60
 .word 0xaa1103e1
 bl _p_9
 
@@ -17753,7 +17718,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGameView_remove_RenderFrame_System_EventHandler
 .word 0xa9036bb9
 .word 0xaa0003f9
 .word 0xaa0103fa
-.word 0xf9405f38
+.word 0xf9406338
 .word 0xaa1803f7
 .word 0xaa1803e0
 .word 0xaa1a03e1
@@ -17775,7 +17740,7 @@ ldr x1, [x16, #3904]
 .word 0xeb1f033f
 .word 0x10000011
 .word 0x540003e0
-.word 0x9102e321
+.word 0x91030321
 
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+0
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
@@ -17807,10 +17772,10 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2802260
+.word 0xd2802160
 .word 0xaa1103e1
 bl _p_9
-.word 0xd2802060
+.word 0xd2801f60
 .word 0xaa1103e1
 bl _p_9
 
@@ -17893,26 +17858,26 @@ ldr x1, [x16, #3728]
 .word 0xd2800016
 .word 0xaa1603f8
 .loc 22 71 0
-.word 0xd2800020
-.word 0x6b00033f
+.word 0xd280003e
+.word 0x6b1e033f
 .word 0x540000c1
-.word 0xd2800020
-.word 0x6b00035f
+.word 0xd280003e
+.word 0x6b1e035f
 .word 0x54000061
 .loc 22 72 0
 .word 0xd280003a
 .word 0x14000023
 .loc 22 73 0
-.word 0xd2800040
-.word 0x6b00033f
+.word 0xd280005e
+.word 0x6b1e033f
 .word 0x54000081
 .word 0x3500007a
 .loc 22 74 0
 .word 0xd280005a
 .word 0x1400001d
 .loc 22 75 0
-.word 0xd2800060
-.word 0x6b00033f
+.word 0xd280007e
+.word 0x6b1e033f
 .word 0x54000081
 .word 0x3500007a
 .loc 22 76 0
@@ -17926,11 +17891,11 @@ ldr x0, [x16, #0]
 .word 0xd282f221
 bl _p_20
 .word 0xf90043a0
-.word 0xd2802020
+.word 0xd2801f20
 bl _p_229
 .word 0xb9001019
 .word 0xf90047a0
-.word 0xd2802020
+.word 0xd2801f20
 bl _p_229
 .word 0xaa0003e2
 .word 0xf94043a0
@@ -17938,7 +17903,7 @@ bl _p_229
 .word 0xb900105a
 bl _p_23
 .word 0xaa0003e1
-.word 0xd2801540
+.word 0xd2801420
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_22
@@ -18042,7 +18007,7 @@ ldr x0, [x16, #0]
 .word 0xd282faa1
 bl _p_20
 .word 0xaa0003e1
-.word 0xd2802080
+.word 0xd2801f80
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_22
@@ -18074,7 +18039,7 @@ ldr x0, [x16, #0]
 .word 0xd28304a1
 bl _p_20
 .word 0xaa0003e1
-.word 0xd2802080
+.word 0xd2801f80
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_22
@@ -18108,8 +18073,7 @@ OpenTK_Platform_iPhoneOS_iPhoneOSGraphicsContext_get_IsDisposed:
 .word 0xf9000ba0
 .word 0xf9400ba0
 .word 0xf9400800
-.word 0xd2800001
-.word 0xeb01001f
+.word 0xeb1f001f
 .word 0x9a9f17e0
 .word 0x910003bf
 .word 0xa8c27bfd
@@ -18768,7 +18732,7 @@ bl _p_238
 .word 0xaa0003f7
 .word 0xb5ffff80
 .word 0x17ffffcb
-.word 0xd2801fa0
+.word 0xd2801ea0
 .word 0xaa1103e1
 bl _p_9
 
@@ -18846,7 +18810,7 @@ bl _p_238
 .word 0xaa0003f7
 .word 0xb5ffff80
 .word 0x17ffffcb
-.word 0xd2801fa0
+.word 0xd2801ea0
 .word 0xaa1103e1
 bl _p_9
 
@@ -18924,7 +18888,7 @@ bl _p_238
 .word 0xaa0003f7
 .word 0xb5ffff80
 .word 0x17ffffcb
-.word 0xd2801fa0
+.word 0xd2801ea0
 .word 0xaa1103e1
 bl _p_9
 
@@ -18937,8 +18901,8 @@ b System_Array_InternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_Op
 	.align 4
 	.no_dead_strip System_Array_InternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference__ctor_System_Array
 System_Array_InternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference__ctor_System_Array:
-.file 24 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.16.0.1/src/Xamarin.iOS/mcs/class/corlib/System/Array.cs"
-.loc 24 217 0 prologue_end
+.file 24 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.0.0.15/src/Xamarin.iOS/mcs/class/corlib/System/Array.cs"
+.loc 24 218 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -18957,11 +18921,11 @@ ldr x3, [x16, #16]
 .word 0x8b030042
 .word 0xd280003e
 .word 0x3900005e
-.loc 24 218 0
+.loc 24 219 0
 .word 0x9280003e
 .word 0xf2bffffe
 .word 0xb900081e
-.loc 24 219 0
+.loc 24 220 0
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
@@ -18975,7 +18939,7 @@ b System_Array_InternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_Op
 	.align 4
 	.no_dead_strip System_Array_InternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_Dispose
 System_Array_InternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_Dispose:
-.loc 24 223 0 prologue_end
+.loc 24 224 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -18992,36 +18956,35 @@ b System_Array_InternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_Op
 	.align 4
 	.no_dead_strip System_Array_InternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_MoveNext
 System_Array_InternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_MoveNext:
-.loc 24 227 0 prologue_end
+.loc 24 228 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
 .word 0xa9016bb9
 .word 0xaa0003fa
 .word 0xb9800b40
-.word 0x92800021
-.word 0xf2bfffe1
-.word 0x6b01001f
+.word 0x9280003e
+.word 0xf2bffffe
+.word 0x6b1e001f
 .word 0x54000081
-.loc 24 228 0
+.loc 24 229 0
 .word 0xf9400340
 .word 0xb9801800
 .word 0xb9000b40
-.loc 24 230 0
+.loc 24 231 0
 .word 0xb9800b40
-.word 0x92800001
-.word 0xf2bfffe1
-.word 0x6b01001f
-.word 0x540001a0
+.word 0x9280001e
+.word 0xf2bffffe
+.word 0x6b1e001f
+.word 0x54000180
 .word 0xb9800b40
 .word 0x51000419
 .word 0xaa1903e0
 .word 0xb9000b40
-.word 0x92800000
-.word 0xf2bfffe0
-.word 0x6b00033f
+.word 0x9280001e
+.word 0xf2bffffe
+.word 0x6b1e033f
 .word 0x9a9f17e0
-.word 0xd2800001
-.word 0x6b01001f
+.word 0x6b1f001f
 .word 0x9a9f17e0
 .word 0x14000002
 .word 0xd2800000
@@ -19039,23 +19002,23 @@ b System_Array_InternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_Op
 	.align 4
 	.no_dead_strip System_Array_InternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_get_Current
 System_Array_InternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_get_Current:
-.loc 24 235 0 prologue_end
+.loc 24 236 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
 .word 0xf9000bba
 .word 0xaa0003fa
 .word 0xb9800b40
-.word 0x92800021
-.word 0xf2bfffe1
-.word 0x6b01001f
+.word 0x9280003e
+.word 0xf2bffffe
+.word 0x6b1e001f
 .word 0x54000380
-.loc 24 237 0
+.loc 24 238 0
 .word 0xb9800b40
-.word 0x92800001
-.word 0xf2bfffe1
-.word 0x6b01001f
+.word 0x9280001e
+.word 0xf2bffffe
+.word 0x6b1e001f
 .word 0x540003c0
-.loc 24 240 0
+.loc 24 241 0
 .word 0xf9400340
 .word 0xf9400341
 .word 0xb9801821
@@ -19079,19 +19042,19 @@ bl _p_239
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.loc 24 236 0
-.word 0xd2894ae0
+.loc 24 237 0
+.word 0xd2889160
 bl _p_240
 .word 0xaa0003e1
-.word 0xd2802080
+.word 0xd2801f80
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_22
-.loc 24 238 0
-.word 0xd28955a0
+.loc 24 239 0
+.word 0xd2889c20
 bl _p_240
 .word 0xaa0003e1
-.word 0xd2802080
+.word 0xd2801f80
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_22
@@ -19105,7 +19068,7 @@ b System_Array_InternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_Op
 	.align 4
 	.no_dead_strip System_Array_InternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_System_Collections_IEnumerator_Reset
 System_Array_InternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_System_Collections_IEnumerator_Reset:
-.loc 24 246 0 prologue_end
+.loc 24 247 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -19113,7 +19076,7 @@ System_Array_InternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_Open
 .word 0x9280003e
 .word 0xf2bffffe
 .word 0xb900081e
-.loc 24 247 0
+.loc 24 248 0
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
@@ -19127,7 +19090,7 @@ b System_Array_InternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_Op
 	.align 4
 	.no_dead_strip System_Array_InternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_System_Collections_IEnumerator_get_Current
 System_Array_InternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_System_Collections_IEnumerator_get_Current:
-.loc 24 251 0 prologue_end
+.loc 24 252 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -19175,21 +19138,21 @@ Lme_20f:
 	.align 4
 	.no_dead_strip System_Array_InternalArray__IEnumerable_GetEnumerator_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference
 System_Array_InternalArray__IEnumerable_GetEnumerator_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference:
-.loc 24 70 0 prologue_end
+.loc 24 71 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
 .word 0xf9000ba0
 .word 0xf9400ba0
 .word 0xb9801800
 .word 0x350000c0
-.loc 24 71 0
+.loc 24 72 0
 
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+0
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
 ldr x0, [x16, #3968]
 .word 0xf9400000
 .word 0x14000024
-.loc 24 73 0
+.loc 24 74 0
 .word 0xd2800000
 .word 0xf90017a0
 .word 0xf9001ba0
@@ -19241,7 +19204,7 @@ b System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakRefe
 	.align 4
 	.no_dead_strip System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference__ctor_OpenTK_ContextHandle_System_WeakReference
 System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference__ctor_OpenTK_ContextHandle_System_WeakReference:
-.file 25 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.16.0.1/src/Xamarin.iOS/external/corefx/src/Common/src/CoreLib/System/Collections/Generic/KeyValuePair.cs"
+.file 25 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.0.0.15/src/Xamarin.iOS/external/corefx/src/Common/src/CoreLib/System/Collections/Generic/KeyValuePair.cs"
 .loc 25 61 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -19356,7 +19319,7 @@ Lme_214:
 	.align 4
 	.no_dead_strip System_Collections_Generic_Dictionary_2_KeyCollection_OpenTK_ContextHandle_System_WeakReference__ctor_System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference
 System_Collections_Generic_Dictionary_2_KeyCollection_OpenTK_ContextHandle_System_WeakReference__ctor_System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference:
-.file 26 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.16.0.1/src/Xamarin.iOS/external/corefx/src/Common/src/CoreLib/System/Collections/Generic/Dictionary.cs"
+.file 26 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.0.0.15/src/Xamarin.iOS/external/corefx/src/Common/src/CoreLib/System/Collections/Generic/Dictionary.cs"
 .loc 26 1066 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
@@ -19455,14 +19418,13 @@ System_Collections_Generic_Dictionary_2_KeyCollection_OpenTK_ContextHandle_Syste
 .word 0xaa0003f8
 .word 0xaa0103f9
 .word 0xaa0203fa
-.word 0xb4000959
+.word 0xb4000919
 .loc 26 1085 0
-.word 0xd2800000
-.word 0x6b00035f
-.word 0x5400084b
+.word 0x6b1f035f
+.word 0x5400082b
 .word 0xb9801b20
 .word 0x6b00035f
-.word 0x540007ec
+.word 0x540007cc
 .loc 26 1090 0
 .word 0xb9801b20
 .word 0x4b1a0000
@@ -19473,7 +19435,7 @@ System_Collections_Generic_Dictionary_2_KeyCollection_OpenTK_ContextHandle_Syste
 .word 0xb9804842
 .word 0x4b020021
 .word 0x6b01001f
-.word 0x540006eb
+.word 0x540006cb
 .loc 26 1095 0
 .word 0xf9400b00
 .word 0xb9804017
@@ -19482,20 +19444,19 @@ System_Collections_Generic_Dictionary_2_KeyCollection_OpenTK_ContextHandle_Syste
 .word 0xf9400c18
 .loc 26 1097 0
 .word 0xd2800016
-.word 0x14000027
+.word 0x14000026
 .loc 26 1099 0
 .word 0x93407ec0
 .word 0xb9801b01
 .word 0xeb00003f
 .word 0x10000011
-.word 0x54000649
+.word 0x54000629
 .word 0xd280031e
 .word 0x9b1e7c00
 .word 0x8b000300
 .word 0x91008000
 .word 0xb9800000
-.word 0xd2800001
-.word 0x6b01001f
+.word 0x6b1f001f
 .word 0x5400032b
 .word 0xaa1a03e0
 .word 0x1100075a
@@ -19524,7 +19485,7 @@ System_Collections_Generic_Dictionary_2_KeyCollection_OpenTK_ContextHandle_Syste
 .loc 26 1097 0
 .word 0x110006d6
 .word 0x6b1702df
-.word 0x54fffb2b
+.word 0x54fffb4b
 .loc 26 1101 0
 .word 0xa9415fb6
 .word 0xa94267b8
@@ -19534,16 +19495,16 @@ System_Collections_Generic_Dictionary_2_KeyCollection_OpenTK_ContextHandle_Syste
 .word 0xd65f03c0
 .loc 26 1087 0
 bl _p_246
-.word 0x17ffffc1
+.word 0x17ffffc2
 .loc 26 1092 0
 .word 0xd28000a0
 bl _p_247
-.word 0x17ffffc8
+.word 0x17ffffc9
 .loc 26 1082 0
 .word 0xd2800060
 bl _p_244
-.word 0x17ffffb5
-.word 0xd2801fa0
+.word 0x17ffffb7
+.word 0xd2801ea0
 .word 0xaa1103e1
 bl _p_9
 
@@ -19783,13 +19744,13 @@ System_Collections_Generic_Dictionary_2_KeyCollection_OpenTK_ContextHandle_Syste
 .word 0xaa0003f8
 .word 0xaa0103f9
 .word 0xaa0203fa
-.word 0xb40014d9
+.word 0xb4001499
 .loc 26 1151 0
 .word 0xf9400320
 .word 0x3940b000
-.word 0xd2800021
-.word 0x6b01001f
-.word 0x540012c1
+.word 0xd280003e
+.word 0x6b1e001f
+.word 0x54001281
 .loc 26 1156 0
 .word 0xf9400b37
 .word 0xeb1f02ff
@@ -19797,14 +19758,13 @@ System_Collections_Generic_Dictionary_2_KeyCollection_OpenTK_ContextHandle_Syste
 .word 0xb98006f7
 .word 0x14000002
 .word 0xd2800017
-.word 0x35001257
+.word 0x35001217
 .loc 26 1161 0
-.word 0xd2800000
-.word 0x6b00035f
-.word 0x5400124b
+.word 0x6b1f035f
+.word 0x5400122b
 .word 0xb9801b20
 .word 0x6b00035f
-.word 0x540011ec
+.word 0x540011cc
 .loc 26 1166 0
 .word 0xb9801b20
 .word 0x4b1a0000
@@ -19815,7 +19775,7 @@ System_Collections_Generic_Dictionary_2_KeyCollection_OpenTK_ContextHandle_Syste
 .word 0xb9804842
 .word 0x4b020021
 .word 0x6b01001f
-.word 0x540010eb
+.word 0x540010cb
 .loc 26 1171 0
 .word 0xaa1903f7
 .word 0xeb1f033f
@@ -19847,7 +19807,7 @@ ldr x1, [x16, #1752]
 .word 0xaa1a03e2
 bl _p_250
 .loc 26 1175 0
-.word 0x1400005e
+.word 0x1400005d
 .loc 26 1178 0
 .word 0xaa1903f7
 .word 0xeb1f033f
@@ -19877,7 +19837,7 @@ ldr x0, [x16, #4000]
 .word 0xd2800017
 .word 0xaa1703f9
 .loc 26 1179 0
-.word 0xb4000b17
+.word 0xb4000af7
 .loc 26 1184 0
 .word 0xf9400b00
 .word 0xb9804017
@@ -19886,20 +19846,19 @@ ldr x0, [x16, #4000]
 .word 0xf9400c18
 .loc 26 1188 0
 .word 0xd2800016
-.word 0x1400002c
+.word 0x1400002b
 .loc 26 1190 0
 .word 0x93407ec0
 .word 0xb9801b01
 .word 0xeb00003f
 .word 0x10000011
-.word 0x54000aa9
+.word 0x54000a89
 .word 0xd280031e
 .word 0x9b1e7c00
 .word 0x8b000300
 .word 0x91008000
 .word 0xb9800000
-.word 0xd2800001
-.word 0x6b01001f
+.word 0x6b1f001f
 .word 0x540003cb
 .word 0xaa1a03e0
 .word 0xf9003ba0
@@ -19934,15 +19893,15 @@ bl _p_3
 .loc 26 1188 0
 .word 0x110006d6
 .word 0x6b1702df
-.word 0x54fffa8b
+.word 0x54fffaab
 .loc 26 1192 0
 .word 0x14000010
 .word 0xf90023a0
 .loc 26 1195 0
-.word 0xd285a440
+.word 0xd284c5e0
 bl _p_240
 .word 0xaa0003e1
-.word 0xd2801540
+.word 0xd2801420
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_22
@@ -19964,32 +19923,32 @@ bl _p_22
 .loc 26 1153 0
 .word 0xd28000e0
 bl _p_247
-.word 0x17ffff69
+.word 0x17ffff6b
 .loc 26 1158 0
 .word 0xd28000c0
 bl _p_247
-.word 0x17ffff6d
+.word 0x17ffff6f
 .loc 26 1163 0
 bl _p_246
-.word 0x17ffff71
+.word 0x17ffff72
 .loc 26 1168 0
 .word 0xd28000a0
 bl _p_247
-.word 0x17ffff78
+.word 0x17ffff79
 .loc 26 1148 0
 .word 0xd2800060
 bl _p_244
-.word 0x17ffff59
+.word 0x17ffff5b
 .loc 26 1181 0
-.word 0xd285a440
+.word 0xd284c5e0
 bl _p_240
 .word 0xaa0003e1
-.word 0xd2801540
+.word 0xd2801420
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_22
-.word 0x17ffffa2
-.word 0xd2801fa0
+.word 0x17ffffa3
+.word 0xd2801ea0
 .word 0xaa1103e1
 bl _p_9
 
@@ -20146,14 +20105,13 @@ System_Collections_Generic_Dictionary_2_ValueCollection_OpenTK_ContextHandle_Sys
 .word 0xaa0003f8
 .word 0xaa0103f9
 .word 0xaa0203fa
-.word 0xb4000859
+.word 0xb4000819
 .loc 26 1319 0
-.word 0xd2800000
-.word 0x6b00035f
-.word 0x5400074b
+.word 0x6b1f035f
+.word 0x5400072b
 .word 0xb9801b20
 .word 0x6b00035f
-.word 0x540006ec
+.word 0x540006cc
 .loc 26 1324 0
 .word 0xb9801b20
 .word 0x4b1a0000
@@ -20164,7 +20122,7 @@ System_Collections_Generic_Dictionary_2_ValueCollection_OpenTK_ContextHandle_Sys
 .word 0xb9804842
 .word 0x4b020021
 .word 0x6b01001f
-.word 0x540005eb
+.word 0x540005cb
 .loc 26 1329 0
 .word 0xf9400b00
 .word 0xb9804017
@@ -20173,20 +20131,19 @@ System_Collections_Generic_Dictionary_2_ValueCollection_OpenTK_ContextHandle_Sys
 .word 0xf9400c18
 .loc 26 1331 0
 .word 0xd2800016
-.word 0x1400001f
+.word 0x1400001e
 .loc 26 1333 0
 .word 0x93407ec0
 .word 0xb9801b01
 .word 0xeb00003f
 .word 0x10000011
-.word 0x54000549
+.word 0x54000529
 .word 0xd280031e
 .word 0x9b1e7c00
 .word 0x8b000300
 .word 0x91008000
 .word 0xb9800000
-.word 0xd2800001
-.word 0x6b01001f
+.word 0x6b1f001f
 .word 0x5400022b
 .word 0xaa1a03e1
 .word 0x1100075a
@@ -20207,7 +20164,7 @@ System_Collections_Generic_Dictionary_2_ValueCollection_OpenTK_ContextHandle_Sys
 .loc 26 1331 0
 .word 0x110006d6
 .word 0x6b1702df
-.word 0x54fffc2b
+.word 0x54fffc4b
 .loc 26 1335 0
 .word 0xa9415fb6
 .word 0xa94267b8
@@ -20217,16 +20174,16 @@ System_Collections_Generic_Dictionary_2_ValueCollection_OpenTK_ContextHandle_Sys
 .word 0xd65f03c0
 .loc 26 1321 0
 bl _p_246
-.word 0x17ffffc9
+.word 0x17ffffca
 .loc 26 1326 0
 .word 0xd28000a0
 bl _p_247
-.word 0x17ffffd0
+.word 0x17ffffd1
 .loc 26 1316 0
 .word 0xd2800060
 bl _p_244
-.word 0x17ffffbd
-.word 0xd2801fa0
+.word 0x17ffffbf
+.word 0xd2801ea0
 .word 0xaa1103e1
 bl _p_9
 
@@ -20488,13 +20445,13 @@ System_Collections_Generic_Dictionary_2_ValueCollection_OpenTK_ContextHandle_Sys
 .word 0xaa0003f8
 .word 0xaa0103f9
 .word 0xaa0203fa
-.word 0xb4001339
+.word 0xb40012f9
 .loc 26 1385 0
 .word 0xf9400320
 .word 0x3940b000
-.word 0xd2800021
-.word 0x6b01001f
-.word 0x54001121
+.word 0xd280003e
+.word 0x6b1e001f
+.word 0x540010e1
 .loc 26 1390 0
 .word 0xf9400b37
 .word 0xeb1f02ff
@@ -20502,14 +20459,13 @@ System_Collections_Generic_Dictionary_2_ValueCollection_OpenTK_ContextHandle_Sys
 .word 0xb98006f7
 .word 0x14000002
 .word 0xd2800017
-.word 0x350010b7
+.word 0x35001077
 .loc 26 1395 0
-.word 0xd2800000
-.word 0x6b00035f
-.word 0x540010ab
+.word 0x6b1f035f
+.word 0x5400108b
 .word 0xb9801b20
 .word 0x6b00035f
-.word 0x5400104c
+.word 0x5400102c
 .loc 26 1400 0
 .word 0xb9801b20
 .word 0x4b1a0000
@@ -20520,7 +20476,7 @@ System_Collections_Generic_Dictionary_2_ValueCollection_OpenTK_ContextHandle_Sys
 .word 0xb9804842
 .word 0x4b020021
 .word 0x6b01001f
-.word 0x54000f4b
+.word 0x54000f2b
 .loc 26 1403 0
 .word 0xaa1903f7
 .word 0xeb1f033f
@@ -20552,7 +20508,7 @@ ldr x1, [x16, #4016]
 .word 0xaa1a03e2
 bl _p_254
 .loc 26 1407 0
-.word 0x14000051
+.word 0x14000050
 .loc 26 1410 0
 .word 0xaa1903f7
 .word 0xeb1f033f
@@ -20582,7 +20538,7 @@ ldr x0, [x16, #4000]
 .word 0xd2800017
 .word 0xaa1703f9
 .loc 26 1411 0
-.word 0xb4000977
+.word 0xb4000957
 .loc 26 1416 0
 .word 0xf9400b00
 .word 0xb9804017
@@ -20591,20 +20547,19 @@ ldr x0, [x16, #4000]
 .word 0xf9400c18
 .loc 26 1420 0
 .word 0xd2800016
-.word 0x1400001f
+.word 0x1400001e
 .loc 26 1422 0
 .word 0x93407ec0
 .word 0xb9801b01
 .word 0xeb00003f
 .word 0x10000011
-.word 0x54000909
+.word 0x540008e9
 .word 0xd280031e
 .word 0x9b1e7c00
 .word 0x8b000300
 .word 0x91008000
 .word 0xb9800000
-.word 0xd2800001
-.word 0x6b01001f
+.word 0x6b1f001f
 .word 0x5400022b
 .word 0xaa1a03e1
 .word 0x1100075a
@@ -20625,15 +20580,15 @@ ldr x0, [x16, #4000]
 .loc 26 1420 0
 .word 0x110006d6
 .word 0x6b1702df
-.word 0x54fffc2b
+.word 0x54fffc4b
 .loc 26 1424 0
 .word 0x14000010
 .word 0xf9001fa0
 .loc 26 1427 0
-.word 0xd285a440
+.word 0xd284c5e0
 bl _p_240
 .word 0xaa0003e1
-.word 0xd2801540
+.word 0xd2801420
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_22
@@ -20655,32 +20610,32 @@ bl _p_22
 .loc 26 1387 0
 .word 0xd28000e0
 bl _p_247
-.word 0x17ffff76
+.word 0x17ffff78
 .loc 26 1392 0
 .word 0xd28000c0
 bl _p_247
-.word 0x17ffff7a
+.word 0x17ffff7c
 .loc 26 1397 0
 bl _p_246
-.word 0x17ffff7e
+.word 0x17ffff7f
 .loc 26 1401 0
 .word 0xd28000a0
 bl _p_247
-.word 0x17ffff85
+.word 0x17ffff86
 .loc 26 1382 0
 .word 0xd2800060
 bl _p_244
-.word 0x17ffff66
+.word 0x17ffff68
 .loc 26 1413 0
-.word 0xd285a440
+.word 0xd284c5e0
 bl _p_240
 .word 0xaa0003e1
-.word 0xd2801540
+.word 0xd2801420
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_22
-.word 0x17ffffaf
-.word 0xd2801fa0
+.word 0x17ffffb0
+.word 0xd2801ea0
 .word 0xaa1103e1
 bl _p_9
 
@@ -20800,8 +20755,8 @@ System_Collections_Generic_Dictionary_2_ValueCollection_Enumerator_OpenTK_Contex
 .word 0xf9400341
 .word 0xb9804c21
 .word 0x6b01001f
-.word 0x540006a1
-.word 0x14000024
+.word 0x54000681
+.word 0x14000023
 .loc 26 1473 0
 .word 0xf9400340
 .word 0xf9400c00
@@ -20813,7 +20768,7 @@ System_Collections_Generic_Dictionary_2_ValueCollection_Enumerator_OpenTK_Contex
 .word 0xb9801802
 .word 0xeb01005f
 .word 0x10000011
-.word 0x54000629
+.word 0x54000609
 .word 0xd280031e
 .word 0x9b1e7c21
 .word 0x8b010000
@@ -20821,8 +20776,7 @@ System_Collections_Generic_Dictionary_2_ValueCollection_Enumerator_OpenTK_Contex
 .loc 26 1475 0
 .word 0xaa1903e0
 .word 0xb9800000
-.word 0xd2800001
-.word 0x6b01001f
+.word 0x6b1f001f
 .word 0x5400020b
 .loc 26 1477 0
 .word 0xf9400b20
@@ -20847,7 +20801,7 @@ ldr x2, [x16, #16]
 .word 0xf9400341
 .word 0xb9804021
 .word 0x6b01001f
-.word 0x54fffb23
+.word 0x54fffb43
 .loc 26 1481 0
 .word 0xf9400340
 .word 0xb9804000
@@ -20863,15 +20817,15 @@ ldr x2, [x16, #16]
 .word 0xa8c27bfd
 .word 0xd65f03c0
 .loc 26 1468 0
-.word 0xd2858540
+.word 0xd2848980
 bl _p_240
 .word 0xaa0003e1
-.word 0xd2802080
+.word 0xd2801f80
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_22
 .word 0x17ffffe9
-.word 0xd2801fa0
+.word 0xd2801ea0
 .word 0xaa1103e1
 bl _p_9
 
@@ -20923,10 +20877,10 @@ System_Collections_Generic_Dictionary_2_ValueCollection_Enumerator_OpenTK_Contex
 .word 0xa8c27bfd
 .word 0xd65f03c0
 .loc 26 1500 0
-.word 0xd2859540
+.word 0xd2849980
 bl _p_240
 .word 0xaa0003e1
-.word 0xd2802080
+.word 0xd2801f80
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_22
@@ -20962,10 +20916,10 @@ System_Collections_Generic_Dictionary_2_ValueCollection_Enumerator_OpenTK_Contex
 .word 0xa8c27bfd
 .word 0xd65f03c0
 .loc 26 1511 0
-.word 0xd2858540
+.word 0xd2848980
 bl _p_240
 .word 0xaa0003e1
-.word 0xd2802080
+.word 0xd2801f80
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_22
@@ -20980,7 +20934,7 @@ b System_Nullable_1_intptr__ctor_intptr
 	.align 4
 	.no_dead_strip System_Nullable_1_intptr__ctor_intptr
 System_Nullable_1_intptr__ctor_intptr:
-.file 27 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.16.0.1/src/Xamarin.iOS/mcs/class/corlib/System/Nullable.cs"
+.file 27 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.0.0.15/src/Xamarin.iOS/mcs/class/corlib/System/Nullable.cs"
 .loc 27 94 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
@@ -21039,10 +20993,10 @@ System_Nullable_1_intptr_get_Value:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 .loc 27 105 0
-.word 0xd2876580
+.word 0xd286a300
 bl _p_240
 .word 0xaa0003e1
-.word 0xd2802080
+.word 0xd2801f80
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_22
@@ -21063,12 +21017,11 @@ System_Nullable_1_intptr_Equals_object:
 .word 0xf9000fba
 .word 0xf90013a0
 .word 0xaa0103fa
-.word 0xb50000fa
+.word 0xb50000da
 .loc 27 114 0
 .word 0xf94013a0
 .word 0x39402000
-.word 0xd2800001
-.word 0x6b01001f
+.word 0x6b1f001f
 .word 0x9a9f17e0
 .word 0x14000023
 .loc 27 115 0
@@ -21367,95 +21320,11 @@ bl _p_233
 .word 0x910003bf
 .word 0xa8c57bfd
 .word 0xd65f03c0
-.word 0xd2802060
+.word 0xd2801f60
 .word 0xaa1103e1
 bl _p_9
 
 Lme_241:
-.text
-ut_578:
-add x0, x0, 16
-b System_Nullable_1_intptr_UnboxExact_object
-.text
-	.align 4
-	.no_dead_strip System_Nullable_1_intptr_UnboxExact_object
-System_Nullable_1_intptr_UnboxExact_object:
-.loc 27 192 0 prologue_end
-.word 0xa9bb7bfd
-.word 0x910003fd
-.word 0xf9000bba
-.word 0xaa0003fa
-.word 0xd2800000
-.word 0xf9001fa0
-.word 0xf90023a0
-.word 0xb500013a
-.loc 27 193 0
-.word 0xd2800000
-.word 0xf9001fa0
-.word 0xf90023a0
-.word 0xf9401fa0
-.word 0xf9000fa0
-.word 0xf94023a0
-.word 0xf90013a0
-.word 0x14000026
-.loc 27 194 0
-.word 0xf9400340
-.word 0xf9400c00
-
-adrp x16, mono_aot_OpenTK_1_0_got@PAGE+0
-add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x1, [x16, #4040]
-.word 0xeb01001f
-.word 0x9a9f17e0
-.word 0xd2800001
-.word 0x6b01001f
-.word 0x9a9f17e0
-.word 0x35000420
-.loc 27 197 0
-.word 0xf9400340
-.word 0x3940b001
-.word 0xeb1f003f
-.word 0x10000011
-.word 0x54000401
-.word 0xf9400000
-.word 0xf9400000
-
-adrp x16, mono_aot_OpenTK_1_0_got@PAGE+0
-add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x1, [x16, #4024]
-.word 0xeb01001f
-.word 0x10000011
-.word 0x54000301
-.word 0xf9400b41
-.word 0xd2800000
-.word 0xf90017a0
-.word 0xf9001ba0
-.word 0x9100a3a0
-
-adrp x16, mono_aot_OpenTK_1_0_got@PAGE+0
-add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x15, [x16, #2064]
-bl _p_233
-.word 0xf94017a0
-.word 0xf9000fa0
-.word 0xf9401ba0
-.word 0xf90013a0
-.word 0xf9400bba
-.word 0xf9400fa0
-.word 0xf94013a1
-.word 0x910003bf
-.word 0xa8c57bfd
-.word 0xd65f03c0
-.loc 27 195 0
-.word 0xd2802060
-.word 0xf2a04000
-bl _mono_create_corlib_exception_0
-bl _p_22
-.word 0xd2802060
-.word 0xaa1103e1
-bl _p_9
-
-Lme_242:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Action_1_Foundation_NSTimer_invoke_void_T_Foundation_NSTimer
@@ -21525,11 +21394,11 @@ bl _p_238
 .word 0xaa0003f8
 .word 0xb5ffff80
 .word 0x17ffffce
-.word 0xd2801fa0
+.word 0xd2801ea0
 .word 0xaa1103e1
 bl _p_9
 
-Lme_243:
+Lme_242:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_EventHandler_1_OpenTK_FrameEventArgs_invoke_void_object_TEventArgs_object_OpenTK_FrameEventArgs
@@ -21603,11 +21472,11 @@ bl _p_238
 .word 0xaa0003f7
 .word 0xb5ffff80
 .word 0x17ffffcb
-.word 0xd2801fa0
+.word 0xd2801ea0
 .word 0xaa1103e1
 bl _p_9
 
-Lme_244:
+Lme_243:
 .text
 	.align 4
 	.no_dead_strip wrapper_runtime_invoke__Module_runtime_invoke_void__this___Nullable_1_intptr_ColorFormat_int_int_int_ColorFormat_int_byte_object_intptr_intptr_intptr
@@ -21775,7 +21644,7 @@ bl _p_258
 .word 0xaa1703e0
 bl _p_22
 
-Lme_245:
+Lme_244:
 .text
 	.align 4
 	.no_dead_strip wrapper_runtime_invoke__Module_runtime_invoke_void__this___Nullable_1_intptr_object_intptr_intptr_intptr
@@ -21875,7 +21744,7 @@ bl _p_258
 .word 0xaa1703e0
 bl _p_22
 
-Lme_246:
+Lme_245:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke__Module_invoke_ContextHandle
@@ -21957,11 +21826,11 @@ bl _p_238
 .word 0xaa0003f9
 .word 0xb5ffff80
 .word 0x17ffffc1
-.word 0xd2801fa0
+.word 0xd2801ea0
 .word 0xaa1103e1
 bl _p_9
 
-Lme_247:
+Lme_246:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___AsyncCallback_object_System_AsyncCallback_object
@@ -22004,7 +21873,7 @@ bl _p_259
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_248:
+Lme_247:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_end_invoke__Module_end_invoke_ContextHandle__this___IAsyncResult_System_IAsyncResult
@@ -22061,11 +21930,11 @@ ldr x2, [x16, #1752]
 .word 0x910003bf
 .word 0xa8c57bfd
 .word 0xd65f03c0
-.word 0xd2802060
+.word 0xd2801f60
 .word 0xaa1103e1
 bl _p_9
 
-Lme_249:
+Lme_248:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke__Module_invoke_void_All_int_OpenTK_Graphics_ES11_All_int
@@ -22139,11 +22008,11 @@ bl _p_238
 .word 0xaa0003f7
 .word 0xb5ffff80
 .word 0x17ffffcb
-.word 0xd2801fa0
+.word 0xd2801ea0
 .word 0xaa1103e1
 bl _p_9
 
-Lme_24a:
+Lme_249:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___All_int_AsyncCallback_object_OpenTK_Graphics_ES11_All_int_System_AsyncCallback_object
@@ -22194,7 +22063,7 @@ bl _p_259
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_24b:
+Lme_24a:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_end_invoke__Module_end_invoke_void__this___IAsyncResult_System_IAsyncResult
@@ -22234,7 +22103,7 @@ bl _p_260
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_24c:
+Lme_24b:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke__Module_invoke_void_int_int__int_int_
@@ -22308,11 +22177,11 @@ bl _p_238
 .word 0xaa0003f7
 .word 0xb5ffff80
 .word 0x17ffffcb
-.word 0xd2801fa0
+.word 0xd2801ea0
 .word 0xaa1103e1
 bl _p_9
 
-Lme_24d:
+Lme_24c:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___int_int__AsyncCallback_object_int_int__System_AsyncCallback_object
@@ -22363,7 +22232,7 @@ bl _p_259
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_24e:
+Lme_24d:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_end_invoke__Module_end_invoke_void__this___int__IAsyncResult_int__System_IAsyncResult
@@ -22406,7 +22275,7 @@ bl _p_260
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_24f:
+Lme_24e:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke__Module_invoke_void_All_All_All_int_OpenTK_Graphics_ES11_All_OpenTK_Graphics_ES11_All_OpenTK_Graphics_ES11_All_int
@@ -22490,11 +22359,11 @@ bl _p_238
 .word 0xaa0003f5
 .word 0xb5ffff80
 .word 0x17ffffc4
-.word 0xd2801fa0
+.word 0xd2801ea0
 .word 0xaa1103e1
 bl _p_9
 
-Lme_250:
+Lme_24f:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___All_All_All_int_AsyncCallback_object_OpenTK_Graphics_ES11_All_OpenTK_Graphics_ES11_All_OpenTK_Graphics_ES11_All_int_System_AsyncCallback_object
@@ -22553,7 +22422,7 @@ bl _p_259
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_251:
+Lme_250:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke__Module_invoke_void_int_int__int_int__0
@@ -22627,11 +22496,11 @@ bl _p_238
 .word 0xaa0003f7
 .word 0xb5ffff80
 .word 0x17ffffcb
-.word 0xd2801fa0
+.word 0xd2801ea0
 .word 0xaa1103e1
 bl _p_9
 
-Lme_252:
+Lme_251:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___int_int__AsyncCallback_object_int_int__System_AsyncCallback_object_0
@@ -22682,7 +22551,7 @@ bl _p_259
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_253:
+Lme_252:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_end_invoke__Module_end_invoke_void__this___int__IAsyncResult_int__System_IAsyncResult_0
@@ -22725,7 +22594,7 @@ bl _p_260
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_254:
+Lme_253:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke__Module_invoke_void_All_int__OpenTK_Graphics_ES11_All_int_
@@ -22799,11 +22668,11 @@ bl _p_238
 .word 0xaa0003f7
 .word 0xb5ffff80
 .word 0x17ffffcb
-.word 0xd2801fa0
+.word 0xd2801ea0
 .word 0xaa1103e1
 bl _p_9
 
-Lme_255:
+Lme_254:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___All_int__AsyncCallback_object_OpenTK_Graphics_ES11_All_int__System_AsyncCallback_object
@@ -22854,7 +22723,7 @@ bl _p_259
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_256:
+Lme_255:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke__Module_invoke_void_int_int_int_int_int_int_int_int
@@ -22938,11 +22807,11 @@ bl _p_238
 .word 0xaa0003f5
 .word 0xb5ffff80
 .word 0x17ffffc4
-.word 0xd2801fa0
+.word 0xd2801ea0
 .word 0xaa1103e1
 bl _p_9
 
-Lme_257:
+Lme_256:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___int_int_int_int_AsyncCallback_object_int_int_int_int_System_AsyncCallback_object
@@ -23001,7 +22870,7 @@ bl _p_259
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_258:
+Lme_257:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke__Module_invoke_void_All_All_int__OpenTK_Graphics_ES11_All_OpenTK_Graphics_ES11_All_int_
@@ -23081,11 +22950,11 @@ bl _p_238
 .word 0xaa0003f6
 .word 0xb5ffff80
 .word 0x17ffffc7
-.word 0xd2801fa0
+.word 0xd2801ea0
 .word 0xaa1103e1
 bl _p_9
 
-Lme_259:
+Lme_258:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___All_All_int__AsyncCallback_object_OpenTK_Graphics_ES11_All_OpenTK_Graphics_ES11_All_int__System_AsyncCallback_object
@@ -23140,7 +23009,7 @@ bl _p_259
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_25a:
+Lme_259:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke__Module_invoke_void_int_int_int_int_All_All_byte___int_int_int_int_OpenTK_Graphics_ES11_All_OpenTK_Graphics_ES11_All_byte__
@@ -23239,11 +23108,11 @@ bl _p_238
 .word 0xaa0003fa
 .word 0xb5ffff80
 .word 0x17ffffb8
-.word 0xd2801fa0
+.word 0xd2801ea0
 .word 0xaa1103e1
 bl _p_9
 
-Lme_25b:
+Lme_25a:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___int_int_int_int_All_All_byte___AsyncCallback_object_int_int_int_int_OpenTK_Graphics_ES11_All_OpenTK_Graphics_ES11_All_byte___System_AsyncCallback_object
@@ -23314,7 +23183,7 @@ bl _p_259
 .word 0xa8c77bfd
 .word 0xd65f03c0
 
-Lme_25c:
+Lme_25b:
 .text
 	.align 4
 	.no_dead_strip wrapper_managed_to_native_CoreVideo_CVOpenGLESTexture_CFRelease_intptr
@@ -23367,7 +23236,7 @@ bl _p_238
 .word 0xb5ffff80
 .word 0x17fffff3
 
-Lme_25d:
+Lme_25c:
 .text
 	.align 4
 	.no_dead_strip wrapper_managed_to_native_CoreVideo_CVOpenGLESTexture_CVOpenGLESTextureGetTarget_intptr
@@ -23421,7 +23290,7 @@ bl _p_238
 .word 0xb5ffff80
 .word 0x17fffff3
 
-Lme_25e:
+Lme_25d:
 .text
 	.align 4
 	.no_dead_strip wrapper_managed_to_native_CoreVideo_CVOpenGLESTexture_CVOpenGLESTextureGetName_intptr
@@ -23475,7 +23344,7 @@ bl _p_238
 .word 0xb5ffff80
 .word 0x17fffff3
 
-Lme_25f:
+Lme_25e:
 .text
 	.align 4
 	.no_dead_strip wrapper_managed_to_native_CoreVideo_CVOpenGLESTexture_CVOpenGLESTextureIsFlipped_intptr
@@ -23528,7 +23397,7 @@ bl _p_238
 .word 0xb5ffff80
 .word 0x17fffff3
 
-Lme_260:
+Lme_25f:
 .text
 	.align 4
 	.no_dead_strip wrapper_managed_to_native_CoreVideo_CVOpenGLESTexture_CVOpenGLESTextureGetCleanTexCoords_intptr_intptr_intptr_intptr_intptr
@@ -23587,7 +23456,7 @@ bl _p_238
 .word 0xb5ffff80
 .word 0x17fffff4
 
-Lme_261:
+Lme_260:
 .text
 	.align 4
 	.no_dead_strip wrapper_managed_to_native_CoreVideo_CVOpenGLESTextureCache_CVOpenGLESTextureCacheCreate_intptr_intptr_intptr_intptr_intptr_
@@ -23649,7 +23518,7 @@ bl _p_238
 .word 0xb5ffff80
 .word 0x17fffff3
 
-Lme_262:
+Lme_261:
 .text
 	.align 4
 	.no_dead_strip wrapper_managed_to_native_CoreVideo_CVOpenGLESTextureCache_CVOpenGLESTextureCacheFlush_intptr_CoreVideo_CVOptionFlags
@@ -23702,7 +23571,7 @@ bl _p_238
 .word 0xb5ffff80
 .word 0x17fffff4
 
-Lme_263:
+Lme_262:
 .text
 	.align 4
 	.no_dead_strip wrapper_managed_to_native_CoreVideo_CVOpenGLESTextureCache_CVOpenGLESTextureCacheCreateTextureFromImage_intptr_intptr_intptr_intptr_int_OpenTK_Graphics_ES20_All_int_int_OpenTK_Graphics_ES20_All_OpenTK_Graphics_ES20_DataType_intptr_intptr_
@@ -23785,7 +23654,7 @@ bl _p_238
 .word 0xb5ffff80
 .word 0x17fffff2
 
-Lme_264:
+Lme_263:
 .text
 	.align 4
 	.no_dead_strip wrapper_managed_to_native_OpenTK_Graphics_ES30_GL_Core_BindFramebuffer_OpenTK_Graphics_ES30_FramebufferTarget_uint
@@ -23838,7 +23707,7 @@ bl _p_238
 .word 0xb5ffff80
 .word 0x17fffff4
 
-Lme_265:
+Lme_264:
 .text
 	.align 4
 	.no_dead_strip wrapper_managed_to_native_OpenTK_Graphics_ES30_GL_Core_BindRenderbuffer_OpenTK_Graphics_ES30_RenderbufferTarget_uint
@@ -23891,7 +23760,7 @@ bl _p_238
 .word 0xb5ffff80
 .word 0x17fffff4
 
-Lme_266:
+Lme_265:
 .text
 	.align 4
 	.no_dead_strip wrapper_managed_to_native_OpenTK_Graphics_ES30_GL_Core_DeleteFramebuffers_int_uint_
@@ -23944,7 +23813,7 @@ bl _p_238
 .word 0xb5ffff80
 .word 0x17fffff4
 
-Lme_267:
+Lme_266:
 .text
 	.align 4
 	.no_dead_strip wrapper_managed_to_native_OpenTK_Graphics_ES30_GL_Core_DeleteRenderbuffers_int_uint_
@@ -23997,7 +23866,7 @@ bl _p_238
 .word 0xb5ffff80
 .word 0x17fffff4
 
-Lme_268:
+Lme_267:
 .text
 	.align 4
 	.no_dead_strip wrapper_managed_to_native_OpenTK_Graphics_ES30_GL_Core_FramebufferRenderbuffer_OpenTK_Graphics_ES30_FramebufferTarget_OpenTK_Graphics_ES30_FramebufferSlot_OpenTK_Graphics_ES30_RenderbufferTarget_uint
@@ -24054,7 +23923,7 @@ bl _p_238
 .word 0xb5ffff80
 .word 0x17fffff4
 
-Lme_269:
+Lme_268:
 .text
 	.align 4
 	.no_dead_strip wrapper_managed_to_native_OpenTK_Graphics_ES30_GL_Core_GenFramebuffers_int_uint_
@@ -24107,7 +23976,7 @@ bl _p_238
 .word 0xb5ffff80
 .word 0x17fffff4
 
-Lme_26a:
+Lme_269:
 .text
 	.align 4
 	.no_dead_strip wrapper_managed_to_native_OpenTK_Graphics_ES30_GL_Core_GenRenderbuffers_int_uint_
@@ -24160,7 +24029,7 @@ bl _p_238
 .word 0xb5ffff80
 .word 0x17fffff4
 
-Lme_26b:
+Lme_26a:
 .text
 	.align 4
 	.no_dead_strip wrapper_managed_to_native_OpenTK_Graphics_ES30_GL_Core_GetIntegerv_OpenTK_Graphics_ES30_GetPName_int_
@@ -24213,7 +24082,7 @@ bl _p_238
 .word 0xb5ffff80
 .word 0x17fffff4
 
-Lme_26c:
+Lme_26b:
 .text
 	.align 4
 	.no_dead_strip wrapper_managed_to_native_OpenTK_Graphics_ES30_GL_Core_GetRenderbufferParameteriv_OpenTK_Graphics_ES30_RenderbufferTarget_OpenTK_Graphics_ES30_RenderbufferParameterName_int_
@@ -24268,7 +24137,7 @@ bl _p_238
 .word 0xb5ffff80
 .word 0x17fffff4
 
-Lme_26d:
+Lme_26c:
 .text
 	.align 4
 	.no_dead_strip wrapper_managed_to_native_OpenTK_Graphics_ES30_GL_Core_PixelStorei_OpenTK_Graphics_ES30_PixelStoreParameter_int
@@ -24321,7 +24190,7 @@ bl _p_238
 .word 0xb5ffff80
 .word 0x17fffff4
 
-Lme_26e:
+Lme_26d:
 .text
 	.align 4
 	.no_dead_strip wrapper_managed_to_native_OpenTK_Graphics_ES30_GL_Core_ReadPixels_int_int_int_int_OpenTK_Graphics_ES30_PixelFormat_OpenTK_Graphics_ES30_PixelType_intptr
@@ -24384,7 +24253,7 @@ bl _p_238
 .word 0xb5ffff80
 .word 0x17fffff4
 
-Lme_26f:
+Lme_26e:
 .text
 	.align 4
 	.no_dead_strip wrapper_managed_to_native_OpenTK_Graphics_ES30_GL_Core_Scissor_int_int_int_int
@@ -24441,7 +24310,7 @@ bl _p_238
 .word 0xb5ffff80
 .word 0x17fffff4
 
-Lme_270:
+Lme_26f:
 .text
 	.align 4
 	.no_dead_strip wrapper_managed_to_native_OpenTK_Graphics_ES30_GL_Core_Viewport_int_int_int_int
@@ -24498,7 +24367,7 @@ bl _p_238
 .word 0xb5ffff80
 .word 0x17fffff4
 
-Lme_271:
+Lme_270:
 .text
 	.align 4
 	.no_dead_strip wrapper_managed_to_native_OpenTK_Graphics_ES20_GL_Core_BindFramebuffer_OpenTK_Graphics_ES20_FramebufferTarget_uint
@@ -24551,7 +24420,7 @@ bl _p_238
 .word 0xb5ffff80
 .word 0x17fffff4
 
-Lme_272:
+Lme_271:
 .text
 	.align 4
 	.no_dead_strip wrapper_managed_to_native_OpenTK_Graphics_ES20_GL_Core_BindRenderbuffer_OpenTK_Graphics_ES20_RenderbufferTarget_uint
@@ -24604,7 +24473,7 @@ bl _p_238
 .word 0xb5ffff80
 .word 0x17fffff4
 
-Lme_273:
+Lme_272:
 .text
 	.align 4
 	.no_dead_strip wrapper_managed_to_native_OpenTK_Graphics_ES20_GL_Core_DeleteFramebuffers_int_uint_
@@ -24657,7 +24526,7 @@ bl _p_238
 .word 0xb5ffff80
 .word 0x17fffff4
 
-Lme_274:
+Lme_273:
 .text
 	.align 4
 	.no_dead_strip wrapper_managed_to_native_OpenTK_Graphics_ES20_GL_Core_DeleteRenderbuffers_int_uint_
@@ -24710,7 +24579,7 @@ bl _p_238
 .word 0xb5ffff80
 .word 0x17fffff4
 
-Lme_275:
+Lme_274:
 .text
 	.align 4
 	.no_dead_strip wrapper_managed_to_native_OpenTK_Graphics_ES20_GL_Core_FramebufferRenderbuffer_OpenTK_Graphics_ES20_FramebufferTarget_OpenTK_Graphics_ES20_FramebufferSlot_OpenTK_Graphics_ES20_RenderbufferTarget_uint
@@ -24767,7 +24636,7 @@ bl _p_238
 .word 0xb5ffff80
 .word 0x17fffff4
 
-Lme_276:
+Lme_275:
 .text
 	.align 4
 	.no_dead_strip wrapper_managed_to_native_OpenTK_Graphics_ES20_GL_Core_GenFramebuffers_int_uint_
@@ -24820,7 +24689,7 @@ bl _p_238
 .word 0xb5ffff80
 .word 0x17fffff4
 
-Lme_277:
+Lme_276:
 .text
 	.align 4
 	.no_dead_strip wrapper_managed_to_native_OpenTK_Graphics_ES20_GL_Core_GenRenderbuffers_int_uint_
@@ -24873,7 +24742,7 @@ bl _p_238
 .word 0xb5ffff80
 .word 0x17fffff4
 
-Lme_278:
+Lme_277:
 .text
 	.align 4
 	.no_dead_strip wrapper_managed_to_native_OpenTK_Graphics_ES20_GL_Core_GetIntegerv_OpenTK_Graphics_ES20_GetPName_int_
@@ -24926,7 +24795,7 @@ bl _p_238
 .word 0xb5ffff80
 .word 0x17fffff4
 
-Lme_279:
+Lme_278:
 .text
 	.align 4
 	.no_dead_strip wrapper_managed_to_native_OpenTK_Graphics_ES20_GL_Core_GetRenderbufferParameteriv_OpenTK_Graphics_ES20_RenderbufferTarget_OpenTK_Graphics_ES20_RenderbufferParameterName_int_
@@ -24981,7 +24850,7 @@ bl _p_238
 .word 0xb5ffff80
 .word 0x17fffff4
 
-Lme_27a:
+Lme_279:
 .text
 	.align 4
 	.no_dead_strip wrapper_managed_to_native_OpenTK_Graphics_ES20_GL_Core_PixelStorei_OpenTK_Graphics_ES20_PixelStoreParameter_int
@@ -25034,7 +24903,7 @@ bl _p_238
 .word 0xb5ffff80
 .word 0x17fffff4
 
-Lme_27b:
+Lme_27a:
 .text
 	.align 4
 	.no_dead_strip wrapper_managed_to_native_OpenTK_Graphics_ES20_GL_Core_ReadPixels_int_int_int_int_OpenTK_Graphics_ES20_PixelFormat_OpenTK_Graphics_ES20_PixelType_intptr
@@ -25097,7 +24966,7 @@ bl _p_238
 .word 0xb5ffff80
 .word 0x17fffff4
 
-Lme_27c:
+Lme_27b:
 .text
 	.align 4
 	.no_dead_strip wrapper_managed_to_native_OpenTK_Graphics_ES20_GL_Core_Scissor_int_int_int_int
@@ -25154,7 +25023,7 @@ bl _p_238
 .word 0xb5ffff80
 .word 0x17fffff4
 
-Lme_27d:
+Lme_27c:
 .text
 	.align 4
 	.no_dead_strip wrapper_managed_to_native_OpenTK_Graphics_ES20_GL_Core_Viewport_int_int_int_int
@@ -25211,7 +25080,7 @@ bl _p_238
 .word 0xb5ffff80
 .word 0x17fffff4
 
-Lme_27e:
+Lme_27d:
 .text
 	.align 4
 	.no_dead_strip wrapper_managed_to_native_OpenTK_Graphics_ES11_GL_Core_BindFramebufferOES_OpenTK_Graphics_ES11_All_uint
@@ -25264,7 +25133,7 @@ bl _p_238
 .word 0xb5ffff80
 .word 0x17fffff4
 
-Lme_27f:
+Lme_27e:
 .text
 	.align 4
 	.no_dead_strip wrapper_managed_to_native_OpenTK_Graphics_ES11_GL_Core_BindRenderbufferOES_OpenTK_Graphics_ES11_All_uint
@@ -25317,7 +25186,7 @@ bl _p_238
 .word 0xb5ffff80
 .word 0x17fffff4
 
-Lme_280:
+Lme_27f:
 .text
 	.align 4
 	.no_dead_strip wrapper_managed_to_native_OpenTK_Graphics_ES11_GL_Core_DeleteFramebuffersOES_int_uint_
@@ -25370,7 +25239,7 @@ bl _p_238
 .word 0xb5ffff80
 .word 0x17fffff4
 
-Lme_281:
+Lme_280:
 .text
 	.align 4
 	.no_dead_strip wrapper_managed_to_native_OpenTK_Graphics_ES11_GL_Core_DeleteRenderbuffersOES_int_uint_
@@ -25423,7 +25292,7 @@ bl _p_238
 .word 0xb5ffff80
 .word 0x17fffff4
 
-Lme_282:
+Lme_281:
 .text
 	.align 4
 	.no_dead_strip wrapper_managed_to_native_OpenTK_Graphics_ES11_GL_Core_FramebufferRenderbufferOES_OpenTK_Graphics_ES11_All_OpenTK_Graphics_ES11_All_OpenTK_Graphics_ES11_All_uint
@@ -25480,7 +25349,7 @@ bl _p_238
 .word 0xb5ffff80
 .word 0x17fffff4
 
-Lme_283:
+Lme_282:
 .text
 	.align 4
 	.no_dead_strip wrapper_managed_to_native_OpenTK_Graphics_ES11_GL_Core_GenFramebuffersOES_int_uint_
@@ -25533,7 +25402,7 @@ bl _p_238
 .word 0xb5ffff80
 .word 0x17fffff4
 
-Lme_284:
+Lme_283:
 .text
 	.align 4
 	.no_dead_strip wrapper_managed_to_native_OpenTK_Graphics_ES11_GL_Core_GenRenderbuffersOES_int_uint_
@@ -25586,7 +25455,7 @@ bl _p_238
 .word 0xb5ffff80
 .word 0x17fffff4
 
-Lme_285:
+Lme_284:
 .text
 	.align 4
 	.no_dead_strip wrapper_managed_to_native_OpenTK_Graphics_ES11_GL_Core_GetIntegerv_OpenTK_Graphics_ES11_All_int_
@@ -25639,7 +25508,7 @@ bl _p_238
 .word 0xb5ffff80
 .word 0x17fffff4
 
-Lme_286:
+Lme_285:
 .text
 	.align 4
 	.no_dead_strip wrapper_managed_to_native_OpenTK_Graphics_ES11_GL_Core_GetRenderbufferParameterivOES_OpenTK_Graphics_ES11_All_OpenTK_Graphics_ES11_All_int_
@@ -25694,7 +25563,7 @@ bl _p_238
 .word 0xb5ffff80
 .word 0x17fffff4
 
-Lme_287:
+Lme_286:
 .text
 	.align 4
 	.no_dead_strip wrapper_managed_to_native_OpenTK_Graphics_ES11_GL_Core_PixelStorei_OpenTK_Graphics_ES11_All_int
@@ -25747,7 +25616,7 @@ bl _p_238
 .word 0xb5ffff80
 .word 0x17fffff4
 
-Lme_288:
+Lme_287:
 .text
 	.align 4
 	.no_dead_strip wrapper_managed_to_native_OpenTK_Graphics_ES11_GL_Core_ReadPixels_int_int_int_int_OpenTK_Graphics_ES11_All_OpenTK_Graphics_ES11_All_intptr
@@ -25810,7 +25679,7 @@ bl _p_238
 .word 0xb5ffff80
 .word 0x17fffff4
 
-Lme_289:
+Lme_288:
 .text
 	.align 4
 	.no_dead_strip wrapper_managed_to_native_OpenTK_Graphics_ES11_GL_Core_Scissor_int_int_int_int
@@ -25867,7 +25736,7 @@ bl _p_238
 .word 0xb5ffff80
 .word 0x17fffff4
 
-Lme_28a:
+Lme_289:
 .text
 	.align 4
 	.no_dead_strip wrapper_managed_to_native_OpenTK_Graphics_ES11_GL_Core_Viewport_int_int_int_int
@@ -25924,9 +25793,9 @@ bl _p_238
 .word 0xb5ffff80
 .word 0x17fffff4
 
-Lme_28b:
+Lme_28a:
 .text
-ut_652:
+ut_651:
 add x0, x0, 16
 b wrapper_unknown_System_Drawing_Color_StructureToPtr_object_intptr_bool
 .text
@@ -25971,9 +25840,9 @@ bl _p_262
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_28c:
+Lme_28b:
 .text
-ut_653:
+ut_652:
 add x0, x0, 16
 b wrapper_unknown_System_Drawing_Color_PtrToStructure_intptr_object
 .text
@@ -26019,9 +25888,9 @@ ldr x2, [x16, #16]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_28d:
+Lme_28c:
 .text
-ut_654:
+ut_653:
 add x0, x0, 16
 b wrapper_unknown_OpenTK_ContextHandle_StructureToPtr_object_intptr_bool
 .text
@@ -26041,9 +25910,9 @@ wrapper_unknown_OpenTK_ContextHandle_StructureToPtr_object_intptr_bool:
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_28e:
+Lme_28d:
 .text
-ut_655:
+ut_654:
 add x0, x0, 16
 b wrapper_unknown_OpenTK_ContextHandle_PtrToStructure_intptr_object
 .text
@@ -26063,9 +25932,9 @@ wrapper_unknown_OpenTK_ContextHandle_PtrToStructure_intptr_object:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_28f:
+Lme_28e:
 .text
-ut_656:
+ut_655:
 add x0, x0, 16
 b wrapper_unknown_OpenTK_Graphics_ColorFormat_StructureToPtr_object_intptr_bool
 .text
@@ -26106,9 +25975,9 @@ wrapper_unknown_OpenTK_Graphics_ColorFormat_StructureToPtr_object_intptr_bool:
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_290:
+Lme_28f:
 .text
-ut_657:
+ut_656:
 add x0, x0, 16
 b wrapper_unknown_OpenTK_Graphics_ColorFormat_PtrToStructure_intptr_object
 .text
@@ -26160,7 +26029,7 @@ wrapper_unknown_OpenTK_Graphics_ColorFormat_PtrToStructure_intptr_object:
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_291:
+Lme_290:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference_Add_OpenTK_ContextHandle_System_WeakReference
@@ -26181,7 +26050,7 @@ bl _p_264
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_292:
+Lme_291:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference_get_Values
@@ -26196,7 +26065,7 @@ System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReferenc
 
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+0
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x0, [x16, #4048]
+ldr x0, [x16, #4040]
 .word 0xd2800301
 bl _p_3
 .word 0xf90013a0
@@ -26223,7 +26092,7 @@ ldr x2, [x16, #16]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_293:
+Lme_292:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference_get_Item_OpenTK_ContextHandle
@@ -26241,8 +26110,7 @@ bl _p_266
 .word 0xaa0003f9
 .loc 26 217 0
 .word 0xaa1903e0
-.word 0xd2800001
-.word 0x6b01001f
+.word 0x6b1f001f
 .word 0x540001cb
 .word 0xf9400fa0
 .word 0xf9400c00
@@ -26274,11 +26142,11 @@ bl _p_267
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2801ea0
 .word 0xaa1103e1
 bl _p_9
 
-Lme_294:
+Lme_293:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference_Remove_OpenTK_ContextHandle
@@ -26297,7 +26165,7 @@ System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReferenc
 bl _p_244
 .loc 26 571 0
 .word 0xf9400b40
-.word 0xb4001300
+.word 0xb40012c0
 .loc 26 573 0
 .word 0xf9401342
 .word 0xaa0203e0
@@ -26306,8 +26174,8 @@ bl _p_244
 
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+0
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x15, [x16, #4056]
-.word 0x928002f0
+ldr x15, [x16, #4048]
+.word 0x928006f0
 .word 0xf2bffff0
 .word 0xf8706850
 .word 0xd63f0200
@@ -26321,7 +26189,7 @@ ldr x15, [x16, #4056]
 .word 0xb9801821
 .word 0x6b1f003f
 .word 0x10000011
-.word 0x54001200
+.word 0x540011c0
 .word 0x9280001e
 .word 0xf2bffffe
 .word 0x6b1e003f
@@ -26334,10 +26202,10 @@ ldr x15, [x16, #4056]
 .word 0xd280003e
 .word 0x6b1e005f
 .word 0x10000011
-.word 0x54001000
+.word 0x54000fc0
 .word 0xf100003f
 .word 0x10000011
-.word 0x54001000
+.word 0x54000fc0
 .word 0x929ffff0
 .word 0xf2b00010
 .word 0xeb10001f
@@ -26349,7 +26217,7 @@ ldr x15, [x16, #4056]
 .word 0x8a110210
 .word 0xf100061f
 .word 0x10000011
-.word 0x54000e20
+.word 0x54000de0
 .word 0x1ac10c1e
 .word 0x1b0183d8
 .loc 26 575 0
@@ -26361,19 +26229,19 @@ ldr x15, [x16, #4056]
 .word 0xb9801802
 .word 0xeb01005f
 .word 0x10000011
-.word 0x54000c89
+.word 0x54000c49
 .word 0xd37ef421
 .word 0x8b010000
 .word 0x91008000
 .word 0xb9800016
-.word 0x14000055
+.word 0x14000054
 .loc 26 579 0
 .word 0xf9400f40
 .word 0x93407ec1
 .word 0xb9801802
 .word 0xeb01005f
 .word 0x10000011
-.word 0x54000b29
+.word 0x54000ae9
 .word 0xd280031e
 .word 0x9b1e7c21
 .word 0x8b010000
@@ -26382,7 +26250,7 @@ ldr x15, [x16, #4056]
 .word 0xaa1503e0
 .word 0xb9800000
 .word 0x6b19001f
-.word 0x540008a1
+.word 0x54000881
 .word 0xf9401343
 .word 0x910022a0
 .word 0xf9400000
@@ -26394,16 +26262,15 @@ ldr x15, [x16, #4056]
 
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+0
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x15, [x16, #4064]
-.word 0x928003f0
+ldr x15, [x16, #4056]
+.word 0x928010f0
 .word 0xf2bffff0
 .word 0xf8706870
 .word 0xd63f0200
 .word 0x53001c00
-.word 0x34000680
+.word 0x34000660
 .loc 26 583 0
-.word 0xd2800000
-.word 0x6b0002ff
+.word 0x6b1f02ff
 .word 0x540001aa
 .loc 26 585 0
 .word 0xf9400b40
@@ -26412,7 +26279,7 @@ ldr x15, [x16, #4064]
 .word 0xb9801803
 .word 0xeb02007f
 .word 0x10000011
-.word 0x540006c9
+.word 0x540006a9
 .word 0xd37ef442
 .word 0x8b020000
 .word 0x91008000
@@ -26425,7 +26292,7 @@ ldr x15, [x16, #4064]
 .word 0xb9801802
 .word 0xeb01005f
 .word 0x10000011
-.word 0x54000569
+.word 0x54000549
 .word 0xd280031e
 .word 0x9b1e7c21
 .word 0x8b010000
@@ -26443,14 +26310,14 @@ ldr x15, [x16, #4064]
 
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+0
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x0, [x16, #4072]
+ldr x0, [x16, #4064]
 .word 0xd2800000
 .word 0x6b1f001f
 .loc 26 598 0
 
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+0
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x0, [x16, #4080]
+ldr x0, [x16, #4072]
 .loc 26 600 0
 .word 0x910042a0
 .word 0xf900001f
@@ -26466,15 +26333,14 @@ ldr x0, [x16, #4080]
 .word 0xb9004f40
 .loc 26 605 0
 .word 0xd2800020
-.word 0x14000007
+.word 0x14000006
 .loc 26 608 0
 .word 0xaa1603f7
 .loc 26 609 0
 .word 0xb98006b6
 .loc 26 577 0
-.word 0xd2800000
-.word 0x6b0002df
-.word 0x54fff54a
+.word 0x6b1f02df
+.word 0x54fff58a
 .loc 26 612 0
 .word 0xd2800000
 .word 0xa9415bb5
@@ -26483,17 +26349,17 @@ ldr x0, [x16, #4080]
 .word 0x910003bf
 .word 0xa8c67bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2801ea0
 .word 0xaa1103e1
 bl _p_9
-.word 0xd2802340
+.word 0xd2802240
 .word 0xaa1103e1
 bl _p_9
-.word 0xd2801960
+.word 0xd2801860
 .word 0xaa1103e1
 bl _p_9
 
-Lme_295:
+Lme_294:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference__ctor
@@ -26510,12 +26376,12 @@ bl _p_268
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_296:
+Lme_295:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__get_Item_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_int
 System_Array_InternalArray__get_Item_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_int:
-.loc 24 175 0 prologue_end
+.loc 24 176 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
 .word 0xf90013a0
@@ -26528,11 +26394,11 @@ System_Array_InternalArray__get_Item_System_Collections_Generic_KeyValuePair_2_O
 .word 0xb9802ba0
 .word 0x6b01001f
 .word 0x540002e2
-.loc 24 179 0
+.loc 24 180 0
 
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+0
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x0, [x16, #4088]
+ldr x0, [x16, #4080]
 .word 0xb9802ba0
 .word 0x93407c00
 .word 0xd37cec01
@@ -26543,7 +26409,7 @@ ldr x0, [x16, #4088]
 .word 0xf9001ba1
 .word 0xf9400400
 .word 0xf9001fa0
-.loc 24 180 0
+.loc 24 181 0
 .word 0xf9401ba0
 .word 0xf9000ba0
 .word 0xf9401fa0
@@ -26553,27 +26419,27 @@ ldr x0, [x16, #4088]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.loc 24 176 0
-.word 0xd285eb20
+.loc 24 177 0
+.word 0xd2850e40
 bl _p_240
 .word 0xaa0003e1
-.word 0xd2801580
+.word 0xd2801460
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_22
 
-Lme_297:
+Lme_296:
 .text
 	.align 4
 	.no_dead_strip System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference__cctor
 System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference__cctor:
-.loc 24 278 0 prologue_end
+.loc 24 279 0 prologue_end
 .word 0xa9bf7bfd
 .word 0x910003fd
 
-adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
+adrp x16, mono_aot_OpenTK_1_0_got@PAGE+0
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x0, [x16, #0]
+ldr x0, [x16, #4088]
 .word 0xd2800201
 bl _p_3
 .word 0xaa0003e1
@@ -26586,9 +26452,9 @@ ldr x0, [x16, #3968]
 .word 0xa8c17bfd
 .word 0xd65f03c0
 
-Lme_298:
+Lme_297:
 .text
-ut_665:
+ut_664:
 add x0, x0, 16
 b System_Collections_Generic_Dictionary_2_KeyCollection_Enumerator_OpenTK_ContextHandle_System_WeakReference__ctor_System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference
 .text
@@ -26628,9 +26494,9 @@ ldr x2, [x16, #16]
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_299:
+Lme_298:
 .text
-ut_666:
+ut_665:
 add x0, x0, 16
 b System_Collections_Generic_Dictionary_2_KeyCollection_Enumerator_OpenTK_ContextHandle_System_WeakReference_Dispose
 .text
@@ -26645,9 +26511,9 @@ System_Collections_Generic_Dictionary_2_KeyCollection_Enumerator_OpenTK_ContextH
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_29a:
+Lme_299:
 .text
-ut_667:
+ut_666:
 add x0, x0, 16
 b System_Collections_Generic_Dictionary_2_KeyCollection_Enumerator_OpenTK_ContextHandle_System_WeakReference_MoveNext
 .text
@@ -26663,8 +26529,8 @@ System_Collections_Generic_Dictionary_2_KeyCollection_Enumerator_OpenTK_ContextH
 .word 0xf9400341
 .word 0xb9804c21
 .word 0x6b01001f
-.word 0x540005c1
-.word 0x1400001d
+.word 0x540005a1
+.word 0x1400001c
 .loc 26 1241 0
 .word 0xf9400340
 .word 0xf9400c00
@@ -26676,7 +26542,7 @@ System_Collections_Generic_Dictionary_2_KeyCollection_Enumerator_OpenTK_ContextH
 .word 0xb9801802
 .word 0xeb01005f
 .word 0x10000011
-.word 0x54000549
+.word 0x54000529
 .word 0xd280031e
 .word 0x9b1e7c21
 .word 0x8b010000
@@ -26684,8 +26550,7 @@ System_Collections_Generic_Dictionary_2_KeyCollection_Enumerator_OpenTK_ContextH
 .loc 26 1243 0
 .word 0xaa1903e0
 .word 0xb9800000
-.word 0xd2800001
-.word 0x6b01001f
+.word 0x6b1f001f
 .word 0x5400012b
 .loc 26 1245 0
 .word 0x91002320
@@ -26702,7 +26567,7 @@ System_Collections_Generic_Dictionary_2_KeyCollection_Enumerator_OpenTK_ContextH
 .word 0xf9400341
 .word 0xb9804021
 .word 0x6b01001f
-.word 0x54fffc03
+.word 0x54fffc23
 .loc 26 1250 0
 .word 0xf9400340
 .word 0xb9804000
@@ -26718,21 +26583,21 @@ System_Collections_Generic_Dictionary_2_KeyCollection_Enumerator_OpenTK_ContextH
 .word 0xa8c37bfd
 .word 0xd65f03c0
 .loc 26 1236 0
-.word 0xd2858540
+.word 0xd2848980
 bl _p_240
 .word 0xaa0003e1
-.word 0xd2802080
+.word 0xd2801f80
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_22
 .word 0x17ffffe9
-.word 0xd2801fa0
+.word 0xd2801ea0
 .word 0xaa1103e1
 bl _p_9
 
-Lme_29b:
+Lme_29a:
 .text
-ut_668:
+ut_667:
 add x0, x0, 16
 b System_Collections_Generic_Dictionary_2_KeyCollection_Enumerator_OpenTK_ContextHandle_System_WeakReference_get_Current
 .text
@@ -26752,9 +26617,9 @@ System_Collections_Generic_Dictionary_2_KeyCollection_Enumerator_OpenTK_ContextH
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_29c:
+Lme_29b:
 .text
-ut_669:
+ut_668:
 add x0, x0, 16
 b System_Collections_Generic_Dictionary_2_KeyCollection_Enumerator_OpenTK_ContextHandle_System_WeakReference_System_Collections_IEnumerator_get_Current
 .text
@@ -26792,18 +26657,18 @@ bl _p_3
 .word 0xa8c27bfd
 .word 0xd65f03c0
 .loc 26 1269 0
-.word 0xd2859540
+.word 0xd2849980
 bl _p_240
 .word 0xaa0003e1
-.word 0xd2802080
+.word 0xd2801f80
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_22
 .word 0x17ffffea
 
-Lme_29d:
+Lme_29c:
 .text
-ut_670:
+ut_669:
 add x0, x0, 16
 b System_Collections_Generic_Dictionary_2_KeyCollection_Enumerator_OpenTK_ContextHandle_System_WeakReference_System_Collections_IEnumerator_Reset
 .text
@@ -26831,16 +26696,16 @@ System_Collections_Generic_Dictionary_2_KeyCollection_Enumerator_OpenTK_ContextH
 .word 0xa8c27bfd
 .word 0xd65f03c0
 .loc 26 1280 0
-.word 0xd2858540
+.word 0xd2848980
 bl _p_240
 .word 0xaa0003e1
-.word 0xd2802080
+.word 0xd2801f80
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_22
 .word 0x17fffff2
 
-Lme_29e:
+Lme_29d:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference_ContainsKey_OpenTK_ContextHandle
@@ -26854,17 +26719,15 @@ System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReferenc
 .word 0xf9400fa1
 bl _p_266
 .word 0x93407c00
-.word 0xd2800001
-.word 0x6b01001f
+.word 0x6b1f001f
 .word 0x9a9fa7e0
-.word 0xd2800001
-.word 0x6b01001f
+.word 0x6b1f001f
 .word 0x9a9f17e0
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_29f:
+Lme_29e:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference_ContainsValue_System_WeakReference
@@ -26876,31 +26739,30 @@ System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReferenc
 .word 0xa9026bb9
 .word 0xaa0003f9
 .word 0xaa0103fa
-.word 0xb500049a
+.word 0xb500047a
 .loc 26 292 0
 .word 0xd280001a
-.word 0x1400001e
+.word 0x1400001d
 .loc 26 294 0
 .word 0xf9400f20
 .word 0x93407f41
 .word 0xb9801802
 .word 0xeb01005f
 .word 0x10000011
-.word 0x540009e9
+.word 0x540009a9
 .word 0xd280031e
 .word 0x9b1e7c21
 .word 0x8b010000
 .word 0x91008000
 .word 0xb9800000
-.word 0xd2800001
-.word 0x6b01001f
+.word 0x6b1f001f
 .word 0x540001eb
 .word 0xf9400f20
 .word 0x93407f41
 .word 0xb9801802
 .word 0xeb01005f
 .word 0x10000011
-.word 0x54000829
+.word 0x54000809
 .word 0xd280031e
 .word 0x9b1e7c21
 .word 0x8b010000
@@ -26908,37 +26770,36 @@ System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReferenc
 .word 0xf9400800
 .word 0xb5000060
 .word 0xd2800020
-.word 0x14000034
+.word 0x14000033
 .loc 26 292 0
 .word 0x1100075a
 .word 0xb9804320
 .word 0x6b00035f
-.word 0x54fffc2b
-.word 0x1400002e
+.word 0x54fffc4b
+.word 0x1400002d
 .loc 26 299 0
 
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x15, [x16, #8]
+ldr x15, [x16, #0]
 bl _p_269
 .word 0xaa0003f8
 .loc 26 300 0
 .word 0xd2800017
-.word 0x14000024
+.word 0x14000023
 .loc 26 302 0
 .word 0xf9400f20
 .word 0x93407ee1
 .word 0xb9801802
 .word 0xeb01005f
 .word 0x10000011
-.word 0x540004e9
+.word 0x540004c9
 .word 0xd280031e
 .word 0x9b1e7c21
 .word 0x8b010000
 .word 0x91008000
 .word 0xb9800000
-.word 0xd2800001
-.word 0x6b01001f
+.word 0x6b1f001f
 .word 0x540002ab
 .word 0xf9400f20
 .word 0x93407ee1
@@ -26964,7 +26825,7 @@ bl _p_269
 .word 0x110006f7
 .word 0xb9804320
 .word 0x6b0002ff
-.word 0x54fffb6b
+.word 0x54fffb8b
 .loc 26 305 0
 .word 0xd2800000
 .word 0xa94163b7
@@ -26972,11 +26833,11 @@ bl _p_269
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2801ea0
 .word 0xaa1103e1
 bl _p_9
 
-Lme_2a0:
+Lme_29f:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference_TryInsert_OpenTK_ContextHandle_System_WeakReference_System_Collections_Generic_InsertionBehavior
@@ -27011,8 +26872,8 @@ bl _p_270
 
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+0
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x15, [x16, #4056]
-.word 0x928002f0
+ldr x15, [x16, #4048]
+.word 0x928006f0
 .word 0xf2bffff0
 .word 0xf8706850
 .word 0xd63f0200
@@ -27026,7 +26887,7 @@ ldr x15, [x16, #4056]
 .word 0xb9801821
 .word 0x6b1f003f
 .word 0x10000011
-.word 0x54002600
+.word 0x540025c0
 .word 0x9280001e
 .word 0xf2bffffe
 .word 0x6b1e003f
@@ -27039,10 +26900,10 @@ ldr x15, [x16, #4056]
 .word 0xd280003e
 .word 0x6b1e005f
 .word 0x10000011
-.word 0x54002400
+.word 0x540023c0
 .word 0xf100003f
 .word 0x10000011
-.word 0x54002400
+.word 0x540023c0
 .word 0x929ffff0
 .word 0xf2b00010
 .word 0xeb10001f
@@ -27054,7 +26915,7 @@ ldr x15, [x16, #4056]
 .word 0x8a110210
 .word 0xf100061f
 .word 0x10000011
-.word 0x54002220
+.word 0x540021e0
 .word 0x1ac10c1e
 .word 0x1b0183d6
 .loc 26 409 0
@@ -27065,7 +26926,7 @@ ldr x15, [x16, #4056]
 .word 0xb9801802
 .word 0xeb01005f
 .word 0x10000011
-.word 0x540020a9
+.word 0x54002069
 .word 0xd37ef421
 .word 0x8b010000
 .word 0x91008000
@@ -27077,7 +26938,7 @@ ldr x15, [x16, #4056]
 .word 0xb9801802
 .word 0xeb01005f
 .word 0x10000011
-.word 0x54001f49
+.word 0x54001f09
 .word 0xd280031e
 .word 0x9b1e7c21
 .word 0x8b010000
@@ -27091,7 +26952,7 @@ ldr x15, [x16, #4056]
 .word 0xb9801802
 .word 0xeb01005f
 .word 0x10000011
-.word 0x54001d89
+.word 0x54001d49
 .word 0xd280031e
 .word 0x9b1e7c21
 .word 0x8b010000
@@ -27106,16 +26967,16 @@ ldr x15, [x16, #4056]
 
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+0
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x15, [x16, #4064]
-.word 0x928003f0
+ldr x15, [x16, #4056]
+.word 0x928010f0
 .word 0xf2bffff0
 .word 0xf8706870
 .word 0xd63f0200
 .word 0x53001c00
 .word 0x34000480
 .loc 26 415 0
-.word 0xd2800020
-.word 0x6b00035f
+.word 0xd280003e
+.word 0x6b1e035f
 .word 0x54000381
 .loc 26 417 0
 .word 0xf9400f00
@@ -27123,7 +26984,7 @@ ldr x15, [x16, #4064]
 .word 0xb9801802
 .word 0xeb01005f
 .word 0x10000011
-.word 0x540019e9
+.word 0x540019a9
 .word 0xd280031e
 .word 0x9b1e7c21
 .word 0x8b010000
@@ -27147,14 +27008,14 @@ ldr x1, [x16, #16]
 .word 0xb9004f00
 .loc 26 419 0
 .word 0xd2800020
-.word 0x140000a9
+.word 0x140000a7
 .loc 26 422 0
-.word 0xd2800040
-.word 0x6b00035f
-.word 0x540015a0
+.word 0xd280005e
+.word 0x6b1e035f
+.word 0x54001560
 .loc 26 427 0
 .word 0xd2800000
-.word 0x140000a4
+.word 0x140000a2
 .loc 26 429 0
 .word 0x110006b5
 .loc 26 411 0
@@ -27163,19 +27024,17 @@ ldr x1, [x16, #16]
 .word 0xb9801802
 .word 0xeb01005f
 .word 0x10000011
-.word 0x540015c9
+.word 0x54001589
 .word 0xd280031e
 .word 0x9b1e7c21
 .word 0x8b010000
 .word 0x91008000
 .word 0xb9800414
-.word 0xd2800000
-.word 0x6b00029f
-.word 0x54fff4ea
+.word 0x6b1f029f
+.word 0x54fff50a
 .loc 26 433 0
 .word 0xb9804b00
-.word 0xd2800001
-.word 0x6b01001f
+.word 0x6b1f001f
 .word 0x5400024d
 .loc 26 435 0
 .word 0xb980471a
@@ -27356,18 +27215,18 @@ bl _p_3
 .word 0xf94027a2
 .word 0xf9000022
 bl _p_272
-.word 0x17ffff4b
-.word 0xd2801fa0
+.word 0x17ffff4d
+.word 0xd2801ea0
 .word 0xaa1103e1
 bl _p_9
-.word 0xd2802340
+.word 0xd2802240
 .word 0xaa1103e1
 bl _p_9
-.word 0xd2801960
+.word 0xd2801860
 .word 0xaa1103e1
 bl _p_9
 
-Lme_2a1:
+Lme_2a0:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference_FindEntry_OpenTK_ContextHandle
@@ -27385,7 +27244,7 @@ System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReferenc
 bl _p_244
 .loc 26 372 0
 .word 0xf9400b40
-.word 0xb4000ec0
+.word 0xb4000ea0
 .loc 26 374 0
 .word 0xf9401342
 .word 0xaa0203e0
@@ -27394,8 +27253,8 @@ bl _p_244
 
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+0
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x15, [x16, #4056]
-.word 0x928002f0
+ldr x15, [x16, #4048]
+.word 0x928006f0
 .word 0xf2bffff0
 .word 0xf8706850
 .word 0xd63f0200
@@ -27409,7 +27268,7 @@ ldr x15, [x16, #4056]
 .word 0xb9801821
 .word 0x6b1f003f
 .word 0x10000011
-.word 0x54000dc0
+.word 0x54000da0
 .word 0x9280001e
 .word 0xf2bffffe
 .word 0x6b1e003f
@@ -27422,10 +27281,10 @@ ldr x15, [x16, #4056]
 .word 0xd280003e
 .word 0x6b1e005f
 .word 0x10000011
-.word 0x54000bc0
+.word 0x54000ba0
 .word 0xf100003f
 .word 0x10000011
-.word 0x54000bc0
+.word 0x54000ba0
 .word 0x929ffff0
 .word 0xf2b00010
 .word 0xeb10033f
@@ -27437,14 +27296,14 @@ ldr x15, [x16, #4056]
 .word 0x8a110210
 .word 0xf100061f
 .word 0x10000011
-.word 0x540009e0
+.word 0x540009c0
 .word 0x1ac10f3e
 .word 0x1b01e7c1
 .word 0x93407c21
 .word 0xb9801802
 .word 0xeb01005f
 .word 0x10000011
-.word 0x540008a9
+.word 0x54000889
 .word 0xd37ef421
 .word 0x8b010000
 .word 0x91008000
@@ -27456,7 +27315,7 @@ ldr x15, [x16, #4056]
 .word 0xb9801802
 .word 0xeb01005f
 .word 0x10000011
-.word 0x54000749
+.word 0x54000729
 .word 0xd280031e
 .word 0x9b1e7c21
 .word 0x8b010000
@@ -27470,7 +27329,7 @@ ldr x15, [x16, #4056]
 .word 0xb9801802
 .word 0xeb01005f
 .word 0x10000011
-.word 0x54000589
+.word 0x54000569
 .word 0xd280031e
 .word 0x9b1e7c21
 .word 0x8b010000
@@ -27485,30 +27344,29 @@ ldr x15, [x16, #4056]
 
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+0
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x15, [x16, #4064]
-.word 0x928003f0
+ldr x15, [x16, #4056]
+.word 0x928010f0
 .word 0xf2bffff0
 .word 0xf8706870
 .word 0xd63f0200
 .word 0x53001c00
 .word 0x34000060
 .word 0xaa1803e0
-.word 0x14000011
+.word 0x14000010
 .loc 26 375 0
 .word 0xf9400f40
 .word 0x93407f01
 .word 0xb9801802
 .word 0xeb01005f
 .word 0x10000011
-.word 0x54000209
+.word 0x540001e9
 .word 0xd280031e
 .word 0x9b1e7c21
 .word 0x8b010000
 .word 0x91008000
 .word 0xb9800418
-.word 0xd2800000
-.word 0x6b00031f
-.word 0x54fff92a
+.word 0x6b1f031f
+.word 0x54fff94a
 .loc 26 380 0
 .word 0x92800000
 .word 0xf2bfffe0
@@ -27517,22 +27375,22 @@ ldr x15, [x16, #4064]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2801ea0
 .word 0xaa1103e1
 bl _p_9
-.word 0xd2802340
+.word 0xd2802240
 .word 0xaa1103e1
 bl _p_9
-.word 0xd2801960
+.word 0xd2801860
 .word 0xaa1103e1
 bl _p_9
 
-Lme_2a2:
+Lme_2a1:
 .text
 	.align 4
 	.no_dead_strip System_Runtime_CompilerServices_RuntimeHelpers_IsReferenceOrContainsReferences_OpenTK_ContextHandle
 System_Runtime_CompilerServices_RuntimeHelpers_IsReferenceOrContainsReferences_OpenTK_ContextHandle:
-.file 28 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.16.0.1/src/Xamarin.iOS/mcs/class/corlib/System.Runtime.CompilerServices/RuntimeHelpers.cs"
+.file 28 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.0.0.15/src/Xamarin.iOS/mcs/class/corlib/System.Runtime.CompilerServices/RuntimeHelpers.cs"
 .loc 28 191 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
@@ -27540,14 +27398,14 @@ System_Runtime_CompilerServices_RuntimeHelpers_IsReferenceOrContainsReferences_O
 
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x0, [x16, #16]
+ldr x0, [x16, #8]
 bl _p_273
 .word 0x53001c00
 .word 0x340002a0
 
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x26, [x16, #16]
+ldr x26, [x16, #8]
 .word 0xaa1a03f9
 .word 0xeb1f035f
 .word 0x54000160
@@ -27558,7 +27416,7 @@ ldr x26, [x16, #16]
 
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x1, [x16, #24]
+ldr x1, [x16, #16]
 .word 0xeb01001f
 .word 0x54000040
 .word 0xd2800019
@@ -27572,7 +27430,7 @@ bl _p_274
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_2a3:
+Lme_2a2:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference__ctor_int_System_Collections_Generic_IEqualityComparer_1_OpenTK_ContextHandle
@@ -27584,12 +27442,10 @@ System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReferenc
 .word 0xaa0003f8
 .word 0xaa0103f9
 .word 0xf90013a2
-.word 0xd2800000
-.word 0x6b00033f
-.word 0x5400042b
+.word 0x6b1f033f
+.word 0x5400040b
 .loc 26 76 0
-.word 0xd2800000
-.word 0x6b00033f
+.word 0x6b1f033f
 .word 0x540000ad
 .word 0xaa1803e0
 .word 0xaa1903e1
@@ -27603,7 +27459,7 @@ bl _p_270
 
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x15, [x16, #32]
+ldr x15, [x16, #24]
 bl _p_275
 .word 0xaa0003f8
 .word 0xf9001338
@@ -27627,9 +27483,9 @@ ldr x1, [x16, #16]
 .loc 26 75 0
 .word 0xd2800180
 bl _p_276
-.word 0x17ffffde
+.word 0x17ffffdf
 
-Lme_2a4:
+Lme_2a3:
 .text
 	.align 4
 	.no_dead_strip wrapper_managed_to_native_System_Array_GetGenericValueImpl_System_Array_int_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_
@@ -27684,17 +27540,17 @@ bl _p_238
 .word 0xb4fffee0
 .word 0xaa1a03e0
 bl _p_22
-.word 0xd2802260
+.word 0xd2802160
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_22
 
-Lme_2a5:
+Lme_2a4:
 .text
 	.align 4
 	.no_dead_strip System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_Dispose
 System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_Dispose:
-.loc 24 282 0 prologue_end
+.loc 24 283 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -27702,12 +27558,12 @@ System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_2a6:
+Lme_2a5:
 .text
 	.align 4
 	.no_dead_strip System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_MoveNext
 System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_MoveNext:
-.loc 24 287 0 prologue_end
+.loc 24 288 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -27716,19 +27572,19 @@ System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_2a7:
+Lme_2a6:
 .text
 	.align 4
 	.no_dead_strip System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_get_Current
 System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_get_Current:
-.loc 24 292 0 prologue_end
+.loc 24 293 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
 .word 0xf90013a0
-.word 0xd2894ae0
+.word 0xd2889160
 bl _p_240
 .word 0xaa0003e1
-.word 0xd2802080
+.word 0xd2801f80
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_22
@@ -27738,19 +27594,19 @@ bl _p_22
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_2a8:
+Lme_2a7:
 .text
 	.align 4
 	.no_dead_strip System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_System_Collections_IEnumerator_get_Current
 System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_System_Collections_IEnumerator_get_Current:
-.loc 24 298 0 prologue_end
+.loc 24 299 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
 .word 0xf9000ba0
-.word 0xd2894ae0
+.word 0xd2889160
 bl _p_240
 .word 0xaa0003e1
-.word 0xd2802080
+.word 0xd2801f80
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_22
@@ -27785,12 +27641,12 @@ ldr x3, [x16, #16]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_2a9:
+Lme_2a8:
 .text
 	.align 4
 	.no_dead_strip System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_System_Collections_IEnumerator_Reset
 System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_System_Collections_IEnumerator_Reset:
-.loc 24 304 0 prologue_end
+.loc 24 305 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -27798,7 +27654,7 @@ System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_2aa:
+Lme_2a9:
 .text
 	.align 4
 	.no_dead_strip System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference__ctor
@@ -27810,7 +27666,7 @@ System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_2ab:
+Lme_2aa:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference_Resize
@@ -27832,7 +27688,7 @@ bl _p_278
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_2ac:
+Lme_2ab:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference_Initialize_int
@@ -27853,7 +27709,7 @@ bl _p_279
 
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x0, [x16, #40]
+ldr x0, [x16, #32]
 bl _p_14
 .word 0xaa0003f8
 .loc 26 387 0
@@ -27898,7 +27754,7 @@ ldr x1, [x16, #16]
 
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x0, [x16, #48]
+ldr x0, [x16, #40]
 .word 0xaa1a03e1
 bl _p_14
 .word 0xf9000f20
@@ -27921,16 +27777,16 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2801ea0
 .word 0xaa1103e1
 bl _p_9
 
-Lme_2ad:
+Lme_2ac:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_EqualityComparer_1_OpenTK_ContextHandle_get_Default
 System_Collections_Generic_EqualityComparer_1_OpenTK_ContextHandle_get_Default:
-.file 29 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.16.0.1/src/Xamarin.iOS/mcs/class/referencesource/mscorlib/system/collections/generic/equalitycomparer.cs"
+.file 29 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.0.0.15/src/Xamarin.iOS/mcs/class/referencesource/mscorlib/system/collections/generic/equalitycomparer.cs"
 .loc 29 32 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -27938,7 +27794,7 @@ System_Collections_Generic_EqualityComparer_1_OpenTK_ContextHandle_get_Default:
 
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x0, [x16, #56]
+ldr x0, [x16, #48]
 .word 0xf940001a
 .loc 29 33 0
 .word 0xaa1a03e0
@@ -27947,7 +27803,7 @@ ldr x0, [x16, #56]
 
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x15, [x16, #32]
+ldr x15, [x16, #24]
 bl _p_280
 .word 0xaa0003fa
 .loc 29 35 0
@@ -27955,7 +27811,7 @@ bl _p_280
 
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x0, [x16, #56]
+ldr x0, [x16, #48]
 .word 0xf90013a0
 .word 0xd5033bbf
 .word 0xf94013a0
@@ -27967,7 +27823,7 @@ ldr x0, [x16, #56]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_2ae:
+Lme_2ad:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_EqualityComparer_1_OpenTK_ContextHandle_CreateComparer
@@ -27980,7 +27836,7 @@ System_Collections_Generic_EqualityComparer_1_OpenTK_ContextHandle_CreateCompare
 
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x26, [x16, #64]
+ldr x26, [x16, #56]
 .word 0xb400017a
 .word 0xf9400340
 .word 0xf9400000
@@ -27989,16 +27845,16 @@ ldr x26, [x16, #64]
 
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x1, [x16, #24]
+ldr x1, [x16, #16]
 .word 0xeb01001f
 .word 0x10000011
-.word 0x54002301
+.word 0x540022e1
 .word 0xaa1a03f9
 .loc 29 51 0
 
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x0, [x16, #72]
+ldr x0, [x16, #64]
 .word 0xeb00035f
 .word 0x9a9f17e0
 .word 0x34000280
@@ -28006,7 +27862,7 @@ ldr x0, [x16, #72]
 
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x0, [x16, #80]
+ldr x0, [x16, #72]
 .word 0xd2800201
 bl _p_3
 .word 0xaa0003fa
@@ -28018,17 +27874,17 @@ bl _p_3
 
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x1, [x16, #88]
+ldr x1, [x16, #80]
 .word 0xeb01001f
 .word 0x10000011
-.word 0x54002001
+.word 0x54001fe1
 .word 0xaa1a03e0
-.word 0x140000f9
+.word 0x140000f8
 .loc 29 57 0
 
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x0, [x16, #96]
+ldr x0, [x16, #88]
 .word 0xeb00033f
 .word 0x9a9f17e0
 .word 0x34000280
@@ -28036,7 +27892,7 @@ ldr x0, [x16, #96]
 
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x0, [x16, #104]
+ldr x0, [x16, #96]
 .word 0xd2800201
 bl _p_3
 .word 0xaa0003fa
@@ -28048,17 +27904,17 @@ bl _p_3
 
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x1, [x16, #88]
+ldr x1, [x16, #80]
 .word 0xeb01001f
 .word 0x10000011
-.word 0x54001ce1
+.word 0x54001cc1
 .word 0xaa1a03e0
-.word 0x140000e0
+.word 0x140000df
 .loc 29 62 0
 
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x2, [x16, #112]
+ldr x2, [x16, #104]
 .word 0xaa0203e0
 .word 0xaa1903e1
 .word 0xf9400042
@@ -28070,7 +27926,7 @@ ldr x2, [x16, #112]
 
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x0, [x16, #120]
+ldr x0, [x16, #112]
 .word 0xaa1903e1
 bl _p_281
 .word 0xaa0003fa
@@ -28082,19 +27938,19 @@ bl _p_281
 
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x1, [x16, #88]
+ldr x1, [x16, #80]
 .word 0xeb01001f
 .word 0x10000011
-.word 0x54001941
+.word 0x54001921
 .word 0xaa1a03e0
-.word 0x140000c3
+.word 0x140000c2
 .loc 29 70 0
 .word 0xaa1903e0
 .word 0xf9400321
 .word 0xf9410830
 .word 0xd63f0200
 .word 0x53001c00
-.word 0x34000a80
+.word 0x34000a60
 .word 0xaa1903e0
 .word 0xf9400321
 .word 0xf940ac30
@@ -28102,18 +27958,17 @@ ldr x1, [x16, #88]
 
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x1, [x16, #128]
+ldr x1, [x16, #120]
 .word 0xeb01001f
 .word 0x9a9f17e0
-.word 0x34000940
+.word 0x34000920
 .loc 29 71 0
 .word 0xaa1903e0
 .word 0xf9400321
 .word 0xf940b430
 .word 0xd63f0200
-.word 0xd2800002
 .word 0xb9801801
-.word 0xeb02003f
+.word 0xeb1f003f
 .word 0x10000011
 .word 0x54001649
 .word 0xf940101a
@@ -28125,7 +27980,7 @@ ldr x1, [x16, #128]
 
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x1, [x16, #24]
+ldr x1, [x16, #16]
 .word 0xeb01001f
 .word 0x10000011
 .word 0x54001461
@@ -28134,12 +27989,12 @@ ldr x1, [x16, #24]
 
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x0, [x16, #136]
+ldr x0, [x16, #128]
 .word 0xf9001fa0
 
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x0, [x16, #144]
+ldr x0, [x16, #136]
 .word 0xd2800021
 bl _p_14
 .word 0xaa0003e3
@@ -28169,7 +28024,7 @@ bl _p_14
 
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x0, [x16, #152]
+ldr x0, [x16, #144]
 .word 0xaa1803e1
 bl _p_281
 .word 0xaa0003fa
@@ -28181,7 +28036,7 @@ bl _p_281
 
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x1, [x16, #88]
+ldr x1, [x16, #80]
 .word 0xeb01001f
 .word 0x10000011
 .word 0x54000e21
@@ -28211,11 +28066,33 @@ bl _p_283
 
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x0, [x16, #160]
+ldr x0, [x16, #152]
 .word 0x8b010000
 .word 0xf9400000
 .word 0xd61f0000
 .loc 29 91 0
+
+adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
+add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
+ldr x0, [x16, #160]
+.word 0xaa1903e1
+bl _p_281
+.word 0xaa0003fa
+.word 0xb400017a
+.word 0xf9400340
+.word 0xf9400000
+.word 0xf9400800
+.word 0xf9400400
+
+adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
+add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
+ldr x1, [x16, #80]
+.word 0xeb01001f
+.word 0x10000011
+.word 0x540008c1
+.word 0xaa1a03e0
+.word 0x1400003f
+.loc 29 97 0
 
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
@@ -28231,13 +28108,13 @@ bl _p_281
 
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x1, [x16, #88]
+ldr x1, [x16, #80]
 .word 0xeb01001f
 .word 0x10000011
-.word 0x540008c1
+.word 0x54000661
 .word 0xaa1a03e0
-.word 0x1400003f
-.loc 29 97 0
+.word 0x1400002c
+.loc 29 106 0
 
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
@@ -28253,13 +28130,13 @@ bl _p_281
 
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x1, [x16, #88]
+ldr x1, [x16, #80]
 .word 0xeb01001f
 .word 0x10000011
-.word 0x54000661
+.word 0x54000401
 .word 0xaa1a03e0
-.word 0x1400002c
-.loc 29 106 0
+.word 0x14000019
+.loc 29 113 0
 
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
@@ -28275,29 +28152,7 @@ bl _p_281
 
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x1, [x16, #88]
-.word 0xeb01001f
-.word 0x10000011
-.word 0x54000401
-.word 0xaa1a03e0
-.word 0x14000019
-.loc 29 113 0
-
-adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
-add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x0, [x16, #192]
-.word 0xaa1903e1
-bl _p_281
-.word 0xaa0003fa
-.word 0xb400017a
-.word 0xf9400340
-.word 0xf9400000
-.word 0xf9400800
-.word 0xf9400400
-
-adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
-add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x1, [x16, #88]
+ldr x1, [x16, #80]
 .word 0xeb01001f
 .word 0x10000011
 .word 0x540001a1
@@ -28307,7 +28162,7 @@ ldr x1, [x16, #88]
 
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x0, [x16, #200]
+ldr x0, [x16, #192]
 .word 0xd2800201
 bl _p_3
 .word 0xa94167b8
@@ -28315,14 +28170,14 @@ bl _p_3
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2802060
+.word 0xd2801f60
 .word 0xaa1103e1
 bl _p_9
-.word 0xd2801fa0
+.word 0xd2801ea0
 .word 0xaa1103e1
 bl _p_9
 
-Lme_2af:
+Lme_2ae:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_EqualityComparer_1_OpenTK_ContextHandle_IndexOf_OpenTK_ContextHandle___OpenTK_ContextHandle_int_int
@@ -28377,11 +28232,11 @@ System_Collections_Generic_EqualityComparer_1_OpenTK_ContextHandle_IndexOf_OpenT
 .word 0x910003bf
 .word 0xa8c57bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2801ea0
 .word 0xaa1103e1
 bl _p_9
 
-Lme_2b2:
+Lme_2b1:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_EqualityComparer_1_OpenTK_ContextHandle_LastIndexOf_OpenTK_ContextHandle___OpenTK_ContextHandle_int_int
@@ -28437,11 +28292,11 @@ System_Collections_Generic_EqualityComparer_1_OpenTK_ContextHandle_LastIndexOf_O
 .word 0x910003bf
 .word 0xa8c57bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2801ea0
 .word 0xaa1103e1
 bl _p_9
 
-Lme_2b3:
+Lme_2b2:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_EqualityComparer_1_OpenTK_ContextHandle_System_Collections_IEqualityComparer_GetHashCode_object
@@ -28507,11 +28362,11 @@ bl _p_247
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd2802060
+.word 0xd2801f60
 .word 0xaa1103e1
 bl _p_9
 
-Lme_2b4:
+Lme_2b3:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_EqualityComparer_1_OpenTK_ContextHandle_System_Collections_IEqualityComparer_Equals_object_object
@@ -28617,11 +28472,11 @@ bl _p_247
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2802060
+.word 0xd2801f60
 .word 0xaa1103e1
 bl _p_9
 
-Lme_2b5:
+Lme_2b4:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_EqualityComparer_1_OpenTK_ContextHandle__ctor
@@ -28633,7 +28488,7 @@ System_Collections_Generic_EqualityComparer_1_OpenTK_ContextHandle__ctor:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_2b6:
+Lme_2b5:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_GenericEqualityComparer_1_OpenTK_ContextHandle_Equals_OpenTK_ContextHandle_OpenTK_ContextHandle
@@ -28667,7 +28522,7 @@ System_Collections_Generic_GenericEqualityComparer_1_OpenTK_ContextHandle_Equals
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_2b7:
+Lme_2b6:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_GenericEqualityComparer_1_OpenTK_ContextHandle_GetHashCode_OpenTK_ContextHandle
@@ -28687,7 +28542,7 @@ System_Collections_Generic_GenericEqualityComparer_1_OpenTK_ContextHandle_GetHas
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_2b8:
+Lme_2b7:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_GenericEqualityComparer_1_OpenTK_ContextHandle_IndexOf_OpenTK_ContextHandle___OpenTK_ContextHandle_int_int
@@ -28773,11 +28628,11 @@ System_Collections_Generic_GenericEqualityComparer_1_OpenTK_ContextHandle_IndexO
 .word 0x910003bf
 .word 0xa8c67bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2801ea0
 .word 0xaa1103e1
 bl _p_9
 
-Lme_2b9:
+Lme_2b8:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_GenericEqualityComparer_1_OpenTK_ContextHandle_LastIndexOf_OpenTK_ContextHandle___OpenTK_ContextHandle_int_int
@@ -28864,11 +28719,11 @@ System_Collections_Generic_GenericEqualityComparer_1_OpenTK_ContextHandle_LastIn
 .word 0x910003bf
 .word 0xa8c67bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2801ea0
 .word 0xaa1103e1
 bl _p_9
 
-Lme_2ba:
+Lme_2b9:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_GenericEqualityComparer_1_OpenTK_ContextHandle_Equals_object
@@ -28891,20 +28746,19 @@ System_Collections_Generic_GenericEqualityComparer_1_OpenTK_ContextHandle_Equals
 
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x1, [x16, #208]
+ldr x1, [x16, #200]
 .word 0xeb01001f
 .word 0x54000040
 .word 0xd2800019
 .loc 29 214 0
-.word 0xd2800000
-.word 0xeb00033f
+.word 0xeb1f033f
 .word 0x9a9f97e0
 .word 0xf9400bb9
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_2bb:
+Lme_2ba:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_GenericEqualityComparer_1_OpenTK_ContextHandle_GetHashCode
@@ -28930,7 +28784,7 @@ System_Collections_Generic_GenericEqualityComparer_1_OpenTK_ContextHandle_GetHas
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_2bc:
+Lme_2bb:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_GenericEqualityComparer_1_OpenTK_ContextHandle__ctor
@@ -28942,7 +28796,7 @@ System_Collections_Generic_GenericEqualityComparer_1_OpenTK_ContextHandle__ctor:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_2bd:
+Lme_2bc:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference_Resize_int_bool
@@ -28960,7 +28814,7 @@ System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReferenc
 
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x0, [x16, #40]
+ldr x0, [x16, #32]
 .word 0xaa1903e1
 bl _p_14
 .word 0xaa0003f7
@@ -28972,7 +28826,7 @@ bl _p_14
 .word 0xb9801ae1
 .word 0xeb00003f
 .word 0x10000011
-.word 0x54001989
+.word 0x54001969
 .word 0xd37ef400
 .word 0x8b0002e0
 .word 0x91008000
@@ -28988,7 +28842,7 @@ bl _p_14
 
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x0, [x16, #48]
+ldr x0, [x16, #40]
 .word 0xaa1903e1
 bl _p_14
 .word 0xaa0003f6
@@ -29011,22 +28865,22 @@ bl _p_284
 .word 0xb9801ac1
 .word 0xeb00003f
 .word 0x10000011
-.word 0x540015a9
+.word 0x54001589
 .word 0xd280031e
 .word 0x9b1e7c00
 .word 0x8b0002c0
 .word 0x91008000
 .word 0xb9800000
-.word 0x92800001
-.word 0xf2bfffe1
-.word 0x6b01001f
+.word 0x9280001e
+.word 0xf2bffffe
+.word 0x6b1e001f
 .word 0x54000520
 .loc 26 542 0
 .word 0x93407f40
 .word 0xb9801ac1
 .word 0xeb00003f
 .word 0x10000011
-.word 0x540013e9
+.word 0x540013c9
 .word 0xd280031e
 .word 0x9b1e7c00
 .word 0x8b0002c0
@@ -29037,7 +28891,7 @@ bl _p_284
 .word 0xb9801ac1
 .word 0xeb00003f
 .word 0x10000011
-.word 0x54001289
+.word 0x54001269
 .word 0xd280031e
 .word 0x9b1e7c00
 .word 0x8b0002c0
@@ -29051,8 +28905,8 @@ bl _p_284
 
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+0
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x15, [x16, #4056]
-.word 0x928002f0
+ldr x15, [x16, #4048]
+.word 0x928006f0
 .word 0xf2bffff0
 .word 0xf8706850
 .word 0xd63f0200
@@ -29069,20 +28923,19 @@ ldr x15, [x16, #4056]
 .word 0x54fff90b
 .loc 26 547 0
 .word 0xd280001a
-.word 0x14000056
+.word 0x14000055
 .loc 26 549 0
 .word 0x93407f40
 .word 0xb9801ac1
 .word 0xeb00003f
 .word 0x10000011
-.word 0x54000e49
+.word 0x54000e29
 .word 0xd280031e
 .word 0x9b1e7c00
 .word 0x8b0002c0
 .word 0x91008000
 .word 0xb9800000
-.word 0xd2800001
-.word 0x6b01001f
+.word 0x6b1f001f
 .word 0x5400090b
 .loc 26 551 0
 .word 0x93407f40
@@ -29161,7 +29014,7 @@ ldr x15, [x16, #4056]
 .loc 26 547 0
 .word 0x1100075a
 .word 0x6b15035f
-.word 0x54fff54b
+.word 0x54fff56b
 .loc 26 557 0
 .word 0xf9000b17
 .word 0x91004300
@@ -29198,17 +29051,17 @@ ldr x1, [x16, #16]
 .word 0x910003bf
 .word 0xa8c67bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2801ea0
 .word 0xaa1103e1
 bl _p_9
-.word 0xd2802340
+.word 0xd2802240
 .word 0xaa1103e1
 bl _p_9
-.word 0xd2801960
+.word 0xd2801860
 .word 0xaa1103e1
 bl _p_9
 
-Lme_2be:
+Lme_2bd:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_ObjectEqualityComparer_1_OpenTK_ContextHandle_Equals_OpenTK_ContextHandle_OpenTK_ContextHandle
@@ -29251,7 +29104,7 @@ bl _p_285
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_2bf:
+Lme_2be:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_ObjectEqualityComparer_1_OpenTK_ContextHandle_GetHashCode_OpenTK_ContextHandle
@@ -29271,7 +29124,7 @@ System_Collections_Generic_ObjectEqualityComparer_1_OpenTK_ContextHandle_GetHash
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_2c0:
+Lme_2bf:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_ObjectEqualityComparer_1_OpenTK_ContextHandle_IndexOf_OpenTK_ContextHandle___OpenTK_ContextHandle_int_int
@@ -29364,11 +29217,11 @@ bl _p_285
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2801ea0
 .word 0xaa1103e1
 bl _p_9
 
-Lme_2c1:
+Lme_2c0:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_ObjectEqualityComparer_1_OpenTK_ContextHandle_LastIndexOf_OpenTK_ContextHandle___OpenTK_ContextHandle_int_int
@@ -29462,11 +29315,11 @@ bl _p_285
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
-.word 0xd2801fa0
+.word 0xd2801ea0
 .word 0xaa1103e1
 bl _p_9
 
-Lme_2c2:
+Lme_2c1:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_ObjectEqualityComparer_1_OpenTK_ContextHandle_Equals_object
@@ -29489,20 +29342,19 @@ System_Collections_Generic_ObjectEqualityComparer_1_OpenTK_ContextHandle_Equals_
 
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x1, [x16, #216]
+ldr x1, [x16, #208]
 .word 0xeb01001f
 .word 0x54000040
 .word 0xd2800019
 .loc 29 333 0
-.word 0xd2800000
-.word 0xeb00033f
+.word 0xeb1f033f
 .word 0x9a9f97e0
 .word 0xf9400bb9
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_2c3:
+Lme_2c2:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_ObjectEqualityComparer_1_OpenTK_ContextHandle_GetHashCode
@@ -29528,7 +29380,7 @@ System_Collections_Generic_ObjectEqualityComparer_1_OpenTK_ContextHandle_GetHash
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_2c4:
+Lme_2c3:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_ObjectEqualityComparer_1_OpenTK_ContextHandle__ctor
@@ -29540,7 +29392,7 @@ System_Collections_Generic_ObjectEqualityComparer_1_OpenTK_ContextHandle__ctor:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_2c5:
+Lme_2c4:
 .text
 	.align 3
 jit_code_end:
@@ -30128,7 +29980,6 @@ bl System_Nullable_1_intptr_GetValueOrDefault_intptr
 bl System_Nullable_1_intptr_ToString
 bl System_Nullable_1_intptr_Box_System_Nullable_1_intptr
 bl System_Nullable_1_intptr_Unbox_object
-bl System_Nullable_1_intptr_UnboxExact_object
 bl wrapper_delegate_invoke_System_Action_1_Foundation_NSTimer_invoke_void_T_Foundation_NSTimer
 bl wrapper_delegate_invoke_System_EventHandler_1_OpenTK_FrameEventArgs_invoke_void_object_TEventArgs_object_OpenTK_FrameEventArgs
 bl wrapper_runtime_invoke__Module_runtime_invoke_void__this___Nullable_1_intptr_ColorFormat_int_int_int_ColorFormat_int_byte_object_intptr_intptr_intptr
@@ -30275,8 +30126,8 @@ unbox_trampolines:
 	.long 522,523,524,525,526,527,529,530
 	.long 531,532,561,562,563,564,565,566
 	.long 567,568,569,570,571,572,573,574
-	.long 575,576,577,578,652,653,654,655
-	.long 656,657,665,666,667,668,669,670
+	.long 575,576,577,651,652,653,654,655
+	.long 656,664,665,666,667,668,669
 unbox_trampolines_end:
 
 	.long 0
@@ -30358,19 +30209,18 @@ bl ut_574
 bl ut_575
 bl ut_576
 bl ut_577
-bl ut_578
+bl ut_651
 bl ut_652
 bl ut_653
 bl ut_654
 bl ut_655
 bl ut_656
-bl ut_657
+bl ut_664
 bl ut_665
 bl ut_666
 bl ut_667
 bl ut_668
 bl ut_669
-bl ut_670
 
 	.long 0
 .section __TEXT, __const
@@ -30440,2285 +30290,2285 @@ plt_System_Drawing_KnownColors_GetName_int16:
 _p_1:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #232]
+ldr x16, [x16, #224]
 br x16
-.word 9664
+.word 9621
 	.no_dead_strip plt_System_Drawing_Color_ToArgb
 plt_System_Drawing_Color_ToArgb:
 _p_2:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #240]
+ldr x16, [x16, #232]
 br x16
-.word 9666
+.word 9623
 	.no_dead_strip plt_wrapper_alloc_object_AllocSmall_intptr_intptr
 plt_wrapper_alloc_object_AllocSmall_intptr_intptr:
 _p_3:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #248]
+ldr x16, [x16, #240]
 br x16
-.word 9668
+.word 9625
 	.no_dead_strip plt_string_Format_string_object
 plt_string_Format_string_object:
 _p_4:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #256]
+ldr x16, [x16, #248]
 br x16
-.word 9676
+.word 9633
 	.no_dead_strip plt_System_Drawing_Color_FromKnownColor_System_Drawing_KnownColor
 plt_System_Drawing_Color_FromKnownColor_System_Drawing_KnownColor:
 _p_5:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #264]
+ldr x16, [x16, #256]
 br x16
-.word 9681
+.word 9638
 	.no_dead_strip plt_System_Drawing_Color_CheckARGBValues_int_int_int_int
 plt_System_Drawing_Color_CheckARGBValues_int_int_int_int:
 _p_6:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #272]
+ldr x16, [x16, #264]
 br x16
-.word 9683
+.word 9640
 	.no_dead_strip plt_System_Drawing_Color_get_Value
 plt_System_Drawing_Color_get_Value:
 _p_7:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #280]
+ldr x16, [x16, #272]
 br x16
-.word 9685
+.word 9642
 	.no_dead_strip plt_System_Drawing_Color_FromArgb_int_int_int_int
 plt_System_Drawing_Color_FromArgb_int_int_int_int:
 _p_8:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #288]
+ldr x16, [x16, #280]
 br x16
-.word 9687
+.word 9644
 	.no_dead_strip plt__jit_icall_mono_arch_throw_corlib_exception
 plt__jit_icall_mono_arch_throw_corlib_exception:
 _p_9:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #296]
+ldr x16, [x16, #288]
 br x16
-.word 9689
+.word 9646
 	.no_dead_strip plt_System_Drawing_Color_get_Name
 plt_System_Drawing_Color_get_Name:
 _p_10:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #304]
+ldr x16, [x16, #296]
 br x16
-.word 9724
+.word 9681
 	.no_dead_strip plt_string_op_Inequality_string_string
 plt_string_op_Inequality_string_string:
 _p_11:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #312]
+ldr x16, [x16, #304]
 br x16
-.word 9726
+.word 9683
 	.no_dead_strip plt_System_Drawing_Color_op_Equality_System_Drawing_Color_System_Drawing_Color
 plt_System_Drawing_Color_op_Equality_System_Drawing_Color_System_Drawing_Color:
 _p_12:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #320]
+ldr x16, [x16, #312]
 br x16
-.word 9731
+.word 9688
 	.no_dead_strip plt_string_Concat_string_string_string
 plt_string_Concat_string_string_string:
 _p_13:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #328]
+ldr x16, [x16, #320]
 br x16
-.word 9733
+.word 9690
 	.no_dead_strip plt_wrapper_alloc_object_AllocVector_intptr_intptr
 plt_wrapper_alloc_object_AllocVector_intptr_intptr:
 _p_14:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #336]
+ldr x16, [x16, #328]
 br x16
-.word 9738
+.word 9695
 	.no_dead_strip plt_System_Drawing_Color_get_A
 plt_System_Drawing_Color_get_A:
 _p_15:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #344]
+ldr x16, [x16, #336]
 br x16
-.word 9746
+.word 9703
 	.no_dead_strip plt_System_Drawing_Color_get_R
 plt_System_Drawing_Color_get_R:
 _p_16:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #352]
+ldr x16, [x16, #344]
 br x16
-.word 9748
+.word 9705
 	.no_dead_strip plt_System_Drawing_Color_get_G
 plt_System_Drawing_Color_get_G:
 _p_17:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #360]
+ldr x16, [x16, #352]
 br x16
-.word 9750
+.word 9707
 	.no_dead_strip plt_System_Drawing_Color_get_B
 plt_System_Drawing_Color_get_B:
 _p_18:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #368]
+ldr x16, [x16, #360]
 br x16
-.word 9752
+.word 9709
 	.no_dead_strip plt_string_Format_string_object__
 plt_string_Format_string_object__:
 _p_19:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #376]
+ldr x16, [x16, #368]
 br x16
-.word 9754
+.word 9711
 	.no_dead_strip plt__jit_icall_mono_helper_ldstr
 plt__jit_icall_mono_helper_ldstr:
 _p_20:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #384]
+ldr x16, [x16, #376]
 br x16
-.word 9759
+.word 9716
 	.no_dead_strip plt_System_Drawing_Color_CreateColorArgumentException_int_string
 plt_System_Drawing_Color_CreateColorArgumentException_int_string:
 _p_21:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #392]
+ldr x16, [x16, #384]
 br x16
-.word 9779
+.word 9736
 	.no_dead_strip plt__jit_icall_mono_arch_throw_exception
 plt__jit_icall_mono_arch_throw_exception:
 _p_22:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #400]
+ldr x16, [x16, #392]
 br x16
-.word 9781
+.word 9738
 	.no_dead_strip plt_string_Format_string_object_object
 plt_string_Format_string_object_object:
 _p_23:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #408]
+ldr x16, [x16, #400]
 br x16
-.word 9809
+.word 9766
 	.no_dead_strip plt_System_ArgumentException__ctor_string
 plt_System_ArgumentException__ctor_string:
 _p_24:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #416]
+ldr x16, [x16, #408]
 br x16
-.word 9814
+.word 9771
 	.no_dead_strip plt_System_Drawing_Color_CheckRGBValues_int_int_int
 plt_System_Drawing_Color_CheckRGBValues_int_int_int:
 _p_25:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #424]
+ldr x16, [x16, #416]
 br x16
-.word 9819
+.word 9776
 	.no_dead_strip plt_string_memcpy_byte__byte__int
 plt_string_memcpy_byte__byte__int:
 _p_26:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #432]
+ldr x16, [x16, #424]
 br x16
-.word 9821
-	.no_dead_strip plt__jit_icall_ves_icall_thread_finish_async_abort
-plt__jit_icall_ves_icall_thread_finish_async_abort:
+.word 9778
+	.no_dead_strip plt__jit_icall_mono_thread_self_abort
+plt__jit_icall_mono_thread_self_abort:
 _p_27:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #440]
+ldr x16, [x16, #432]
 br x16
-.word 9826
+.word 9783
 	.no_dead_strip plt_System_GC_SuppressFinalize_object
 plt_System_GC_SuppressFinalize_object:
 _p_28:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #448]
+ldr x16, [x16, #440]
 br x16
-.word 9864
+.word 9808
 	.no_dead_strip plt_intptr_op_Inequality_intptr_intptr
 plt_intptr_op_Inequality_intptr_intptr:
 _p_29:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #456]
+ldr x16, [x16, #448]
 br x16
-.word 9869
+.word 9813
 	.no_dead_strip plt_CoreVideo_CVOpenGLESTexture_CFRelease_intptr
 plt_CoreVideo_CVOpenGLESTexture_CFRelease_intptr:
 _p_30:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #464]
+ldr x16, [x16, #456]
 br x16
-.word 9874
+.word 9818
 	.no_dead_strip plt_CoreVideo_CVOpenGLESTexture_CVOpenGLESTextureGetTarget_intptr
 plt_CoreVideo_CVOpenGLESTexture_CVOpenGLESTextureGetTarget_intptr:
 _p_31:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #472]
+ldr x16, [x16, #464]
 br x16
-.word 9876
+.word 9820
 	.no_dead_strip plt_CoreVideo_CVOpenGLESTexture_CVOpenGLESTextureGetName_intptr
 plt_CoreVideo_CVOpenGLESTexture_CVOpenGLESTextureGetName_intptr:
 _p_32:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #480]
+ldr x16, [x16, #472]
 br x16
-.word 9878
+.word 9822
 	.no_dead_strip plt_CoreVideo_CVOpenGLESTexture_CVOpenGLESTextureIsFlipped_intptr
 plt_CoreVideo_CVOpenGLESTexture_CVOpenGLESTextureIsFlipped_intptr:
 _p_33:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #488]
+ldr x16, [x16, #480]
 br x16
-.word 9880
+.word 9824
 	.no_dead_strip plt_CoreVideo_CVOpenGLESTexture_CVOpenGLESTextureGetCleanTexCoords_intptr_intptr_intptr_intptr_intptr
 plt_CoreVideo_CVOpenGLESTexture_CVOpenGLESTextureGetCleanTexCoords_intptr_intptr_intptr_intptr_intptr:
 _p_34:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #496]
+ldr x16, [x16, #488]
 br x16
-.word 9882
+.word 9826
 	.no_dead_strip plt_CoreVideo_CVOpenGLESTextureCache_CVOpenGLESTextureCacheCreate_intptr_intptr_intptr_intptr_intptr_
 plt_CoreVideo_CVOpenGLESTextureCache_CVOpenGLESTextureCacheCreate_intptr_intptr_intptr_intptr_intptr_:
 _p_35:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #504]
+ldr x16, [x16, #496]
 br x16
-.word 9884
+.word 9828
 	.no_dead_strip plt__jit_icall_ves_icall_object_new_specific
 plt__jit_icall_ves_icall_object_new_specific:
 _p_36:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #512]
+ldr x16, [x16, #504]
 br x16
-.word 9886
+.word 9830
 	.no_dead_strip plt_CoreVideo_CVOpenGLESTextureCache_CVOpenGLESTextureCacheCreateTextureFromImage_intptr_intptr_intptr_intptr_int_OpenTK_Graphics_ES20_All_int_int_OpenTK_Graphics_ES20_All_OpenTK_Graphics_ES20_DataType_intptr_intptr_
 plt_CoreVideo_CVOpenGLESTextureCache_CVOpenGLESTextureCacheCreateTextureFromImage_intptr_intptr_intptr_intptr_int_OpenTK_Graphics_ES20_All_int_int_OpenTK_Graphics_ES20_All_OpenTK_Graphics_ES20_DataType_intptr_intptr_:
 _p_37:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #520]
+ldr x16, [x16, #512]
 br x16
-.word 9918
+.word 9862
 	.no_dead_strip plt_CoreVideo_CVOpenGLESTextureCache_CVOpenGLESTextureCacheFlush_intptr_CoreVideo_CVOptionFlags
 plt_CoreVideo_CVOpenGLESTextureCache_CVOpenGLESTextureCacheFlush_intptr_CoreVideo_CVOptionFlags:
 _p_38:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #528]
+ldr x16, [x16, #520]
 br x16
-.word 9920
+.word 9864
 	.no_dead_strip plt_intptr_ToString
 plt_intptr_ToString:
 _p_39:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #536]
+ldr x16, [x16, #528]
 br x16
-.word 9922
+.word 9866
 	.no_dead_strip plt_OpenTK_Graphics_ColorFormat_op_Equality_OpenTK_Graphics_ColorFormat_OpenTK_Graphics_ColorFormat
 plt_OpenTK_Graphics_ColorFormat_op_Equality_OpenTK_Graphics_ColorFormat_OpenTK_Graphics_ColorFormat:
 _p_40:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #544]
+ldr x16, [x16, #536]
 br x16
-.word 9927
+.word 9871
 	.no_dead_strip plt_int_ToString
 plt_int_ToString:
 _p_41:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #552]
+ldr x16, [x16, #544]
 br x16
-.word 9929
+.word 9873
 	.no_dead_strip plt_string_Concat_string_string_string_string
 plt_string_Concat_string_string_string_string:
 _p_42:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #560]
+ldr x16, [x16, #552]
 br x16
-.word 9934
+.word 9878
 	.no_dead_strip plt_OpenTK_Graphics_ColorFormat__ctor_int
 plt_OpenTK_Graphics_ColorFormat__ctor_int:
 _p_43:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #568]
+ldr x16, [x16, #560]
 br x16
-.word 9939
+.word 9883
 	.no_dead_strip plt__jit_icall_mono_monitor_enter_v4_internal
 plt__jit_icall_mono_monitor_enter_v4_internal:
 _p_44:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #576]
+ldr x16, [x16, #568]
 br x16
-.word 9941
+.word 9885
 	.no_dead_strip plt_OpenTK_Graphics_GraphicsContext_FindSharedContext
 plt_OpenTK_Graphics_GraphicsContext_FindSharedContext:
 _p_45:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #584]
+ldr x16, [x16, #576]
 br x16
-.word 9974
+.word 9918
 	.no_dead_strip plt_OpenTK_Platform_Factory_CreateGLContext_OpenTK_Graphics_GraphicsMode_OpenTK_Platform_IWindowInfo_OpenTK_Graphics_IGraphicsContext_bool_int_int_OpenTK_Graphics_GraphicsContextFlags
 plt_OpenTK_Platform_Factory_CreateGLContext_OpenTK_Graphics_GraphicsMode_OpenTK_Platform_IWindowInfo_OpenTK_Graphics_IGraphicsContext_bool_int_int_OpenTK_Graphics_GraphicsContextFlags:
 _p_46:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #592]
+ldr x16, [x16, #584]
 br x16
-.word 9976
+.word 9920
 	.no_dead_strip plt_OpenTK_Platform_Factory_CreateGetCurrentGraphicsContext
 plt_OpenTK_Platform_Factory_CreateGetCurrentGraphicsContext:
 _p_47:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #600]
+ldr x16, [x16, #592]
 br x16
-.word 9979
+.word 9923
 	.no_dead_strip plt_System_WeakReference__ctor_object
 plt_System_WeakReference__ctor_object:
 _p_48:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #608]
+ldr x16, [x16, #600]
 br x16
-.word 9982
+.word 9926
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference_Add_OpenTK_ContextHandle_System_WeakReference
 plt_System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference_Add_OpenTK_ContextHandle_System_WeakReference:
 _p_49:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #616]
+ldr x16, [x16, #608]
 br x16
-.word 9987
+.word 9931
 	.no_dead_strip plt_System_Threading_Monitor_Exit_object
 plt_System_Threading_Monitor_Exit_object:
 _p_50:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #624]
+ldr x16, [x16, #616]
 br x16
-.word 9998
+.word 9942
 	.no_dead_strip plt_OpenTK_ContextHandle_ToString
 plt_OpenTK_ContextHandle_ToString:
 _p_51:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #632]
+ldr x16, [x16, #624]
 br x16
-.word 10003
+.word 9947
 	.no_dead_strip plt__jit_icall_mono_generic_class_init
 plt__jit_icall_mono_generic_class_init:
 _p_52:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #640]
+ldr x16, [x16, #632]
 br x16
-.word 10005
+.word 9949
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference_get_Values
 plt_System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference_get_Values:
 _p_53:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #648]
+ldr x16, [x16, #640]
 br x16
-.word 10031
+.word 9975
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_ValueCollection_OpenTK_ContextHandle_System_WeakReference_GetEnumerator
 plt_System_Collections_Generic_Dictionary_2_ValueCollection_OpenTK_ContextHandle_System_WeakReference_GetEnumerator:
 _p_54:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #656]
+ldr x16, [x16, #648]
 br x16
-.word 10042
+.word 9986
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_ValueCollection_Enumerator_OpenTK_ContextHandle_System_WeakReference_MoveNext
 plt_System_Collections_Generic_Dictionary_2_ValueCollection_Enumerator_OpenTK_ContextHandle_System_WeakReference_MoveNext:
 _p_55:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #664]
+ldr x16, [x16, #656]
 br x16
-.word 10053
+.word 9997
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference_get_Item_OpenTK_ContextHandle
 plt_System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference_get_Item_OpenTK_ContextHandle:
 _p_56:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #672]
+ldr x16, [x16, #664]
 br x16
-.word 10064
+.word 10008
 	.no_dead_strip plt_OpenTK_Graphics_GraphicsContext_get_CurrentContext
 plt_OpenTK_Graphics_GraphicsContext_get_CurrentContext:
 _p_57:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #680]
+ldr x16, [x16, #672]
 br x16
-.word 10075
+.word 10019
 	.no_dead_strip plt_OpenTK_Graphics_GraphicsContextException__ctor
 plt_OpenTK_Graphics_GraphicsContextException__ctor:
 _p_58:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #688]
+ldr x16, [x16, #680]
 br x16
-.word 10077
+.word 10021
 	.no_dead_strip plt_OpenTK_Graphics_GraphicsContext_Dispose_bool
 plt_OpenTK_Graphics_GraphicsContext_Dispose_bool:
 _p_59:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #696]
+ldr x16, [x16, #688]
 br x16
-.word 10080
+.word 10024
 	.no_dead_strip plt_OpenTK_Graphics_GraphicsContext_get_IsDisposed
 plt_OpenTK_Graphics_GraphicsContext_get_IsDisposed:
 _p_60:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #704]
+ldr x16, [x16, #696]
 br x16
-.word 10083
+.word 10027
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference_Remove_OpenTK_ContextHandle
 plt_System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference_Remove_OpenTK_ContextHandle:
 _p_61:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #712]
+ldr x16, [x16, #704]
 br x16
-.word 10085
+.word 10029
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference__ctor
 plt_System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference__ctor:
 _p_62:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #720]
+ldr x16, [x16, #712]
 br x16
-.word 10096
+.word 10040
 	.no_dead_strip plt_System_Exception__ctor
 plt_System_Exception__ctor:
 _p_63:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #728]
+ldr x16, [x16, #720]
 br x16
-.word 10107
+.word 10051
 	.no_dead_strip plt_OpenTK_Graphics_GraphicsMode_set_Index_System_Nullable_1_intptr
 plt_OpenTK_Graphics_GraphicsMode_set_Index_System_Nullable_1_intptr:
 _p_64:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #736]
+ldr x16, [x16, #728]
 br x16
-.word 10112
+.word 10056
 	.no_dead_strip plt_OpenTK_Graphics_GraphicsMode_set_ColorFormat_OpenTK_Graphics_ColorFormat
 plt_OpenTK_Graphics_GraphicsMode_set_ColorFormat_OpenTK_Graphics_ColorFormat:
 _p_65:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #744]
+ldr x16, [x16, #736]
 br x16
-.word 10115
+.word 10059
 	.no_dead_strip plt_OpenTK_Graphics_GraphicsMode_set_Depth_int
 plt_OpenTK_Graphics_GraphicsMode_set_Depth_int:
 _p_66:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #752]
+ldr x16, [x16, #744]
 br x16
-.word 10118
+.word 10062
 	.no_dead_strip plt_OpenTK_Graphics_GraphicsMode_set_Stencil_int
 plt_OpenTK_Graphics_GraphicsMode_set_Stencil_int:
 _p_67:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #760]
+ldr x16, [x16, #752]
 br x16
-.word 10121
+.word 10065
 	.no_dead_strip plt_OpenTK_Graphics_GraphicsMode_set_Samples_int
 plt_OpenTK_Graphics_GraphicsMode_set_Samples_int:
 _p_68:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #768]
+ldr x16, [x16, #760]
 br x16
-.word 10124
+.word 10068
 	.no_dead_strip plt_OpenTK_Graphics_GraphicsMode_set_AccumulatorFormat_OpenTK_Graphics_ColorFormat
 plt_OpenTK_Graphics_GraphicsMode_set_AccumulatorFormat_OpenTK_Graphics_ColorFormat:
 _p_69:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #776]
+ldr x16, [x16, #768]
 br x16
-.word 10127
+.word 10071
 	.no_dead_strip plt_OpenTK_Graphics_GraphicsMode_set_Buffers_int
 plt_OpenTK_Graphics_GraphicsMode_set_Buffers_int:
 _p_70:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #784]
+ldr x16, [x16, #776]
 br x16
-.word 10130
+.word 10074
 	.no_dead_strip plt_OpenTK_Graphics_GraphicsMode_set_Stereo_bool
 plt_OpenTK_Graphics_GraphicsMode_set_Stereo_bool:
 _p_71:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #792]
+ldr x16, [x16, #784]
 br x16
-.word 10133
+.word 10077
 	.no_dead_strip plt_OpenTK_Graphics_GraphicsMode_LazySelectGraphicsMode
 plt_OpenTK_Graphics_GraphicsMode_LazySelectGraphicsMode:
 _p_72:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #800]
+ldr x16, [x16, #792]
 br x16
-.word 10136
+.word 10080
 	.no_dead_strip plt_OpenTK_Graphics_GraphicsMode_get_Index
 plt_OpenTK_Graphics_GraphicsMode_get_Index:
 _p_73:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #808]
+ldr x16, [x16, #800]
 br x16
-.word 10139
+.word 10083
 	.no_dead_strip plt_OpenTK_Graphics_GraphicsMode_get_ColorFormat
 plt_OpenTK_Graphics_GraphicsMode_get_ColorFormat:
 _p_74:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #816]
+ldr x16, [x16, #808]
 br x16
-.word 10142
+.word 10086
 	.no_dead_strip plt_OpenTK_Graphics_GraphicsMode_get_Depth
 plt_OpenTK_Graphics_GraphicsMode_get_Depth:
 _p_75:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #824]
+ldr x16, [x16, #816]
 br x16
-.word 10145
+.word 10089
 	.no_dead_strip plt_OpenTK_Graphics_GraphicsMode_get_Stencil
 plt_OpenTK_Graphics_GraphicsMode_get_Stencil:
 _p_76:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #832]
+ldr x16, [x16, #824]
 br x16
-.word 10148
+.word 10092
 	.no_dead_strip plt_OpenTK_Graphics_GraphicsMode_get_Samples
 plt_OpenTK_Graphics_GraphicsMode_get_Samples:
 _p_77:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #840]
+ldr x16, [x16, #832]
 br x16
-.word 10151
+.word 10095
 	.no_dead_strip plt_OpenTK_Graphics_GraphicsMode_get_AccumulatorFormat
 plt_OpenTK_Graphics_GraphicsMode_get_AccumulatorFormat:
 _p_78:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #848]
+ldr x16, [x16, #840]
 br x16
-.word 10154
+.word 10098
 	.no_dead_strip plt_OpenTK_Graphics_GraphicsMode_get_Buffers
 plt_OpenTK_Graphics_GraphicsMode_get_Buffers:
 _p_79:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #856]
+ldr x16, [x16, #848]
 br x16
-.word 10157
+.word 10101
 	.no_dead_strip plt_OpenTK_Graphics_GraphicsMode_get_Stereo
 plt_OpenTK_Graphics_GraphicsMode_get_Stereo:
 _p_80:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #864]
+ldr x16, [x16, #856]
 br x16
-.word 10160
+.word 10104
 	.no_dead_strip plt_System_Nullable_1_intptr_Box_System_Nullable_1_intptr
 plt_System_Nullable_1_intptr_Box_System_Nullable_1_intptr:
 _p_81:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #872]
+ldr x16, [x16, #864]
 br x16
-.word 10163
+.word 10107
 	.no_dead_strip plt_System_Nullable_1_intptr_GetHashCode
 plt_System_Nullable_1_intptr_GetHashCode:
 _p_82:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #880]
+ldr x16, [x16, #872]
 br x16
-.word 10185
+.word 10129
 	.no_dead_strip plt_OpenTK_Graphics_GraphicsMode_Equals_OpenTK_Graphics_GraphicsMode
 plt_OpenTK_Graphics_GraphicsMode_Equals_OpenTK_Graphics_GraphicsMode:
 _p_83:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #888]
+ldr x16, [x16, #880]
 br x16
-.word 10207
+.word 10151
 	.no_dead_strip plt_OpenTK_Graphics_ES30_GL_Core_BindFramebuffer_OpenTK_Graphics_ES30_FramebufferTarget_uint
 plt_OpenTK_Graphics_ES30_GL_Core_BindFramebuffer_OpenTK_Graphics_ES30_FramebufferTarget_uint:
 _p_84:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #896]
+ldr x16, [x16, #888]
 br x16
-.word 10210
+.word 10154
 	.no_dead_strip plt_OpenTK_Graphics_ES30_GL_Core_BindRenderbuffer_OpenTK_Graphics_ES30_RenderbufferTarget_uint
 plt_OpenTK_Graphics_ES30_GL_Core_BindRenderbuffer_OpenTK_Graphics_ES30_RenderbufferTarget_uint:
 _p_85:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #904]
+ldr x16, [x16, #896]
 br x16
-.word 10213
+.word 10157
 	.no_dead_strip plt_OpenTK_Graphics_ES30_GL_Core_DeleteFramebuffers_int_uint_
 plt_OpenTK_Graphics_ES30_GL_Core_DeleteFramebuffers_int_uint_:
 _p_86:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #912]
+ldr x16, [x16, #904]
 br x16
-.word 10216
+.word 10160
 	.no_dead_strip plt_OpenTK_Graphics_ES30_GL_Core_DeleteRenderbuffers_int_uint_
 plt_OpenTK_Graphics_ES30_GL_Core_DeleteRenderbuffers_int_uint_:
 _p_87:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #920]
+ldr x16, [x16, #912]
 br x16
-.word 10219
+.word 10163
 	.no_dead_strip plt_OpenTK_Graphics_ES30_GL_Core_FramebufferRenderbuffer_OpenTK_Graphics_ES30_FramebufferTarget_OpenTK_Graphics_ES30_FramebufferSlot_OpenTK_Graphics_ES30_RenderbufferTarget_uint
 plt_OpenTK_Graphics_ES30_GL_Core_FramebufferRenderbuffer_OpenTK_Graphics_ES30_FramebufferTarget_OpenTK_Graphics_ES30_FramebufferSlot_OpenTK_Graphics_ES30_RenderbufferTarget_uint:
 _p_88:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #928]
+ldr x16, [x16, #920]
 br x16
-.word 10222
+.word 10166
 	.no_dead_strip plt_OpenTK_Graphics_ES30_GL_Core_GenFramebuffers_int_uint_
 plt_OpenTK_Graphics_ES30_GL_Core_GenFramebuffers_int_uint_:
 _p_89:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #936]
+ldr x16, [x16, #928]
 br x16
-.word 10225
+.word 10169
 	.no_dead_strip plt_OpenTK_Graphics_ES30_GL_Core_GenRenderbuffers_int_uint_
 plt_OpenTK_Graphics_ES30_GL_Core_GenRenderbuffers_int_uint_:
 _p_90:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #944]
+ldr x16, [x16, #936]
 br x16
-.word 10228
+.word 10172
 	.no_dead_strip plt_OpenTK_Graphics_ES30_GL_Core_GetIntegerv_OpenTK_Graphics_ES30_GetPName_int_
 plt_OpenTK_Graphics_ES30_GL_Core_GetIntegerv_OpenTK_Graphics_ES30_GetPName_int_:
 _p_91:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #952]
+ldr x16, [x16, #944]
 br x16
-.word 10231
+.word 10175
 	.no_dead_strip plt_OpenTK_Graphics_ES30_GL_Core_GetRenderbufferParameteriv_OpenTK_Graphics_ES30_RenderbufferTarget_OpenTK_Graphics_ES30_RenderbufferParameterName_int_
 plt_OpenTK_Graphics_ES30_GL_Core_GetRenderbufferParameteriv_OpenTK_Graphics_ES30_RenderbufferTarget_OpenTK_Graphics_ES30_RenderbufferParameterName_int_:
 _p_92:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #960]
+ldr x16, [x16, #952]
 br x16
-.word 10234
+.word 10178
 	.no_dead_strip plt_OpenTK_Graphics_ES30_GL_Core_PixelStorei_OpenTK_Graphics_ES30_PixelStoreParameter_int
 plt_OpenTK_Graphics_ES30_GL_Core_PixelStorei_OpenTK_Graphics_ES30_PixelStoreParameter_int:
 _p_93:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #968]
+ldr x16, [x16, #960]
 br x16
-.word 10237
+.word 10181
 	.no_dead_strip plt_System_Runtime_InteropServices_GCHandle_Alloc_object_System_Runtime_InteropServices_GCHandleType
 plt_System_Runtime_InteropServices_GCHandle_Alloc_object_System_Runtime_InteropServices_GCHandleType:
 _p_94:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #976]
+ldr x16, [x16, #968]
 br x16
-.word 10240
+.word 10184
 	.no_dead_strip plt_System_Runtime_InteropServices_GCHandle_AddrOfPinnedObject
 plt_System_Runtime_InteropServices_GCHandle_AddrOfPinnedObject:
 _p_95:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #984]
+ldr x16, [x16, #976]
 br x16
-.word 10245
+.word 10189
 	.no_dead_strip plt_OpenTK_Graphics_ES30_GL_Core_ReadPixels_int_int_int_int_OpenTK_Graphics_ES30_PixelFormat_OpenTK_Graphics_ES30_PixelType_intptr
 plt_OpenTK_Graphics_ES30_GL_Core_ReadPixels_int_int_int_int_OpenTK_Graphics_ES30_PixelFormat_OpenTK_Graphics_ES30_PixelType_intptr:
 _p_96:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #992]
+ldr x16, [x16, #984]
 br x16
-.word 10250
+.word 10194
 	.no_dead_strip plt_System_Runtime_InteropServices_GCHandle_Free
 plt_System_Runtime_InteropServices_GCHandle_Free:
 _p_97:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1000]
+ldr x16, [x16, #992]
 br x16
-.word 10253
+.word 10197
 	.no_dead_strip plt_OpenTK_Graphics_ES30_GL_Core_Scissor_int_int_int_int
 plt_OpenTK_Graphics_ES30_GL_Core_Scissor_int_int_int_int:
 _p_98:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1008]
+ldr x16, [x16, #1000]
 br x16
-.word 10258
+.word 10202
 	.no_dead_strip plt_OpenTK_Graphics_ES30_GL_Core_Viewport_int_int_int_int
 plt_OpenTK_Graphics_ES30_GL_Core_Viewport_int_int_int_int:
 _p_99:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1016]
+ldr x16, [x16, #1008]
 br x16
-.word 10261
+.word 10205
 	.no_dead_strip plt_OpenTK_Graphics_ES20_GL_Core_BindFramebuffer_OpenTK_Graphics_ES20_FramebufferTarget_uint
 plt_OpenTK_Graphics_ES20_GL_Core_BindFramebuffer_OpenTK_Graphics_ES20_FramebufferTarget_uint:
 _p_100:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1024]
+ldr x16, [x16, #1016]
 br x16
-.word 10264
+.word 10208
 	.no_dead_strip plt_OpenTK_Graphics_ES20_GL_Core_BindRenderbuffer_OpenTK_Graphics_ES20_RenderbufferTarget_uint
 plt_OpenTK_Graphics_ES20_GL_Core_BindRenderbuffer_OpenTK_Graphics_ES20_RenderbufferTarget_uint:
 _p_101:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1032]
+ldr x16, [x16, #1024]
 br x16
-.word 10267
+.word 10211
 	.no_dead_strip plt_OpenTK_Graphics_ES20_GL_Core_DeleteFramebuffers_int_uint_
 plt_OpenTK_Graphics_ES20_GL_Core_DeleteFramebuffers_int_uint_:
 _p_102:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1040]
+ldr x16, [x16, #1032]
 br x16
-.word 10270
+.word 10214
 	.no_dead_strip plt_OpenTK_Graphics_ES20_GL_Core_DeleteRenderbuffers_int_uint_
 plt_OpenTK_Graphics_ES20_GL_Core_DeleteRenderbuffers_int_uint_:
 _p_103:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1048]
+ldr x16, [x16, #1040]
 br x16
-.word 10273
+.word 10217
 	.no_dead_strip plt_OpenTK_Graphics_ES20_GL_Core_FramebufferRenderbuffer_OpenTK_Graphics_ES20_FramebufferTarget_OpenTK_Graphics_ES20_FramebufferSlot_OpenTK_Graphics_ES20_RenderbufferTarget_uint
 plt_OpenTK_Graphics_ES20_GL_Core_FramebufferRenderbuffer_OpenTK_Graphics_ES20_FramebufferTarget_OpenTK_Graphics_ES20_FramebufferSlot_OpenTK_Graphics_ES20_RenderbufferTarget_uint:
 _p_104:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1056]
+ldr x16, [x16, #1048]
 br x16
-.word 10276
+.word 10220
 	.no_dead_strip plt_OpenTK_Graphics_ES20_GL_Core_GenFramebuffers_int_uint_
 plt_OpenTK_Graphics_ES20_GL_Core_GenFramebuffers_int_uint_:
 _p_105:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1064]
+ldr x16, [x16, #1056]
 br x16
-.word 10279
+.word 10223
 	.no_dead_strip plt_OpenTK_Graphics_ES20_GL_Core_GenRenderbuffers_int_uint_
 plt_OpenTK_Graphics_ES20_GL_Core_GenRenderbuffers_int_uint_:
 _p_106:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1072]
+ldr x16, [x16, #1064]
 br x16
-.word 10282
+.word 10226
 	.no_dead_strip plt_OpenTK_Graphics_ES20_GL_Core_GetIntegerv_OpenTK_Graphics_ES20_GetPName_int_
 plt_OpenTK_Graphics_ES20_GL_Core_GetIntegerv_OpenTK_Graphics_ES20_GetPName_int_:
 _p_107:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1080]
+ldr x16, [x16, #1072]
 br x16
-.word 10285
+.word 10229
 	.no_dead_strip plt_OpenTK_Graphics_ES20_GL_Core_GetRenderbufferParameteriv_OpenTK_Graphics_ES20_RenderbufferTarget_OpenTK_Graphics_ES20_RenderbufferParameterName_int_
 plt_OpenTK_Graphics_ES20_GL_Core_GetRenderbufferParameteriv_OpenTK_Graphics_ES20_RenderbufferTarget_OpenTK_Graphics_ES20_RenderbufferParameterName_int_:
 _p_108:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1088]
+ldr x16, [x16, #1080]
 br x16
-.word 10288
+.word 10232
 	.no_dead_strip plt_OpenTK_Graphics_ES20_GL_Core_PixelStorei_OpenTK_Graphics_ES20_PixelStoreParameter_int
 plt_OpenTK_Graphics_ES20_GL_Core_PixelStorei_OpenTK_Graphics_ES20_PixelStoreParameter_int:
 _p_109:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1096]
+ldr x16, [x16, #1088]
 br x16
-.word 10291
+.word 10235
 	.no_dead_strip plt_OpenTK_Graphics_ES20_GL_Core_ReadPixels_int_int_int_int_OpenTK_Graphics_ES20_PixelFormat_OpenTK_Graphics_ES20_PixelType_intptr
 plt_OpenTK_Graphics_ES20_GL_Core_ReadPixels_int_int_int_int_OpenTK_Graphics_ES20_PixelFormat_OpenTK_Graphics_ES20_PixelType_intptr:
 _p_110:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1104]
+ldr x16, [x16, #1096]
 br x16
-.word 10294
+.word 10238
 	.no_dead_strip plt_OpenTK_Graphics_ES20_GL_Core_Scissor_int_int_int_int
 plt_OpenTK_Graphics_ES20_GL_Core_Scissor_int_int_int_int:
 _p_111:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1112]
+ldr x16, [x16, #1104]
 br x16
-.word 10297
+.word 10241
 	.no_dead_strip plt_OpenTK_Graphics_ES20_GL_Core_Viewport_int_int_int_int
 plt_OpenTK_Graphics_ES20_GL_Core_Viewport_int_int_int_int:
 _p_112:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1120]
+ldr x16, [x16, #1112]
 br x16
-.word 10300
+.word 10244
 	.no_dead_strip plt_OpenTK_Graphics_ES11_GL_Core_GetIntegerv_OpenTK_Graphics_ES11_All_int_
 plt_OpenTK_Graphics_ES11_GL_Core_GetIntegerv_OpenTK_Graphics_ES11_All_int_:
 _p_113:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1128]
+ldr x16, [x16, #1120]
 br x16
-.word 10303
+.word 10247
 	.no_dead_strip plt_OpenTK_Graphics_ES11_GL_Core_PixelStorei_OpenTK_Graphics_ES11_All_int
 plt_OpenTK_Graphics_ES11_GL_Core_PixelStorei_OpenTK_Graphics_ES11_All_int:
 _p_114:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1136]
+ldr x16, [x16, #1128]
 br x16
-.word 10306
+.word 10250
 	.no_dead_strip plt_OpenTK_Graphics_ES11_GL_Core_ReadPixels_int_int_int_int_OpenTK_Graphics_ES11_All_OpenTK_Graphics_ES11_All_intptr
 plt_OpenTK_Graphics_ES11_GL_Core_ReadPixels_int_int_int_int_OpenTK_Graphics_ES11_All_OpenTK_Graphics_ES11_All_intptr:
 _p_115:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1144]
+ldr x16, [x16, #1136]
 br x16
-.word 10309
+.word 10253
 	.no_dead_strip plt_OpenTK_Graphics_ES11_GL_Core_Scissor_int_int_int_int
 plt_OpenTK_Graphics_ES11_GL_Core_Scissor_int_int_int_int:
 _p_116:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1152]
+ldr x16, [x16, #1144]
 br x16
-.word 10312
+.word 10256
 	.no_dead_strip plt_OpenTK_Graphics_ES11_GL_Core_Viewport_int_int_int_int
 plt_OpenTK_Graphics_ES11_GL_Core_Viewport_int_int_int_int:
 _p_117:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1160]
+ldr x16, [x16, #1152]
 br x16
-.word 10315
+.word 10259
 	.no_dead_strip plt_OpenTK_Graphics_ES11_GL_Core_BindFramebufferOES_OpenTK_Graphics_ES11_All_uint
 plt_OpenTK_Graphics_ES11_GL_Core_BindFramebufferOES_OpenTK_Graphics_ES11_All_uint:
 _p_118:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1168]
+ldr x16, [x16, #1160]
 br x16
-.word 10318
+.word 10262
 	.no_dead_strip plt_OpenTK_Graphics_ES11_GL_Core_BindRenderbufferOES_OpenTK_Graphics_ES11_All_uint
 plt_OpenTK_Graphics_ES11_GL_Core_BindRenderbufferOES_OpenTK_Graphics_ES11_All_uint:
 _p_119:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1176]
+ldr x16, [x16, #1168]
 br x16
-.word 10321
+.word 10265
 	.no_dead_strip plt_OpenTK_Graphics_ES11_GL_Core_DeleteFramebuffersOES_int_uint_
 plt_OpenTK_Graphics_ES11_GL_Core_DeleteFramebuffersOES_int_uint_:
 _p_120:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1184]
+ldr x16, [x16, #1176]
 br x16
-.word 10324
+.word 10268
 	.no_dead_strip plt_OpenTK_Graphics_ES11_GL_Core_DeleteRenderbuffersOES_int_uint_
 plt_OpenTK_Graphics_ES11_GL_Core_DeleteRenderbuffersOES_int_uint_:
 _p_121:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1192]
+ldr x16, [x16, #1184]
 br x16
-.word 10327
+.word 10271
 	.no_dead_strip plt_OpenTK_Graphics_ES11_GL_Core_FramebufferRenderbufferOES_OpenTK_Graphics_ES11_All_OpenTK_Graphics_ES11_All_OpenTK_Graphics_ES11_All_uint
 plt_OpenTK_Graphics_ES11_GL_Core_FramebufferRenderbufferOES_OpenTK_Graphics_ES11_All_OpenTK_Graphics_ES11_All_OpenTK_Graphics_ES11_All_uint:
 _p_122:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1200]
+ldr x16, [x16, #1192]
 br x16
-.word 10330
+.word 10274
 	.no_dead_strip plt_OpenTK_Graphics_ES11_GL_Core_GenFramebuffersOES_int_uint_
 plt_OpenTK_Graphics_ES11_GL_Core_GenFramebuffersOES_int_uint_:
 _p_123:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1208]
+ldr x16, [x16, #1200]
 br x16
-.word 10333
+.word 10277
 	.no_dead_strip plt_OpenTK_Graphics_ES11_GL_Core_GenRenderbuffersOES_int_uint_
 plt_OpenTK_Graphics_ES11_GL_Core_GenRenderbuffersOES_int_uint_:
 _p_124:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1216]
+ldr x16, [x16, #1208]
 br x16
-.word 10336
+.word 10280
 	.no_dead_strip plt_OpenTK_Graphics_ES11_GL_Core_GetRenderbufferParameterivOES_OpenTK_Graphics_ES11_All_OpenTK_Graphics_ES11_All_int_
 plt_OpenTK_Graphics_ES11_GL_Core_GetRenderbufferParameterivOES_OpenTK_Graphics_ES11_All_OpenTK_Graphics_ES11_All_int_:
 _p_125:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1224]
+ldr x16, [x16, #1216]
 br x16
-.word 10339
+.word 10283
 	.no_dead_strip plt_OpenTK_Platform_iPhoneOS_iPhoneOSGraphicsContext__ctor_OpenTK_Graphics_GraphicsMode_OpenTK_Platform_IWindowInfo_OpenTK_Graphics_IGraphicsContext_int_int_OpenTK_Graphics_GraphicsContextFlags
 plt_OpenTK_Platform_iPhoneOS_iPhoneOSGraphicsContext__ctor_OpenTK_Graphics_GraphicsMode_OpenTK_Platform_IWindowInfo_OpenTK_Graphics_IGraphicsContext_int_int_OpenTK_Graphics_GraphicsContextFlags:
 _p_126:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1232]
+ldr x16, [x16, #1224]
 br x16
-.word 10342
+.word 10286
 	.no_dead_strip plt_OpenGLES_EAGLContext_get_CurrentContext
 plt_OpenGLES_EAGLContext_get_CurrentContext:
 _p_127:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1240]
+ldr x16, [x16, #1232]
 br x16
-.word 10345
+.word 10289
 	.no_dead_strip plt_OpenTK_Graphics_GraphicsContext__ctor_OpenTK_Graphics_GraphicsMode_OpenTK_Platform_IWindowInfo_int_int_OpenTK_Graphics_GraphicsContextFlags
 plt_OpenTK_Graphics_GraphicsContext__ctor_OpenTK_Graphics_GraphicsMode_OpenTK_Platform_IWindowInfo_int_int_OpenTK_Graphics_GraphicsContextFlags:
 _p_128:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1248]
+ldr x16, [x16, #1240]
 br x16
-.word 10350
+.word 10294
 	.no_dead_strip plt_OpenTK_Graphics_GraphicsContext_MakeCurrent_OpenTK_Platform_IWindowInfo
 plt_OpenTK_Graphics_GraphicsContext_MakeCurrent_OpenTK_Platform_IWindowInfo:
 _p_129:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1256]
+ldr x16, [x16, #1248]
 br x16
-.word 10352
+.word 10296
 	.no_dead_strip plt_string_Concat_object_object
 plt_string_Concat_object_object:
 _p_130:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1264]
+ldr x16, [x16, #1256]
 br x16
-.word 10354
+.word 10298
 	.no_dead_strip plt_OpenTK_Platform_Utilities_CreateGraphicsContext_OpenTK_Graphics_GraphicsMode_OpenTK_Platform_IWindowInfo_int_int_OpenTK_Graphics_GraphicsContextFlags
 plt_OpenTK_Platform_Utilities_CreateGraphicsContext_OpenTK_Graphics_GraphicsMode_OpenTK_Platform_IWindowInfo_int_int_OpenTK_Graphics_GraphicsContextFlags:
 _p_131:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1272]
+ldr x16, [x16, #1264]
 br x16
-.word 10359
+.word 10303
 	.no_dead_strip plt_OpenTK_Platform_iPhoneOS_GLCalls_CreateES1
 plt_OpenTK_Platform_iPhoneOS_GLCalls_CreateES1:
 _p_132:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1280]
+ldr x16, [x16, #1272]
 br x16
-.word 10362
+.word 10306
 	.no_dead_strip plt_OpenTK_Platform_iPhoneOS_GLCalls_CreateES2
 plt_OpenTK_Platform_iPhoneOS_GLCalls_CreateES2:
 _p_133:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1288]
+ldr x16, [x16, #1280]
 br x16
-.word 10365
+.word 10309
 	.no_dead_strip plt_OpenTK_Platform_iPhoneOS_GLCalls_CreateES3
 plt_OpenTK_Platform_iPhoneOS_GLCalls_CreateES3:
 _p_134:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1296]
+ldr x16, [x16, #1288]
 br x16
-.word 10368
+.word 10312
 	.no_dead_strip plt_OpenTK_Graphics_ES11_GL_Oes_BindFramebuffer_OpenTK_Graphics_ES11_All_int
 plt_OpenTK_Graphics_ES11_GL_Oes_BindFramebuffer_OpenTK_Graphics_ES11_All_int:
 _p_135:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1304]
+ldr x16, [x16, #1296]
 br x16
-.word 10371
+.word 10315
 	.no_dead_strip plt_OpenTK_Graphics_ES11_GL_Oes_BindRenderbuffer_OpenTK_Graphics_ES11_All_int
 plt_OpenTK_Graphics_ES11_GL_Oes_BindRenderbuffer_OpenTK_Graphics_ES11_All_int:
 _p_136:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1312]
+ldr x16, [x16, #1304]
 br x16
-.word 10374
+.word 10318
 	.no_dead_strip plt_OpenTK_Graphics_ES11_GL_Oes_DeleteFramebuffers_int_int_
 plt_OpenTK_Graphics_ES11_GL_Oes_DeleteFramebuffers_int_int_:
 _p_137:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1320]
+ldr x16, [x16, #1312]
 br x16
-.word 10377
+.word 10321
 	.no_dead_strip plt_OpenTK_Graphics_ES11_GL_Oes_DeleteRenderbuffers_int_int_
 plt_OpenTK_Graphics_ES11_GL_Oes_DeleteRenderbuffers_int_int_:
 _p_138:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1328]
+ldr x16, [x16, #1320]
 br x16
-.word 10380
+.word 10324
 	.no_dead_strip plt_OpenTK_Graphics_ES11_GL_Oes_FramebufferRenderbuffer_OpenTK_Graphics_ES11_All_OpenTK_Graphics_ES11_All_OpenTK_Graphics_ES11_All_int
 plt_OpenTK_Graphics_ES11_GL_Oes_FramebufferRenderbuffer_OpenTK_Graphics_ES11_All_OpenTK_Graphics_ES11_All_OpenTK_Graphics_ES11_All_int:
 _p_139:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1336]
+ldr x16, [x16, #1328]
 br x16
-.word 10383
+.word 10327
 	.no_dead_strip plt_OpenTK_Graphics_ES11_GL_Oes_GenFramebuffers_int_int_
 plt_OpenTK_Graphics_ES11_GL_Oes_GenFramebuffers_int_int_:
 _p_140:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1344]
+ldr x16, [x16, #1336]
 br x16
-.word 10386
+.word 10330
 	.no_dead_strip plt_OpenTK_Graphics_ES11_GL_Oes_GenRenderbuffers_int_int_
 plt_OpenTK_Graphics_ES11_GL_Oes_GenRenderbuffers_int_int_:
 _p_141:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1352]
+ldr x16, [x16, #1344]
 br x16
-.word 10389
+.word 10333
 	.no_dead_strip plt_OpenTK_Graphics_ES11_GL_GetInteger_OpenTK_Graphics_ES11_All_int_
 plt_OpenTK_Graphics_ES11_GL_GetInteger_OpenTK_Graphics_ES11_All_int_:
 _p_142:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1360]
+ldr x16, [x16, #1352]
 br x16
-.word 10392
+.word 10336
 	.no_dead_strip plt_OpenTK_Graphics_ES11_GL_Scissor_int_int_int_int
 plt_OpenTK_Graphics_ES11_GL_Scissor_int_int_int_int:
 _p_143:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1368]
+ldr x16, [x16, #1360]
 br x16
-.word 10395
+.word 10339
 	.no_dead_strip plt_OpenTK_Graphics_ES11_GL_Viewport_int_int_int_int
 plt_OpenTK_Graphics_ES11_GL_Viewport_int_int_int_int:
 _p_144:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1376]
+ldr x16, [x16, #1368]
 br x16
-.word 10398
+.word 10342
 	.no_dead_strip plt_OpenTK_Graphics_ES11_GL_Oes_GetRenderbufferParameter_OpenTK_Graphics_ES11_All_OpenTK_Graphics_ES11_All_int_
 plt_OpenTK_Graphics_ES11_GL_Oes_GetRenderbufferParameter_OpenTK_Graphics_ES11_All_OpenTK_Graphics_ES11_All_int_:
 _p_145:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1384]
+ldr x16, [x16, #1376]
 br x16
-.word 10401
+.word 10345
 	.no_dead_strip plt_OpenTK_Graphics_ES11_GL_PixelStore_OpenTK_Graphics_ES11_All_int
 plt_OpenTK_Graphics_ES11_GL_PixelStore_OpenTK_Graphics_ES11_All_int:
 _p_146:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1392]
+ldr x16, [x16, #1384]
 br x16
-.word 10404
+.word 10348
 	.no_dead_strip plt_OpenTK_Graphics_ES11_GL_ReadPixels_byte_int_int_int_int_OpenTK_Graphics_ES11_All_OpenTK_Graphics_ES11_All_byte__
 plt_OpenTK_Graphics_ES11_GL_ReadPixels_byte_int_int_int_int_OpenTK_Graphics_ES11_All_OpenTK_Graphics_ES11_All_byte__:
 _p_147:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1400]
+ldr x16, [x16, #1392]
 br x16
-.word 10407
+.word 10351
 	.no_dead_strip plt_OpenTK_Graphics_ES20_GL_BindFramebuffer_OpenTK_Graphics_ES20_FramebufferTarget_int
 plt_OpenTK_Graphics_ES20_GL_BindFramebuffer_OpenTK_Graphics_ES20_FramebufferTarget_int:
 _p_148:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1408]
+ldr x16, [x16, #1400]
 br x16
-.word 10419
+.word 10363
 	.no_dead_strip plt_OpenTK_Graphics_ES20_GL_BindRenderbuffer_OpenTK_Graphics_ES20_RenderbufferTarget_int
 plt_OpenTK_Graphics_ES20_GL_BindRenderbuffer_OpenTK_Graphics_ES20_RenderbufferTarget_int:
 _p_149:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1416]
+ldr x16, [x16, #1408]
 br x16
-.word 10422
+.word 10366
 	.no_dead_strip plt_OpenTK_Graphics_ES20_GL_DeleteFramebuffers_int_int_
 plt_OpenTK_Graphics_ES20_GL_DeleteFramebuffers_int_int_:
 _p_150:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1424]
+ldr x16, [x16, #1416]
 br x16
-.word 10425
+.word 10369
 	.no_dead_strip plt_OpenTK_Graphics_ES20_GL_DeleteRenderbuffers_int_int_
 plt_OpenTK_Graphics_ES20_GL_DeleteRenderbuffers_int_int_:
 _p_151:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1432]
+ldr x16, [x16, #1424]
 br x16
-.word 10428
+.word 10372
 	.no_dead_strip plt_OpenTK_Graphics_ES20_GL_FramebufferRenderbuffer_OpenTK_Graphics_ES20_FramebufferTarget_OpenTK_Graphics_ES20_FramebufferSlot_OpenTK_Graphics_ES20_RenderbufferTarget_int
 plt_OpenTK_Graphics_ES20_GL_FramebufferRenderbuffer_OpenTK_Graphics_ES20_FramebufferTarget_OpenTK_Graphics_ES20_FramebufferSlot_OpenTK_Graphics_ES20_RenderbufferTarget_int:
 _p_152:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1440]
+ldr x16, [x16, #1432]
 br x16
-.word 10431
+.word 10375
 	.no_dead_strip plt_OpenTK_Graphics_ES20_GL_GenFramebuffers_int_int_
 plt_OpenTK_Graphics_ES20_GL_GenFramebuffers_int_int_:
 _p_153:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1448]
+ldr x16, [x16, #1440]
 br x16
-.word 10434
+.word 10378
 	.no_dead_strip plt_OpenTK_Graphics_ES20_GL_GenRenderbuffers_int_int_
 plt_OpenTK_Graphics_ES20_GL_GenRenderbuffers_int_int_:
 _p_154:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1456]
+ldr x16, [x16, #1448]
 br x16
-.word 10437
+.word 10381
 	.no_dead_strip plt_OpenTK_Graphics_ES20_GL_GetInteger_OpenTK_Graphics_ES20_GetPName_int_
 plt_OpenTK_Graphics_ES20_GL_GetInteger_OpenTK_Graphics_ES20_GetPName_int_:
 _p_155:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1464]
+ldr x16, [x16, #1456]
 br x16
-.word 10440
+.word 10384
 	.no_dead_strip plt_OpenTK_Graphics_ES20_GL_Scissor_int_int_int_int
 plt_OpenTK_Graphics_ES20_GL_Scissor_int_int_int_int:
 _p_156:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1472]
+ldr x16, [x16, #1464]
 br x16
-.word 10443
+.word 10387
 	.no_dead_strip plt_OpenTK_Graphics_ES20_GL_Viewport_int_int_int_int
 plt_OpenTK_Graphics_ES20_GL_Viewport_int_int_int_int:
 _p_157:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1480]
+ldr x16, [x16, #1472]
 br x16
-.word 10446
+.word 10390
 	.no_dead_strip plt_OpenTK_Graphics_ES20_GL_GetRenderbufferParameter_OpenTK_Graphics_ES20_RenderbufferTarget_OpenTK_Graphics_ES20_RenderbufferParameterName_int_
 plt_OpenTK_Graphics_ES20_GL_GetRenderbufferParameter_OpenTK_Graphics_ES20_RenderbufferTarget_OpenTK_Graphics_ES20_RenderbufferParameterName_int_:
 _p_158:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1488]
+ldr x16, [x16, #1480]
 br x16
-.word 10449
+.word 10393
 	.no_dead_strip plt_OpenTK_Graphics_ES20_GL_PixelStore_OpenTK_Graphics_ES20_PixelStoreParameter_int
 plt_OpenTK_Graphics_ES20_GL_PixelStore_OpenTK_Graphics_ES20_PixelStoreParameter_int:
 _p_159:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1496]
+ldr x16, [x16, #1488]
 br x16
-.word 10452
+.word 10396
 	.no_dead_strip plt_OpenTK_Graphics_ES20_GL_ReadPixels_byte_int_int_int_int_OpenTK_Graphics_ES20_PixelFormat_OpenTK_Graphics_ES20_PixelType_byte__
 plt_OpenTK_Graphics_ES20_GL_ReadPixels_byte_int_int_int_int_OpenTK_Graphics_ES20_PixelFormat_OpenTK_Graphics_ES20_PixelType_byte__:
 _p_160:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1504]
+ldr x16, [x16, #1496]
 br x16
-.word 10455
+.word 10399
 	.no_dead_strip plt_OpenTK_Graphics_ES30_GL_BindFramebuffer_OpenTK_Graphics_ES30_FramebufferTarget_int
 plt_OpenTK_Graphics_ES30_GL_BindFramebuffer_OpenTK_Graphics_ES30_FramebufferTarget_int:
 _p_161:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1512]
+ldr x16, [x16, #1504]
 br x16
-.word 10467
+.word 10411
 	.no_dead_strip plt_OpenTK_Graphics_ES30_GL_BindRenderbuffer_OpenTK_Graphics_ES30_RenderbufferTarget_int
 plt_OpenTK_Graphics_ES30_GL_BindRenderbuffer_OpenTK_Graphics_ES30_RenderbufferTarget_int:
 _p_162:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1520]
+ldr x16, [x16, #1512]
 br x16
-.word 10470
+.word 10414
 	.no_dead_strip plt_OpenTK_Graphics_ES30_GL_DeleteFramebuffers_int_int_
 plt_OpenTK_Graphics_ES30_GL_DeleteFramebuffers_int_int_:
 _p_163:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1528]
+ldr x16, [x16, #1520]
 br x16
-.word 10473
+.word 10417
 	.no_dead_strip plt_OpenTK_Graphics_ES30_GL_DeleteRenderbuffers_int_int_
 plt_OpenTK_Graphics_ES30_GL_DeleteRenderbuffers_int_int_:
 _p_164:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1536]
+ldr x16, [x16, #1528]
 br x16
-.word 10476
+.word 10420
 	.no_dead_strip plt_OpenTK_Graphics_ES30_GL_FramebufferRenderbuffer_OpenTK_Graphics_ES30_FramebufferTarget_OpenTK_Graphics_ES30_FramebufferSlot_OpenTK_Graphics_ES30_RenderbufferTarget_int
 plt_OpenTK_Graphics_ES30_GL_FramebufferRenderbuffer_OpenTK_Graphics_ES30_FramebufferTarget_OpenTK_Graphics_ES30_FramebufferSlot_OpenTK_Graphics_ES30_RenderbufferTarget_int:
 _p_165:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1544]
+ldr x16, [x16, #1536]
 br x16
-.word 10479
+.word 10423
 	.no_dead_strip plt_OpenTK_Graphics_ES30_GL_GenFramebuffers_int_int_
 plt_OpenTK_Graphics_ES30_GL_GenFramebuffers_int_int_:
 _p_166:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1552]
+ldr x16, [x16, #1544]
 br x16
-.word 10482
+.word 10426
 	.no_dead_strip plt_OpenTK_Graphics_ES30_GL_GenRenderbuffers_int_int_
 plt_OpenTK_Graphics_ES30_GL_GenRenderbuffers_int_int_:
 _p_167:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1560]
+ldr x16, [x16, #1552]
 br x16
-.word 10485
+.word 10429
 	.no_dead_strip plt_OpenTK_Graphics_ES30_GL_GetInteger_OpenTK_Graphics_ES30_GetPName_int_
 plt_OpenTK_Graphics_ES30_GL_GetInteger_OpenTK_Graphics_ES30_GetPName_int_:
 _p_168:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1568]
+ldr x16, [x16, #1560]
 br x16
-.word 10488
+.word 10432
 	.no_dead_strip plt_OpenTK_Graphics_ES30_GL_Scissor_int_int_int_int
 plt_OpenTK_Graphics_ES30_GL_Scissor_int_int_int_int:
 _p_169:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1576]
+ldr x16, [x16, #1568]
 br x16
-.word 10491
+.word 10435
 	.no_dead_strip plt_OpenTK_Graphics_ES30_GL_Viewport_int_int_int_int
 plt_OpenTK_Graphics_ES30_GL_Viewport_int_int_int_int:
 _p_170:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1584]
+ldr x16, [x16, #1576]
 br x16
-.word 10494
+.word 10438
 	.no_dead_strip plt_OpenTK_Graphics_ES30_GL_GetRenderbufferParameter_OpenTK_Graphics_ES30_RenderbufferTarget_OpenTK_Graphics_ES30_RenderbufferParameterName_int_
 plt_OpenTK_Graphics_ES30_GL_GetRenderbufferParameter_OpenTK_Graphics_ES30_RenderbufferTarget_OpenTK_Graphics_ES30_RenderbufferParameterName_int_:
 _p_171:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1592]
+ldr x16, [x16, #1584]
 br x16
-.word 10497
+.word 10441
 	.no_dead_strip plt_OpenTK_Graphics_ES30_GL_PixelStore_OpenTK_Graphics_ES30_PixelStoreParameter_int
 plt_OpenTK_Graphics_ES30_GL_PixelStore_OpenTK_Graphics_ES30_PixelStoreParameter_int:
 _p_172:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1600]
+ldr x16, [x16, #1592]
 br x16
-.word 10500
+.word 10444
 	.no_dead_strip plt_OpenTK_Graphics_ES30_GL_ReadPixels_byte_int_int_int_int_OpenTK_Graphics_ES30_PixelFormat_OpenTK_Graphics_ES30_PixelType_byte__
 plt_OpenTK_Graphics_ES30_GL_ReadPixels_byte_int_int_int_int_OpenTK_Graphics_ES30_PixelFormat_OpenTK_Graphics_ES30_PixelType_byte__:
 _p_173:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1608]
+ldr x16, [x16, #1600]
 br x16
-.word 10503
+.word 10447
 	.no_dead_strip plt_Foundation_NSObject__ctor
 plt_Foundation_NSObject__ctor:
 _p_174:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1616]
+ldr x16, [x16, #1608]
 br x16
-.word 10515
+.word 10459
 	.no_dead_strip plt_CoreAnimation_CADisplayLink_Create_Foundation_NSObject_ObjCRuntime_Selector
 plt_CoreAnimation_CADisplayLink_Create_Foundation_NSObject_ObjCRuntime_Selector:
 _p_175:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1624]
+ldr x16, [x16, #1616]
 br x16
-.word 10520
+.word 10464
 	.no_dead_strip plt_Foundation_NSRunLoop_get_Main
 plt_Foundation_NSRunLoop_get_Main:
 _p_176:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1632]
+ldr x16, [x16, #1624]
 br x16
-.word 10525
+.word 10469
 	.no_dead_strip plt_Foundation_NSRunLoop_get_NSDefaultRunLoopMode
 plt_Foundation_NSRunLoop_get_NSDefaultRunLoopMode:
 _p_177:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1640]
+ldr x16, [x16, #1632]
 br x16
-.word 10530
+.word 10474
 	.no_dead_strip plt_OpenTK_Platform_iPhoneOS_iPhoneOSGameView_RunIteration_Foundation_NSTimer
 plt_OpenTK_Platform_iPhoneOS_iPhoneOSGameView_RunIteration_Foundation_NSTimer:
 _p_178:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1648]
+ldr x16, [x16, #1640]
 br x16
-.word 10535
+.word 10479
 	.no_dead_strip plt_ObjCRuntime_Selector__ctor_string
 plt_ObjCRuntime_Selector__ctor_string:
 _p_179:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1656]
+ldr x16, [x16, #1648]
 br x16
-.word 10538
+.word 10482
 	.no_dead_strip plt_Foundation_NSTimer_CreateRepeatingScheduledTimer_System_TimeSpan_System_Action_1_Foundation_NSTimer
 plt_Foundation_NSTimer_CreateRepeatingScheduledTimer_System_TimeSpan_System_Action_1_Foundation_NSTimer:
 _p_180:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1664]
+ldr x16, [x16, #1656]
 br x16
-.word 10543
+.word 10487
 	.no_dead_strip plt_UIKit_UIView__ctor_Foundation_NSCoder
 plt_UIKit_UIView__ctor_Foundation_NSCoder:
 _p_181:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1672]
+ldr x16, [x16, #1664]
 br x16
-.word 10548
+.word 10492
 	.no_dead_strip plt_UIKit_UIView__ctor_CoreGraphics_CGRect
 plt_UIKit_UIView__ctor_CoreGraphics_CGRect:
 _p_182:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1680]
+ldr x16, [x16, #1672]
 br x16
-.word 10553
+.word 10497
 	.no_dead_strip plt_ObjCRuntime_Class__ctor_System_Type
 plt_ObjCRuntime_Class__ctor_System_Type:
 _p_183:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1688]
+ldr x16, [x16, #1680]
 br x16
-.word 10558
+.word 10502
 	.no_dead_strip plt_OpenTK_Platform_iPhoneOS_iPhoneOSGameView_AssertValid
 plt_OpenTK_Platform_iPhoneOS_iPhoneOSGameView_AssertValid:
 _p_184:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1696]
+ldr x16, [x16, #1688]
 br x16
-.word 10563
+.word 10507
 	.no_dead_strip plt_OpenTK_Platform_iPhoneOS_iPhoneOSGameView_GetViewController
 plt_OpenTK_Platform_iPhoneOS_iPhoneOSGameView_GetViewController:
 _p_185:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1704]
+ldr x16, [x16, #1696]
 br x16
-.word 10566
+.word 10510
 	.no_dead_strip plt_UIKit_UIView_get_Hidden
 plt_UIKit_UIView_get_Hidden:
 _p_186:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1712]
+ldr x16, [x16, #1704]
 br x16
-.word 10569
+.word 10513
 	.no_dead_strip plt_UIKit_UIView_set_Hidden_bool
 plt_UIKit_UIView_set_Hidden_bool:
 _p_187:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1720]
+ldr x16, [x16, #1712]
 br x16
-.word 10574
+.word 10518
 	.no_dead_strip plt_System_Drawing_Size_op_Inequality_System_Drawing_Size_System_Drawing_Size
 plt_System_Drawing_Size_op_Inequality_System_Drawing_Size_System_Drawing_Size:
 _p_188:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1728]
+ldr x16, [x16, #1720]
 br x16
-.word 10579
+.word 10523
 	.no_dead_strip plt_OpenTK_Platform_iPhoneOS_iPhoneOSGameView_get_LayerColorFormat
 plt_OpenTK_Platform_iPhoneOS_iPhoneOSGameView_get_LayerColorFormat:
 _p_189:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1736]
+ldr x16, [x16, #1728]
 br x16
-.word 10584
+.word 10528
 	.no_dead_strip plt_Foundation_NSString_op_Equality_Foundation_NSString_Foundation_NSString
 plt_Foundation_NSString_op_Equality_Foundation_NSString_Foundation_NSString:
 _p_190:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1744]
+ldr x16, [x16, #1736]
 br x16
-.word 10587
+.word 10531
 	.no_dead_strip plt_OpenTK_Platform_iPhoneOS_iPhoneOSGameView_get_LayerRetainsBacking
 plt_OpenTK_Platform_iPhoneOS_iPhoneOSGameView_get_LayerRetainsBacking:
 _p_191:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1752]
+ldr x16, [x16, #1744]
 br x16
-.word 10592
+.word 10536
 	.no_dead_strip plt_Foundation_NSNumber_FromBoolean_bool
 plt_Foundation_NSNumber_FromBoolean_bool:
 _p_192:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1760]
+ldr x16, [x16, #1752]
 br x16
-.word 10595
+.word 10539
 	.no_dead_strip plt_Foundation_NSDictionary_FromObjectsAndKeys_Foundation_NSObject___Foundation_NSObject__
 plt_Foundation_NSDictionary_FromObjectsAndKeys_Foundation_NSObject___Foundation_NSObject__:
 _p_193:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1768]
+ldr x16, [x16, #1760]
 br x16
-.word 10600
+.word 10544
 	.no_dead_strip plt_OpenTK_Platform_iPhoneOS_iPhoneOSGameView_get_ContextRenderingApi
 plt_OpenTK_Platform_iPhoneOS_iPhoneOSGameView_get_ContextRenderingApi:
 _p_194:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1776]
+ldr x16, [x16, #1768]
 br x16
-.word 10605
+.word 10549
 	.no_dead_strip plt_OpenTK_Platform_Utilities_CreateGraphicsContext_OpenGLES_EAGLRenderingAPI
 plt_OpenTK_Platform_Utilities_CreateGraphicsContext_OpenGLES_EAGLRenderingAPI:
 _p_195:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1784]
+ldr x16, [x16, #1776]
 br x16
-.word 10608
+.word 10552
 	.no_dead_strip plt_OpenTK_Platform_iPhoneOS_GLCalls_GetGLCalls_OpenGLES_EAGLRenderingAPI
 plt_OpenTK_Platform_iPhoneOS_GLCalls_GetGLCalls_OpenGLES_EAGLRenderingAPI:
 _p_196:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1792]
+ldr x16, [x16, #1784]
 br x16
-.word 10611
+.word 10555
 	.no_dead_strip plt_OpenTK_Platform_iPhoneOS_iPhoneOSGameView_get_EAGLContext
 plt_OpenTK_Platform_iPhoneOS_iPhoneOSGameView_get_EAGLContext:
 _p_197:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1800]
+ldr x16, [x16, #1792]
 br x16
-.word 10614
+.word 10558
 	.no_dead_strip plt_System_Math_Round_double
 plt_System_Math_Round_double:
 _p_198:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1808]
+ldr x16, [x16, #1800]
 br x16
-.word 10617
+.word 10561
 	.no_dead_strip plt_OpenTK_Platform_iPhoneOS_iPhoneOSGameView_set_Size_System_Drawing_Size
 plt_OpenTK_Platform_iPhoneOS_iPhoneOSGameView_set_Size_System_Drawing_Size:
 _p_199:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1816]
+ldr x16, [x16, #1808]
 br x16
-.word 10622
+.word 10566
 	.no_dead_strip plt_OpenTK_Platform_iPhoneOS_iPhoneOSGameView_AssertContext
 plt_OpenTK_Platform_iPhoneOS_iPhoneOSGameView_AssertContext:
 _p_200:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1824]
+ldr x16, [x16, #1816]
 br x16
-.word 10625
+.word 10569
 	.no_dead_strip plt_OpenGLES_EAGLContext_SetCurrentContext_OpenGLES_EAGLContext
 plt_OpenGLES_EAGLContext_SetCurrentContext_OpenGLES_EAGLContext:
 _p_201:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1832]
+ldr x16, [x16, #1824]
 br x16
-.word 10628
+.word 10572
 	.no_dead_strip plt_System_Diagnostics_Stopwatch_Stop
 plt_System_Diagnostics_Stopwatch_Stop:
 _p_202:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1840]
+ldr x16, [x16, #1832]
 br x16
-.word 10633
+.word 10577
 	.no_dead_strip plt_UIKit_UIView_Dispose_bool
 plt_UIKit_UIView_Dispose_bool:
 _p_203:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1848]
+ldr x16, [x16, #1840]
 br x16
-.word 10638
+.word 10582
 	.no_dead_strip plt_UIKit_UIView_LayoutSubviews
 plt_UIKit_UIView_LayoutSubviews:
 _p_204:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1856]
+ldr x16, [x16, #1848]
 br x16
-.word 10643
+.word 10587
 	.no_dead_strip plt_OpenTK_Platform_iPhoneOS_iPhoneOSGameView_get_Size
 plt_OpenTK_Platform_iPhoneOS_iPhoneOSGameView_get_Size:
 _p_205:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1864]
+ldr x16, [x16, #1856]
 br x16
-.word 10648
+.word 10592
 	.no_dead_strip plt_OpenTK_Platform_iPhoneOS_iPhoneOSGameView_RunWithFrameInterval_int
 plt_OpenTK_Platform_iPhoneOS_iPhoneOSGameView_RunWithFrameInterval_int:
 _p_206:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1872]
+ldr x16, [x16, #1864]
 br x16
-.word 10651
+.word 10595
 	.no_dead_strip plt_OpenTK_Platform_iPhoneOS_NSTimerTimeSource__ctor_OpenTK_Platform_iPhoneOS_iPhoneOSGameView_double
 plt_OpenTK_Platform_iPhoneOS_NSTimerTimeSource__ctor_OpenTK_Platform_iPhoneOS_iPhoneOSGameView_double:
 _p_207:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1880]
+ldr x16, [x16, #1872]
 br x16
-.word 10654
+.word 10598
 	.no_dead_strip plt_OpenTK_Platform_iPhoneOS_iPhoneOSGameView_Start
 plt_OpenTK_Platform_iPhoneOS_iPhoneOSGameView_Start:
 _p_208:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1888]
+ldr x16, [x16, #1880]
 br x16
-.word 10657
+.word 10601
 	.no_dead_strip plt_OpenTK_Platform_iPhoneOS_CADisplayLinkTimeSource__ctor_OpenTK_Platform_iPhoneOS_iPhoneOSGameView_int
 plt_OpenTK_Platform_iPhoneOS_CADisplayLinkTimeSource__ctor_OpenTK_Platform_iPhoneOS_iPhoneOSGameView_int:
 _p_209:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1896]
+ldr x16, [x16, #1888]
 br x16
-.word 10660
+.word 10604
 	.no_dead_strip plt_OpenTK_Platform_iPhoneOS_iPhoneOSGameView_Resume
 plt_OpenTK_Platform_iPhoneOS_iPhoneOSGameView_Resume:
 _p_210:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1904]
+ldr x16, [x16, #1896]
 br x16
-.word 10663
+.word 10607
 	.no_dead_strip plt_System_Diagnostics_Stopwatch_Start
 plt_System_Diagnostics_Stopwatch_Start:
 _p_211:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1912]
+ldr x16, [x16, #1904]
 br x16
-.word 10666
+.word 10610
 	.no_dead_strip plt_CoreGraphics_CGDataProvider__ctor_byte___int_int
 plt_CoreGraphics_CGDataProvider__ctor_byte___int_int:
 _p_212:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1920]
+ldr x16, [x16, #1912]
 br x16
-.word 10671
+.word 10615
 	.no_dead_strip plt_CoreGraphics_CGColorSpace_CreateDeviceRGB
 plt_CoreGraphics_CGColorSpace_CreateDeviceRGB:
 _p_213:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1928]
+ldr x16, [x16, #1920]
 br x16
-.word 10676
+.word 10620
 	.no_dead_strip plt_CoreGraphics_CGImage__ctor_int_int_int_int_int_CoreGraphics_CGColorSpace_CoreGraphics_CGImageAlphaInfo_CoreGraphics_CGDataProvider_System_nfloat___bool_CoreGraphics_CGColorRenderingIntent
 plt_CoreGraphics_CGImage__ctor_int_int_int_int_int_CoreGraphics_CGColorSpace_CoreGraphics_CGImageAlphaInfo_CoreGraphics_CGDataProvider_System_nfloat___bool_CoreGraphics_CGColorRenderingIntent:
 _p_214:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1936]
+ldr x16, [x16, #1928]
 br x16
-.word 10681
+.word 10625
 	.no_dead_strip plt_CoreGraphics_CGSize__ctor_single_single
 plt_CoreGraphics_CGSize__ctor_single_single:
 _p_215:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1944]
+ldr x16, [x16, #1936]
 br x16
-.word 10686
+.word 10630
 	.no_dead_strip plt_UIKit_UIGraphics_BeginImageContextWithOptions_CoreGraphics_CGSize_bool_System_nfloat
 plt_UIKit_UIGraphics_BeginImageContextWithOptions_CoreGraphics_CGSize_bool_System_nfloat:
 _p_216:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1952]
+ldr x16, [x16, #1944]
 br x16
-.word 10691
+.word 10635
 	.no_dead_strip plt_UIKit_UIGraphics_GetCurrentContext
 plt_UIKit_UIGraphics_GetCurrentContext:
 _p_217:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1960]
+ldr x16, [x16, #1952]
 br x16
-.word 10696
+.word 10640
 	.no_dead_strip plt_CoreGraphics_CGContext_SetBlendMode_CoreGraphics_CGBlendMode
 plt_CoreGraphics_CGContext_SetBlendMode_CoreGraphics_CGBlendMode:
 _p_218:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1968]
+ldr x16, [x16, #1960]
 br x16
-.word 10701
+.word 10645
 	.no_dead_strip plt_CoreGraphics_CGRect__ctor_single_single_single_single
 plt_CoreGraphics_CGRect__ctor_single_single_single_single:
 _p_219:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1976]
+ldr x16, [x16, #1968]
 br x16
-.word 10706
+.word 10650
 	.no_dead_strip plt_CoreGraphics_CGContext_DrawImage_CoreGraphics_CGRect_CoreGraphics_CGImage
 plt_CoreGraphics_CGContext_DrawImage_CoreGraphics_CGRect_CoreGraphics_CGImage:
 _p_220:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1984]
+ldr x16, [x16, #1976]
 br x16
-.word 10711
+.word 10655
 	.no_dead_strip plt_UIKit_UIGraphics_GetImageFromCurrentImageContext
 plt_UIKit_UIGraphics_GetImageFromCurrentImageContext:
 _p_221:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #1992]
+ldr x16, [x16, #1984]
 br x16
-.word 10716
+.word 10660
 	.no_dead_strip plt_UIKit_UIGraphics_EndImageContext
 plt_UIKit_UIGraphics_EndImageContext:
 _p_222:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #2000]
+ldr x16, [x16, #1992]
 br x16
-.word 10721
+.word 10665
 	.no_dead_strip plt_OpenTK_Platform_iPhoneOS_iPhoneOSGameView_Suspend
 plt_OpenTK_Platform_iPhoneOS_iPhoneOSGameView_Suspend:
 _p_223:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #2008]
+ldr x16, [x16, #2000]
 br x16
-.word 10726
+.word 10670
 	.no_dead_strip plt_System_Diagnostics_Stopwatch_get_Elapsed
 plt_System_Diagnostics_Stopwatch_get_Elapsed:
 _p_224:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #2016]
+ldr x16, [x16, #2008]
 br x16
-.word 10729
+.word 10673
 	.no_dead_strip plt_System_TimeSpan_op_Subtraction_System_TimeSpan_System_TimeSpan
 plt_System_TimeSpan_op_Subtraction_System_TimeSpan_System_TimeSpan:
 _p_225:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #2024]
+ldr x16, [x16, #2016]
 br x16
-.word 10734
+.word 10678
 	.no_dead_strip plt_OpenTK_FrameEventArgs_set_Time_double
 plt_OpenTK_FrameEventArgs_set_Time_double:
 _p_226:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #2032]
+ldr x16, [x16, #2024]
 br x16
-.word 10739
+.word 10683
 	.no_dead_strip plt_System_Delegate_Combine_System_Delegate_System_Delegate
 plt_System_Delegate_Combine_System_Delegate_System_Delegate:
 _p_227:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #2040]
+ldr x16, [x16, #2032]
 br x16
-.word 10741
+.word 10685
 	.no_dead_strip plt_System_Delegate_Remove_System_Delegate_System_Delegate
 plt_System_Delegate_Remove_System_Delegate_System_Delegate:
 _p_228:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #2048]
+ldr x16, [x16, #2040]
 br x16
-.word 10746
+.word 10690
 	.no_dead_strip plt__jit_icall_mono_helper_newobj_mscorlib
 plt__jit_icall_mono_helper_newobj_mscorlib:
 _p_229:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #2056]
+ldr x16, [x16, #2048]
 br x16
-.word 10751
+.word 10695
 	.no_dead_strip plt_OpenGLES_EAGLContext__ctor_OpenGLES_EAGLRenderingAPI
 plt_OpenGLES_EAGLContext__ctor_OpenGLES_EAGLRenderingAPI:
 _p_230:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #2064]
+ldr x16, [x16, #2056]
 br x16
-.word 10781
+.word 10725
 	.no_dead_strip plt_OpenGLES_EAGLContext__ctor_OpenGLES_EAGLRenderingAPI_OpenGLES_EAGLSharegroup
 plt_OpenGLES_EAGLContext__ctor_OpenGLES_EAGLRenderingAPI_OpenGLES_EAGLSharegroup:
 _p_231:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #2072]
+ldr x16, [x16, #2064]
 br x16
-.word 10786
+.word 10730
 	.no_dead_strip plt_Foundation_NSObject_Dispose
 plt_Foundation_NSObject_Dispose:
 _p_232:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #2080]
+ldr x16, [x16, #2072]
 br x16
-.word 10791
+.word 10735
 	.no_dead_strip plt_System_Nullable_1_intptr__ctor_intptr
 plt_System_Nullable_1_intptr__ctor_intptr:
 _p_233:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #2088]
+ldr x16, [x16, #2080]
 br x16
-.word 10796
+.word 10740
 	.no_dead_strip plt_OpenTK_Graphics_GraphicsMode__ctor_System_Nullable_1_intptr_OpenTK_Graphics_ColorFormat_int_int_int_OpenTK_Graphics_ColorFormat_int_bool
 plt_OpenTK_Graphics_GraphicsMode__ctor_System_Nullable_1_intptr_OpenTK_Graphics_ColorFormat_int_int_int_OpenTK_Graphics_ColorFormat_int_bool:
 _p_234:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #2096]
+ldr x16, [x16, #2088]
 br x16
-.word 10807
+.word 10751
 	.no_dead_strip plt__rgctx_fetch_0
 plt__rgctx_fetch_0:
 _p_235:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #2104]
+ldr x16, [x16, #2096]
 br x16
-.word 10827
+.word 10771
 	.no_dead_strip plt__rgctx_fetch_1
 plt__rgctx_fetch_1:
 _p_236:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #2112]
+ldr x16, [x16, #2104]
 br x16
-.word 10869
+.word 10813
 	.no_dead_strip plt__rgctx_fetch_2
 plt__rgctx_fetch_2:
 _p_237:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #2120]
+ldr x16, [x16, #2112]
 br x16
-.word 10911
+.word 10855
 	.no_dead_strip plt__jit_icall_mono_thread_interruption_checkpoint
 plt__jit_icall_mono_thread_interruption_checkpoint:
 _p_238:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #2128]
+ldr x16, [x16, #2120]
 br x16
-.word 10936
+.word 10880
 	.no_dead_strip plt_System_Array_InternalArray__get_Item_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_int
 plt_System_Array_InternalArray__get_Item_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_int:
 _p_239:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #2136]
+ldr x16, [x16, #2128]
 br x16
-.word 10974
+.word 10918
 	.no_dead_strip plt__jit_icall_mono_helper_ldstr_mscorlib
 plt__jit_icall_mono_helper_ldstr_mscorlib:
 _p_240:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #2144]
+ldr x16, [x16, #2136]
 br x16
-.word 10993
+.word 10937
 	.no_dead_strip plt_System_Array_InternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_get_Current
 plt_System_Array_InternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_get_Current:
 _p_241:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #2152]
+ldr x16, [x16, #2144]
 br x16
-.word 11022
+.word 10966
 	.no_dead_strip plt_System_Array_InternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference__ctor_System_Array
 plt_System_Array_InternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference__ctor_System_Array:
 _p_242:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #2160]
+ldr x16, [x16, #2152]
 br x16
-.word 11041
+.word 10985
 	.no_dead_strip plt_System_Collections_Generic_KeyValuePair_PairToString_object_object
 plt_System_Collections_Generic_KeyValuePair_PairToString_object_object:
 _p_243:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #2168]
+ldr x16, [x16, #2160]
 br x16
-.word 11060
+.word 11004
 	.no_dead_strip plt_System_ThrowHelper_ThrowArgumentNullException_System_ExceptionArgument
 plt_System_ThrowHelper_ThrowArgumentNullException_System_ExceptionArgument:
 _p_244:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #2176]
+ldr x16, [x16, #2168]
 br x16
-.word 11065
+.word 11009
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_KeyCollection_Enumerator_OpenTK_ContextHandle_System_WeakReference__ctor_System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference
 plt_System_Collections_Generic_Dictionary_2_KeyCollection_Enumerator_OpenTK_ContextHandle_System_WeakReference__ctor_System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference:
 _p_245:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #2184]
+ldr x16, [x16, #2176]
 br x16
-.word 11070
+.word 11014
 	.no_dead_strip plt_System_ThrowHelper_ThrowIndexArgumentOutOfRange_NeedNonNegNumException
 plt_System_ThrowHelper_ThrowIndexArgumentOutOfRange_NeedNonNegNumException:
 _p_246:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #2192]
+ldr x16, [x16, #2184]
 br x16
-.word 11092
+.word 11036
 	.no_dead_strip plt_System_ThrowHelper_ThrowArgumentException_System_ExceptionResource
 plt_System_ThrowHelper_ThrowArgumentException_System_ExceptionResource:
 _p_247:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #2200]
+ldr x16, [x16, #2192]
 br x16
-.word 11097
+.word 11041
 	.no_dead_strip plt_System_ThrowHelper_ThrowNotSupportedException_System_ExceptionResource
 plt_System_ThrowHelper_ThrowNotSupportedException_System_ExceptionResource:
 _p_248:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #2208]
+ldr x16, [x16, #2200]
 br x16
-.word 11102
+.word 11046
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference_ContainsKey_OpenTK_ContextHandle
 plt_System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference_ContainsKey_OpenTK_ContextHandle:
 _p_249:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #2216]
+ldr x16, [x16, #2208]
 br x16
-.word 11107
+.word 11051
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_KeyCollection_OpenTK_ContextHandle_System_WeakReference_CopyTo_OpenTK_ContextHandle___int
 plt_System_Collections_Generic_Dictionary_2_KeyCollection_OpenTK_ContextHandle_System_WeakReference_CopyTo_OpenTK_ContextHandle___int:
 _p_250:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #2224]
+ldr x16, [x16, #2216]
 br x16
-.word 11131
+.word 11075
 	.no_dead_strip plt__jit_icall_mono_thread_get_undeniable_exception
 plt__jit_icall_mono_thread_get_undeniable_exception:
 _p_251:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #2232]
+ldr x16, [x16, #2224]
 br x16
-.word 11153
+.word 11097
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_ValueCollection_Enumerator_OpenTK_ContextHandle_System_WeakReference__ctor_System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference
 plt_System_Collections_Generic_Dictionary_2_ValueCollection_Enumerator_OpenTK_ContextHandle_System_WeakReference__ctor_System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference:
 _p_252:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #2240]
+ldr x16, [x16, #2232]
 br x16
-.word 11192
+.word 11136
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference_ContainsValue_System_WeakReference
 plt_System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference_ContainsValue_System_WeakReference:
 _p_253:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #2248]
+ldr x16, [x16, #2240]
 br x16
-.word 11216
+.word 11160
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_ValueCollection_OpenTK_ContextHandle_System_WeakReference_CopyTo_System_WeakReference___int
 plt_System_Collections_Generic_Dictionary_2_ValueCollection_OpenTK_ContextHandle_System_WeakReference_CopyTo_System_WeakReference___int:
 _p_254:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #2256]
+ldr x16, [x16, #2248]
 br x16
-.word 11240
+.word 11184
 	.no_dead_strip plt_System_Nullable_1_intptr_Unbox_object
 plt_System_Nullable_1_intptr_Unbox_object:
 _p_255:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #2264]
+ldr x16, [x16, #2256]
 br x16
-.word 11264
+.word 11208
 	.no_dead_strip plt_System_Nullable_1_intptr_Equals_System_Nullable_1_intptr
 plt_System_Nullable_1_intptr_Equals_System_Nullable_1_intptr:
 _p_256:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #2272]
+ldr x16, [x16, #2264]
 br x16
-.word 11286
+.word 11230
 	.no_dead_strip plt_intptr_Equals_object
 plt_intptr_Equals_object:
 _p_257:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #2280]
+ldr x16, [x16, #2272]
 br x16
-.word 11308
+.word 11252
 	.no_dead_strip plt__jit_icall_mono_thread_force_interruption_checkpoint_noraise
 plt__jit_icall_mono_thread_force_interruption_checkpoint_noraise:
 _p_258:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #2288]
+ldr x16, [x16, #2280]
 br x16
-.word 11313
+.word 11257
 	.no_dead_strip plt__jit_icall_mono_delegate_begin_invoke
 plt__jit_icall_mono_delegate_begin_invoke:
 _p_259:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #2296]
+ldr x16, [x16, #2288]
 br x16
-.word 11365
+.word 11309
 	.no_dead_strip plt__jit_icall_mono_delegate_end_invoke
 plt__jit_icall_mono_delegate_end_invoke:
 _p_260:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #2304]
+ldr x16, [x16, #2296]
 br x16
-.word 11394
+.word 11338
 	.no_dead_strip plt__jit_icall_g_free
 plt__jit_icall_g_free:
 _p_261:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #2312]
+ldr x16, [x16, #2304]
 br x16
-.word 11421
+.word 11365
 	.no_dead_strip plt__jit_icall_mono_string_to_utf8str
 plt__jit_icall_mono_string_to_utf8str:
 _p_262:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #2320]
+ldr x16, [x16, #2312]
 br x16
-.word 11430
+.word 11374
 	.no_dead_strip plt__jit_icall_ves_icall_string_new_wrapper
 plt__jit_icall_ves_icall_string_new_wrapper:
 _p_263:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #2328]
+ldr x16, [x16, #2320]
 br x16
-.word 11455
+.word 11399
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference_TryInsert_OpenTK_ContextHandle_System_WeakReference_System_Collections_Generic_InsertionBehavior
 plt_System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference_TryInsert_OpenTK_ContextHandle_System_WeakReference_System_Collections_Generic_InsertionBehavior:
 _p_264:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #2336]
+ldr x16, [x16, #2328]
 br x16
-.word 11486
+.word 11430
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_ValueCollection_OpenTK_ContextHandle_System_WeakReference__ctor_System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference
 plt_System_Collections_Generic_Dictionary_2_ValueCollection_OpenTK_ContextHandle_System_WeakReference__ctor_System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference:
 _p_265:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #2344]
+ldr x16, [x16, #2336]
 br x16
-.word 11510
+.word 11454
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference_FindEntry_OpenTK_ContextHandle
 plt_System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference_FindEntry_OpenTK_ContextHandle:
 _p_266:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #2352]
+ldr x16, [x16, #2344]
 br x16
-.word 11534
+.word 11478
 	.no_dead_strip plt_System_ThrowHelper_ThrowKeyNotFoundException_object
 plt_System_ThrowHelper_ThrowKeyNotFoundException_object:
 _p_267:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #2360]
+ldr x16, [x16, #2352]
 br x16
-.word 11558
+.word 11502
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference__ctor_int_System_Collections_Generic_IEqualityComparer_1_OpenTK_ContextHandle
 plt_System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference__ctor_int_System_Collections_Generic_IEqualityComparer_1_OpenTK_ContextHandle:
 _p_268:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #2368]
+ldr x16, [x16, #2360]
 br x16
-.word 11563
+.word 11507
 	.no_dead_strip plt_System_Collections_Generic_EqualityComparer_1_System_WeakReference_get_Default
 plt_System_Collections_Generic_EqualityComparer_1_System_WeakReference_get_Default:
 _p_269:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #2376]
+ldr x16, [x16, #2368]
 br x16
-.word 11587
+.word 11531
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference_Initialize_int
 plt_System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference_Initialize_int:
 _p_270:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #2384]
+ldr x16, [x16, #2376]
 br x16
-.word 11607
+.word 11551
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference_Resize
 plt_System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference_Resize:
 _p_271:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #2392]
+ldr x16, [x16, #2384]
 br x16
-.word 11631
+.word 11575
 	.no_dead_strip plt_System_ThrowHelper_ThrowAddingDuplicateWithKeyArgumentException_object
 plt_System_ThrowHelper_ThrowAddingDuplicateWithKeyArgumentException_object:
 _p_272:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #2400]
+ldr x16, [x16, #2392]
 br x16
-.word 11655
+.word 11599
 	.no_dead_strip plt_System_Type_get_IsValueType
 plt_System_Type_get_IsValueType:
 _p_273:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #2408]
+ldr x16, [x16, #2400]
 br x16
-.word 11660
+.word 11604
 	.no_dead_strip plt_System_RuntimeTypeHandle_HasReferences_System_RuntimeType
 plt_System_RuntimeTypeHandle_HasReferences_System_RuntimeType:
 _p_274:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #2416]
+ldr x16, [x16, #2408]
 br x16
-.word 11665
+.word 11609
 	.no_dead_strip plt_System_Collections_Generic_EqualityComparer_1_OpenTK_ContextHandle_get_Default
 plt_System_Collections_Generic_EqualityComparer_1_OpenTK_ContextHandle_get_Default:
 _p_275:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #2424]
+ldr x16, [x16, #2416]
 br x16
-.word 11670
+.word 11614
 	.no_dead_strip plt_System_ThrowHelper_ThrowArgumentOutOfRangeException_System_ExceptionArgument
 plt_System_ThrowHelper_ThrowArgumentOutOfRangeException_System_ExceptionArgument:
 _p_276:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #2432]
+ldr x16, [x16, #2424]
 br x16
-.word 11688
+.word 11632
 	.no_dead_strip plt_System_Collections_HashHelpers_ExpandPrime_int
 plt_System_Collections_HashHelpers_ExpandPrime_int:
 _p_277:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #2440]
+ldr x16, [x16, #2432]
 br x16
-.word 11693
+.word 11637
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference_Resize_int_bool
 plt_System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference_Resize_int_bool:
 _p_278:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #2448]
+ldr x16, [x16, #2440]
 br x16
-.word 11698
+.word 11642
 	.no_dead_strip plt_System_Collections_HashHelpers_GetPrime_int
 plt_System_Collections_HashHelpers_GetPrime_int:
 _p_279:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #2456]
+ldr x16, [x16, #2448]
 br x16
-.word 11722
+.word 11666
 	.no_dead_strip plt_System_Collections_Generic_EqualityComparer_1_OpenTK_ContextHandle_CreateComparer
 plt_System_Collections_Generic_EqualityComparer_1_OpenTK_ContextHandle_CreateComparer:
 _p_280:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #2464]
+ldr x16, [x16, #2456]
 br x16
-.word 11727
+.word 11671
 	.no_dead_strip plt_System_RuntimeType_CreateInstanceForAnotherGenericParameter_System_Type_System_RuntimeType
 plt_System_RuntimeType_CreateInstanceForAnotherGenericParameter_System_Type_System_RuntimeType:
 _p_281:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #2472]
+ldr x16, [x16, #2464]
 br x16
-.word 11745
+.word 11689
 	.no_dead_strip plt_System_Enum_GetUnderlyingType_System_Type
 plt_System_Enum_GetUnderlyingType_System_Type:
 _p_282:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #2480]
+ldr x16, [x16, #2472]
 br x16
-.word 11750
+.word 11694
 	.no_dead_strip plt_System_Type_GetTypeCode_System_Type
 plt_System_Type_GetTypeCode_System_Type:
 _p_283:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #2488]
+ldr x16, [x16, #2480]
 br x16
-.word 11755
+.word 11699
 	.no_dead_strip plt_System_Array_Copy_System_Array_int_System_Array_int_int
 plt_System_Array_Copy_System_Array_int_System_Array_int_int:
 _p_284:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #2496]
+ldr x16, [x16, #2488]
 br x16
-.word 11760
+.word 11704
 	.no_dead_strip plt_OpenTK_ContextHandle_Equals_object
 plt_OpenTK_ContextHandle_Equals_object:
 _p_285:
 adrp x16, mono_aot_OpenTK_1_0_got@PAGE+4096
 add x16, x16, mono_aot_OpenTK_1_0_got@PAGEOFF
-ldr x16, [x16, #2504]
+ldr x16, [x16, #2496]
 br x16
-.word 11765
+.word 11709
 plt_end:
 .section __DATA, __bss
 	.align 3
-.lcomm mono_aot_OpenTK_1_0_got, 6608
+.lcomm mono_aot_OpenTK_1_0_got, 6600
 got_end:
 .section __TEXT, __const
 	.align 3
@@ -32749,7 +32599,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "82D15382-C0D6-4725-BA44-920F88A41D9F"
+	.asciz "A90E2ECD-AE1A-492D-971F-EC4CDD0F819C"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -32828,13 +32678,13 @@ _mono_aot_file_info:
 	.align 3
 	.quad unbox_trampoline_addresses
 
-	.long 540,6608,286,710,66,387000831,0,60886
-	.long 128,8,8,8,0,25,71736,10840
-	.long 10472,7696,0,9136,10328,8416,0,6000
-	.long 1000,10832,0,0,0,0,0,0
+	.long 539,6600,286,709,66,387000831,0,60593
+	.long 128,8,8,8,0,25,71432,10832
+	.long 10464,7688,0,9128,10320,8408,0,6000
+	.long 1000,10824,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0
-	.byte 43,47,117,162,170,253,216,150,104,212,186,26,71,182,209,142
+	.byte 240,227,223,38,198,138,83,90,221,91,21,127,196,159,141,237
 	.globl _mono_aot_module_OpenTK_1_0_info
 	.align 3
 _mono_aot_module_OpenTK_1_0_info:
@@ -34452,7 +34302,7 @@ LDIFF_SYM128=LTDIE_7 - Ldebug_info_start
 	.asciz "CoreVideo.CVOpenGLESTexture:get_Handle"
 	.asciz "CoreVideo_CVOpenGLESTexture_get_Handle"
 
-	.byte 3,45
+	.byte 3,47
 	.quad CoreVideo_CVOpenGLESTexture_get_Handle
 	.quad Lme_18
 
@@ -34486,7 +34336,7 @@ Lfde23_end:
 	.asciz "CoreVideo.CVOpenGLESTexture:Finalize"
 	.asciz "CoreVideo_CVOpenGLESTexture_Finalize"
 
-	.byte 3,50
+	.byte 3,52
 	.quad CoreVideo_CVOpenGLESTexture_Finalize
 	.quad Lme_19
 
@@ -34520,7 +34370,7 @@ Lfde24_end:
 	.asciz "CoreVideo.CVOpenGLESTexture:Dispose"
 	.asciz "CoreVideo_CVOpenGLESTexture_Dispose"
 
-	.byte 3,55
+	.byte 3,57
 	.quad CoreVideo_CVOpenGLESTexture_Dispose
 	.quad Lme_1a
 
@@ -34581,7 +34431,7 @@ LDIFF_SYM142=LTDIE_8 - Ldebug_info_start
 	.asciz "CoreVideo.CVOpenGLESTexture:Dispose"
 	.asciz "CoreVideo_CVOpenGLESTexture_Dispose_bool"
 
-	.byte 3,66
+	.byte 3,68
 	.quad CoreVideo_CVOpenGLESTexture_Dispose_bool
 	.quad Lme_1b
 
@@ -34620,7 +34470,7 @@ Lfde26_end:
 	.asciz "CoreVideo.CVOpenGLESTexture:.ctor"
 	.asciz "CoreVideo_CVOpenGLESTexture__ctor_intptr"
 
-	.byte 3,72
+	.byte 3,74
 	.quad CoreVideo_CVOpenGLESTexture__ctor_intptr
 	.quad Lme_1c
 
@@ -34659,7 +34509,7 @@ Lfde27_end:
 	.asciz "CoreVideo.CVOpenGLESTexture:get_Target"
 	.asciz "CoreVideo_CVOpenGLESTexture_get_Target"
 
-	.byte 3,99
+	.byte 3,101
 	.quad CoreVideo_CVOpenGLESTexture_get_Target
 	.quad Lme_21
 
@@ -34693,7 +34543,7 @@ Lfde28_end:
 	.asciz "CoreVideo.CVOpenGLESTexture:get_Name"
 	.asciz "CoreVideo_CVOpenGLESTexture_get_Name"
 
-	.byte 3,105
+	.byte 3,107
 	.quad CoreVideo_CVOpenGLESTexture_get_Name
 	.quad Lme_22
 
@@ -34727,7 +34577,7 @@ Lfde29_end:
 	.asciz "CoreVideo.CVOpenGLESTexture:get_IsFlipped"
 	.asciz "CoreVideo_CVOpenGLESTexture_get_IsFlipped"
 
-	.byte 3,111
+	.byte 3,113
 	.quad CoreVideo_CVOpenGLESTexture_get_IsFlipped
 	.quad Lme_23
 
@@ -34788,7 +34638,7 @@ LDIFF_SYM164=LTDIE_9 - Ldebug_info_start
 	.asciz "CoreVideo.CVOpenGLESTexture:GetCleanTexCoords"
 	.asciz "CoreVideo_CVOpenGLESTexture_GetCleanTexCoords_single____single____single____single___"
 
-	.byte 3,125
+	.byte 3,127
 	.quad CoreVideo_CVOpenGLESTexture_GetCleanTexCoords_single____single____single____single___
 	.quad Lme_24
 
@@ -34909,7 +34759,7 @@ LDIFF_SYM184=LTDIE_10 - Ldebug_info_start
 	.asciz "CoreVideo.CVOpenGLESTextureCache:get_Handle"
 	.asciz "CoreVideo_CVOpenGLESTextureCache_get_Handle"
 
-	.byte 4,40
+	.byte 4,42
 	.quad CoreVideo_CVOpenGLESTextureCache_get_Handle
 	.quad Lme_25
 
@@ -34943,7 +34793,7 @@ Lfde32_end:
 	.asciz "CoreVideo.CVOpenGLESTextureCache:Finalize"
 	.asciz "CoreVideo_CVOpenGLESTextureCache_Finalize"
 
-	.byte 4,45
+	.byte 4,47
 	.quad CoreVideo_CVOpenGLESTextureCache_Finalize
 	.quad Lme_26
 
@@ -34977,7 +34827,7 @@ Lfde33_end:
 	.asciz "CoreVideo.CVOpenGLESTextureCache:Dispose"
 	.asciz "CoreVideo_CVOpenGLESTextureCache_Dispose"
 
-	.byte 4,50
+	.byte 4,52
 	.quad CoreVideo_CVOpenGLESTextureCache_Dispose
 	.quad Lme_27
 
@@ -35011,7 +34861,7 @@ Lfde34_end:
 	.asciz "CoreVideo.CVOpenGLESTextureCache:Dispose"
 	.asciz "CoreVideo_CVOpenGLESTextureCache_Dispose_bool"
 
-	.byte 4,61
+	.byte 4,63
 	.quad CoreVideo_CVOpenGLESTextureCache_Dispose_bool
 	.quad Lme_28
 
@@ -35050,7 +34900,7 @@ Lfde35_end:
 	.asciz "CoreVideo.CVOpenGLESTextureCache:.ctor"
 	.asciz "CoreVideo_CVOpenGLESTextureCache__ctor_intptr"
 
-	.byte 4,75
+	.byte 4,77
 	.quad CoreVideo_CVOpenGLESTextureCache__ctor_intptr
 	.quad Lme_2a
 
@@ -35193,7 +35043,7 @@ LDIFF_SYM216=LTDIE_11 - Ldebug_info_start
 	.asciz "CoreVideo.CVOpenGLESTextureCache:.ctor"
 	.asciz "CoreVideo_CVOpenGLESTextureCache__ctor_OpenGLES_EAGLContext"
 
-	.byte 4,80
+	.byte 4,82
 	.quad CoreVideo_CVOpenGLESTextureCache__ctor_OpenGLES_EAGLContext
 	.quad Lme_2b
 
@@ -35232,7 +35082,7 @@ Lfde37_end:
 	.asciz "CoreVideo.CVOpenGLESTextureCache:FromEAGLContext"
 	.asciz "CoreVideo_CVOpenGLESTextureCache_FromEAGLContext_OpenGLES_EAGLContext"
 
-	.byte 4,97
+	.byte 4,99
 	.quad CoreVideo_CVOpenGLESTextureCache_FromEAGLContext_OpenGLES_EAGLContext
 	.quad Lme_2c
 
@@ -36872,7 +36722,7 @@ LDIFF_SYM245=LTDIE_18 - Ldebug_info_start
 	.asciz "CoreVideo.CVOpenGLESTextureCache:TextureFromImage"
 	.asciz "CoreVideo_CVOpenGLESTextureCache_TextureFromImage_CoreVideo_CVImageBuffer_bool_OpenTK_Graphics_ES20_All_int_int_OpenTK_Graphics_ES20_All_OpenTK_Graphics_ES20_DataType_int_CoreVideo_CVReturn_"
 
-	.byte 4,111
+	.byte 4,113
 	.quad CoreVideo_CVOpenGLESTextureCache_TextureFromImage_CoreVideo_CVImageBuffer_bool_OpenTK_Graphics_ES20_All_int_int_OpenTK_Graphics_ES20_All_OpenTK_Graphics_ES20_DataType_int_CoreVideo_CVReturn_
 	.quad Lme_2d
 
@@ -36986,7 +36836,7 @@ LDIFF_SYM263=LTDIE_19 - Ldebug_info_start
 	.asciz "CoreVideo.CVOpenGLESTextureCache:Flush"
 	.asciz "CoreVideo_CVOpenGLESTextureCache_Flush_CoreVideo_CVOptionFlags"
 
-	.byte 4,142,1
+	.byte 4,144,1
 	.quad CoreVideo_CVOpenGLESTextureCache_Flush_CoreVideo_CVOptionFlags
 	.quad Lme_2f
 
@@ -49328,24 +49178,29 @@ LTDIE_96:
 	.byte 5
 	.asciz "UIKit_UIView"
 
-	.byte 40,16
+	.byte 48,16
 LDIFF_SYM1496=LTDIE_97 - Ldebug_info_start
 	.long LDIFF_SYM1496
-	.byte 2,35,0,0,7
+	.byte 2,35,0,6
+	.asciz "__mt_PreferredFocusedView_var"
+
+LDIFF_SYM1497=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1497
+	.byte 2,35,40,0,7
 	.asciz "UIKit_UIView"
 
-LDIFF_SYM1497=LTDIE_96 - Ldebug_info_start
-	.long LDIFF_SYM1497
+LDIFF_SYM1498=LTDIE_96 - Ldebug_info_start
+	.long LDIFF_SYM1498
 LTDIE_96_POINTER:
 
 	.byte 13
-LDIFF_SYM1498=LTDIE_96 - Ldebug_info_start
-	.long LDIFF_SYM1498
+LDIFF_SYM1499=LTDIE_96 - Ldebug_info_start
+	.long LDIFF_SYM1499
 LTDIE_96_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1499=LTDIE_96 - Ldebug_info_start
-	.long LDIFF_SYM1499
+LDIFF_SYM1500=LTDIE_96 - Ldebug_info_start
+	.long LDIFF_SYM1500
 LTDIE_98:
 
 	.byte 17
@@ -49354,461 +49209,461 @@ LTDIE_98:
 	.byte 16,7
 	.asciz "OpenTK_Platform_iPhoneOS_ITimeSource"
 
-LDIFF_SYM1500=LTDIE_98 - Ldebug_info_start
-	.long LDIFF_SYM1500
+LDIFF_SYM1501=LTDIE_98 - Ldebug_info_start
+	.long LDIFF_SYM1501
 LTDIE_98_POINTER:
 
 	.byte 13
-LDIFF_SYM1501=LTDIE_98 - Ldebug_info_start
-	.long LDIFF_SYM1501
+LDIFF_SYM1502=LTDIE_98 - Ldebug_info_start
+	.long LDIFF_SYM1502
 LTDIE_98_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1502=LTDIE_98 - Ldebug_info_start
-	.long LDIFF_SYM1502
+LDIFF_SYM1503=LTDIE_98 - Ldebug_info_start
+	.long LDIFF_SYM1503
 LTDIE_99:
 
 	.byte 5
 	.asciz "System_Diagnostics_Stopwatch"
 
 	.byte 40,16
-LDIFF_SYM1503=LTDIE_2 - Ldebug_info_start
-	.long LDIFF_SYM1503
+LDIFF_SYM1504=LTDIE_2 - Ldebug_info_start
+	.long LDIFF_SYM1504
 	.byte 2,35,0,6
 	.asciz "elapsed"
 
-LDIFF_SYM1504=LDIE_I8 - Ldebug_info_start
-	.long LDIFF_SYM1504
+LDIFF_SYM1505=LDIE_I8 - Ldebug_info_start
+	.long LDIFF_SYM1505
 	.byte 2,35,16,6
 	.asciz "started"
 
-LDIFF_SYM1505=LDIE_I8 - Ldebug_info_start
-	.long LDIFF_SYM1505
+LDIFF_SYM1506=LDIE_I8 - Ldebug_info_start
+	.long LDIFF_SYM1506
 	.byte 2,35,24,6
 	.asciz "is_running"
 
-LDIFF_SYM1506=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1506
+LDIFF_SYM1507=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1507
 	.byte 2,35,32,0,7
 	.asciz "System_Diagnostics_Stopwatch"
 
-LDIFF_SYM1507=LTDIE_99 - Ldebug_info_start
-	.long LDIFF_SYM1507
+LDIFF_SYM1508=LTDIE_99 - Ldebug_info_start
+	.long LDIFF_SYM1508
 LTDIE_99_POINTER:
 
 	.byte 13
-LDIFF_SYM1508=LTDIE_99 - Ldebug_info_start
-	.long LDIFF_SYM1508
+LDIFF_SYM1509=LTDIE_99 - Ldebug_info_start
+	.long LDIFF_SYM1509
 LTDIE_99_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1509=LTDIE_99 - Ldebug_info_start
-	.long LDIFF_SYM1509
+LDIFF_SYM1510=LTDIE_99 - Ldebug_info_start
+	.long LDIFF_SYM1510
 LTDIE_100:
 
 	.byte 5
 	.asciz "Foundation_NSString"
 
 	.byte 40,16
-LDIFF_SYM1510=LTDIE_12 - Ldebug_info_start
-	.long LDIFF_SYM1510
+LDIFF_SYM1511=LTDIE_12 - Ldebug_info_start
+	.long LDIFF_SYM1511
 	.byte 2,35,0,0,7
 	.asciz "Foundation_NSString"
 
-LDIFF_SYM1511=LTDIE_100 - Ldebug_info_start
-	.long LDIFF_SYM1511
+LDIFF_SYM1512=LTDIE_100 - Ldebug_info_start
+	.long LDIFF_SYM1512
 LTDIE_100_POINTER:
 
 	.byte 13
-LDIFF_SYM1512=LTDIE_100 - Ldebug_info_start
-	.long LDIFF_SYM1512
+LDIFF_SYM1513=LTDIE_100 - Ldebug_info_start
+	.long LDIFF_SYM1513
 LTDIE_100_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1513=LTDIE_100 - Ldebug_info_start
-	.long LDIFF_SYM1513
+LDIFF_SYM1514=LTDIE_100 - Ldebug_info_start
+	.long LDIFF_SYM1514
 LTDIE_101:
 
 	.byte 5
 	.asciz "System_WeakReference"
 
 	.byte 24,16
-LDIFF_SYM1514=LTDIE_2 - Ldebug_info_start
-	.long LDIFF_SYM1514
+LDIFF_SYM1515=LTDIE_2 - Ldebug_info_start
+	.long LDIFF_SYM1515
 	.byte 2,35,0,6
 	.asciz "isLongReference"
 
-LDIFF_SYM1515=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1515
+LDIFF_SYM1516=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1516
 	.byte 2,35,16,6
 	.asciz "gcHandle"
 
-LDIFF_SYM1516=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1516
+LDIFF_SYM1517=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1517
 	.byte 2,35,20,0,7
 	.asciz "System_WeakReference"
 
-LDIFF_SYM1517=LTDIE_101 - Ldebug_info_start
-	.long LDIFF_SYM1517
+LDIFF_SYM1518=LTDIE_101 - Ldebug_info_start
+	.long LDIFF_SYM1518
 LTDIE_101_POINTER:
 
 	.byte 13
-LDIFF_SYM1518=LTDIE_101 - Ldebug_info_start
-	.long LDIFF_SYM1518
+LDIFF_SYM1519=LTDIE_101 - Ldebug_info_start
+	.long LDIFF_SYM1519
 LTDIE_101_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1519=LTDIE_101 - Ldebug_info_start
-	.long LDIFF_SYM1519
+LDIFF_SYM1520=LTDIE_101 - Ldebug_info_start
+	.long LDIFF_SYM1520
 LTDIE_102:
 
 	.byte 5
 	.asciz "System_EventHandler`1"
 
 	.byte 112,16
-LDIFF_SYM1520=LTDIE_35 - Ldebug_info_start
-	.long LDIFF_SYM1520
+LDIFF_SYM1521=LTDIE_35 - Ldebug_info_start
+	.long LDIFF_SYM1521
 	.byte 2,35,0,0,7
 	.asciz "System_EventHandler`1"
 
-LDIFF_SYM1521=LTDIE_102 - Ldebug_info_start
-	.long LDIFF_SYM1521
+LDIFF_SYM1522=LTDIE_102 - Ldebug_info_start
+	.long LDIFF_SYM1522
 LTDIE_102_POINTER:
 
 	.byte 13
-LDIFF_SYM1522=LTDIE_102 - Ldebug_info_start
-	.long LDIFF_SYM1522
+LDIFF_SYM1523=LTDIE_102 - Ldebug_info_start
+	.long LDIFF_SYM1523
 LTDIE_102_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1523=LTDIE_102 - Ldebug_info_start
-	.long LDIFF_SYM1523
+LDIFF_SYM1524=LTDIE_102 - Ldebug_info_start
+	.long LDIFF_SYM1524
 LTDIE_103:
 
 	.byte 5
 	.asciz "System_EventHandler`1"
 
 	.byte 112,16
-LDIFF_SYM1524=LTDIE_35 - Ldebug_info_start
-	.long LDIFF_SYM1524
+LDIFF_SYM1525=LTDIE_35 - Ldebug_info_start
+	.long LDIFF_SYM1525
 	.byte 2,35,0,0,7
 	.asciz "System_EventHandler`1"
 
-LDIFF_SYM1525=LTDIE_103 - Ldebug_info_start
-	.long LDIFF_SYM1525
+LDIFF_SYM1526=LTDIE_103 - Ldebug_info_start
+	.long LDIFF_SYM1526
 LTDIE_103_POINTER:
 
 	.byte 13
-LDIFF_SYM1526=LTDIE_103 - Ldebug_info_start
-	.long LDIFF_SYM1526
+LDIFF_SYM1527=LTDIE_103 - Ldebug_info_start
+	.long LDIFF_SYM1527
 LTDIE_103_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1527=LTDIE_103 - Ldebug_info_start
-	.long LDIFF_SYM1527
+LDIFF_SYM1528=LTDIE_103 - Ldebug_info_start
+	.long LDIFF_SYM1528
 LTDIE_95:
 
 	.byte 5
 	.asciz "OpenTK_Platform_iPhoneOS_iPhoneOSGameView"
 
-	.byte 248,1,16
-LDIFF_SYM1528=LTDIE_96 - Ldebug_info_start
-	.long LDIFF_SYM1528
+	.byte 128,2,16
+LDIFF_SYM1529=LTDIE_96 - Ldebug_info_start
+	.long LDIFF_SYM1529
 	.byte 2,35,0,6
 	.asciz "suspended"
 
-LDIFF_SYM1529=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1529
-	.byte 3,35,192,1,6
-	.asciz "disposed"
-
 LDIFF_SYM1530=LDIE_BOOLEAN - Ldebug_info_start
 	.long LDIFF_SYM1530
-	.byte 3,35,193,1,6
-	.asciz "framebuffer"
+	.byte 3,35,200,1,6
+	.asciz "disposed"
 
-LDIFF_SYM1531=LDIE_I4 - Ldebug_info_start
+LDIFF_SYM1531=LDIE_BOOLEAN - Ldebug_info_start
 	.long LDIFF_SYM1531
-	.byte 3,35,196,1,6
-	.asciz "renderbuffer"
+	.byte 3,35,201,1,6
+	.asciz "framebuffer"
 
 LDIFF_SYM1532=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM1532
-	.byte 3,35,200,1,6
+	.byte 3,35,204,1,6
+	.asciz "renderbuffer"
+
+LDIFF_SYM1533=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1533
+	.byte 3,35,208,1,6
 	.asciz "gl"
 
-LDIFF_SYM1533=LTDIE_79_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1533
-	.byte 2,35,40,6
-	.asciz "timesource"
-
-LDIFF_SYM1534=LTDIE_98_REFERENCE - Ldebug_info_start
+LDIFF_SYM1534=LTDIE_79_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1534
 	.byte 2,35,48,6
-	.asciz "stopwatch"
+	.asciz "timesource"
 
-LDIFF_SYM1535=LTDIE_99_REFERENCE - Ldebug_info_start
+LDIFF_SYM1535=LTDIE_98_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1535
 	.byte 2,35,56,6
-	.asciz "prevUpdateTime"
+	.asciz "stopwatch"
 
-LDIFF_SYM1536=LDIE_I4 - Ldebug_info_start
+LDIFF_SYM1536=LTDIE_99_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1536
-	.byte 3,35,208,1,6
-	.asciz "prevRenderTime"
+	.byte 2,35,64,6
+	.asciz "prevUpdateTime"
 
 LDIFF_SYM1537=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM1537
 	.byte 3,35,216,1,6
-	.asciz "api"
+	.asciz "prevRenderTime"
 
-LDIFF_SYM1538=LTDIE_78 - Ldebug_info_start
+LDIFF_SYM1538=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM1538
 	.byte 3,35,224,1,6
+	.asciz "api"
+
+LDIFF_SYM1539=LTDIE_78 - Ldebug_info_start
+	.long LDIFF_SYM1539
+	.byte 3,35,232,1,6
 	.asciz "<GraphicsContext>k__BackingField"
 
-LDIFF_SYM1539=LTDIE_29_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1539
-	.byte 2,35,64,6
+LDIFF_SYM1540=LTDIE_29_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1540
+	.byte 2,35,72,6
 	.asciz "retainedBacking"
 
-LDIFF_SYM1540=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1540
-	.byte 3,35,232,1,6
+LDIFF_SYM1541=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1541
+	.byte 3,35,240,1,6
 	.asciz "colorFormat"
 
-LDIFF_SYM1541=LTDIE_100_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1541
-	.byte 2,35,72,6
+LDIFF_SYM1542=LTDIE_100_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1542
+	.byte 2,35,80,6
 	.asciz "<AutoResize>k__BackingField"
 
-LDIFF_SYM1542=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1542
-	.byte 3,35,233,1,6
+LDIFF_SYM1543=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1543
+	.byte 3,35,241,1,6
 	.asciz "size"
 
-LDIFF_SYM1543=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1543
-	.byte 3,35,236,1,6
-	.asciz "frameBufferWindow"
-
-LDIFF_SYM1544=LTDIE_101_REFERENCE - Ldebug_info_start
+LDIFF_SYM1544=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM1544
-	.byte 2,35,80,6
-	.asciz "frameBufferLayer"
+	.byte 3,35,244,1,6
+	.asciz "frameBufferWindow"
 
 LDIFF_SYM1545=LTDIE_101_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1545
 	.byte 2,35,88,6
-	.asciz "updateEventArgs"
+	.asciz "frameBufferLayer"
 
-LDIFF_SYM1546=LTDIE_23_REFERENCE - Ldebug_info_start
+LDIFF_SYM1546=LTDIE_101_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1546
 	.byte 2,35,96,6
-	.asciz "renderEventArgs"
+	.asciz "updateEventArgs"
 
 LDIFF_SYM1547=LTDIE_23_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1547
 	.byte 2,35,104,6
-	.asciz "Resize"
+	.asciz "renderEventArgs"
 
-LDIFF_SYM1548=LTDIE_102_REFERENCE - Ldebug_info_start
+LDIFF_SYM1548=LTDIE_23_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1548
 	.byte 2,35,112,6
-	.asciz "Closed"
+	.asciz "Resize"
 
 LDIFF_SYM1549=LTDIE_102_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1549
 	.byte 2,35,120,6
-	.asciz "Disposed"
+	.asciz "Closed"
 
 LDIFF_SYM1550=LTDIE_102_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1550
 	.byte 3,35,128,1,6
-	.asciz "TitleChanged"
+	.asciz "Disposed"
 
 LDIFF_SYM1551=LTDIE_102_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1551
 	.byte 3,35,136,1,6
-	.asciz "VisibleChanged"
+	.asciz "TitleChanged"
 
 LDIFF_SYM1552=LTDIE_102_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1552
 	.byte 3,35,144,1,6
-	.asciz "WindowStateChanged"
+	.asciz "VisibleChanged"
 
 LDIFF_SYM1553=LTDIE_102_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1553
 	.byte 3,35,152,1,6
-	.asciz "Load"
+	.asciz "WindowStateChanged"
 
 LDIFF_SYM1554=LTDIE_102_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1554
 	.byte 3,35,160,1,6
-	.asciz "Unload"
+	.asciz "Load"
 
 LDIFF_SYM1555=LTDIE_102_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1555
 	.byte 3,35,168,1,6
-	.asciz "UpdateFrame"
+	.asciz "Unload"
 
-LDIFF_SYM1556=LTDIE_103_REFERENCE - Ldebug_info_start
+LDIFF_SYM1556=LTDIE_102_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1556
 	.byte 3,35,176,1,6
-	.asciz "RenderFrame"
+	.asciz "UpdateFrame"
 
 LDIFF_SYM1557=LTDIE_103_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1557
-	.byte 3,35,184,1,0,7
+	.byte 3,35,184,1,6
+	.asciz "RenderFrame"
+
+LDIFF_SYM1558=LTDIE_103_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1558
+	.byte 3,35,192,1,0,7
 	.asciz "OpenTK_Platform_iPhoneOS_iPhoneOSGameView"
 
-LDIFF_SYM1558=LTDIE_95 - Ldebug_info_start
-	.long LDIFF_SYM1558
+LDIFF_SYM1559=LTDIE_95 - Ldebug_info_start
+	.long LDIFF_SYM1559
 LTDIE_95_POINTER:
 
 	.byte 13
-LDIFF_SYM1559=LTDIE_95 - Ldebug_info_start
-	.long LDIFF_SYM1559
+LDIFF_SYM1560=LTDIE_95 - Ldebug_info_start
+	.long LDIFF_SYM1560
 LTDIE_95_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1560=LTDIE_95 - Ldebug_info_start
-	.long LDIFF_SYM1560
+LDIFF_SYM1561=LTDIE_95 - Ldebug_info_start
+	.long LDIFF_SYM1561
 LTDIE_106:
 
 	.byte 5
 	.asciz "Foundation_NSDispatcher"
 
 	.byte 40,16
-LDIFF_SYM1561=LTDIE_12 - Ldebug_info_start
-	.long LDIFF_SYM1561
+LDIFF_SYM1562=LTDIE_12 - Ldebug_info_start
+	.long LDIFF_SYM1562
 	.byte 2,35,0,0,7
 	.asciz "Foundation_NSDispatcher"
 
-LDIFF_SYM1562=LTDIE_106 - Ldebug_info_start
-	.long LDIFF_SYM1562
+LDIFF_SYM1563=LTDIE_106 - Ldebug_info_start
+	.long LDIFF_SYM1563
 LTDIE_106_POINTER:
 
 	.byte 13
-LDIFF_SYM1563=LTDIE_106 - Ldebug_info_start
-	.long LDIFF_SYM1563
+LDIFF_SYM1564=LTDIE_106 - Ldebug_info_start
+	.long LDIFF_SYM1564
 LTDIE_106_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1564=LTDIE_106 - Ldebug_info_start
-	.long LDIFF_SYM1564
+LDIFF_SYM1565=LTDIE_106 - Ldebug_info_start
+	.long LDIFF_SYM1565
 LTDIE_107:
 
 	.byte 5
 	.asciz "System_Action"
 
 	.byte 112,16
-LDIFF_SYM1565=LTDIE_35 - Ldebug_info_start
-	.long LDIFF_SYM1565
+LDIFF_SYM1566=LTDIE_35 - Ldebug_info_start
+	.long LDIFF_SYM1566
 	.byte 2,35,0,0,7
 	.asciz "System_Action"
 
-LDIFF_SYM1566=LTDIE_107 - Ldebug_info_start
-	.long LDIFF_SYM1566
+LDIFF_SYM1567=LTDIE_107 - Ldebug_info_start
+	.long LDIFF_SYM1567
 LTDIE_107_POINTER:
 
 	.byte 13
-LDIFF_SYM1567=LTDIE_107 - Ldebug_info_start
-	.long LDIFF_SYM1567
+LDIFF_SYM1568=LTDIE_107 - Ldebug_info_start
+	.long LDIFF_SYM1568
 LTDIE_107_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1568=LTDIE_107 - Ldebug_info_start
-	.long LDIFF_SYM1568
+LDIFF_SYM1569=LTDIE_107 - Ldebug_info_start
+	.long LDIFF_SYM1569
 LTDIE_105:
 
 	.byte 5
 	.asciz "Foundation_NSActionDispatcher"
 
 	.byte 48,16
-LDIFF_SYM1569=LTDIE_106 - Ldebug_info_start
-	.long LDIFF_SYM1569
+LDIFF_SYM1570=LTDIE_106 - Ldebug_info_start
+	.long LDIFF_SYM1570
 	.byte 2,35,0,6
 	.asciz "action"
 
-LDIFF_SYM1570=LTDIE_107_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1570
+LDIFF_SYM1571=LTDIE_107_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1571
 	.byte 2,35,40,0,7
 	.asciz "Foundation_NSActionDispatcher"
 
-LDIFF_SYM1571=LTDIE_105 - Ldebug_info_start
-	.long LDIFF_SYM1571
+LDIFF_SYM1572=LTDIE_105 - Ldebug_info_start
+	.long LDIFF_SYM1572
 LTDIE_105_POINTER:
 
 	.byte 13
-LDIFF_SYM1572=LTDIE_105 - Ldebug_info_start
-	.long LDIFF_SYM1572
+LDIFF_SYM1573=LTDIE_105 - Ldebug_info_start
+	.long LDIFF_SYM1573
 LTDIE_105_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1573=LTDIE_105 - Ldebug_info_start
-	.long LDIFF_SYM1573
+LDIFF_SYM1574=LTDIE_105 - Ldebug_info_start
+	.long LDIFF_SYM1574
 LTDIE_104:
 
 	.byte 5
 	.asciz "CoreAnimation_CADisplayLink"
 
 	.byte 48,16
-LDIFF_SYM1574=LTDIE_12 - Ldebug_info_start
-	.long LDIFF_SYM1574
+LDIFF_SYM1575=LTDIE_12 - Ldebug_info_start
+	.long LDIFF_SYM1575
 	.byte 2,35,0,6
 	.asciz "dispatcher"
 
-LDIFF_SYM1575=LTDIE_105_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1575
+LDIFF_SYM1576=LTDIE_105_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1576
 	.byte 2,35,40,0,7
 	.asciz "CoreAnimation_CADisplayLink"
 
-LDIFF_SYM1576=LTDIE_104 - Ldebug_info_start
-	.long LDIFF_SYM1576
+LDIFF_SYM1577=LTDIE_104 - Ldebug_info_start
+	.long LDIFF_SYM1577
 LTDIE_104_POINTER:
 
 	.byte 13
-LDIFF_SYM1577=LTDIE_104 - Ldebug_info_start
-	.long LDIFF_SYM1577
+LDIFF_SYM1578=LTDIE_104 - Ldebug_info_start
+	.long LDIFF_SYM1578
 LTDIE_104_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1578=LTDIE_104 - Ldebug_info_start
-	.long LDIFF_SYM1578
+LDIFF_SYM1579=LTDIE_104 - Ldebug_info_start
+	.long LDIFF_SYM1579
 LTDIE_94:
 
 	.byte 5
 	.asciz "OpenTK_Platform_iPhoneOS_CADisplayLinkTimeSource"
 
 	.byte 56,16
-LDIFF_SYM1579=LTDIE_12 - Ldebug_info_start
-	.long LDIFF_SYM1579
+LDIFF_SYM1580=LTDIE_12 - Ldebug_info_start
+	.long LDIFF_SYM1580
 	.byte 2,35,0,6
 	.asciz "view"
 
-LDIFF_SYM1580=LTDIE_95_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1580
+LDIFF_SYM1581=LTDIE_95_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1581
 	.byte 2,35,40,6
 	.asciz "displayLink"
 
-LDIFF_SYM1581=LTDIE_104_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1581
+LDIFF_SYM1582=LTDIE_104_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1582
 	.byte 2,35,48,0,7
 	.asciz "OpenTK_Platform_iPhoneOS_CADisplayLinkTimeSource"
 
-LDIFF_SYM1582=LTDIE_94 - Ldebug_info_start
-	.long LDIFF_SYM1582
+LDIFF_SYM1583=LTDIE_94 - Ldebug_info_start
+	.long LDIFF_SYM1583
 LTDIE_94_POINTER:
 
 	.byte 13
-LDIFF_SYM1583=LTDIE_94 - Ldebug_info_start
-	.long LDIFF_SYM1583
+LDIFF_SYM1584=LTDIE_94 - Ldebug_info_start
+	.long LDIFF_SYM1584
 LTDIE_94_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1584=LTDIE_94 - Ldebug_info_start
-	.long LDIFF_SYM1584
+LDIFF_SYM1585=LTDIE_94 - Ldebug_info_start
+	.long LDIFF_SYM1585
 	.byte 2
 	.asciz "OpenTK.Platform.iPhoneOS.CADisplayLinkTimeSource:.ctor"
 	.asciz "OpenTK_Platform_iPhoneOS_CADisplayLinkTimeSource__ctor_OpenTK_Platform_iPhoneOS_iPhoneOSGameView_int"
@@ -49820,32 +49675,32 @@ LDIFF_SYM1584=LTDIE_94 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1585=LTDIE_94_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1585
+LDIFF_SYM1586=LTDIE_94_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1586
 	.byte 1,104,3
 	.asciz "view"
 
-LDIFF_SYM1586=LTDIE_95_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1586
+LDIFF_SYM1587=LTDIE_95_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1587
 	.byte 2,141,24,3
 	.asciz "frameInterval"
 
-LDIFF_SYM1587=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1587
+LDIFF_SYM1588=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1588
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1588=Lfde216_end - Lfde216_start
-	.long LDIFF_SYM1588
+LDIFF_SYM1589=Lfde216_end - Lfde216_start
+	.long LDIFF_SYM1589
 Lfde216_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_CADisplayLinkTimeSource__ctor_OpenTK_Platform_iPhoneOS_iPhoneOSGameView_int
 
-LDIFF_SYM1589=Lme_16a - OpenTK_Platform_iPhoneOS_CADisplayLinkTimeSource__ctor_OpenTK_Platform_iPhoneOS_iPhoneOSGameView_int
-	.long LDIFF_SYM1589
+LDIFF_SYM1590=Lme_16a - OpenTK_Platform_iPhoneOS_CADisplayLinkTimeSource__ctor_OpenTK_Platform_iPhoneOS_iPhoneOSGameView_int
+	.long LDIFF_SYM1590
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,152,4
 	.align 3
@@ -49864,22 +49719,22 @@ Lfde216_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1590=LTDIE_94_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1590
+LDIFF_SYM1591=LTDIE_94_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1591
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1591=Lfde217_end - Lfde217_start
-	.long LDIFF_SYM1591
+LDIFF_SYM1592=Lfde217_end - Lfde217_start
+	.long LDIFF_SYM1592
 Lfde217_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_CADisplayLinkTimeSource_Suspend
 
-LDIFF_SYM1592=Lme_16b - OpenTK_Platform_iPhoneOS_CADisplayLinkTimeSource_Suspend
-	.long LDIFF_SYM1592
+LDIFF_SYM1593=Lme_16b - OpenTK_Platform_iPhoneOS_CADisplayLinkTimeSource_Suspend
+	.long LDIFF_SYM1593
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -49898,22 +49753,22 @@ Lfde217_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1593=LTDIE_94_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1593
+LDIFF_SYM1594=LTDIE_94_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1594
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1594=Lfde218_end - Lfde218_start
-	.long LDIFF_SYM1594
+LDIFF_SYM1595=Lfde218_end - Lfde218_start
+	.long LDIFF_SYM1595
 Lfde218_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_CADisplayLinkTimeSource_Resume
 
-LDIFF_SYM1595=Lme_16c - OpenTK_Platform_iPhoneOS_CADisplayLinkTimeSource_Resume
-	.long LDIFF_SYM1595
+LDIFF_SYM1596=Lme_16c - OpenTK_Platform_iPhoneOS_CADisplayLinkTimeSource_Resume
+	.long LDIFF_SYM1596
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -49932,22 +49787,22 @@ Lfde218_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1596=LTDIE_94_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1596
+LDIFF_SYM1597=LTDIE_94_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1597
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1597=Lfde219_end - Lfde219_start
-	.long LDIFF_SYM1597
+LDIFF_SYM1598=Lfde219_end - Lfde219_start
+	.long LDIFF_SYM1598
 Lfde219_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_CADisplayLinkTimeSource_Invalidate
 
-LDIFF_SYM1598=Lme_16d - OpenTK_Platform_iPhoneOS_CADisplayLinkTimeSource_Invalidate
-	.long LDIFF_SYM1598
+LDIFF_SYM1599=Lme_16d - OpenTK_Platform_iPhoneOS_CADisplayLinkTimeSource_Invalidate
+	.long LDIFF_SYM1599
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -49966,27 +49821,27 @@ Lfde219_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1599=LTDIE_94_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1599
+LDIFF_SYM1600=LTDIE_94_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1600
 	.byte 2,141,16,3
 	.asciz "parameter"
 
-LDIFF_SYM1600=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1600
+LDIFF_SYM1601=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1601
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1601=Lfde220_end - Lfde220_start
-	.long LDIFF_SYM1601
+LDIFF_SYM1602=Lfde220_end - Lfde220_start
+	.long LDIFF_SYM1602
 Lfde220_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_CADisplayLinkTimeSource_RunIteration_Foundation_NSObject
 
-LDIFF_SYM1602=Lme_16e - OpenTK_Platform_iPhoneOS_CADisplayLinkTimeSource_RunIteration_Foundation_NSObject
-	.long LDIFF_SYM1602
+LDIFF_SYM1603=Lme_16e - OpenTK_Platform_iPhoneOS_CADisplayLinkTimeSource_RunIteration_Foundation_NSObject
+	.long LDIFF_SYM1603
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -50006,16 +49861,16 @@ Lfde220_end:
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1603=Lfde221_end - Lfde221_start
-	.long LDIFF_SYM1603
+LDIFF_SYM1604=Lfde221_end - Lfde221_start
+	.long LDIFF_SYM1604
 Lfde221_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_CADisplayLinkTimeSource__cctor
 
-LDIFF_SYM1604=Lme_16f - OpenTK_Platform_iPhoneOS_CADisplayLinkTimeSource__cctor
-	.long LDIFF_SYM1604
+LDIFF_SYM1605=Lme_16f - OpenTK_Platform_iPhoneOS_CADisplayLinkTimeSource__cctor
+	.long LDIFF_SYM1605
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -50028,61 +49883,61 @@ LTDIE_109:
 	.asciz "Foundation_NSTimer"
 
 	.byte 40,16
-LDIFF_SYM1605=LTDIE_12 - Ldebug_info_start
-	.long LDIFF_SYM1605
+LDIFF_SYM1606=LTDIE_12 - Ldebug_info_start
+	.long LDIFF_SYM1606
 	.byte 2,35,0,0,7
 	.asciz "Foundation_NSTimer"
 
-LDIFF_SYM1606=LTDIE_109 - Ldebug_info_start
-	.long LDIFF_SYM1606
+LDIFF_SYM1607=LTDIE_109 - Ldebug_info_start
+	.long LDIFF_SYM1607
 LTDIE_109_POINTER:
 
 	.byte 13
-LDIFF_SYM1607=LTDIE_109 - Ldebug_info_start
-	.long LDIFF_SYM1607
+LDIFF_SYM1608=LTDIE_109 - Ldebug_info_start
+	.long LDIFF_SYM1608
 LTDIE_109_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1608=LTDIE_109 - Ldebug_info_start
-	.long LDIFF_SYM1608
+LDIFF_SYM1609=LTDIE_109 - Ldebug_info_start
+	.long LDIFF_SYM1609
 LTDIE_108:
 
 	.byte 5
 	.asciz "OpenTK_Platform_iPhoneOS_NSTimerTimeSource"
 
 	.byte 40,16
-LDIFF_SYM1609=LTDIE_2 - Ldebug_info_start
-	.long LDIFF_SYM1609
+LDIFF_SYM1610=LTDIE_2 - Ldebug_info_start
+	.long LDIFF_SYM1610
 	.byte 2,35,0,6
 	.asciz "timeout"
 
-LDIFF_SYM1610=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1610
+LDIFF_SYM1611=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1611
 	.byte 2,35,32,6
 	.asciz "timer"
 
-LDIFF_SYM1611=LTDIE_109_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1611
+LDIFF_SYM1612=LTDIE_109_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1612
 	.byte 2,35,16,6
 	.asciz "view"
 
-LDIFF_SYM1612=LTDIE_95_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1612
+LDIFF_SYM1613=LTDIE_95_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1613
 	.byte 2,35,24,0,7
 	.asciz "OpenTK_Platform_iPhoneOS_NSTimerTimeSource"
 
-LDIFF_SYM1613=LTDIE_108 - Ldebug_info_start
-	.long LDIFF_SYM1613
+LDIFF_SYM1614=LTDIE_108 - Ldebug_info_start
+	.long LDIFF_SYM1614
 LTDIE_108_POINTER:
 
 	.byte 13
-LDIFF_SYM1614=LTDIE_108 - Ldebug_info_start
-	.long LDIFF_SYM1614
+LDIFF_SYM1615=LTDIE_108 - Ldebug_info_start
+	.long LDIFF_SYM1615
 LTDIE_108_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1615=LTDIE_108 - Ldebug_info_start
-	.long LDIFF_SYM1615
+LDIFF_SYM1616=LTDIE_108 - Ldebug_info_start
+	.long LDIFF_SYM1616
 	.byte 2
 	.asciz "OpenTK.Platform.iPhoneOS.NSTimerTimeSource:.ctor"
 	.asciz "OpenTK_Platform_iPhoneOS_NSTimerTimeSource__ctor_OpenTK_Platform_iPhoneOS_iPhoneOSGameView_double"
@@ -50094,32 +49949,32 @@ LDIFF_SYM1615=LTDIE_108 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1616=LTDIE_108_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1616
+LDIFF_SYM1617=LTDIE_108_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1617
 	.byte 2,141,16,3
 	.asciz "view"
 
-LDIFF_SYM1617=LTDIE_95_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1617
+LDIFF_SYM1618=LTDIE_95_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1618
 	.byte 2,141,24,3
 	.asciz "updatesPerSecond"
 
-LDIFF_SYM1618=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM1618
+LDIFF_SYM1619=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM1619
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1619=Lfde222_end - Lfde222_start
-	.long LDIFF_SYM1619
+LDIFF_SYM1620=Lfde222_end - Lfde222_start
+	.long LDIFF_SYM1620
 Lfde222_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_NSTimerTimeSource__ctor_OpenTK_Platform_iPhoneOS_iPhoneOSGameView_double
 
-LDIFF_SYM1620=Lme_170 - OpenTK_Platform_iPhoneOS_NSTimerTimeSource__ctor_OpenTK_Platform_iPhoneOS_iPhoneOSGameView_double
-	.long LDIFF_SYM1620
+LDIFF_SYM1621=Lme_170 - OpenTK_Platform_iPhoneOS_NSTimerTimeSource__ctor_OpenTK_Platform_iPhoneOS_iPhoneOSGameView_double
+	.long LDIFF_SYM1621
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -50138,22 +49993,22 @@ Lfde222_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1621=LTDIE_108_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1621
+LDIFF_SYM1622=LTDIE_108_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1622
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1622=Lfde223_end - Lfde223_start
-	.long LDIFF_SYM1622
+LDIFF_SYM1623=Lfde223_end - Lfde223_start
+	.long LDIFF_SYM1623
 Lfde223_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_NSTimerTimeSource_Suspend
 
-LDIFF_SYM1623=Lme_171 - OpenTK_Platform_iPhoneOS_NSTimerTimeSource_Suspend
-	.long LDIFF_SYM1623
+LDIFF_SYM1624=Lme_171 - OpenTK_Platform_iPhoneOS_NSTimerTimeSource_Suspend
+	.long LDIFF_SYM1624
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -50172,22 +50027,22 @@ Lfde223_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1624=LTDIE_108_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1624
+LDIFF_SYM1625=LTDIE_108_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1625
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1625=Lfde224_end - Lfde224_start
-	.long LDIFF_SYM1625
+LDIFF_SYM1626=Lfde224_end - Lfde224_start
+	.long LDIFF_SYM1626
 Lfde224_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_NSTimerTimeSource_Resume
 
-LDIFF_SYM1626=Lme_172 - OpenTK_Platform_iPhoneOS_NSTimerTimeSource_Resume
-	.long LDIFF_SYM1626
+LDIFF_SYM1627=Lme_172 - OpenTK_Platform_iPhoneOS_NSTimerTimeSource_Resume
+	.long LDIFF_SYM1627
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,154,10
 	.align 3
@@ -50206,22 +50061,22 @@ Lfde224_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1627=LTDIE_108_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1627
+LDIFF_SYM1628=LTDIE_108_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1628
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1628=Lfde225_end - Lfde225_start
-	.long LDIFF_SYM1628
+LDIFF_SYM1629=Lfde225_end - Lfde225_start
+	.long LDIFF_SYM1629
 Lfde225_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_NSTimerTimeSource_Invalidate
 
-LDIFF_SYM1629=Lme_173 - OpenTK_Platform_iPhoneOS_NSTimerTimeSource_Invalidate
-	.long LDIFF_SYM1629
+LDIFF_SYM1630=Lme_173 - OpenTK_Platform_iPhoneOS_NSTimerTimeSource_Invalidate
+	.long LDIFF_SYM1630
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -50234,23 +50089,23 @@ LTDIE_110:
 	.asciz "Foundation_NSCoder"
 
 	.byte 40,16
-LDIFF_SYM1630=LTDIE_12 - Ldebug_info_start
-	.long LDIFF_SYM1630
+LDIFF_SYM1631=LTDIE_12 - Ldebug_info_start
+	.long LDIFF_SYM1631
 	.byte 2,35,0,0,7
 	.asciz "Foundation_NSCoder"
 
-LDIFF_SYM1631=LTDIE_110 - Ldebug_info_start
-	.long LDIFF_SYM1631
+LDIFF_SYM1632=LTDIE_110 - Ldebug_info_start
+	.long LDIFF_SYM1632
 LTDIE_110_POINTER:
 
 	.byte 13
-LDIFF_SYM1632=LTDIE_110 - Ldebug_info_start
-	.long LDIFF_SYM1632
+LDIFF_SYM1633=LTDIE_110 - Ldebug_info_start
+	.long LDIFF_SYM1633
 LTDIE_110_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1633=LTDIE_110 - Ldebug_info_start
-	.long LDIFF_SYM1633
+LDIFF_SYM1634=LTDIE_110 - Ldebug_info_start
+	.long LDIFF_SYM1634
 	.byte 2
 	.asciz "OpenTK.Platform.iPhoneOS.iPhoneOSGameView:.ctor"
 	.asciz "OpenTK_Platform_iPhoneOS_iPhoneOSGameView__ctor_Foundation_NSCoder"
@@ -50262,27 +50117,27 @@ LDIFF_SYM1633=LTDIE_110 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1634=LTDIE_95_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1634
+LDIFF_SYM1635=LTDIE_95_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1635
 	.byte 1,105,3
 	.asciz "coder"
 
-LDIFF_SYM1635=LTDIE_110_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1635
+LDIFF_SYM1636=LTDIE_110_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1636
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1636=Lfde226_end - Lfde226_start
-	.long LDIFF_SYM1636
+LDIFF_SYM1637=Lfde226_end - Lfde226_start
+	.long LDIFF_SYM1637
 Lfde226_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView__ctor_Foundation_NSCoder
 
-LDIFF_SYM1637=Lme_174 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView__ctor_Foundation_NSCoder
-	.long LDIFF_SYM1637
+LDIFF_SYM1638=Lme_174 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView__ctor_Foundation_NSCoder
+	.long LDIFF_SYM1638
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29,68,153,2
 	.align 3
@@ -50301,27 +50156,27 @@ Lfde226_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1638=LTDIE_95_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1638
+LDIFF_SYM1639=LTDIE_95_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1639
 	.byte 1,106,3
 	.asciz "frame"
 
-LDIFF_SYM1639=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1639
+LDIFF_SYM1640=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1640
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1640=Lfde227_end - Lfde227_start
-	.long LDIFF_SYM1640
+LDIFF_SYM1641=Lfde227_end - Lfde227_start
+	.long LDIFF_SYM1641
 Lfde227_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView__ctor_CoreGraphics_CGRect
 
-LDIFF_SYM1641=Lme_175 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView__ctor_CoreGraphics_CGRect
-	.long LDIFF_SYM1641
+LDIFF_SYM1642=Lme_175 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView__ctor_CoreGraphics_CGRect
+	.long LDIFF_SYM1642
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,154,10
 	.align 3
@@ -50341,16 +50196,16 @@ Lfde227_end:
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1642=Lfde228_end - Lfde228_start
-	.long LDIFF_SYM1642
+LDIFF_SYM1643=Lfde228_end - Lfde228_start
+	.long LDIFF_SYM1643
 Lfde228_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_GetLayerClass
 
-LDIFF_SYM1643=Lme_176 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_GetLayerClass
-	.long LDIFF_SYM1643
+LDIFF_SYM1644=Lme_176 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_GetLayerClass
+	.long LDIFF_SYM1644
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -50369,22 +50224,22 @@ Lfde228_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1644=LTDIE_95_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1644
+LDIFF_SYM1645=LTDIE_95_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1645
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1645=Lfde229_end - Lfde229_start
-	.long LDIFF_SYM1645
+LDIFF_SYM1646=Lfde229_end - Lfde229_start
+	.long LDIFF_SYM1646
 Lfde229_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_AssertValid
 
-LDIFF_SYM1646=Lme_177 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_AssertValid
-	.long LDIFF_SYM1646
+LDIFF_SYM1647=Lme_177 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_AssertValid
+	.long LDIFF_SYM1647
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -50403,22 +50258,22 @@ Lfde229_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1647=LTDIE_95_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1647
+LDIFF_SYM1648=LTDIE_95_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1648
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1648=Lfde230_end - Lfde230_start
-	.long LDIFF_SYM1648
+LDIFF_SYM1649=Lfde230_end - Lfde230_start
+	.long LDIFF_SYM1649
 Lfde230_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_AssertContext
 
-LDIFF_SYM1649=Lme_178 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_AssertContext
-	.long LDIFF_SYM1649
+LDIFF_SYM1650=Lme_178 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_AssertContext
+	.long LDIFF_SYM1650
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -50437,22 +50292,22 @@ Lfde230_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1650=LTDIE_95_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1650
+LDIFF_SYM1651=LTDIE_95_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1651
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1651=Lfde231_end - Lfde231_start
-	.long LDIFF_SYM1651
+LDIFF_SYM1652=Lfde231_end - Lfde231_start
+	.long LDIFF_SYM1652
 Lfde231_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_get_ContextRenderingApi
 
-LDIFF_SYM1652=Lme_179 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_get_ContextRenderingApi
-	.long LDIFF_SYM1652
+LDIFF_SYM1653=Lme_179 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_get_ContextRenderingApi
+	.long LDIFF_SYM1653
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -50471,27 +50326,27 @@ Lfde231_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1653=LTDIE_95_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1653
+LDIFF_SYM1654=LTDIE_95_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1654
 	.byte 2,141,16,3
 	.asciz "value"
 
-LDIFF_SYM1654=LTDIE_78 - Ldebug_info_start
-	.long LDIFF_SYM1654
+LDIFF_SYM1655=LTDIE_78 - Ldebug_info_start
+	.long LDIFF_SYM1655
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1655=Lfde232_end - Lfde232_start
-	.long LDIFF_SYM1655
+LDIFF_SYM1656=Lfde232_end - Lfde232_start
+	.long LDIFF_SYM1656
 Lfde232_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_set_ContextRenderingApi_OpenGLES_EAGLRenderingAPI
 
-LDIFF_SYM1656=Lme_17a - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_set_ContextRenderingApi_OpenGLES_EAGLRenderingAPI
-	.long LDIFF_SYM1656
+LDIFF_SYM1657=Lme_17a - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_set_ContextRenderingApi_OpenGLES_EAGLRenderingAPI
+	.long LDIFF_SYM1657
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -50510,22 +50365,22 @@ Lfde232_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1657=LTDIE_95_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1657
+LDIFF_SYM1658=LTDIE_95_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1658
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1658=Lfde233_end - Lfde233_start
-	.long LDIFF_SYM1658
+LDIFF_SYM1659=Lfde233_end - Lfde233_start
+	.long LDIFF_SYM1659
 Lfde233_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_get_GraphicsContext
 
-LDIFF_SYM1659=Lme_17b - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_get_GraphicsContext
-	.long LDIFF_SYM1659
+LDIFF_SYM1660=Lme_17b - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_get_GraphicsContext
+	.long LDIFF_SYM1660
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -50544,27 +50399,27 @@ Lfde233_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1660=LTDIE_95_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1660
+LDIFF_SYM1661=LTDIE_95_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1661
 	.byte 2,141,16,3
 	.asciz "value"
 
-LDIFF_SYM1661=LTDIE_29_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1661
+LDIFF_SYM1662=LTDIE_29_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1662
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1662=Lfde234_end - Lfde234_start
-	.long LDIFF_SYM1662
+LDIFF_SYM1663=Lfde234_end - Lfde234_start
+	.long LDIFF_SYM1663
 Lfde234_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_set_GraphicsContext_OpenTK_Graphics_IGraphicsContext
 
-LDIFF_SYM1663=Lme_17c - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_set_GraphicsContext_OpenTK_Graphics_IGraphicsContext
-	.long LDIFF_SYM1663
+LDIFF_SYM1664=Lme_17c - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_set_GraphicsContext_OpenTK_Graphics_IGraphicsContext
+	.long LDIFF_SYM1664
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -50577,33 +50432,33 @@ LTDIE_111:
 	.asciz "OpenTK_Platform_iPhoneOS_iPhoneOSGraphicsContext"
 
 	.byte 32,16
-LDIFF_SYM1664=LTDIE_2 - Ldebug_info_start
-	.long LDIFF_SYM1664
+LDIFF_SYM1665=LTDIE_2 - Ldebug_info_start
+	.long LDIFF_SYM1665
 	.byte 2,35,0,6
 	.asciz "<EAGLContext>k__BackingField"
 
-LDIFF_SYM1665=LTDIE_11_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1665
+LDIFF_SYM1666=LTDIE_11_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1666
 	.byte 2,35,16,6
 	.asciz "contextHandle"
 
-LDIFF_SYM1666=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1666
+LDIFF_SYM1667=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1667
 	.byte 2,35,24,0,7
 	.asciz "OpenTK_Platform_iPhoneOS_iPhoneOSGraphicsContext"
 
-LDIFF_SYM1667=LTDIE_111 - Ldebug_info_start
-	.long LDIFF_SYM1667
+LDIFF_SYM1668=LTDIE_111 - Ldebug_info_start
+	.long LDIFF_SYM1668
 LTDIE_111_POINTER:
 
 	.byte 13
-LDIFF_SYM1668=LTDIE_111 - Ldebug_info_start
-	.long LDIFF_SYM1668
+LDIFF_SYM1669=LTDIE_111 - Ldebug_info_start
+	.long LDIFF_SYM1669
 LTDIE_111_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1669=LTDIE_111 - Ldebug_info_start
-	.long LDIFF_SYM1669
+LDIFF_SYM1670=LTDIE_111 - Ldebug_info_start
+	.long LDIFF_SYM1670
 LTDIE_112:
 
 	.byte 17
@@ -50612,18 +50467,18 @@ LTDIE_112:
 	.byte 16,7
 	.asciz "OpenTK_Graphics_IGraphicsContextInternal"
 
-LDIFF_SYM1670=LTDIE_112 - Ldebug_info_start
-	.long LDIFF_SYM1670
+LDIFF_SYM1671=LTDIE_112 - Ldebug_info_start
+	.long LDIFF_SYM1671
 LTDIE_112_POINTER:
 
 	.byte 13
-LDIFF_SYM1671=LTDIE_112 - Ldebug_info_start
-	.long LDIFF_SYM1671
+LDIFF_SYM1672=LTDIE_112 - Ldebug_info_start
+	.long LDIFF_SYM1672
 LTDIE_112_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1672=LTDIE_112 - Ldebug_info_start
-	.long LDIFF_SYM1672
+LDIFF_SYM1673=LTDIE_112 - Ldebug_info_start
+	.long LDIFF_SYM1673
 	.byte 2
 	.asciz "OpenTK.Platform.iPhoneOS.iPhoneOSGameView:get_EAGLContext"
 	.asciz "OpenTK_Platform_iPhoneOS_iPhoneOSGameView_get_EAGLContext"
@@ -50635,32 +50490,32 @@ LDIFF_SYM1672=LTDIE_112 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1673=LTDIE_95_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1673
+LDIFF_SYM1674=LTDIE_95_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1674
 	.byte 1,106,11
 	.asciz "c"
 
-LDIFF_SYM1674=LTDIE_111_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1674
+LDIFF_SYM1675=LTDIE_111_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1675
 	.byte 1,105,11
 	.asciz "i"
 
-LDIFF_SYM1675=LTDIE_112_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1675
+LDIFF_SYM1676=LTDIE_112_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1676
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1676=Lfde235_end - Lfde235_start
-	.long LDIFF_SYM1676
+LDIFF_SYM1677=Lfde235_end - Lfde235_start
+	.long LDIFF_SYM1677
 Lfde235_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_get_EAGLContext
 
-LDIFF_SYM1677=Lme_17d - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_get_EAGLContext
-	.long LDIFF_SYM1677
+LDIFF_SYM1678=Lme_17d - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_get_EAGLContext
+	.long LDIFF_SYM1678
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,152,4,153,3,68,154,2
 	.align 3
@@ -50679,22 +50534,22 @@ Lfde235_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1678=LTDIE_95_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1678
+LDIFF_SYM1679=LTDIE_95_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1679
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1679=Lfde236_end - Lfde236_start
-	.long LDIFF_SYM1679
+LDIFF_SYM1680=Lfde236_end - Lfde236_start
+	.long LDIFF_SYM1680
 Lfde236_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_get_LayerRetainsBacking
 
-LDIFF_SYM1680=Lme_17e - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_get_LayerRetainsBacking
-	.long LDIFF_SYM1680
+LDIFF_SYM1681=Lme_17e - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_get_LayerRetainsBacking
+	.long LDIFF_SYM1681
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -50713,27 +50568,27 @@ Lfde236_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1681=LTDIE_95_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1681
+LDIFF_SYM1682=LTDIE_95_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1682
 	.byte 2,141,16,3
 	.asciz "value"
 
-LDIFF_SYM1682=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1682
+LDIFF_SYM1683=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1683
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1683=Lfde237_end - Lfde237_start
-	.long LDIFF_SYM1683
+LDIFF_SYM1684=Lfde237_end - Lfde237_start
+	.long LDIFF_SYM1684
 Lfde237_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_set_LayerRetainsBacking_bool
 
-LDIFF_SYM1684=Lme_17f - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_set_LayerRetainsBacking_bool
-	.long LDIFF_SYM1684
+LDIFF_SYM1685=Lme_17f - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_set_LayerRetainsBacking_bool
+	.long LDIFF_SYM1685
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -50752,22 +50607,22 @@ Lfde237_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1685=LTDIE_95_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1685
+LDIFF_SYM1686=LTDIE_95_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1686
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1686=Lfde238_end - Lfde238_start
-	.long LDIFF_SYM1686
+LDIFF_SYM1687=Lfde238_end - Lfde238_start
+	.long LDIFF_SYM1687
 Lfde238_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_get_LayerColorFormat
 
-LDIFF_SYM1687=Lme_180 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_get_LayerColorFormat
-	.long LDIFF_SYM1687
+LDIFF_SYM1688=Lme_180 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_get_LayerColorFormat
+	.long LDIFF_SYM1688
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -50786,27 +50641,27 @@ Lfde238_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1688=LTDIE_95_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1688
+LDIFF_SYM1689=LTDIE_95_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1689
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM1689=LTDIE_100_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1689
+LDIFF_SYM1690=LTDIE_100_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1690
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1690=Lfde239_end - Lfde239_start
-	.long LDIFF_SYM1690
+LDIFF_SYM1691=Lfde239_end - Lfde239_start
+	.long LDIFF_SYM1691
 Lfde239_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_set_LayerColorFormat_Foundation_NSString
 
-LDIFF_SYM1691=Lme_181 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_set_LayerColorFormat_Foundation_NSString
-	.long LDIFF_SYM1691
+LDIFF_SYM1692=Lme_181 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_set_LayerColorFormat_Foundation_NSString
+	.long LDIFF_SYM1692
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29,68,153,2
 	.align 3
@@ -50825,22 +50680,22 @@ Lfde239_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1692=LTDIE_95_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1692
+LDIFF_SYM1693=LTDIE_95_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1693
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1693=Lfde240_end - Lfde240_start
-	.long LDIFF_SYM1693
+LDIFF_SYM1694=Lfde240_end - Lfde240_start
+	.long LDIFF_SYM1694
 Lfde240_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_get_Framebuffer
 
-LDIFF_SYM1694=Lme_182 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_get_Framebuffer
-	.long LDIFF_SYM1694
+LDIFF_SYM1695=Lme_182 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_get_Framebuffer
+	.long LDIFF_SYM1695
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -50859,22 +50714,22 @@ Lfde240_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1695=LTDIE_95_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1695
+LDIFF_SYM1696=LTDIE_95_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1696
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1696=Lfde241_end - Lfde241_start
-	.long LDIFF_SYM1696
+LDIFF_SYM1697=Lfde241_end - Lfde241_start
+	.long LDIFF_SYM1697
 Lfde241_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_get_Renderbuffer
 
-LDIFF_SYM1697=Lme_183 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_get_Renderbuffer
-	.long LDIFF_SYM1697
+LDIFF_SYM1698=Lme_183 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_get_Renderbuffer
+	.long LDIFF_SYM1698
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -50893,22 +50748,22 @@ Lfde241_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1698=LTDIE_95_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1698
+LDIFF_SYM1699=LTDIE_95_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1699
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1699=Lfde242_end - Lfde242_start
-	.long LDIFF_SYM1699
+LDIFF_SYM1700=Lfde242_end - Lfde242_start
+	.long LDIFF_SYM1700
 Lfde242_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_get_AutoResize
 
-LDIFF_SYM1700=Lme_184 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_get_AutoResize
-	.long LDIFF_SYM1700
+LDIFF_SYM1701=Lme_184 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_get_AutoResize
+	.long LDIFF_SYM1701
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -50927,27 +50782,27 @@ Lfde242_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1701=LTDIE_95_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1701
+LDIFF_SYM1702=LTDIE_95_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1702
 	.byte 2,141,16,3
 	.asciz "value"
 
-LDIFF_SYM1702=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1702
+LDIFF_SYM1703=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1703
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1703=Lfde243_end - Lfde243_start
-	.long LDIFF_SYM1703
+LDIFF_SYM1704=Lfde243_end - Lfde243_start
+	.long LDIFF_SYM1704
 Lfde243_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_set_AutoResize_bool
 
-LDIFF_SYM1704=Lme_185 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_set_AutoResize_bool
-	.long LDIFF_SYM1704
+LDIFF_SYM1705=Lme_185 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_set_AutoResize_bool
+	.long LDIFF_SYM1705
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -50959,29 +50814,34 @@ LTDIE_113:
 	.byte 5
 	.asciz "UIKit_UIViewController"
 
-	.byte 48,16
-LDIFF_SYM1705=LTDIE_97 - Ldebug_info_start
-	.long LDIFF_SYM1705
+	.byte 56,16
+LDIFF_SYM1706=LTDIE_97 - Ldebug_info_start
+	.long LDIFF_SYM1706
 	.byte 2,35,0,6
+	.asciz "__mt_PreferredFocusedView_var"
+
+LDIFF_SYM1707=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1707
+	.byte 2,35,40,6
 	.asciz "__mt_WeakTransitioningDelegate_var"
 
-LDIFF_SYM1706=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1706
-	.byte 2,35,40,0,7
+LDIFF_SYM1708=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1708
+	.byte 2,35,48,0,7
 	.asciz "UIKit_UIViewController"
 
-LDIFF_SYM1707=LTDIE_113 - Ldebug_info_start
-	.long LDIFF_SYM1707
+LDIFF_SYM1709=LTDIE_113 - Ldebug_info_start
+	.long LDIFF_SYM1709
 LTDIE_113_POINTER:
 
 	.byte 13
-LDIFF_SYM1708=LTDIE_113 - Ldebug_info_start
-	.long LDIFF_SYM1708
+LDIFF_SYM1710=LTDIE_113 - Ldebug_info_start
+	.long LDIFF_SYM1710
 LTDIE_113_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1709=LTDIE_113 - Ldebug_info_start
-	.long LDIFF_SYM1709
+LDIFF_SYM1711=LTDIE_113 - Ldebug_info_start
+	.long LDIFF_SYM1711
 	.byte 2
 	.asciz "OpenTK.Platform.iPhoneOS.iPhoneOSGameView:GetViewController"
 	.asciz "OpenTK_Platform_iPhoneOS_iPhoneOSGameView_GetViewController"
@@ -50993,32 +50853,32 @@ LDIFF_SYM1709=LTDIE_113 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1710=LTDIE_95_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1710
+LDIFF_SYM1712=LTDIE_95_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1712
 	.byte 1,106,11
 	.asciz "r"
 
-LDIFF_SYM1711=LTDIE_97_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1711
+LDIFF_SYM1713=LTDIE_97_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1713
 	.byte 1,105,11
 	.asciz "c"
 
-LDIFF_SYM1712=LTDIE_113_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1712
+LDIFF_SYM1714=LTDIE_113_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1714
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1713=Lfde244_end - Lfde244_start
-	.long LDIFF_SYM1713
+LDIFF_SYM1715=Lfde244_end - Lfde244_start
+	.long LDIFF_SYM1715
 Lfde244_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_GetViewController
 
-LDIFF_SYM1714=Lme_186 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_GetViewController
-	.long LDIFF_SYM1714
+LDIFF_SYM1716=Lme_186 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_GetViewController
+	.long LDIFF_SYM1716
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,152,4,153,3,68,154,2
 	.align 3
@@ -51037,27 +50897,27 @@ Lfde244_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1715=LTDIE_95_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1715
+LDIFF_SYM1717=LTDIE_95_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1717
 	.byte 1,106,11
 	.asciz "c"
 
-LDIFF_SYM1716=LTDIE_113_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1716
+LDIFF_SYM1718=LTDIE_113_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1718
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1717=Lfde245_end - Lfde245_start
-	.long LDIFF_SYM1717
+LDIFF_SYM1719=Lfde245_end - Lfde245_start
+	.long LDIFF_SYM1719
 Lfde245_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_get_Title
 
-LDIFF_SYM1718=Lme_187 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_get_Title
-	.long LDIFF_SYM1718
+LDIFF_SYM1720=Lme_187 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_get_Title
+	.long LDIFF_SYM1720
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29,68,154,2
 	.align 3
@@ -51076,32 +50936,32 @@ Lfde245_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1719=LTDIE_95_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1719
+LDIFF_SYM1721=LTDIE_95_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1721
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM1720=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1720
+LDIFF_SYM1722=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1722
 	.byte 2,141,32,11
 	.asciz "c"
 
-LDIFF_SYM1721=LTDIE_113_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1721
+LDIFF_SYM1723=LTDIE_113_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1723
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1722=Lfde246_end - Lfde246_start
-	.long LDIFF_SYM1722
+LDIFF_SYM1724=Lfde246_end - Lfde246_start
+	.long LDIFF_SYM1724
 Lfde246_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_set_Title_string
 
-LDIFF_SYM1723=Lme_188 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_set_Title_string
-	.long LDIFF_SYM1723
+LDIFF_SYM1725=Lme_188 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_set_Title_string
+	.long LDIFF_SYM1725
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,152,4,153,3
 	.align 3
@@ -51120,32 +50980,32 @@ Lfde246_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1724=LTDIE_95_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1724
+LDIFF_SYM1726=LTDIE_95_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1726
 	.byte 2,141,24,3
 	.asciz "e"
 
-LDIFF_SYM1725=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1725
+LDIFF_SYM1727=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1727
 	.byte 0,11
 	.asciz "h"
 
-LDIFF_SYM1726=LTDIE_102_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1726
+LDIFF_SYM1728=LTDIE_102_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1728
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1727=Lfde247_end - Lfde247_start
-	.long LDIFF_SYM1727
+LDIFF_SYM1729=Lfde247_end - Lfde247_start
+	.long LDIFF_SYM1729
 Lfde247_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OnTitleChanged_System_EventArgs
 
-LDIFF_SYM1728=Lme_189 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OnTitleChanged_System_EventArgs
-	.long LDIFF_SYM1728
+LDIFF_SYM1730=Lme_189 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OnTitleChanged_System_EventArgs
+	.long LDIFF_SYM1730
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,153,4
 	.align 3
@@ -51164,22 +51024,22 @@ Lfde247_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1729=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1729
+LDIFF_SYM1731=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1731
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1730=Lfde248_end - Lfde248_start
-	.long LDIFF_SYM1730
+LDIFF_SYM1732=Lfde248_end - Lfde248_start
+	.long LDIFF_SYM1732
 Lfde248_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_get_Focused
 
-LDIFF_SYM1731=Lme_18a - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_get_Focused
-	.long LDIFF_SYM1731
+LDIFF_SYM1733=Lme_18a - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_get_Focused
+	.long LDIFF_SYM1733
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -51198,22 +51058,22 @@ Lfde248_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1732=LTDIE_95_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1732
+LDIFF_SYM1734=LTDIE_95_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1734
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1733=Lfde249_end - Lfde249_start
-	.long LDIFF_SYM1733
+LDIFF_SYM1735=Lfde249_end - Lfde249_start
+	.long LDIFF_SYM1735
 Lfde249_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_get_Visible
 
-LDIFF_SYM1734=Lme_18b - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_get_Visible
-	.long LDIFF_SYM1734
+LDIFF_SYM1736=Lme_18b - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_get_Visible
+	.long LDIFF_SYM1736
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -51232,27 +51092,27 @@ Lfde249_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1735=LTDIE_95_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1735
+LDIFF_SYM1737=LTDIE_95_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1737
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM1736=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1736
+LDIFF_SYM1738=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1738
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1737=Lfde250_end - Lfde250_start
-	.long LDIFF_SYM1737
+LDIFF_SYM1739=Lfde250_end - Lfde250_start
+	.long LDIFF_SYM1739
 Lfde250_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_set_Visible_bool
 
-LDIFF_SYM1738=Lme_18c - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_set_Visible_bool
-	.long LDIFF_SYM1738
+LDIFF_SYM1740=Lme_18c - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_set_Visible_bool
+	.long LDIFF_SYM1740
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29,68,153,2
 	.align 3
@@ -51271,32 +51131,32 @@ Lfde250_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1739=LTDIE_95_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1739
+LDIFF_SYM1741=LTDIE_95_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1741
 	.byte 2,141,24,3
 	.asciz "e"
 
-LDIFF_SYM1740=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1740
+LDIFF_SYM1742=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1742
 	.byte 0,11
 	.asciz "h"
 
-LDIFF_SYM1741=LTDIE_102_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1741
+LDIFF_SYM1743=LTDIE_102_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1743
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1742=Lfde251_end - Lfde251_start
-	.long LDIFF_SYM1742
+LDIFF_SYM1744=Lfde251_end - Lfde251_start
+	.long LDIFF_SYM1744
 Lfde251_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OnVisibleChanged_System_EventArgs
 
-LDIFF_SYM1743=Lme_18d - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OnVisibleChanged_System_EventArgs
-	.long LDIFF_SYM1743
+LDIFF_SYM1745=Lme_18d - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OnVisibleChanged_System_EventArgs
+	.long LDIFF_SYM1745
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,153,4
 	.align 3
@@ -51315,22 +51175,22 @@ Lfde251_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1744=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1744
+LDIFF_SYM1746=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1746
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1745=Lfde252_end - Lfde252_start
-	.long LDIFF_SYM1745
+LDIFF_SYM1747=Lfde252_end - Lfde252_start
+	.long LDIFF_SYM1747
 Lfde252_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_get_Exists
 
-LDIFF_SYM1746=Lme_18e - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_get_Exists
-	.long LDIFF_SYM1746
+LDIFF_SYM1748=Lme_18e - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_get_Exists
+	.long LDIFF_SYM1748
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -51349,22 +51209,22 @@ Lfde252_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1747=LTDIE_95_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1747
+LDIFF_SYM1749=LTDIE_95_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1749
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1748=Lfde253_end - Lfde253_start
-	.long LDIFF_SYM1748
+LDIFF_SYM1750=Lfde253_end - Lfde253_start
+	.long LDIFF_SYM1750
 Lfde253_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_get_WindowInfo
 
-LDIFF_SYM1749=Lme_18f - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_get_WindowInfo
-	.long LDIFF_SYM1749
+LDIFF_SYM1751=Lme_18f - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_get_WindowInfo
+	.long LDIFF_SYM1751
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -51383,27 +51243,27 @@ Lfde253_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1750=LTDIE_95_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1750
+LDIFF_SYM1752=LTDIE_95_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1752
 	.byte 1,106,11
 	.asciz "c"
 
-LDIFF_SYM1751=LTDIE_113_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1751
+LDIFF_SYM1753=LTDIE_113_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1753
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1752=Lfde254_end - Lfde254_start
-	.long LDIFF_SYM1752
+LDIFF_SYM1754=Lfde254_end - Lfde254_start
+	.long LDIFF_SYM1754
 Lfde254_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_get_WindowState
 
-LDIFF_SYM1753=Lme_190 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_get_WindowState
-	.long LDIFF_SYM1753
+LDIFF_SYM1755=Lme_190 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_get_WindowState
+	.long LDIFF_SYM1755
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29,68,154,2
 	.align 3
@@ -51416,8 +51276,8 @@ LTDIE_114:
 	.asciz "OpenTK_WindowState"
 
 	.byte 4
-LDIFF_SYM1754=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1754
+LDIFF_SYM1756=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1756
 	.byte 9
 	.asciz "Normal"
 
@@ -51433,18 +51293,18 @@ LDIFF_SYM1754=LDIE_I4 - Ldebug_info_start
 	.byte 3,0,7
 	.asciz "OpenTK_WindowState"
 
-LDIFF_SYM1755=LTDIE_114 - Ldebug_info_start
-	.long LDIFF_SYM1755
+LDIFF_SYM1757=LTDIE_114 - Ldebug_info_start
+	.long LDIFF_SYM1757
 LTDIE_114_POINTER:
 
 	.byte 13
-LDIFF_SYM1756=LTDIE_114 - Ldebug_info_start
-	.long LDIFF_SYM1756
+LDIFF_SYM1758=LTDIE_114 - Ldebug_info_start
+	.long LDIFF_SYM1758
 LTDIE_114_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1757=LTDIE_114 - Ldebug_info_start
-	.long LDIFF_SYM1757
+LDIFF_SYM1759=LTDIE_114 - Ldebug_info_start
+	.long LDIFF_SYM1759
 	.byte 2
 	.asciz "OpenTK.Platform.iPhoneOS.iPhoneOSGameView:set_WindowState"
 	.asciz "OpenTK_Platform_iPhoneOS_iPhoneOSGameView_set_WindowState_OpenTK_WindowState"
@@ -51456,37 +51316,37 @@ LDIFF_SYM1757=LTDIE_114 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1758=LTDIE_95_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1758
+LDIFF_SYM1760=LTDIE_95_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1760
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM1759=LTDIE_114 - Ldebug_info_start
-	.long LDIFF_SYM1759
+LDIFF_SYM1761=LTDIE_114 - Ldebug_info_start
+	.long LDIFF_SYM1761
 	.byte 1,106,11
 	.asciz "c"
 
-LDIFF_SYM1760=LTDIE_113_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1760
+LDIFF_SYM1762=LTDIE_113_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1762
 	.byte 1,104,11
 	.asciz "fullscreen"
 
-LDIFF_SYM1761=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1761
+LDIFF_SYM1763=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1763
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1762=Lfde255_end - Lfde255_start
-	.long LDIFF_SYM1762
+LDIFF_SYM1764=Lfde255_end - Lfde255_start
+	.long LDIFF_SYM1764
 Lfde255_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_set_WindowState_OpenTK_WindowState
 
-LDIFF_SYM1763=Lme_191 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_set_WindowState_OpenTK_WindowState
-	.long LDIFF_SYM1763
+LDIFF_SYM1765=Lme_191 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_set_WindowState_OpenTK_WindowState
+	.long LDIFF_SYM1765
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,152,4,153,3,68,154,2
 	.align 3
@@ -51505,32 +51365,32 @@ Lfde255_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1764=LTDIE_95_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1764
+LDIFF_SYM1766=LTDIE_95_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1766
 	.byte 2,141,24,3
 	.asciz "e"
 
-LDIFF_SYM1765=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1765
+LDIFF_SYM1767=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1767
 	.byte 0,11
 	.asciz "h"
 
-LDIFF_SYM1766=LTDIE_102_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1766
+LDIFF_SYM1768=LTDIE_102_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1768
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1767=Lfde256_end - Lfde256_start
-	.long LDIFF_SYM1767
+LDIFF_SYM1769=Lfde256_end - Lfde256_start
+	.long LDIFF_SYM1769
 Lfde256_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OnWindowStateChanged_System_EventArgs
 
-LDIFF_SYM1768=Lme_192 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OnWindowStateChanged_System_EventArgs
-	.long LDIFF_SYM1768
+LDIFF_SYM1770=Lme_192 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OnWindowStateChanged_System_EventArgs
+	.long LDIFF_SYM1770
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,153,4
 	.align 3
@@ -51549,22 +51409,22 @@ Lfde256_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1769=LTDIE_95_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1769
+LDIFF_SYM1771=LTDIE_95_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1771
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1770=Lfde257_end - Lfde257_start
-	.long LDIFF_SYM1770
+LDIFF_SYM1772=Lfde257_end - Lfde257_start
+	.long LDIFF_SYM1772
 Lfde257_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_get_WindowBorder
 
-LDIFF_SYM1771=Lme_193 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_get_WindowBorder
-	.long LDIFF_SYM1771
+LDIFF_SYM1773=Lme_193 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_get_WindowBorder
+	.long LDIFF_SYM1773
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -51577,8 +51437,8 @@ LTDIE_115:
 	.asciz "OpenTK_WindowBorder"
 
 	.byte 4
-LDIFF_SYM1772=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1772
+LDIFF_SYM1774=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1774
 	.byte 9
 	.asciz "Resizable"
 
@@ -51591,18 +51451,18 @@ LDIFF_SYM1772=LDIE_I4 - Ldebug_info_start
 	.byte 2,0,7
 	.asciz "OpenTK_WindowBorder"
 
-LDIFF_SYM1773=LTDIE_115 - Ldebug_info_start
-	.long LDIFF_SYM1773
+LDIFF_SYM1775=LTDIE_115 - Ldebug_info_start
+	.long LDIFF_SYM1775
 LTDIE_115_POINTER:
 
 	.byte 13
-LDIFF_SYM1774=LTDIE_115 - Ldebug_info_start
-	.long LDIFF_SYM1774
+LDIFF_SYM1776=LTDIE_115 - Ldebug_info_start
+	.long LDIFF_SYM1776
 LTDIE_115_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1775=LTDIE_115 - Ldebug_info_start
-	.long LDIFF_SYM1775
+LDIFF_SYM1777=LTDIE_115 - Ldebug_info_start
+	.long LDIFF_SYM1777
 	.byte 2
 	.asciz "OpenTK.Platform.iPhoneOS.iPhoneOSGameView:set_WindowBorder"
 	.asciz "OpenTK_Platform_iPhoneOS_iPhoneOSGameView_set_WindowBorder_OpenTK_WindowBorder"
@@ -51614,27 +51474,27 @@ LDIFF_SYM1775=LTDIE_115 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1776=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1776
+LDIFF_SYM1778=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1778
 	.byte 0,3
 	.asciz "value"
 
-LDIFF_SYM1777=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1777
+LDIFF_SYM1779=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1779
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1778=Lfde258_end - Lfde258_start
-	.long LDIFF_SYM1778
+LDIFF_SYM1780=Lfde258_end - Lfde258_start
+	.long LDIFF_SYM1780
 Lfde258_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_set_WindowBorder_OpenTK_WindowBorder
 
-LDIFF_SYM1779=Lme_194 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_set_WindowBorder_OpenTK_WindowBorder
-	.long LDIFF_SYM1779
+LDIFF_SYM1781=Lme_194 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_set_WindowBorder_OpenTK_WindowBorder
+	.long LDIFF_SYM1781
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -51653,22 +51513,22 @@ Lfde258_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1780=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1780
+LDIFF_SYM1782=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1782
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1781=Lfde259_end - Lfde259_start
-	.long LDIFF_SYM1781
+LDIFF_SYM1783=Lfde259_end - Lfde259_start
+	.long LDIFF_SYM1783
 Lfde259_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_get_Bounds
 
-LDIFF_SYM1782=Lme_195 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_get_Bounds
-	.long LDIFF_SYM1782
+LDIFF_SYM1784=Lme_195 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_get_Bounds
+	.long LDIFF_SYM1784
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -51687,27 +51547,27 @@ Lfde259_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1783=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1783
+LDIFF_SYM1785=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1785
 	.byte 0,3
 	.asciz "value"
 
-LDIFF_SYM1784=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1784
+LDIFF_SYM1786=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1786
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1785=Lfde260_end - Lfde260_start
-	.long LDIFF_SYM1785
+LDIFF_SYM1787=Lfde260_end - Lfde260_start
+	.long LDIFF_SYM1787
 Lfde260_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_set_Bounds_System_Drawing_Rectangle
 
-LDIFF_SYM1786=Lme_196 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_set_Bounds_System_Drawing_Rectangle
-	.long LDIFF_SYM1786
+LDIFF_SYM1788=Lme_196 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_set_Bounds_System_Drawing_Rectangle
+	.long LDIFF_SYM1788
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -51726,22 +51586,22 @@ Lfde260_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1787=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1787
+LDIFF_SYM1789=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1789
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1788=Lfde261_end - Lfde261_start
-	.long LDIFF_SYM1788
+LDIFF_SYM1790=Lfde261_end - Lfde261_start
+	.long LDIFF_SYM1790
 Lfde261_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_get_Location
 
-LDIFF_SYM1789=Lme_197 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_get_Location
-	.long LDIFF_SYM1789
+LDIFF_SYM1791=Lme_197 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_get_Location
+	.long LDIFF_SYM1791
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -51760,27 +51620,27 @@ Lfde261_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1790=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1790
+LDIFF_SYM1792=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1792
 	.byte 0,3
 	.asciz "value"
 
-LDIFF_SYM1791=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1791
+LDIFF_SYM1793=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1793
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1792=Lfde262_end - Lfde262_start
-	.long LDIFF_SYM1792
+LDIFF_SYM1794=Lfde262_end - Lfde262_start
+	.long LDIFF_SYM1794
 Lfde262_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_set_Location_System_Drawing_Point
 
-LDIFF_SYM1793=Lme_198 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_set_Location_System_Drawing_Point
-	.long LDIFF_SYM1793
+LDIFF_SYM1795=Lme_198 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_set_Location_System_Drawing_Point
+	.long LDIFF_SYM1795
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -51799,22 +51659,22 @@ Lfde262_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1794=LTDIE_95_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1794
+LDIFF_SYM1796=LTDIE_95_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1796
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1795=Lfde263_end - Lfde263_start
-	.long LDIFF_SYM1795
+LDIFF_SYM1797=Lfde263_end - Lfde263_start
+	.long LDIFF_SYM1797
 Lfde263_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_get_Size
 
-LDIFF_SYM1796=Lme_199 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_get_Size
-	.long LDIFF_SYM1796
+LDIFF_SYM1798=Lme_199 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_get_Size
+	.long LDIFF_SYM1798
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -51833,27 +51693,27 @@ Lfde263_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1797=LTDIE_95_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1797
+LDIFF_SYM1799=LTDIE_95_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1799
 	.byte 1,106,3
 	.asciz "value"
 
-LDIFF_SYM1798=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1798
+LDIFF_SYM1800=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1800
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1799=Lfde264_end - Lfde264_start
-	.long LDIFF_SYM1799
+LDIFF_SYM1801=Lfde264_end - Lfde264_start
+	.long LDIFF_SYM1801
 Lfde264_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_set_Size_System_Drawing_Size
 
-LDIFF_SYM1800=Lme_19a - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_set_Size_System_Drawing_Size
-	.long LDIFF_SYM1800
+LDIFF_SYM1802=Lme_19a - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_set_Size_System_Drawing_Size
+	.long LDIFF_SYM1802
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
 	.align 3
@@ -51872,32 +51732,32 @@ Lfde264_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1801=LTDIE_95_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1801
+LDIFF_SYM1803=LTDIE_95_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1803
 	.byte 2,141,24,3
 	.asciz "e"
 
-LDIFF_SYM1802=LTDIE_24_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1802
+LDIFF_SYM1804=LTDIE_24_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1804
 	.byte 2,141,32,11
 	.asciz "h"
 
-LDIFF_SYM1803=LTDIE_102_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1803
+LDIFF_SYM1805=LTDIE_102_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1805
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1804=Lfde265_end - Lfde265_start
-	.long LDIFF_SYM1804
+LDIFF_SYM1806=Lfde265_end - Lfde265_start
+	.long LDIFF_SYM1806
 Lfde265_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OnResize_System_EventArgs
 
-LDIFF_SYM1805=Lme_19b - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OnResize_System_EventArgs
-	.long LDIFF_SYM1805
+LDIFF_SYM1807=Lme_19b - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OnResize_System_EventArgs
+	.long LDIFF_SYM1807
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,152,4
 	.align 3
@@ -51916,22 +51776,22 @@ Lfde265_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1806=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1806
+LDIFF_SYM1808=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1808
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1807=Lfde266_end - Lfde266_start
-	.long LDIFF_SYM1807
+LDIFF_SYM1809=Lfde266_end - Lfde266_start
+	.long LDIFF_SYM1809
 Lfde266_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_get_X
 
-LDIFF_SYM1808=Lme_19c - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_get_X
-	.long LDIFF_SYM1808
+LDIFF_SYM1810=Lme_19c - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_get_X
+	.long LDIFF_SYM1810
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -51950,27 +51810,27 @@ Lfde266_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1809=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1809
+LDIFF_SYM1811=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1811
 	.byte 0,3
 	.asciz "value"
 
-LDIFF_SYM1810=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1810
+LDIFF_SYM1812=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1812
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1811=Lfde267_end - Lfde267_start
-	.long LDIFF_SYM1811
+LDIFF_SYM1813=Lfde267_end - Lfde267_start
+	.long LDIFF_SYM1813
 Lfde267_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_set_X_int
 
-LDIFF_SYM1812=Lme_19d - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_set_X_int
-	.long LDIFF_SYM1812
+LDIFF_SYM1814=Lme_19d - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_set_X_int
+	.long LDIFF_SYM1814
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -51989,22 +51849,22 @@ Lfde267_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1813=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1813
+LDIFF_SYM1815=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1815
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1814=Lfde268_end - Lfde268_start
-	.long LDIFF_SYM1814
+LDIFF_SYM1816=Lfde268_end - Lfde268_start
+	.long LDIFF_SYM1816
 Lfde268_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_get_Y
 
-LDIFF_SYM1815=Lme_19e - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_get_Y
-	.long LDIFF_SYM1815
+LDIFF_SYM1817=Lme_19e - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_get_Y
+	.long LDIFF_SYM1817
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -52023,27 +51883,27 @@ Lfde268_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1816=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1816
+LDIFF_SYM1818=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1818
 	.byte 0,3
 	.asciz "value"
 
-LDIFF_SYM1817=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1817
+LDIFF_SYM1819=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1819
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1818=Lfde269_end - Lfde269_start
-	.long LDIFF_SYM1818
+LDIFF_SYM1820=Lfde269_end - Lfde269_start
+	.long LDIFF_SYM1820
 Lfde269_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_set_Y_int
 
-LDIFF_SYM1819=Lme_19f - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_set_Y_int
-	.long LDIFF_SYM1819
+LDIFF_SYM1821=Lme_19f - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_set_Y_int
+	.long LDIFF_SYM1821
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -52062,22 +51922,22 @@ Lfde269_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1820=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1820
+LDIFF_SYM1822=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1822
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1821=Lfde270_end - Lfde270_start
-	.long LDIFF_SYM1821
+LDIFF_SYM1823=Lfde270_end - Lfde270_start
+	.long LDIFF_SYM1823
 Lfde270_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_get_Width
 
-LDIFF_SYM1822=Lme_1a0 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_get_Width
-	.long LDIFF_SYM1822
+LDIFF_SYM1824=Lme_1a0 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_get_Width
+	.long LDIFF_SYM1824
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -52096,27 +51956,27 @@ Lfde270_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1823=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1823
+LDIFF_SYM1825=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1825
 	.byte 0,3
 	.asciz "value"
 
-LDIFF_SYM1824=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1824
+LDIFF_SYM1826=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1826
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1825=Lfde271_end - Lfde271_start
-	.long LDIFF_SYM1825
+LDIFF_SYM1827=Lfde271_end - Lfde271_start
+	.long LDIFF_SYM1827
 Lfde271_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_set_Width_int
 
-LDIFF_SYM1826=Lme_1a1 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_set_Width_int
-	.long LDIFF_SYM1826
+LDIFF_SYM1828=Lme_1a1 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_set_Width_int
+	.long LDIFF_SYM1828
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -52135,22 +51995,22 @@ Lfde271_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1827=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1827
+LDIFF_SYM1829=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1829
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1828=Lfde272_end - Lfde272_start
-	.long LDIFF_SYM1828
+LDIFF_SYM1830=Lfde272_end - Lfde272_start
+	.long LDIFF_SYM1830
 Lfde272_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_get_Height
 
-LDIFF_SYM1829=Lme_1a2 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_get_Height
-	.long LDIFF_SYM1829
+LDIFF_SYM1831=Lme_1a2 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_get_Height
+	.long LDIFF_SYM1831
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -52169,27 +52029,27 @@ Lfde272_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1830=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1830
+LDIFF_SYM1832=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1832
 	.byte 0,3
 	.asciz "value"
 
-LDIFF_SYM1831=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1831
+LDIFF_SYM1833=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1833
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1832=Lfde273_end - Lfde273_start
-	.long LDIFF_SYM1832
+LDIFF_SYM1834=Lfde273_end - Lfde273_start
+	.long LDIFF_SYM1834
 Lfde273_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_set_Height_int
 
-LDIFF_SYM1833=Lme_1a3 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_set_Height_int
-	.long LDIFF_SYM1833
+LDIFF_SYM1835=Lme_1a3 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_set_Height_int
+	.long LDIFF_SYM1835
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -52208,22 +52068,22 @@ Lfde273_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1834=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1834
+LDIFF_SYM1836=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1836
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1835=Lfde274_end - Lfde274_start
-	.long LDIFF_SYM1835
+LDIFF_SYM1837=Lfde274_end - Lfde274_start
+	.long LDIFF_SYM1837
 Lfde274_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_get_ClientRectangle
 
-LDIFF_SYM1836=Lme_1a4 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_get_ClientRectangle
-	.long LDIFF_SYM1836
+LDIFF_SYM1838=Lme_1a4 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_get_ClientRectangle
+	.long LDIFF_SYM1838
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -52242,27 +52102,27 @@ Lfde274_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1837=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1837
+LDIFF_SYM1839=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1839
 	.byte 0,3
 	.asciz "value"
 
-LDIFF_SYM1838=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1838
+LDIFF_SYM1840=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1840
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1839=Lfde275_end - Lfde275_start
-	.long LDIFF_SYM1839
+LDIFF_SYM1841=Lfde275_end - Lfde275_start
+	.long LDIFF_SYM1841
 Lfde275_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_set_ClientRectangle_System_Drawing_Rectangle
 
-LDIFF_SYM1840=Lme_1a5 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_set_ClientRectangle_System_Drawing_Rectangle
-	.long LDIFF_SYM1840
+LDIFF_SYM1842=Lme_1a5 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_set_ClientRectangle_System_Drawing_Rectangle
+	.long LDIFF_SYM1842
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -52281,22 +52141,22 @@ Lfde275_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1841=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1841
+LDIFF_SYM1843=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1843
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1842=Lfde276_end - Lfde276_start
-	.long LDIFF_SYM1842
+LDIFF_SYM1844=Lfde276_end - Lfde276_start
+	.long LDIFF_SYM1844
 Lfde276_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_get_ClientSize
 
-LDIFF_SYM1843=Lme_1a6 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_get_ClientSize
-	.long LDIFF_SYM1843
+LDIFF_SYM1845=Lme_1a6 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_get_ClientSize
+	.long LDIFF_SYM1845
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -52315,27 +52175,27 @@ Lfde276_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1844=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1844
+LDIFF_SYM1846=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1846
 	.byte 0,3
 	.asciz "value"
 
-LDIFF_SYM1845=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1845
+LDIFF_SYM1847=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1847
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1846=Lfde277_end - Lfde277_start
-	.long LDIFF_SYM1846
+LDIFF_SYM1848=Lfde277_end - Lfde277_start
+	.long LDIFF_SYM1848
 Lfde277_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_set_ClientSize_System_Drawing_Size
 
-LDIFF_SYM1847=Lme_1a7 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_set_ClientSize_System_Drawing_Size
-	.long LDIFF_SYM1847
+LDIFF_SYM1849=Lme_1a7 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_set_ClientSize_System_Drawing_Size
+	.long LDIFF_SYM1849
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -52348,56 +52208,56 @@ LTDIE_117:
 	.asciz "CoreAnimation_CALayer"
 
 	.byte 56,16
-LDIFF_SYM1848=LTDIE_12 - Ldebug_info_start
-	.long LDIFF_SYM1848
+LDIFF_SYM1850=LTDIE_12 - Ldebug_info_start
+	.long LDIFF_SYM1850
 	.byte 2,35,0,6
 	.asciz "calayerdelegate"
 
-LDIFF_SYM1849=LTDIE_101_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1849
+LDIFF_SYM1851=LTDIE_101_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1851
 	.byte 2,35,40,6
 	.asciz "__mt_WeakDelegate_var"
 
-LDIFF_SYM1850=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1850
+LDIFF_SYM1852=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1852
 	.byte 2,35,48,0,7
 	.asciz "CoreAnimation_CALayer"
 
-LDIFF_SYM1851=LTDIE_117 - Ldebug_info_start
-	.long LDIFF_SYM1851
+LDIFF_SYM1853=LTDIE_117 - Ldebug_info_start
+	.long LDIFF_SYM1853
 LTDIE_117_POINTER:
 
 	.byte 13
-LDIFF_SYM1852=LTDIE_117 - Ldebug_info_start
-	.long LDIFF_SYM1852
+LDIFF_SYM1854=LTDIE_117 - Ldebug_info_start
+	.long LDIFF_SYM1854
 LTDIE_117_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1853=LTDIE_117 - Ldebug_info_start
-	.long LDIFF_SYM1853
+LDIFF_SYM1855=LTDIE_117 - Ldebug_info_start
+	.long LDIFF_SYM1855
 LTDIE_116:
 
 	.byte 5
 	.asciz "CoreAnimation_CAEAGLLayer"
 
 	.byte 56,16
-LDIFF_SYM1854=LTDIE_117 - Ldebug_info_start
-	.long LDIFF_SYM1854
+LDIFF_SYM1856=LTDIE_117 - Ldebug_info_start
+	.long LDIFF_SYM1856
 	.byte 2,35,0,0,7
 	.asciz "CoreAnimation_CAEAGLLayer"
 
-LDIFF_SYM1855=LTDIE_116 - Ldebug_info_start
-	.long LDIFF_SYM1855
+LDIFF_SYM1857=LTDIE_116 - Ldebug_info_start
+	.long LDIFF_SYM1857
 LTDIE_116_POINTER:
 
 	.byte 13
-LDIFF_SYM1856=LTDIE_116 - Ldebug_info_start
-	.long LDIFF_SYM1856
+LDIFF_SYM1858=LTDIE_116 - Ldebug_info_start
+	.long LDIFF_SYM1858
 LTDIE_116_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1857=LTDIE_116 - Ldebug_info_start
-	.long LDIFF_SYM1857
+LDIFF_SYM1859=LTDIE_116 - Ldebug_info_start
+	.long LDIFF_SYM1859
 	.byte 2
 	.asciz "OpenTK.Platform.iPhoneOS.iPhoneOSGameView:CreateFrameBuffer"
 	.asciz "OpenTK_Platform_iPhoneOS_iPhoneOSGameView_CreateFrameBuffer"
@@ -52409,52 +52269,52 @@ LDIFF_SYM1857=LTDIE_116 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1858=LTDIE_95_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1858
+LDIFF_SYM1860=LTDIE_95_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1860
 	.byte 1,106,11
 	.asciz "eaglLayer"
 
-LDIFF_SYM1859=LTDIE_116_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1859
+LDIFF_SYM1861=LTDIE_116_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1861
 	.byte 1,104,11
 	.asciz "oldFramebuffer"
 
-LDIFF_SYM1860=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1860
+LDIFF_SYM1862=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1862
 	.byte 3,141,136,1,11
 	.asciz "oldRenderbuffer"
 
-LDIFF_SYM1861=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1861
+LDIFF_SYM1863=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1863
 	.byte 3,141,144,1,11
 	.asciz "newSize"
 
-LDIFF_SYM1862=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1862
+LDIFF_SYM1864=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1864
 	.byte 3,141,128,1,11
 	.asciz "V_4"
 
-LDIFF_SYM1863=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1863
+LDIFF_SYM1865=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1865
 	.byte 3,141,224,0,11
 	.asciz "V_5"
 
-LDIFF_SYM1864=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1864
+LDIFF_SYM1866=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1866
 	.byte 3,141,208,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1865=Lfde278_end - Lfde278_start
-	.long LDIFF_SYM1865
+LDIFF_SYM1867=Lfde278_end - Lfde278_start
+	.long LDIFF_SYM1867
 Lfde278_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_CreateFrameBuffer
 
-LDIFF_SYM1866=Lme_1a8 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_CreateFrameBuffer
-	.long LDIFF_SYM1866
+LDIFF_SYM1868=Lme_1a8 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_CreateFrameBuffer
+	.long LDIFF_SYM1868
 	.long 0
 	.byte 12,31,0,68,14,128,2,157,32,158,31,68,13,29,68,152,30,153,29,68,154,28
 	.align 3
@@ -52473,27 +52333,27 @@ Lfde278_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1867=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1867
+LDIFF_SYM1869=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1869
 	.byte 0,3
 	.asciz "eaglLayer"
 
-LDIFF_SYM1868=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1868
+LDIFF_SYM1870=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1870
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1869=Lfde279_end - Lfde279_start
-	.long LDIFF_SYM1869
+LDIFF_SYM1871=Lfde279_end - Lfde279_start
+	.long LDIFF_SYM1871
 Lfde279_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_ConfigureLayer_CoreAnimation_CAEAGLLayer
 
-LDIFF_SYM1870=Lme_1a9 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_ConfigureLayer_CoreAnimation_CAEAGLLayer
-	.long LDIFF_SYM1870
+LDIFF_SYM1872=Lme_1a9 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_ConfigureLayer_CoreAnimation_CAEAGLLayer
+	.long LDIFF_SYM1872
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -52512,32 +52372,32 @@ Lfde279_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1871=LTDIE_95_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1871
+LDIFF_SYM1873=LTDIE_95_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1873
 	.byte 1,106,11
 	.asciz "oldContext"
 
-LDIFF_SYM1872=LTDIE_11_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1872
+LDIFF_SYM1874=LTDIE_11_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1874
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM1873=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1873
+LDIFF_SYM1875=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1875
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1874=Lfde280_end - Lfde280_start
-	.long LDIFF_SYM1874
+LDIFF_SYM1876=Lfde280_end - Lfde280_start
+	.long LDIFF_SYM1876
 Lfde280_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_DestroyFrameBuffer
 
-LDIFF_SYM1875=Lme_1aa - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_DestroyFrameBuffer
-	.long LDIFF_SYM1875
+LDIFF_SYM1877=Lme_1aa - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_DestroyFrameBuffer
+	.long LDIFF_SYM1877
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,153,4,154,3
 	.align 3
@@ -52556,22 +52416,22 @@ Lfde280_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1876=LTDIE_95_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1876
+LDIFF_SYM1878=LTDIE_95_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1878
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1877=Lfde281_end - Lfde281_start
-	.long LDIFF_SYM1877
+LDIFF_SYM1879=Lfde281_end - Lfde281_start
+	.long LDIFF_SYM1879
 Lfde281_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_Close
 
-LDIFF_SYM1878=Lme_1ab - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_Close
-	.long LDIFF_SYM1878
+LDIFF_SYM1880=Lme_1ab - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_Close
+	.long LDIFF_SYM1880
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -52590,32 +52450,32 @@ Lfde281_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1879=LTDIE_95_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1879
+LDIFF_SYM1881=LTDIE_95_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1881
 	.byte 2,141,24,3
 	.asciz "e"
 
-LDIFF_SYM1880=LTDIE_24_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1880
+LDIFF_SYM1882=LTDIE_24_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1882
 	.byte 2,141,32,11
 	.asciz "h"
 
-LDIFF_SYM1881=LTDIE_102_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1881
+LDIFF_SYM1883=LTDIE_102_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1883
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1882=Lfde282_end - Lfde282_start
-	.long LDIFF_SYM1882
+LDIFF_SYM1884=Lfde282_end - Lfde282_start
+	.long LDIFF_SYM1884
 Lfde282_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OnClosed_System_EventArgs
 
-LDIFF_SYM1883=Lme_1ac - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OnClosed_System_EventArgs
-	.long LDIFF_SYM1883
+LDIFF_SYM1885=Lme_1ac - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OnClosed_System_EventArgs
+	.long LDIFF_SYM1885
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,152,4
 	.align 3
@@ -52634,27 +52494,27 @@ Lfde282_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1884=LTDIE_95_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1884
+LDIFF_SYM1886=LTDIE_95_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1886
 	.byte 1,105,3
 	.asciz "disposing"
 
-LDIFF_SYM1885=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1885
+LDIFF_SYM1887=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1887
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1886=Lfde283_end - Lfde283_start
-	.long LDIFF_SYM1886
+LDIFF_SYM1888=Lfde283_end - Lfde283_start
+	.long LDIFF_SYM1888
 Lfde283_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_Dispose_bool
 
-LDIFF_SYM1887=Lme_1ad - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_Dispose_bool
-	.long LDIFF_SYM1887
+LDIFF_SYM1889=Lme_1ad - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_Dispose_bool
+	.long LDIFF_SYM1889
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29,68,153,2
 	.align 3
@@ -52673,32 +52533,32 @@ Lfde283_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1888=LTDIE_95_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1888
+LDIFF_SYM1890=LTDIE_95_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1890
 	.byte 2,141,24,3
 	.asciz "e"
 
-LDIFF_SYM1889=LTDIE_24_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1889
+LDIFF_SYM1891=LTDIE_24_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1891
 	.byte 2,141,32,11
 	.asciz "h"
 
-LDIFF_SYM1890=LTDIE_102_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1890
+LDIFF_SYM1892=LTDIE_102_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1892
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1891=Lfde284_end - Lfde284_start
-	.long LDIFF_SYM1891
+LDIFF_SYM1893=Lfde284_end - Lfde284_start
+	.long LDIFF_SYM1893
 Lfde284_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OnDisposed_System_EventArgs
 
-LDIFF_SYM1892=Lme_1ae - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OnDisposed_System_EventArgs
-	.long LDIFF_SYM1892
+LDIFF_SYM1894=Lme_1ae - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OnDisposed_System_EventArgs
+	.long LDIFF_SYM1894
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,152,4
 	.align 3
@@ -52717,22 +52577,22 @@ Lfde284_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1893=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1893
+LDIFF_SYM1895=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1895
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1894=Lfde285_end - Lfde285_start
-	.long LDIFF_SYM1894
+LDIFF_SYM1896=Lfde285_end - Lfde285_start
+	.long LDIFF_SYM1896
 Lfde285_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_ProcessEvents
 
-LDIFF_SYM1895=Lme_1af - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_ProcessEvents
-	.long LDIFF_SYM1895
+LDIFF_SYM1897=Lme_1af - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_ProcessEvents
+	.long LDIFF_SYM1897
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -52751,27 +52611,27 @@ Lfde285_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1896=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1896
+LDIFF_SYM1898=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1898
 	.byte 0,3
 	.asciz "point"
 
-LDIFF_SYM1897=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1897
+LDIFF_SYM1899=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1899
 	.byte 2,141,40,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1898=Lfde286_end - Lfde286_start
-	.long LDIFF_SYM1898
+LDIFF_SYM1900=Lfde286_end - Lfde286_start
+	.long LDIFF_SYM1900
 Lfde286_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_PointToClient_System_Drawing_Point
 
-LDIFF_SYM1899=Lme_1b0 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_PointToClient_System_Drawing_Point
-	.long LDIFF_SYM1899
+LDIFF_SYM1901=Lme_1b0 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_PointToClient_System_Drawing_Point
+	.long LDIFF_SYM1901
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -52790,27 +52650,27 @@ Lfde286_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1900=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1900
+LDIFF_SYM1902=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1902
 	.byte 0,3
 	.asciz "point"
 
-LDIFF_SYM1901=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1901
+LDIFF_SYM1903=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1903
 	.byte 2,141,40,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1902=Lfde287_end - Lfde287_start
-	.long LDIFF_SYM1902
+LDIFF_SYM1904=Lfde287_end - Lfde287_start
+	.long LDIFF_SYM1904
 Lfde287_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_PointToScreen_System_Drawing_Point
 
-LDIFF_SYM1903=Lme_1b1 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_PointToScreen_System_Drawing_Point
-	.long LDIFF_SYM1903
+LDIFF_SYM1905=Lme_1b1 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_PointToScreen_System_Drawing_Point
+	.long LDIFF_SYM1905
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -52829,32 +52689,32 @@ Lfde287_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1904=LTDIE_95_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1904
+LDIFF_SYM1906=LTDIE_95_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1906
 	.byte 1,106,11
 	.asciz "bounds"
 
-LDIFF_SYM1905=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1905
+LDIFF_SYM1907=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1907
 	.byte 2,141,32,11
 	.asciz "V_1"
 
-LDIFF_SYM1906=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1906
+LDIFF_SYM1908=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1908
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1907=Lfde288_end - Lfde288_start
-	.long LDIFF_SYM1907
+LDIFF_SYM1909=Lfde288_end - Lfde288_start
+	.long LDIFF_SYM1909
 Lfde288_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_LayoutSubviews
 
-LDIFF_SYM1908=Lme_1b2 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_LayoutSubviews
-	.long LDIFF_SYM1908
+LDIFF_SYM1910=Lme_1b2 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_LayoutSubviews
+	.long LDIFF_SYM1910
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,154,10
 	.align 3
@@ -52873,22 +52733,22 @@ Lfde288_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1909=LTDIE_95_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1909
+LDIFF_SYM1911=LTDIE_95_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1911
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1910=Lfde289_end - Lfde289_start
-	.long LDIFF_SYM1910
+LDIFF_SYM1912=Lfde289_end - Lfde289_start
+	.long LDIFF_SYM1912
 Lfde289_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_MakeCurrent
 
-LDIFF_SYM1911=Lme_1b3 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_MakeCurrent
-	.long LDIFF_SYM1911
+LDIFF_SYM1913=Lme_1b3 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_MakeCurrent
+	.long LDIFF_SYM1913
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
 	.align 3
@@ -52907,22 +52767,22 @@ Lfde289_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1912=LTDIE_95_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1912
+LDIFF_SYM1914=LTDIE_95_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1914
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1913=Lfde290_end - Lfde290_start
-	.long LDIFF_SYM1913
+LDIFF_SYM1915=Lfde290_end - Lfde290_start
+	.long LDIFF_SYM1915
 Lfde290_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_SwapBuffers
 
-LDIFF_SYM1914=Lme_1b4 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_SwapBuffers
-	.long LDIFF_SYM1914
+LDIFF_SYM1916=Lme_1b4 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_SwapBuffers
+	.long LDIFF_SYM1916
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
 	.align 3
@@ -52941,22 +52801,22 @@ Lfde290_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1915=LTDIE_95_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1915
+LDIFF_SYM1917=LTDIE_95_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1917
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1916=Lfde291_end - Lfde291_start
-	.long LDIFF_SYM1916
+LDIFF_SYM1918=Lfde291_end - Lfde291_start
+	.long LDIFF_SYM1918
 Lfde291_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_Run
 
-LDIFF_SYM1917=Lme_1b5 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_Run
-	.long LDIFF_SYM1917
+LDIFF_SYM1919=Lme_1b5 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_Run
+	.long LDIFF_SYM1919
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -52975,27 +52835,27 @@ Lfde291_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1918=LTDIE_95_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1918
+LDIFF_SYM1920=LTDIE_95_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1920
 	.byte 1,106,3
 	.asciz "updatesPerSecond"
 
-LDIFF_SYM1919=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM1919
+LDIFF_SYM1921=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM1921
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1920=Lfde292_end - Lfde292_start
-	.long LDIFF_SYM1920
+LDIFF_SYM1922=Lfde292_end - Lfde292_start
+	.long LDIFF_SYM1922
 Lfde292_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_Run_double
 
-LDIFF_SYM1921=Lme_1b6 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_Run_double
-	.long LDIFF_SYM1921
+LDIFF_SYM1923=Lme_1b6 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_Run_double
+	.long LDIFF_SYM1923
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
 	.align 3
@@ -53014,27 +52874,27 @@ Lfde292_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1922=LTDIE_95_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1922
+LDIFF_SYM1924=LTDIE_95_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1924
 	.byte 2,141,16,3
 	.asciz "frameInterval"
 
-LDIFF_SYM1923=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1923
+LDIFF_SYM1925=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1925
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1924=Lfde293_end - Lfde293_start
-	.long LDIFF_SYM1924
+LDIFF_SYM1926=Lfde293_end - Lfde293_start
+	.long LDIFF_SYM1926
 Lfde293_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_Run_int
 
-LDIFF_SYM1925=Lme_1b7 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_Run_int
-	.long LDIFF_SYM1925
+LDIFF_SYM1927=Lme_1b7 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_Run_int
+	.long LDIFF_SYM1927
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -53053,27 +52913,27 @@ Lfde293_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1926=LTDIE_95_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1926
+LDIFF_SYM1928=LTDIE_95_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1928
 	.byte 1,105,3
 	.asciz "frameInterval"
 
-LDIFF_SYM1927=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1927
+LDIFF_SYM1929=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1929
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1928=Lfde294_end - Lfde294_start
-	.long LDIFF_SYM1928
+LDIFF_SYM1930=Lfde294_end - Lfde294_start
+	.long LDIFF_SYM1930
 Lfde294_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_RunWithFrameInterval_int
 
-LDIFF_SYM1929=Lme_1b8 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_RunWithFrameInterval_int
-	.long LDIFF_SYM1929
+LDIFF_SYM1931=Lme_1b8 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_RunWithFrameInterval_int
+	.long LDIFF_SYM1931
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,153,4
 	.align 3
@@ -53092,22 +52952,22 @@ Lfde294_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1930=LTDIE_95_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1930
+LDIFF_SYM1932=LTDIE_95_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1932
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1931=Lfde295_end - Lfde295_start
-	.long LDIFF_SYM1931
+LDIFF_SYM1933=Lfde295_end - Lfde295_start
+	.long LDIFF_SYM1933
 Lfde295_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_Start
 
-LDIFF_SYM1932=Lme_1b9 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_Start
-	.long LDIFF_SYM1932
+LDIFF_SYM1934=Lme_1b9 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_Start
+	.long LDIFF_SYM1934
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -53126,22 +52986,22 @@ Lfde295_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1933=LTDIE_95_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1933
+LDIFF_SYM1935=LTDIE_95_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1935
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1934=Lfde296_end - Lfde296_start
-	.long LDIFF_SYM1934
+LDIFF_SYM1936=Lfde296_end - Lfde296_start
+	.long LDIFF_SYM1936
 Lfde296_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_Stop
 
-LDIFF_SYM1935=Lme_1ba - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_Stop
-	.long LDIFF_SYM1935
+LDIFF_SYM1937=Lme_1ba - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_Stop
+	.long LDIFF_SYM1937
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29,68,154,2
 	.align 3
@@ -53160,22 +53020,22 @@ Lfde296_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1936=LTDIE_95_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1936
+LDIFF_SYM1938=LTDIE_95_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1938
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1937=Lfde297_end - Lfde297_start
-	.long LDIFF_SYM1937
+LDIFF_SYM1939=Lfde297_end - Lfde297_start
+	.long LDIFF_SYM1939
 Lfde297_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_Suspend
 
-LDIFF_SYM1938=Lme_1bb - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_Suspend
-	.long LDIFF_SYM1938
+LDIFF_SYM1940=Lme_1bb - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_Suspend
+	.long LDIFF_SYM1940
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29,68,154,2
 	.align 3
@@ -53194,22 +53054,22 @@ Lfde297_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1939=LTDIE_95_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1939
+LDIFF_SYM1941=LTDIE_95_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1941
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1940=Lfde298_end - Lfde298_start
-	.long LDIFF_SYM1940
+LDIFF_SYM1942=Lfde298_end - Lfde298_start
+	.long LDIFF_SYM1942
 Lfde298_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_Resume
 
-LDIFF_SYM1941=Lme_1bc - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_Resume
-	.long LDIFF_SYM1941
+LDIFF_SYM1943=Lme_1bc - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_Resume
+	.long LDIFF_SYM1943
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29,68,154,2
 	.align 3
@@ -53222,107 +53082,107 @@ LTDIE_118:
 	.asciz "CoreGraphics_CGDataProvider"
 
 	.byte 24,16
-LDIFF_SYM1942=LTDIE_2 - Ldebug_info_start
-	.long LDIFF_SYM1942
+LDIFF_SYM1944=LTDIE_2 - Ldebug_info_start
+	.long LDIFF_SYM1944
 	.byte 2,35,0,6
 	.asciz "handle"
 
-LDIFF_SYM1943=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1943
+LDIFF_SYM1945=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1945
 	.byte 2,35,16,0,7
 	.asciz "CoreGraphics_CGDataProvider"
 
-LDIFF_SYM1944=LTDIE_118 - Ldebug_info_start
-	.long LDIFF_SYM1944
+LDIFF_SYM1946=LTDIE_118 - Ldebug_info_start
+	.long LDIFF_SYM1946
 LTDIE_118_POINTER:
 
 	.byte 13
-LDIFF_SYM1945=LTDIE_118 - Ldebug_info_start
-	.long LDIFF_SYM1945
+LDIFF_SYM1947=LTDIE_118 - Ldebug_info_start
+	.long LDIFF_SYM1947
 LTDIE_118_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1946=LTDIE_118 - Ldebug_info_start
-	.long LDIFF_SYM1946
+LDIFF_SYM1948=LTDIE_118 - Ldebug_info_start
+	.long LDIFF_SYM1948
 LTDIE_119:
 
 	.byte 5
 	.asciz "CoreGraphics_CGColorSpace"
 
 	.byte 24,16
-LDIFF_SYM1947=LTDIE_2 - Ldebug_info_start
-	.long LDIFF_SYM1947
+LDIFF_SYM1949=LTDIE_2 - Ldebug_info_start
+	.long LDIFF_SYM1949
 	.byte 2,35,0,6
 	.asciz "handle"
 
-LDIFF_SYM1948=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1948
+LDIFF_SYM1950=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1950
 	.byte 2,35,16,0,7
 	.asciz "CoreGraphics_CGColorSpace"
 
-LDIFF_SYM1949=LTDIE_119 - Ldebug_info_start
-	.long LDIFF_SYM1949
+LDIFF_SYM1951=LTDIE_119 - Ldebug_info_start
+	.long LDIFF_SYM1951
 LTDIE_119_POINTER:
 
 	.byte 13
-LDIFF_SYM1950=LTDIE_119 - Ldebug_info_start
-	.long LDIFF_SYM1950
+LDIFF_SYM1952=LTDIE_119 - Ldebug_info_start
+	.long LDIFF_SYM1952
 LTDIE_119_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1951=LTDIE_119 - Ldebug_info_start
-	.long LDIFF_SYM1951
+LDIFF_SYM1953=LTDIE_119 - Ldebug_info_start
+	.long LDIFF_SYM1953
 LTDIE_120:
 
 	.byte 5
 	.asciz "CoreGraphics_CGImage"
 
 	.byte 24,16
-LDIFF_SYM1952=LTDIE_2 - Ldebug_info_start
-	.long LDIFF_SYM1952
+LDIFF_SYM1954=LTDIE_2 - Ldebug_info_start
+	.long LDIFF_SYM1954
 	.byte 2,35,0,6
 	.asciz "handle"
 
-LDIFF_SYM1953=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1953
+LDIFF_SYM1955=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1955
 	.byte 2,35,16,0,7
 	.asciz "CoreGraphics_CGImage"
 
-LDIFF_SYM1954=LTDIE_120 - Ldebug_info_start
-	.long LDIFF_SYM1954
+LDIFF_SYM1956=LTDIE_120 - Ldebug_info_start
+	.long LDIFF_SYM1956
 LTDIE_120_POINTER:
 
 	.byte 13
-LDIFF_SYM1955=LTDIE_120 - Ldebug_info_start
-	.long LDIFF_SYM1955
+LDIFF_SYM1957=LTDIE_120 - Ldebug_info_start
+	.long LDIFF_SYM1957
 LTDIE_120_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1956=LTDIE_120 - Ldebug_info_start
-	.long LDIFF_SYM1956
+LDIFF_SYM1958=LTDIE_120 - Ldebug_info_start
+	.long LDIFF_SYM1958
 LTDIE_121:
 
 	.byte 5
 	.asciz "UIKit_UIImage"
 
 	.byte 40,16
-LDIFF_SYM1957=LTDIE_12 - Ldebug_info_start
-	.long LDIFF_SYM1957
+LDIFF_SYM1959=LTDIE_12 - Ldebug_info_start
+	.long LDIFF_SYM1959
 	.byte 2,35,0,0,7
 	.asciz "UIKit_UIImage"
 
-LDIFF_SYM1958=LTDIE_121 - Ldebug_info_start
-	.long LDIFF_SYM1958
+LDIFF_SYM1960=LTDIE_121 - Ldebug_info_start
+	.long LDIFF_SYM1960
 LTDIE_121_POINTER:
 
 	.byte 13
-LDIFF_SYM1959=LTDIE_121 - Ldebug_info_start
-	.long LDIFF_SYM1959
+LDIFF_SYM1961=LTDIE_121 - Ldebug_info_start
+	.long LDIFF_SYM1961
 LTDIE_121_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1960=LTDIE_121 - Ldebug_info_start
-	.long LDIFF_SYM1960
+LDIFF_SYM1962=LTDIE_121 - Ldebug_info_start
+	.long LDIFF_SYM1962
 	.byte 2
 	.asciz "OpenTK.Platform.iPhoneOS.iPhoneOSGameView:Capture"
 	.asciz "OpenTK_Platform_iPhoneOS_iPhoneOSGameView_Capture"
@@ -53334,82 +53194,82 @@ LDIFF_SYM1960=LTDIE_121 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1961=LTDIE_95_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1961
+LDIFF_SYM1963=LTDIE_95_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1963
 	.byte 1,106,11
 	.asciz "backingWidth"
 
-LDIFF_SYM1962=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1962
+LDIFF_SYM1964=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1964
 	.byte 3,141,136,1,11
 	.asciz "backingHeight"
 
-LDIFF_SYM1963=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1963
+LDIFF_SYM1965=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1965
 	.byte 3,141,144,1,11
 	.asciz "width"
 
-LDIFF_SYM1964=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1964
+LDIFF_SYM1966=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1966
 	.byte 1,105,11
 	.asciz "height"
 
-LDIFF_SYM1965=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1965
+LDIFF_SYM1967=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1967
 	.byte 1,104,11
 	.asciz "data"
 
-LDIFF_SYM1966=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1966
+LDIFF_SYM1968=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1968
 	.byte 0,11
 	.asciz "data_provider"
 
-LDIFF_SYM1967=LTDIE_118_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1967
+LDIFF_SYM1969=LTDIE_118_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1969
 	.byte 3,141,152,1,11
 	.asciz "colorspace"
 
-LDIFF_SYM1968=LTDIE_119_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1968
+LDIFF_SYM1970=LTDIE_119_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1970
 	.byte 3,141,160,1,11
 	.asciz "iref"
 
-LDIFF_SYM1969=LTDIE_120_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1969
+LDIFF_SYM1971=LTDIE_120_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1971
 	.byte 3,141,168,1,11
 	.asciz "widthInPoints"
 
-LDIFF_SYM1970=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1970
+LDIFF_SYM1972=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1972
 	.byte 1,106,11
 	.asciz "heightInPoints"
 
-LDIFF_SYM1971=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1971
+LDIFF_SYM1973=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1973
 	.byte 1,105,11
 	.asciz "scale"
 
-LDIFF_SYM1972=LDIE_R4 - Ldebug_info_start
-	.long LDIFF_SYM1972
+LDIFF_SYM1974=LDIE_R4 - Ldebug_info_start
+	.long LDIFF_SYM1974
 	.byte 3,141,176,1,11
 	.asciz "V_11"
 
-LDIFF_SYM1973=LTDIE_121_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1973
+LDIFF_SYM1975=LTDIE_121_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1975
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1974=Lfde299_end - Lfde299_start
-	.long LDIFF_SYM1974
+LDIFF_SYM1976=Lfde299_end - Lfde299_start
+	.long LDIFF_SYM1976
 Lfde299_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_Capture
 
-LDIFF_SYM1975=Lme_1bd - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_Capture
-	.long LDIFF_SYM1975
+LDIFF_SYM1977=Lme_1bd - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_Capture
+	.long LDIFF_SYM1977
 	.long 0
 	.byte 12,31,0,68,14,240,2,157,46,158,45,68,13,29,84,152,44,153,43,68,154,42
 	.align 3
@@ -53421,24 +53281,24 @@ LTDIE_122:
 	.byte 5
 	.asciz "UIKit_UIWindow"
 
-	.byte 40,16
-LDIFF_SYM1976=LTDIE_96 - Ldebug_info_start
-	.long LDIFF_SYM1976
+	.byte 48,16
+LDIFF_SYM1978=LTDIE_96 - Ldebug_info_start
+	.long LDIFF_SYM1978
 	.byte 2,35,0,0,7
 	.asciz "UIKit_UIWindow"
 
-LDIFF_SYM1977=LTDIE_122 - Ldebug_info_start
-	.long LDIFF_SYM1977
+LDIFF_SYM1979=LTDIE_122 - Ldebug_info_start
+	.long LDIFF_SYM1979
 LTDIE_122_POINTER:
 
 	.byte 13
-LDIFF_SYM1978=LTDIE_122 - Ldebug_info_start
-	.long LDIFF_SYM1978
+LDIFF_SYM1980=LTDIE_122 - Ldebug_info_start
+	.long LDIFF_SYM1980
 LTDIE_122_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1979=LTDIE_122 - Ldebug_info_start
-	.long LDIFF_SYM1979
+LDIFF_SYM1981=LTDIE_122 - Ldebug_info_start
+	.long LDIFF_SYM1981
 	.byte 2
 	.asciz "OpenTK.Platform.iPhoneOS.iPhoneOSGameView:WillMoveToWindow"
 	.asciz "OpenTK_Platform_iPhoneOS_iPhoneOSGameView_WillMoveToWindow_UIKit_UIWindow"
@@ -53450,27 +53310,27 @@ LDIFF_SYM1979=LTDIE_122 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1980=LTDIE_95_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1980
+LDIFF_SYM1982=LTDIE_95_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1982
 	.byte 1,105,3
 	.asciz "window"
 
-LDIFF_SYM1981=LTDIE_122_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1981
+LDIFF_SYM1983=LTDIE_122_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1983
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1982=Lfde300_end - Lfde300_start
-	.long LDIFF_SYM1982
+LDIFF_SYM1984=Lfde300_end - Lfde300_start
+	.long LDIFF_SYM1984
 Lfde300_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_WillMoveToWindow_UIKit_UIWindow
 
-LDIFF_SYM1983=Lme_1be - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_WillMoveToWindow_UIKit_UIWindow
-	.long LDIFF_SYM1983
+LDIFF_SYM1985=Lme_1be - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_WillMoveToWindow_UIKit_UIWindow
+	.long LDIFF_SYM1985
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,152,4,153,3
 	.align 3
@@ -53489,47 +53349,47 @@ Lfde300_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1984=LTDIE_95_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1984
+LDIFF_SYM1986=LTDIE_95_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1986
 	.byte 1,106,3
 	.asciz "timer"
 
-LDIFF_SYM1985=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1985
+LDIFF_SYM1987=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1987
 	.byte 0,11
 	.asciz "curUpdateTime"
 
-LDIFF_SYM1986=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1986
+LDIFF_SYM1988=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1988
 	.byte 3,141,128,1,11
 	.asciz "t"
 
-LDIFF_SYM1987=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM1987
+LDIFF_SYM1989=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM1989
 	.byte 3,141,144,1,11
 	.asciz "curRenderTime"
 
-LDIFF_SYM1988=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1988
+LDIFF_SYM1990=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1990
 	.byte 3,141,248,0,11
 	.asciz "V_3"
 
-LDIFF_SYM1989=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1989
+LDIFF_SYM1991=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1991
 	.byte 3,141,240,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1990=Lfde301_end - Lfde301_start
-	.long LDIFF_SYM1990
+LDIFF_SYM1992=Lfde301_end - Lfde301_start
+	.long LDIFF_SYM1992
 Lfde301_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_RunIteration_Foundation_NSTimer
 
-LDIFF_SYM1991=Lme_1bf - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_RunIteration_Foundation_NSTimer
-	.long LDIFF_SYM1991
+LDIFF_SYM1993=Lme_1bf - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_RunIteration_Foundation_NSTimer
+	.long LDIFF_SYM1993
 	.long 0
 	.byte 12,31,0,68,14,192,1,157,24,158,23,68,13,29,68,154,22
 	.align 3
@@ -53548,32 +53408,32 @@ Lfde301_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1992=LTDIE_95_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1992
+LDIFF_SYM1994=LTDIE_95_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1994
 	.byte 2,141,24,3
 	.asciz "e"
 
-LDIFF_SYM1993=LTDIE_24_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1993
+LDIFF_SYM1995=LTDIE_24_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1995
 	.byte 2,141,32,11
 	.asciz "h"
 
-LDIFF_SYM1994=LTDIE_102_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1994
+LDIFF_SYM1996=LTDIE_102_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1996
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1995=Lfde302_end - Lfde302_start
-	.long LDIFF_SYM1995
+LDIFF_SYM1997=Lfde302_end - Lfde302_start
+	.long LDIFF_SYM1997
 Lfde302_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OnLoad_System_EventArgs
 
-LDIFF_SYM1996=Lme_1c0 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OnLoad_System_EventArgs
-	.long LDIFF_SYM1996
+LDIFF_SYM1998=Lme_1c0 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OnLoad_System_EventArgs
+	.long LDIFF_SYM1998
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,152,4
 	.align 3
@@ -53592,32 +53452,32 @@ Lfde302_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1997=LTDIE_95_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1997
+LDIFF_SYM1999=LTDIE_95_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1999
 	.byte 1,105,3
 	.asciz "e"
 
-LDIFF_SYM1998=LTDIE_24_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1998
+LDIFF_SYM2000=LTDIE_24_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2000
 	.byte 2,141,32,11
 	.asciz "h"
 
-LDIFF_SYM1999=LTDIE_102_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1999
+LDIFF_SYM2001=LTDIE_102_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2001
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2000=Lfde303_end - Lfde303_start
-	.long LDIFF_SYM2000
+LDIFF_SYM2002=Lfde303_end - Lfde303_start
+	.long LDIFF_SYM2002
 Lfde303_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OnUnload_System_EventArgs
 
-LDIFF_SYM2001=Lme_1c1 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OnUnload_System_EventArgs
-	.long LDIFF_SYM2001
+LDIFF_SYM2003=Lme_1c1 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OnUnload_System_EventArgs
+	.long LDIFF_SYM2003
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,152,4,153,3
 	.align 3
@@ -53636,32 +53496,32 @@ Lfde303_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2002=LTDIE_95_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2002
+LDIFF_SYM2004=LTDIE_95_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2004
 	.byte 2,141,24,3
 	.asciz "e"
 
-LDIFF_SYM2003=LTDIE_23_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2003
+LDIFF_SYM2005=LTDIE_23_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2005
 	.byte 2,141,32,11
 	.asciz "h"
 
-LDIFF_SYM2004=LTDIE_103_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2004
+LDIFF_SYM2006=LTDIE_103_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2006
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2005=Lfde304_end - Lfde304_start
-	.long LDIFF_SYM2005
+LDIFF_SYM2007=Lfde304_end - Lfde304_start
+	.long LDIFF_SYM2007
 Lfde304_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OnUpdateFrame_OpenTK_FrameEventArgs
 
-LDIFF_SYM2006=Lme_1c2 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OnUpdateFrame_OpenTK_FrameEventArgs
-	.long LDIFF_SYM2006
+LDIFF_SYM2008=Lme_1c2 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OnUpdateFrame_OpenTK_FrameEventArgs
+	.long LDIFF_SYM2008
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,152,4
 	.align 3
@@ -53680,32 +53540,32 @@ Lfde304_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2007=LTDIE_95_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2007
+LDIFF_SYM2009=LTDIE_95_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2009
 	.byte 2,141,24,3
 	.asciz "e"
 
-LDIFF_SYM2008=LTDIE_23_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2008
+LDIFF_SYM2010=LTDIE_23_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2010
 	.byte 2,141,32,11
 	.asciz "h"
 
-LDIFF_SYM2009=LTDIE_103_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2009
+LDIFF_SYM2011=LTDIE_103_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2011
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2010=Lfde305_end - Lfde305_start
-	.long LDIFF_SYM2010
+LDIFF_SYM2012=Lfde305_end - Lfde305_start
+	.long LDIFF_SYM2012
 Lfde305_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OnRenderFrame_OpenTK_FrameEventArgs
 
-LDIFF_SYM2011=Lme_1c3 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OnRenderFrame_OpenTK_FrameEventArgs
-	.long LDIFF_SYM2011
+LDIFF_SYM2013=Lme_1c3 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OnRenderFrame_OpenTK_FrameEventArgs
+	.long LDIFF_SYM2013
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,152,4
 	.align 3
@@ -53724,27 +53584,27 @@ Lfde305_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2012=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2012
+LDIFF_SYM2014=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2014
 	.byte 0,3
 	.asciz "value"
 
-LDIFF_SYM2013=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2013
+LDIFF_SYM2015=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2015
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2014=Lfde306_end - Lfde306_start
-	.long LDIFF_SYM2014
+LDIFF_SYM2016=Lfde306_end - Lfde306_start
+	.long LDIFF_SYM2016
 Lfde306_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_add_Move_System_EventHandler_1_System_EventArgs
 
-LDIFF_SYM2015=Lme_1c4 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_add_Move_System_EventHandler_1_System_EventArgs
-	.long LDIFF_SYM2015
+LDIFF_SYM2017=Lme_1c4 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_add_Move_System_EventHandler_1_System_EventArgs
+	.long LDIFF_SYM2017
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -53763,27 +53623,27 @@ Lfde306_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2016=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2016
+LDIFF_SYM2018=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2018
 	.byte 0,3
 	.asciz "value"
 
-LDIFF_SYM2017=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2017
+LDIFF_SYM2019=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2019
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2018=Lfde307_end - Lfde307_start
-	.long LDIFF_SYM2018
+LDIFF_SYM2020=Lfde307_end - Lfde307_start
+	.long LDIFF_SYM2020
 Lfde307_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_remove_Move_System_EventHandler_1_System_EventArgs
 
-LDIFF_SYM2019=Lme_1c5 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_remove_Move_System_EventHandler_1_System_EventArgs
-	.long LDIFF_SYM2019
+LDIFF_SYM2021=Lme_1c5 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_remove_Move_System_EventHandler_1_System_EventArgs
+	.long LDIFF_SYM2021
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -53802,42 +53662,42 @@ Lfde307_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2020=LTDIE_95_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2020
+LDIFF_SYM2022=LTDIE_95_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2022
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM2021=LTDIE_102_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2021
+LDIFF_SYM2023=LTDIE_102_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2023
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2022=LTDIE_102_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2022
+LDIFF_SYM2024=LTDIE_102_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2024
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM2023=LTDIE_102_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2023
+LDIFF_SYM2025=LTDIE_102_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2025
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM2024=LTDIE_102_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2024
+LDIFF_SYM2026=LTDIE_102_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2026
 	.byte 1,101,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2025=Lfde308_end - Lfde308_start
-	.long LDIFF_SYM2025
+LDIFF_SYM2027=Lfde308_end - Lfde308_start
+	.long LDIFF_SYM2027
 Lfde308_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_add_Resize_System_EventHandler_1_System_EventArgs
 
-LDIFF_SYM2026=Lme_1c6 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_add_Resize_System_EventHandler_1_System_EventArgs
-	.long LDIFF_SYM2026
+LDIFF_SYM2028=Lme_1c6 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_add_Resize_System_EventHandler_1_System_EventArgs
+	.long LDIFF_SYM2028
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,149,6,150,5,68,151,4,152,3,68,153,2,154,1
 	.align 3
@@ -53856,42 +53716,42 @@ Lfde308_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2027=LTDIE_95_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2027
+LDIFF_SYM2029=LTDIE_95_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2029
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM2028=LTDIE_102_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2028
+LDIFF_SYM2030=LTDIE_102_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2030
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2029=LTDIE_102_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2029
+LDIFF_SYM2031=LTDIE_102_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2031
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM2030=LTDIE_102_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2030
+LDIFF_SYM2032=LTDIE_102_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2032
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM2031=LTDIE_102_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2031
+LDIFF_SYM2033=LTDIE_102_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2033
 	.byte 1,101,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2032=Lfde309_end - Lfde309_start
-	.long LDIFF_SYM2032
+LDIFF_SYM2034=Lfde309_end - Lfde309_start
+	.long LDIFF_SYM2034
 Lfde309_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_remove_Resize_System_EventHandler_1_System_EventArgs
 
-LDIFF_SYM2033=Lme_1c7 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_remove_Resize_System_EventHandler_1_System_EventArgs
-	.long LDIFF_SYM2033
+LDIFF_SYM2035=Lme_1c7 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_remove_Resize_System_EventHandler_1_System_EventArgs
+	.long LDIFF_SYM2035
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,149,6,150,5,68,151,4,152,3,68,153,2,154,1
 	.align 3
@@ -53904,23 +53764,23 @@ LTDIE_123:
 	.asciz "System_EventHandler`1"
 
 	.byte 112,16
-LDIFF_SYM2034=LTDIE_35 - Ldebug_info_start
-	.long LDIFF_SYM2034
+LDIFF_SYM2036=LTDIE_35 - Ldebug_info_start
+	.long LDIFF_SYM2036
 	.byte 2,35,0,0,7
 	.asciz "System_EventHandler`1"
 
-LDIFF_SYM2035=LTDIE_123 - Ldebug_info_start
-	.long LDIFF_SYM2035
+LDIFF_SYM2037=LTDIE_123 - Ldebug_info_start
+	.long LDIFF_SYM2037
 LTDIE_123_POINTER:
 
 	.byte 13
-LDIFF_SYM2036=LTDIE_123 - Ldebug_info_start
-	.long LDIFF_SYM2036
+LDIFF_SYM2038=LTDIE_123 - Ldebug_info_start
+	.long LDIFF_SYM2038
 LTDIE_123_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2037=LTDIE_123 - Ldebug_info_start
-	.long LDIFF_SYM2037
+LDIFF_SYM2039=LTDIE_123 - Ldebug_info_start
+	.long LDIFF_SYM2039
 	.byte 2
 	.asciz "OpenTK.Platform.iPhoneOS.iPhoneOSGameView:OpenTK.INativeWindow.add_Closing"
 	.asciz "OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_add_Closing_System_EventHandler_1_System_ComponentModel_CancelEventArgs"
@@ -53932,27 +53792,27 @@ LDIFF_SYM2037=LTDIE_123 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2038=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2038
+LDIFF_SYM2040=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2040
 	.byte 0,3
 	.asciz "value"
 
-LDIFF_SYM2039=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2039
+LDIFF_SYM2041=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2041
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2040=Lfde310_end - Lfde310_start
-	.long LDIFF_SYM2040
+LDIFF_SYM2042=Lfde310_end - Lfde310_start
+	.long LDIFF_SYM2042
 Lfde310_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_add_Closing_System_EventHandler_1_System_ComponentModel_CancelEventArgs
 
-LDIFF_SYM2041=Lme_1c8 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_add_Closing_System_EventHandler_1_System_ComponentModel_CancelEventArgs
-	.long LDIFF_SYM2041
+LDIFF_SYM2043=Lme_1c8 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_add_Closing_System_EventHandler_1_System_ComponentModel_CancelEventArgs
+	.long LDIFF_SYM2043
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -53971,27 +53831,27 @@ Lfde310_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2042=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2042
+LDIFF_SYM2044=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2044
 	.byte 0,3
 	.asciz "value"
 
-LDIFF_SYM2043=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2043
+LDIFF_SYM2045=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2045
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2044=Lfde311_end - Lfde311_start
-	.long LDIFF_SYM2044
+LDIFF_SYM2046=Lfde311_end - Lfde311_start
+	.long LDIFF_SYM2046
 Lfde311_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_remove_Closing_System_EventHandler_1_System_ComponentModel_CancelEventArgs
 
-LDIFF_SYM2045=Lme_1c9 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_remove_Closing_System_EventHandler_1_System_ComponentModel_CancelEventArgs
-	.long LDIFF_SYM2045
+LDIFF_SYM2047=Lme_1c9 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_remove_Closing_System_EventHandler_1_System_ComponentModel_CancelEventArgs
+	.long LDIFF_SYM2047
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -54010,42 +53870,42 @@ Lfde311_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2046=LTDIE_95_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2046
+LDIFF_SYM2048=LTDIE_95_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2048
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM2047=LTDIE_102_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2047
+LDIFF_SYM2049=LTDIE_102_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2049
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2048=LTDIE_102_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2048
+LDIFF_SYM2050=LTDIE_102_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2050
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM2049=LTDIE_102_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2049
+LDIFF_SYM2051=LTDIE_102_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2051
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM2050=LTDIE_102_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2050
+LDIFF_SYM2052=LTDIE_102_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2052
 	.byte 1,101,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2051=Lfde312_end - Lfde312_start
-	.long LDIFF_SYM2051
+LDIFF_SYM2053=Lfde312_end - Lfde312_start
+	.long LDIFF_SYM2053
 Lfde312_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_add_Closed_System_EventHandler_1_System_EventArgs
 
-LDIFF_SYM2052=Lme_1ca - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_add_Closed_System_EventHandler_1_System_EventArgs
-	.long LDIFF_SYM2052
+LDIFF_SYM2054=Lme_1ca - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_add_Closed_System_EventHandler_1_System_EventArgs
+	.long LDIFF_SYM2054
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,149,6,150,5,68,151,4,152,3,68,153,2,154,1
 	.align 3
@@ -54064,42 +53924,42 @@ Lfde312_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2053=LTDIE_95_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2053
+LDIFF_SYM2055=LTDIE_95_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2055
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM2054=LTDIE_102_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2054
+LDIFF_SYM2056=LTDIE_102_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2056
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2055=LTDIE_102_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2055
+LDIFF_SYM2057=LTDIE_102_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2057
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM2056=LTDIE_102_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2056
+LDIFF_SYM2058=LTDIE_102_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2058
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM2057=LTDIE_102_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2057
+LDIFF_SYM2059=LTDIE_102_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2059
 	.byte 1,101,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2058=Lfde313_end - Lfde313_start
-	.long LDIFF_SYM2058
+LDIFF_SYM2060=Lfde313_end - Lfde313_start
+	.long LDIFF_SYM2060
 Lfde313_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_remove_Closed_System_EventHandler_1_System_EventArgs
 
-LDIFF_SYM2059=Lme_1cb - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_remove_Closed_System_EventHandler_1_System_EventArgs
-	.long LDIFF_SYM2059
+LDIFF_SYM2061=Lme_1cb - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_remove_Closed_System_EventHandler_1_System_EventArgs
+	.long LDIFF_SYM2061
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,149,6,150,5,68,151,4,152,3,68,153,2,154,1
 	.align 3
@@ -54118,42 +53978,42 @@ Lfde313_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2060=LTDIE_95_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2060
+LDIFF_SYM2062=LTDIE_95_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2062
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM2061=LTDIE_102_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2061
+LDIFF_SYM2063=LTDIE_102_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2063
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2062=LTDIE_102_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2062
+LDIFF_SYM2064=LTDIE_102_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2064
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM2063=LTDIE_102_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2063
+LDIFF_SYM2065=LTDIE_102_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2065
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM2064=LTDIE_102_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2064
+LDIFF_SYM2066=LTDIE_102_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2066
 	.byte 1,101,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2065=Lfde314_end - Lfde314_start
-	.long LDIFF_SYM2065
+LDIFF_SYM2067=Lfde314_end - Lfde314_start
+	.long LDIFF_SYM2067
 Lfde314_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_add_Disposed_System_EventHandler_1_System_EventArgs
 
-LDIFF_SYM2066=Lme_1cc - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_add_Disposed_System_EventHandler_1_System_EventArgs
-	.long LDIFF_SYM2066
+LDIFF_SYM2068=Lme_1cc - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_add_Disposed_System_EventHandler_1_System_EventArgs
+	.long LDIFF_SYM2068
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,149,6,150,5,68,151,4,152,3,68,153,2,154,1
 	.align 3
@@ -54172,42 +54032,42 @@ Lfde314_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2067=LTDIE_95_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2067
+LDIFF_SYM2069=LTDIE_95_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2069
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM2068=LTDIE_102_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2068
+LDIFF_SYM2070=LTDIE_102_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2070
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2069=LTDIE_102_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2069
+LDIFF_SYM2071=LTDIE_102_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2071
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM2070=LTDIE_102_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2070
+LDIFF_SYM2072=LTDIE_102_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2072
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM2071=LTDIE_102_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2071
+LDIFF_SYM2073=LTDIE_102_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2073
 	.byte 1,101,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2072=Lfde315_end - Lfde315_start
-	.long LDIFF_SYM2072
+LDIFF_SYM2074=Lfde315_end - Lfde315_start
+	.long LDIFF_SYM2074
 Lfde315_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_remove_Disposed_System_EventHandler_1_System_EventArgs
 
-LDIFF_SYM2073=Lme_1cd - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_remove_Disposed_System_EventHandler_1_System_EventArgs
-	.long LDIFF_SYM2073
+LDIFF_SYM2075=Lme_1cd - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_remove_Disposed_System_EventHandler_1_System_EventArgs
+	.long LDIFF_SYM2075
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,149,6,150,5,68,151,4,152,3,68,153,2,154,1
 	.align 3
@@ -54226,42 +54086,42 @@ Lfde315_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2074=LTDIE_95_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2074
+LDIFF_SYM2076=LTDIE_95_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2076
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM2075=LTDIE_102_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2075
+LDIFF_SYM2077=LTDIE_102_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2077
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2076=LTDIE_102_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2076
+LDIFF_SYM2078=LTDIE_102_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2078
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM2077=LTDIE_102_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2077
+LDIFF_SYM2079=LTDIE_102_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2079
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM2078=LTDIE_102_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2078
+LDIFF_SYM2080=LTDIE_102_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2080
 	.byte 1,101,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2079=Lfde316_end - Lfde316_start
-	.long LDIFF_SYM2079
+LDIFF_SYM2081=Lfde316_end - Lfde316_start
+	.long LDIFF_SYM2081
 Lfde316_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_add_TitleChanged_System_EventHandler_1_System_EventArgs
 
-LDIFF_SYM2080=Lme_1ce - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_add_TitleChanged_System_EventHandler_1_System_EventArgs
-	.long LDIFF_SYM2080
+LDIFF_SYM2082=Lme_1ce - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_add_TitleChanged_System_EventHandler_1_System_EventArgs
+	.long LDIFF_SYM2082
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,149,6,150,5,68,151,4,152,3,68,153,2,154,1
 	.align 3
@@ -54280,42 +54140,42 @@ Lfde316_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2081=LTDIE_95_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2081
+LDIFF_SYM2083=LTDIE_95_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2083
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM2082=LTDIE_102_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2082
+LDIFF_SYM2084=LTDIE_102_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2084
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2083=LTDIE_102_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2083
+LDIFF_SYM2085=LTDIE_102_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2085
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM2084=LTDIE_102_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2084
+LDIFF_SYM2086=LTDIE_102_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2086
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM2085=LTDIE_102_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2085
+LDIFF_SYM2087=LTDIE_102_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2087
 	.byte 1,101,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2086=Lfde317_end - Lfde317_start
-	.long LDIFF_SYM2086
+LDIFF_SYM2088=Lfde317_end - Lfde317_start
+	.long LDIFF_SYM2088
 Lfde317_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_remove_TitleChanged_System_EventHandler_1_System_EventArgs
 
-LDIFF_SYM2087=Lme_1cf - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_remove_TitleChanged_System_EventHandler_1_System_EventArgs
-	.long LDIFF_SYM2087
+LDIFF_SYM2089=Lme_1cf - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_remove_TitleChanged_System_EventHandler_1_System_EventArgs
+	.long LDIFF_SYM2089
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,149,6,150,5,68,151,4,152,3,68,153,2,154,1
 	.align 3
@@ -54334,42 +54194,42 @@ Lfde317_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2088=LTDIE_95_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2088
+LDIFF_SYM2090=LTDIE_95_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2090
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM2089=LTDIE_102_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2089
+LDIFF_SYM2091=LTDIE_102_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2091
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2090=LTDIE_102_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2090
+LDIFF_SYM2092=LTDIE_102_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2092
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM2091=LTDIE_102_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2091
+LDIFF_SYM2093=LTDIE_102_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2093
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM2092=LTDIE_102_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2092
+LDIFF_SYM2094=LTDIE_102_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2094
 	.byte 1,101,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2093=Lfde318_end - Lfde318_start
-	.long LDIFF_SYM2093
+LDIFF_SYM2095=Lfde318_end - Lfde318_start
+	.long LDIFF_SYM2095
 Lfde318_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_add_VisibleChanged_System_EventHandler_1_System_EventArgs
 
-LDIFF_SYM2094=Lme_1d0 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_add_VisibleChanged_System_EventHandler_1_System_EventArgs
-	.long LDIFF_SYM2094
+LDIFF_SYM2096=Lme_1d0 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_add_VisibleChanged_System_EventHandler_1_System_EventArgs
+	.long LDIFF_SYM2096
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,149,6,150,5,68,151,4,152,3,68,153,2,154,1
 	.align 3
@@ -54388,42 +54248,42 @@ Lfde318_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2095=LTDIE_95_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2095
+LDIFF_SYM2097=LTDIE_95_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2097
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM2096=LTDIE_102_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2096
+LDIFF_SYM2098=LTDIE_102_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2098
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2097=LTDIE_102_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2097
+LDIFF_SYM2099=LTDIE_102_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2099
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM2098=LTDIE_102_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2098
+LDIFF_SYM2100=LTDIE_102_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2100
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM2099=LTDIE_102_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2099
+LDIFF_SYM2101=LTDIE_102_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2101
 	.byte 1,101,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2100=Lfde319_end - Lfde319_start
-	.long LDIFF_SYM2100
+LDIFF_SYM2102=Lfde319_end - Lfde319_start
+	.long LDIFF_SYM2102
 Lfde319_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_remove_VisibleChanged_System_EventHandler_1_System_EventArgs
 
-LDIFF_SYM2101=Lme_1d1 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_remove_VisibleChanged_System_EventHandler_1_System_EventArgs
-	.long LDIFF_SYM2101
+LDIFF_SYM2103=Lme_1d1 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_remove_VisibleChanged_System_EventHandler_1_System_EventArgs
+	.long LDIFF_SYM2103
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,149,6,150,5,68,151,4,152,3,68,153,2,154,1
 	.align 3
@@ -54442,27 +54302,27 @@ Lfde319_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2102=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2102
+LDIFF_SYM2104=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2104
 	.byte 0,3
 	.asciz "value"
 
-LDIFF_SYM2103=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2103
+LDIFF_SYM2105=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2105
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2104=Lfde320_end - Lfde320_start
-	.long LDIFF_SYM2104
+LDIFF_SYM2106=Lfde320_end - Lfde320_start
+	.long LDIFF_SYM2106
 Lfde320_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_add_FocusedChanged_System_EventHandler_1_System_EventArgs
 
-LDIFF_SYM2105=Lme_1d2 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_add_FocusedChanged_System_EventHandler_1_System_EventArgs
-	.long LDIFF_SYM2105
+LDIFF_SYM2107=Lme_1d2 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_add_FocusedChanged_System_EventHandler_1_System_EventArgs
+	.long LDIFF_SYM2107
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -54481,27 +54341,27 @@ Lfde320_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2106=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2106
+LDIFF_SYM2108=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2108
 	.byte 0,3
 	.asciz "value"
 
-LDIFF_SYM2107=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2107
+LDIFF_SYM2109=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2109
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2108=Lfde321_end - Lfde321_start
-	.long LDIFF_SYM2108
+LDIFF_SYM2110=Lfde321_end - Lfde321_start
+	.long LDIFF_SYM2110
 Lfde321_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_remove_FocusedChanged_System_EventHandler_1_System_EventArgs
 
-LDIFF_SYM2109=Lme_1d3 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_remove_FocusedChanged_System_EventHandler_1_System_EventArgs
-	.long LDIFF_SYM2109
+LDIFF_SYM2111=Lme_1d3 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_remove_FocusedChanged_System_EventHandler_1_System_EventArgs
+	.long LDIFF_SYM2111
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -54520,27 +54380,27 @@ Lfde321_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2110=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2110
+LDIFF_SYM2112=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2112
 	.byte 0,3
 	.asciz "value"
 
-LDIFF_SYM2111=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2111
+LDIFF_SYM2113=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2113
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2112=Lfde322_end - Lfde322_start
-	.long LDIFF_SYM2112
+LDIFF_SYM2114=Lfde322_end - Lfde322_start
+	.long LDIFF_SYM2114
 Lfde322_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_add_WindowBorderChanged_System_EventHandler_1_System_EventArgs
 
-LDIFF_SYM2113=Lme_1d4 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_add_WindowBorderChanged_System_EventHandler_1_System_EventArgs
-	.long LDIFF_SYM2113
+LDIFF_SYM2115=Lme_1d4 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_add_WindowBorderChanged_System_EventHandler_1_System_EventArgs
+	.long LDIFF_SYM2115
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -54559,27 +54419,27 @@ Lfde322_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2114=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2114
+LDIFF_SYM2116=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2116
 	.byte 0,3
 	.asciz "value"
 
-LDIFF_SYM2115=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2115
+LDIFF_SYM2117=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2117
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2116=Lfde323_end - Lfde323_start
-	.long LDIFF_SYM2116
+LDIFF_SYM2118=Lfde323_end - Lfde323_start
+	.long LDIFF_SYM2118
 Lfde323_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_remove_WindowBorderChanged_System_EventHandler_1_System_EventArgs
 
-LDIFF_SYM2117=Lme_1d5 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_remove_WindowBorderChanged_System_EventHandler_1_System_EventArgs
-	.long LDIFF_SYM2117
+LDIFF_SYM2119=Lme_1d5 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_remove_WindowBorderChanged_System_EventHandler_1_System_EventArgs
+	.long LDIFF_SYM2119
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -54598,42 +54458,42 @@ Lfde323_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2118=LTDIE_95_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2118
+LDIFF_SYM2120=LTDIE_95_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2120
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM2119=LTDIE_102_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2119
+LDIFF_SYM2121=LTDIE_102_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2121
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2120=LTDIE_102_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2120
+LDIFF_SYM2122=LTDIE_102_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2122
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM2121=LTDIE_102_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2121
+LDIFF_SYM2123=LTDIE_102_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2123
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM2122=LTDIE_102_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2122
+LDIFF_SYM2124=LTDIE_102_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2124
 	.byte 1,101,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2123=Lfde324_end - Lfde324_start
-	.long LDIFF_SYM2123
+LDIFF_SYM2125=Lfde324_end - Lfde324_start
+	.long LDIFF_SYM2125
 Lfde324_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_add_WindowStateChanged_System_EventHandler_1_System_EventArgs
 
-LDIFF_SYM2124=Lme_1d6 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_add_WindowStateChanged_System_EventHandler_1_System_EventArgs
-	.long LDIFF_SYM2124
+LDIFF_SYM2126=Lme_1d6 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_add_WindowStateChanged_System_EventHandler_1_System_EventArgs
+	.long LDIFF_SYM2126
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,149,6,150,5,68,151,4,152,3,68,153,2,154,1
 	.align 3
@@ -54652,42 +54512,42 @@ Lfde324_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2125=LTDIE_95_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2125
+LDIFF_SYM2127=LTDIE_95_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2127
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM2126=LTDIE_102_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2126
+LDIFF_SYM2128=LTDIE_102_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2128
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2127=LTDIE_102_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2127
+LDIFF_SYM2129=LTDIE_102_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2129
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM2128=LTDIE_102_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2128
+LDIFF_SYM2130=LTDIE_102_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2130
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM2129=LTDIE_102_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2129
+LDIFF_SYM2131=LTDIE_102_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2131
 	.byte 1,101,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2130=Lfde325_end - Lfde325_start
-	.long LDIFF_SYM2130
+LDIFF_SYM2132=Lfde325_end - Lfde325_start
+	.long LDIFF_SYM2132
 Lfde325_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_remove_WindowStateChanged_System_EventHandler_1_System_EventArgs
 
-LDIFF_SYM2131=Lme_1d7 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_remove_WindowStateChanged_System_EventHandler_1_System_EventArgs
-	.long LDIFF_SYM2131
+LDIFF_SYM2133=Lme_1d7 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_remove_WindowStateChanged_System_EventHandler_1_System_EventArgs
+	.long LDIFF_SYM2133
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,149,6,150,5,68,151,4,152,3,68,153,2,154,1
 	.align 3
@@ -54700,23 +54560,23 @@ LTDIE_124:
 	.asciz "System_EventHandler`1"
 
 	.byte 112,16
-LDIFF_SYM2132=LTDIE_35 - Ldebug_info_start
-	.long LDIFF_SYM2132
+LDIFF_SYM2134=LTDIE_35 - Ldebug_info_start
+	.long LDIFF_SYM2134
 	.byte 2,35,0,0,7
 	.asciz "System_EventHandler`1"
 
-LDIFF_SYM2133=LTDIE_124 - Ldebug_info_start
-	.long LDIFF_SYM2133
+LDIFF_SYM2135=LTDIE_124 - Ldebug_info_start
+	.long LDIFF_SYM2135
 LTDIE_124_POINTER:
 
 	.byte 13
-LDIFF_SYM2134=LTDIE_124 - Ldebug_info_start
-	.long LDIFF_SYM2134
+LDIFF_SYM2136=LTDIE_124 - Ldebug_info_start
+	.long LDIFF_SYM2136
 LTDIE_124_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2135=LTDIE_124 - Ldebug_info_start
-	.long LDIFF_SYM2135
+LDIFF_SYM2137=LTDIE_124 - Ldebug_info_start
+	.long LDIFF_SYM2137
 	.byte 2
 	.asciz "OpenTK.Platform.iPhoneOS.iPhoneOSGameView:OpenTK.INativeWindow.add_KeyPress"
 	.asciz "OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_add_KeyPress_System_EventHandler_1_OpenTK_KeyPressEventArgs"
@@ -54728,27 +54588,27 @@ LDIFF_SYM2135=LTDIE_124 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2136=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2136
+LDIFF_SYM2138=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2138
 	.byte 0,3
 	.asciz "value"
 
-LDIFF_SYM2137=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2137
+LDIFF_SYM2139=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2139
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2138=Lfde326_end - Lfde326_start
-	.long LDIFF_SYM2138
+LDIFF_SYM2140=Lfde326_end - Lfde326_start
+	.long LDIFF_SYM2140
 Lfde326_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_add_KeyPress_System_EventHandler_1_OpenTK_KeyPressEventArgs
 
-LDIFF_SYM2139=Lme_1d8 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_add_KeyPress_System_EventHandler_1_OpenTK_KeyPressEventArgs
-	.long LDIFF_SYM2139
+LDIFF_SYM2141=Lme_1d8 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_add_KeyPress_System_EventHandler_1_OpenTK_KeyPressEventArgs
+	.long LDIFF_SYM2141
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -54767,27 +54627,27 @@ Lfde326_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2140=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2140
+LDIFF_SYM2142=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2142
 	.byte 0,3
 	.asciz "value"
 
-LDIFF_SYM2141=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2141
+LDIFF_SYM2143=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2143
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2142=Lfde327_end - Lfde327_start
-	.long LDIFF_SYM2142
+LDIFF_SYM2144=Lfde327_end - Lfde327_start
+	.long LDIFF_SYM2144
 Lfde327_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_remove_KeyPress_System_EventHandler_1_OpenTK_KeyPressEventArgs
 
-LDIFF_SYM2143=Lme_1d9 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_remove_KeyPress_System_EventHandler_1_OpenTK_KeyPressEventArgs
-	.long LDIFF_SYM2143
+LDIFF_SYM2145=Lme_1d9 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_OpenTK_INativeWindow_remove_KeyPress_System_EventHandler_1_OpenTK_KeyPressEventArgs
+	.long LDIFF_SYM2145
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -54806,42 +54666,42 @@ Lfde327_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2144=LTDIE_95_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2144
+LDIFF_SYM2146=LTDIE_95_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2146
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM2145=LTDIE_102_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2145
+LDIFF_SYM2147=LTDIE_102_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2147
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2146=LTDIE_102_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2146
+LDIFF_SYM2148=LTDIE_102_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2148
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM2147=LTDIE_102_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2147
+LDIFF_SYM2149=LTDIE_102_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2149
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM2148=LTDIE_102_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2148
+LDIFF_SYM2150=LTDIE_102_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2150
 	.byte 1,101,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2149=Lfde328_end - Lfde328_start
-	.long LDIFF_SYM2149
+LDIFF_SYM2151=Lfde328_end - Lfde328_start
+	.long LDIFF_SYM2151
 Lfde328_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_add_Load_System_EventHandler_1_System_EventArgs
 
-LDIFF_SYM2150=Lme_1da - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_add_Load_System_EventHandler_1_System_EventArgs
-	.long LDIFF_SYM2150
+LDIFF_SYM2152=Lme_1da - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_add_Load_System_EventHandler_1_System_EventArgs
+	.long LDIFF_SYM2152
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,149,6,150,5,68,151,4,152,3,68,153,2,154,1
 	.align 3
@@ -54860,42 +54720,42 @@ Lfde328_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2151=LTDIE_95_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2151
+LDIFF_SYM2153=LTDIE_95_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2153
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM2152=LTDIE_102_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2152
+LDIFF_SYM2154=LTDIE_102_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2154
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2153=LTDIE_102_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2153
+LDIFF_SYM2155=LTDIE_102_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2155
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM2154=LTDIE_102_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2154
+LDIFF_SYM2156=LTDIE_102_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2156
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM2155=LTDIE_102_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2155
+LDIFF_SYM2157=LTDIE_102_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2157
 	.byte 1,101,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2156=Lfde329_end - Lfde329_start
-	.long LDIFF_SYM2156
+LDIFF_SYM2158=Lfde329_end - Lfde329_start
+	.long LDIFF_SYM2158
 Lfde329_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_remove_Load_System_EventHandler_1_System_EventArgs
 
-LDIFF_SYM2157=Lme_1db - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_remove_Load_System_EventHandler_1_System_EventArgs
-	.long LDIFF_SYM2157
+LDIFF_SYM2159=Lme_1db - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_remove_Load_System_EventHandler_1_System_EventArgs
+	.long LDIFF_SYM2159
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,149,6,150,5,68,151,4,152,3,68,153,2,154,1
 	.align 3
@@ -54914,42 +54774,42 @@ Lfde329_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2158=LTDIE_95_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2158
+LDIFF_SYM2160=LTDIE_95_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2160
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM2159=LTDIE_102_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2159
+LDIFF_SYM2161=LTDIE_102_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2161
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2160=LTDIE_102_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2160
+LDIFF_SYM2162=LTDIE_102_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2162
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM2161=LTDIE_102_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2161
+LDIFF_SYM2163=LTDIE_102_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2163
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM2162=LTDIE_102_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2162
+LDIFF_SYM2164=LTDIE_102_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2164
 	.byte 1,101,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2163=Lfde330_end - Lfde330_start
-	.long LDIFF_SYM2163
+LDIFF_SYM2165=Lfde330_end - Lfde330_start
+	.long LDIFF_SYM2165
 Lfde330_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_add_Unload_System_EventHandler_1_System_EventArgs
 
-LDIFF_SYM2164=Lme_1dc - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_add_Unload_System_EventHandler_1_System_EventArgs
-	.long LDIFF_SYM2164
+LDIFF_SYM2166=Lme_1dc - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_add_Unload_System_EventHandler_1_System_EventArgs
+	.long LDIFF_SYM2166
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,149,6,150,5,68,151,4,152,3,68,153,2,154,1
 	.align 3
@@ -54968,42 +54828,42 @@ Lfde330_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2165=LTDIE_95_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2165
+LDIFF_SYM2167=LTDIE_95_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2167
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM2166=LTDIE_102_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2166
+LDIFF_SYM2168=LTDIE_102_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2168
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2167=LTDIE_102_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2167
+LDIFF_SYM2169=LTDIE_102_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2169
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM2168=LTDIE_102_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2168
+LDIFF_SYM2170=LTDIE_102_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2170
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM2169=LTDIE_102_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2169
+LDIFF_SYM2171=LTDIE_102_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2171
 	.byte 1,101,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2170=Lfde331_end - Lfde331_start
-	.long LDIFF_SYM2170
+LDIFF_SYM2172=Lfde331_end - Lfde331_start
+	.long LDIFF_SYM2172
 Lfde331_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_remove_Unload_System_EventHandler_1_System_EventArgs
 
-LDIFF_SYM2171=Lme_1dd - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_remove_Unload_System_EventHandler_1_System_EventArgs
-	.long LDIFF_SYM2171
+LDIFF_SYM2173=Lme_1dd - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_remove_Unload_System_EventHandler_1_System_EventArgs
+	.long LDIFF_SYM2173
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,149,6,150,5,68,151,4,152,3,68,153,2,154,1
 	.align 3
@@ -55022,42 +54882,42 @@ Lfde331_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2172=LTDIE_95_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2172
+LDIFF_SYM2174=LTDIE_95_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2174
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM2173=LTDIE_103_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2173
+LDIFF_SYM2175=LTDIE_103_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2175
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2174=LTDIE_103_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2174
+LDIFF_SYM2176=LTDIE_103_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2176
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM2175=LTDIE_103_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2175
+LDIFF_SYM2177=LTDIE_103_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2177
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM2176=LTDIE_103_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2176
+LDIFF_SYM2178=LTDIE_103_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2178
 	.byte 1,101,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2177=Lfde332_end - Lfde332_start
-	.long LDIFF_SYM2177
+LDIFF_SYM2179=Lfde332_end - Lfde332_start
+	.long LDIFF_SYM2179
 Lfde332_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_add_UpdateFrame_System_EventHandler_1_OpenTK_FrameEventArgs
 
-LDIFF_SYM2178=Lme_1de - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_add_UpdateFrame_System_EventHandler_1_OpenTK_FrameEventArgs
-	.long LDIFF_SYM2178
+LDIFF_SYM2180=Lme_1de - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_add_UpdateFrame_System_EventHandler_1_OpenTK_FrameEventArgs
+	.long LDIFF_SYM2180
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,149,6,150,5,68,151,4,152,3,68,153,2,154,1
 	.align 3
@@ -55076,42 +54936,42 @@ Lfde332_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2179=LTDIE_95_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2179
+LDIFF_SYM2181=LTDIE_95_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2181
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM2180=LTDIE_103_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2180
+LDIFF_SYM2182=LTDIE_103_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2182
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2181=LTDIE_103_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2181
+LDIFF_SYM2183=LTDIE_103_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2183
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM2182=LTDIE_103_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2182
+LDIFF_SYM2184=LTDIE_103_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2184
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM2183=LTDIE_103_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2183
+LDIFF_SYM2185=LTDIE_103_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2185
 	.byte 1,101,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2184=Lfde333_end - Lfde333_start
-	.long LDIFF_SYM2184
+LDIFF_SYM2186=Lfde333_end - Lfde333_start
+	.long LDIFF_SYM2186
 Lfde333_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_remove_UpdateFrame_System_EventHandler_1_OpenTK_FrameEventArgs
 
-LDIFF_SYM2185=Lme_1df - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_remove_UpdateFrame_System_EventHandler_1_OpenTK_FrameEventArgs
-	.long LDIFF_SYM2185
+LDIFF_SYM2187=Lme_1df - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_remove_UpdateFrame_System_EventHandler_1_OpenTK_FrameEventArgs
+	.long LDIFF_SYM2187
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,149,6,150,5,68,151,4,152,3,68,153,2,154,1
 	.align 3
@@ -55130,42 +54990,42 @@ Lfde333_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2186=LTDIE_95_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2186
+LDIFF_SYM2188=LTDIE_95_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2188
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM2187=LTDIE_103_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2187
+LDIFF_SYM2189=LTDIE_103_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2189
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2188=LTDIE_103_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2188
+LDIFF_SYM2190=LTDIE_103_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2190
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM2189=LTDIE_103_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2189
+LDIFF_SYM2191=LTDIE_103_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2191
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM2190=LTDIE_103_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2190
+LDIFF_SYM2192=LTDIE_103_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2192
 	.byte 1,101,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2191=Lfde334_end - Lfde334_start
-	.long LDIFF_SYM2191
+LDIFF_SYM2193=Lfde334_end - Lfde334_start
+	.long LDIFF_SYM2193
 Lfde334_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_add_RenderFrame_System_EventHandler_1_OpenTK_FrameEventArgs
 
-LDIFF_SYM2192=Lme_1e0 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_add_RenderFrame_System_EventHandler_1_OpenTK_FrameEventArgs
-	.long LDIFF_SYM2192
+LDIFF_SYM2194=Lme_1e0 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_add_RenderFrame_System_EventHandler_1_OpenTK_FrameEventArgs
+	.long LDIFF_SYM2194
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,149,6,150,5,68,151,4,152,3,68,153,2,154,1
 	.align 3
@@ -55184,42 +55044,42 @@ Lfde334_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2193=LTDIE_95_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2193
+LDIFF_SYM2195=LTDIE_95_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2195
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM2194=LTDIE_103_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2194
+LDIFF_SYM2196=LTDIE_103_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2196
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2195=LTDIE_103_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2195
+LDIFF_SYM2197=LTDIE_103_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2197
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM2196=LTDIE_103_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2196
+LDIFF_SYM2198=LTDIE_103_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2198
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM2197=LTDIE_103_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2197
+LDIFF_SYM2199=LTDIE_103_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2199
 	.byte 1,101,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2198=Lfde335_end - Lfde335_start
-	.long LDIFF_SYM2198
+LDIFF_SYM2200=Lfde335_end - Lfde335_start
+	.long LDIFF_SYM2200
 Lfde335_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGameView_remove_RenderFrame_System_EventHandler_1_OpenTK_FrameEventArgs
 
-LDIFF_SYM2199=Lme_1e1 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_remove_RenderFrame_System_EventHandler_1_OpenTK_FrameEventArgs
-	.long LDIFF_SYM2199
+LDIFF_SYM2201=Lme_1e1 - OpenTK_Platform_iPhoneOS_iPhoneOSGameView_remove_RenderFrame_System_EventHandler_1_OpenTK_FrameEventArgs
+	.long LDIFF_SYM2201
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,149,6,150,5,68,151,4,152,3,68,153,2,154,1
 	.align 3
@@ -55238,22 +55098,22 @@ Lfde335_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2200=LTDIE_111_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2200
+LDIFF_SYM2202=LTDIE_111_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2202
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2201=Lfde336_end - Lfde336_start
-	.long LDIFF_SYM2201
+LDIFF_SYM2203=Lfde336_end - Lfde336_start
+	.long LDIFF_SYM2203
 Lfde336_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGraphicsContext_get_EAGLContext
 
-LDIFF_SYM2202=Lme_1e2 - OpenTK_Platform_iPhoneOS_iPhoneOSGraphicsContext_get_EAGLContext
-	.long LDIFF_SYM2202
+LDIFF_SYM2204=Lme_1e2 - OpenTK_Platform_iPhoneOS_iPhoneOSGraphicsContext_get_EAGLContext
+	.long LDIFF_SYM2204
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -55272,27 +55132,27 @@ Lfde336_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2203=LTDIE_111_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2203
+LDIFF_SYM2205=LTDIE_111_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2205
 	.byte 2,141,16,3
 	.asciz "value"
 
-LDIFF_SYM2204=LTDIE_11_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2204
+LDIFF_SYM2206=LTDIE_11_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2206
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2205=Lfde337_end - Lfde337_start
-	.long LDIFF_SYM2205
+LDIFF_SYM2207=Lfde337_end - Lfde337_start
+	.long LDIFF_SYM2207
 Lfde337_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGraphicsContext_set_EAGLContext_OpenGLES_EAGLContext
 
-LDIFF_SYM2206=Lme_1e3 - OpenTK_Platform_iPhoneOS_iPhoneOSGraphicsContext_set_EAGLContext_OpenGLES_EAGLContext
-	.long LDIFF_SYM2206
+LDIFF_SYM2208=Lme_1e3 - OpenTK_Platform_iPhoneOS_iPhoneOSGraphicsContext_set_EAGLContext_OpenGLES_EAGLContext
+	.long LDIFF_SYM2208
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -55311,62 +55171,62 @@ Lfde337_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2207=LTDIE_111_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2207
+LDIFF_SYM2209=LTDIE_111_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2209
 	.byte 2,141,48,3
 	.asciz "mode"
 
-LDIFF_SYM2208=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2208
+LDIFF_SYM2210=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2210
 	.byte 0,3
 	.asciz "window"
 
-LDIFF_SYM2209=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2209
+LDIFF_SYM2211=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2211
 	.byte 0,3
 	.asciz "sharedContext"
 
-LDIFF_SYM2210=LTDIE_29_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2210
+LDIFF_SYM2212=LTDIE_29_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2212
 	.byte 1,104,3
 	.asciz "major"
 
-LDIFF_SYM2211=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2211
+LDIFF_SYM2213=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2213
 	.byte 1,105,3
 	.asciz "minor"
 
-LDIFF_SYM2212=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2212
+LDIFF_SYM2214=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2214
 	.byte 1,106,3
 	.asciz "flags"
 
-LDIFF_SYM2213=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2213
+LDIFF_SYM2215=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2215
 	.byte 0,11
 	.asciz "shared"
 
-LDIFF_SYM2214=LTDIE_111_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2214
+LDIFF_SYM2216=LTDIE_111_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2216
 	.byte 1,104,11
 	.asciz "version"
 
-LDIFF_SYM2215=LTDIE_78 - Ldebug_info_start
-	.long LDIFF_SYM2215
+LDIFF_SYM2217=LTDIE_78 - Ldebug_info_start
+	.long LDIFF_SYM2217
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2216=Lfde338_end - Lfde338_start
-	.long LDIFF_SYM2216
+LDIFF_SYM2218=Lfde338_end - Lfde338_start
+	.long LDIFF_SYM2218
 Lfde338_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGraphicsContext__ctor_OpenTK_Graphics_GraphicsMode_OpenTK_Platform_IWindowInfo_OpenTK_Graphics_IGraphicsContext_int_int_OpenTK_Graphics_GraphicsContextFlags
 
-LDIFF_SYM2217=Lme_1e4 - OpenTK_Platform_iPhoneOS_iPhoneOSGraphicsContext__ctor_OpenTK_Graphics_GraphicsMode_OpenTK_Platform_IWindowInfo_OpenTK_Graphics_IGraphicsContext_int_int_OpenTK_Graphics_GraphicsContextFlags
-	.long LDIFF_SYM2217
+LDIFF_SYM2219=Lme_1e4 - OpenTK_Platform_iPhoneOS_iPhoneOSGraphicsContext__ctor_OpenTK_Graphics_GraphicsMode_OpenTK_Platform_IWindowInfo_OpenTK_Graphics_IGraphicsContext_int_int_OpenTK_Graphics_GraphicsContextFlags
+	.long LDIFF_SYM2219
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,150,16,68,152,15,153,14,68,154,13
 	.align 3
@@ -55385,22 +55245,22 @@ Lfde338_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2218=LTDIE_111_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2218
+LDIFF_SYM2220=LTDIE_111_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2220
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2219=Lfde339_end - Lfde339_start
-	.long LDIFF_SYM2219
+LDIFF_SYM2221=Lfde339_end - Lfde339_start
+	.long LDIFF_SYM2221
 Lfde339_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGraphicsContext_SwapBuffers
 
-LDIFF_SYM2220=Lme_1e5 - OpenTK_Platform_iPhoneOS_iPhoneOSGraphicsContext_SwapBuffers
-	.long LDIFF_SYM2220
+LDIFF_SYM2222=Lme_1e5 - OpenTK_Platform_iPhoneOS_iPhoneOSGraphicsContext_SwapBuffers
+	.long LDIFF_SYM2222
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -55419,27 +55279,27 @@ Lfde339_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2221=LTDIE_111_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2221
+LDIFF_SYM2223=LTDIE_111_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2223
 	.byte 2,141,16,3
 	.asciz "window"
 
-LDIFF_SYM2222=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2222
+LDIFF_SYM2224=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2224
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2223=Lfde340_end - Lfde340_start
-	.long LDIFF_SYM2223
+LDIFF_SYM2225=Lfde340_end - Lfde340_start
+	.long LDIFF_SYM2225
 Lfde340_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGraphicsContext_MakeCurrent_OpenTK_Platform_IWindowInfo
 
-LDIFF_SYM2224=Lme_1e6 - OpenTK_Platform_iPhoneOS_iPhoneOSGraphicsContext_MakeCurrent_OpenTK_Platform_IWindowInfo
-	.long LDIFF_SYM2224
+LDIFF_SYM2226=Lme_1e6 - OpenTK_Platform_iPhoneOS_iPhoneOSGraphicsContext_MakeCurrent_OpenTK_Platform_IWindowInfo
+	.long LDIFF_SYM2226
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -55458,22 +55318,22 @@ Lfde340_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2225=LTDIE_111_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2225
+LDIFF_SYM2227=LTDIE_111_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2227
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2226=Lfde341_end - Lfde341_start
-	.long LDIFF_SYM2226
+LDIFF_SYM2228=Lfde341_end - Lfde341_start
+	.long LDIFF_SYM2228
 Lfde341_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGraphicsContext_get_IsCurrent
 
-LDIFF_SYM2227=Lme_1e7 - OpenTK_Platform_iPhoneOS_iPhoneOSGraphicsContext_get_IsCurrent
-	.long LDIFF_SYM2227
+LDIFF_SYM2229=Lme_1e7 - OpenTK_Platform_iPhoneOS_iPhoneOSGraphicsContext_get_IsCurrent
+	.long LDIFF_SYM2229
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -55492,22 +55352,22 @@ Lfde341_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2228=LTDIE_111_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2228
+LDIFF_SYM2230=LTDIE_111_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2230
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2229=Lfde342_end - Lfde342_start
-	.long LDIFF_SYM2229
+LDIFF_SYM2231=Lfde342_end - Lfde342_start
+	.long LDIFF_SYM2231
 Lfde342_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGraphicsContext_get_IsDisposed
 
-LDIFF_SYM2230=Lme_1e8 - OpenTK_Platform_iPhoneOS_iPhoneOSGraphicsContext_get_IsDisposed
-	.long LDIFF_SYM2230
+LDIFF_SYM2232=Lme_1e8 - OpenTK_Platform_iPhoneOS_iPhoneOSGraphicsContext_get_IsDisposed
+	.long LDIFF_SYM2232
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -55526,22 +55386,22 @@ Lfde342_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2231=LTDIE_111_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2231
+LDIFF_SYM2233=LTDIE_111_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2233
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2232=Lfde343_end - Lfde343_start
-	.long LDIFF_SYM2232
+LDIFF_SYM2234=Lfde343_end - Lfde343_start
+	.long LDIFF_SYM2234
 Lfde343_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGraphicsContext_OpenTK_Graphics_IGraphicsContextInternal_get_Implementation
 
-LDIFF_SYM2233=Lme_1e9 - OpenTK_Platform_iPhoneOS_iPhoneOSGraphicsContext_OpenTK_Graphics_IGraphicsContextInternal_get_Implementation
-	.long LDIFF_SYM2233
+LDIFF_SYM2235=Lme_1e9 - OpenTK_Platform_iPhoneOS_iPhoneOSGraphicsContext_OpenTK_Graphics_IGraphicsContextInternal_get_Implementation
+	.long LDIFF_SYM2235
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -55560,22 +55420,22 @@ Lfde343_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2234=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2234
+LDIFF_SYM2236=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2236
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2235=Lfde344_end - Lfde344_start
-	.long LDIFF_SYM2235
+LDIFF_SYM2237=Lfde344_end - Lfde344_start
+	.long LDIFF_SYM2237
 Lfde344_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGraphicsContext_OpenTK_Graphics_IGraphicsContextInternal_LoadAll
 
-LDIFF_SYM2236=Lme_1ea - OpenTK_Platform_iPhoneOS_iPhoneOSGraphicsContext_OpenTK_Graphics_IGraphicsContextInternal_LoadAll
-	.long LDIFF_SYM2236
+LDIFF_SYM2238=Lme_1ea - OpenTK_Platform_iPhoneOS_iPhoneOSGraphicsContext_OpenTK_Graphics_IGraphicsContextInternal_LoadAll
+	.long LDIFF_SYM2238
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -55594,22 +55454,22 @@ Lfde344_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2237=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2237
+LDIFF_SYM2239=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2239
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2238=Lfde345_end - Lfde345_start
-	.long LDIFF_SYM2238
+LDIFF_SYM2240=Lfde345_end - Lfde345_start
+	.long LDIFF_SYM2240
 Lfde345_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGraphicsContext_OpenTK_Graphics_IGraphicsContext_LoadAll
 
-LDIFF_SYM2239=Lme_1eb - OpenTK_Platform_iPhoneOS_iPhoneOSGraphicsContext_OpenTK_Graphics_IGraphicsContext_LoadAll
-	.long LDIFF_SYM2239
+LDIFF_SYM2241=Lme_1eb - OpenTK_Platform_iPhoneOS_iPhoneOSGraphicsContext_OpenTK_Graphics_IGraphicsContext_LoadAll
+	.long LDIFF_SYM2241
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -55628,22 +55488,22 @@ Lfde345_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2240=LTDIE_111_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2240
+LDIFF_SYM2242=LTDIE_111_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2242
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2241=Lfde346_end - Lfde346_start
-	.long LDIFF_SYM2241
+LDIFF_SYM2243=Lfde346_end - Lfde346_start
+	.long LDIFF_SYM2243
 Lfde346_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGraphicsContext_OpenTK_Graphics_IGraphicsContextInternal_get_Context
 
-LDIFF_SYM2242=Lme_1ec - OpenTK_Platform_iPhoneOS_iPhoneOSGraphicsContext_OpenTK_Graphics_IGraphicsContextInternal_get_Context
-	.long LDIFF_SYM2242
+LDIFF_SYM2244=Lme_1ec - OpenTK_Platform_iPhoneOS_iPhoneOSGraphicsContext_OpenTK_Graphics_IGraphicsContextInternal_get_Context
+	.long LDIFF_SYM2244
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -55662,22 +55522,22 @@ Lfde346_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2243=LTDIE_111_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2243
+LDIFF_SYM2245=LTDIE_111_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2245
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2244=Lfde347_end - Lfde347_start
-	.long LDIFF_SYM2244
+LDIFF_SYM2246=Lfde347_end - Lfde347_start
+	.long LDIFF_SYM2246
 Lfde347_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGraphicsContext_Dispose
 
-LDIFF_SYM2245=Lme_1ed - OpenTK_Platform_iPhoneOS_iPhoneOSGraphicsContext_Dispose
-	.long LDIFF_SYM2245
+LDIFF_SYM2247=Lme_1ed - OpenTK_Platform_iPhoneOS_iPhoneOSGraphicsContext_Dispose
+	.long LDIFF_SYM2247
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -55696,27 +55556,27 @@ Lfde347_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2246=LTDIE_111_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2246
+LDIFF_SYM2248=LTDIE_111_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2248
 	.byte 1,106,3
 	.asciz "disposing"
 
-LDIFF_SYM2247=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2247
+LDIFF_SYM2249=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2249
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2248=Lfde348_end - Lfde348_start
-	.long LDIFF_SYM2248
+LDIFF_SYM2250=Lfde348_end - Lfde348_start
+	.long LDIFF_SYM2250
 Lfde348_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGraphicsContext_Dispose_bool
 
-LDIFF_SYM2249=Lme_1ee - OpenTK_Platform_iPhoneOS_iPhoneOSGraphicsContext_Dispose_bool
-	.long LDIFF_SYM2249
+LDIFF_SYM2251=Lme_1ee - OpenTK_Platform_iPhoneOS_iPhoneOSGraphicsContext_Dispose_bool
+	.long LDIFF_SYM2251
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29,68,154,2
 	.align 3
@@ -55735,22 +55595,22 @@ Lfde348_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2250=LTDIE_111_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2250
+LDIFF_SYM2252=LTDIE_111_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2252
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2251=Lfde349_end - Lfde349_start
-	.long LDIFF_SYM2251
+LDIFF_SYM2253=Lfde349_end - Lfde349_start
+	.long LDIFF_SYM2253
 Lfde349_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGraphicsContext_Finalize
 
-LDIFF_SYM2252=Lme_1ef - OpenTK_Platform_iPhoneOS_iPhoneOSGraphicsContext_Finalize
-	.long LDIFF_SYM2252
+LDIFF_SYM2254=Lme_1ef - OpenTK_Platform_iPhoneOS_iPhoneOSGraphicsContext_Finalize
+	.long LDIFF_SYM2254
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -55763,23 +55623,23 @@ LTDIE_125:
 	.asciz "OpenTK_Platform_iPhoneOS_iPhoneOSGraphicsMode"
 
 	.byte 16,16
-LDIFF_SYM2253=LTDIE_2 - Ldebug_info_start
-	.long LDIFF_SYM2253
+LDIFF_SYM2255=LTDIE_2 - Ldebug_info_start
+	.long LDIFF_SYM2255
 	.byte 2,35,0,0,7
 	.asciz "OpenTK_Platform_iPhoneOS_iPhoneOSGraphicsMode"
 
-LDIFF_SYM2254=LTDIE_125 - Ldebug_info_start
-	.long LDIFF_SYM2254
+LDIFF_SYM2256=LTDIE_125 - Ldebug_info_start
+	.long LDIFF_SYM2256
 LTDIE_125_POINTER:
 
 	.byte 13
-LDIFF_SYM2255=LTDIE_125 - Ldebug_info_start
-	.long LDIFF_SYM2255
+LDIFF_SYM2257=LTDIE_125 - Ldebug_info_start
+	.long LDIFF_SYM2257
 LTDIE_125_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2256=LTDIE_125 - Ldebug_info_start
-	.long LDIFF_SYM2256
+LDIFF_SYM2258=LTDIE_125 - Ldebug_info_start
+	.long LDIFF_SYM2258
 	.byte 2
 	.asciz "OpenTK.Platform.iPhoneOS.iPhoneOSGraphicsMode:SelectGraphicsMode"
 	.asciz "OpenTK_Platform_iPhoneOS_iPhoneOSGraphicsMode_SelectGraphicsMode_OpenTK_Graphics_ColorFormat_int_int_int_OpenTK_Graphics_ColorFormat_int_bool"
@@ -55791,57 +55651,57 @@ LDIFF_SYM2256=LTDIE_125 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2257=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2257
+LDIFF_SYM2259=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2259
 	.byte 0,3
 	.asciz "color"
 
-LDIFF_SYM2258=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2258
+LDIFF_SYM2260=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2260
 	.byte 2,141,32,3
 	.asciz "depth"
 
-LDIFF_SYM2259=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2259
+LDIFF_SYM2261=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2261
 	.byte 2,141,48,3
 	.asciz "stencil"
 
-LDIFF_SYM2260=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2260
+LDIFF_SYM2262=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2262
 	.byte 2,141,56,3
 	.asciz "samples"
 
-LDIFF_SYM2261=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2261
+LDIFF_SYM2263=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2263
 	.byte 3,141,192,0,3
 	.asciz "accum"
 
-LDIFF_SYM2262=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2262
+LDIFF_SYM2264=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2264
 	.byte 3,141,200,0,3
 	.asciz "buffers"
 
-LDIFF_SYM2263=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2263
+LDIFF_SYM2265=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2265
 	.byte 2,140,0,3
 	.asciz "stereo"
 
-LDIFF_SYM2264=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2264
+LDIFF_SYM2266=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2266
 	.byte 2,140,4,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2265=Lfde350_end - Lfde350_start
-	.long LDIFF_SYM2265
+LDIFF_SYM2267=Lfde350_end - Lfde350_start
+	.long LDIFF_SYM2267
 Lfde350_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGraphicsMode_SelectGraphicsMode_OpenTK_Graphics_ColorFormat_int_int_int_OpenTK_Graphics_ColorFormat_int_bool
 
-LDIFF_SYM2266=Lme_1f0 - OpenTK_Platform_iPhoneOS_iPhoneOSGraphicsMode_SelectGraphicsMode_OpenTK_Graphics_ColorFormat_int_int_int_OpenTK_Graphics_ColorFormat_int_bool
-	.long LDIFF_SYM2266
+LDIFF_SYM2268=Lme_1f0 - OpenTK_Platform_iPhoneOS_iPhoneOSGraphicsMode_SelectGraphicsMode_OpenTK_Graphics_ColorFormat_int_int_int_OpenTK_Graphics_ColorFormat_int_bool
+	.long LDIFF_SYM2268
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,84,156,16
 	.align 3
@@ -55860,22 +55720,22 @@ Lfde350_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2267=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2267
+LDIFF_SYM2269=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2269
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2268=Lfde351_end - Lfde351_start
-	.long LDIFF_SYM2268
+LDIFF_SYM2270=Lfde351_end - Lfde351_start
+	.long LDIFF_SYM2270
 Lfde351_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Platform_iPhoneOS_iPhoneOSGraphicsMode__ctor
 
-LDIFF_SYM2269=Lme_1f1 - OpenTK_Platform_iPhoneOS_iPhoneOSGraphicsMode__ctor
-	.long LDIFF_SYM2269
+LDIFF_SYM2271=Lme_1f1 - OpenTK_Platform_iPhoneOS_iPhoneOSGraphicsMode__ctor
+	.long LDIFF_SYM2271
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -55894,57 +55754,57 @@ Lfde351_end:
 	.byte 2,118,16,3
 	.asciz "x"
 
-LDIFF_SYM2270=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2270
+LDIFF_SYM2272=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2272
 	.byte 2,141,16,3
 	.asciz "y"
 
-LDIFF_SYM2271=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2271
+LDIFF_SYM2273=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2273
 	.byte 2,141,24,3
 	.asciz "width"
 
-LDIFF_SYM2272=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2272
+LDIFF_SYM2274=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2274
 	.byte 2,141,32,3
 	.asciz "height"
 
-LDIFF_SYM2273=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2273
+LDIFF_SYM2275=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2275
 	.byte 2,141,40,3
 	.asciz "format"
 
-LDIFF_SYM2274=LTDIE_66 - Ldebug_info_start
-	.long LDIFF_SYM2274
+LDIFF_SYM2276=LTDIE_66 - Ldebug_info_start
+	.long LDIFF_SYM2276
 	.byte 2,141,48,3
 	.asciz "type"
 
-LDIFF_SYM2275=LTDIE_67 - Ldebug_info_start
-	.long LDIFF_SYM2275
+LDIFF_SYM2277=LTDIE_67 - Ldebug_info_start
+	.long LDIFF_SYM2277
 	.byte 2,141,56,3
 	.asciz "pixels"
 
-LDIFF_SYM2276=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM2276
+LDIFF_SYM2278=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM2278
 	.byte 3,141,192,0,11
 	.asciz "pixels_ptr"
 
-LDIFF_SYM2277=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2277
+LDIFF_SYM2279=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2279
 	.byte 3,141,208,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2278=Lfde352_end - Lfde352_start
-	.long LDIFF_SYM2278
+LDIFF_SYM2280=Lfde352_end - Lfde352_start
+	.long LDIFF_SYM2280
 Lfde352_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Graphics_ES30_GL_ReadPixels_T6_GSHAREDVT_int_int_int_int_OpenTK_Graphics_ES30_PixelFormat_OpenTK_Graphics_ES30_PixelType_T6_GSHAREDVT__
 
-LDIFF_SYM2279=Lme_1f3 - OpenTK_Graphics_ES30_GL_ReadPixels_T6_GSHAREDVT_int_int_int_int_OpenTK_Graphics_ES30_PixelFormat_OpenTK_Graphics_ES30_PixelType_T6_GSHAREDVT__
-	.long LDIFF_SYM2279
+LDIFF_SYM2281=Lme_1f3 - OpenTK_Graphics_ES30_GL_ReadPixels_T6_GSHAREDVT_int_int_int_int_OpenTK_Graphics_ES30_PixelFormat_OpenTK_Graphics_ES30_PixelType_T6_GSHAREDVT__
+	.long LDIFF_SYM2281
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29
 	.align 3
@@ -55963,57 +55823,57 @@ Lfde352_end:
 	.byte 2,118,16,3
 	.asciz "x"
 
-LDIFF_SYM2280=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2280
+LDIFF_SYM2282=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2282
 	.byte 2,141,16,3
 	.asciz "y"
 
-LDIFF_SYM2281=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2281
+LDIFF_SYM2283=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2283
 	.byte 2,141,24,3
 	.asciz "width"
 
-LDIFF_SYM2282=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2282
+LDIFF_SYM2284=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2284
 	.byte 2,141,32,3
 	.asciz "height"
 
-LDIFF_SYM2283=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2283
+LDIFF_SYM2285=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2285
 	.byte 2,141,40,3
 	.asciz "format"
 
-LDIFF_SYM2284=LTDIE_74 - Ldebug_info_start
-	.long LDIFF_SYM2284
+LDIFF_SYM2286=LTDIE_74 - Ldebug_info_start
+	.long LDIFF_SYM2286
 	.byte 2,141,48,3
 	.asciz "type"
 
-LDIFF_SYM2285=LTDIE_75 - Ldebug_info_start
-	.long LDIFF_SYM2285
+LDIFF_SYM2287=LTDIE_75 - Ldebug_info_start
+	.long LDIFF_SYM2287
 	.byte 2,141,56,3
 	.asciz "pixels"
 
-LDIFF_SYM2286=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM2286
+LDIFF_SYM2288=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM2288
 	.byte 3,141,192,0,11
 	.asciz "pixels_ptr"
 
-LDIFF_SYM2287=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2287
+LDIFF_SYM2289=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2289
 	.byte 3,141,208,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2288=Lfde353_end - Lfde353_start
-	.long LDIFF_SYM2288
+LDIFF_SYM2290=Lfde353_end - Lfde353_start
+	.long LDIFF_SYM2290
 Lfde353_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Graphics_ES20_GL_ReadPixels_T6_GSHAREDVT_int_int_int_int_OpenTK_Graphics_ES20_PixelFormat_OpenTK_Graphics_ES20_PixelType_T6_GSHAREDVT__
 
-LDIFF_SYM2289=Lme_1f4 - OpenTK_Graphics_ES20_GL_ReadPixels_T6_GSHAREDVT_int_int_int_int_OpenTK_Graphics_ES20_PixelFormat_OpenTK_Graphics_ES20_PixelType_T6_GSHAREDVT__
-	.long LDIFF_SYM2289
+LDIFF_SYM2291=Lme_1f4 - OpenTK_Graphics_ES20_GL_ReadPixels_T6_GSHAREDVT_int_int_int_int_OpenTK_Graphics_ES20_PixelFormat_OpenTK_Graphics_ES20_PixelType_T6_GSHAREDVT__
+	.long LDIFF_SYM2291
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29
 	.align 3
@@ -56032,57 +55892,57 @@ Lfde353_end:
 	.byte 2,118,16,3
 	.asciz "x"
 
-LDIFF_SYM2290=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2290
+LDIFF_SYM2292=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2292
 	.byte 2,141,16,3
 	.asciz "y"
 
-LDIFF_SYM2291=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2291
+LDIFF_SYM2293=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2293
 	.byte 2,141,24,3
 	.asciz "width"
 
-LDIFF_SYM2292=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2292
+LDIFF_SYM2294=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2294
 	.byte 2,141,32,3
 	.asciz "height"
 
-LDIFF_SYM2293=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2293
+LDIFF_SYM2295=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2295
 	.byte 2,141,40,3
 	.asciz "format"
 
-LDIFF_SYM2294=LTDIE_76 - Ldebug_info_start
-	.long LDIFF_SYM2294
+LDIFF_SYM2296=LTDIE_76 - Ldebug_info_start
+	.long LDIFF_SYM2296
 	.byte 2,141,48,3
 	.asciz "type"
 
-LDIFF_SYM2295=LTDIE_76 - Ldebug_info_start
-	.long LDIFF_SYM2295
+LDIFF_SYM2297=LTDIE_76 - Ldebug_info_start
+	.long LDIFF_SYM2297
 	.byte 2,141,56,3
 	.asciz "pixels"
 
-LDIFF_SYM2296=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM2296
+LDIFF_SYM2298=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM2298
 	.byte 3,141,192,0,11
 	.asciz "pixels_ptr"
 
-LDIFF_SYM2297=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2297
+LDIFF_SYM2299=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2299
 	.byte 3,141,208,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2298=Lfde354_end - Lfde354_start
-	.long LDIFF_SYM2298
+LDIFF_SYM2300=Lfde354_end - Lfde354_start
+	.long LDIFF_SYM2300
 Lfde354_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Graphics_ES11_GL_ReadPixels_T6_GSHAREDVT_int_int_int_int_OpenTK_Graphics_ES11_All_OpenTK_Graphics_ES11_All_T6_GSHAREDVT__
 
-LDIFF_SYM2299=Lme_1f5 - OpenTK_Graphics_ES11_GL_ReadPixels_T6_GSHAREDVT_int_int_int_int_OpenTK_Graphics_ES11_All_OpenTK_Graphics_ES11_All_T6_GSHAREDVT__
-	.long LDIFF_SYM2299
+LDIFF_SYM2301=Lme_1f5 - OpenTK_Graphics_ES11_GL_ReadPixels_T6_GSHAREDVT_int_int_int_int_OpenTK_Graphics_ES11_All_OpenTK_Graphics_ES11_All_T6_GSHAREDVT__
+	.long LDIFF_SYM2301
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29
 	.align 3
@@ -56101,57 +55961,57 @@ Lfde354_end:
 	.byte 2,118,16,3
 	.asciz "x"
 
-LDIFF_SYM2300=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2300
+LDIFF_SYM2302=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2302
 	.byte 2,141,16,3
 	.asciz "y"
 
-LDIFF_SYM2301=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2301
+LDIFF_SYM2303=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2303
 	.byte 2,141,24,3
 	.asciz "width"
 
-LDIFF_SYM2302=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2302
+LDIFF_SYM2304=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2304
 	.byte 2,141,32,3
 	.asciz "height"
 
-LDIFF_SYM2303=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2303
+LDIFF_SYM2305=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2305
 	.byte 2,141,40,3
 	.asciz "format"
 
-LDIFF_SYM2304=LTDIE_76 - Ldebug_info_start
-	.long LDIFF_SYM2304
+LDIFF_SYM2306=LTDIE_76 - Ldebug_info_start
+	.long LDIFF_SYM2306
 	.byte 2,141,48,3
 	.asciz "type"
 
-LDIFF_SYM2305=LTDIE_76 - Ldebug_info_start
-	.long LDIFF_SYM2305
+LDIFF_SYM2307=LTDIE_76 - Ldebug_info_start
+	.long LDIFF_SYM2307
 	.byte 2,141,56,3
 	.asciz "pixels"
 
-LDIFF_SYM2306=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM2306
+LDIFF_SYM2308=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM2308
 	.byte 3,141,192,0,11
 	.asciz "pixels_ptr"
 
-LDIFF_SYM2307=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2307
+LDIFF_SYM2309=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2309
 	.byte 3,141,200,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2308=Lfde355_end - Lfde355_start
-	.long LDIFF_SYM2308
+LDIFF_SYM2310=Lfde355_end - Lfde355_start
+	.long LDIFF_SYM2310
 Lfde355_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Graphics_ES11_GL_ReadPixels_T6_BYTE_int_int_int_int_OpenTK_Graphics_ES11_All_OpenTK_Graphics_ES11_All_T6_BYTE__
 
-LDIFF_SYM2309=Lme_1f6 - OpenTK_Graphics_ES11_GL_ReadPixels_T6_BYTE_int_int_int_int_OpenTK_Graphics_ES11_All_OpenTK_Graphics_ES11_All_T6_BYTE__
-	.long LDIFF_SYM2309
+LDIFF_SYM2311=Lme_1f6 - OpenTK_Graphics_ES11_GL_ReadPixels_T6_BYTE_int_int_int_int_OpenTK_Graphics_ES11_All_OpenTK_Graphics_ES11_All_T6_BYTE__
+	.long LDIFF_SYM2311
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29
 	.align 3
@@ -56170,57 +56030,57 @@ Lfde355_end:
 	.byte 2,118,16,3
 	.asciz "x"
 
-LDIFF_SYM2310=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2310
+LDIFF_SYM2312=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2312
 	.byte 2,141,16,3
 	.asciz "y"
 
-LDIFF_SYM2311=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2311
+LDIFF_SYM2313=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2313
 	.byte 2,141,24,3
 	.asciz "width"
 
-LDIFF_SYM2312=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2312
+LDIFF_SYM2314=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2314
 	.byte 2,141,32,3
 	.asciz "height"
 
-LDIFF_SYM2313=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2313
+LDIFF_SYM2315=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2315
 	.byte 2,141,40,3
 	.asciz "format"
 
-LDIFF_SYM2314=LTDIE_74 - Ldebug_info_start
-	.long LDIFF_SYM2314
+LDIFF_SYM2316=LTDIE_74 - Ldebug_info_start
+	.long LDIFF_SYM2316
 	.byte 2,141,48,3
 	.asciz "type"
 
-LDIFF_SYM2315=LTDIE_75 - Ldebug_info_start
-	.long LDIFF_SYM2315
+LDIFF_SYM2317=LTDIE_75 - Ldebug_info_start
+	.long LDIFF_SYM2317
 	.byte 2,141,56,3
 	.asciz "pixels"
 
-LDIFF_SYM2316=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM2316
+LDIFF_SYM2318=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM2318
 	.byte 3,141,192,0,11
 	.asciz "pixels_ptr"
 
-LDIFF_SYM2317=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2317
+LDIFF_SYM2319=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2319
 	.byte 3,141,200,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2318=Lfde356_end - Lfde356_start
-	.long LDIFF_SYM2318
+LDIFF_SYM2320=Lfde356_end - Lfde356_start
+	.long LDIFF_SYM2320
 Lfde356_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Graphics_ES20_GL_ReadPixels_T6_BYTE_int_int_int_int_OpenTK_Graphics_ES20_PixelFormat_OpenTK_Graphics_ES20_PixelType_T6_BYTE__
 
-LDIFF_SYM2319=Lme_1f7 - OpenTK_Graphics_ES20_GL_ReadPixels_T6_BYTE_int_int_int_int_OpenTK_Graphics_ES20_PixelFormat_OpenTK_Graphics_ES20_PixelType_T6_BYTE__
-	.long LDIFF_SYM2319
+LDIFF_SYM2321=Lme_1f7 - OpenTK_Graphics_ES20_GL_ReadPixels_T6_BYTE_int_int_int_int_OpenTK_Graphics_ES20_PixelFormat_OpenTK_Graphics_ES20_PixelType_T6_BYTE__
+	.long LDIFF_SYM2321
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29
 	.align 3
@@ -56239,57 +56099,57 @@ Lfde356_end:
 	.byte 2,118,16,3
 	.asciz "x"
 
-LDIFF_SYM2320=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2320
+LDIFF_SYM2322=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2322
 	.byte 2,141,16,3
 	.asciz "y"
 
-LDIFF_SYM2321=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2321
+LDIFF_SYM2323=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2323
 	.byte 2,141,24,3
 	.asciz "width"
 
-LDIFF_SYM2322=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2322
+LDIFF_SYM2324=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2324
 	.byte 2,141,32,3
 	.asciz "height"
 
-LDIFF_SYM2323=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2323
+LDIFF_SYM2325=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2325
 	.byte 2,141,40,3
 	.asciz "format"
 
-LDIFF_SYM2324=LTDIE_66 - Ldebug_info_start
-	.long LDIFF_SYM2324
+LDIFF_SYM2326=LTDIE_66 - Ldebug_info_start
+	.long LDIFF_SYM2326
 	.byte 2,141,48,3
 	.asciz "type"
 
-LDIFF_SYM2325=LTDIE_67 - Ldebug_info_start
-	.long LDIFF_SYM2325
+LDIFF_SYM2327=LTDIE_67 - Ldebug_info_start
+	.long LDIFF_SYM2327
 	.byte 2,141,56,3
 	.asciz "pixels"
 
-LDIFF_SYM2326=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM2326
+LDIFF_SYM2328=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM2328
 	.byte 3,141,192,0,11
 	.asciz "pixels_ptr"
 
-LDIFF_SYM2327=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2327
+LDIFF_SYM2329=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2329
 	.byte 3,141,200,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2328=Lfde357_end - Lfde357_start
-	.long LDIFF_SYM2328
+LDIFF_SYM2330=Lfde357_end - Lfde357_start
+	.long LDIFF_SYM2330
 Lfde357_start:
 
 	.long 0
 	.align 3
 	.quad OpenTK_Graphics_ES30_GL_ReadPixels_T6_BYTE_int_int_int_int_OpenTK_Graphics_ES30_PixelFormat_OpenTK_Graphics_ES30_PixelType_T6_BYTE__
 
-LDIFF_SYM2329=Lme_1f8 - OpenTK_Graphics_ES30_GL_ReadPixels_T6_BYTE_int_int_int_int_OpenTK_Graphics_ES30_PixelFormat_OpenTK_Graphics_ES30_PixelType_T6_BYTE__
-	.long LDIFF_SYM2329
+LDIFF_SYM2331=Lme_1f8 - OpenTK_Graphics_ES30_GL_ReadPixels_T6_BYTE_int_int_int_int_OpenTK_Graphics_ES30_PixelFormat_OpenTK_Graphics_ES30_PixelType_T6_BYTE__
+	.long LDIFF_SYM2331
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29
 	.align 3
@@ -56302,23 +56162,23 @@ LTDIE_126:
 	.asciz "System_Array"
 
 	.byte 16,16
-LDIFF_SYM2330=LTDIE_2 - Ldebug_info_start
-	.long LDIFF_SYM2330
+LDIFF_SYM2332=LTDIE_2 - Ldebug_info_start
+	.long LDIFF_SYM2332
 	.byte 2,35,0,0,7
 	.asciz "System_Array"
 
-LDIFF_SYM2331=LTDIE_126 - Ldebug_info_start
-	.long LDIFF_SYM2331
+LDIFF_SYM2333=LTDIE_126 - Ldebug_info_start
+	.long LDIFF_SYM2333
 LTDIE_126_POINTER:
 
 	.byte 13
-LDIFF_SYM2332=LTDIE_126 - Ldebug_info_start
-	.long LDIFF_SYM2332
+LDIFF_SYM2334=LTDIE_126 - Ldebug_info_start
+	.long LDIFF_SYM2334
 LTDIE_126_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2333=LTDIE_126 - Ldebug_info_start
-	.long LDIFF_SYM2333
+LDIFF_SYM2335=LTDIE_126 - Ldebug_info_start
+	.long LDIFF_SYM2335
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.EventHandler`1<System.EventArgs>:invoke_void_object_TEventArgs"
 	.asciz "wrapper_delegate_invoke_System_EventHandler_1_System_EventArgs_invoke_void_object_TEventArgs_object_System_EventArgs"
@@ -56330,57 +56190,57 @@ LDIFF_SYM2333=LTDIE_126 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2334=LTDIE_102_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2334
+LDIFF_SYM2336=LTDIE_102_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2336
 	.byte 1,104,3
 	.asciz "param0"
 
-LDIFF_SYM2335=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2335
+LDIFF_SYM2337=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2337
 	.byte 1,105,3
 	.asciz "param1"
 
-LDIFF_SYM2336=LTDIE_24_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2336
+LDIFF_SYM2338=LTDIE_24_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2338
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2337=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2337
+LDIFF_SYM2339=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2339
 	.byte 1,102,11
 	.asciz "V_1"
 
-LDIFF_SYM2338=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2338
+LDIFF_SYM2340=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2340
 	.byte 1,104,11
 	.asciz "V_2"
 
-LDIFF_SYM2339=LTDIE_126_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2339
+LDIFF_SYM2341=LTDIE_126_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2341
 	.byte 1,103,11
 	.asciz "V_3"
 
-LDIFF_SYM2340=LTDIE_35_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2340
+LDIFF_SYM2342=LTDIE_35_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2342
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM2341=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2341
+LDIFF_SYM2343=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2343
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2342=Lfde358_end - Lfde358_start
-	.long LDIFF_SYM2342
+LDIFF_SYM2344=Lfde358_end - Lfde358_start
+	.long LDIFF_SYM2344
 Lfde358_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_EventHandler_1_System_EventArgs_invoke_void_object_TEventArgs_object_System_EventArgs
 
-LDIFF_SYM2343=Lme_1fb - wrapper_delegate_invoke_System_EventHandler_1_System_EventArgs_invoke_void_object_TEventArgs_object_System_EventArgs
-	.long LDIFF_SYM2343
+LDIFF_SYM2345=Lme_1fb - wrapper_delegate_invoke_System_EventHandler_1_System_EventArgs_invoke_void_object_TEventArgs_object_System_EventArgs
+	.long LDIFF_SYM2345
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,149,8,150,7,68,151,6,152,5,68,153,4,154,3
 	.align 3
@@ -56393,23 +56253,23 @@ LTDIE_127:
 	.asciz "System_ComponentModel_CancelEventArgs"
 
 	.byte 16,16
-LDIFF_SYM2344=LTDIE_24 - Ldebug_info_start
-	.long LDIFF_SYM2344
+LDIFF_SYM2346=LTDIE_24 - Ldebug_info_start
+	.long LDIFF_SYM2346
 	.byte 2,35,0,0,7
 	.asciz "System_ComponentModel_CancelEventArgs"
 
-LDIFF_SYM2345=LTDIE_127 - Ldebug_info_start
-	.long LDIFF_SYM2345
+LDIFF_SYM2347=LTDIE_127 - Ldebug_info_start
+	.long LDIFF_SYM2347
 LTDIE_127_POINTER:
 
 	.byte 13
-LDIFF_SYM2346=LTDIE_127 - Ldebug_info_start
-	.long LDIFF_SYM2346
+LDIFF_SYM2348=LTDIE_127 - Ldebug_info_start
+	.long LDIFF_SYM2348
 LTDIE_127_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2347=LTDIE_127 - Ldebug_info_start
-	.long LDIFF_SYM2347
+LDIFF_SYM2349=LTDIE_127 - Ldebug_info_start
+	.long LDIFF_SYM2349
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.EventHandler`1<System.ComponentModel.CancelEventArgs>:invoke_void_object_TEventArgs"
 	.asciz "wrapper_delegate_invoke_System_EventHandler_1_System_ComponentModel_CancelEventArgs_invoke_void_object_TEventArgs_object_System_ComponentModel_CancelEventArgs"
@@ -56421,57 +56281,57 @@ LDIFF_SYM2347=LTDIE_127 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2348=LTDIE_123_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2348
+LDIFF_SYM2350=LTDIE_123_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2350
 	.byte 1,104,3
 	.asciz "param0"
 
-LDIFF_SYM2349=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2349
+LDIFF_SYM2351=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2351
 	.byte 1,105,3
 	.asciz "param1"
 
-LDIFF_SYM2350=LTDIE_127_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2350
+LDIFF_SYM2352=LTDIE_127_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2352
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2351=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2351
+LDIFF_SYM2353=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2353
 	.byte 1,102,11
 	.asciz "V_1"
 
-LDIFF_SYM2352=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2352
+LDIFF_SYM2354=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2354
 	.byte 1,104,11
 	.asciz "V_2"
 
-LDIFF_SYM2353=LTDIE_126_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2353
+LDIFF_SYM2355=LTDIE_126_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2355
 	.byte 1,103,11
 	.asciz "V_3"
 
-LDIFF_SYM2354=LTDIE_35_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2354
+LDIFF_SYM2356=LTDIE_35_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2356
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM2355=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2355
+LDIFF_SYM2357=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2357
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2356=Lfde359_end - Lfde359_start
-	.long LDIFF_SYM2356
+LDIFF_SYM2358=Lfde359_end - Lfde359_start
+	.long LDIFF_SYM2358
 Lfde359_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_EventHandler_1_System_ComponentModel_CancelEventArgs_invoke_void_object_TEventArgs_object_System_ComponentModel_CancelEventArgs
 
-LDIFF_SYM2357=Lme_1fc - wrapper_delegate_invoke_System_EventHandler_1_System_ComponentModel_CancelEventArgs_invoke_void_object_TEventArgs_object_System_ComponentModel_CancelEventArgs
-	.long LDIFF_SYM2357
+LDIFF_SYM2359=Lme_1fc - wrapper_delegate_invoke_System_EventHandler_1_System_ComponentModel_CancelEventArgs_invoke_void_object_TEventArgs_object_System_ComponentModel_CancelEventArgs
+	.long LDIFF_SYM2359
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,149,8,150,7,68,151,6,152,5,68,153,4,154,3
 	.align 3
@@ -56484,23 +56344,23 @@ LTDIE_128:
 	.asciz "OpenTK_KeyPressEventArgs"
 
 	.byte 16,16
-LDIFF_SYM2358=LTDIE_24 - Ldebug_info_start
-	.long LDIFF_SYM2358
+LDIFF_SYM2360=LTDIE_24 - Ldebug_info_start
+	.long LDIFF_SYM2360
 	.byte 2,35,0,0,7
 	.asciz "OpenTK_KeyPressEventArgs"
 
-LDIFF_SYM2359=LTDIE_128 - Ldebug_info_start
-	.long LDIFF_SYM2359
+LDIFF_SYM2361=LTDIE_128 - Ldebug_info_start
+	.long LDIFF_SYM2361
 LTDIE_128_POINTER:
 
 	.byte 13
-LDIFF_SYM2360=LTDIE_128 - Ldebug_info_start
-	.long LDIFF_SYM2360
+LDIFF_SYM2362=LTDIE_128 - Ldebug_info_start
+	.long LDIFF_SYM2362
 LTDIE_128_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2361=LTDIE_128 - Ldebug_info_start
-	.long LDIFF_SYM2361
+LDIFF_SYM2363=LTDIE_128 - Ldebug_info_start
+	.long LDIFF_SYM2363
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.EventHandler`1<OpenTK.KeyPressEventArgs>:invoke_void_object_TEventArgs"
 	.asciz "wrapper_delegate_invoke_System_EventHandler_1_OpenTK_KeyPressEventArgs_invoke_void_object_TEventArgs_object_OpenTK_KeyPressEventArgs"
@@ -56512,57 +56372,57 @@ LDIFF_SYM2361=LTDIE_128 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2362=LTDIE_124_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2362
+LDIFF_SYM2364=LTDIE_124_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2364
 	.byte 1,104,3
 	.asciz "param0"
 
-LDIFF_SYM2363=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2363
+LDIFF_SYM2365=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2365
 	.byte 1,105,3
 	.asciz "param1"
 
-LDIFF_SYM2364=LTDIE_128_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2364
+LDIFF_SYM2366=LTDIE_128_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2366
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2365=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2365
+LDIFF_SYM2367=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2367
 	.byte 1,102,11
 	.asciz "V_1"
 
-LDIFF_SYM2366=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2366
+LDIFF_SYM2368=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2368
 	.byte 1,104,11
 	.asciz "V_2"
 
-LDIFF_SYM2367=LTDIE_126_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2367
+LDIFF_SYM2369=LTDIE_126_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2369
 	.byte 1,103,11
 	.asciz "V_3"
 
-LDIFF_SYM2368=LTDIE_35_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2368
+LDIFF_SYM2370=LTDIE_35_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2370
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM2369=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2369
+LDIFF_SYM2371=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2371
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2370=Lfde360_end - Lfde360_start
-	.long LDIFF_SYM2370
+LDIFF_SYM2372=Lfde360_end - Lfde360_start
+	.long LDIFF_SYM2372
 Lfde360_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_EventHandler_1_OpenTK_KeyPressEventArgs_invoke_void_object_TEventArgs_object_OpenTK_KeyPressEventArgs
 
-LDIFF_SYM2371=Lme_1fd - wrapper_delegate_invoke_System_EventHandler_1_OpenTK_KeyPressEventArgs_invoke_void_object_TEventArgs_object_OpenTK_KeyPressEventArgs
-	.long LDIFF_SYM2371
+LDIFF_SYM2373=Lme_1fd - wrapper_delegate_invoke_System_EventHandler_1_OpenTK_KeyPressEventArgs_invoke_void_object_TEventArgs_object_OpenTK_KeyPressEventArgs
+	.long LDIFF_SYM2373
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,149,8,150,7,68,151,6,152,5,68,153,4,154,3
 	.align 3
@@ -56575,65 +56435,65 @@ LTDIE_129:
 	.asciz "_InternalEnumerator`1"
 
 	.byte 32,16
-LDIFF_SYM2372=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM2372
+LDIFF_SYM2374=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM2374
 	.byte 2,35,0,6
 	.asciz "array"
 
-LDIFF_SYM2373=LTDIE_126_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2373
+LDIFF_SYM2375=LTDIE_126_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2375
 	.byte 2,35,16,6
 	.asciz "idx"
 
-LDIFF_SYM2374=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2374
+LDIFF_SYM2376=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2376
 	.byte 2,35,24,0,7
 	.asciz "_InternalEnumerator`1"
 
-LDIFF_SYM2375=LTDIE_129 - Ldebug_info_start
-	.long LDIFF_SYM2375
+LDIFF_SYM2377=LTDIE_129 - Ldebug_info_start
+	.long LDIFF_SYM2377
 LTDIE_129_POINTER:
 
 	.byte 13
-LDIFF_SYM2376=LTDIE_129 - Ldebug_info_start
-	.long LDIFF_SYM2376
+LDIFF_SYM2378=LTDIE_129 - Ldebug_info_start
+	.long LDIFF_SYM2378
 LTDIE_129_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2377=LTDIE_129 - Ldebug_info_start
-	.long LDIFF_SYM2377
+LDIFF_SYM2379=LTDIE_129 - Ldebug_info_start
+	.long LDIFF_SYM2379
 	.byte 2
 	.asciz "System.Array/InternalEnumerator`1<System.Collections.Generic.KeyValuePair`2<OpenTK.ContextHandle,_System.WeakReference>>:.ctor"
 	.asciz "System_Array_InternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference__ctor_System_Array"
 
-	.byte 24,217,1
+	.byte 24,218,1
 	.quad System_Array_InternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference__ctor_System_Array
 	.quad Lme_20a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2378=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2378
+LDIFF_SYM2380=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2380
 	.byte 2,141,16,3
 	.asciz "array"
 
-LDIFF_SYM2379=LTDIE_126_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2379
+LDIFF_SYM2381=LTDIE_126_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2381
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2380=Lfde361_end - Lfde361_start
-	.long LDIFF_SYM2380
+LDIFF_SYM2382=Lfde361_end - Lfde361_start
+	.long LDIFF_SYM2382
 Lfde361_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference__ctor_System_Array
 
-LDIFF_SYM2381=Lme_20a - System_Array_InternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference__ctor_System_Array
-	.long LDIFF_SYM2381
+LDIFF_SYM2383=Lme_20a - System_Array_InternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference__ctor_System_Array
+	.long LDIFF_SYM2383
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -56645,29 +56505,29 @@ Lfde361_end:
 	.asciz "System.Array/InternalEnumerator`1<System.Collections.Generic.KeyValuePair`2<OpenTK.ContextHandle,_System.WeakReference>>:Dispose"
 	.asciz "System_Array_InternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_Dispose"
 
-	.byte 24,223,1
+	.byte 24,224,1
 	.quad System_Array_InternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_Dispose
 	.quad Lme_20b
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2382=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2382
+LDIFF_SYM2384=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2384
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2383=Lfde362_end - Lfde362_start
-	.long LDIFF_SYM2383
+LDIFF_SYM2385=Lfde362_end - Lfde362_start
+	.long LDIFF_SYM2385
 Lfde362_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_Dispose
 
-LDIFF_SYM2384=Lme_20b - System_Array_InternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_Dispose
-	.long LDIFF_SYM2384
+LDIFF_SYM2386=Lme_20b - System_Array_InternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_Dispose
+	.long LDIFF_SYM2386
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -56679,34 +56539,34 @@ Lfde362_end:
 	.asciz "System.Array/InternalEnumerator`1<System.Collections.Generic.KeyValuePair`2<OpenTK.ContextHandle,_System.WeakReference>>:MoveNext"
 	.asciz "System_Array_InternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_MoveNext"
 
-	.byte 24,227,1
+	.byte 24,228,1
 	.quad System_Array_InternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_MoveNext
 	.quad Lme_20c
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2385=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2385
+LDIFF_SYM2387=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2387
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2386=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2386
+LDIFF_SYM2388=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2388
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2387=Lfde363_end - Lfde363_start
-	.long LDIFF_SYM2387
+LDIFF_SYM2389=Lfde363_end - Lfde363_start
+	.long LDIFF_SYM2389
 Lfde363_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_MoveNext
 
-LDIFF_SYM2388=Lme_20c - System_Array_InternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_MoveNext
-	.long LDIFF_SYM2388
+LDIFF_SYM2390=Lme_20c - System_Array_InternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_MoveNext
+	.long LDIFF_SYM2390
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29,68,153,2,154,1
 	.align 3
@@ -56718,29 +56578,29 @@ Lfde363_end:
 	.asciz "System.Array/InternalEnumerator`1<System.Collections.Generic.KeyValuePair`2<OpenTK.ContextHandle,_System.WeakReference>>:get_Current"
 	.asciz "System_Array_InternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_get_Current"
 
-	.byte 24,235,1
+	.byte 24,236,1
 	.quad System_Array_InternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_get_Current
 	.quad Lme_20d
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2389=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2389
+LDIFF_SYM2391=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2391
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2390=Lfde364_end - Lfde364_start
-	.long LDIFF_SYM2390
+LDIFF_SYM2392=Lfde364_end - Lfde364_start
+	.long LDIFF_SYM2392
 Lfde364_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_get_Current
 
-LDIFF_SYM2391=Lme_20d - System_Array_InternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_get_Current
-	.long LDIFF_SYM2391
+LDIFF_SYM2393=Lme_20d - System_Array_InternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_get_Current
+	.long LDIFF_SYM2393
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
 	.align 3
@@ -56752,29 +56612,29 @@ Lfde364_end:
 	.asciz "System.Array/InternalEnumerator`1<System.Collections.Generic.KeyValuePair`2<OpenTK.ContextHandle,_System.WeakReference>>:System.Collections.IEnumerator.Reset"
 	.asciz "System_Array_InternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_System_Collections_IEnumerator_Reset"
 
-	.byte 24,246,1
+	.byte 24,247,1
 	.quad System_Array_InternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_System_Collections_IEnumerator_Reset
 	.quad Lme_20e
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2392=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2392
+LDIFF_SYM2394=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2394
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2393=Lfde365_end - Lfde365_start
-	.long LDIFF_SYM2393
+LDIFF_SYM2395=Lfde365_end - Lfde365_start
+	.long LDIFF_SYM2395
 Lfde365_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_System_Collections_IEnumerator_Reset
 
-LDIFF_SYM2394=Lme_20e - System_Array_InternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_System_Collections_IEnumerator_Reset
-	.long LDIFF_SYM2394
+LDIFF_SYM2396=Lme_20e - System_Array_InternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_System_Collections_IEnumerator_Reset
+	.long LDIFF_SYM2396
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -56786,29 +56646,29 @@ Lfde365_end:
 	.asciz "System.Array/InternalEnumerator`1<System.Collections.Generic.KeyValuePair`2<OpenTK.ContextHandle,_System.WeakReference>>:System.Collections.IEnumerator.get_Current"
 	.asciz "System_Array_InternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_System_Collections_IEnumerator_get_Current"
 
-	.byte 24,251,1
+	.byte 24,252,1
 	.quad System_Array_InternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_System_Collections_IEnumerator_get_Current
 	.quad Lme_20f
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2395=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2395
+LDIFF_SYM2397=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2397
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2396=Lfde366_end - Lfde366_start
-	.long LDIFF_SYM2396
+LDIFF_SYM2398=Lfde366_end - Lfde366_start
+	.long LDIFF_SYM2398
 Lfde366_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_System_Collections_IEnumerator_get_Current
 
-LDIFF_SYM2397=Lme_20f - System_Array_InternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_System_Collections_IEnumerator_get_Current
-	.long LDIFF_SYM2397
+LDIFF_SYM2399=Lme_20f - System_Array_InternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_System_Collections_IEnumerator_get_Current
+	.long LDIFF_SYM2399
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -56820,29 +56680,29 @@ Lfde366_end:
 	.asciz "System.Array:InternalArray__IEnumerable_GetEnumerator<System.Collections.Generic.KeyValuePair`2<OpenTK.ContextHandle,_System.WeakReference>>"
 	.asciz "System_Array_InternalArray__IEnumerable_GetEnumerator_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference"
 
-	.byte 24,70
+	.byte 24,71
 	.quad System_Array_InternalArray__IEnumerable_GetEnumerator_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference
 	.quad Lme_210
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2398=LTDIE_126_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2398
+LDIFF_SYM2400=LTDIE_126_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2400
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2399=Lfde367_end - Lfde367_start
-	.long LDIFF_SYM2399
+LDIFF_SYM2401=Lfde367_end - Lfde367_start
+	.long LDIFF_SYM2401
 Lfde367_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__IEnumerable_GetEnumerator_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference
 
-LDIFF_SYM2400=Lme_210 - System_Array_InternalArray__IEnumerable_GetEnumerator_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference
-	.long LDIFF_SYM2400
+LDIFF_SYM2402=Lme_210 - System_Array_InternalArray__IEnumerable_GetEnumerator_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference
+	.long LDIFF_SYM2402
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -56855,33 +56715,33 @@ LTDIE_130:
 	.asciz "System_Collections_Generic_KeyValuePair`2"
 
 	.byte 32,16
-LDIFF_SYM2401=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM2401
+LDIFF_SYM2403=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM2403
 	.byte 2,35,0,6
 	.asciz "key"
 
-LDIFF_SYM2402=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2402
+LDIFF_SYM2404=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2404
 	.byte 2,35,16,6
 	.asciz "value"
 
-LDIFF_SYM2403=LTDIE_101_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2403
+LDIFF_SYM2405=LTDIE_101_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2405
 	.byte 2,35,24,0,7
 	.asciz "System_Collections_Generic_KeyValuePair`2"
 
-LDIFF_SYM2404=LTDIE_130 - Ldebug_info_start
-	.long LDIFF_SYM2404
+LDIFF_SYM2406=LTDIE_130 - Ldebug_info_start
+	.long LDIFF_SYM2406
 LTDIE_130_POINTER:
 
 	.byte 13
-LDIFF_SYM2405=LTDIE_130 - Ldebug_info_start
-	.long LDIFF_SYM2405
+LDIFF_SYM2407=LTDIE_130 - Ldebug_info_start
+	.long LDIFF_SYM2407
 LTDIE_130_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2406=LTDIE_130 - Ldebug_info_start
-	.long LDIFF_SYM2406
+LDIFF_SYM2408=LTDIE_130 - Ldebug_info_start
+	.long LDIFF_SYM2408
 	.byte 2
 	.asciz "System.Collections.Generic.KeyValuePair`2<OpenTK.ContextHandle,_System.WeakReference>:.ctor"
 	.asciz "System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference__ctor_OpenTK_ContextHandle_System_WeakReference"
@@ -56893,32 +56753,32 @@ LDIFF_SYM2406=LTDIE_130 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2407=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2407
+LDIFF_SYM2409=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2409
 	.byte 2,141,16,3
 	.asciz "key"
 
-LDIFF_SYM2408=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2408
+LDIFF_SYM2410=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2410
 	.byte 2,141,24,3
 	.asciz "value"
 
-LDIFF_SYM2409=LTDIE_101_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2409
+LDIFF_SYM2411=LTDIE_101_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2411
 	.byte 2,141,40,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2410=Lfde368_end - Lfde368_start
-	.long LDIFF_SYM2410
+LDIFF_SYM2412=Lfde368_end - Lfde368_start
+	.long LDIFF_SYM2412
 Lfde368_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference__ctor_OpenTK_ContextHandle_System_WeakReference
 
-LDIFF_SYM2411=Lme_211 - System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference__ctor_OpenTK_ContextHandle_System_WeakReference
-	.long LDIFF_SYM2411
+LDIFF_SYM2413=Lme_211 - System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference__ctor_OpenTK_ContextHandle_System_WeakReference
+	.long LDIFF_SYM2413
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -56937,22 +56797,22 @@ Lfde368_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2412=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2412
+LDIFF_SYM2414=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2414
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2413=Lfde369_end - Lfde369_start
-	.long LDIFF_SYM2413
+LDIFF_SYM2415=Lfde369_end - Lfde369_start
+	.long LDIFF_SYM2415
 Lfde369_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_get_Key
 
-LDIFF_SYM2414=Lme_212 - System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_get_Key
-	.long LDIFF_SYM2414
+LDIFF_SYM2416=Lme_212 - System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_get_Key
+	.long LDIFF_SYM2416
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -56971,22 +56831,22 @@ Lfde369_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2415=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2415
+LDIFF_SYM2417=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2417
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2416=Lfde370_end - Lfde370_start
-	.long LDIFF_SYM2416
+LDIFF_SYM2418=Lfde370_end - Lfde370_start
+	.long LDIFF_SYM2418
 Lfde370_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_get_Value
 
-LDIFF_SYM2417=Lme_213 - System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_get_Value
-	.long LDIFF_SYM2417
+LDIFF_SYM2419=Lme_213 - System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_get_Value
+	.long LDIFF_SYM2419
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -57005,22 +56865,22 @@ Lfde370_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2418=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2418
+LDIFF_SYM2420=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2420
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2419=Lfde371_end - Lfde371_start
-	.long LDIFF_SYM2419
+LDIFF_SYM2421=Lfde371_end - Lfde371_start
+	.long LDIFF_SYM2421
 Lfde371_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_ToString
 
-LDIFF_SYM2420=Lme_214 - System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_ToString
-	.long LDIFF_SYM2420
+LDIFF_SYM2422=Lme_214 - System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_ToString
+	.long LDIFF_SYM2422
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -57035,147 +56895,147 @@ LTDIE_133:
 	.byte 16,7
 	.asciz "System_Collections_Generic_IEqualityComparer`1"
 
-LDIFF_SYM2421=LTDIE_133 - Ldebug_info_start
-	.long LDIFF_SYM2421
+LDIFF_SYM2423=LTDIE_133 - Ldebug_info_start
+	.long LDIFF_SYM2423
 LTDIE_133_POINTER:
 
 	.byte 13
-LDIFF_SYM2422=LTDIE_133 - Ldebug_info_start
-	.long LDIFF_SYM2422
+LDIFF_SYM2424=LTDIE_133 - Ldebug_info_start
+	.long LDIFF_SYM2424
 LTDIE_133_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2423=LTDIE_133 - Ldebug_info_start
-	.long LDIFF_SYM2423
+LDIFF_SYM2425=LTDIE_133 - Ldebug_info_start
+	.long LDIFF_SYM2425
 LTDIE_134:
 
 	.byte 5
 	.asciz "_ValueCollection"
 
 	.byte 24,16
-LDIFF_SYM2424=LTDIE_2 - Ldebug_info_start
-	.long LDIFF_SYM2424
+LDIFF_SYM2426=LTDIE_2 - Ldebug_info_start
+	.long LDIFF_SYM2426
 	.byte 2,35,0,6
 	.asciz "_dictionary"
 
-LDIFF_SYM2425=LTDIE_132_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2425
+LDIFF_SYM2427=LTDIE_132_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2427
 	.byte 2,35,16,0,7
 	.asciz "_ValueCollection"
 
-LDIFF_SYM2426=LTDIE_134 - Ldebug_info_start
-	.long LDIFF_SYM2426
+LDIFF_SYM2428=LTDIE_134 - Ldebug_info_start
+	.long LDIFF_SYM2428
 LTDIE_134_POINTER:
 
 	.byte 13
-LDIFF_SYM2427=LTDIE_134 - Ldebug_info_start
-	.long LDIFF_SYM2427
+LDIFF_SYM2429=LTDIE_134 - Ldebug_info_start
+	.long LDIFF_SYM2429
 LTDIE_134_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2428=LTDIE_134 - Ldebug_info_start
-	.long LDIFF_SYM2428
+LDIFF_SYM2430=LTDIE_134 - Ldebug_info_start
+	.long LDIFF_SYM2430
 LTDIE_132:
 
 	.byte 5
 	.asciz "System_Collections_Generic_Dictionary`2"
 
 	.byte 80,16
-LDIFF_SYM2429=LTDIE_2 - Ldebug_info_start
-	.long LDIFF_SYM2429
+LDIFF_SYM2431=LTDIE_2 - Ldebug_info_start
+	.long LDIFF_SYM2431
 	.byte 2,35,0,6
 	.asciz "_buckets"
 
-LDIFF_SYM2430=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM2430
+LDIFF_SYM2432=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM2432
 	.byte 2,35,16,6
 	.asciz "_entries"
 
-LDIFF_SYM2431=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM2431
+LDIFF_SYM2433=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM2433
 	.byte 2,35,24,6
 	.asciz "_count"
 
-LDIFF_SYM2432=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2432
+LDIFF_SYM2434=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2434
 	.byte 2,35,64,6
 	.asciz "_freeList"
 
-LDIFF_SYM2433=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2433
+LDIFF_SYM2435=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2435
 	.byte 2,35,68,6
 	.asciz "_freeCount"
 
-LDIFF_SYM2434=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2434
+LDIFF_SYM2436=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2436
 	.byte 2,35,72,6
 	.asciz "_version"
 
-LDIFF_SYM2435=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2435
+LDIFF_SYM2437=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2437
 	.byte 2,35,76,6
 	.asciz "_comparer"
 
-LDIFF_SYM2436=LTDIE_133_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2436
+LDIFF_SYM2438=LTDIE_133_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2438
 	.byte 2,35,32,6
 	.asciz "_keys"
 
-LDIFF_SYM2437=LTDIE_131_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2437
+LDIFF_SYM2439=LTDIE_131_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2439
 	.byte 2,35,40,6
 	.asciz "_values"
 
-LDIFF_SYM2438=LTDIE_134_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2438
+LDIFF_SYM2440=LTDIE_134_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2440
 	.byte 2,35,48,6
 	.asciz "_syncRoot"
 
-LDIFF_SYM2439=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2439
+LDIFF_SYM2441=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2441
 	.byte 2,35,56,0,7
 	.asciz "System_Collections_Generic_Dictionary`2"
 
-LDIFF_SYM2440=LTDIE_132 - Ldebug_info_start
-	.long LDIFF_SYM2440
+LDIFF_SYM2442=LTDIE_132 - Ldebug_info_start
+	.long LDIFF_SYM2442
 LTDIE_132_POINTER:
 
 	.byte 13
-LDIFF_SYM2441=LTDIE_132 - Ldebug_info_start
-	.long LDIFF_SYM2441
+LDIFF_SYM2443=LTDIE_132 - Ldebug_info_start
+	.long LDIFF_SYM2443
 LTDIE_132_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2442=LTDIE_132 - Ldebug_info_start
-	.long LDIFF_SYM2442
+LDIFF_SYM2444=LTDIE_132 - Ldebug_info_start
+	.long LDIFF_SYM2444
 LTDIE_131:
 
 	.byte 5
 	.asciz "_KeyCollection"
 
 	.byte 24,16
-LDIFF_SYM2443=LTDIE_2 - Ldebug_info_start
-	.long LDIFF_SYM2443
+LDIFF_SYM2445=LTDIE_2 - Ldebug_info_start
+	.long LDIFF_SYM2445
 	.byte 2,35,0,6
 	.asciz "_dictionary"
 
-LDIFF_SYM2444=LTDIE_132_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2444
+LDIFF_SYM2446=LTDIE_132_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2446
 	.byte 2,35,16,0,7
 	.asciz "_KeyCollection"
 
-LDIFF_SYM2445=LTDIE_131 - Ldebug_info_start
-	.long LDIFF_SYM2445
+LDIFF_SYM2447=LTDIE_131 - Ldebug_info_start
+	.long LDIFF_SYM2447
 LTDIE_131_POINTER:
 
 	.byte 13
-LDIFF_SYM2446=LTDIE_131 - Ldebug_info_start
-	.long LDIFF_SYM2446
+LDIFF_SYM2448=LTDIE_131 - Ldebug_info_start
+	.long LDIFF_SYM2448
 LTDIE_131_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2447=LTDIE_131 - Ldebug_info_start
-	.long LDIFF_SYM2447
+LDIFF_SYM2449=LTDIE_131 - Ldebug_info_start
+	.long LDIFF_SYM2449
 	.byte 2
 	.asciz "System.Collections.Generic.Dictionary`2/KeyCollection<OpenTK.ContextHandle,_System.WeakReference>:.ctor"
 	.asciz "System_Collections_Generic_Dictionary_2_KeyCollection_OpenTK_ContextHandle_System_WeakReference__ctor_System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference"
@@ -57187,27 +57047,27 @@ LDIFF_SYM2447=LTDIE_131 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2448=LTDIE_131_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2448
+LDIFF_SYM2450=LTDIE_131_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2450
 	.byte 2,141,16,3
 	.asciz "dictionary"
 
-LDIFF_SYM2449=LTDIE_132_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2449
+LDIFF_SYM2451=LTDIE_132_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2451
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2450=Lfde372_end - Lfde372_start
-	.long LDIFF_SYM2450
+LDIFF_SYM2452=Lfde372_end - Lfde372_start
+	.long LDIFF_SYM2452
 Lfde372_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_KeyCollection_OpenTK_ContextHandle_System_WeakReference__ctor_System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference
 
-LDIFF_SYM2451=Lme_215 - System_Collections_Generic_Dictionary_2_KeyCollection_OpenTK_ContextHandle_System_WeakReference__ctor_System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference
-	.long LDIFF_SYM2451
+LDIFF_SYM2453=Lme_215 - System_Collections_Generic_Dictionary_2_KeyCollection_OpenTK_ContextHandle_System_WeakReference__ctor_System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference
+	.long LDIFF_SYM2453
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -57226,22 +57086,22 @@ Lfde372_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2452=LTDIE_131_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2452
+LDIFF_SYM2454=LTDIE_131_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2454
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2453=Lfde373_end - Lfde373_start
-	.long LDIFF_SYM2453
+LDIFF_SYM2455=Lfde373_end - Lfde373_start
+	.long LDIFF_SYM2455
 Lfde373_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_KeyCollection_OpenTK_ContextHandle_System_WeakReference_GetEnumerator
 
-LDIFF_SYM2454=Lme_216 - System_Collections_Generic_Dictionary_2_KeyCollection_OpenTK_ContextHandle_System_WeakReference_GetEnumerator
-	.long LDIFF_SYM2454
+LDIFF_SYM2456=Lme_216 - System_Collections_Generic_Dictionary_2_KeyCollection_OpenTK_ContextHandle_System_WeakReference_GetEnumerator
+	.long LDIFF_SYM2456
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
@@ -57260,47 +57120,47 @@ Lfde373_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2455=LTDIE_131_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2455
+LDIFF_SYM2457=LTDIE_131_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2457
 	.byte 1,104,3
 	.asciz "array"
 
-LDIFF_SYM2456=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM2456
+LDIFF_SYM2458=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM2458
 	.byte 1,105,3
 	.asciz "index"
 
-LDIFF_SYM2457=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2457
+LDIFF_SYM2459=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2459
 	.byte 1,106,11
 	.asciz "count"
 
-LDIFF_SYM2458=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2458
+LDIFF_SYM2460=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2460
 	.byte 1,103,11
 	.asciz "entries"
 
-LDIFF_SYM2459=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM2459
+LDIFF_SYM2461=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM2461
 	.byte 1,104,11
 	.asciz "i"
 
-LDIFF_SYM2460=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2460
+LDIFF_SYM2462=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2462
 	.byte 1,102,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2461=Lfde374_end - Lfde374_start
-	.long LDIFF_SYM2461
+LDIFF_SYM2463=Lfde374_end - Lfde374_start
+	.long LDIFF_SYM2463
 Lfde374_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_KeyCollection_OpenTK_ContextHandle_System_WeakReference_CopyTo_OpenTK_ContextHandle___int
 
-LDIFF_SYM2462=Lme_217 - System_Collections_Generic_Dictionary_2_KeyCollection_OpenTK_ContextHandle_System_WeakReference_CopyTo_OpenTK_ContextHandle___int
-	.long LDIFF_SYM2462
+LDIFF_SYM2464=Lme_217 - System_Collections_Generic_Dictionary_2_KeyCollection_OpenTK_ContextHandle_System_WeakReference_CopyTo_OpenTK_ContextHandle___int
+	.long LDIFF_SYM2464
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,150,6,151,5,68,152,4,153,3,68,154,2
 	.align 3
@@ -57319,22 +57179,22 @@ Lfde374_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2463=LTDIE_131_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2463
+LDIFF_SYM2465=LTDIE_131_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2465
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2464=Lfde375_end - Lfde375_start
-	.long LDIFF_SYM2464
+LDIFF_SYM2466=Lfde375_end - Lfde375_start
+	.long LDIFF_SYM2466
 Lfde375_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_KeyCollection_OpenTK_ContextHandle_System_WeakReference_get_Count
 
-LDIFF_SYM2465=Lme_218 - System_Collections_Generic_Dictionary_2_KeyCollection_OpenTK_ContextHandle_System_WeakReference_get_Count
-	.long LDIFF_SYM2465
+LDIFF_SYM2467=Lme_218 - System_Collections_Generic_Dictionary_2_KeyCollection_OpenTK_ContextHandle_System_WeakReference_get_Count
+	.long LDIFF_SYM2467
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -57353,22 +57213,22 @@ Lfde375_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2466=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2466
+LDIFF_SYM2468=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2468
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2467=Lfde376_end - Lfde376_start
-	.long LDIFF_SYM2467
+LDIFF_SYM2469=Lfde376_end - Lfde376_start
+	.long LDIFF_SYM2469
 Lfde376_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_KeyCollection_OpenTK_ContextHandle_System_WeakReference_System_Collections_Generic_ICollection_TKey_get_IsReadOnly
 
-LDIFF_SYM2468=Lme_219 - System_Collections_Generic_Dictionary_2_KeyCollection_OpenTK_ContextHandle_System_WeakReference_System_Collections_Generic_ICollection_TKey_get_IsReadOnly
-	.long LDIFF_SYM2468
+LDIFF_SYM2470=Lme_219 - System_Collections_Generic_Dictionary_2_KeyCollection_OpenTK_ContextHandle_System_WeakReference_System_Collections_Generic_ICollection_TKey_get_IsReadOnly
+	.long LDIFF_SYM2470
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -57387,27 +57247,27 @@ Lfde376_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2469=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2469
+LDIFF_SYM2471=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2471
 	.byte 0,3
 	.asciz "item"
 
-LDIFF_SYM2470=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2470
+LDIFF_SYM2472=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2472
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2471=Lfde377_end - Lfde377_start
-	.long LDIFF_SYM2471
+LDIFF_SYM2473=Lfde377_end - Lfde377_start
+	.long LDIFF_SYM2473
 Lfde377_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_KeyCollection_OpenTK_ContextHandle_System_WeakReference_System_Collections_Generic_ICollection_TKey_Add_OpenTK_ContextHandle
 
-LDIFF_SYM2472=Lme_21a - System_Collections_Generic_Dictionary_2_KeyCollection_OpenTK_ContextHandle_System_WeakReference_System_Collections_Generic_ICollection_TKey_Add_OpenTK_ContextHandle
-	.long LDIFF_SYM2472
+LDIFF_SYM2474=Lme_21a - System_Collections_Generic_Dictionary_2_KeyCollection_OpenTK_ContextHandle_System_WeakReference_System_Collections_Generic_ICollection_TKey_Add_OpenTK_ContextHandle
+	.long LDIFF_SYM2474
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -57426,22 +57286,22 @@ Lfde377_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2473=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2473
+LDIFF_SYM2475=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2475
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2474=Lfde378_end - Lfde378_start
-	.long LDIFF_SYM2474
+LDIFF_SYM2476=Lfde378_end - Lfde378_start
+	.long LDIFF_SYM2476
 Lfde378_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_KeyCollection_OpenTK_ContextHandle_System_WeakReference_System_Collections_Generic_ICollection_TKey_Clear
 
-LDIFF_SYM2475=Lme_21b - System_Collections_Generic_Dictionary_2_KeyCollection_OpenTK_ContextHandle_System_WeakReference_System_Collections_Generic_ICollection_TKey_Clear
-	.long LDIFF_SYM2475
+LDIFF_SYM2477=Lme_21b - System_Collections_Generic_Dictionary_2_KeyCollection_OpenTK_ContextHandle_System_WeakReference_System_Collections_Generic_ICollection_TKey_Clear
+	.long LDIFF_SYM2477
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -57460,27 +57320,27 @@ Lfde378_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2476=LTDIE_131_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2476
+LDIFF_SYM2478=LTDIE_131_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2478
 	.byte 2,141,16,3
 	.asciz "item"
 
-LDIFF_SYM2477=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2477
+LDIFF_SYM2479=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2479
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2478=Lfde379_end - Lfde379_start
-	.long LDIFF_SYM2478
+LDIFF_SYM2480=Lfde379_end - Lfde379_start
+	.long LDIFF_SYM2480
 Lfde379_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_KeyCollection_OpenTK_ContextHandle_System_WeakReference_System_Collections_Generic_ICollection_TKey_Contains_OpenTK_ContextHandle
 
-LDIFF_SYM2479=Lme_21c - System_Collections_Generic_Dictionary_2_KeyCollection_OpenTK_ContextHandle_System_WeakReference_System_Collections_Generic_ICollection_TKey_Contains_OpenTK_ContextHandle
-	.long LDIFF_SYM2479
+LDIFF_SYM2481=Lme_21c - System_Collections_Generic_Dictionary_2_KeyCollection_OpenTK_ContextHandle_System_WeakReference_System_Collections_Generic_ICollection_TKey_Contains_OpenTK_ContextHandle
+	.long LDIFF_SYM2481
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -57499,27 +57359,27 @@ Lfde379_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2480=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2480
+LDIFF_SYM2482=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2482
 	.byte 0,3
 	.asciz "item"
 
-LDIFF_SYM2481=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2481
+LDIFF_SYM2483=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2483
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2482=Lfde380_end - Lfde380_start
-	.long LDIFF_SYM2482
+LDIFF_SYM2484=Lfde380_end - Lfde380_start
+	.long LDIFF_SYM2484
 Lfde380_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_KeyCollection_OpenTK_ContextHandle_System_WeakReference_System_Collections_Generic_ICollection_TKey_Remove_OpenTK_ContextHandle
 
-LDIFF_SYM2483=Lme_21d - System_Collections_Generic_Dictionary_2_KeyCollection_OpenTK_ContextHandle_System_WeakReference_System_Collections_Generic_ICollection_TKey_Remove_OpenTK_ContextHandle
-	.long LDIFF_SYM2483
+LDIFF_SYM2485=Lme_21d - System_Collections_Generic_Dictionary_2_KeyCollection_OpenTK_ContextHandle_System_WeakReference_System_Collections_Generic_ICollection_TKey_Remove_OpenTK_ContextHandle
+	.long LDIFF_SYM2485
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -57538,22 +57398,22 @@ Lfde380_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2484=LTDIE_131_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2484
+LDIFF_SYM2486=LTDIE_131_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2486
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2485=Lfde381_end - Lfde381_start
-	.long LDIFF_SYM2485
+LDIFF_SYM2487=Lfde381_end - Lfde381_start
+	.long LDIFF_SYM2487
 Lfde381_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_KeyCollection_OpenTK_ContextHandle_System_WeakReference_System_Collections_Generic_IEnumerable_TKey_GetEnumerator
 
-LDIFF_SYM2486=Lme_21e - System_Collections_Generic_Dictionary_2_KeyCollection_OpenTK_ContextHandle_System_WeakReference_System_Collections_Generic_IEnumerable_TKey_GetEnumerator
-	.long LDIFF_SYM2486
+LDIFF_SYM2488=Lme_21e - System_Collections_Generic_Dictionary_2_KeyCollection_OpenTK_ContextHandle_System_WeakReference_System_Collections_Generic_IEnumerable_TKey_GetEnumerator
+	.long LDIFF_SYM2488
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
@@ -57572,22 +57432,22 @@ Lfde381_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2487=LTDIE_131_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2487
+LDIFF_SYM2489=LTDIE_131_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2489
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2488=Lfde382_end - Lfde382_start
-	.long LDIFF_SYM2488
+LDIFF_SYM2490=Lfde382_end - Lfde382_start
+	.long LDIFF_SYM2490
 Lfde382_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_KeyCollection_OpenTK_ContextHandle_System_WeakReference_System_Collections_IEnumerable_GetEnumerator
 
-LDIFF_SYM2489=Lme_21f - System_Collections_Generic_Dictionary_2_KeyCollection_OpenTK_ContextHandle_System_WeakReference_System_Collections_IEnumerable_GetEnumerator
-	.long LDIFF_SYM2489
+LDIFF_SYM2491=Lme_21f - System_Collections_Generic_Dictionary_2_KeyCollection_OpenTK_ContextHandle_System_WeakReference_System_Collections_IEnumerable_GetEnumerator
+	.long LDIFF_SYM2491
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
@@ -57606,57 +57466,57 @@ Lfde382_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2490=LTDIE_131_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2490
+LDIFF_SYM2492=LTDIE_131_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2492
 	.byte 1,104,3
 	.asciz "array"
 
-LDIFF_SYM2491=LTDIE_126_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2491
+LDIFF_SYM2493=LTDIE_126_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2493
 	.byte 1,105,3
 	.asciz "index"
 
-LDIFF_SYM2492=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2492
+LDIFF_SYM2494=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2494
 	.byte 1,106,11
 	.asciz "keys"
 
-LDIFF_SYM2493=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM2493
+LDIFF_SYM2495=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM2495
 	.byte 1,102,11
 	.asciz "objects"
 
-LDIFF_SYM2494=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM2494
+LDIFF_SYM2496=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM2496
 	.byte 1,105,11
 	.asciz "count"
 
-LDIFF_SYM2495=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2495
+LDIFF_SYM2497=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2497
 	.byte 1,103,11
 	.asciz "entries"
 
-LDIFF_SYM2496=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM2496
+LDIFF_SYM2498=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM2498
 	.byte 1,104,11
 	.asciz "i"
 
-LDIFF_SYM2497=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2497
+LDIFF_SYM2499=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2499
 	.byte 1,102,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2498=Lfde383_end - Lfde383_start
-	.long LDIFF_SYM2498
+LDIFF_SYM2500=Lfde383_end - Lfde383_start
+	.long LDIFF_SYM2500
 Lfde383_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_KeyCollection_OpenTK_ContextHandle_System_WeakReference_System_Collections_ICollection_CopyTo_System_Array_int
 
-LDIFF_SYM2499=Lme_220 - System_Collections_Generic_Dictionary_2_KeyCollection_OpenTK_ContextHandle_System_WeakReference_System_Collections_ICollection_CopyTo_System_Array_int
-	.long LDIFF_SYM2499
+LDIFF_SYM2501=Lme_220 - System_Collections_Generic_Dictionary_2_KeyCollection_OpenTK_ContextHandle_System_WeakReference_System_Collections_ICollection_CopyTo_System_Array_int
+	.long LDIFF_SYM2501
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,150,14,151,13,68,152,12,153,11,68,154,10
 	.align 3
@@ -57675,22 +57535,22 @@ Lfde383_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2500=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2500
+LDIFF_SYM2502=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2502
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2501=Lfde384_end - Lfde384_start
-	.long LDIFF_SYM2501
+LDIFF_SYM2503=Lfde384_end - Lfde384_start
+	.long LDIFF_SYM2503
 Lfde384_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_KeyCollection_OpenTK_ContextHandle_System_WeakReference_System_Collections_ICollection_get_IsSynchronized
 
-LDIFF_SYM2502=Lme_221 - System_Collections_Generic_Dictionary_2_KeyCollection_OpenTK_ContextHandle_System_WeakReference_System_Collections_ICollection_get_IsSynchronized
-	.long LDIFF_SYM2502
+LDIFF_SYM2504=Lme_221 - System_Collections_Generic_Dictionary_2_KeyCollection_OpenTK_ContextHandle_System_WeakReference_System_Collections_ICollection_get_IsSynchronized
+	.long LDIFF_SYM2504
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -57709,22 +57569,22 @@ Lfde384_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2503=LTDIE_131_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2503
+LDIFF_SYM2505=LTDIE_131_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2505
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2504=Lfde385_end - Lfde385_start
-	.long LDIFF_SYM2504
+LDIFF_SYM2506=Lfde385_end - Lfde385_start
+	.long LDIFF_SYM2506
 Lfde385_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_KeyCollection_OpenTK_ContextHandle_System_WeakReference_System_Collections_ICollection_get_SyncRoot
 
-LDIFF_SYM2505=Lme_222 - System_Collections_Generic_Dictionary_2_KeyCollection_OpenTK_ContextHandle_System_WeakReference_System_Collections_ICollection_get_SyncRoot
-	.long LDIFF_SYM2505
+LDIFF_SYM2507=Lme_222 - System_Collections_Generic_Dictionary_2_KeyCollection_OpenTK_ContextHandle_System_WeakReference_System_Collections_ICollection_get_SyncRoot
+	.long LDIFF_SYM2507
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -57743,27 +57603,27 @@ Lfde385_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2506=LTDIE_134_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2506
+LDIFF_SYM2508=LTDIE_134_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2508
 	.byte 2,141,16,3
 	.asciz "dictionary"
 
-LDIFF_SYM2507=LTDIE_132_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2507
+LDIFF_SYM2509=LTDIE_132_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2509
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2508=Lfde386_end - Lfde386_start
-	.long LDIFF_SYM2508
+LDIFF_SYM2510=Lfde386_end - Lfde386_start
+	.long LDIFF_SYM2510
 Lfde386_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_ValueCollection_OpenTK_ContextHandle_System_WeakReference__ctor_System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference
 
-LDIFF_SYM2509=Lme_223 - System_Collections_Generic_Dictionary_2_ValueCollection_OpenTK_ContextHandle_System_WeakReference__ctor_System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference
-	.long LDIFF_SYM2509
+LDIFF_SYM2511=Lme_223 - System_Collections_Generic_Dictionary_2_ValueCollection_OpenTK_ContextHandle_System_WeakReference__ctor_System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference
+	.long LDIFF_SYM2511
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -57782,22 +57642,22 @@ Lfde386_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2510=LTDIE_134_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2510
+LDIFF_SYM2512=LTDIE_134_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2512
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2511=Lfde387_end - Lfde387_start
-	.long LDIFF_SYM2511
+LDIFF_SYM2513=Lfde387_end - Lfde387_start
+	.long LDIFF_SYM2513
 Lfde387_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_ValueCollection_OpenTK_ContextHandle_System_WeakReference_GetEnumerator
 
-LDIFF_SYM2512=Lme_224 - System_Collections_Generic_Dictionary_2_ValueCollection_OpenTK_ContextHandle_System_WeakReference_GetEnumerator
-	.long LDIFF_SYM2512
+LDIFF_SYM2514=Lme_224 - System_Collections_Generic_Dictionary_2_ValueCollection_OpenTK_ContextHandle_System_WeakReference_GetEnumerator
+	.long LDIFF_SYM2514
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
@@ -57816,47 +57676,47 @@ Lfde387_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2513=LTDIE_134_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2513
+LDIFF_SYM2515=LTDIE_134_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2515
 	.byte 1,104,3
 	.asciz "array"
 
-LDIFF_SYM2514=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM2514
+LDIFF_SYM2516=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM2516
 	.byte 1,105,3
 	.asciz "index"
 
-LDIFF_SYM2515=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2515
+LDIFF_SYM2517=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2517
 	.byte 1,106,11
 	.asciz "count"
 
-LDIFF_SYM2516=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2516
+LDIFF_SYM2518=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2518
 	.byte 1,103,11
 	.asciz "entries"
 
-LDIFF_SYM2517=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM2517
+LDIFF_SYM2519=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM2519
 	.byte 1,104,11
 	.asciz "i"
 
-LDIFF_SYM2518=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2518
+LDIFF_SYM2520=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2520
 	.byte 1,102,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2519=Lfde388_end - Lfde388_start
-	.long LDIFF_SYM2519
+LDIFF_SYM2521=Lfde388_end - Lfde388_start
+	.long LDIFF_SYM2521
 Lfde388_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_ValueCollection_OpenTK_ContextHandle_System_WeakReference_CopyTo_System_WeakReference___int
 
-LDIFF_SYM2520=Lme_225 - System_Collections_Generic_Dictionary_2_ValueCollection_OpenTK_ContextHandle_System_WeakReference_CopyTo_System_WeakReference___int
-	.long LDIFF_SYM2520
+LDIFF_SYM2522=Lme_225 - System_Collections_Generic_Dictionary_2_ValueCollection_OpenTK_ContextHandle_System_WeakReference_CopyTo_System_WeakReference___int
+	.long LDIFF_SYM2522
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,150,6,151,5,68,152,4,153,3,68,154,2
 	.align 3
@@ -57875,22 +57735,22 @@ Lfde388_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2521=LTDIE_134_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2521
+LDIFF_SYM2523=LTDIE_134_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2523
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2522=Lfde389_end - Lfde389_start
-	.long LDIFF_SYM2522
+LDIFF_SYM2524=Lfde389_end - Lfde389_start
+	.long LDIFF_SYM2524
 Lfde389_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_ValueCollection_OpenTK_ContextHandle_System_WeakReference_get_Count
 
-LDIFF_SYM2523=Lme_226 - System_Collections_Generic_Dictionary_2_ValueCollection_OpenTK_ContextHandle_System_WeakReference_get_Count
-	.long LDIFF_SYM2523
+LDIFF_SYM2525=Lme_226 - System_Collections_Generic_Dictionary_2_ValueCollection_OpenTK_ContextHandle_System_WeakReference_get_Count
+	.long LDIFF_SYM2525
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -57909,22 +57769,22 @@ Lfde389_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2524=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2524
+LDIFF_SYM2526=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2526
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2525=Lfde390_end - Lfde390_start
-	.long LDIFF_SYM2525
+LDIFF_SYM2527=Lfde390_end - Lfde390_start
+	.long LDIFF_SYM2527
 Lfde390_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_ValueCollection_OpenTK_ContextHandle_System_WeakReference_System_Collections_Generic_ICollection_TValue_get_IsReadOnly
 
-LDIFF_SYM2526=Lme_227 - System_Collections_Generic_Dictionary_2_ValueCollection_OpenTK_ContextHandle_System_WeakReference_System_Collections_Generic_ICollection_TValue_get_IsReadOnly
-	.long LDIFF_SYM2526
+LDIFF_SYM2528=Lme_227 - System_Collections_Generic_Dictionary_2_ValueCollection_OpenTK_ContextHandle_System_WeakReference_System_Collections_Generic_ICollection_TValue_get_IsReadOnly
+	.long LDIFF_SYM2528
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -57943,27 +57803,27 @@ Lfde390_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2527=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2527
+LDIFF_SYM2529=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2529
 	.byte 0,3
 	.asciz "item"
 
-LDIFF_SYM2528=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2528
+LDIFF_SYM2530=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2530
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2529=Lfde391_end - Lfde391_start
-	.long LDIFF_SYM2529
+LDIFF_SYM2531=Lfde391_end - Lfde391_start
+	.long LDIFF_SYM2531
 Lfde391_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_ValueCollection_OpenTK_ContextHandle_System_WeakReference_System_Collections_Generic_ICollection_TValue_Add_System_WeakReference
 
-LDIFF_SYM2530=Lme_228 - System_Collections_Generic_Dictionary_2_ValueCollection_OpenTK_ContextHandle_System_WeakReference_System_Collections_Generic_ICollection_TValue_Add_System_WeakReference
-	.long LDIFF_SYM2530
+LDIFF_SYM2532=Lme_228 - System_Collections_Generic_Dictionary_2_ValueCollection_OpenTK_ContextHandle_System_WeakReference_System_Collections_Generic_ICollection_TValue_Add_System_WeakReference
+	.long LDIFF_SYM2532
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -57982,27 +57842,27 @@ Lfde391_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2531=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2531
+LDIFF_SYM2533=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2533
 	.byte 0,3
 	.asciz "item"
 
-LDIFF_SYM2532=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2532
+LDIFF_SYM2534=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2534
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2533=Lfde392_end - Lfde392_start
-	.long LDIFF_SYM2533
+LDIFF_SYM2535=Lfde392_end - Lfde392_start
+	.long LDIFF_SYM2535
 Lfde392_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_ValueCollection_OpenTK_ContextHandle_System_WeakReference_System_Collections_Generic_ICollection_TValue_Remove_System_WeakReference
 
-LDIFF_SYM2534=Lme_229 - System_Collections_Generic_Dictionary_2_ValueCollection_OpenTK_ContextHandle_System_WeakReference_System_Collections_Generic_ICollection_TValue_Remove_System_WeakReference
-	.long LDIFF_SYM2534
+LDIFF_SYM2536=Lme_229 - System_Collections_Generic_Dictionary_2_ValueCollection_OpenTK_ContextHandle_System_WeakReference_System_Collections_Generic_ICollection_TValue_Remove_System_WeakReference
+	.long LDIFF_SYM2536
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -58021,22 +57881,22 @@ Lfde392_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2535=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2535
+LDIFF_SYM2537=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2537
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2536=Lfde393_end - Lfde393_start
-	.long LDIFF_SYM2536
+LDIFF_SYM2538=Lfde393_end - Lfde393_start
+	.long LDIFF_SYM2538
 Lfde393_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_ValueCollection_OpenTK_ContextHandle_System_WeakReference_System_Collections_Generic_ICollection_TValue_Clear
 
-LDIFF_SYM2537=Lme_22a - System_Collections_Generic_Dictionary_2_ValueCollection_OpenTK_ContextHandle_System_WeakReference_System_Collections_Generic_ICollection_TValue_Clear
-	.long LDIFF_SYM2537
+LDIFF_SYM2539=Lme_22a - System_Collections_Generic_Dictionary_2_ValueCollection_OpenTK_ContextHandle_System_WeakReference_System_Collections_Generic_ICollection_TValue_Clear
+	.long LDIFF_SYM2539
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -58055,27 +57915,27 @@ Lfde393_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2538=LTDIE_134_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2538
+LDIFF_SYM2540=LTDIE_134_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2540
 	.byte 2,141,16,3
 	.asciz "item"
 
-LDIFF_SYM2539=LTDIE_101_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2539
+LDIFF_SYM2541=LTDIE_101_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2541
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2540=Lfde394_end - Lfde394_start
-	.long LDIFF_SYM2540
+LDIFF_SYM2542=Lfde394_end - Lfde394_start
+	.long LDIFF_SYM2542
 Lfde394_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_ValueCollection_OpenTK_ContextHandle_System_WeakReference_System_Collections_Generic_ICollection_TValue_Contains_System_WeakReference
 
-LDIFF_SYM2541=Lme_22b - System_Collections_Generic_Dictionary_2_ValueCollection_OpenTK_ContextHandle_System_WeakReference_System_Collections_Generic_ICollection_TValue_Contains_System_WeakReference
-	.long LDIFF_SYM2541
+LDIFF_SYM2543=Lme_22b - System_Collections_Generic_Dictionary_2_ValueCollection_OpenTK_ContextHandle_System_WeakReference_System_Collections_Generic_ICollection_TValue_Contains_System_WeakReference
+	.long LDIFF_SYM2543
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -58094,22 +57954,22 @@ Lfde394_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2542=LTDIE_134_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2542
+LDIFF_SYM2544=LTDIE_134_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2544
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2543=Lfde395_end - Lfde395_start
-	.long LDIFF_SYM2543
+LDIFF_SYM2545=Lfde395_end - Lfde395_start
+	.long LDIFF_SYM2545
 Lfde395_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_ValueCollection_OpenTK_ContextHandle_System_WeakReference_System_Collections_Generic_IEnumerable_TValue_GetEnumerator
 
-LDIFF_SYM2544=Lme_22c - System_Collections_Generic_Dictionary_2_ValueCollection_OpenTK_ContextHandle_System_WeakReference_System_Collections_Generic_IEnumerable_TValue_GetEnumerator
-	.long LDIFF_SYM2544
+LDIFF_SYM2546=Lme_22c - System_Collections_Generic_Dictionary_2_ValueCollection_OpenTK_ContextHandle_System_WeakReference_System_Collections_Generic_IEnumerable_TValue_GetEnumerator
+	.long LDIFF_SYM2546
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
@@ -58128,22 +57988,22 @@ Lfde395_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2545=LTDIE_134_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2545
+LDIFF_SYM2547=LTDIE_134_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2547
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2546=Lfde396_end - Lfde396_start
-	.long LDIFF_SYM2546
+LDIFF_SYM2548=Lfde396_end - Lfde396_start
+	.long LDIFF_SYM2548
 Lfde396_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_ValueCollection_OpenTK_ContextHandle_System_WeakReference_System_Collections_IEnumerable_GetEnumerator
 
-LDIFF_SYM2547=Lme_22d - System_Collections_Generic_Dictionary_2_ValueCollection_OpenTK_ContextHandle_System_WeakReference_System_Collections_IEnumerable_GetEnumerator
-	.long LDIFF_SYM2547
+LDIFF_SYM2549=Lme_22d - System_Collections_Generic_Dictionary_2_ValueCollection_OpenTK_ContextHandle_System_WeakReference_System_Collections_IEnumerable_GetEnumerator
+	.long LDIFF_SYM2549
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
@@ -58162,57 +58022,57 @@ Lfde396_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2548=LTDIE_134_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2548
+LDIFF_SYM2550=LTDIE_134_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2550
 	.byte 1,104,3
 	.asciz "array"
 
-LDIFF_SYM2549=LTDIE_126_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2549
+LDIFF_SYM2551=LTDIE_126_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2551
 	.byte 1,105,3
 	.asciz "index"
 
-LDIFF_SYM2550=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2550
+LDIFF_SYM2552=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2552
 	.byte 1,106,11
 	.asciz "values"
 
-LDIFF_SYM2551=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM2551
+LDIFF_SYM2553=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM2553
 	.byte 1,102,11
 	.asciz "objects"
 
-LDIFF_SYM2552=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM2552
+LDIFF_SYM2554=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM2554
 	.byte 1,105,11
 	.asciz "count"
 
-LDIFF_SYM2553=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2553
+LDIFF_SYM2555=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2555
 	.byte 1,103,11
 	.asciz "entries"
 
-LDIFF_SYM2554=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM2554
+LDIFF_SYM2556=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM2556
 	.byte 1,104,11
 	.asciz "i"
 
-LDIFF_SYM2555=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2555
+LDIFF_SYM2557=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2557
 	.byte 1,102,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2556=Lfde397_end - Lfde397_start
-	.long LDIFF_SYM2556
+LDIFF_SYM2558=Lfde397_end - Lfde397_start
+	.long LDIFF_SYM2558
 Lfde397_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_ValueCollection_OpenTK_ContextHandle_System_WeakReference_System_Collections_ICollection_CopyTo_System_Array_int
 
-LDIFF_SYM2557=Lme_22e - System_Collections_Generic_Dictionary_2_ValueCollection_OpenTK_ContextHandle_System_WeakReference_System_Collections_ICollection_CopyTo_System_Array_int
-	.long LDIFF_SYM2557
+LDIFF_SYM2559=Lme_22e - System_Collections_Generic_Dictionary_2_ValueCollection_OpenTK_ContextHandle_System_WeakReference_System_Collections_ICollection_CopyTo_System_Array_int
+	.long LDIFF_SYM2559
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,150,10,151,9,68,152,8,153,7,68,154,6
 	.align 3
@@ -58231,22 +58091,22 @@ Lfde397_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2558=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2558
+LDIFF_SYM2560=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2560
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2559=Lfde398_end - Lfde398_start
-	.long LDIFF_SYM2559
+LDIFF_SYM2561=Lfde398_end - Lfde398_start
+	.long LDIFF_SYM2561
 Lfde398_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_ValueCollection_OpenTK_ContextHandle_System_WeakReference_System_Collections_ICollection_get_IsSynchronized
 
-LDIFF_SYM2560=Lme_22f - System_Collections_Generic_Dictionary_2_ValueCollection_OpenTK_ContextHandle_System_WeakReference_System_Collections_ICollection_get_IsSynchronized
-	.long LDIFF_SYM2560
+LDIFF_SYM2562=Lme_22f - System_Collections_Generic_Dictionary_2_ValueCollection_OpenTK_ContextHandle_System_WeakReference_System_Collections_ICollection_get_IsSynchronized
+	.long LDIFF_SYM2562
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -58265,22 +58125,22 @@ Lfde398_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2561=LTDIE_134_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2561
+LDIFF_SYM2563=LTDIE_134_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2563
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2562=Lfde399_end - Lfde399_start
-	.long LDIFF_SYM2562
+LDIFF_SYM2564=Lfde399_end - Lfde399_start
+	.long LDIFF_SYM2564
 Lfde399_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_ValueCollection_OpenTK_ContextHandle_System_WeakReference_System_Collections_ICollection_get_SyncRoot
 
-LDIFF_SYM2563=Lme_230 - System_Collections_Generic_Dictionary_2_ValueCollection_OpenTK_ContextHandle_System_WeakReference_System_Collections_ICollection_get_SyncRoot
-	.long LDIFF_SYM2563
+LDIFF_SYM2565=Lme_230 - System_Collections_Generic_Dictionary_2_ValueCollection_OpenTK_ContextHandle_System_WeakReference_System_Collections_ICollection_get_SyncRoot
+	.long LDIFF_SYM2565
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -58293,43 +58153,43 @@ LTDIE_135:
 	.asciz "_Enumerator"
 
 	.byte 40,16
-LDIFF_SYM2564=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM2564
+LDIFF_SYM2566=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM2566
 	.byte 2,35,0,6
 	.asciz "_dictionary"
 
-LDIFF_SYM2565=LTDIE_132_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2565
+LDIFF_SYM2567=LTDIE_132_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2567
 	.byte 2,35,16,6
 	.asciz "_index"
 
-LDIFF_SYM2566=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2566
+LDIFF_SYM2568=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2568
 	.byte 2,35,24,6
 	.asciz "_version"
 
-LDIFF_SYM2567=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2567
+LDIFF_SYM2569=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2569
 	.byte 2,35,28,6
 	.asciz "_currentValue"
 
-LDIFF_SYM2568=LTDIE_101_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2568
+LDIFF_SYM2570=LTDIE_101_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2570
 	.byte 2,35,32,0,7
 	.asciz "_Enumerator"
 
-LDIFF_SYM2569=LTDIE_135 - Ldebug_info_start
-	.long LDIFF_SYM2569
+LDIFF_SYM2571=LTDIE_135 - Ldebug_info_start
+	.long LDIFF_SYM2571
 LTDIE_135_POINTER:
 
 	.byte 13
-LDIFF_SYM2570=LTDIE_135 - Ldebug_info_start
-	.long LDIFF_SYM2570
+LDIFF_SYM2572=LTDIE_135 - Ldebug_info_start
+	.long LDIFF_SYM2572
 LTDIE_135_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2571=LTDIE_135 - Ldebug_info_start
-	.long LDIFF_SYM2571
+LDIFF_SYM2573=LTDIE_135 - Ldebug_info_start
+	.long LDIFF_SYM2573
 	.byte 2
 	.asciz "System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<OpenTK.ContextHandle,_System.WeakReference>:.ctor"
 	.asciz "System_Collections_Generic_Dictionary_2_ValueCollection_Enumerator_OpenTK_ContextHandle_System_WeakReference__ctor_System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference"
@@ -58341,27 +58201,27 @@ LDIFF_SYM2571=LTDIE_135 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2572=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2572
+LDIFF_SYM2574=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2574
 	.byte 1,105,3
 	.asciz "dictionary"
 
-LDIFF_SYM2573=LTDIE_132_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2573
+LDIFF_SYM2575=LTDIE_132_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2575
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2574=Lfde400_end - Lfde400_start
-	.long LDIFF_SYM2574
+LDIFF_SYM2576=Lfde400_end - Lfde400_start
+	.long LDIFF_SYM2576
 Lfde400_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_ValueCollection_Enumerator_OpenTK_ContextHandle_System_WeakReference__ctor_System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference
 
-LDIFF_SYM2575=Lme_231 - System_Collections_Generic_Dictionary_2_ValueCollection_Enumerator_OpenTK_ContextHandle_System_WeakReference__ctor_System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference
-	.long LDIFF_SYM2575
+LDIFF_SYM2577=Lme_231 - System_Collections_Generic_Dictionary_2_ValueCollection_Enumerator_OpenTK_ContextHandle_System_WeakReference__ctor_System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference
+	.long LDIFF_SYM2577
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29,68,153,2
 	.align 3
@@ -58380,22 +58240,22 @@ Lfde400_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2576=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2576
+LDIFF_SYM2578=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2578
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2577=Lfde401_end - Lfde401_start
-	.long LDIFF_SYM2577
+LDIFF_SYM2579=Lfde401_end - Lfde401_start
+	.long LDIFF_SYM2579
 Lfde401_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_ValueCollection_Enumerator_OpenTK_ContextHandle_System_WeakReference_Dispose
 
-LDIFF_SYM2578=Lme_232 - System_Collections_Generic_Dictionary_2_ValueCollection_Enumerator_OpenTK_ContextHandle_System_WeakReference_Dispose
-	.long LDIFF_SYM2578
+LDIFF_SYM2580=Lme_232 - System_Collections_Generic_Dictionary_2_ValueCollection_Enumerator_OpenTK_ContextHandle_System_WeakReference_Dispose
+	.long LDIFF_SYM2580
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -58408,43 +58268,43 @@ LTDIE_136:
 	.asciz "_Entry"
 
 	.byte 40,16
-LDIFF_SYM2579=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM2579
+LDIFF_SYM2581=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM2581
 	.byte 2,35,0,6
 	.asciz "hashCode"
 
-LDIFF_SYM2580=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2580
+LDIFF_SYM2582=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2582
 	.byte 2,35,16,6
 	.asciz "next"
 
-LDIFF_SYM2581=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2581
+LDIFF_SYM2583=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2583
 	.byte 2,35,20,6
 	.asciz "key"
 
-LDIFF_SYM2582=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2582
+LDIFF_SYM2584=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2584
 	.byte 2,35,24,6
 	.asciz "value"
 
-LDIFF_SYM2583=LTDIE_101_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2583
+LDIFF_SYM2585=LTDIE_101_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2585
 	.byte 2,35,32,0,7
 	.asciz "_Entry"
 
-LDIFF_SYM2584=LTDIE_136 - Ldebug_info_start
-	.long LDIFF_SYM2584
+LDIFF_SYM2586=LTDIE_136 - Ldebug_info_start
+	.long LDIFF_SYM2586
 LTDIE_136_POINTER:
 
 	.byte 13
-LDIFF_SYM2585=LTDIE_136 - Ldebug_info_start
-	.long LDIFF_SYM2585
+LDIFF_SYM2587=LTDIE_136 - Ldebug_info_start
+	.long LDIFF_SYM2587
 LTDIE_136_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2586=LTDIE_136 - Ldebug_info_start
-	.long LDIFF_SYM2586
+LDIFF_SYM2588=LTDIE_136 - Ldebug_info_start
+	.long LDIFF_SYM2588
 	.byte 2
 	.asciz "System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<OpenTK.ContextHandle,_System.WeakReference>:MoveNext"
 	.asciz "System_Collections_Generic_Dictionary_2_ValueCollection_Enumerator_OpenTK_ContextHandle_System_WeakReference_MoveNext"
@@ -58456,32 +58316,32 @@ LDIFF_SYM2586=LTDIE_136 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2587=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2587
+LDIFF_SYM2589=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2589
 	.byte 1,106,11
 	.asciz "entry"
 
-LDIFF_SYM2588=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2588
+LDIFF_SYM2590=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2590
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM2589=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2589
+LDIFF_SYM2591=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2591
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2590=Lfde402_end - Lfde402_start
-	.long LDIFF_SYM2590
+LDIFF_SYM2592=Lfde402_end - Lfde402_start
+	.long LDIFF_SYM2592
 Lfde402_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_ValueCollection_Enumerator_OpenTK_ContextHandle_System_WeakReference_MoveNext
 
-LDIFF_SYM2591=Lme_233 - System_Collections_Generic_Dictionary_2_ValueCollection_Enumerator_OpenTK_ContextHandle_System_WeakReference_MoveNext
-	.long LDIFF_SYM2591
+LDIFF_SYM2593=Lme_233 - System_Collections_Generic_Dictionary_2_ValueCollection_Enumerator_OpenTK_ContextHandle_System_WeakReference_MoveNext
+	.long LDIFF_SYM2593
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29,68,153,2,154,1
 	.align 3
@@ -58500,22 +58360,22 @@ Lfde402_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2592=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2592
+LDIFF_SYM2594=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2594
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2593=Lfde403_end - Lfde403_start
-	.long LDIFF_SYM2593
+LDIFF_SYM2595=Lfde403_end - Lfde403_start
+	.long LDIFF_SYM2595
 Lfde403_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_ValueCollection_Enumerator_OpenTK_ContextHandle_System_WeakReference_get_Current
 
-LDIFF_SYM2594=Lme_234 - System_Collections_Generic_Dictionary_2_ValueCollection_Enumerator_OpenTK_ContextHandle_System_WeakReference_get_Current
-	.long LDIFF_SYM2594
+LDIFF_SYM2596=Lme_234 - System_Collections_Generic_Dictionary_2_ValueCollection_Enumerator_OpenTK_ContextHandle_System_WeakReference_get_Current
+	.long LDIFF_SYM2596
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -58534,22 +58394,22 @@ Lfde403_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2595=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2595
+LDIFF_SYM2597=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2597
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2596=Lfde404_end - Lfde404_start
-	.long LDIFF_SYM2596
+LDIFF_SYM2598=Lfde404_end - Lfde404_start
+	.long LDIFF_SYM2598
 Lfde404_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_ValueCollection_Enumerator_OpenTK_ContextHandle_System_WeakReference_System_Collections_IEnumerator_get_Current
 
-LDIFF_SYM2597=Lme_235 - System_Collections_Generic_Dictionary_2_ValueCollection_Enumerator_OpenTK_ContextHandle_System_WeakReference_System_Collections_IEnumerator_get_Current
-	.long LDIFF_SYM2597
+LDIFF_SYM2599=Lme_235 - System_Collections_Generic_Dictionary_2_ValueCollection_Enumerator_OpenTK_ContextHandle_System_WeakReference_System_Collections_IEnumerator_get_Current
+	.long LDIFF_SYM2599
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29,68,154,2
 	.align 3
@@ -58568,22 +58428,22 @@ Lfde404_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2598=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2598
+LDIFF_SYM2600=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2600
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2599=Lfde405_end - Lfde405_start
-	.long LDIFF_SYM2599
+LDIFF_SYM2601=Lfde405_end - Lfde405_start
+	.long LDIFF_SYM2601
 Lfde405_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_ValueCollection_Enumerator_OpenTK_ContextHandle_System_WeakReference_System_Collections_IEnumerator_Reset
 
-LDIFF_SYM2600=Lme_236 - System_Collections_Generic_Dictionary_2_ValueCollection_Enumerator_OpenTK_ContextHandle_System_WeakReference_System_Collections_IEnumerator_Reset
-	.long LDIFF_SYM2600
+LDIFF_SYM2602=Lme_236 - System_Collections_Generic_Dictionary_2_ValueCollection_Enumerator_OpenTK_ContextHandle_System_WeakReference_System_Collections_IEnumerator_Reset
+	.long LDIFF_SYM2602
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29,68,154,2
 	.align 3
@@ -58596,33 +58456,33 @@ LTDIE_137:
 	.asciz "System_Nullable`1"
 
 	.byte 32,16
-LDIFF_SYM2601=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM2601
+LDIFF_SYM2603=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM2603
 	.byte 2,35,0,6
 	.asciz "value"
 
-LDIFF_SYM2602=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2602
+LDIFF_SYM2604=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2604
 	.byte 2,35,16,6
 	.asciz "has_value"
 
-LDIFF_SYM2603=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2603
+LDIFF_SYM2605=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2605
 	.byte 2,35,24,0,7
 	.asciz "System_Nullable`1"
 
-LDIFF_SYM2604=LTDIE_137 - Ldebug_info_start
-	.long LDIFF_SYM2604
+LDIFF_SYM2606=LTDIE_137 - Ldebug_info_start
+	.long LDIFF_SYM2606
 LTDIE_137_POINTER:
 
 	.byte 13
-LDIFF_SYM2605=LTDIE_137 - Ldebug_info_start
-	.long LDIFF_SYM2605
+LDIFF_SYM2607=LTDIE_137 - Ldebug_info_start
+	.long LDIFF_SYM2607
 LTDIE_137_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2606=LTDIE_137 - Ldebug_info_start
-	.long LDIFF_SYM2606
+LDIFF_SYM2608=LTDIE_137 - Ldebug_info_start
+	.long LDIFF_SYM2608
 	.byte 2
 	.asciz "System.Nullable`1<intptr>:.ctor"
 	.asciz "System_Nullable_1_intptr__ctor_intptr"
@@ -58634,27 +58494,27 @@ LDIFF_SYM2606=LTDIE_137 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2607=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2607
+LDIFF_SYM2609=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2609
 	.byte 2,141,16,3
 	.asciz "value"
 
-LDIFF_SYM2608=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2608
+LDIFF_SYM2610=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2610
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2609=Lfde406_end - Lfde406_start
-	.long LDIFF_SYM2609
+LDIFF_SYM2611=Lfde406_end - Lfde406_start
+	.long LDIFF_SYM2611
 Lfde406_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_intptr__ctor_intptr
 
-LDIFF_SYM2610=Lme_237 - System_Nullable_1_intptr__ctor_intptr
-	.long LDIFF_SYM2610
+LDIFF_SYM2612=Lme_237 - System_Nullable_1_intptr__ctor_intptr
+	.long LDIFF_SYM2612
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -58673,22 +58533,22 @@ Lfde406_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2611=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2611
+LDIFF_SYM2613=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2613
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2612=Lfde407_end - Lfde407_start
-	.long LDIFF_SYM2612
+LDIFF_SYM2614=Lfde407_end - Lfde407_start
+	.long LDIFF_SYM2614
 Lfde407_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_intptr_get_HasValue
 
-LDIFF_SYM2613=Lme_238 - System_Nullable_1_intptr_get_HasValue
-	.long LDIFF_SYM2613
+LDIFF_SYM2615=Lme_238 - System_Nullable_1_intptr_get_HasValue
+	.long LDIFF_SYM2615
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -58707,22 +58567,22 @@ Lfde407_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2614=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2614
+LDIFF_SYM2616=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2616
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2615=Lfde408_end - Lfde408_start
-	.long LDIFF_SYM2615
+LDIFF_SYM2617=Lfde408_end - Lfde408_start
+	.long LDIFF_SYM2617
 Lfde408_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_intptr_get_Value
 
-LDIFF_SYM2616=Lme_239 - System_Nullable_1_intptr_get_Value
-	.long LDIFF_SYM2616
+LDIFF_SYM2618=Lme_239 - System_Nullable_1_intptr_get_Value
+	.long LDIFF_SYM2618
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -58741,27 +58601,27 @@ Lfde408_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2617=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2617
+LDIFF_SYM2619=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2619
 	.byte 2,141,32,3
 	.asciz "other"
 
-LDIFF_SYM2618=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2618
+LDIFF_SYM2620=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2620
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2619=Lfde409_end - Lfde409_start
-	.long LDIFF_SYM2619
+LDIFF_SYM2621=Lfde409_end - Lfde409_start
+	.long LDIFF_SYM2621
 Lfde409_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_intptr_Equals_object
 
-LDIFF_SYM2620=Lme_23a - System_Nullable_1_intptr_Equals_object
-	.long LDIFF_SYM2620
+LDIFF_SYM2622=Lme_23a - System_Nullable_1_intptr_Equals_object
+	.long LDIFF_SYM2622
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,152,6,68,154,5
 	.align 3
@@ -58780,27 +58640,27 @@ Lfde409_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2621=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2621
+LDIFF_SYM2623=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2623
 	.byte 2,141,16,3
 	.asciz "other"
 
-LDIFF_SYM2622=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2622
+LDIFF_SYM2624=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2624
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2623=Lfde410_end - Lfde410_start
-	.long LDIFF_SYM2623
+LDIFF_SYM2625=Lfde410_end - Lfde410_start
+	.long LDIFF_SYM2625
 Lfde410_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_intptr_Equals_System_Nullable_1_intptr
 
-LDIFF_SYM2624=Lme_23b - System_Nullable_1_intptr_Equals_System_Nullable_1_intptr
-	.long LDIFF_SYM2624
+LDIFF_SYM2626=Lme_23b - System_Nullable_1_intptr_Equals_System_Nullable_1_intptr
+	.long LDIFF_SYM2626
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -58819,22 +58679,22 @@ Lfde410_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2625=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2625
+LDIFF_SYM2627=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2627
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2626=Lfde411_end - Lfde411_start
-	.long LDIFF_SYM2626
+LDIFF_SYM2628=Lfde411_end - Lfde411_start
+	.long LDIFF_SYM2628
 Lfde411_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_intptr_GetHashCode
 
-LDIFF_SYM2627=Lme_23c - System_Nullable_1_intptr_GetHashCode
-	.long LDIFF_SYM2627
+LDIFF_SYM2629=Lme_23c - System_Nullable_1_intptr_GetHashCode
+	.long LDIFF_SYM2629
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29,68,154,2
 	.align 3
@@ -58853,22 +58713,22 @@ Lfde411_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2628=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2628
+LDIFF_SYM2630=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2630
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2629=Lfde412_end - Lfde412_start
-	.long LDIFF_SYM2629
+LDIFF_SYM2631=Lfde412_end - Lfde412_start
+	.long LDIFF_SYM2631
 Lfde412_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_intptr_GetValueOrDefault
 
-LDIFF_SYM2630=Lme_23d - System_Nullable_1_intptr_GetValueOrDefault
-	.long LDIFF_SYM2630
+LDIFF_SYM2632=Lme_23d - System_Nullable_1_intptr_GetValueOrDefault
+	.long LDIFF_SYM2632
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -58887,27 +58747,27 @@ Lfde412_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2631=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2631
+LDIFF_SYM2633=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2633
 	.byte 2,141,16,3
 	.asciz "defaultValue"
 
-LDIFF_SYM2632=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2632
+LDIFF_SYM2634=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2634
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2633=Lfde413_end - Lfde413_start
-	.long LDIFF_SYM2633
+LDIFF_SYM2635=Lfde413_end - Lfde413_start
+	.long LDIFF_SYM2635
 Lfde413_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_intptr_GetValueOrDefault_intptr
 
-LDIFF_SYM2634=Lme_23e - System_Nullable_1_intptr_GetValueOrDefault_intptr
-	.long LDIFF_SYM2634
+LDIFF_SYM2636=Lme_23e - System_Nullable_1_intptr_GetValueOrDefault_intptr
+	.long LDIFF_SYM2636
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -58926,22 +58786,22 @@ Lfde413_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2635=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2635
+LDIFF_SYM2637=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2637
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2636=Lfde414_end - Lfde414_start
-	.long LDIFF_SYM2636
+LDIFF_SYM2638=Lfde414_end - Lfde414_start
+	.long LDIFF_SYM2638
 Lfde414_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_intptr_ToString
 
-LDIFF_SYM2637=Lme_23f - System_Nullable_1_intptr_ToString
-	.long LDIFF_SYM2637
+LDIFF_SYM2639=Lme_23f - System_Nullable_1_intptr_ToString
+	.long LDIFF_SYM2639
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -58960,22 +58820,22 @@ Lfde414_end:
 	.byte 2,118,16,3
 	.asciz "o"
 
-LDIFF_SYM2638=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2638
+LDIFF_SYM2640=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2640
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2639=Lfde415_end - Lfde415_start
-	.long LDIFF_SYM2639
+LDIFF_SYM2641=Lfde415_end - Lfde415_start
+	.long LDIFF_SYM2641
 Lfde415_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_intptr_Box_System_Nullable_1_intptr
 
-LDIFF_SYM2640=Lme_240 - System_Nullable_1_intptr_Box_System_Nullable_1_intptr
-	.long LDIFF_SYM2640
+LDIFF_SYM2642=Lme_240 - System_Nullable_1_intptr_Box_System_Nullable_1_intptr
+	.long LDIFF_SYM2642
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -58994,70 +58854,31 @@ Lfde415_end:
 	.byte 2,118,16,3
 	.asciz "o"
 
-LDIFF_SYM2641=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2641
+LDIFF_SYM2643=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2643
 	.byte 2,141,32,11
 	.asciz "V_0"
 
-LDIFF_SYM2642=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2642
+LDIFF_SYM2644=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2644
 	.byte 2,141,56,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2643=Lfde416_end - Lfde416_start
-	.long LDIFF_SYM2643
+LDIFF_SYM2645=Lfde416_end - Lfde416_start
+	.long LDIFF_SYM2645
 Lfde416_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_intptr_Unbox_object
 
-LDIFF_SYM2644=Lme_241 - System_Nullable_1_intptr_Unbox_object
-	.long LDIFF_SYM2644
+LDIFF_SYM2646=Lme_241 - System_Nullable_1_intptr_Unbox_object
+	.long LDIFF_SYM2646
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
 Lfde416_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Nullable`1<intptr>:UnboxExact"
-	.asciz "System_Nullable_1_intptr_UnboxExact_object"
-
-	.byte 27,192,1
-	.quad System_Nullable_1_intptr_UnboxExact_object
-	.quad Lme_242
-
-	.byte 2,118,16,3
-	.asciz "o"
-
-LDIFF_SYM2645=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2645
-	.byte 1,106,11
-	.asciz "V_0"
-
-LDIFF_SYM2646=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2646
-	.byte 2,141,56,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM2647=Lfde417_end - Lfde417_start
-	.long LDIFF_SYM2647
-Lfde417_start:
-
-	.long 0
-	.align 3
-	.quad System_Nullable_1_intptr_UnboxExact_object
-
-LDIFF_SYM2648=Lme_242 - System_Nullable_1_intptr_UnboxExact_object
-	.long LDIFF_SYM2648
-	.long 0
-	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
-	.align 3
-Lfde417_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_138:
@@ -59066,84 +58887,84 @@ LTDIE_138:
 	.asciz "System_Action`1"
 
 	.byte 112,16
-LDIFF_SYM2649=LTDIE_35 - Ldebug_info_start
-	.long LDIFF_SYM2649
+LDIFF_SYM2647=LTDIE_35 - Ldebug_info_start
+	.long LDIFF_SYM2647
 	.byte 2,35,0,0,7
 	.asciz "System_Action`1"
 
-LDIFF_SYM2650=LTDIE_138 - Ldebug_info_start
-	.long LDIFF_SYM2650
+LDIFF_SYM2648=LTDIE_138 - Ldebug_info_start
+	.long LDIFF_SYM2648
 LTDIE_138_POINTER:
 
 	.byte 13
-LDIFF_SYM2651=LTDIE_138 - Ldebug_info_start
-	.long LDIFF_SYM2651
+LDIFF_SYM2649=LTDIE_138 - Ldebug_info_start
+	.long LDIFF_SYM2649
 LTDIE_138_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2652=LTDIE_138 - Ldebug_info_start
-	.long LDIFF_SYM2652
+LDIFF_SYM2650=LTDIE_138 - Ldebug_info_start
+	.long LDIFF_SYM2650
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Action`1<Foundation.NSTimer>:invoke_void_T"
 	.asciz "wrapper_delegate_invoke_System_Action_1_Foundation_NSTimer_invoke_void_T_Foundation_NSTimer"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Action_1_Foundation_NSTimer_invoke_void_T_Foundation_NSTimer
-	.quad Lme_243
+	.quad Lme_242
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2653=LTDIE_138_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2653
+LDIFF_SYM2651=LTDIE_138_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2651
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM2654=LTDIE_109_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2654
+LDIFF_SYM2652=LTDIE_109_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2652
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2655=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2655
+LDIFF_SYM2653=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2653
 	.byte 1,103,11
 	.asciz "V_1"
 
-LDIFF_SYM2656=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2656
+LDIFF_SYM2654=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2654
 	.byte 1,105,11
 	.asciz "V_2"
 
-LDIFF_SYM2657=LTDIE_126_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2657
+LDIFF_SYM2655=LTDIE_126_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2655
 	.byte 1,104,11
 	.asciz "V_3"
 
-LDIFF_SYM2658=LTDIE_35_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2658
+LDIFF_SYM2656=LTDIE_35_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2656
 	.byte 1,102,11
 	.asciz "V_4"
 
-LDIFF_SYM2659=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2659
+LDIFF_SYM2657=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2657
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2660=Lfde418_end - Lfde418_start
-	.long LDIFF_SYM2660
-Lfde418_start:
+LDIFF_SYM2658=Lfde417_end - Lfde417_start
+	.long LDIFF_SYM2658
+Lfde417_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Action_1_Foundation_NSTimer_invoke_void_T_Foundation_NSTimer
 
-LDIFF_SYM2661=Lme_243 - wrapper_delegate_invoke_System_Action_1_Foundation_NSTimer_invoke_void_T_Foundation_NSTimer
-	.long LDIFF_SYM2661
+LDIFF_SYM2659=Lme_242 - wrapper_delegate_invoke_System_Action_1_Foundation_NSTimer_invoke_void_T_Foundation_NSTimer
+	.long LDIFF_SYM2659
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,150,8,151,7,68,152,6,153,5,68,154,4
 	.align 3
-Lfde418_end:
+Lfde417_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -59153,66 +58974,66 @@ Lfde418_end:
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_EventHandler_1_OpenTK_FrameEventArgs_invoke_void_object_TEventArgs_object_OpenTK_FrameEventArgs
-	.quad Lme_244
+	.quad Lme_243
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2662=LTDIE_103_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2662
+LDIFF_SYM2660=LTDIE_103_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2660
 	.byte 1,104,3
 	.asciz "param0"
 
-LDIFF_SYM2663=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2663
+LDIFF_SYM2661=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2661
 	.byte 1,105,3
 	.asciz "param1"
 
-LDIFF_SYM2664=LTDIE_23_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2664
+LDIFF_SYM2662=LTDIE_23_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2662
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2665=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2665
+LDIFF_SYM2663=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2663
 	.byte 1,102,11
 	.asciz "V_1"
 
-LDIFF_SYM2666=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2666
+LDIFF_SYM2664=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2664
 	.byte 1,104,11
 	.asciz "V_2"
 
-LDIFF_SYM2667=LTDIE_126_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2667
+LDIFF_SYM2665=LTDIE_126_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2665
 	.byte 1,103,11
 	.asciz "V_3"
 
-LDIFF_SYM2668=LTDIE_35_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2668
+LDIFF_SYM2666=LTDIE_35_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2666
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM2669=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2669
+LDIFF_SYM2667=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2667
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2670=Lfde419_end - Lfde419_start
-	.long LDIFF_SYM2670
-Lfde419_start:
+LDIFF_SYM2668=Lfde418_end - Lfde418_start
+	.long LDIFF_SYM2668
+Lfde418_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_EventHandler_1_OpenTK_FrameEventArgs_invoke_void_object_TEventArgs_object_OpenTK_FrameEventArgs
 
-LDIFF_SYM2671=Lme_244 - wrapper_delegate_invoke_System_EventHandler_1_OpenTK_FrameEventArgs_invoke_void_object_TEventArgs_object_OpenTK_FrameEventArgs
-	.long LDIFF_SYM2671
+LDIFF_SYM2669=Lme_243 - wrapper_delegate_invoke_System_EventHandler_1_OpenTK_FrameEventArgs_invoke_void_object_TEventArgs_object_OpenTK_FrameEventArgs
+	.long LDIFF_SYM2669
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,149,8,150,7,68,151,6,152,5,68,153,4,154,3
 	.align 3
-Lfde419_end:
+Lfde418_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -59222,56 +59043,56 @@ Lfde419_end:
 
 	.byte 0,0
 	.quad wrapper_runtime_invoke__Module_runtime_invoke_void__this___Nullable_1_intptr_ColorFormat_int_int_int_ColorFormat_int_byte_object_intptr_intptr_intptr
-	.quad Lme_245
+	.quad Lme_244
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2672=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2672
+LDIFF_SYM2670=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2670
 	.byte 2,141,32,3
 	.asciz "params"
 
-LDIFF_SYM2673=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2673
+LDIFF_SYM2671=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2671
 	.byte 1,105,3
 	.asciz "exc"
 
-LDIFF_SYM2674=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2674
+LDIFF_SYM2672=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2672
 	.byte 2,141,40,3
 	.asciz "method"
 
-LDIFF_SYM2675=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2675
+LDIFF_SYM2673=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2673
 	.byte 2,141,48,11
 	.asciz "V_0"
 
-LDIFF_SYM2676=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2676
+LDIFF_SYM2674=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2674
 	.byte 3,141,152,1,11
 	.asciz "V_1"
 
-LDIFF_SYM2677=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2677
+LDIFF_SYM2675=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2675
 	.byte 3,141,160,1,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2678=Lfde420_end - Lfde420_start
-	.long LDIFF_SYM2678
-Lfde420_start:
+LDIFF_SYM2676=Lfde419_end - Lfde419_start
+	.long LDIFF_SYM2676
+Lfde419_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_runtime_invoke__Module_runtime_invoke_void__this___Nullable_1_intptr_ColorFormat_int_int_int_ColorFormat_int_byte_object_intptr_intptr_intptr
 
-LDIFF_SYM2679=Lme_245 - wrapper_runtime_invoke__Module_runtime_invoke_void__this___Nullable_1_intptr_ColorFormat_int_int_int_ColorFormat_int_byte_object_intptr_intptr_intptr
-	.long LDIFF_SYM2679
+LDIFF_SYM2677=Lme_244 - wrapper_runtime_invoke__Module_runtime_invoke_void__this___Nullable_1_intptr_ColorFormat_int_int_int_ColorFormat_int_byte_object_intptr_intptr_intptr
+	.long LDIFF_SYM2677
 	.long 0
 	.byte 12,31,0,68,14,208,1,157,26,158,25,68,13,29,84,151,24,68,153,23
 	.align 3
-Lfde420_end:
+Lfde419_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -59281,56 +59102,56 @@ Lfde420_end:
 
 	.byte 0,0
 	.quad wrapper_runtime_invoke__Module_runtime_invoke_void__this___Nullable_1_intptr_object_intptr_intptr_intptr
-	.quad Lme_246
+	.quad Lme_245
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2680=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2680
+LDIFF_SYM2678=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2678
 	.byte 2,141,24,3
 	.asciz "params"
 
-LDIFF_SYM2681=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2681
+LDIFF_SYM2679=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2679
 	.byte 2,141,32,3
 	.asciz "exc"
 
-LDIFF_SYM2682=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2682
+LDIFF_SYM2680=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2680
 	.byte 2,141,40,3
 	.asciz "method"
 
-LDIFF_SYM2683=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2683
+LDIFF_SYM2681=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2681
 	.byte 2,141,48,11
 	.asciz "V_0"
 
-LDIFF_SYM2684=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2684
+LDIFF_SYM2682=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2682
 	.byte 3,141,216,0,11
 	.asciz "V_1"
 
-LDIFF_SYM2685=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2685
+LDIFF_SYM2683=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2683
 	.byte 3,141,224,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2686=Lfde421_end - Lfde421_start
-	.long LDIFF_SYM2686
-Lfde421_start:
+LDIFF_SYM2684=Lfde420_end - Lfde420_start
+	.long LDIFF_SYM2684
+Lfde420_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_runtime_invoke__Module_runtime_invoke_void__this___Nullable_1_intptr_object_intptr_intptr_intptr
 
-LDIFF_SYM2687=Lme_246 - wrapper_runtime_invoke__Module_runtime_invoke_void__this___Nullable_1_intptr_object_intptr_intptr_intptr
-	.long LDIFF_SYM2687
+LDIFF_SYM2685=Lme_245 - wrapper_runtime_invoke__Module_runtime_invoke_void__this___Nullable_1_intptr_object_intptr_intptr_intptr
+	.long LDIFF_SYM2685
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,151,16
 	.align 3
-Lfde421_end:
+Lfde420_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_139:
@@ -59341,79 +59162,79 @@ LTDIE_139:
 	.byte 16,7
 	.asciz "_<Module>"
 
-LDIFF_SYM2688=LTDIE_139 - Ldebug_info_start
-	.long LDIFF_SYM2688
+LDIFF_SYM2686=LTDIE_139 - Ldebug_info_start
+	.long LDIFF_SYM2686
 LTDIE_139_POINTER:
 
 	.byte 13
-LDIFF_SYM2689=LTDIE_139 - Ldebug_info_start
-	.long LDIFF_SYM2689
+LDIFF_SYM2687=LTDIE_139 - Ldebug_info_start
+	.long LDIFF_SYM2687
 LTDIE_139_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2690=LTDIE_139 - Ldebug_info_start
-	.long LDIFF_SYM2690
+LDIFF_SYM2688=LTDIE_139 - Ldebug_info_start
+	.long LDIFF_SYM2688
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_<Module>:invoke_ContextHandle"
 	.asciz "wrapper_delegate_invoke__Module_invoke_ContextHandle"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke__Module_invoke_ContextHandle
-	.quad Lme_247
+	.quad Lme_246
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2691=LTDIE_139_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2691
+LDIFF_SYM2689=LTDIE_139_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2689
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2692=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2692
+LDIFF_SYM2690=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2690
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM2693=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2693
+LDIFF_SYM2691=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2691
 	.byte 1,106,11
 	.asciz "V_2"
 
-LDIFF_SYM2694=LTDIE_126_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2694
+LDIFF_SYM2692=LTDIE_126_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2692
 	.byte 1,105,11
 	.asciz "V_3"
 
-LDIFF_SYM2695=LTDIE_35_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2695
+LDIFF_SYM2693=LTDIE_35_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2693
 	.byte 1,103,11
 	.asciz "V_4"
 
-LDIFF_SYM2696=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2696
+LDIFF_SYM2694=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2694
 	.byte 1,105,11
 	.asciz "V_5"
 
-LDIFF_SYM2697=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2697
+LDIFF_SYM2695=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2695
 	.byte 3,141,200,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2698=Lfde422_end - Lfde422_start
-	.long LDIFF_SYM2698
-Lfde422_start:
+LDIFF_SYM2696=Lfde421_end - Lfde421_start
+	.long LDIFF_SYM2696
+Lfde421_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke__Module_invoke_ContextHandle
 
-LDIFF_SYM2699=Lme_247 - wrapper_delegate_invoke__Module_invoke_ContextHandle
-	.long LDIFF_SYM2699
+LDIFF_SYM2697=Lme_246 - wrapper_delegate_invoke__Module_invoke_ContextHandle
+	.long LDIFF_SYM2697
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,151,12,152,11,68,153,10,154,9
 	.align 3
-Lfde422_end:
+Lfde421_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_140:
@@ -59422,74 +59243,74 @@ LTDIE_140:
 	.asciz "System_AsyncCallback"
 
 	.byte 112,16
-LDIFF_SYM2700=LTDIE_35 - Ldebug_info_start
-	.long LDIFF_SYM2700
+LDIFF_SYM2698=LTDIE_35 - Ldebug_info_start
+	.long LDIFF_SYM2698
 	.byte 2,35,0,0,7
 	.asciz "System_AsyncCallback"
 
-LDIFF_SYM2701=LTDIE_140 - Ldebug_info_start
-	.long LDIFF_SYM2701
+LDIFF_SYM2699=LTDIE_140 - Ldebug_info_start
+	.long LDIFF_SYM2699
 LTDIE_140_POINTER:
 
 	.byte 13
-LDIFF_SYM2702=LTDIE_140 - Ldebug_info_start
-	.long LDIFF_SYM2702
+LDIFF_SYM2700=LTDIE_140 - Ldebug_info_start
+	.long LDIFF_SYM2700
 LTDIE_140_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2703=LTDIE_140 - Ldebug_info_start
-	.long LDIFF_SYM2703
+LDIFF_SYM2701=LTDIE_140 - Ldebug_info_start
+	.long LDIFF_SYM2701
 	.byte 2
 	.asciz "(wrapper_delegate-begin-invoke)_<Module>:begin_invoke_IAsyncResult__this___AsyncCallback_object"
 	.asciz "wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___AsyncCallback_object_System_AsyncCallback_object"
 
 	.byte 0,0
 	.quad wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___AsyncCallback_object_System_AsyncCallback_object
-	.quad Lme_248
+	.quad Lme_247
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2704=LTDIE_139_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2704
+LDIFF_SYM2702=LTDIE_139_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2702
 	.byte 2,141,32,3
 	.asciz "param0"
 
-LDIFF_SYM2705=LTDIE_140_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2705
+LDIFF_SYM2703=LTDIE_140_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2703
 	.byte 2,141,40,3
 	.asciz "param1"
 
-LDIFF_SYM2706=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2706
+LDIFF_SYM2704=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2704
 	.byte 2,141,48,11
 	.asciz "V_0"
 
-LDIFF_SYM2707=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2707
+LDIFF_SYM2705=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2705
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM2708=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2708
+LDIFF_SYM2706=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2706
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2709=Lfde423_end - Lfde423_start
-	.long LDIFF_SYM2709
-Lfde423_start:
+LDIFF_SYM2707=Lfde422_end - Lfde422_start
+	.long LDIFF_SYM2707
+Lfde422_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___AsyncCallback_object_System_AsyncCallback_object
 
-LDIFF_SYM2710=Lme_248 - wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___AsyncCallback_object_System_AsyncCallback_object
-	.long LDIFF_SYM2710
+LDIFF_SYM2708=Lme_247 - wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___AsyncCallback_object_System_AsyncCallback_object
+	.long LDIFF_SYM2708
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,152,6,153,5
 	.align 3
-Lfde423_end:
+Lfde422_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_141:
@@ -59500,64 +59321,64 @@ LTDIE_141:
 	.byte 16,7
 	.asciz "System_IAsyncResult"
 
-LDIFF_SYM2711=LTDIE_141 - Ldebug_info_start
-	.long LDIFF_SYM2711
+LDIFF_SYM2709=LTDIE_141 - Ldebug_info_start
+	.long LDIFF_SYM2709
 LTDIE_141_POINTER:
 
 	.byte 13
-LDIFF_SYM2712=LTDIE_141 - Ldebug_info_start
-	.long LDIFF_SYM2712
+LDIFF_SYM2710=LTDIE_141 - Ldebug_info_start
+	.long LDIFF_SYM2710
 LTDIE_141_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2713=LTDIE_141 - Ldebug_info_start
-	.long LDIFF_SYM2713
+LDIFF_SYM2711=LTDIE_141 - Ldebug_info_start
+	.long LDIFF_SYM2711
 	.byte 2
 	.asciz "(wrapper_delegate-end-invoke)_<Module>:end_invoke_ContextHandle__this___IAsyncResult"
 	.asciz "wrapper_delegate_end_invoke__Module_end_invoke_ContextHandle__this___IAsyncResult_System_IAsyncResult"
 
 	.byte 0,0
 	.quad wrapper_delegate_end_invoke__Module_end_invoke_ContextHandle__this___IAsyncResult_System_IAsyncResult
-	.quad Lme_249
+	.quad Lme_248
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2714=LTDIE_139_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2714
+LDIFF_SYM2712=LTDIE_139_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2712
 	.byte 2,141,48,3
 	.asciz "param0"
 
-LDIFF_SYM2715=LTDIE_141_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2715
+LDIFF_SYM2713=LTDIE_141_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2713
 	.byte 2,141,56,11
 	.asciz "V_0"
 
-LDIFF_SYM2716=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2716
+LDIFF_SYM2714=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2714
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM2717=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2717
+LDIFF_SYM2715=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2715
 	.byte 3,141,192,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2718=Lfde424_end - Lfde424_start
-	.long LDIFF_SYM2718
-Lfde424_start:
+LDIFF_SYM2716=Lfde423_end - Lfde423_start
+	.long LDIFF_SYM2716
+Lfde423_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_end_invoke__Module_end_invoke_ContextHandle__this___IAsyncResult_System_IAsyncResult
 
-LDIFF_SYM2719=Lme_249 - wrapper_delegate_end_invoke__Module_end_invoke_ContextHandle__this___IAsyncResult_System_IAsyncResult
-	.long LDIFF_SYM2719
+LDIFF_SYM2717=Lme_248 - wrapper_delegate_end_invoke__Module_end_invoke_ContextHandle__this___IAsyncResult_System_IAsyncResult
+	.long LDIFF_SYM2717
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,152,8,153,7
 	.align 3
-Lfde424_end:
+Lfde423_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -59567,66 +59388,66 @@ Lfde424_end:
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke__Module_invoke_void_All_int_OpenTK_Graphics_ES11_All_int
-	.quad Lme_24a
+	.quad Lme_249
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2720=LTDIE_139_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2720
+LDIFF_SYM2718=LTDIE_139_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2718
 	.byte 1,104,3
 	.asciz "param0"
 
-LDIFF_SYM2721=LTDIE_76 - Ldebug_info_start
-	.long LDIFF_SYM2721
+LDIFF_SYM2719=LTDIE_76 - Ldebug_info_start
+	.long LDIFF_SYM2719
 	.byte 1,105,3
 	.asciz "param1"
 
-LDIFF_SYM2722=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2722
+LDIFF_SYM2720=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2720
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2723=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2723
+LDIFF_SYM2721=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2721
 	.byte 1,102,11
 	.asciz "V_1"
 
-LDIFF_SYM2724=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2724
+LDIFF_SYM2722=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2722
 	.byte 1,104,11
 	.asciz "V_2"
 
-LDIFF_SYM2725=LTDIE_126_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2725
+LDIFF_SYM2723=LTDIE_126_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2723
 	.byte 1,103,11
 	.asciz "V_3"
 
-LDIFF_SYM2726=LTDIE_35_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2726
+LDIFF_SYM2724=LTDIE_35_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2724
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM2727=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2727
+LDIFF_SYM2725=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2725
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2728=Lfde425_end - Lfde425_start
-	.long LDIFF_SYM2728
-Lfde425_start:
+LDIFF_SYM2726=Lfde424_end - Lfde424_start
+	.long LDIFF_SYM2726
+Lfde424_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke__Module_invoke_void_All_int_OpenTK_Graphics_ES11_All_int
 
-LDIFF_SYM2729=Lme_24a - wrapper_delegate_invoke__Module_invoke_void_All_int_OpenTK_Graphics_ES11_All_int
-	.long LDIFF_SYM2729
+LDIFF_SYM2727=Lme_249 - wrapper_delegate_invoke__Module_invoke_void_All_int_OpenTK_Graphics_ES11_All_int
+	.long LDIFF_SYM2727
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,149,8,150,7,68,151,6,152,5,68,153,4,154,3
 	.align 3
-Lfde425_end:
+Lfde424_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -59636,61 +59457,61 @@ Lfde425_end:
 
 	.byte 0,0
 	.quad wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___All_int_AsyncCallback_object_OpenTK_Graphics_ES11_All_int_System_AsyncCallback_object
-	.quad Lme_24b
+	.quad Lme_24a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2730=LTDIE_139_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2730
+LDIFF_SYM2728=LTDIE_139_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2728
 	.byte 2,141,32,3
 	.asciz "param0"
 
-LDIFF_SYM2731=LTDIE_76 - Ldebug_info_start
-	.long LDIFF_SYM2731
+LDIFF_SYM2729=LTDIE_76 - Ldebug_info_start
+	.long LDIFF_SYM2729
 	.byte 2,141,40,3
 	.asciz "param1"
 
-LDIFF_SYM2732=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2732
+LDIFF_SYM2730=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2730
 	.byte 2,141,48,3
 	.asciz "param2"
 
-LDIFF_SYM2733=LTDIE_140_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2733
+LDIFF_SYM2731=LTDIE_140_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2731
 	.byte 2,141,56,3
 	.asciz "param3"
 
-LDIFF_SYM2734=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2734
+LDIFF_SYM2732=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2732
 	.byte 3,141,192,0,11
 	.asciz "V_0"
 
-LDIFF_SYM2735=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2735
+LDIFF_SYM2733=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2733
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM2736=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2736
+LDIFF_SYM2734=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2734
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2737=Lfde426_end - Lfde426_start
-	.long LDIFF_SYM2737
-Lfde426_start:
+LDIFF_SYM2735=Lfde425_end - Lfde425_start
+	.long LDIFF_SYM2735
+Lfde425_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___All_int_AsyncCallback_object_OpenTK_Graphics_ES11_All_int_System_AsyncCallback_object
 
-LDIFF_SYM2738=Lme_24b - wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___All_int_AsyncCallback_object_OpenTK_Graphics_ES11_All_int_System_AsyncCallback_object
-	.long LDIFF_SYM2738
+LDIFF_SYM2736=Lme_24a - wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___All_int_AsyncCallback_object_OpenTK_Graphics_ES11_All_int_System_AsyncCallback_object
+	.long LDIFF_SYM2736
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,152,8,153,7
 	.align 3
-Lfde426_end:
+Lfde425_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -59700,46 +59521,46 @@ Lfde426_end:
 
 	.byte 0,0
 	.quad wrapper_delegate_end_invoke__Module_end_invoke_void__this___IAsyncResult_System_IAsyncResult
-	.quad Lme_24c
+	.quad Lme_24b
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2739=LTDIE_139_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2739
+LDIFF_SYM2737=LTDIE_139_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2737
 	.byte 2,141,32,3
 	.asciz "param0"
 
-LDIFF_SYM2740=LTDIE_141_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2740
+LDIFF_SYM2738=LTDIE_141_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2738
 	.byte 2,141,40,11
 	.asciz "V_0"
 
-LDIFF_SYM2741=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2741
+LDIFF_SYM2739=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2739
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM2742=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2742
+LDIFF_SYM2740=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2740
 	.byte 2,141,48,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2743=Lfde427_end - Lfde427_start
-	.long LDIFF_SYM2743
-Lfde427_start:
+LDIFF_SYM2741=Lfde426_end - Lfde426_start
+	.long LDIFF_SYM2741
+Lfde426_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_end_invoke__Module_end_invoke_void__this___IAsyncResult_System_IAsyncResult
 
-LDIFF_SYM2744=Lme_24c - wrapper_delegate_end_invoke__Module_end_invoke_void__this___IAsyncResult_System_IAsyncResult
-	.long LDIFF_SYM2744
+LDIFF_SYM2742=Lme_24b - wrapper_delegate_end_invoke__Module_end_invoke_void__this___IAsyncResult_System_IAsyncResult
+	.long LDIFF_SYM2742
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,152,6,153,5
 	.align 3
-Lfde427_end:
+Lfde426_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -59749,66 +59570,66 @@ Lfde427_end:
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke__Module_invoke_void_int_int__int_int_
-	.quad Lme_24d
+	.quad Lme_24c
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2745=LTDIE_139_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2745
+LDIFF_SYM2743=LTDIE_139_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2743
 	.byte 1,104,3
 	.asciz "param0"
 
-LDIFF_SYM2746=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2746
+LDIFF_SYM2744=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2744
 	.byte 1,105,3
 	.asciz "param1"
 
-LDIFF_SYM2747=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2747
+LDIFF_SYM2745=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2745
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2748=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2748
+LDIFF_SYM2746=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2746
 	.byte 1,102,11
 	.asciz "V_1"
 
-LDIFF_SYM2749=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2749
+LDIFF_SYM2747=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2747
 	.byte 1,104,11
 	.asciz "V_2"
 
-LDIFF_SYM2750=LTDIE_126_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2750
+LDIFF_SYM2748=LTDIE_126_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2748
 	.byte 1,103,11
 	.asciz "V_3"
 
-LDIFF_SYM2751=LTDIE_35_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2751
+LDIFF_SYM2749=LTDIE_35_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2749
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM2752=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2752
+LDIFF_SYM2750=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2750
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2753=Lfde428_end - Lfde428_start
-	.long LDIFF_SYM2753
-Lfde428_start:
+LDIFF_SYM2751=Lfde427_end - Lfde427_start
+	.long LDIFF_SYM2751
+Lfde427_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke__Module_invoke_void_int_int__int_int_
 
-LDIFF_SYM2754=Lme_24d - wrapper_delegate_invoke__Module_invoke_void_int_int__int_int_
-	.long LDIFF_SYM2754
+LDIFF_SYM2752=Lme_24c - wrapper_delegate_invoke__Module_invoke_void_int_int__int_int_
+	.long LDIFF_SYM2752
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,149,8,150,7,68,151,6,152,5,68,153,4,154,3
 	.align 3
-Lfde428_end:
+Lfde427_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -59818,61 +59639,61 @@ Lfde428_end:
 
 	.byte 0,0
 	.quad wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___int_int__AsyncCallback_object_int_int__System_AsyncCallback_object
-	.quad Lme_24e
+	.quad Lme_24d
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2755=LTDIE_139_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2755
+LDIFF_SYM2753=LTDIE_139_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2753
 	.byte 2,141,32,3
 	.asciz "param0"
 
-LDIFF_SYM2756=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2756
+LDIFF_SYM2754=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2754
 	.byte 2,141,40,3
 	.asciz "param1"
 
-LDIFF_SYM2757=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2757
+LDIFF_SYM2755=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2755
 	.byte 2,141,48,3
 	.asciz "param2"
 
-LDIFF_SYM2758=LTDIE_140_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2758
+LDIFF_SYM2756=LTDIE_140_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2756
 	.byte 2,141,56,3
 	.asciz "param3"
 
-LDIFF_SYM2759=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2759
+LDIFF_SYM2757=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2757
 	.byte 3,141,192,0,11
 	.asciz "V_0"
 
-LDIFF_SYM2760=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2760
+LDIFF_SYM2758=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2758
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM2761=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2761
+LDIFF_SYM2759=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2759
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2762=Lfde429_end - Lfde429_start
-	.long LDIFF_SYM2762
-Lfde429_start:
+LDIFF_SYM2760=Lfde428_end - Lfde428_start
+	.long LDIFF_SYM2760
+Lfde428_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___int_int__AsyncCallback_object_int_int__System_AsyncCallback_object
 
-LDIFF_SYM2763=Lme_24e - wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___int_int__AsyncCallback_object_int_int__System_AsyncCallback_object
-	.long LDIFF_SYM2763
+LDIFF_SYM2761=Lme_24d - wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___int_int__AsyncCallback_object_int_int__System_AsyncCallback_object
+	.long LDIFF_SYM2761
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,152,8,153,7
 	.align 3
-Lfde429_end:
+Lfde428_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -59882,51 +59703,51 @@ Lfde429_end:
 
 	.byte 0,0
 	.quad wrapper_delegate_end_invoke__Module_end_invoke_void__this___int__IAsyncResult_int__System_IAsyncResult
-	.quad Lme_24f
+	.quad Lme_24e
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2764=LTDIE_139_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2764
+LDIFF_SYM2762=LTDIE_139_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2762
 	.byte 2,141,32,3
 	.asciz "param0"
 
-LDIFF_SYM2765=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2765
+LDIFF_SYM2763=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2763
 	.byte 2,141,40,3
 	.asciz "param1"
 
-LDIFF_SYM2766=LTDIE_141_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2766
+LDIFF_SYM2764=LTDIE_141_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2764
 	.byte 2,141,48,11
 	.asciz "V_0"
 
-LDIFF_SYM2767=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2767
+LDIFF_SYM2765=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2765
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM2768=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2768
+LDIFF_SYM2766=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2766
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2769=Lfde430_end - Lfde430_start
-	.long LDIFF_SYM2769
-Lfde430_start:
+LDIFF_SYM2767=Lfde429_end - Lfde429_start
+	.long LDIFF_SYM2767
+Lfde429_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_end_invoke__Module_end_invoke_void__this___int__IAsyncResult_int__System_IAsyncResult
 
-LDIFF_SYM2770=Lme_24f - wrapper_delegate_end_invoke__Module_end_invoke_void__this___int__IAsyncResult_int__System_IAsyncResult
-	.long LDIFF_SYM2770
+LDIFF_SYM2768=Lme_24e - wrapper_delegate_end_invoke__Module_end_invoke_void__this___int__IAsyncResult_int__System_IAsyncResult
+	.long LDIFF_SYM2768
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,152,6,153,5
 	.align 3
-Lfde430_end:
+Lfde429_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -59936,77 +59757,77 @@ Lfde430_end:
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke__Module_invoke_void_All_All_All_int_OpenTK_Graphics_ES11_All_OpenTK_Graphics_ES11_All_OpenTK_Graphics_ES11_All_int
-	.quad Lme_250
+	.quad Lme_24f
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2771=LTDIE_139_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2771
+LDIFF_SYM2769=LTDIE_139_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2769
 	.byte 1,102,3
 	.asciz "param0"
 
-LDIFF_SYM2772=LTDIE_76 - Ldebug_info_start
-	.long LDIFF_SYM2772
+LDIFF_SYM2770=LTDIE_76 - Ldebug_info_start
+	.long LDIFF_SYM2770
 	.byte 1,103,3
 	.asciz "param1"
 
-LDIFF_SYM2773=LTDIE_76 - Ldebug_info_start
-	.long LDIFF_SYM2773
+LDIFF_SYM2771=LTDIE_76 - Ldebug_info_start
+	.long LDIFF_SYM2771
 	.byte 1,104,3
 	.asciz "param2"
 
-LDIFF_SYM2774=LTDIE_76 - Ldebug_info_start
-	.long LDIFF_SYM2774
+LDIFF_SYM2772=LTDIE_76 - Ldebug_info_start
+	.long LDIFF_SYM2772
 	.byte 1,105,3
 	.asciz "param3"
 
-LDIFF_SYM2775=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2775
+LDIFF_SYM2773=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2773
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2776=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2776
+LDIFF_SYM2774=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2774
 	.byte 1,100,11
 	.asciz "V_1"
 
-LDIFF_SYM2777=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2777
+LDIFF_SYM2775=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2775
 	.byte 1,102,11
 	.asciz "V_2"
 
-LDIFF_SYM2778=LTDIE_126_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2778
+LDIFF_SYM2776=LTDIE_126_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2776
 	.byte 1,101,11
 	.asciz "V_3"
 
-LDIFF_SYM2779=LTDIE_35_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2779
+LDIFF_SYM2777=LTDIE_35_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2777
 	.byte 1,99,11
 	.asciz "V_4"
 
-LDIFF_SYM2780=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2780
+LDIFF_SYM2778=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2778
 	.byte 1,101,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2781=Lfde431_end - Lfde431_start
-	.long LDIFF_SYM2781
-Lfde431_start:
+LDIFF_SYM2779=Lfde430_end - Lfde430_start
+	.long LDIFF_SYM2779
+Lfde430_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke__Module_invoke_void_All_All_All_int_OpenTK_Graphics_ES11_All_OpenTK_Graphics_ES11_All_OpenTK_Graphics_ES11_All_int
 
-LDIFF_SYM2782=Lme_250 - wrapper_delegate_invoke__Module_invoke_void_All_All_All_int_OpenTK_Graphics_ES11_All_OpenTK_Graphics_ES11_All_OpenTK_Graphics_ES11_All_int
-	.long LDIFF_SYM2782
+LDIFF_SYM2780=Lme_24f - wrapper_delegate_invoke__Module_invoke_void_All_All_All_int_OpenTK_Graphics_ES11_All_OpenTK_Graphics_ES11_All_OpenTK_Graphics_ES11_All_int
+	.long LDIFF_SYM2780
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,147,10,148,9,68,149,8,150,7,68,151,6,152,5,68,153,4,154
 	.byte 3
 	.align 3
-Lfde431_end:
+Lfde430_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -60016,71 +59837,71 @@ Lfde431_end:
 
 	.byte 0,0
 	.quad wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___All_All_All_int_AsyncCallback_object_OpenTK_Graphics_ES11_All_OpenTK_Graphics_ES11_All_OpenTK_Graphics_ES11_All_int_System_AsyncCallback_object
-	.quad Lme_251
+	.quad Lme_250
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2783=LTDIE_139_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2783
+LDIFF_SYM2781=LTDIE_139_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2781
 	.byte 2,141,32,3
 	.asciz "param0"
 
-LDIFF_SYM2784=LTDIE_76 - Ldebug_info_start
-	.long LDIFF_SYM2784
+LDIFF_SYM2782=LTDIE_76 - Ldebug_info_start
+	.long LDIFF_SYM2782
 	.byte 2,141,40,3
 	.asciz "param1"
 
-LDIFF_SYM2785=LTDIE_76 - Ldebug_info_start
-	.long LDIFF_SYM2785
+LDIFF_SYM2783=LTDIE_76 - Ldebug_info_start
+	.long LDIFF_SYM2783
 	.byte 2,141,48,3
 	.asciz "param2"
 
-LDIFF_SYM2786=LTDIE_76 - Ldebug_info_start
-	.long LDIFF_SYM2786
+LDIFF_SYM2784=LTDIE_76 - Ldebug_info_start
+	.long LDIFF_SYM2784
 	.byte 2,141,56,3
 	.asciz "param3"
 
-LDIFF_SYM2787=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2787
+LDIFF_SYM2785=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2785
 	.byte 3,141,192,0,3
 	.asciz "param4"
 
-LDIFF_SYM2788=LTDIE_140_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2788
+LDIFF_SYM2786=LTDIE_140_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2786
 	.byte 3,141,200,0,3
 	.asciz "param5"
 
-LDIFF_SYM2789=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2789
+LDIFF_SYM2787=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2787
 	.byte 3,141,208,0,11
 	.asciz "V_0"
 
-LDIFF_SYM2790=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2790
+LDIFF_SYM2788=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2788
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM2791=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2791
+LDIFF_SYM2789=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2789
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2792=Lfde432_end - Lfde432_start
-	.long LDIFF_SYM2792
-Lfde432_start:
+LDIFF_SYM2790=Lfde431_end - Lfde431_start
+	.long LDIFF_SYM2790
+Lfde431_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___All_All_All_int_AsyncCallback_object_OpenTK_Graphics_ES11_All_OpenTK_Graphics_ES11_All_OpenTK_Graphics_ES11_All_int_System_AsyncCallback_object
 
-LDIFF_SYM2793=Lme_251 - wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___All_All_All_int_AsyncCallback_object_OpenTK_Graphics_ES11_All_OpenTK_Graphics_ES11_All_OpenTK_Graphics_ES11_All_int_System_AsyncCallback_object
-	.long LDIFF_SYM2793
+LDIFF_SYM2791=Lme_250 - wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___All_All_All_int_AsyncCallback_object_OpenTK_Graphics_ES11_All_OpenTK_Graphics_ES11_All_OpenTK_Graphics_ES11_All_int_System_AsyncCallback_object
+	.long LDIFF_SYM2791
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,152,10,153,9
 	.align 3
-Lfde432_end:
+Lfde431_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -60090,66 +59911,66 @@ Lfde432_end:
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke__Module_invoke_void_int_int__int_int__0
-	.quad Lme_252
+	.quad Lme_251
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2794=LTDIE_139_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2794
+LDIFF_SYM2792=LTDIE_139_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2792
 	.byte 1,104,3
 	.asciz "param0"
 
-LDIFF_SYM2795=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2795
+LDIFF_SYM2793=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2793
 	.byte 1,105,3
 	.asciz "param1"
 
-LDIFF_SYM2796=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2796
+LDIFF_SYM2794=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2794
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2797=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2797
+LDIFF_SYM2795=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2795
 	.byte 1,102,11
 	.asciz "V_1"
 
-LDIFF_SYM2798=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2798
+LDIFF_SYM2796=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2796
 	.byte 1,104,11
 	.asciz "V_2"
 
-LDIFF_SYM2799=LTDIE_126_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2799
+LDIFF_SYM2797=LTDIE_126_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2797
 	.byte 1,103,11
 	.asciz "V_3"
 
-LDIFF_SYM2800=LTDIE_35_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2800
+LDIFF_SYM2798=LTDIE_35_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2798
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM2801=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2801
+LDIFF_SYM2799=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2799
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2802=Lfde433_end - Lfde433_start
-	.long LDIFF_SYM2802
-Lfde433_start:
+LDIFF_SYM2800=Lfde432_end - Lfde432_start
+	.long LDIFF_SYM2800
+Lfde432_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke__Module_invoke_void_int_int__int_int__0
 
-LDIFF_SYM2803=Lme_252 - wrapper_delegate_invoke__Module_invoke_void_int_int__int_int__0
-	.long LDIFF_SYM2803
+LDIFF_SYM2801=Lme_251 - wrapper_delegate_invoke__Module_invoke_void_int_int__int_int__0
+	.long LDIFF_SYM2801
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,149,8,150,7,68,151,6,152,5,68,153,4,154,3
 	.align 3
-Lfde433_end:
+Lfde432_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -60159,61 +59980,61 @@ Lfde433_end:
 
 	.byte 0,0
 	.quad wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___int_int__AsyncCallback_object_int_int__System_AsyncCallback_object_0
-	.quad Lme_253
+	.quad Lme_252
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2804=LTDIE_139_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2804
+LDIFF_SYM2802=LTDIE_139_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2802
 	.byte 2,141,32,3
 	.asciz "param0"
 
-LDIFF_SYM2805=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2805
+LDIFF_SYM2803=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2803
 	.byte 2,141,40,3
 	.asciz "param1"
 
-LDIFF_SYM2806=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2806
+LDIFF_SYM2804=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2804
 	.byte 2,141,48,3
 	.asciz "param2"
 
-LDIFF_SYM2807=LTDIE_140_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2807
+LDIFF_SYM2805=LTDIE_140_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2805
 	.byte 2,141,56,3
 	.asciz "param3"
 
-LDIFF_SYM2808=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2808
+LDIFF_SYM2806=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2806
 	.byte 3,141,192,0,11
 	.asciz "V_0"
 
-LDIFF_SYM2809=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2809
+LDIFF_SYM2807=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2807
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM2810=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2810
+LDIFF_SYM2808=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2808
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2811=Lfde434_end - Lfde434_start
-	.long LDIFF_SYM2811
-Lfde434_start:
+LDIFF_SYM2809=Lfde433_end - Lfde433_start
+	.long LDIFF_SYM2809
+Lfde433_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___int_int__AsyncCallback_object_int_int__System_AsyncCallback_object_0
 
-LDIFF_SYM2812=Lme_253 - wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___int_int__AsyncCallback_object_int_int__System_AsyncCallback_object_0
-	.long LDIFF_SYM2812
+LDIFF_SYM2810=Lme_252 - wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___int_int__AsyncCallback_object_int_int__System_AsyncCallback_object_0
+	.long LDIFF_SYM2810
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,152,8,153,7
 	.align 3
-Lfde434_end:
+Lfde433_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -60223,51 +60044,51 @@ Lfde434_end:
 
 	.byte 0,0
 	.quad wrapper_delegate_end_invoke__Module_end_invoke_void__this___int__IAsyncResult_int__System_IAsyncResult_0
-	.quad Lme_254
+	.quad Lme_253
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2813=LTDIE_139_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2813
+LDIFF_SYM2811=LTDIE_139_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2811
 	.byte 2,141,32,3
 	.asciz "param0"
 
-LDIFF_SYM2814=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2814
+LDIFF_SYM2812=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2812
 	.byte 2,141,40,3
 	.asciz "param1"
 
-LDIFF_SYM2815=LTDIE_141_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2815
+LDIFF_SYM2813=LTDIE_141_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2813
 	.byte 2,141,48,11
 	.asciz "V_0"
 
-LDIFF_SYM2816=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2816
+LDIFF_SYM2814=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2814
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM2817=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2817
+LDIFF_SYM2815=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2815
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2818=Lfde435_end - Lfde435_start
-	.long LDIFF_SYM2818
-Lfde435_start:
+LDIFF_SYM2816=Lfde434_end - Lfde434_start
+	.long LDIFF_SYM2816
+Lfde434_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_end_invoke__Module_end_invoke_void__this___int__IAsyncResult_int__System_IAsyncResult_0
 
-LDIFF_SYM2819=Lme_254 - wrapper_delegate_end_invoke__Module_end_invoke_void__this___int__IAsyncResult_int__System_IAsyncResult_0
-	.long LDIFF_SYM2819
+LDIFF_SYM2817=Lme_253 - wrapper_delegate_end_invoke__Module_end_invoke_void__this___int__IAsyncResult_int__System_IAsyncResult_0
+	.long LDIFF_SYM2817
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,152,6,153,5
 	.align 3
-Lfde435_end:
+Lfde434_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -60277,66 +60098,66 @@ Lfde435_end:
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke__Module_invoke_void_All_int__OpenTK_Graphics_ES11_All_int_
-	.quad Lme_255
+	.quad Lme_254
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2820=LTDIE_139_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2820
+LDIFF_SYM2818=LTDIE_139_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2818
 	.byte 1,104,3
 	.asciz "param0"
 
-LDIFF_SYM2821=LTDIE_76 - Ldebug_info_start
-	.long LDIFF_SYM2821
+LDIFF_SYM2819=LTDIE_76 - Ldebug_info_start
+	.long LDIFF_SYM2819
 	.byte 1,105,3
 	.asciz "param1"
 
-LDIFF_SYM2822=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2822
+LDIFF_SYM2820=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2820
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2823=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2823
+LDIFF_SYM2821=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2821
 	.byte 1,102,11
 	.asciz "V_1"
 
-LDIFF_SYM2824=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2824
+LDIFF_SYM2822=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2822
 	.byte 1,104,11
 	.asciz "V_2"
 
-LDIFF_SYM2825=LTDIE_126_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2825
+LDIFF_SYM2823=LTDIE_126_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2823
 	.byte 1,103,11
 	.asciz "V_3"
 
-LDIFF_SYM2826=LTDIE_35_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2826
+LDIFF_SYM2824=LTDIE_35_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2824
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM2827=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2827
+LDIFF_SYM2825=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2825
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2828=Lfde436_end - Lfde436_start
-	.long LDIFF_SYM2828
-Lfde436_start:
+LDIFF_SYM2826=Lfde435_end - Lfde435_start
+	.long LDIFF_SYM2826
+Lfde435_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke__Module_invoke_void_All_int__OpenTK_Graphics_ES11_All_int_
 
-LDIFF_SYM2829=Lme_255 - wrapper_delegate_invoke__Module_invoke_void_All_int__OpenTK_Graphics_ES11_All_int_
-	.long LDIFF_SYM2829
+LDIFF_SYM2827=Lme_254 - wrapper_delegate_invoke__Module_invoke_void_All_int__OpenTK_Graphics_ES11_All_int_
+	.long LDIFF_SYM2827
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,149,8,150,7,68,151,6,152,5,68,153,4,154,3
 	.align 3
-Lfde436_end:
+Lfde435_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -60346,61 +60167,61 @@ Lfde436_end:
 
 	.byte 0,0
 	.quad wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___All_int__AsyncCallback_object_OpenTK_Graphics_ES11_All_int__System_AsyncCallback_object
-	.quad Lme_256
+	.quad Lme_255
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2830=LTDIE_139_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2830
+LDIFF_SYM2828=LTDIE_139_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2828
 	.byte 2,141,32,3
 	.asciz "param0"
 
-LDIFF_SYM2831=LTDIE_76 - Ldebug_info_start
-	.long LDIFF_SYM2831
+LDIFF_SYM2829=LTDIE_76 - Ldebug_info_start
+	.long LDIFF_SYM2829
 	.byte 2,141,40,3
 	.asciz "param1"
 
-LDIFF_SYM2832=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2832
+LDIFF_SYM2830=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2830
 	.byte 2,141,48,3
 	.asciz "param2"
 
-LDIFF_SYM2833=LTDIE_140_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2833
+LDIFF_SYM2831=LTDIE_140_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2831
 	.byte 2,141,56,3
 	.asciz "param3"
 
-LDIFF_SYM2834=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2834
+LDIFF_SYM2832=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2832
 	.byte 3,141,192,0,11
 	.asciz "V_0"
 
-LDIFF_SYM2835=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2835
+LDIFF_SYM2833=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2833
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM2836=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2836
+LDIFF_SYM2834=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2834
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2837=Lfde437_end - Lfde437_start
-	.long LDIFF_SYM2837
-Lfde437_start:
+LDIFF_SYM2835=Lfde436_end - Lfde436_start
+	.long LDIFF_SYM2835
+Lfde436_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___All_int__AsyncCallback_object_OpenTK_Graphics_ES11_All_int__System_AsyncCallback_object
 
-LDIFF_SYM2838=Lme_256 - wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___All_int__AsyncCallback_object_OpenTK_Graphics_ES11_All_int__System_AsyncCallback_object
-	.long LDIFF_SYM2838
+LDIFF_SYM2836=Lme_255 - wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___All_int__AsyncCallback_object_OpenTK_Graphics_ES11_All_int__System_AsyncCallback_object
+	.long LDIFF_SYM2836
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,152,8,153,7
 	.align 3
-Lfde437_end:
+Lfde436_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -60410,77 +60231,77 @@ Lfde437_end:
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke__Module_invoke_void_int_int_int_int_int_int_int_int
-	.quad Lme_257
+	.quad Lme_256
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2839=LTDIE_139_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2839
+LDIFF_SYM2837=LTDIE_139_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2837
 	.byte 1,102,3
 	.asciz "param0"
 
-LDIFF_SYM2840=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2840
+LDIFF_SYM2838=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2838
 	.byte 1,103,3
 	.asciz "param1"
 
-LDIFF_SYM2841=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2841
+LDIFF_SYM2839=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2839
 	.byte 1,104,3
 	.asciz "param2"
 
-LDIFF_SYM2842=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2842
+LDIFF_SYM2840=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2840
 	.byte 1,105,3
 	.asciz "param3"
 
-LDIFF_SYM2843=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2843
+LDIFF_SYM2841=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2841
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2844=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2844
+LDIFF_SYM2842=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2842
 	.byte 1,100,11
 	.asciz "V_1"
 
-LDIFF_SYM2845=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2845
+LDIFF_SYM2843=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2843
 	.byte 1,102,11
 	.asciz "V_2"
 
-LDIFF_SYM2846=LTDIE_126_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2846
+LDIFF_SYM2844=LTDIE_126_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2844
 	.byte 1,101,11
 	.asciz "V_3"
 
-LDIFF_SYM2847=LTDIE_35_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2847
+LDIFF_SYM2845=LTDIE_35_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2845
 	.byte 1,99,11
 	.asciz "V_4"
 
-LDIFF_SYM2848=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2848
+LDIFF_SYM2846=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2846
 	.byte 1,101,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2849=Lfde438_end - Lfde438_start
-	.long LDIFF_SYM2849
-Lfde438_start:
+LDIFF_SYM2847=Lfde437_end - Lfde437_start
+	.long LDIFF_SYM2847
+Lfde437_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke__Module_invoke_void_int_int_int_int_int_int_int_int
 
-LDIFF_SYM2850=Lme_257 - wrapper_delegate_invoke__Module_invoke_void_int_int_int_int_int_int_int_int
-	.long LDIFF_SYM2850
+LDIFF_SYM2848=Lme_256 - wrapper_delegate_invoke__Module_invoke_void_int_int_int_int_int_int_int_int
+	.long LDIFF_SYM2848
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,147,10,148,9,68,149,8,150,7,68,151,6,152,5,68,153,4,154
 	.byte 3
 	.align 3
-Lfde438_end:
+Lfde437_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -60490,71 +60311,71 @@ Lfde438_end:
 
 	.byte 0,0
 	.quad wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___int_int_int_int_AsyncCallback_object_int_int_int_int_System_AsyncCallback_object
-	.quad Lme_258
+	.quad Lme_257
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2851=LTDIE_139_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2851
+LDIFF_SYM2849=LTDIE_139_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2849
 	.byte 2,141,32,3
 	.asciz "param0"
 
-LDIFF_SYM2852=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2852
+LDIFF_SYM2850=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2850
 	.byte 2,141,40,3
 	.asciz "param1"
 
-LDIFF_SYM2853=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2853
+LDIFF_SYM2851=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2851
 	.byte 2,141,48,3
 	.asciz "param2"
 
-LDIFF_SYM2854=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2854
+LDIFF_SYM2852=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2852
 	.byte 2,141,56,3
 	.asciz "param3"
 
-LDIFF_SYM2855=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2855
+LDIFF_SYM2853=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2853
 	.byte 3,141,192,0,3
 	.asciz "param4"
 
-LDIFF_SYM2856=LTDIE_140_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2856
+LDIFF_SYM2854=LTDIE_140_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2854
 	.byte 3,141,200,0,3
 	.asciz "param5"
 
-LDIFF_SYM2857=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2857
+LDIFF_SYM2855=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2855
 	.byte 3,141,208,0,11
 	.asciz "V_0"
 
-LDIFF_SYM2858=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2858
+LDIFF_SYM2856=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2856
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM2859=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2859
+LDIFF_SYM2857=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2857
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2860=Lfde439_end - Lfde439_start
-	.long LDIFF_SYM2860
-Lfde439_start:
+LDIFF_SYM2858=Lfde438_end - Lfde438_start
+	.long LDIFF_SYM2858
+Lfde438_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___int_int_int_int_AsyncCallback_object_int_int_int_int_System_AsyncCallback_object
 
-LDIFF_SYM2861=Lme_258 - wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___int_int_int_int_AsyncCallback_object_int_int_int_int_System_AsyncCallback_object
-	.long LDIFF_SYM2861
+LDIFF_SYM2859=Lme_257 - wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___int_int_int_int_AsyncCallback_object_int_int_int_int_System_AsyncCallback_object
+	.long LDIFF_SYM2859
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,152,10,153,9
 	.align 3
-Lfde439_end:
+Lfde438_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -60564,71 +60385,71 @@ Lfde439_end:
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke__Module_invoke_void_All_All_int__OpenTK_Graphics_ES11_All_OpenTK_Graphics_ES11_All_int_
-	.quad Lme_259
+	.quad Lme_258
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2862=LTDIE_139_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2862
+LDIFF_SYM2860=LTDIE_139_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2860
 	.byte 1,103,3
 	.asciz "param0"
 
-LDIFF_SYM2863=LTDIE_76 - Ldebug_info_start
-	.long LDIFF_SYM2863
+LDIFF_SYM2861=LTDIE_76 - Ldebug_info_start
+	.long LDIFF_SYM2861
 	.byte 1,104,3
 	.asciz "param1"
 
-LDIFF_SYM2864=LTDIE_76 - Ldebug_info_start
-	.long LDIFF_SYM2864
+LDIFF_SYM2862=LTDIE_76 - Ldebug_info_start
+	.long LDIFF_SYM2862
 	.byte 1,105,3
 	.asciz "param2"
 
-LDIFF_SYM2865=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2865
+LDIFF_SYM2863=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2863
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2866=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2866
+LDIFF_SYM2864=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2864
 	.byte 1,101,11
 	.asciz "V_1"
 
-LDIFF_SYM2867=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2867
+LDIFF_SYM2865=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2865
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM2868=LTDIE_126_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2868
+LDIFF_SYM2866=LTDIE_126_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2866
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM2869=LTDIE_35_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2869
+LDIFF_SYM2867=LTDIE_35_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2867
 	.byte 1,100,11
 	.asciz "V_4"
 
-LDIFF_SYM2870=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2870
+LDIFF_SYM2868=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2868
 	.byte 1,102,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2871=Lfde440_end - Lfde440_start
-	.long LDIFF_SYM2871
-Lfde440_start:
+LDIFF_SYM2869=Lfde439_end - Lfde439_start
+	.long LDIFF_SYM2869
+Lfde439_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke__Module_invoke_void_All_All_int__OpenTK_Graphics_ES11_All_OpenTK_Graphics_ES11_All_int_
 
-LDIFF_SYM2872=Lme_259 - wrapper_delegate_invoke__Module_invoke_void_All_All_int__OpenTK_Graphics_ES11_All_OpenTK_Graphics_ES11_All_int_
-	.long LDIFF_SYM2872
+LDIFF_SYM2870=Lme_258 - wrapper_delegate_invoke__Module_invoke_void_All_All_int__OpenTK_Graphics_ES11_All_OpenTK_Graphics_ES11_All_int_
+	.long LDIFF_SYM2870
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,148,10,149,9,68,150,8,151,7,68,152,6,153,5,68,154,4
 	.align 3
-Lfde440_end:
+Lfde439_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -60638,66 +60459,66 @@ Lfde440_end:
 
 	.byte 0,0
 	.quad wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___All_All_int__AsyncCallback_object_OpenTK_Graphics_ES11_All_OpenTK_Graphics_ES11_All_int__System_AsyncCallback_object
-	.quad Lme_25a
+	.quad Lme_259
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2873=LTDIE_139_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2873
+LDIFF_SYM2871=LTDIE_139_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2871
 	.byte 2,141,32,3
 	.asciz "param0"
 
-LDIFF_SYM2874=LTDIE_76 - Ldebug_info_start
-	.long LDIFF_SYM2874
+LDIFF_SYM2872=LTDIE_76 - Ldebug_info_start
+	.long LDIFF_SYM2872
 	.byte 2,141,40,3
 	.asciz "param1"
 
-LDIFF_SYM2875=LTDIE_76 - Ldebug_info_start
-	.long LDIFF_SYM2875
+LDIFF_SYM2873=LTDIE_76 - Ldebug_info_start
+	.long LDIFF_SYM2873
 	.byte 2,141,48,3
 	.asciz "param2"
 
-LDIFF_SYM2876=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2876
+LDIFF_SYM2874=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2874
 	.byte 2,141,56,3
 	.asciz "param3"
 
-LDIFF_SYM2877=LTDIE_140_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2877
+LDIFF_SYM2875=LTDIE_140_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2875
 	.byte 3,141,192,0,3
 	.asciz "param4"
 
-LDIFF_SYM2878=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2878
+LDIFF_SYM2876=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2876
 	.byte 3,141,200,0,11
 	.asciz "V_0"
 
-LDIFF_SYM2879=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2879
+LDIFF_SYM2877=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2877
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM2880=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2880
+LDIFF_SYM2878=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2878
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2881=Lfde441_end - Lfde441_start
-	.long LDIFF_SYM2881
-Lfde441_start:
+LDIFF_SYM2879=Lfde440_end - Lfde440_start
+	.long LDIFF_SYM2879
+Lfde440_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___All_All_int__AsyncCallback_object_OpenTK_Graphics_ES11_All_OpenTK_Graphics_ES11_All_int__System_AsyncCallback_object
 
-LDIFF_SYM2882=Lme_25a - wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___All_All_int__AsyncCallback_object_OpenTK_Graphics_ES11_All_OpenTK_Graphics_ES11_All_int__System_AsyncCallback_object
-	.long LDIFF_SYM2882
+LDIFF_SYM2880=Lme_259 - wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___All_All_int__AsyncCallback_object_OpenTK_Graphics_ES11_All_OpenTK_Graphics_ES11_All_int__System_AsyncCallback_object
+	.long LDIFF_SYM2880
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,152,8,153,7
 	.align 3
-Lfde441_end:
+Lfde440_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -60707,91 +60528,91 @@ Lfde441_end:
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke__Module_invoke_void_int_int_int_int_All_All_byte___int_int_int_int_OpenTK_Graphics_ES11_All_OpenTK_Graphics_ES11_All_byte__
-	.quad Lme_25b
+	.quad Lme_25a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2883=LTDIE_139_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2883
+LDIFF_SYM2881=LTDIE_139_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2881
 	.byte 1,99,3
 	.asciz "param0"
 
-LDIFF_SYM2884=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2884
+LDIFF_SYM2882=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2882
 	.byte 1,100,3
 	.asciz "param1"
 
-LDIFF_SYM2885=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2885
+LDIFF_SYM2883=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2883
 	.byte 1,101,3
 	.asciz "param2"
 
-LDIFF_SYM2886=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2886
+LDIFF_SYM2884=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2884
 	.byte 1,102,3
 	.asciz "param3"
 
-LDIFF_SYM2887=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2887
+LDIFF_SYM2885=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2885
 	.byte 1,103,3
 	.asciz "param4"
 
-LDIFF_SYM2888=LTDIE_76 - Ldebug_info_start
-	.long LDIFF_SYM2888
+LDIFF_SYM2886=LTDIE_76 - Ldebug_info_start
+	.long LDIFF_SYM2886
 	.byte 1,104,3
 	.asciz "param5"
 
-LDIFF_SYM2889=LTDIE_76 - Ldebug_info_start
-	.long LDIFF_SYM2889
+LDIFF_SYM2887=LTDIE_76 - Ldebug_info_start
+	.long LDIFF_SYM2887
 	.byte 3,141,200,0,3
 	.asciz "param6"
 
-LDIFF_SYM2890=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM2890
+LDIFF_SYM2888=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM2888
 	.byte 3,141,208,0,11
 	.asciz "V_0"
 
-LDIFF_SYM2891=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2891
+LDIFF_SYM2889=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2889
 	.byte 1,99,11
 	.asciz "V_1"
 
-LDIFF_SYM2892=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2892
+LDIFF_SYM2890=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2890
 	.byte 1,106,11
 	.asciz "V_2"
 
-LDIFF_SYM2893=LTDIE_126_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2893
+LDIFF_SYM2891=LTDIE_126_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2891
 	.byte 3,141,216,0,11
 	.asciz "V_3"
 
-LDIFF_SYM2894=LTDIE_35_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2894
+LDIFF_SYM2892=LTDIE_35_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2892
 	.byte 3,141,224,0,11
 	.asciz "V_4"
 
-LDIFF_SYM2895=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2895
+LDIFF_SYM2893=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2893
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2896=Lfde442_end - Lfde442_start
-	.long LDIFF_SYM2896
-Lfde442_start:
+LDIFF_SYM2894=Lfde441_end - Lfde441_start
+	.long LDIFF_SYM2894
+Lfde441_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke__Module_invoke_void_int_int_int_int_All_All_byte___int_int_int_int_OpenTK_Graphics_ES11_All_OpenTK_Graphics_ES11_All_byte__
 
-LDIFF_SYM2897=Lme_25b - wrapper_delegate_invoke__Module_invoke_void_int_int_int_int_All_All_byte___int_int_int_int_OpenTK_Graphics_ES11_All_OpenTK_Graphics_ES11_All_byte__
-	.long LDIFF_SYM2897
+LDIFF_SYM2895=Lme_25a - wrapper_delegate_invoke__Module_invoke_void_int_int_int_int_All_All_byte___int_int_int_int_OpenTK_Graphics_ES11_All_OpenTK_Graphics_ES11_All_byte__
+	.long LDIFF_SYM2895
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,152,9,68,154,8
 	.align 3
-Lfde442_end:
+Lfde441_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -60801,86 +60622,86 @@ Lfde442_end:
 
 	.byte 0,0
 	.quad wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___int_int_int_int_All_All_byte___AsyncCallback_object_int_int_int_int_OpenTK_Graphics_ES11_All_OpenTK_Graphics_ES11_All_byte___System_AsyncCallback_object
-	.quad Lme_25c
+	.quad Lme_25b
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2898=LTDIE_139_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2898
+LDIFF_SYM2896=LTDIE_139_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2896
 	.byte 2,141,40,3
 	.asciz "param0"
 
-LDIFF_SYM2899=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2899
+LDIFF_SYM2897=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2897
 	.byte 2,141,48,3
 	.asciz "param1"
 
-LDIFF_SYM2900=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2900
+LDIFF_SYM2898=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2898
 	.byte 2,141,56,3
 	.asciz "param2"
 
-LDIFF_SYM2901=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2901
+LDIFF_SYM2899=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2899
 	.byte 3,141,192,0,3
 	.asciz "param3"
 
-LDIFF_SYM2902=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2902
+LDIFF_SYM2900=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2900
 	.byte 3,141,200,0,3
 	.asciz "param4"
 
-LDIFF_SYM2903=LTDIE_76 - Ldebug_info_start
-	.long LDIFF_SYM2903
+LDIFF_SYM2901=LTDIE_76 - Ldebug_info_start
+	.long LDIFF_SYM2901
 	.byte 3,141,208,0,3
 	.asciz "param5"
 
-LDIFF_SYM2904=LTDIE_76 - Ldebug_info_start
-	.long LDIFF_SYM2904
+LDIFF_SYM2902=LTDIE_76 - Ldebug_info_start
+	.long LDIFF_SYM2902
 	.byte 3,141,216,0,3
 	.asciz "param6"
 
-LDIFF_SYM2905=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM2905
+LDIFF_SYM2903=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM2903
 	.byte 3,141,224,0,3
 	.asciz "param7"
 
-LDIFF_SYM2906=LTDIE_140_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2906
+LDIFF_SYM2904=LTDIE_140_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2904
 	.byte 2,140,0,3
 	.asciz "param8"
 
-LDIFF_SYM2907=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2907
+LDIFF_SYM2905=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2905
 	.byte 2,140,8,11
 	.asciz "V_0"
 
-LDIFF_SYM2908=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2908
+LDIFF_SYM2906=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2906
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM2909=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2909
+LDIFF_SYM2907=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2907
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2910=Lfde443_end - Lfde443_start
-	.long LDIFF_SYM2910
-Lfde443_start:
+LDIFF_SYM2908=Lfde442_end - Lfde442_start
+	.long LDIFF_SYM2908
+Lfde442_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___int_int_int_int_All_All_byte___AsyncCallback_object_int_int_int_int_OpenTK_Graphics_ES11_All_OpenTK_Graphics_ES11_All_byte___System_AsyncCallback_object
 
-LDIFF_SYM2911=Lme_25c - wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___int_int_int_int_All_All_byte___AsyncCallback_object_int_int_int_int_OpenTK_Graphics_ES11_All_OpenTK_Graphics_ES11_All_byte___System_AsyncCallback_object
-	.long LDIFF_SYM2911
+LDIFF_SYM2909=Lme_25b - wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___int_int_int_int_All_All_byte___AsyncCallback_object_int_int_int_int_OpenTK_Graphics_ES11_All_OpenTK_Graphics_ES11_All_byte___System_AsyncCallback_object
+	.long LDIFF_SYM2909
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,152,12,153,11,68,156,10
 	.align 3
-Lfde443_end:
+Lfde442_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -60890,52 +60711,52 @@ Lfde443_end:
 
 	.byte 0,0
 	.quad wrapper_managed_to_native_CoreVideo_CVOpenGLESTexture_CFRelease_intptr
-	.quad Lme_25d
+	.quad Lme_25c
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM2912=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2912
+LDIFF_SYM2910=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2910
 	.byte 1,106,11
 	.asciz "V_0"
+
+LDIFF_SYM2911=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2911
+	.byte 0,11
+	.asciz "V_1"
+
+LDIFF_SYM2912=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2912
+	.byte 0,11
+	.asciz "V_2"
 
 LDIFF_SYM2913=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM2913
 	.byte 0,11
-	.asciz "V_1"
-
-LDIFF_SYM2914=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2914
-	.byte 0,11
-	.asciz "V_2"
-
-LDIFF_SYM2915=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2915
-	.byte 0,11
 	.asciz "V_3"
 
-LDIFF_SYM2916=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2916
+LDIFF_SYM2914=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2914
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2917=Lfde444_end - Lfde444_start
-	.long LDIFF_SYM2917
-Lfde444_start:
+LDIFF_SYM2915=Lfde443_end - Lfde443_start
+	.long LDIFF_SYM2915
+Lfde443_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_CoreVideo_CVOpenGLESTexture_CFRelease_intptr
 
-LDIFF_SYM2918=Lme_25d - wrapper_managed_to_native_CoreVideo_CVOpenGLESTexture_CFRelease_intptr
-	.long LDIFF_SYM2918
+LDIFF_SYM2916=Lme_25c - wrapper_managed_to_native_CoreVideo_CVOpenGLESTexture_CFRelease_intptr
+	.long LDIFF_SYM2916
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,76,147,13,148,12,68,149,11,150,10,68,151,9,152,8,68,153,7
 	.byte 154,6,68,155,5,156,4
 	.align 3
-Lfde444_end:
+Lfde443_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_142:
@@ -60944,8 +60765,8 @@ LTDIE_142:
 	.asciz "OpenTK_Graphics_ES20_TextureTarget"
 
 	.byte 4
-LDIFF_SYM2919=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2919
+LDIFF_SYM2917=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2917
 	.byte 9
 	.asciz "Texture2D"
 
@@ -60982,70 +60803,70 @@ LDIFF_SYM2919=LDIE_I4 - Ldebug_info_start
 	.byte 156,138,2,0,7
 	.asciz "OpenTK_Graphics_ES20_TextureTarget"
 
-LDIFF_SYM2920=LTDIE_142 - Ldebug_info_start
-	.long LDIFF_SYM2920
+LDIFF_SYM2918=LTDIE_142 - Ldebug_info_start
+	.long LDIFF_SYM2918
 LTDIE_142_POINTER:
 
 	.byte 13
-LDIFF_SYM2921=LTDIE_142 - Ldebug_info_start
-	.long LDIFF_SYM2921
+LDIFF_SYM2919=LTDIE_142 - Ldebug_info_start
+	.long LDIFF_SYM2919
 LTDIE_142_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2922=LTDIE_142 - Ldebug_info_start
-	.long LDIFF_SYM2922
+LDIFF_SYM2920=LTDIE_142 - Ldebug_info_start
+	.long LDIFF_SYM2920
 	.byte 2
 	.asciz "(wrapper_managed-to-native)_CoreVideo.CVOpenGLESTexture:CVOpenGLESTextureGetTarget"
 	.asciz "wrapper_managed_to_native_CoreVideo_CVOpenGLESTexture_CVOpenGLESTextureGetTarget_intptr"
 
 	.byte 0,0
 	.quad wrapper_managed_to_native_CoreVideo_CVOpenGLESTexture_CVOpenGLESTextureGetTarget_intptr
-	.quad Lme_25e
+	.quad Lme_25d
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM2923=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2923
+LDIFF_SYM2921=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2921
 	.byte 1,106,11
 	.asciz "V_0"
+
+LDIFF_SYM2922=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2922
+	.byte 0,11
+	.asciz "V_1"
+
+LDIFF_SYM2923=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2923
+	.byte 0,11
+	.asciz "V_2"
 
 LDIFF_SYM2924=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM2924
 	.byte 0,11
-	.asciz "V_1"
-
-LDIFF_SYM2925=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2925
-	.byte 0,11
-	.asciz "V_2"
-
-LDIFF_SYM2926=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2926
-	.byte 0,11
 	.asciz "V_3"
 
-LDIFF_SYM2927=LTDIE_142 - Ldebug_info_start
-	.long LDIFF_SYM2927
+LDIFF_SYM2925=LTDIE_142 - Ldebug_info_start
+	.long LDIFF_SYM2925
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2928=Lfde445_end - Lfde445_start
-	.long LDIFF_SYM2928
-Lfde445_start:
+LDIFF_SYM2926=Lfde444_end - Lfde444_start
+	.long LDIFF_SYM2926
+Lfde444_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_CoreVideo_CVOpenGLESTexture_CVOpenGLESTextureGetTarget_intptr
 
-LDIFF_SYM2929=Lme_25e - wrapper_managed_to_native_CoreVideo_CVOpenGLESTexture_CVOpenGLESTextureGetTarget_intptr
-	.long LDIFF_SYM2929
+LDIFF_SYM2927=Lme_25d - wrapper_managed_to_native_CoreVideo_CVOpenGLESTexture_CVOpenGLESTextureGetTarget_intptr
+	.long LDIFF_SYM2927
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,76,147,13,148,12,68,149,11,150,10,68,151,9,152,8,68,153,7
 	.byte 154,6,68,155,5,156,4
 	.align 3
-Lfde445_end:
+Lfde444_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -61055,52 +60876,52 @@ Lfde445_end:
 
 	.byte 0,0
 	.quad wrapper_managed_to_native_CoreVideo_CVOpenGLESTexture_CVOpenGLESTextureGetName_intptr
-	.quad Lme_25f
+	.quad Lme_25e
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM2930=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2930
+LDIFF_SYM2928=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2928
 	.byte 1,106,11
 	.asciz "V_0"
+
+LDIFF_SYM2929=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2929
+	.byte 0,11
+	.asciz "V_1"
+
+LDIFF_SYM2930=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2930
+	.byte 0,11
+	.asciz "V_2"
 
 LDIFF_SYM2931=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM2931
 	.byte 0,11
-	.asciz "V_1"
+	.asciz "V_3"
 
 LDIFF_SYM2932=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM2932
-	.byte 0,11
-	.asciz "V_2"
-
-LDIFF_SYM2933=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2933
-	.byte 0,11
-	.asciz "V_3"
-
-LDIFF_SYM2934=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2934
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2935=Lfde446_end - Lfde446_start
-	.long LDIFF_SYM2935
-Lfde446_start:
+LDIFF_SYM2933=Lfde445_end - Lfde445_start
+	.long LDIFF_SYM2933
+Lfde445_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_CoreVideo_CVOpenGLESTexture_CVOpenGLESTextureGetName_intptr
 
-LDIFF_SYM2936=Lme_25f - wrapper_managed_to_native_CoreVideo_CVOpenGLESTexture_CVOpenGLESTextureGetName_intptr
-	.long LDIFF_SYM2936
+LDIFF_SYM2934=Lme_25e - wrapper_managed_to_native_CoreVideo_CVOpenGLESTexture_CVOpenGLESTextureGetName_intptr
+	.long LDIFF_SYM2934
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,76,147,13,148,12,68,149,11,150,10,68,151,9,152,8,68,153,7
 	.byte 154,6,68,155,5,156,4
 	.align 3
-Lfde446_end:
+Lfde445_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -61110,52 +60931,52 @@ Lfde446_end:
 
 	.byte 0,0
 	.quad wrapper_managed_to_native_CoreVideo_CVOpenGLESTexture_CVOpenGLESTextureIsFlipped_intptr
-	.quad Lme_260
+	.quad Lme_25f
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM2937=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2937
+LDIFF_SYM2935=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2935
 	.byte 1,106,11
 	.asciz "V_0"
+
+LDIFF_SYM2936=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2936
+	.byte 0,11
+	.asciz "V_1"
+
+LDIFF_SYM2937=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2937
+	.byte 0,11
+	.asciz "V_2"
 
 LDIFF_SYM2938=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM2938
 	.byte 0,11
-	.asciz "V_1"
-
-LDIFF_SYM2939=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2939
-	.byte 0,11
-	.asciz "V_2"
-
-LDIFF_SYM2940=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2940
-	.byte 0,11
 	.asciz "V_3"
 
-LDIFF_SYM2941=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2941
+LDIFF_SYM2939=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2939
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2942=Lfde447_end - Lfde447_start
-	.long LDIFF_SYM2942
-Lfde447_start:
+LDIFF_SYM2940=Lfde446_end - Lfde446_start
+	.long LDIFF_SYM2940
+Lfde446_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_CoreVideo_CVOpenGLESTexture_CVOpenGLESTextureIsFlipped_intptr
 
-LDIFF_SYM2943=Lme_260 - wrapper_managed_to_native_CoreVideo_CVOpenGLESTexture_CVOpenGLESTextureIsFlipped_intptr
-	.long LDIFF_SYM2943
+LDIFF_SYM2941=Lme_25f - wrapper_managed_to_native_CoreVideo_CVOpenGLESTexture_CVOpenGLESTextureIsFlipped_intptr
+	.long LDIFF_SYM2941
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,76,147,13,148,12,68,149,11,150,10,68,151,9,152,8,68,153,7
 	.byte 154,6,68,155,5,156,4
 	.align 3
-Lfde447_end:
+Lfde446_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -61165,67 +60986,67 @@ Lfde447_end:
 
 	.byte 0,0
 	.quad wrapper_managed_to_native_CoreVideo_CVOpenGLESTexture_CVOpenGLESTextureGetCleanTexCoords_intptr_intptr_intptr_intptr_intptr
-	.quad Lme_261
+	.quad Lme_260
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM2944=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2944
+LDIFF_SYM2942=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2942
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM2945=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2945
+LDIFF_SYM2943=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2943
 	.byte 2,141,24,3
 	.asciz "param2"
 
-LDIFF_SYM2946=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2946
+LDIFF_SYM2944=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2944
 	.byte 2,141,32,3
 	.asciz "param3"
 
-LDIFF_SYM2947=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2947
+LDIFF_SYM2945=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2945
 	.byte 2,141,40,3
 	.asciz "param4"
 
-LDIFF_SYM2948=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2948
+LDIFF_SYM2946=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2946
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2949=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2949
+LDIFF_SYM2947=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2947
 	.byte 0,11
 	.asciz "V_1"
 
-LDIFF_SYM2950=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2950
+LDIFF_SYM2948=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2948
 	.byte 0,11
 	.asciz "V_2"
 
-LDIFF_SYM2951=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2951
+LDIFF_SYM2949=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2949
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2952=Lfde448_end - Lfde448_start
-	.long LDIFF_SYM2952
-Lfde448_start:
+LDIFF_SYM2950=Lfde447_end - Lfde447_start
+	.long LDIFF_SYM2950
+Lfde447_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_CoreVideo_CVOpenGLESTexture_CVOpenGLESTextureGetCleanTexCoords_intptr_intptr_intptr_intptr_intptr
 
-LDIFF_SYM2953=Lme_261 - wrapper_managed_to_native_CoreVideo_CVOpenGLESTexture_CVOpenGLESTextureGetCleanTexCoords_intptr_intptr_intptr_intptr_intptr
-	.long LDIFF_SYM2953
+LDIFF_SYM2951=Lme_260 - wrapper_managed_to_native_CoreVideo_CVOpenGLESTexture_CVOpenGLESTextureGetCleanTexCoords_intptr_intptr_intptr_intptr_intptr
+	.long LDIFF_SYM2951
 	.long 0
 	.byte 12,31,0,68,14,176,1,157,22,158,21,68,13,29,76,147,13,148,12,68,149,11,150,10,68,151,9,152,8,68,153,7
 	.byte 154,6,68,155,5,156,4
 	.align 3
-Lfde448_end:
+Lfde447_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -61235,72 +61056,72 @@ Lfde448_end:
 
 	.byte 0,0
 	.quad wrapper_managed_to_native_CoreVideo_CVOpenGLESTextureCache_CVOpenGLESTextureCacheCreate_intptr_intptr_intptr_intptr_intptr_
-	.quad Lme_262
+	.quad Lme_261
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM2954=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2954
+LDIFF_SYM2952=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2952
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM2955=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2955
+LDIFF_SYM2953=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2953
 	.byte 2,141,24,3
 	.asciz "param2"
 
-LDIFF_SYM2956=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2956
+LDIFF_SYM2954=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2954
 	.byte 2,141,32,3
 	.asciz "param3"
 
-LDIFF_SYM2957=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2957
+LDIFF_SYM2955=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2955
 	.byte 1,105,3
 	.asciz "param4"
 
-LDIFF_SYM2958=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2958
+LDIFF_SYM2956=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2956
 	.byte 1,106,11
 	.asciz "V_0"
+
+LDIFF_SYM2957=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2957
+	.byte 0,11
+	.asciz "V_1"
+
+LDIFF_SYM2958=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2958
+	.byte 0,11
+	.asciz "V_2"
 
 LDIFF_SYM2959=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM2959
 	.byte 0,11
-	.asciz "V_1"
+	.asciz "V_3"
 
 LDIFF_SYM2960=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM2960
-	.byte 0,11
-	.asciz "V_2"
-
-LDIFF_SYM2961=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2961
-	.byte 0,11
-	.asciz "V_3"
-
-LDIFF_SYM2962=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2962
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2963=Lfde449_end - Lfde449_start
-	.long LDIFF_SYM2963
-Lfde449_start:
+LDIFF_SYM2961=Lfde448_end - Lfde448_start
+	.long LDIFF_SYM2961
+Lfde448_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_CoreVideo_CVOpenGLESTextureCache_CVOpenGLESTextureCacheCreate_intptr_intptr_intptr_intptr_intptr_
 
-LDIFF_SYM2964=Lme_262 - wrapper_managed_to_native_CoreVideo_CVOpenGLESTextureCache_CVOpenGLESTextureCacheCreate_intptr_intptr_intptr_intptr_intptr_
-	.long LDIFF_SYM2964
+LDIFF_SYM2962=Lme_261 - wrapper_managed_to_native_CoreVideo_CVOpenGLESTextureCache_CVOpenGLESTextureCacheCreate_intptr_intptr_intptr_intptr_intptr_
+	.long LDIFF_SYM2962
 	.long 0
 	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,76,147,12,148,11,68,149,10,150,9,68,151,8,152,7,68,153,6
 	.byte 154,5,68,155,4,156,3
 	.align 3
-Lfde449_end:
+Lfde448_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -61310,52 +61131,52 @@ Lfde449_end:
 
 	.byte 0,0
 	.quad wrapper_managed_to_native_CoreVideo_CVOpenGLESTextureCache_CVOpenGLESTextureCacheFlush_intptr_CoreVideo_CVOptionFlags
-	.quad Lme_263
+	.quad Lme_262
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM2965=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2965
+LDIFF_SYM2963=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2963
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM2966=LTDIE_19 - Ldebug_info_start
-	.long LDIFF_SYM2966
+LDIFF_SYM2964=LTDIE_19 - Ldebug_info_start
+	.long LDIFF_SYM2964
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2967=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2967
+LDIFF_SYM2965=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2965
 	.byte 0,11
 	.asciz "V_1"
 
-LDIFF_SYM2968=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2968
+LDIFF_SYM2966=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2966
 	.byte 0,11
 	.asciz "V_2"
 
-LDIFF_SYM2969=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2969
+LDIFF_SYM2967=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2967
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2970=Lfde450_end - Lfde450_start
-	.long LDIFF_SYM2970
-Lfde450_start:
+LDIFF_SYM2968=Lfde449_end - Lfde449_start
+	.long LDIFF_SYM2968
+Lfde449_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_CoreVideo_CVOpenGLESTextureCache_CVOpenGLESTextureCacheFlush_intptr_CoreVideo_CVOptionFlags
 
-LDIFF_SYM2971=Lme_263 - wrapper_managed_to_native_CoreVideo_CVOpenGLESTextureCache_CVOpenGLESTextureCacheFlush_intptr_CoreVideo_CVOptionFlags
-	.long LDIFF_SYM2971
+LDIFF_SYM2969=Lme_262 - wrapper_managed_to_native_CoreVideo_CVOpenGLESTextureCache_CVOpenGLESTextureCacheFlush_intptr_CoreVideo_CVOptionFlags
+	.long LDIFF_SYM2969
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,76,147,12,148,11,68,149,10,150,9,68,151,8,152,7,68,153,6
 	.byte 154,5,68,155,4,156,3
 	.align 3
-Lfde450_end:
+Lfde449_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_143:
@@ -61364,8 +61185,8 @@ LTDIE_143:
 	.asciz "CoreVideo_CVReturn"
 
 	.byte 4
-LDIFF_SYM2972=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2972
+LDIFF_SYM2970=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2970
 	.byte 9
 	.asciz "Success"
 
@@ -61429,125 +61250,125 @@ LDIFF_SYM2972=LDIE_I4 - Ldebug_info_start
 	.byte 213,203,255,255,15,0,7
 	.asciz "CoreVideo_CVReturn"
 
-LDIFF_SYM2973=LTDIE_143 - Ldebug_info_start
-	.long LDIFF_SYM2973
+LDIFF_SYM2971=LTDIE_143 - Ldebug_info_start
+	.long LDIFF_SYM2971
 LTDIE_143_POINTER:
 
 	.byte 13
-LDIFF_SYM2974=LTDIE_143 - Ldebug_info_start
-	.long LDIFF_SYM2974
+LDIFF_SYM2972=LTDIE_143 - Ldebug_info_start
+	.long LDIFF_SYM2972
 LTDIE_143_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2975=LTDIE_143 - Ldebug_info_start
-	.long LDIFF_SYM2975
+LDIFF_SYM2973=LTDIE_143 - Ldebug_info_start
+	.long LDIFF_SYM2973
 	.byte 2
 	.asciz "(wrapper_managed-to-native)_CoreVideo.CVOpenGLESTextureCache:CVOpenGLESTextureCacheCreateTextureFromImage"
 	.asciz "wrapper_managed_to_native_CoreVideo_CVOpenGLESTextureCache_CVOpenGLESTextureCacheCreateTextureFromImage_intptr_intptr_intptr_intptr_int_OpenTK_Graphics_ES20_All_int_int_OpenTK_Graphics_ES20_All_OpenTK_Graphics_ES20_DataType_intptr_intptr_"
 
 	.byte 0,0
 	.quad wrapper_managed_to_native_CoreVideo_CVOpenGLESTextureCache_CVOpenGLESTextureCacheCreateTextureFromImage_intptr_intptr_intptr_intptr_int_OpenTK_Graphics_ES20_All_int_int_OpenTK_Graphics_ES20_All_OpenTK_Graphics_ES20_DataType_intptr_intptr_
-	.quad Lme_264
+	.quad Lme_263
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM2976=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2976
+LDIFF_SYM2974=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2974
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM2977=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2977
+LDIFF_SYM2975=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2975
 	.byte 2,141,24,3
 	.asciz "param2"
 
-LDIFF_SYM2978=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2978
+LDIFF_SYM2976=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2976
 	.byte 2,141,32,3
 	.asciz "param3"
 
-LDIFF_SYM2979=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2979
+LDIFF_SYM2977=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2977
 	.byte 2,141,40,3
 	.asciz "param4"
 
-LDIFF_SYM2980=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2980
+LDIFF_SYM2978=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2978
 	.byte 2,141,48,3
 	.asciz "param5"
 
-LDIFF_SYM2981=LTDIE_16 - Ldebug_info_start
-	.long LDIFF_SYM2981
+LDIFF_SYM2979=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM2979
 	.byte 2,141,56,3
 	.asciz "param6"
 
-LDIFF_SYM2982=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2982
+LDIFF_SYM2980=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2980
 	.byte 3,141,192,0,3
 	.asciz "param7"
 
-LDIFF_SYM2983=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2983
+LDIFF_SYM2981=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2981
 	.byte 3,141,200,0,3
 	.asciz "param8"
 
-LDIFF_SYM2984=LTDIE_16 - Ldebug_info_start
-	.long LDIFF_SYM2984
+LDIFF_SYM2982=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM2982
 	.byte 2,140,0,3
 	.asciz "param9"
 
-LDIFF_SYM2985=LTDIE_17 - Ldebug_info_start
-	.long LDIFF_SYM2985
+LDIFF_SYM2983=LTDIE_17 - Ldebug_info_start
+	.long LDIFF_SYM2983
 	.byte 2,140,4,3
 	.asciz "param10"
 
-LDIFF_SYM2986=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2986
+LDIFF_SYM2984=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2984
 	.byte 1,105,3
 	.asciz "param11"
 
-LDIFF_SYM2987=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2987
+LDIFF_SYM2985=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2985
 	.byte 2,140,16,11
 	.asciz "V_0"
+
+LDIFF_SYM2986=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2986
+	.byte 0,11
+	.asciz "V_1"
+
+LDIFF_SYM2987=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2987
+	.byte 0,11
+	.asciz "V_2"
 
 LDIFF_SYM2988=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM2988
 	.byte 0,11
-	.asciz "V_1"
-
-LDIFF_SYM2989=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2989
-	.byte 0,11
-	.asciz "V_2"
-
-LDIFF_SYM2990=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2990
-	.byte 0,11
 	.asciz "V_3"
 
-LDIFF_SYM2991=LTDIE_143 - Ldebug_info_start
-	.long LDIFF_SYM2991
+LDIFF_SYM2989=LTDIE_143 - Ldebug_info_start
+	.long LDIFF_SYM2989
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2992=Lfde451_end - Lfde451_start
-	.long LDIFF_SYM2992
-Lfde451_start:
+LDIFF_SYM2990=Lfde450_end - Lfde450_start
+	.long LDIFF_SYM2990
+Lfde450_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_CoreVideo_CVOpenGLESTextureCache_CVOpenGLESTextureCacheCreateTextureFromImage_intptr_intptr_intptr_intptr_int_OpenTK_Graphics_ES20_All_int_int_OpenTK_Graphics_ES20_All_OpenTK_Graphics_ES20_DataType_intptr_intptr_
 
-LDIFF_SYM2993=Lme_264 - wrapper_managed_to_native_CoreVideo_CVOpenGLESTextureCache_CVOpenGLESTextureCacheCreateTextureFromImage_intptr_intptr_intptr_intptr_int_OpenTK_Graphics_ES20_All_int_int_OpenTK_Graphics_ES20_All_OpenTK_Graphics_ES20_DataType_intptr_intptr_
-	.long LDIFF_SYM2993
+LDIFF_SYM2991=Lme_263 - wrapper_managed_to_native_CoreVideo_CVOpenGLESTextureCache_CVOpenGLESTextureCacheCreateTextureFromImage_intptr_intptr_intptr_intptr_int_OpenTK_Graphics_ES20_All_int_int_OpenTK_Graphics_ES20_All_OpenTK_Graphics_ES20_DataType_intptr_intptr_
+	.long LDIFF_SYM2991
 	.long 0
 	.byte 12,31,0,68,14,208,1,157,26,158,25,68,13,29,92,147,13,148,12,68,149,11,150,10,68,151,9,152,8,68,153,7
 	.byte 154,6,68,155,5,156,4
 	.align 3
-Lfde451_end:
+Lfde450_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_144:
@@ -61556,80 +61377,80 @@ LTDIE_144:
 	.asciz "System_UInt32"
 
 	.byte 20,16
-LDIFF_SYM2994=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM2994
+LDIFF_SYM2992=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM2992
 	.byte 2,35,0,6
 	.asciz "m_value"
 
-LDIFF_SYM2995=LDIE_U4 - Ldebug_info_start
-	.long LDIFF_SYM2995
+LDIFF_SYM2993=LDIE_U4 - Ldebug_info_start
+	.long LDIFF_SYM2993
 	.byte 2,35,16,0,7
 	.asciz "System_UInt32"
 
-LDIFF_SYM2996=LTDIE_144 - Ldebug_info_start
-	.long LDIFF_SYM2996
+LDIFF_SYM2994=LTDIE_144 - Ldebug_info_start
+	.long LDIFF_SYM2994
 LTDIE_144_POINTER:
 
 	.byte 13
-LDIFF_SYM2997=LTDIE_144 - Ldebug_info_start
-	.long LDIFF_SYM2997
+LDIFF_SYM2995=LTDIE_144 - Ldebug_info_start
+	.long LDIFF_SYM2995
 LTDIE_144_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2998=LTDIE_144 - Ldebug_info_start
-	.long LDIFF_SYM2998
+LDIFF_SYM2996=LTDIE_144 - Ldebug_info_start
+	.long LDIFF_SYM2996
 	.byte 2
 	.asciz "(wrapper_managed-to-native)_OpenTK.Graphics.ES30.GL/Core:BindFramebuffer"
 	.asciz "wrapper_managed_to_native_OpenTK_Graphics_ES30_GL_Core_BindFramebuffer_OpenTK_Graphics_ES30_FramebufferTarget_uint"
 
 	.byte 0,0
 	.quad wrapper_managed_to_native_OpenTK_Graphics_ES30_GL_Core_BindFramebuffer_OpenTK_Graphics_ES30_FramebufferTarget_uint
-	.quad Lme_265
+	.quad Lme_264
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM2999=LTDIE_60 - Ldebug_info_start
-	.long LDIFF_SYM2999
+LDIFF_SYM2997=LTDIE_60 - Ldebug_info_start
+	.long LDIFF_SYM2997
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM3000=LDIE_U4 - Ldebug_info_start
-	.long LDIFF_SYM3000
+LDIFF_SYM2998=LDIE_U4 - Ldebug_info_start
+	.long LDIFF_SYM2998
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM3001=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3001
+LDIFF_SYM2999=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2999
 	.byte 0,11
 	.asciz "V_1"
 
-LDIFF_SYM3002=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3002
+LDIFF_SYM3000=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3000
 	.byte 0,11
 	.asciz "V_2"
 
-LDIFF_SYM3003=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3003
+LDIFF_SYM3001=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3001
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3004=Lfde452_end - Lfde452_start
-	.long LDIFF_SYM3004
-Lfde452_start:
+LDIFF_SYM3002=Lfde451_end - Lfde451_start
+	.long LDIFF_SYM3002
+Lfde451_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_OpenTK_Graphics_ES30_GL_Core_BindFramebuffer_OpenTK_Graphics_ES30_FramebufferTarget_uint
 
-LDIFF_SYM3005=Lme_265 - wrapper_managed_to_native_OpenTK_Graphics_ES30_GL_Core_BindFramebuffer_OpenTK_Graphics_ES30_FramebufferTarget_uint
-	.long LDIFF_SYM3005
+LDIFF_SYM3003=Lme_264 - wrapper_managed_to_native_OpenTK_Graphics_ES30_GL_Core_BindFramebuffer_OpenTK_Graphics_ES30_FramebufferTarget_uint
+	.long LDIFF_SYM3003
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,76,147,12,148,11,68,149,10,150,9,68,151,8,152,7,68,153,6
 	.byte 154,5,68,155,4,156,3
 	.align 3
-Lfde452_end:
+Lfde451_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -61639,52 +61460,52 @@ Lfde452_end:
 
 	.byte 0,0
 	.quad wrapper_managed_to_native_OpenTK_Graphics_ES30_GL_Core_BindRenderbuffer_OpenTK_Graphics_ES30_RenderbufferTarget_uint
-	.quad Lme_266
+	.quad Lme_265
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM3006=LTDIE_61 - Ldebug_info_start
-	.long LDIFF_SYM3006
+LDIFF_SYM3004=LTDIE_61 - Ldebug_info_start
+	.long LDIFF_SYM3004
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM3007=LDIE_U4 - Ldebug_info_start
-	.long LDIFF_SYM3007
+LDIFF_SYM3005=LDIE_U4 - Ldebug_info_start
+	.long LDIFF_SYM3005
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM3008=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3008
+LDIFF_SYM3006=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3006
 	.byte 0,11
 	.asciz "V_1"
 
-LDIFF_SYM3009=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3009
+LDIFF_SYM3007=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3007
 	.byte 0,11
 	.asciz "V_2"
 
-LDIFF_SYM3010=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3010
+LDIFF_SYM3008=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3008
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3011=Lfde453_end - Lfde453_start
-	.long LDIFF_SYM3011
-Lfde453_start:
+LDIFF_SYM3009=Lfde452_end - Lfde452_start
+	.long LDIFF_SYM3009
+Lfde452_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_OpenTK_Graphics_ES30_GL_Core_BindRenderbuffer_OpenTK_Graphics_ES30_RenderbufferTarget_uint
 
-LDIFF_SYM3012=Lme_266 - wrapper_managed_to_native_OpenTK_Graphics_ES30_GL_Core_BindRenderbuffer_OpenTK_Graphics_ES30_RenderbufferTarget_uint
-	.long LDIFF_SYM3012
+LDIFF_SYM3010=Lme_265 - wrapper_managed_to_native_OpenTK_Graphics_ES30_GL_Core_BindRenderbuffer_OpenTK_Graphics_ES30_RenderbufferTarget_uint
+	.long LDIFF_SYM3010
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,76,147,12,148,11,68,149,10,150,9,68,151,8,152,7,68,153,6
 	.byte 154,5,68,155,4,156,3
 	.align 3
-Lfde453_end:
+Lfde452_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -61694,52 +61515,52 @@ Lfde453_end:
 
 	.byte 0,0
 	.quad wrapper_managed_to_native_OpenTK_Graphics_ES30_GL_Core_DeleteFramebuffers_int_uint_
-	.quad Lme_267
+	.quad Lme_266
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM3013=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3013
+LDIFF_SYM3011=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3011
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM3014=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3014
+LDIFF_SYM3012=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3012
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM3015=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3015
+LDIFF_SYM3013=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3013
 	.byte 0,11
 	.asciz "V_1"
 
-LDIFF_SYM3016=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3016
+LDIFF_SYM3014=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3014
 	.byte 0,11
 	.asciz "V_2"
 
-LDIFF_SYM3017=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3017
+LDIFF_SYM3015=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3015
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3018=Lfde454_end - Lfde454_start
-	.long LDIFF_SYM3018
-Lfde454_start:
+LDIFF_SYM3016=Lfde453_end - Lfde453_start
+	.long LDIFF_SYM3016
+Lfde453_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_OpenTK_Graphics_ES30_GL_Core_DeleteFramebuffers_int_uint_
 
-LDIFF_SYM3019=Lme_267 - wrapper_managed_to_native_OpenTK_Graphics_ES30_GL_Core_DeleteFramebuffers_int_uint_
-	.long LDIFF_SYM3019
+LDIFF_SYM3017=Lme_266 - wrapper_managed_to_native_OpenTK_Graphics_ES30_GL_Core_DeleteFramebuffers_int_uint_
+	.long LDIFF_SYM3017
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,76,147,12,148,11,68,149,10,150,9,68,151,8,152,7,68,153,6
 	.byte 154,5,68,155,4,156,3
 	.align 3
-Lfde454_end:
+Lfde453_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -61749,52 +61570,52 @@ Lfde454_end:
 
 	.byte 0,0
 	.quad wrapper_managed_to_native_OpenTK_Graphics_ES30_GL_Core_DeleteRenderbuffers_int_uint_
-	.quad Lme_268
+	.quad Lme_267
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM3020=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3020
+LDIFF_SYM3018=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3018
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM3021=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3021
+LDIFF_SYM3019=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3019
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM3022=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3022
+LDIFF_SYM3020=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3020
 	.byte 0,11
 	.asciz "V_1"
 
-LDIFF_SYM3023=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3023
+LDIFF_SYM3021=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3021
 	.byte 0,11
 	.asciz "V_2"
 
-LDIFF_SYM3024=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3024
+LDIFF_SYM3022=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3022
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3025=Lfde455_end - Lfde455_start
-	.long LDIFF_SYM3025
-Lfde455_start:
+LDIFF_SYM3023=Lfde454_end - Lfde454_start
+	.long LDIFF_SYM3023
+Lfde454_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_OpenTK_Graphics_ES30_GL_Core_DeleteRenderbuffers_int_uint_
 
-LDIFF_SYM3026=Lme_268 - wrapper_managed_to_native_OpenTK_Graphics_ES30_GL_Core_DeleteRenderbuffers_int_uint_
-	.long LDIFF_SYM3026
+LDIFF_SYM3024=Lme_267 - wrapper_managed_to_native_OpenTK_Graphics_ES30_GL_Core_DeleteRenderbuffers_int_uint_
+	.long LDIFF_SYM3024
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,76,147,12,148,11,68,149,10,150,9,68,151,8,152,7,68,153,6
 	.byte 154,5,68,155,4,156,3
 	.align 3
-Lfde455_end:
+Lfde454_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -61804,62 +61625,62 @@ Lfde455_end:
 
 	.byte 0,0
 	.quad wrapper_managed_to_native_OpenTK_Graphics_ES30_GL_Core_FramebufferRenderbuffer_OpenTK_Graphics_ES30_FramebufferTarget_OpenTK_Graphics_ES30_FramebufferSlot_OpenTK_Graphics_ES30_RenderbufferTarget_uint
-	.quad Lme_269
+	.quad Lme_268
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM3027=LTDIE_60 - Ldebug_info_start
-	.long LDIFF_SYM3027
+LDIFF_SYM3025=LTDIE_60 - Ldebug_info_start
+	.long LDIFF_SYM3025
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM3028=LTDIE_62 - Ldebug_info_start
-	.long LDIFF_SYM3028
+LDIFF_SYM3026=LTDIE_62 - Ldebug_info_start
+	.long LDIFF_SYM3026
 	.byte 2,141,24,3
 	.asciz "param2"
 
-LDIFF_SYM3029=LTDIE_61 - Ldebug_info_start
-	.long LDIFF_SYM3029
+LDIFF_SYM3027=LTDIE_61 - Ldebug_info_start
+	.long LDIFF_SYM3027
 	.byte 2,141,32,3
 	.asciz "param3"
 
-LDIFF_SYM3030=LDIE_U4 - Ldebug_info_start
-	.long LDIFF_SYM3030
+LDIFF_SYM3028=LDIE_U4 - Ldebug_info_start
+	.long LDIFF_SYM3028
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM3031=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3031
+LDIFF_SYM3029=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3029
 	.byte 0,11
 	.asciz "V_1"
 
-LDIFF_SYM3032=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3032
+LDIFF_SYM3030=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3030
 	.byte 0,11
 	.asciz "V_2"
 
-LDIFF_SYM3033=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3033
+LDIFF_SYM3031=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3031
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3034=Lfde456_end - Lfde456_start
-	.long LDIFF_SYM3034
-Lfde456_start:
+LDIFF_SYM3032=Lfde455_end - Lfde455_start
+	.long LDIFF_SYM3032
+Lfde455_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_OpenTK_Graphics_ES30_GL_Core_FramebufferRenderbuffer_OpenTK_Graphics_ES30_FramebufferTarget_OpenTK_Graphics_ES30_FramebufferSlot_OpenTK_Graphics_ES30_RenderbufferTarget_uint
 
-LDIFF_SYM3035=Lme_269 - wrapper_managed_to_native_OpenTK_Graphics_ES30_GL_Core_FramebufferRenderbuffer_OpenTK_Graphics_ES30_FramebufferTarget_OpenTK_Graphics_ES30_FramebufferSlot_OpenTK_Graphics_ES30_RenderbufferTarget_uint
-	.long LDIFF_SYM3035
+LDIFF_SYM3033=Lme_268 - wrapper_managed_to_native_OpenTK_Graphics_ES30_GL_Core_FramebufferRenderbuffer_OpenTK_Graphics_ES30_FramebufferTarget_OpenTK_Graphics_ES30_FramebufferSlot_OpenTK_Graphics_ES30_RenderbufferTarget_uint
+	.long LDIFF_SYM3033
 	.long 0
 	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,76,147,12,148,11,68,149,10,150,9,68,151,8,152,7,68,153,6
 	.byte 154,5,68,155,4,156,3
 	.align 3
-Lfde456_end:
+Lfde455_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -61869,52 +61690,52 @@ Lfde456_end:
 
 	.byte 0,0
 	.quad wrapper_managed_to_native_OpenTK_Graphics_ES30_GL_Core_GenFramebuffers_int_uint_
-	.quad Lme_26a
+	.quad Lme_269
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM3036=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3036
+LDIFF_SYM3034=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3034
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM3037=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3037
+LDIFF_SYM3035=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3035
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM3038=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3038
+LDIFF_SYM3036=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3036
 	.byte 0,11
 	.asciz "V_1"
 
-LDIFF_SYM3039=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3039
+LDIFF_SYM3037=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3037
 	.byte 0,11
 	.asciz "V_2"
 
-LDIFF_SYM3040=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3040
+LDIFF_SYM3038=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3038
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3041=Lfde457_end - Lfde457_start
-	.long LDIFF_SYM3041
-Lfde457_start:
+LDIFF_SYM3039=Lfde456_end - Lfde456_start
+	.long LDIFF_SYM3039
+Lfde456_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_OpenTK_Graphics_ES30_GL_Core_GenFramebuffers_int_uint_
 
-LDIFF_SYM3042=Lme_26a - wrapper_managed_to_native_OpenTK_Graphics_ES30_GL_Core_GenFramebuffers_int_uint_
-	.long LDIFF_SYM3042
+LDIFF_SYM3040=Lme_269 - wrapper_managed_to_native_OpenTK_Graphics_ES30_GL_Core_GenFramebuffers_int_uint_
+	.long LDIFF_SYM3040
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,76,147,12,148,11,68,149,10,150,9,68,151,8,152,7,68,153,6
 	.byte 154,5,68,155,4,156,3
 	.align 3
-Lfde457_end:
+Lfde456_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -61924,52 +61745,52 @@ Lfde457_end:
 
 	.byte 0,0
 	.quad wrapper_managed_to_native_OpenTK_Graphics_ES30_GL_Core_GenRenderbuffers_int_uint_
-	.quad Lme_26b
+	.quad Lme_26a
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM3043=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3043
+LDIFF_SYM3041=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3041
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM3044=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3044
+LDIFF_SYM3042=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3042
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM3045=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3045
+LDIFF_SYM3043=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3043
 	.byte 0,11
 	.asciz "V_1"
 
-LDIFF_SYM3046=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3046
+LDIFF_SYM3044=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3044
 	.byte 0,11
 	.asciz "V_2"
 
-LDIFF_SYM3047=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3047
+LDIFF_SYM3045=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3045
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3048=Lfde458_end - Lfde458_start
-	.long LDIFF_SYM3048
-Lfde458_start:
+LDIFF_SYM3046=Lfde457_end - Lfde457_start
+	.long LDIFF_SYM3046
+Lfde457_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_OpenTK_Graphics_ES30_GL_Core_GenRenderbuffers_int_uint_
 
-LDIFF_SYM3049=Lme_26b - wrapper_managed_to_native_OpenTK_Graphics_ES30_GL_Core_GenRenderbuffers_int_uint_
-	.long LDIFF_SYM3049
+LDIFF_SYM3047=Lme_26a - wrapper_managed_to_native_OpenTK_Graphics_ES30_GL_Core_GenRenderbuffers_int_uint_
+	.long LDIFF_SYM3047
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,76,147,12,148,11,68,149,10,150,9,68,151,8,152,7,68,153,6
 	.byte 154,5,68,155,4,156,3
 	.align 3
-Lfde458_end:
+Lfde457_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -61979,52 +61800,52 @@ Lfde458_end:
 
 	.byte 0,0
 	.quad wrapper_managed_to_native_OpenTK_Graphics_ES30_GL_Core_GetIntegerv_OpenTK_Graphics_ES30_GetPName_int_
-	.quad Lme_26c
+	.quad Lme_26b
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM3050=LTDIE_63 - Ldebug_info_start
-	.long LDIFF_SYM3050
+LDIFF_SYM3048=LTDIE_63 - Ldebug_info_start
+	.long LDIFF_SYM3048
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM3051=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3051
+LDIFF_SYM3049=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3049
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM3052=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3052
+LDIFF_SYM3050=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3050
 	.byte 0,11
 	.asciz "V_1"
 
-LDIFF_SYM3053=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3053
+LDIFF_SYM3051=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3051
 	.byte 0,11
 	.asciz "V_2"
 
-LDIFF_SYM3054=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3054
+LDIFF_SYM3052=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3052
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3055=Lfde459_end - Lfde459_start
-	.long LDIFF_SYM3055
-Lfde459_start:
+LDIFF_SYM3053=Lfde458_end - Lfde458_start
+	.long LDIFF_SYM3053
+Lfde458_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_OpenTK_Graphics_ES30_GL_Core_GetIntegerv_OpenTK_Graphics_ES30_GetPName_int_
 
-LDIFF_SYM3056=Lme_26c - wrapper_managed_to_native_OpenTK_Graphics_ES30_GL_Core_GetIntegerv_OpenTK_Graphics_ES30_GetPName_int_
-	.long LDIFF_SYM3056
+LDIFF_SYM3054=Lme_26b - wrapper_managed_to_native_OpenTK_Graphics_ES30_GL_Core_GetIntegerv_OpenTK_Graphics_ES30_GetPName_int_
+	.long LDIFF_SYM3054
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,76,147,12,148,11,68,149,10,150,9,68,151,8,152,7,68,153,6
 	.byte 154,5,68,155,4,156,3
 	.align 3
-Lfde459_end:
+Lfde458_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -62034,57 +61855,57 @@ Lfde459_end:
 
 	.byte 0,0
 	.quad wrapper_managed_to_native_OpenTK_Graphics_ES30_GL_Core_GetRenderbufferParameteriv_OpenTK_Graphics_ES30_RenderbufferTarget_OpenTK_Graphics_ES30_RenderbufferParameterName_int_
-	.quad Lme_26d
+	.quad Lme_26c
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM3057=LTDIE_61 - Ldebug_info_start
-	.long LDIFF_SYM3057
+LDIFF_SYM3055=LTDIE_61 - Ldebug_info_start
+	.long LDIFF_SYM3055
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM3058=LTDIE_64 - Ldebug_info_start
-	.long LDIFF_SYM3058
+LDIFF_SYM3056=LTDIE_64 - Ldebug_info_start
+	.long LDIFF_SYM3056
 	.byte 2,141,24,3
 	.asciz "param2"
 
-LDIFF_SYM3059=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3059
+LDIFF_SYM3057=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3057
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM3060=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3060
+LDIFF_SYM3058=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3058
 	.byte 0,11
 	.asciz "V_1"
 
-LDIFF_SYM3061=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3061
+LDIFF_SYM3059=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3059
 	.byte 0,11
 	.asciz "V_2"
 
-LDIFF_SYM3062=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3062
+LDIFF_SYM3060=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3060
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3063=Lfde460_end - Lfde460_start
-	.long LDIFF_SYM3063
-Lfde460_start:
+LDIFF_SYM3061=Lfde459_end - Lfde459_start
+	.long LDIFF_SYM3061
+Lfde459_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_OpenTK_Graphics_ES30_GL_Core_GetRenderbufferParameteriv_OpenTK_Graphics_ES30_RenderbufferTarget_OpenTK_Graphics_ES30_RenderbufferParameterName_int_
 
-LDIFF_SYM3064=Lme_26d - wrapper_managed_to_native_OpenTK_Graphics_ES30_GL_Core_GetRenderbufferParameteriv_OpenTK_Graphics_ES30_RenderbufferTarget_OpenTK_Graphics_ES30_RenderbufferParameterName_int_
-	.long LDIFF_SYM3064
+LDIFF_SYM3062=Lme_26c - wrapper_managed_to_native_OpenTK_Graphics_ES30_GL_Core_GetRenderbufferParameteriv_OpenTK_Graphics_ES30_RenderbufferTarget_OpenTK_Graphics_ES30_RenderbufferParameterName_int_
+	.long LDIFF_SYM3062
 	.long 0
 	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,76,147,13,148,12,68,149,11,150,10,68,151,9,152,8,68,153,7
 	.byte 154,6,68,155,5,156,4
 	.align 3
-Lfde460_end:
+Lfde459_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -62094,52 +61915,52 @@ Lfde460_end:
 
 	.byte 0,0
 	.quad wrapper_managed_to_native_OpenTK_Graphics_ES30_GL_Core_PixelStorei_OpenTK_Graphics_ES30_PixelStoreParameter_int
-	.quad Lme_26e
+	.quad Lme_26d
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM3065=LTDIE_65 - Ldebug_info_start
-	.long LDIFF_SYM3065
+LDIFF_SYM3063=LTDIE_65 - Ldebug_info_start
+	.long LDIFF_SYM3063
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM3066=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3066
+LDIFF_SYM3064=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3064
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM3067=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3067
+LDIFF_SYM3065=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3065
 	.byte 0,11
 	.asciz "V_1"
 
-LDIFF_SYM3068=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3068
+LDIFF_SYM3066=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3066
 	.byte 0,11
 	.asciz "V_2"
 
-LDIFF_SYM3069=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3069
+LDIFF_SYM3067=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3067
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3070=Lfde461_end - Lfde461_start
-	.long LDIFF_SYM3070
-Lfde461_start:
+LDIFF_SYM3068=Lfde460_end - Lfde460_start
+	.long LDIFF_SYM3068
+Lfde460_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_OpenTK_Graphics_ES30_GL_Core_PixelStorei_OpenTK_Graphics_ES30_PixelStoreParameter_int
 
-LDIFF_SYM3071=Lme_26e - wrapper_managed_to_native_OpenTK_Graphics_ES30_GL_Core_PixelStorei_OpenTK_Graphics_ES30_PixelStoreParameter_int
-	.long LDIFF_SYM3071
+LDIFF_SYM3069=Lme_26d - wrapper_managed_to_native_OpenTK_Graphics_ES30_GL_Core_PixelStorei_OpenTK_Graphics_ES30_PixelStoreParameter_int
+	.long LDIFF_SYM3069
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,76,147,12,148,11,68,149,10,150,9,68,151,8,152,7,68,153,6
 	.byte 154,5,68,155,4,156,3
 	.align 3
-Lfde461_end:
+Lfde460_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -62149,77 +61970,77 @@ Lfde461_end:
 
 	.byte 0,0
 	.quad wrapper_managed_to_native_OpenTK_Graphics_ES30_GL_Core_ReadPixels_int_int_int_int_OpenTK_Graphics_ES30_PixelFormat_OpenTK_Graphics_ES30_PixelType_intptr
-	.quad Lme_26f
+	.quad Lme_26e
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM3072=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3072
+LDIFF_SYM3070=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3070
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM3073=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3073
+LDIFF_SYM3071=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3071
 	.byte 2,141,24,3
 	.asciz "param2"
 
-LDIFF_SYM3074=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3074
+LDIFF_SYM3072=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3072
 	.byte 2,141,32,3
 	.asciz "param3"
 
-LDIFF_SYM3075=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3075
+LDIFF_SYM3073=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3073
 	.byte 2,141,40,3
 	.asciz "param4"
 
-LDIFF_SYM3076=LTDIE_66 - Ldebug_info_start
-	.long LDIFF_SYM3076
+LDIFF_SYM3074=LTDIE_66 - Ldebug_info_start
+	.long LDIFF_SYM3074
 	.byte 2,141,48,3
 	.asciz "param5"
 
-LDIFF_SYM3077=LTDIE_67 - Ldebug_info_start
-	.long LDIFF_SYM3077
+LDIFF_SYM3075=LTDIE_67 - Ldebug_info_start
+	.long LDIFF_SYM3075
 	.byte 2,141,56,3
 	.asciz "param6"
 
-LDIFF_SYM3078=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3078
+LDIFF_SYM3076=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3076
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM3079=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3079
+LDIFF_SYM3077=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3077
 	.byte 0,11
 	.asciz "V_1"
 
-LDIFF_SYM3080=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3080
+LDIFF_SYM3078=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3078
 	.byte 0,11
 	.asciz "V_2"
 
-LDIFF_SYM3081=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3081
+LDIFF_SYM3079=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3079
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3082=Lfde462_end - Lfde462_start
-	.long LDIFF_SYM3082
-Lfde462_start:
+LDIFF_SYM3080=Lfde461_end - Lfde461_start
+	.long LDIFF_SYM3080
+Lfde461_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_OpenTK_Graphics_ES30_GL_Core_ReadPixels_int_int_int_int_OpenTK_Graphics_ES30_PixelFormat_OpenTK_Graphics_ES30_PixelType_intptr
 
-LDIFF_SYM3083=Lme_26f - wrapper_managed_to_native_OpenTK_Graphics_ES30_GL_Core_ReadPixels_int_int_int_int_OpenTK_Graphics_ES30_PixelFormat_OpenTK_Graphics_ES30_PixelType_intptr
-	.long LDIFF_SYM3083
+LDIFF_SYM3081=Lme_26e - wrapper_managed_to_native_OpenTK_Graphics_ES30_GL_Core_ReadPixels_int_int_int_int_OpenTK_Graphics_ES30_PixelFormat_OpenTK_Graphics_ES30_PixelType_intptr
+	.long LDIFF_SYM3081
 	.long 0
 	.byte 12,31,0,68,14,192,1,157,24,158,23,68,13,29,76,147,13,148,12,68,149,11,150,10,68,151,9,152,8,68,153,7
 	.byte 154,6,68,155,5,156,4
 	.align 3
-Lfde462_end:
+Lfde461_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -62229,62 +62050,62 @@ Lfde462_end:
 
 	.byte 0,0
 	.quad wrapper_managed_to_native_OpenTK_Graphics_ES30_GL_Core_Scissor_int_int_int_int
-	.quad Lme_270
+	.quad Lme_26f
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM3084=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3084
+LDIFF_SYM3082=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3082
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM3085=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3085
+LDIFF_SYM3083=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3083
 	.byte 2,141,24,3
 	.asciz "param2"
 
-LDIFF_SYM3086=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3086
+LDIFF_SYM3084=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3084
 	.byte 2,141,32,3
 	.asciz "param3"
 
-LDIFF_SYM3087=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3087
+LDIFF_SYM3085=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3085
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM3088=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3088
+LDIFF_SYM3086=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3086
 	.byte 0,11
 	.asciz "V_1"
 
-LDIFF_SYM3089=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3089
+LDIFF_SYM3087=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3087
 	.byte 0,11
 	.asciz "V_2"
 
-LDIFF_SYM3090=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3090
+LDIFF_SYM3088=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3088
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3091=Lfde463_end - Lfde463_start
-	.long LDIFF_SYM3091
-Lfde463_start:
+LDIFF_SYM3089=Lfde462_end - Lfde462_start
+	.long LDIFF_SYM3089
+Lfde462_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_OpenTK_Graphics_ES30_GL_Core_Scissor_int_int_int_int
 
-LDIFF_SYM3092=Lme_270 - wrapper_managed_to_native_OpenTK_Graphics_ES30_GL_Core_Scissor_int_int_int_int
-	.long LDIFF_SYM3092
+LDIFF_SYM3090=Lme_26f - wrapper_managed_to_native_OpenTK_Graphics_ES30_GL_Core_Scissor_int_int_int_int
+	.long LDIFF_SYM3090
 	.long 0
 	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,76,147,12,148,11,68,149,10,150,9,68,151,8,152,7,68,153,6
 	.byte 154,5,68,155,4,156,3
 	.align 3
-Lfde463_end:
+Lfde462_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -62294,62 +62115,62 @@ Lfde463_end:
 
 	.byte 0,0
 	.quad wrapper_managed_to_native_OpenTK_Graphics_ES30_GL_Core_Viewport_int_int_int_int
-	.quad Lme_271
+	.quad Lme_270
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM3093=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3093
+LDIFF_SYM3091=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3091
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM3094=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3094
+LDIFF_SYM3092=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3092
 	.byte 2,141,24,3
 	.asciz "param2"
 
-LDIFF_SYM3095=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3095
+LDIFF_SYM3093=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3093
 	.byte 2,141,32,3
 	.asciz "param3"
 
-LDIFF_SYM3096=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3096
+LDIFF_SYM3094=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3094
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM3097=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3097
+LDIFF_SYM3095=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3095
 	.byte 0,11
 	.asciz "V_1"
 
-LDIFF_SYM3098=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3098
+LDIFF_SYM3096=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3096
 	.byte 0,11
 	.asciz "V_2"
 
-LDIFF_SYM3099=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3099
+LDIFF_SYM3097=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3097
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3100=Lfde464_end - Lfde464_start
-	.long LDIFF_SYM3100
-Lfde464_start:
+LDIFF_SYM3098=Lfde463_end - Lfde463_start
+	.long LDIFF_SYM3098
+Lfde463_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_OpenTK_Graphics_ES30_GL_Core_Viewport_int_int_int_int
 
-LDIFF_SYM3101=Lme_271 - wrapper_managed_to_native_OpenTK_Graphics_ES30_GL_Core_Viewport_int_int_int_int
-	.long LDIFF_SYM3101
+LDIFF_SYM3099=Lme_270 - wrapper_managed_to_native_OpenTK_Graphics_ES30_GL_Core_Viewport_int_int_int_int
+	.long LDIFF_SYM3099
 	.long 0
 	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,76,147,12,148,11,68,149,10,150,9,68,151,8,152,7,68,153,6
 	.byte 154,5,68,155,4,156,3
 	.align 3
-Lfde464_end:
+Lfde463_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -62359,52 +62180,52 @@ Lfde464_end:
 
 	.byte 0,0
 	.quad wrapper_managed_to_native_OpenTK_Graphics_ES20_GL_Core_BindFramebuffer_OpenTK_Graphics_ES20_FramebufferTarget_uint
-	.quad Lme_272
+	.quad Lme_271
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM3102=LTDIE_68 - Ldebug_info_start
-	.long LDIFF_SYM3102
+LDIFF_SYM3100=LTDIE_68 - Ldebug_info_start
+	.long LDIFF_SYM3100
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM3103=LDIE_U4 - Ldebug_info_start
-	.long LDIFF_SYM3103
+LDIFF_SYM3101=LDIE_U4 - Ldebug_info_start
+	.long LDIFF_SYM3101
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM3104=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3104
+LDIFF_SYM3102=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3102
 	.byte 0,11
 	.asciz "V_1"
 
-LDIFF_SYM3105=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3105
+LDIFF_SYM3103=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3103
 	.byte 0,11
 	.asciz "V_2"
 
-LDIFF_SYM3106=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3106
+LDIFF_SYM3104=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3104
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3107=Lfde465_end - Lfde465_start
-	.long LDIFF_SYM3107
-Lfde465_start:
+LDIFF_SYM3105=Lfde464_end - Lfde464_start
+	.long LDIFF_SYM3105
+Lfde464_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_OpenTK_Graphics_ES20_GL_Core_BindFramebuffer_OpenTK_Graphics_ES20_FramebufferTarget_uint
 
-LDIFF_SYM3108=Lme_272 - wrapper_managed_to_native_OpenTK_Graphics_ES20_GL_Core_BindFramebuffer_OpenTK_Graphics_ES20_FramebufferTarget_uint
-	.long LDIFF_SYM3108
+LDIFF_SYM3106=Lme_271 - wrapper_managed_to_native_OpenTK_Graphics_ES20_GL_Core_BindFramebuffer_OpenTK_Graphics_ES20_FramebufferTarget_uint
+	.long LDIFF_SYM3106
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,76,147,12,148,11,68,149,10,150,9,68,151,8,152,7,68,153,6
 	.byte 154,5,68,155,4,156,3
 	.align 3
-Lfde465_end:
+Lfde464_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -62414,52 +62235,52 @@ Lfde465_end:
 
 	.byte 0,0
 	.quad wrapper_managed_to_native_OpenTK_Graphics_ES20_GL_Core_BindRenderbuffer_OpenTK_Graphics_ES20_RenderbufferTarget_uint
-	.quad Lme_273
+	.quad Lme_272
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM3109=LTDIE_69 - Ldebug_info_start
-	.long LDIFF_SYM3109
+LDIFF_SYM3107=LTDIE_69 - Ldebug_info_start
+	.long LDIFF_SYM3107
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM3110=LDIE_U4 - Ldebug_info_start
-	.long LDIFF_SYM3110
+LDIFF_SYM3108=LDIE_U4 - Ldebug_info_start
+	.long LDIFF_SYM3108
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM3111=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3111
+LDIFF_SYM3109=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3109
 	.byte 0,11
 	.asciz "V_1"
 
-LDIFF_SYM3112=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3112
+LDIFF_SYM3110=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3110
 	.byte 0,11
 	.asciz "V_2"
 
-LDIFF_SYM3113=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3113
+LDIFF_SYM3111=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3111
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3114=Lfde466_end - Lfde466_start
-	.long LDIFF_SYM3114
-Lfde466_start:
+LDIFF_SYM3112=Lfde465_end - Lfde465_start
+	.long LDIFF_SYM3112
+Lfde465_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_OpenTK_Graphics_ES20_GL_Core_BindRenderbuffer_OpenTK_Graphics_ES20_RenderbufferTarget_uint
 
-LDIFF_SYM3115=Lme_273 - wrapper_managed_to_native_OpenTK_Graphics_ES20_GL_Core_BindRenderbuffer_OpenTK_Graphics_ES20_RenderbufferTarget_uint
-	.long LDIFF_SYM3115
+LDIFF_SYM3113=Lme_272 - wrapper_managed_to_native_OpenTK_Graphics_ES20_GL_Core_BindRenderbuffer_OpenTK_Graphics_ES20_RenderbufferTarget_uint
+	.long LDIFF_SYM3113
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,76,147,12,148,11,68,149,10,150,9,68,151,8,152,7,68,153,6
 	.byte 154,5,68,155,4,156,3
 	.align 3
-Lfde466_end:
+Lfde465_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -62469,52 +62290,52 @@ Lfde466_end:
 
 	.byte 0,0
 	.quad wrapper_managed_to_native_OpenTK_Graphics_ES20_GL_Core_DeleteFramebuffers_int_uint_
-	.quad Lme_274
+	.quad Lme_273
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM3116=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3116
+LDIFF_SYM3114=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3114
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM3117=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3117
+LDIFF_SYM3115=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3115
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM3118=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3118
+LDIFF_SYM3116=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3116
 	.byte 0,11
 	.asciz "V_1"
 
-LDIFF_SYM3119=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3119
+LDIFF_SYM3117=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3117
 	.byte 0,11
 	.asciz "V_2"
 
-LDIFF_SYM3120=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3120
+LDIFF_SYM3118=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3118
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3121=Lfde467_end - Lfde467_start
-	.long LDIFF_SYM3121
-Lfde467_start:
+LDIFF_SYM3119=Lfde466_end - Lfde466_start
+	.long LDIFF_SYM3119
+Lfde466_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_OpenTK_Graphics_ES20_GL_Core_DeleteFramebuffers_int_uint_
 
-LDIFF_SYM3122=Lme_274 - wrapper_managed_to_native_OpenTK_Graphics_ES20_GL_Core_DeleteFramebuffers_int_uint_
-	.long LDIFF_SYM3122
+LDIFF_SYM3120=Lme_273 - wrapper_managed_to_native_OpenTK_Graphics_ES20_GL_Core_DeleteFramebuffers_int_uint_
+	.long LDIFF_SYM3120
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,76,147,12,148,11,68,149,10,150,9,68,151,8,152,7,68,153,6
 	.byte 154,5,68,155,4,156,3
 	.align 3
-Lfde467_end:
+Lfde466_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -62524,52 +62345,52 @@ Lfde467_end:
 
 	.byte 0,0
 	.quad wrapper_managed_to_native_OpenTK_Graphics_ES20_GL_Core_DeleteRenderbuffers_int_uint_
-	.quad Lme_275
+	.quad Lme_274
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM3123=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3123
+LDIFF_SYM3121=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3121
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM3124=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3124
+LDIFF_SYM3122=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3122
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM3125=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3125
+LDIFF_SYM3123=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3123
 	.byte 0,11
 	.asciz "V_1"
 
-LDIFF_SYM3126=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3126
+LDIFF_SYM3124=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3124
 	.byte 0,11
 	.asciz "V_2"
 
-LDIFF_SYM3127=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3127
+LDIFF_SYM3125=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3125
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3128=Lfde468_end - Lfde468_start
-	.long LDIFF_SYM3128
-Lfde468_start:
+LDIFF_SYM3126=Lfde467_end - Lfde467_start
+	.long LDIFF_SYM3126
+Lfde467_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_OpenTK_Graphics_ES20_GL_Core_DeleteRenderbuffers_int_uint_
 
-LDIFF_SYM3129=Lme_275 - wrapper_managed_to_native_OpenTK_Graphics_ES20_GL_Core_DeleteRenderbuffers_int_uint_
-	.long LDIFF_SYM3129
+LDIFF_SYM3127=Lme_274 - wrapper_managed_to_native_OpenTK_Graphics_ES20_GL_Core_DeleteRenderbuffers_int_uint_
+	.long LDIFF_SYM3127
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,76,147,12,148,11,68,149,10,150,9,68,151,8,152,7,68,153,6
 	.byte 154,5,68,155,4,156,3
 	.align 3
-Lfde468_end:
+Lfde467_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -62579,62 +62400,62 @@ Lfde468_end:
 
 	.byte 0,0
 	.quad wrapper_managed_to_native_OpenTK_Graphics_ES20_GL_Core_FramebufferRenderbuffer_OpenTK_Graphics_ES20_FramebufferTarget_OpenTK_Graphics_ES20_FramebufferSlot_OpenTK_Graphics_ES20_RenderbufferTarget_uint
-	.quad Lme_276
+	.quad Lme_275
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM3130=LTDIE_68 - Ldebug_info_start
-	.long LDIFF_SYM3130
+LDIFF_SYM3128=LTDIE_68 - Ldebug_info_start
+	.long LDIFF_SYM3128
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM3131=LTDIE_70 - Ldebug_info_start
-	.long LDIFF_SYM3131
+LDIFF_SYM3129=LTDIE_70 - Ldebug_info_start
+	.long LDIFF_SYM3129
 	.byte 2,141,24,3
 	.asciz "param2"
 
-LDIFF_SYM3132=LTDIE_69 - Ldebug_info_start
-	.long LDIFF_SYM3132
+LDIFF_SYM3130=LTDIE_69 - Ldebug_info_start
+	.long LDIFF_SYM3130
 	.byte 2,141,32,3
 	.asciz "param3"
 
-LDIFF_SYM3133=LDIE_U4 - Ldebug_info_start
-	.long LDIFF_SYM3133
+LDIFF_SYM3131=LDIE_U4 - Ldebug_info_start
+	.long LDIFF_SYM3131
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM3134=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3134
+LDIFF_SYM3132=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3132
 	.byte 0,11
 	.asciz "V_1"
 
-LDIFF_SYM3135=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3135
+LDIFF_SYM3133=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3133
 	.byte 0,11
 	.asciz "V_2"
 
-LDIFF_SYM3136=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3136
+LDIFF_SYM3134=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3134
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3137=Lfde469_end - Lfde469_start
-	.long LDIFF_SYM3137
-Lfde469_start:
+LDIFF_SYM3135=Lfde468_end - Lfde468_start
+	.long LDIFF_SYM3135
+Lfde468_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_OpenTK_Graphics_ES20_GL_Core_FramebufferRenderbuffer_OpenTK_Graphics_ES20_FramebufferTarget_OpenTK_Graphics_ES20_FramebufferSlot_OpenTK_Graphics_ES20_RenderbufferTarget_uint
 
-LDIFF_SYM3138=Lme_276 - wrapper_managed_to_native_OpenTK_Graphics_ES20_GL_Core_FramebufferRenderbuffer_OpenTK_Graphics_ES20_FramebufferTarget_OpenTK_Graphics_ES20_FramebufferSlot_OpenTK_Graphics_ES20_RenderbufferTarget_uint
-	.long LDIFF_SYM3138
+LDIFF_SYM3136=Lme_275 - wrapper_managed_to_native_OpenTK_Graphics_ES20_GL_Core_FramebufferRenderbuffer_OpenTK_Graphics_ES20_FramebufferTarget_OpenTK_Graphics_ES20_FramebufferSlot_OpenTK_Graphics_ES20_RenderbufferTarget_uint
+	.long LDIFF_SYM3136
 	.long 0
 	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,76,147,12,148,11,68,149,10,150,9,68,151,8,152,7,68,153,6
 	.byte 154,5,68,155,4,156,3
 	.align 3
-Lfde469_end:
+Lfde468_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -62644,52 +62465,52 @@ Lfde469_end:
 
 	.byte 0,0
 	.quad wrapper_managed_to_native_OpenTK_Graphics_ES20_GL_Core_GenFramebuffers_int_uint_
-	.quad Lme_277
+	.quad Lme_276
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM3139=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3139
+LDIFF_SYM3137=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3137
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM3140=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3140
+LDIFF_SYM3138=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3138
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM3141=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3141
+LDIFF_SYM3139=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3139
 	.byte 0,11
 	.asciz "V_1"
 
-LDIFF_SYM3142=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3142
+LDIFF_SYM3140=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3140
 	.byte 0,11
 	.asciz "V_2"
 
-LDIFF_SYM3143=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3143
+LDIFF_SYM3141=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3141
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3144=Lfde470_end - Lfde470_start
-	.long LDIFF_SYM3144
-Lfde470_start:
+LDIFF_SYM3142=Lfde469_end - Lfde469_start
+	.long LDIFF_SYM3142
+Lfde469_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_OpenTK_Graphics_ES20_GL_Core_GenFramebuffers_int_uint_
 
-LDIFF_SYM3145=Lme_277 - wrapper_managed_to_native_OpenTK_Graphics_ES20_GL_Core_GenFramebuffers_int_uint_
-	.long LDIFF_SYM3145
+LDIFF_SYM3143=Lme_276 - wrapper_managed_to_native_OpenTK_Graphics_ES20_GL_Core_GenFramebuffers_int_uint_
+	.long LDIFF_SYM3143
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,76,147,12,148,11,68,149,10,150,9,68,151,8,152,7,68,153,6
 	.byte 154,5,68,155,4,156,3
 	.align 3
-Lfde470_end:
+Lfde469_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -62699,52 +62520,52 @@ Lfde470_end:
 
 	.byte 0,0
 	.quad wrapper_managed_to_native_OpenTK_Graphics_ES20_GL_Core_GenRenderbuffers_int_uint_
-	.quad Lme_278
+	.quad Lme_277
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM3146=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3146
+LDIFF_SYM3144=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3144
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM3147=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3147
+LDIFF_SYM3145=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3145
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM3148=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3148
+LDIFF_SYM3146=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3146
 	.byte 0,11
 	.asciz "V_1"
 
-LDIFF_SYM3149=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3149
+LDIFF_SYM3147=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3147
 	.byte 0,11
 	.asciz "V_2"
 
-LDIFF_SYM3150=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3150
+LDIFF_SYM3148=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3148
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3151=Lfde471_end - Lfde471_start
-	.long LDIFF_SYM3151
-Lfde471_start:
+LDIFF_SYM3149=Lfde470_end - Lfde470_start
+	.long LDIFF_SYM3149
+Lfde470_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_OpenTK_Graphics_ES20_GL_Core_GenRenderbuffers_int_uint_
 
-LDIFF_SYM3152=Lme_278 - wrapper_managed_to_native_OpenTK_Graphics_ES20_GL_Core_GenRenderbuffers_int_uint_
-	.long LDIFF_SYM3152
+LDIFF_SYM3150=Lme_277 - wrapper_managed_to_native_OpenTK_Graphics_ES20_GL_Core_GenRenderbuffers_int_uint_
+	.long LDIFF_SYM3150
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,76,147,12,148,11,68,149,10,150,9,68,151,8,152,7,68,153,6
 	.byte 154,5,68,155,4,156,3
 	.align 3
-Lfde471_end:
+Lfde470_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -62754,52 +62575,52 @@ Lfde471_end:
 
 	.byte 0,0
 	.quad wrapper_managed_to_native_OpenTK_Graphics_ES20_GL_Core_GetIntegerv_OpenTK_Graphics_ES20_GetPName_int_
-	.quad Lme_279
+	.quad Lme_278
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM3153=LTDIE_71 - Ldebug_info_start
-	.long LDIFF_SYM3153
+LDIFF_SYM3151=LTDIE_71 - Ldebug_info_start
+	.long LDIFF_SYM3151
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM3154=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3154
+LDIFF_SYM3152=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3152
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM3155=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3155
+LDIFF_SYM3153=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3153
 	.byte 0,11
 	.asciz "V_1"
 
-LDIFF_SYM3156=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3156
+LDIFF_SYM3154=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3154
 	.byte 0,11
 	.asciz "V_2"
 
-LDIFF_SYM3157=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3157
+LDIFF_SYM3155=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3155
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3158=Lfde472_end - Lfde472_start
-	.long LDIFF_SYM3158
-Lfde472_start:
+LDIFF_SYM3156=Lfde471_end - Lfde471_start
+	.long LDIFF_SYM3156
+Lfde471_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_OpenTK_Graphics_ES20_GL_Core_GetIntegerv_OpenTK_Graphics_ES20_GetPName_int_
 
-LDIFF_SYM3159=Lme_279 - wrapper_managed_to_native_OpenTK_Graphics_ES20_GL_Core_GetIntegerv_OpenTK_Graphics_ES20_GetPName_int_
-	.long LDIFF_SYM3159
+LDIFF_SYM3157=Lme_278 - wrapper_managed_to_native_OpenTK_Graphics_ES20_GL_Core_GetIntegerv_OpenTK_Graphics_ES20_GetPName_int_
+	.long LDIFF_SYM3157
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,76,147,12,148,11,68,149,10,150,9,68,151,8,152,7,68,153,6
 	.byte 154,5,68,155,4,156,3
 	.align 3
-Lfde472_end:
+Lfde471_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -62809,57 +62630,57 @@ Lfde472_end:
 
 	.byte 0,0
 	.quad wrapper_managed_to_native_OpenTK_Graphics_ES20_GL_Core_GetRenderbufferParameteriv_OpenTK_Graphics_ES20_RenderbufferTarget_OpenTK_Graphics_ES20_RenderbufferParameterName_int_
-	.quad Lme_27a
+	.quad Lme_279
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM3160=LTDIE_69 - Ldebug_info_start
-	.long LDIFF_SYM3160
+LDIFF_SYM3158=LTDIE_69 - Ldebug_info_start
+	.long LDIFF_SYM3158
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM3161=LTDIE_72 - Ldebug_info_start
-	.long LDIFF_SYM3161
+LDIFF_SYM3159=LTDIE_72 - Ldebug_info_start
+	.long LDIFF_SYM3159
 	.byte 2,141,24,3
 	.asciz "param2"
 
-LDIFF_SYM3162=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3162
+LDIFF_SYM3160=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3160
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM3163=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3163
+LDIFF_SYM3161=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3161
 	.byte 0,11
 	.asciz "V_1"
 
-LDIFF_SYM3164=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3164
+LDIFF_SYM3162=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3162
 	.byte 0,11
 	.asciz "V_2"
 
-LDIFF_SYM3165=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3165
+LDIFF_SYM3163=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3163
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3166=Lfde473_end - Lfde473_start
-	.long LDIFF_SYM3166
-Lfde473_start:
+LDIFF_SYM3164=Lfde472_end - Lfde472_start
+	.long LDIFF_SYM3164
+Lfde472_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_OpenTK_Graphics_ES20_GL_Core_GetRenderbufferParameteriv_OpenTK_Graphics_ES20_RenderbufferTarget_OpenTK_Graphics_ES20_RenderbufferParameterName_int_
 
-LDIFF_SYM3167=Lme_27a - wrapper_managed_to_native_OpenTK_Graphics_ES20_GL_Core_GetRenderbufferParameteriv_OpenTK_Graphics_ES20_RenderbufferTarget_OpenTK_Graphics_ES20_RenderbufferParameterName_int_
-	.long LDIFF_SYM3167
+LDIFF_SYM3165=Lme_279 - wrapper_managed_to_native_OpenTK_Graphics_ES20_GL_Core_GetRenderbufferParameteriv_OpenTK_Graphics_ES20_RenderbufferTarget_OpenTK_Graphics_ES20_RenderbufferParameterName_int_
+	.long LDIFF_SYM3165
 	.long 0
 	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,76,147,13,148,12,68,149,11,150,10,68,151,9,152,8,68,153,7
 	.byte 154,6,68,155,5,156,4
 	.align 3
-Lfde473_end:
+Lfde472_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -62869,52 +62690,52 @@ Lfde473_end:
 
 	.byte 0,0
 	.quad wrapper_managed_to_native_OpenTK_Graphics_ES20_GL_Core_PixelStorei_OpenTK_Graphics_ES20_PixelStoreParameter_int
-	.quad Lme_27b
+	.quad Lme_27a
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM3168=LTDIE_73 - Ldebug_info_start
-	.long LDIFF_SYM3168
+LDIFF_SYM3166=LTDIE_73 - Ldebug_info_start
+	.long LDIFF_SYM3166
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM3169=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3169
+LDIFF_SYM3167=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3167
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM3170=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3170
+LDIFF_SYM3168=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3168
 	.byte 0,11
 	.asciz "V_1"
 
-LDIFF_SYM3171=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3171
+LDIFF_SYM3169=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3169
 	.byte 0,11
 	.asciz "V_2"
 
-LDIFF_SYM3172=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3172
+LDIFF_SYM3170=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3170
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3173=Lfde474_end - Lfde474_start
-	.long LDIFF_SYM3173
-Lfde474_start:
+LDIFF_SYM3171=Lfde473_end - Lfde473_start
+	.long LDIFF_SYM3171
+Lfde473_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_OpenTK_Graphics_ES20_GL_Core_PixelStorei_OpenTK_Graphics_ES20_PixelStoreParameter_int
 
-LDIFF_SYM3174=Lme_27b - wrapper_managed_to_native_OpenTK_Graphics_ES20_GL_Core_PixelStorei_OpenTK_Graphics_ES20_PixelStoreParameter_int
-	.long LDIFF_SYM3174
+LDIFF_SYM3172=Lme_27a - wrapper_managed_to_native_OpenTK_Graphics_ES20_GL_Core_PixelStorei_OpenTK_Graphics_ES20_PixelStoreParameter_int
+	.long LDIFF_SYM3172
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,76,147,12,148,11,68,149,10,150,9,68,151,8,152,7,68,153,6
 	.byte 154,5,68,155,4,156,3
 	.align 3
-Lfde474_end:
+Lfde473_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -62924,77 +62745,77 @@ Lfde474_end:
 
 	.byte 0,0
 	.quad wrapper_managed_to_native_OpenTK_Graphics_ES20_GL_Core_ReadPixels_int_int_int_int_OpenTK_Graphics_ES20_PixelFormat_OpenTK_Graphics_ES20_PixelType_intptr
-	.quad Lme_27c
+	.quad Lme_27b
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM3175=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3175
+LDIFF_SYM3173=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3173
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM3176=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3176
+LDIFF_SYM3174=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3174
 	.byte 2,141,24,3
 	.asciz "param2"
 
-LDIFF_SYM3177=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3177
+LDIFF_SYM3175=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3175
 	.byte 2,141,32,3
 	.asciz "param3"
 
-LDIFF_SYM3178=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3178
+LDIFF_SYM3176=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3176
 	.byte 2,141,40,3
 	.asciz "param4"
 
-LDIFF_SYM3179=LTDIE_74 - Ldebug_info_start
-	.long LDIFF_SYM3179
+LDIFF_SYM3177=LTDIE_74 - Ldebug_info_start
+	.long LDIFF_SYM3177
 	.byte 2,141,48,3
 	.asciz "param5"
 
-LDIFF_SYM3180=LTDIE_75 - Ldebug_info_start
-	.long LDIFF_SYM3180
+LDIFF_SYM3178=LTDIE_75 - Ldebug_info_start
+	.long LDIFF_SYM3178
 	.byte 2,141,56,3
 	.asciz "param6"
 
-LDIFF_SYM3181=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3181
+LDIFF_SYM3179=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3179
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM3182=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3182
+LDIFF_SYM3180=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3180
 	.byte 0,11
 	.asciz "V_1"
 
-LDIFF_SYM3183=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3183
+LDIFF_SYM3181=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3181
 	.byte 0,11
 	.asciz "V_2"
 
-LDIFF_SYM3184=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3184
+LDIFF_SYM3182=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3182
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3185=Lfde475_end - Lfde475_start
-	.long LDIFF_SYM3185
-Lfde475_start:
+LDIFF_SYM3183=Lfde474_end - Lfde474_start
+	.long LDIFF_SYM3183
+Lfde474_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_OpenTK_Graphics_ES20_GL_Core_ReadPixels_int_int_int_int_OpenTK_Graphics_ES20_PixelFormat_OpenTK_Graphics_ES20_PixelType_intptr
 
-LDIFF_SYM3186=Lme_27c - wrapper_managed_to_native_OpenTK_Graphics_ES20_GL_Core_ReadPixels_int_int_int_int_OpenTK_Graphics_ES20_PixelFormat_OpenTK_Graphics_ES20_PixelType_intptr
-	.long LDIFF_SYM3186
+LDIFF_SYM3184=Lme_27b - wrapper_managed_to_native_OpenTK_Graphics_ES20_GL_Core_ReadPixels_int_int_int_int_OpenTK_Graphics_ES20_PixelFormat_OpenTK_Graphics_ES20_PixelType_intptr
+	.long LDIFF_SYM3184
 	.long 0
 	.byte 12,31,0,68,14,192,1,157,24,158,23,68,13,29,76,147,13,148,12,68,149,11,150,10,68,151,9,152,8,68,153,7
 	.byte 154,6,68,155,5,156,4
 	.align 3
-Lfde475_end:
+Lfde474_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -63004,62 +62825,62 @@ Lfde475_end:
 
 	.byte 0,0
 	.quad wrapper_managed_to_native_OpenTK_Graphics_ES20_GL_Core_Scissor_int_int_int_int
-	.quad Lme_27d
+	.quad Lme_27c
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM3187=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3187
+LDIFF_SYM3185=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3185
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM3188=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3188
+LDIFF_SYM3186=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3186
 	.byte 2,141,24,3
 	.asciz "param2"
 
-LDIFF_SYM3189=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3189
+LDIFF_SYM3187=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3187
 	.byte 2,141,32,3
 	.asciz "param3"
 
-LDIFF_SYM3190=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3190
+LDIFF_SYM3188=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3188
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM3191=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3191
+LDIFF_SYM3189=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3189
 	.byte 0,11
 	.asciz "V_1"
 
-LDIFF_SYM3192=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3192
+LDIFF_SYM3190=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3190
 	.byte 0,11
 	.asciz "V_2"
 
-LDIFF_SYM3193=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3193
+LDIFF_SYM3191=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3191
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3194=Lfde476_end - Lfde476_start
-	.long LDIFF_SYM3194
-Lfde476_start:
+LDIFF_SYM3192=Lfde475_end - Lfde475_start
+	.long LDIFF_SYM3192
+Lfde475_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_OpenTK_Graphics_ES20_GL_Core_Scissor_int_int_int_int
 
-LDIFF_SYM3195=Lme_27d - wrapper_managed_to_native_OpenTK_Graphics_ES20_GL_Core_Scissor_int_int_int_int
-	.long LDIFF_SYM3195
+LDIFF_SYM3193=Lme_27c - wrapper_managed_to_native_OpenTK_Graphics_ES20_GL_Core_Scissor_int_int_int_int
+	.long LDIFF_SYM3193
 	.long 0
 	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,76,147,12,148,11,68,149,10,150,9,68,151,8,152,7,68,153,6
 	.byte 154,5,68,155,4,156,3
 	.align 3
-Lfde476_end:
+Lfde475_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -63069,62 +62890,62 @@ Lfde476_end:
 
 	.byte 0,0
 	.quad wrapper_managed_to_native_OpenTK_Graphics_ES20_GL_Core_Viewport_int_int_int_int
-	.quad Lme_27e
+	.quad Lme_27d
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM3196=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3196
+LDIFF_SYM3194=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3194
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM3197=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3197
+LDIFF_SYM3195=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3195
 	.byte 2,141,24,3
 	.asciz "param2"
 
-LDIFF_SYM3198=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3198
+LDIFF_SYM3196=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3196
 	.byte 2,141,32,3
 	.asciz "param3"
 
-LDIFF_SYM3199=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3199
+LDIFF_SYM3197=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3197
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM3200=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3200
+LDIFF_SYM3198=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3198
 	.byte 0,11
 	.asciz "V_1"
 
-LDIFF_SYM3201=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3201
+LDIFF_SYM3199=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3199
 	.byte 0,11
 	.asciz "V_2"
 
-LDIFF_SYM3202=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3202
+LDIFF_SYM3200=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3200
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3203=Lfde477_end - Lfde477_start
-	.long LDIFF_SYM3203
-Lfde477_start:
+LDIFF_SYM3201=Lfde476_end - Lfde476_start
+	.long LDIFF_SYM3201
+Lfde476_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_OpenTK_Graphics_ES20_GL_Core_Viewport_int_int_int_int
 
-LDIFF_SYM3204=Lme_27e - wrapper_managed_to_native_OpenTK_Graphics_ES20_GL_Core_Viewport_int_int_int_int
-	.long LDIFF_SYM3204
+LDIFF_SYM3202=Lme_27d - wrapper_managed_to_native_OpenTK_Graphics_ES20_GL_Core_Viewport_int_int_int_int
+	.long LDIFF_SYM3202
 	.long 0
 	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,76,147,12,148,11,68,149,10,150,9,68,151,8,152,7,68,153,6
 	.byte 154,5,68,155,4,156,3
 	.align 3
-Lfde477_end:
+Lfde476_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -63134,52 +62955,52 @@ Lfde477_end:
 
 	.byte 0,0
 	.quad wrapper_managed_to_native_OpenTK_Graphics_ES11_GL_Core_BindFramebufferOES_OpenTK_Graphics_ES11_All_uint
-	.quad Lme_27f
+	.quad Lme_27e
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM3205=LTDIE_76 - Ldebug_info_start
-	.long LDIFF_SYM3205
+LDIFF_SYM3203=LTDIE_76 - Ldebug_info_start
+	.long LDIFF_SYM3203
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM3206=LDIE_U4 - Ldebug_info_start
-	.long LDIFF_SYM3206
+LDIFF_SYM3204=LDIE_U4 - Ldebug_info_start
+	.long LDIFF_SYM3204
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM3207=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3207
+LDIFF_SYM3205=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3205
 	.byte 0,11
 	.asciz "V_1"
 
-LDIFF_SYM3208=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3208
+LDIFF_SYM3206=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3206
 	.byte 0,11
 	.asciz "V_2"
 
-LDIFF_SYM3209=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3209
+LDIFF_SYM3207=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3207
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3210=Lfde478_end - Lfde478_start
-	.long LDIFF_SYM3210
-Lfde478_start:
+LDIFF_SYM3208=Lfde477_end - Lfde477_start
+	.long LDIFF_SYM3208
+Lfde477_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_OpenTK_Graphics_ES11_GL_Core_BindFramebufferOES_OpenTK_Graphics_ES11_All_uint
 
-LDIFF_SYM3211=Lme_27f - wrapper_managed_to_native_OpenTK_Graphics_ES11_GL_Core_BindFramebufferOES_OpenTK_Graphics_ES11_All_uint
-	.long LDIFF_SYM3211
+LDIFF_SYM3209=Lme_27e - wrapper_managed_to_native_OpenTK_Graphics_ES11_GL_Core_BindFramebufferOES_OpenTK_Graphics_ES11_All_uint
+	.long LDIFF_SYM3209
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,76,147,12,148,11,68,149,10,150,9,68,151,8,152,7,68,153,6
 	.byte 154,5,68,155,4,156,3
 	.align 3
-Lfde478_end:
+Lfde477_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -63189,52 +63010,52 @@ Lfde478_end:
 
 	.byte 0,0
 	.quad wrapper_managed_to_native_OpenTK_Graphics_ES11_GL_Core_BindRenderbufferOES_OpenTK_Graphics_ES11_All_uint
-	.quad Lme_280
+	.quad Lme_27f
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM3212=LTDIE_76 - Ldebug_info_start
-	.long LDIFF_SYM3212
+LDIFF_SYM3210=LTDIE_76 - Ldebug_info_start
+	.long LDIFF_SYM3210
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM3213=LDIE_U4 - Ldebug_info_start
-	.long LDIFF_SYM3213
+LDIFF_SYM3211=LDIE_U4 - Ldebug_info_start
+	.long LDIFF_SYM3211
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM3214=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3214
+LDIFF_SYM3212=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3212
 	.byte 0,11
 	.asciz "V_1"
 
-LDIFF_SYM3215=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3215
+LDIFF_SYM3213=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3213
 	.byte 0,11
 	.asciz "V_2"
 
-LDIFF_SYM3216=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3216
+LDIFF_SYM3214=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3214
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3217=Lfde479_end - Lfde479_start
-	.long LDIFF_SYM3217
-Lfde479_start:
+LDIFF_SYM3215=Lfde478_end - Lfde478_start
+	.long LDIFF_SYM3215
+Lfde478_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_OpenTK_Graphics_ES11_GL_Core_BindRenderbufferOES_OpenTK_Graphics_ES11_All_uint
 
-LDIFF_SYM3218=Lme_280 - wrapper_managed_to_native_OpenTK_Graphics_ES11_GL_Core_BindRenderbufferOES_OpenTK_Graphics_ES11_All_uint
-	.long LDIFF_SYM3218
+LDIFF_SYM3216=Lme_27f - wrapper_managed_to_native_OpenTK_Graphics_ES11_GL_Core_BindRenderbufferOES_OpenTK_Graphics_ES11_All_uint
+	.long LDIFF_SYM3216
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,76,147,12,148,11,68,149,10,150,9,68,151,8,152,7,68,153,6
 	.byte 154,5,68,155,4,156,3
 	.align 3
-Lfde479_end:
+Lfde478_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -63244,52 +63065,52 @@ Lfde479_end:
 
 	.byte 0,0
 	.quad wrapper_managed_to_native_OpenTK_Graphics_ES11_GL_Core_DeleteFramebuffersOES_int_uint_
-	.quad Lme_281
+	.quad Lme_280
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM3219=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3219
+LDIFF_SYM3217=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3217
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM3220=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3220
+LDIFF_SYM3218=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3218
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM3221=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3221
+LDIFF_SYM3219=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3219
 	.byte 0,11
 	.asciz "V_1"
 
-LDIFF_SYM3222=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3222
+LDIFF_SYM3220=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3220
 	.byte 0,11
 	.asciz "V_2"
 
-LDIFF_SYM3223=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3223
+LDIFF_SYM3221=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3221
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3224=Lfde480_end - Lfde480_start
-	.long LDIFF_SYM3224
-Lfde480_start:
+LDIFF_SYM3222=Lfde479_end - Lfde479_start
+	.long LDIFF_SYM3222
+Lfde479_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_OpenTK_Graphics_ES11_GL_Core_DeleteFramebuffersOES_int_uint_
 
-LDIFF_SYM3225=Lme_281 - wrapper_managed_to_native_OpenTK_Graphics_ES11_GL_Core_DeleteFramebuffersOES_int_uint_
-	.long LDIFF_SYM3225
+LDIFF_SYM3223=Lme_280 - wrapper_managed_to_native_OpenTK_Graphics_ES11_GL_Core_DeleteFramebuffersOES_int_uint_
+	.long LDIFF_SYM3223
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,76,147,12,148,11,68,149,10,150,9,68,151,8,152,7,68,153,6
 	.byte 154,5,68,155,4,156,3
 	.align 3
-Lfde480_end:
+Lfde479_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -63299,52 +63120,52 @@ Lfde480_end:
 
 	.byte 0,0
 	.quad wrapper_managed_to_native_OpenTK_Graphics_ES11_GL_Core_DeleteRenderbuffersOES_int_uint_
-	.quad Lme_282
+	.quad Lme_281
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM3226=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3226
+LDIFF_SYM3224=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3224
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM3227=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3227
+LDIFF_SYM3225=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3225
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM3228=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3228
+LDIFF_SYM3226=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3226
 	.byte 0,11
 	.asciz "V_1"
 
-LDIFF_SYM3229=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3229
+LDIFF_SYM3227=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3227
 	.byte 0,11
 	.asciz "V_2"
 
-LDIFF_SYM3230=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3230
+LDIFF_SYM3228=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3228
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3231=Lfde481_end - Lfde481_start
-	.long LDIFF_SYM3231
-Lfde481_start:
+LDIFF_SYM3229=Lfde480_end - Lfde480_start
+	.long LDIFF_SYM3229
+Lfde480_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_OpenTK_Graphics_ES11_GL_Core_DeleteRenderbuffersOES_int_uint_
 
-LDIFF_SYM3232=Lme_282 - wrapper_managed_to_native_OpenTK_Graphics_ES11_GL_Core_DeleteRenderbuffersOES_int_uint_
-	.long LDIFF_SYM3232
+LDIFF_SYM3230=Lme_281 - wrapper_managed_to_native_OpenTK_Graphics_ES11_GL_Core_DeleteRenderbuffersOES_int_uint_
+	.long LDIFF_SYM3230
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,76,147,12,148,11,68,149,10,150,9,68,151,8,152,7,68,153,6
 	.byte 154,5,68,155,4,156,3
 	.align 3
-Lfde481_end:
+Lfde480_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -63354,62 +63175,62 @@ Lfde481_end:
 
 	.byte 0,0
 	.quad wrapper_managed_to_native_OpenTK_Graphics_ES11_GL_Core_FramebufferRenderbufferOES_OpenTK_Graphics_ES11_All_OpenTK_Graphics_ES11_All_OpenTK_Graphics_ES11_All_uint
-	.quad Lme_283
+	.quad Lme_282
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM3233=LTDIE_76 - Ldebug_info_start
-	.long LDIFF_SYM3233
+LDIFF_SYM3231=LTDIE_76 - Ldebug_info_start
+	.long LDIFF_SYM3231
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM3234=LTDIE_76 - Ldebug_info_start
-	.long LDIFF_SYM3234
+LDIFF_SYM3232=LTDIE_76 - Ldebug_info_start
+	.long LDIFF_SYM3232
 	.byte 2,141,24,3
 	.asciz "param2"
 
-LDIFF_SYM3235=LTDIE_76 - Ldebug_info_start
-	.long LDIFF_SYM3235
+LDIFF_SYM3233=LTDIE_76 - Ldebug_info_start
+	.long LDIFF_SYM3233
 	.byte 2,141,32,3
 	.asciz "param3"
 
-LDIFF_SYM3236=LDIE_U4 - Ldebug_info_start
-	.long LDIFF_SYM3236
+LDIFF_SYM3234=LDIE_U4 - Ldebug_info_start
+	.long LDIFF_SYM3234
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM3237=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3237
+LDIFF_SYM3235=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3235
 	.byte 0,11
 	.asciz "V_1"
 
-LDIFF_SYM3238=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3238
+LDIFF_SYM3236=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3236
 	.byte 0,11
 	.asciz "V_2"
 
-LDIFF_SYM3239=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3239
+LDIFF_SYM3237=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3237
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3240=Lfde482_end - Lfde482_start
-	.long LDIFF_SYM3240
-Lfde482_start:
+LDIFF_SYM3238=Lfde481_end - Lfde481_start
+	.long LDIFF_SYM3238
+Lfde481_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_OpenTK_Graphics_ES11_GL_Core_FramebufferRenderbufferOES_OpenTK_Graphics_ES11_All_OpenTK_Graphics_ES11_All_OpenTK_Graphics_ES11_All_uint
 
-LDIFF_SYM3241=Lme_283 - wrapper_managed_to_native_OpenTK_Graphics_ES11_GL_Core_FramebufferRenderbufferOES_OpenTK_Graphics_ES11_All_OpenTK_Graphics_ES11_All_OpenTK_Graphics_ES11_All_uint
-	.long LDIFF_SYM3241
+LDIFF_SYM3239=Lme_282 - wrapper_managed_to_native_OpenTK_Graphics_ES11_GL_Core_FramebufferRenderbufferOES_OpenTK_Graphics_ES11_All_OpenTK_Graphics_ES11_All_OpenTK_Graphics_ES11_All_uint
+	.long LDIFF_SYM3239
 	.long 0
 	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,76,147,12,148,11,68,149,10,150,9,68,151,8,152,7,68,153,6
 	.byte 154,5,68,155,4,156,3
 	.align 3
-Lfde482_end:
+Lfde481_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -63419,52 +63240,52 @@ Lfde482_end:
 
 	.byte 0,0
 	.quad wrapper_managed_to_native_OpenTK_Graphics_ES11_GL_Core_GenFramebuffersOES_int_uint_
-	.quad Lme_284
+	.quad Lme_283
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM3242=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3242
+LDIFF_SYM3240=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3240
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM3243=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3243
+LDIFF_SYM3241=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3241
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM3244=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3244
+LDIFF_SYM3242=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3242
 	.byte 0,11
 	.asciz "V_1"
 
-LDIFF_SYM3245=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3245
+LDIFF_SYM3243=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3243
 	.byte 0,11
 	.asciz "V_2"
 
-LDIFF_SYM3246=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3246
+LDIFF_SYM3244=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3244
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3247=Lfde483_end - Lfde483_start
-	.long LDIFF_SYM3247
-Lfde483_start:
+LDIFF_SYM3245=Lfde482_end - Lfde482_start
+	.long LDIFF_SYM3245
+Lfde482_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_OpenTK_Graphics_ES11_GL_Core_GenFramebuffersOES_int_uint_
 
-LDIFF_SYM3248=Lme_284 - wrapper_managed_to_native_OpenTK_Graphics_ES11_GL_Core_GenFramebuffersOES_int_uint_
-	.long LDIFF_SYM3248
+LDIFF_SYM3246=Lme_283 - wrapper_managed_to_native_OpenTK_Graphics_ES11_GL_Core_GenFramebuffersOES_int_uint_
+	.long LDIFF_SYM3246
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,76,147,12,148,11,68,149,10,150,9,68,151,8,152,7,68,153,6
 	.byte 154,5,68,155,4,156,3
 	.align 3
-Lfde483_end:
+Lfde482_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -63474,52 +63295,52 @@ Lfde483_end:
 
 	.byte 0,0
 	.quad wrapper_managed_to_native_OpenTK_Graphics_ES11_GL_Core_GenRenderbuffersOES_int_uint_
-	.quad Lme_285
+	.quad Lme_284
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM3249=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3249
+LDIFF_SYM3247=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3247
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM3250=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3250
+LDIFF_SYM3248=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3248
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM3251=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3251
+LDIFF_SYM3249=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3249
 	.byte 0,11
 	.asciz "V_1"
 
-LDIFF_SYM3252=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3252
+LDIFF_SYM3250=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3250
 	.byte 0,11
 	.asciz "V_2"
 
-LDIFF_SYM3253=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3253
+LDIFF_SYM3251=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3251
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3254=Lfde484_end - Lfde484_start
-	.long LDIFF_SYM3254
-Lfde484_start:
+LDIFF_SYM3252=Lfde483_end - Lfde483_start
+	.long LDIFF_SYM3252
+Lfde483_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_OpenTK_Graphics_ES11_GL_Core_GenRenderbuffersOES_int_uint_
 
-LDIFF_SYM3255=Lme_285 - wrapper_managed_to_native_OpenTK_Graphics_ES11_GL_Core_GenRenderbuffersOES_int_uint_
-	.long LDIFF_SYM3255
+LDIFF_SYM3253=Lme_284 - wrapper_managed_to_native_OpenTK_Graphics_ES11_GL_Core_GenRenderbuffersOES_int_uint_
+	.long LDIFF_SYM3253
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,76,147,12,148,11,68,149,10,150,9,68,151,8,152,7,68,153,6
 	.byte 154,5,68,155,4,156,3
 	.align 3
-Lfde484_end:
+Lfde483_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -63529,52 +63350,52 @@ Lfde484_end:
 
 	.byte 0,0
 	.quad wrapper_managed_to_native_OpenTK_Graphics_ES11_GL_Core_GetIntegerv_OpenTK_Graphics_ES11_All_int_
-	.quad Lme_286
+	.quad Lme_285
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM3256=LTDIE_76 - Ldebug_info_start
-	.long LDIFF_SYM3256
+LDIFF_SYM3254=LTDIE_76 - Ldebug_info_start
+	.long LDIFF_SYM3254
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM3257=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3257
+LDIFF_SYM3255=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3255
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM3258=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3258
+LDIFF_SYM3256=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3256
 	.byte 0,11
 	.asciz "V_1"
 
-LDIFF_SYM3259=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3259
+LDIFF_SYM3257=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3257
 	.byte 0,11
 	.asciz "V_2"
 
-LDIFF_SYM3260=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3260
+LDIFF_SYM3258=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3258
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3261=Lfde485_end - Lfde485_start
-	.long LDIFF_SYM3261
-Lfde485_start:
+LDIFF_SYM3259=Lfde484_end - Lfde484_start
+	.long LDIFF_SYM3259
+Lfde484_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_OpenTK_Graphics_ES11_GL_Core_GetIntegerv_OpenTK_Graphics_ES11_All_int_
 
-LDIFF_SYM3262=Lme_286 - wrapper_managed_to_native_OpenTK_Graphics_ES11_GL_Core_GetIntegerv_OpenTK_Graphics_ES11_All_int_
-	.long LDIFF_SYM3262
+LDIFF_SYM3260=Lme_285 - wrapper_managed_to_native_OpenTK_Graphics_ES11_GL_Core_GetIntegerv_OpenTK_Graphics_ES11_All_int_
+	.long LDIFF_SYM3260
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,76,147,12,148,11,68,149,10,150,9,68,151,8,152,7,68,153,6
 	.byte 154,5,68,155,4,156,3
 	.align 3
-Lfde485_end:
+Lfde484_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -63584,57 +63405,57 @@ Lfde485_end:
 
 	.byte 0,0
 	.quad wrapper_managed_to_native_OpenTK_Graphics_ES11_GL_Core_GetRenderbufferParameterivOES_OpenTK_Graphics_ES11_All_OpenTK_Graphics_ES11_All_int_
-	.quad Lme_287
+	.quad Lme_286
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM3263=LTDIE_76 - Ldebug_info_start
-	.long LDIFF_SYM3263
+LDIFF_SYM3261=LTDIE_76 - Ldebug_info_start
+	.long LDIFF_SYM3261
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM3264=LTDIE_76 - Ldebug_info_start
-	.long LDIFF_SYM3264
+LDIFF_SYM3262=LTDIE_76 - Ldebug_info_start
+	.long LDIFF_SYM3262
 	.byte 2,141,24,3
 	.asciz "param2"
 
-LDIFF_SYM3265=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3265
+LDIFF_SYM3263=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3263
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM3266=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3266
+LDIFF_SYM3264=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3264
 	.byte 0,11
 	.asciz "V_1"
 
-LDIFF_SYM3267=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3267
+LDIFF_SYM3265=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3265
 	.byte 0,11
 	.asciz "V_2"
 
-LDIFF_SYM3268=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3268
+LDIFF_SYM3266=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3266
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3269=Lfde486_end - Lfde486_start
-	.long LDIFF_SYM3269
-Lfde486_start:
+LDIFF_SYM3267=Lfde485_end - Lfde485_start
+	.long LDIFF_SYM3267
+Lfde485_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_OpenTK_Graphics_ES11_GL_Core_GetRenderbufferParameterivOES_OpenTK_Graphics_ES11_All_OpenTK_Graphics_ES11_All_int_
 
-LDIFF_SYM3270=Lme_287 - wrapper_managed_to_native_OpenTK_Graphics_ES11_GL_Core_GetRenderbufferParameterivOES_OpenTK_Graphics_ES11_All_OpenTK_Graphics_ES11_All_int_
-	.long LDIFF_SYM3270
+LDIFF_SYM3268=Lme_286 - wrapper_managed_to_native_OpenTK_Graphics_ES11_GL_Core_GetRenderbufferParameterivOES_OpenTK_Graphics_ES11_All_OpenTK_Graphics_ES11_All_int_
+	.long LDIFF_SYM3268
 	.long 0
 	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,76,147,13,148,12,68,149,11,150,10,68,151,9,152,8,68,153,7
 	.byte 154,6,68,155,5,156,4
 	.align 3
-Lfde486_end:
+Lfde485_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -63644,52 +63465,52 @@ Lfde486_end:
 
 	.byte 0,0
 	.quad wrapper_managed_to_native_OpenTK_Graphics_ES11_GL_Core_PixelStorei_OpenTK_Graphics_ES11_All_int
-	.quad Lme_288
+	.quad Lme_287
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM3271=LTDIE_76 - Ldebug_info_start
-	.long LDIFF_SYM3271
+LDIFF_SYM3269=LTDIE_76 - Ldebug_info_start
+	.long LDIFF_SYM3269
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM3272=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3272
+LDIFF_SYM3270=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3270
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM3273=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3273
+LDIFF_SYM3271=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3271
 	.byte 0,11
 	.asciz "V_1"
 
-LDIFF_SYM3274=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3274
+LDIFF_SYM3272=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3272
 	.byte 0,11
 	.asciz "V_2"
 
-LDIFF_SYM3275=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3275
+LDIFF_SYM3273=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3273
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3276=Lfde487_end - Lfde487_start
-	.long LDIFF_SYM3276
-Lfde487_start:
+LDIFF_SYM3274=Lfde486_end - Lfde486_start
+	.long LDIFF_SYM3274
+Lfde486_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_OpenTK_Graphics_ES11_GL_Core_PixelStorei_OpenTK_Graphics_ES11_All_int
 
-LDIFF_SYM3277=Lme_288 - wrapper_managed_to_native_OpenTK_Graphics_ES11_GL_Core_PixelStorei_OpenTK_Graphics_ES11_All_int
-	.long LDIFF_SYM3277
+LDIFF_SYM3275=Lme_287 - wrapper_managed_to_native_OpenTK_Graphics_ES11_GL_Core_PixelStorei_OpenTK_Graphics_ES11_All_int
+	.long LDIFF_SYM3275
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,76,147,12,148,11,68,149,10,150,9,68,151,8,152,7,68,153,6
 	.byte 154,5,68,155,4,156,3
 	.align 3
-Lfde487_end:
+Lfde486_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -63699,77 +63520,77 @@ Lfde487_end:
 
 	.byte 0,0
 	.quad wrapper_managed_to_native_OpenTK_Graphics_ES11_GL_Core_ReadPixels_int_int_int_int_OpenTK_Graphics_ES11_All_OpenTK_Graphics_ES11_All_intptr
-	.quad Lme_289
+	.quad Lme_288
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM3278=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3278
+LDIFF_SYM3276=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3276
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM3279=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3279
+LDIFF_SYM3277=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3277
 	.byte 2,141,24,3
 	.asciz "param2"
 
-LDIFF_SYM3280=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3280
+LDIFF_SYM3278=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3278
 	.byte 2,141,32,3
 	.asciz "param3"
 
-LDIFF_SYM3281=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3281
+LDIFF_SYM3279=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3279
 	.byte 2,141,40,3
 	.asciz "param4"
 
-LDIFF_SYM3282=LTDIE_76 - Ldebug_info_start
-	.long LDIFF_SYM3282
+LDIFF_SYM3280=LTDIE_76 - Ldebug_info_start
+	.long LDIFF_SYM3280
 	.byte 2,141,48,3
 	.asciz "param5"
 
-LDIFF_SYM3283=LTDIE_76 - Ldebug_info_start
-	.long LDIFF_SYM3283
+LDIFF_SYM3281=LTDIE_76 - Ldebug_info_start
+	.long LDIFF_SYM3281
 	.byte 2,141,56,3
 	.asciz "param6"
 
-LDIFF_SYM3284=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3284
+LDIFF_SYM3282=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3282
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM3285=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3285
+LDIFF_SYM3283=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3283
 	.byte 0,11
 	.asciz "V_1"
 
-LDIFF_SYM3286=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3286
+LDIFF_SYM3284=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3284
 	.byte 0,11
 	.asciz "V_2"
 
-LDIFF_SYM3287=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3287
+LDIFF_SYM3285=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3285
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3288=Lfde488_end - Lfde488_start
-	.long LDIFF_SYM3288
-Lfde488_start:
+LDIFF_SYM3286=Lfde487_end - Lfde487_start
+	.long LDIFF_SYM3286
+Lfde487_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_OpenTK_Graphics_ES11_GL_Core_ReadPixels_int_int_int_int_OpenTK_Graphics_ES11_All_OpenTK_Graphics_ES11_All_intptr
 
-LDIFF_SYM3289=Lme_289 - wrapper_managed_to_native_OpenTK_Graphics_ES11_GL_Core_ReadPixels_int_int_int_int_OpenTK_Graphics_ES11_All_OpenTK_Graphics_ES11_All_intptr
-	.long LDIFF_SYM3289
+LDIFF_SYM3287=Lme_288 - wrapper_managed_to_native_OpenTK_Graphics_ES11_GL_Core_ReadPixels_int_int_int_int_OpenTK_Graphics_ES11_All_OpenTK_Graphics_ES11_All_intptr
+	.long LDIFF_SYM3287
 	.long 0
 	.byte 12,31,0,68,14,192,1,157,24,158,23,68,13,29,76,147,13,148,12,68,149,11,150,10,68,151,9,152,8,68,153,7
 	.byte 154,6,68,155,5,156,4
 	.align 3
-Lfde488_end:
+Lfde487_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -63779,62 +63600,62 @@ Lfde488_end:
 
 	.byte 0,0
 	.quad wrapper_managed_to_native_OpenTK_Graphics_ES11_GL_Core_Scissor_int_int_int_int
-	.quad Lme_28a
+	.quad Lme_289
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM3290=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3290
+LDIFF_SYM3288=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3288
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM3291=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3291
+LDIFF_SYM3289=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3289
 	.byte 2,141,24,3
 	.asciz "param2"
 
-LDIFF_SYM3292=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3292
+LDIFF_SYM3290=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3290
 	.byte 2,141,32,3
 	.asciz "param3"
 
-LDIFF_SYM3293=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3293
+LDIFF_SYM3291=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3291
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM3294=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3294
+LDIFF_SYM3292=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3292
 	.byte 0,11
 	.asciz "V_1"
 
-LDIFF_SYM3295=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3295
+LDIFF_SYM3293=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3293
 	.byte 0,11
 	.asciz "V_2"
 
-LDIFF_SYM3296=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3296
+LDIFF_SYM3294=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3294
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3297=Lfde489_end - Lfde489_start
-	.long LDIFF_SYM3297
-Lfde489_start:
+LDIFF_SYM3295=Lfde488_end - Lfde488_start
+	.long LDIFF_SYM3295
+Lfde488_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_OpenTK_Graphics_ES11_GL_Core_Scissor_int_int_int_int
 
-LDIFF_SYM3298=Lme_28a - wrapper_managed_to_native_OpenTK_Graphics_ES11_GL_Core_Scissor_int_int_int_int
-	.long LDIFF_SYM3298
+LDIFF_SYM3296=Lme_289 - wrapper_managed_to_native_OpenTK_Graphics_ES11_GL_Core_Scissor_int_int_int_int
+	.long LDIFF_SYM3296
 	.long 0
 	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,76,147,12,148,11,68,149,10,150,9,68,151,8,152,7,68,153,6
 	.byte 154,5,68,155,4,156,3
 	.align 3
-Lfde489_end:
+Lfde488_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -63844,62 +63665,62 @@ Lfde489_end:
 
 	.byte 0,0
 	.quad wrapper_managed_to_native_OpenTK_Graphics_ES11_GL_Core_Viewport_int_int_int_int
-	.quad Lme_28b
+	.quad Lme_28a
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM3299=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3299
+LDIFF_SYM3297=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3297
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM3300=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3300
+LDIFF_SYM3298=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3298
 	.byte 2,141,24,3
 	.asciz "param2"
 
-LDIFF_SYM3301=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3301
+LDIFF_SYM3299=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3299
 	.byte 2,141,32,3
 	.asciz "param3"
 
-LDIFF_SYM3302=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3302
+LDIFF_SYM3300=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3300
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM3303=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3303
+LDIFF_SYM3301=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3301
 	.byte 0,11
 	.asciz "V_1"
 
-LDIFF_SYM3304=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3304
+LDIFF_SYM3302=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3302
 	.byte 0,11
 	.asciz "V_2"
 
-LDIFF_SYM3305=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3305
+LDIFF_SYM3303=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3303
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3306=Lfde490_end - Lfde490_start
-	.long LDIFF_SYM3306
-Lfde490_start:
+LDIFF_SYM3304=Lfde489_end - Lfde489_start
+	.long LDIFF_SYM3304
+Lfde489_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_OpenTK_Graphics_ES11_GL_Core_Viewport_int_int_int_int
 
-LDIFF_SYM3307=Lme_28b - wrapper_managed_to_native_OpenTK_Graphics_ES11_GL_Core_Viewport_int_int_int_int
-	.long LDIFF_SYM3307
+LDIFF_SYM3305=Lme_28a - wrapper_managed_to_native_OpenTK_Graphics_ES11_GL_Core_Viewport_int_int_int_int
+	.long LDIFF_SYM3305
 	.long 0
 	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,76,147,12,148,11,68,149,10,150,9,68,151,8,152,7,68,153,6
 	.byte 154,5,68,155,4,156,3
 	.align 3
-Lfde490_end:
+Lfde489_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -63909,66 +63730,66 @@ Lfde490_end:
 
 	.byte 0,0
 	.quad wrapper_unknown_System_Drawing_Color_StructureToPtr_object_intptr_bool
-	.quad Lme_28c
+	.quad Lme_28b
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM3308=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM3308
+LDIFF_SYM3306=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM3306
 	.byte 1,104,3
 	.asciz "param1"
 
-LDIFF_SYM3309=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3309
+LDIFF_SYM3307=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3307
 	.byte 1,105,3
 	.asciz "param2"
 
-LDIFF_SYM3310=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM3310
+LDIFF_SYM3308=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM3308
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM3311=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3311
+LDIFF_SYM3309=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3309
 	.byte 1,106,11
 	.asciz "V_1"
 
-LDIFF_SYM3312=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3312
+LDIFF_SYM3310=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3310
 	.byte 1,104,11
 	.asciz "V_2"
 
-LDIFF_SYM3313=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3313
+LDIFF_SYM3311=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3311
 	.byte 0,11
 	.asciz "V_3"
 
-LDIFF_SYM3314=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3314
+LDIFF_SYM3312=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3312
 	.byte 1,105,11
 	.asciz "V_4"
 
-LDIFF_SYM3315=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3315
+LDIFF_SYM3313=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3313
 	.byte 2,141,40,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3316=Lfde491_end - Lfde491_start
-	.long LDIFF_SYM3316
-Lfde491_start:
+LDIFF_SYM3314=Lfde490_end - Lfde490_start
+	.long LDIFF_SYM3314
+Lfde490_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_unknown_System_Drawing_Color_StructureToPtr_object_intptr_bool
 
-LDIFF_SYM3317=Lme_28c - wrapper_unknown_System_Drawing_Color_StructureToPtr_object_intptr_bool
-	.long LDIFF_SYM3317
+LDIFF_SYM3315=Lme_28b - wrapper_unknown_System_Drawing_Color_StructureToPtr_object_intptr_bool
+	.long LDIFF_SYM3315
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,152,4,153,3,68,154,2
 	.align 3
-Lfde491_end:
+Lfde490_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -63978,56 +63799,56 @@ Lfde491_end:
 
 	.byte 0,0
 	.quad wrapper_unknown_System_Drawing_Color_PtrToStructure_intptr_object
-	.quad Lme_28d
+	.quad Lme_28c
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM3318=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3318
+LDIFF_SYM3316=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3316
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM3319=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM3319
+LDIFF_SYM3317=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM3317
 	.byte 2,141,24,11
 	.asciz "V_0"
+
+LDIFF_SYM3318=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3318
+	.byte 0,11
+	.asciz "V_1"
+
+LDIFF_SYM3319=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3319
+	.byte 0,11
+	.asciz "V_2"
 
 LDIFF_SYM3320=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM3320
 	.byte 0,11
-	.asciz "V_1"
+	.asciz "V_3"
 
 LDIFF_SYM3321=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM3321
-	.byte 0,11
-	.asciz "V_2"
-
-LDIFF_SYM3322=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3322
-	.byte 0,11
-	.asciz "V_3"
-
-LDIFF_SYM3323=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3323
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3324=Lfde492_end - Lfde492_start
-	.long LDIFF_SYM3324
-Lfde492_start:
+LDIFF_SYM3322=Lfde491_end - Lfde491_start
+	.long LDIFF_SYM3322
+Lfde491_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_unknown_System_Drawing_Color_PtrToStructure_intptr_object
 
-LDIFF_SYM3325=Lme_28d - wrapper_unknown_System_Drawing_Color_PtrToStructure_intptr_object
-	.long LDIFF_SYM3325
+LDIFF_SYM3323=Lme_28c - wrapper_unknown_System_Drawing_Color_PtrToStructure_intptr_object
+	.long LDIFF_SYM3323
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde492_end:
+Lfde491_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -64037,41 +63858,41 @@ Lfde492_end:
 
 	.byte 0,0
 	.quad wrapper_unknown_OpenTK_ContextHandle_StructureToPtr_object_intptr_bool
-	.quad Lme_28e
+	.quad Lme_28d
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM3326=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM3326
+LDIFF_SYM3324=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM3324
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM3327=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3327
+LDIFF_SYM3325=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3325
 	.byte 2,141,24,3
 	.asciz "param2"
 
-LDIFF_SYM3328=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3328
+LDIFF_SYM3326=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3326
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3329=Lfde493_end - Lfde493_start
-	.long LDIFF_SYM3329
-Lfde493_start:
+LDIFF_SYM3327=Lfde492_end - Lfde492_start
+	.long LDIFF_SYM3327
+Lfde492_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_unknown_OpenTK_ContextHandle_StructureToPtr_object_intptr_bool
 
-LDIFF_SYM3330=Lme_28e - wrapper_unknown_OpenTK_ContextHandle_StructureToPtr_object_intptr_bool
-	.long LDIFF_SYM3330
+LDIFF_SYM3328=Lme_28d - wrapper_unknown_OpenTK_ContextHandle_StructureToPtr_object_intptr_bool
+	.long LDIFF_SYM3328
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde493_end:
+Lfde492_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -64081,36 +63902,36 @@ Lfde493_end:
 
 	.byte 0,0
 	.quad wrapper_unknown_OpenTK_ContextHandle_PtrToStructure_intptr_object
-	.quad Lme_28f
+	.quad Lme_28e
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM3331=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3331
+LDIFF_SYM3329=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3329
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM3332=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM3332
+LDIFF_SYM3330=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM3330
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3333=Lfde494_end - Lfde494_start
-	.long LDIFF_SYM3333
-Lfde494_start:
+LDIFF_SYM3331=Lfde493_end - Lfde493_start
+	.long LDIFF_SYM3331
+Lfde493_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_unknown_OpenTK_ContextHandle_PtrToStructure_intptr_object
 
-LDIFF_SYM3334=Lme_28f - wrapper_unknown_OpenTK_ContextHandle_PtrToStructure_intptr_object
-	.long LDIFF_SYM3334
+LDIFF_SYM3332=Lme_28e - wrapper_unknown_OpenTK_ContextHandle_PtrToStructure_intptr_object
+	.long LDIFF_SYM3332
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde494_end:
+Lfde493_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -64120,66 +63941,66 @@ Lfde494_end:
 
 	.byte 0,0
 	.quad wrapper_unknown_OpenTK_Graphics_ColorFormat_StructureToPtr_object_intptr_bool
-	.quad Lme_290
+	.quad Lme_28f
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM3335=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM3335
+LDIFF_SYM3333=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM3333
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM3336=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3336
+LDIFF_SYM3334=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3334
 	.byte 2,141,24,3
 	.asciz "param2"
+
+LDIFF_SYM3335=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3335
+	.byte 0,11
+	.asciz "V_0"
+
+LDIFF_SYM3336=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3336
+	.byte 0,11
+	.asciz "V_1"
 
 LDIFF_SYM3337=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM3337
 	.byte 0,11
-	.asciz "V_0"
+	.asciz "V_2"
 
 LDIFF_SYM3338=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM3338
 	.byte 0,11
-	.asciz "V_1"
+	.asciz "V_3"
 
 LDIFF_SYM3339=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM3339
 	.byte 0,11
-	.asciz "V_2"
+	.asciz "V_4"
 
 LDIFF_SYM3340=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM3340
-	.byte 0,11
-	.asciz "V_3"
-
-LDIFF_SYM3341=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3341
-	.byte 0,11
-	.asciz "V_4"
-
-LDIFF_SYM3342=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3342
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3343=Lfde495_end - Lfde495_start
-	.long LDIFF_SYM3343
-Lfde495_start:
+LDIFF_SYM3341=Lfde494_end - Lfde494_start
+	.long LDIFF_SYM3341
+Lfde494_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_unknown_OpenTK_Graphics_ColorFormat_StructureToPtr_object_intptr_bool
 
-LDIFF_SYM3344=Lme_290 - wrapper_unknown_OpenTK_Graphics_ColorFormat_StructureToPtr_object_intptr_bool
-	.long LDIFF_SYM3344
+LDIFF_SYM3342=Lme_28f - wrapper_unknown_OpenTK_Graphics_ColorFormat_StructureToPtr_object_intptr_bool
+	.long LDIFF_SYM3342
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde495_end:
+Lfde494_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -64189,56 +64010,56 @@ Lfde495_end:
 
 	.byte 0,0
 	.quad wrapper_unknown_OpenTK_Graphics_ColorFormat_PtrToStructure_intptr_object
-	.quad Lme_291
+	.quad Lme_290
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM3345=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3345
+LDIFF_SYM3343=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3343
 	.byte 1,105,3
 	.asciz "param1"
 
-LDIFF_SYM3346=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM3346
+LDIFF_SYM3344=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM3344
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM3347=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3347
+LDIFF_SYM3345=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3345
 	.byte 1,106,11
 	.asciz "V_1"
 
-LDIFF_SYM3348=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3348
+LDIFF_SYM3346=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3346
 	.byte 1,104,11
 	.asciz "V_2"
 
-LDIFF_SYM3349=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3349
+LDIFF_SYM3347=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3347
 	.byte 1,105,11
 	.asciz "V_3"
 
-LDIFF_SYM3350=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3350
+LDIFF_SYM3348=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3348
 	.byte 2,141,40,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3351=Lfde496_end - Lfde496_start
-	.long LDIFF_SYM3351
-Lfde496_start:
+LDIFF_SYM3349=Lfde495_end - Lfde495_start
+	.long LDIFF_SYM3349
+Lfde495_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_unknown_OpenTK_Graphics_ColorFormat_PtrToStructure_intptr_object
 
-LDIFF_SYM3352=Lme_291 - wrapper_unknown_OpenTK_Graphics_ColorFormat_PtrToStructure_intptr_object
-	.long LDIFF_SYM3352
+LDIFF_SYM3350=Lme_290 - wrapper_unknown_OpenTK_Graphics_ColorFormat_PtrToStructure_intptr_object
+	.long LDIFF_SYM3350
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,152,4,153,3,68,154,2
 	.align 3
-Lfde496_end:
+Lfde495_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -64248,41 +64069,41 @@ Lfde496_end:
 
 	.byte 26,232,1
 	.quad System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference_Add_OpenTK_ContextHandle_System_WeakReference
-	.quad Lme_292
+	.quad Lme_291
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3353=LTDIE_132_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3353
+LDIFF_SYM3351=LTDIE_132_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3351
 	.byte 2,141,16,3
 	.asciz "key"
 
-LDIFF_SYM3354=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3354
+LDIFF_SYM3352=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3352
 	.byte 2,141,24,3
 	.asciz "value"
 
-LDIFF_SYM3355=LTDIE_101_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3355
+LDIFF_SYM3353=LTDIE_101_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3353
 	.byte 2,141,40,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3356=Lfde497_end - Lfde497_start
-	.long LDIFF_SYM3356
-Lfde497_start:
+LDIFF_SYM3354=Lfde496_end - Lfde496_start
+	.long LDIFF_SYM3354
+Lfde496_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference_Add_OpenTK_ContextHandle_System_WeakReference
 
-LDIFF_SYM3357=Lme_292 - System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference_Add_OpenTK_ContextHandle_System_WeakReference
-	.long LDIFF_SYM3357
+LDIFF_SYM3355=Lme_291 - System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference_Add_OpenTK_ContextHandle_System_WeakReference
+	.long LDIFF_SYM3355
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde497_end:
+Lfde496_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -64292,31 +64113,31 @@ Lfde497_end:
 
 	.byte 26,189,1
 	.quad System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference_get_Values
-	.quad Lme_293
+	.quad Lme_292
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3358=LTDIE_132_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3358
+LDIFF_SYM3356=LTDIE_132_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3356
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3359=Lfde498_end - Lfde498_start
-	.long LDIFF_SYM3359
-Lfde498_start:
+LDIFF_SYM3357=Lfde497_end - Lfde497_start
+	.long LDIFF_SYM3357
+Lfde497_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference_get_Values
 
-LDIFF_SYM3360=Lme_293 - System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference_get_Values
-	.long LDIFF_SYM3360
+LDIFF_SYM3358=Lme_292 - System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference_get_Values
+	.long LDIFF_SYM3358
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
 	.align 3
-Lfde498_end:
+Lfde497_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -64326,46 +64147,46 @@ Lfde498_end:
 
 	.byte 26,216,1
 	.quad System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference_get_Item_OpenTK_ContextHandle
-	.quad Lme_294
+	.quad Lme_293
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3361=LTDIE_132_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3361
+LDIFF_SYM3359=LTDIE_132_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3359
 	.byte 2,141,24,3
 	.asciz "key"
 
-LDIFF_SYM3362=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3362
+LDIFF_SYM3360=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3360
 	.byte 2,141,32,11
 	.asciz "i"
 
-LDIFF_SYM3363=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3363
+LDIFF_SYM3361=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3361
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM3364=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3364
+LDIFF_SYM3362=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3362
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3365=Lfde499_end - Lfde499_start
-	.long LDIFF_SYM3365
-Lfde499_start:
+LDIFF_SYM3363=Lfde498_end - Lfde498_start
+	.long LDIFF_SYM3363
+Lfde498_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference_get_Item_OpenTK_ContextHandle
 
-LDIFF_SYM3366=Lme_294 - System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference_get_Item_OpenTK_ContextHandle
-	.long LDIFF_SYM3366
+LDIFF_SYM3364=Lme_293 - System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference_get_Item_OpenTK_ContextHandle
+	.long LDIFF_SYM3364
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,153,4
 	.align 3
-Lfde499_end:
+Lfde498_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -64375,61 +64196,61 @@ Lfde499_end:
 
 	.byte 26,182,4
 	.quad System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference_Remove_OpenTK_ContextHandle
-	.quad Lme_295
+	.quad Lme_294
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3367=LTDIE_132_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3367
+LDIFF_SYM3365=LTDIE_132_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3365
 	.byte 1,106,3
 	.asciz "key"
 
-LDIFF_SYM3368=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3368
+LDIFF_SYM3366=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3366
 	.byte 3,141,192,0,11
 	.asciz "hashCode"
 
-LDIFF_SYM3369=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3369
+LDIFF_SYM3367=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3367
 	.byte 1,105,11
 	.asciz "bucket"
 
-LDIFF_SYM3370=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3370
+LDIFF_SYM3368=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3368
 	.byte 1,104,11
 	.asciz "last"
 
-LDIFF_SYM3371=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3371
+LDIFF_SYM3369=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3369
 	.byte 1,103,11
 	.asciz "i"
 
-LDIFF_SYM3372=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3372
+LDIFF_SYM3370=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3370
 	.byte 1,102,11
 	.asciz "entry"
 
-LDIFF_SYM3373=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3373
+LDIFF_SYM3371=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3371
 	.byte 1,101,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3374=Lfde500_end - Lfde500_start
-	.long LDIFF_SYM3374
-Lfde500_start:
+LDIFF_SYM3372=Lfde499_end - Lfde499_start
+	.long LDIFF_SYM3372
+Lfde499_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference_Remove_OpenTK_ContextHandle
 
-LDIFF_SYM3375=Lme_295 - System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference_Remove_OpenTK_ContextHandle
-	.long LDIFF_SYM3375
+LDIFF_SYM3373=Lme_294 - System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference_Remove_OpenTK_ContextHandle
+	.long LDIFF_SYM3373
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,149,10,150,9,68,151,8,152,7,68,153,6,154,5
 	.align 3
-Lfde500_end:
+Lfde499_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -64439,31 +64260,31 @@ Lfde500_end:
 
 	.byte 26,67
 	.quad System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference__ctor
-	.quad Lme_296
+	.quad Lme_295
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3376=LTDIE_132_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3376
+LDIFF_SYM3374=LTDIE_132_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3374
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3377=Lfde501_end - Lfde501_start
-	.long LDIFF_SYM3377
-Lfde501_start:
+LDIFF_SYM3375=Lfde500_end - Lfde500_start
+	.long LDIFF_SYM3375
+Lfde500_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference__ctor
 
-LDIFF_SYM3378=Lme_296 - System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference__ctor
-	.long LDIFF_SYM3378
+LDIFF_SYM3376=Lme_295 - System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference__ctor
+	.long LDIFF_SYM3376
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde501_end:
+Lfde500_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -64471,26 +64292,55 @@ Lfde501_end:
 	.asciz "System.Array:InternalArray__get_Item<System.Collections.Generic.KeyValuePair`2<OpenTK.ContextHandle,_System.WeakReference>>"
 	.asciz "System_Array_InternalArray__get_Item_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_int"
 
-	.byte 24,175,1
+	.byte 24,176,1
 	.quad System_Array_InternalArray__get_Item_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_int
-	.quad Lme_297
+	.quad Lme_296
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3379=LTDIE_126_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3379
+LDIFF_SYM3377=LTDIE_126_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3377
 	.byte 2,141,32,3
 	.asciz "index"
 
-LDIFF_SYM3380=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3380
+LDIFF_SYM3378=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3378
 	.byte 2,141,40,11
 	.asciz "value"
 
-LDIFF_SYM3381=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3381
+LDIFF_SYM3379=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3379
 	.byte 2,141,48,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM3380=Lfde501_end - Lfde501_start
+	.long LDIFF_SYM3380
+Lfde501_start:
+
+	.long 0
+	.align 3
+	.quad System_Array_InternalArray__get_Item_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_int
+
+LDIFF_SYM3381=Lme_296 - System_Array_InternalArray__get_Item_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_int
+	.long LDIFF_SYM3381
+	.long 0
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
+	.align 3
+Lfde501_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Array/EmptyInternalEnumerator`1<System.Collections.Generic.KeyValuePair`2<OpenTK.ContextHandle,_System.WeakReference>>:.cctor"
+	.asciz "System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference__cctor"
+
+	.byte 24,151,2
+	.quad System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference__cctor
+	.quad Lme_297
+
+	.byte 2,118,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -64500,43 +64350,14 @@ Lfde502_start:
 
 	.long 0
 	.align 3
-	.quad System_Array_InternalArray__get_Item_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_int
+	.quad System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference__cctor
 
-LDIFF_SYM3383=Lme_297 - System_Array_InternalArray__get_Item_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_int
+LDIFF_SYM3383=Lme_297 - System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference__cctor
 	.long LDIFF_SYM3383
-	.long 0
-	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
-	.align 3
-Lfde502_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Array/EmptyInternalEnumerator`1<System.Collections.Generic.KeyValuePair`2<OpenTK.ContextHandle,_System.WeakReference>>:.cctor"
-	.asciz "System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference__cctor"
-
-	.byte 24,150,2
-	.quad System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference__cctor
-	.quad Lme_298
-
-	.byte 2,118,16,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM3384=Lfde503_end - Lfde503_start
-	.long LDIFF_SYM3384
-Lfde503_start:
-
-	.long 0
-	.align 3
-	.quad System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference__cctor
-
-LDIFF_SYM3385=Lme_298 - System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference__cctor
-	.long LDIFF_SYM3385
 	.long 0
 	.byte 12,31,0,68,14,16,157,2,158,1,68,13,29
 	.align 3
-Lfde503_end:
+Lfde502_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_145:
@@ -64545,79 +64366,79 @@ LTDIE_145:
 	.asciz "_Enumerator"
 
 	.byte 40,16
-LDIFF_SYM3386=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM3386
+LDIFF_SYM3384=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM3384
 	.byte 2,35,0,6
 	.asciz "_dictionary"
 
-LDIFF_SYM3387=LTDIE_132_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3387
+LDIFF_SYM3385=LTDIE_132_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3385
 	.byte 2,35,16,6
 	.asciz "_index"
 
-LDIFF_SYM3388=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3388
+LDIFF_SYM3386=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3386
 	.byte 2,35,24,6
 	.asciz "_version"
 
-LDIFF_SYM3389=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3389
+LDIFF_SYM3387=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3387
 	.byte 2,35,28,6
 	.asciz "_currentKey"
 
-LDIFF_SYM3390=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3390
+LDIFF_SYM3388=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3388
 	.byte 2,35,32,0,7
 	.asciz "_Enumerator"
 
-LDIFF_SYM3391=LTDIE_145 - Ldebug_info_start
-	.long LDIFF_SYM3391
+LDIFF_SYM3389=LTDIE_145 - Ldebug_info_start
+	.long LDIFF_SYM3389
 LTDIE_145_POINTER:
 
 	.byte 13
-LDIFF_SYM3392=LTDIE_145 - Ldebug_info_start
-	.long LDIFF_SYM3392
+LDIFF_SYM3390=LTDIE_145 - Ldebug_info_start
+	.long LDIFF_SYM3390
 LTDIE_145_REFERENCE:
 
 	.byte 14
-LDIFF_SYM3393=LTDIE_145 - Ldebug_info_start
-	.long LDIFF_SYM3393
+LDIFF_SYM3391=LTDIE_145 - Ldebug_info_start
+	.long LDIFF_SYM3391
 	.byte 2
 	.asciz "System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<OpenTK.ContextHandle,_System.WeakReference>:.ctor"
 	.asciz "System_Collections_Generic_Dictionary_2_KeyCollection_Enumerator_OpenTK_ContextHandle_System_WeakReference__ctor_System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference"
 
 	.byte 26,198,9
 	.quad System_Collections_Generic_Dictionary_2_KeyCollection_Enumerator_OpenTK_ContextHandle_System_WeakReference__ctor_System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference
-	.quad Lme_299
+	.quad Lme_298
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3394=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3394
+LDIFF_SYM3392=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3392
 	.byte 1,105,3
 	.asciz "dictionary"
 
-LDIFF_SYM3395=LTDIE_132_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3395
+LDIFF_SYM3393=LTDIE_132_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3393
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3396=Lfde504_end - Lfde504_start
-	.long LDIFF_SYM3396
-Lfde504_start:
+LDIFF_SYM3394=Lfde503_end - Lfde503_start
+	.long LDIFF_SYM3394
+Lfde503_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_KeyCollection_Enumerator_OpenTK_ContextHandle_System_WeakReference__ctor_System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference
 
-LDIFF_SYM3397=Lme_299 - System_Collections_Generic_Dictionary_2_KeyCollection_Enumerator_OpenTK_ContextHandle_System_WeakReference__ctor_System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference
-	.long LDIFF_SYM3397
+LDIFF_SYM3395=Lme_298 - System_Collections_Generic_Dictionary_2_KeyCollection_Enumerator_OpenTK_ContextHandle_System_WeakReference__ctor_System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference
+	.long LDIFF_SYM3395
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29,68,153,2
 	.align 3
-Lfde504_end:
+Lfde503_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -64627,31 +64448,31 @@ Lfde504_end:
 
 	.byte 26,206,9
 	.quad System_Collections_Generic_Dictionary_2_KeyCollection_Enumerator_OpenTK_ContextHandle_System_WeakReference_Dispose
-	.quad Lme_29a
+	.quad Lme_299
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3398=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3398
+LDIFF_SYM3396=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3396
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3399=Lfde505_end - Lfde505_start
-	.long LDIFF_SYM3399
-Lfde505_start:
+LDIFF_SYM3397=Lfde504_end - Lfde504_start
+	.long LDIFF_SYM3397
+Lfde504_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_KeyCollection_Enumerator_OpenTK_ContextHandle_System_WeakReference_Dispose
 
-LDIFF_SYM3400=Lme_29a - System_Collections_Generic_Dictionary_2_KeyCollection_Enumerator_OpenTK_ContextHandle_System_WeakReference_Dispose
-	.long LDIFF_SYM3400
+LDIFF_SYM3398=Lme_299 - System_Collections_Generic_Dictionary_2_KeyCollection_Enumerator_OpenTK_ContextHandle_System_WeakReference_Dispose
+	.long LDIFF_SYM3398
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde505_end:
+Lfde504_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -64661,41 +64482,41 @@ Lfde505_end:
 
 	.byte 26,210,9
 	.quad System_Collections_Generic_Dictionary_2_KeyCollection_Enumerator_OpenTK_ContextHandle_System_WeakReference_MoveNext
-	.quad Lme_29b
+	.quad Lme_29a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3401=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3401
+LDIFF_SYM3399=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3399
 	.byte 1,106,11
 	.asciz "entry"
 
-LDIFF_SYM3402=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3402
+LDIFF_SYM3400=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3400
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM3403=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3403
+LDIFF_SYM3401=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3401
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3404=Lfde506_end - Lfde506_start
-	.long LDIFF_SYM3404
-Lfde506_start:
+LDIFF_SYM3402=Lfde505_end - Lfde505_start
+	.long LDIFF_SYM3402
+Lfde505_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_KeyCollection_Enumerator_OpenTK_ContextHandle_System_WeakReference_MoveNext
 
-LDIFF_SYM3405=Lme_29b - System_Collections_Generic_Dictionary_2_KeyCollection_Enumerator_OpenTK_ContextHandle_System_WeakReference_MoveNext
-	.long LDIFF_SYM3405
+LDIFF_SYM3403=Lme_29a - System_Collections_Generic_Dictionary_2_KeyCollection_Enumerator_OpenTK_ContextHandle_System_WeakReference_MoveNext
+	.long LDIFF_SYM3403
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,153,4,154,3
 	.align 3
-Lfde506_end:
+Lfde505_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -64705,31 +64526,31 @@ Lfde506_end:
 
 	.byte 26,235,9
 	.quad System_Collections_Generic_Dictionary_2_KeyCollection_Enumerator_OpenTK_ContextHandle_System_WeakReference_get_Current
-	.quad Lme_29c
+	.quad Lme_29b
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3406=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3406
+LDIFF_SYM3404=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3404
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3407=Lfde507_end - Lfde507_start
-	.long LDIFF_SYM3407
-Lfde507_start:
+LDIFF_SYM3405=Lfde506_end - Lfde506_start
+	.long LDIFF_SYM3405
+Lfde506_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_KeyCollection_Enumerator_OpenTK_ContextHandle_System_WeakReference_get_Current
 
-LDIFF_SYM3408=Lme_29c - System_Collections_Generic_Dictionary_2_KeyCollection_Enumerator_OpenTK_ContextHandle_System_WeakReference_get_Current
-	.long LDIFF_SYM3408
+LDIFF_SYM3406=Lme_29b - System_Collections_Generic_Dictionary_2_KeyCollection_Enumerator_OpenTK_ContextHandle_System_WeakReference_get_Current
+	.long LDIFF_SYM3406
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde507_end:
+Lfde506_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -64739,31 +64560,31 @@ Lfde507_end:
 
 	.byte 26,243,9
 	.quad System_Collections_Generic_Dictionary_2_KeyCollection_Enumerator_OpenTK_ContextHandle_System_WeakReference_System_Collections_IEnumerator_get_Current
-	.quad Lme_29d
+	.quad Lme_29c
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3409=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3409
+LDIFF_SYM3407=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3407
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3410=Lfde508_end - Lfde508_start
-	.long LDIFF_SYM3410
-Lfde508_start:
+LDIFF_SYM3408=Lfde507_end - Lfde507_start
+	.long LDIFF_SYM3408
+Lfde507_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_KeyCollection_Enumerator_OpenTK_ContextHandle_System_WeakReference_System_Collections_IEnumerator_get_Current
 
-LDIFF_SYM3411=Lme_29d - System_Collections_Generic_Dictionary_2_KeyCollection_Enumerator_OpenTK_ContextHandle_System_WeakReference_System_Collections_IEnumerator_get_Current
-	.long LDIFF_SYM3411
+LDIFF_SYM3409=Lme_29c - System_Collections_Generic_Dictionary_2_KeyCollection_Enumerator_OpenTK_ContextHandle_System_WeakReference_System_Collections_IEnumerator_get_Current
+	.long LDIFF_SYM3409
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29,68,154,2
 	.align 3
-Lfde508_end:
+Lfde507_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -64773,31 +64594,31 @@ Lfde508_end:
 
 	.byte 26,254,9
 	.quad System_Collections_Generic_Dictionary_2_KeyCollection_Enumerator_OpenTK_ContextHandle_System_WeakReference_System_Collections_IEnumerator_Reset
-	.quad Lme_29e
+	.quad Lme_29d
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3412=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3412
+LDIFF_SYM3410=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3410
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3413=Lfde509_end - Lfde509_start
-	.long LDIFF_SYM3413
-Lfde509_start:
+LDIFF_SYM3411=Lfde508_end - Lfde508_start
+	.long LDIFF_SYM3411
+Lfde508_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_KeyCollection_Enumerator_OpenTK_ContextHandle_System_WeakReference_System_Collections_IEnumerator_Reset
 
-LDIFF_SYM3414=Lme_29e - System_Collections_Generic_Dictionary_2_KeyCollection_Enumerator_OpenTK_ContextHandle_System_WeakReference_System_Collections_IEnumerator_Reset
-	.long LDIFF_SYM3414
+LDIFF_SYM3412=Lme_29d - System_Collections_Generic_Dictionary_2_KeyCollection_Enumerator_OpenTK_ContextHandle_System_WeakReference_System_Collections_IEnumerator_Reset
+	.long LDIFF_SYM3412
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29,68,154,2
 	.align 3
-Lfde509_end:
+Lfde508_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -64807,36 +64628,36 @@ Lfde509_end:
 
 	.byte 26,157,2
 	.quad System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference_ContainsKey_OpenTK_ContextHandle
-	.quad Lme_29f
+	.quad Lme_29e
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3415=LTDIE_132_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3415
+LDIFF_SYM3413=LTDIE_132_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3413
 	.byte 2,141,16,3
 	.asciz "key"
 
-LDIFF_SYM3416=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3416
+LDIFF_SYM3414=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3414
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3417=Lfde510_end - Lfde510_start
-	.long LDIFF_SYM3417
-Lfde510_start:
+LDIFF_SYM3415=Lfde509_end - Lfde509_start
+	.long LDIFF_SYM3415
+Lfde509_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference_ContainsKey_OpenTK_ContextHandle
 
-LDIFF_SYM3418=Lme_29f - System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference_ContainsKey_OpenTK_ContextHandle
-	.long LDIFF_SYM3418
+LDIFF_SYM3416=Lme_29e - System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference_ContainsKey_OpenTK_ContextHandle
+	.long LDIFF_SYM3416
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde510_end:
+Lfde509_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_146:
@@ -64845,74 +64666,74 @@ LTDIE_146:
 	.asciz "System_Collections_Generic_EqualityComparer`1"
 
 	.byte 16,16
-LDIFF_SYM3419=LTDIE_2 - Ldebug_info_start
-	.long LDIFF_SYM3419
+LDIFF_SYM3417=LTDIE_2 - Ldebug_info_start
+	.long LDIFF_SYM3417
 	.byte 2,35,0,0,7
 	.asciz "System_Collections_Generic_EqualityComparer`1"
 
-LDIFF_SYM3420=LTDIE_146 - Ldebug_info_start
-	.long LDIFF_SYM3420
+LDIFF_SYM3418=LTDIE_146 - Ldebug_info_start
+	.long LDIFF_SYM3418
 LTDIE_146_POINTER:
 
 	.byte 13
-LDIFF_SYM3421=LTDIE_146 - Ldebug_info_start
-	.long LDIFF_SYM3421
+LDIFF_SYM3419=LTDIE_146 - Ldebug_info_start
+	.long LDIFF_SYM3419
 LTDIE_146_REFERENCE:
 
 	.byte 14
-LDIFF_SYM3422=LTDIE_146 - Ldebug_info_start
-	.long LDIFF_SYM3422
+LDIFF_SYM3420=LTDIE_146 - Ldebug_info_start
+	.long LDIFF_SYM3420
 	.byte 2
 	.asciz "System.Collections.Generic.Dictionary`2<OpenTK.ContextHandle,_System.WeakReference>:ContainsValue"
 	.asciz "System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference_ContainsValue_System_WeakReference"
 
 	.byte 26,162,2
 	.quad System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference_ContainsValue_System_WeakReference
-	.quad Lme_2a0
+	.quad Lme_29f
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3423=LTDIE_132_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3423
+LDIFF_SYM3421=LTDIE_132_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3421
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM3424=LTDIE_101_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3424
+LDIFF_SYM3422=LTDIE_101_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3422
 	.byte 1,106,11
+	.asciz "i"
+
+LDIFF_SYM3423=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3423
+	.byte 1,106,11
+	.asciz "c"
+
+LDIFF_SYM3424=LTDIE_146_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3424
+	.byte 1,104,11
 	.asciz "i"
 
 LDIFF_SYM3425=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM3425
-	.byte 1,106,11
-	.asciz "c"
-
-LDIFF_SYM3426=LTDIE_146_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3426
-	.byte 1,104,11
-	.asciz "i"
-
-LDIFF_SYM3427=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3427
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3428=Lfde511_end - Lfde511_start
-	.long LDIFF_SYM3428
-Lfde511_start:
+LDIFF_SYM3426=Lfde510_end - Lfde510_start
+	.long LDIFF_SYM3426
+Lfde510_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference_ContainsValue_System_WeakReference
 
-LDIFF_SYM3429=Lme_2a0 - System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference_ContainsValue_System_WeakReference
-	.long LDIFF_SYM3429
+LDIFF_SYM3427=Lme_29f - System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference_ContainsValue_System_WeakReference
+	.long LDIFF_SYM3427
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,151,4,152,3,68,153,2,154,1
 	.align 3
-Lfde511_end:
+Lfde510_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_147:
@@ -64921,8 +64742,8 @@ LTDIE_147:
 	.asciz "System_Collections_Generic_InsertionBehavior"
 
 	.byte 1
-LDIFF_SYM3430=LDIE_U1 - Ldebug_info_start
-	.long LDIFF_SYM3430
+LDIFF_SYM3428=LDIE_U1 - Ldebug_info_start
+	.long LDIFF_SYM3428
 	.byte 9
 	.asciz "None"
 
@@ -64935,89 +64756,89 @@ LDIFF_SYM3430=LDIE_U1 - Ldebug_info_start
 	.byte 2,0,7
 	.asciz "System_Collections_Generic_InsertionBehavior"
 
-LDIFF_SYM3431=LTDIE_147 - Ldebug_info_start
-	.long LDIFF_SYM3431
+LDIFF_SYM3429=LTDIE_147 - Ldebug_info_start
+	.long LDIFF_SYM3429
 LTDIE_147_POINTER:
 
 	.byte 13
-LDIFF_SYM3432=LTDIE_147 - Ldebug_info_start
-	.long LDIFF_SYM3432
+LDIFF_SYM3430=LTDIE_147 - Ldebug_info_start
+	.long LDIFF_SYM3430
 LTDIE_147_REFERENCE:
 
 	.byte 14
-LDIFF_SYM3433=LTDIE_147 - Ldebug_info_start
-	.long LDIFF_SYM3433
+LDIFF_SYM3431=LTDIE_147 - Ldebug_info_start
+	.long LDIFF_SYM3431
 	.byte 2
 	.asciz "System.Collections.Generic.Dictionary`2<OpenTK.ContextHandle,_System.WeakReference>:TryInsert"
 	.asciz "System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference_TryInsert_OpenTK_ContextHandle_System_WeakReference_System_Collections_Generic_InsertionBehavior"
 
 	.byte 26,145,3
 	.quad System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference_TryInsert_OpenTK_ContextHandle_System_WeakReference_System_Collections_Generic_InsertionBehavior
-	.quad Lme_2a1
+	.quad Lme_2a0
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3434=LTDIE_132_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3434
+LDIFF_SYM3432=LTDIE_132_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3432
 	.byte 1,104,3
 	.asciz "key"
 
-LDIFF_SYM3435=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3435
+LDIFF_SYM3433=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3433
 	.byte 3,141,200,0,3
 	.asciz "value"
 
-LDIFF_SYM3436=LTDIE_101_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3436
+LDIFF_SYM3434=LTDIE_101_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3434
 	.byte 1,105,3
 	.asciz "behavior"
 
-LDIFF_SYM3437=LTDIE_147 - Ldebug_info_start
-	.long LDIFF_SYM3437
+LDIFF_SYM3435=LTDIE_147 - Ldebug_info_start
+	.long LDIFF_SYM3435
 	.byte 1,106,11
 	.asciz "hashCode"
 
-LDIFF_SYM3438=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3438
+LDIFF_SYM3436=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3436
 	.byte 1,103,11
 	.asciz "targetBucket"
 
-LDIFF_SYM3439=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3439
+LDIFF_SYM3437=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3437
 	.byte 1,102,11
 	.asciz "collisionCount"
 
-LDIFF_SYM3440=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3440
+LDIFF_SYM3438=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3438
 	.byte 1,101,11
 	.asciz "index"
 
-LDIFF_SYM3441=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3441
+LDIFF_SYM3439=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3439
 	.byte 1,106,11
 	.asciz "i"
 
-LDIFF_SYM3442=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3442
+LDIFF_SYM3440=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3440
 	.byte 1,100,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3443=Lfde512_end - Lfde512_start
-	.long LDIFF_SYM3443
-Lfde512_start:
+LDIFF_SYM3441=Lfde511_end - Lfde511_start
+	.long LDIFF_SYM3441
+Lfde511_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference_TryInsert_OpenTK_ContextHandle_System_WeakReference_System_Collections_Generic_InsertionBehavior
 
-LDIFF_SYM3444=Lme_2a1 - System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference_TryInsert_OpenTK_ContextHandle_System_WeakReference_System_Collections_Generic_InsertionBehavior
-	.long LDIFF_SYM3444
+LDIFF_SYM3442=Lme_2a0 - System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference_TryInsert_OpenTK_ContextHandle_System_WeakReference_System_Collections_Generic_InsertionBehavior
+	.long LDIFF_SYM3442
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,148,14,149,13,68,150,12,151,11,68,152,10,153,9,68,154,8
 	.align 3
-Lfde512_end:
+Lfde511_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -65027,46 +64848,46 @@ Lfde512_end:
 
 	.byte 26,239,2
 	.quad System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference_FindEntry_OpenTK_ContextHandle
-	.quad Lme_2a2
+	.quad Lme_2a1
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3445=LTDIE_132_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3445
+LDIFF_SYM3443=LTDIE_132_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3443
 	.byte 1,106,3
 	.asciz "key"
 
-LDIFF_SYM3446=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3446
+LDIFF_SYM3444=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3444
 	.byte 2,141,40,11
 	.asciz "hashCode"
 
-LDIFF_SYM3447=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3447
+LDIFF_SYM3445=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3445
 	.byte 1,105,11
 	.asciz "i"
 
-LDIFF_SYM3448=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3448
+LDIFF_SYM3446=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3446
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3449=Lfde513_end - Lfde513_start
-	.long LDIFF_SYM3449
-Lfde513_start:
+LDIFF_SYM3447=Lfde512_end - Lfde512_start
+	.long LDIFF_SYM3447
+Lfde512_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference_FindEntry_OpenTK_ContextHandle
 
-LDIFF_SYM3450=Lme_2a2 - System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference_FindEntry_OpenTK_ContextHandle
-	.long LDIFF_SYM3450
+LDIFF_SYM3448=Lme_2a1 - System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference_FindEntry_OpenTK_ContextHandle
+	.long LDIFF_SYM3448
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,152,6,153,5,68,154,4
 	.align 3
-Lfde513_end:
+Lfde512_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -65076,26 +64897,26 @@ Lfde513_end:
 
 	.byte 28,191,1
 	.quad System_Runtime_CompilerServices_RuntimeHelpers_IsReferenceOrContainsReferences_OpenTK_ContextHandle
-	.quad Lme_2a3
+	.quad Lme_2a2
 
 	.byte 2,118,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3451=Lfde514_end - Lfde514_start
-	.long LDIFF_SYM3451
-Lfde514_start:
+LDIFF_SYM3449=Lfde513_end - Lfde513_start
+	.long LDIFF_SYM3449
+Lfde513_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_RuntimeHelpers_IsReferenceOrContainsReferences_OpenTK_ContextHandle
 
-LDIFF_SYM3452=Lme_2a3 - System_Runtime_CompilerServices_RuntimeHelpers_IsReferenceOrContainsReferences_OpenTK_ContextHandle
-	.long LDIFF_SYM3452
+LDIFF_SYM3450=Lme_2a2 - System_Runtime_CompilerServices_RuntimeHelpers_IsReferenceOrContainsReferences_OpenTK_ContextHandle
+	.long LDIFF_SYM3450
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29,68,153,2,154,1
 	.align 3
-Lfde514_end:
+Lfde513_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -65105,41 +64926,41 @@ Lfde514_end:
 
 	.byte 26,73
 	.quad System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference__ctor_int_System_Collections_Generic_IEqualityComparer_1_OpenTK_ContextHandle
-	.quad Lme_2a4
+	.quad Lme_2a3
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3453=LTDIE_132_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3453
+LDIFF_SYM3451=LTDIE_132_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3451
 	.byte 1,104,3
 	.asciz "capacity"
 
-LDIFF_SYM3454=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3454
+LDIFF_SYM3452=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3452
 	.byte 1,105,3
 	.asciz "comparer"
 
-LDIFF_SYM3455=LTDIE_133_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3455
+LDIFF_SYM3453=LTDIE_133_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3453
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3456=Lfde515_end - Lfde515_start
-	.long LDIFF_SYM3456
-Lfde515_start:
+LDIFF_SYM3454=Lfde514_end - Lfde514_start
+	.long LDIFF_SYM3454
+Lfde514_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference__ctor_int_System_Collections_Generic_IEqualityComparer_1_OpenTK_ContextHandle
 
-LDIFF_SYM3457=Lme_2a4 - System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference__ctor_int_System_Collections_Generic_IEqualityComparer_1_OpenTK_ContextHandle
-	.long LDIFF_SYM3457
+LDIFF_SYM3455=Lme_2a3 - System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference__ctor_int_System_Collections_Generic_IEqualityComparer_1_OpenTK_ContextHandle
+	.long LDIFF_SYM3455
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,152,4,153,3
 	.align 3
-Lfde515_end:
+Lfde514_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -65149,42 +64970,42 @@ Lfde515_end:
 
 	.byte 0,0
 	.quad wrapper_managed_to_native_System_Array_GetGenericValueImpl_System_Array_int_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_
-	.quad Lme_2a5
+	.quad Lme_2a4
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM3458=LTDIE_126_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3458
+LDIFF_SYM3456=LTDIE_126_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3456
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM3459=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3459
+LDIFF_SYM3457=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3457
 	.byte 2,141,24,3
 	.asciz "param2"
 
-LDIFF_SYM3460=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3460
+LDIFF_SYM3458=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3458
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3461=Lfde516_end - Lfde516_start
-	.long LDIFF_SYM3461
-Lfde516_start:
+LDIFF_SYM3459=Lfde515_end - Lfde515_start
+	.long LDIFF_SYM3459
+Lfde515_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_managed_to_native_System_Array_GetGenericValueImpl_System_Array_int_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_
 
-LDIFF_SYM3462=Lme_2a5 - wrapper_managed_to_native_System_Array_GetGenericValueImpl_System_Array_int_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_
-	.long LDIFF_SYM3462
+LDIFF_SYM3460=Lme_2a4 - wrapper_managed_to_native_System_Array_GetGenericValueImpl_System_Array_int_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_
+	.long LDIFF_SYM3460
 	.long 0
 	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,76,147,13,148,12,68,149,11,150,10,68,151,9,152,8,68,153,7
 	.byte 154,6,68,155,5,156,4
 	.align 3
-Lfde516_end:
+Lfde515_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_148:
@@ -65193,50 +65014,84 @@ LTDIE_148:
 	.asciz "_EmptyInternalEnumerator`1"
 
 	.byte 16,16
-LDIFF_SYM3463=LTDIE_2 - Ldebug_info_start
-	.long LDIFF_SYM3463
+LDIFF_SYM3461=LTDIE_2 - Ldebug_info_start
+	.long LDIFF_SYM3461
 	.byte 2,35,0,0,7
 	.asciz "_EmptyInternalEnumerator`1"
 
-LDIFF_SYM3464=LTDIE_148 - Ldebug_info_start
-	.long LDIFF_SYM3464
+LDIFF_SYM3462=LTDIE_148 - Ldebug_info_start
+	.long LDIFF_SYM3462
 LTDIE_148_POINTER:
 
 	.byte 13
-LDIFF_SYM3465=LTDIE_148 - Ldebug_info_start
-	.long LDIFF_SYM3465
+LDIFF_SYM3463=LTDIE_148 - Ldebug_info_start
+	.long LDIFF_SYM3463
 LTDIE_148_REFERENCE:
 
 	.byte 14
-LDIFF_SYM3466=LTDIE_148 - Ldebug_info_start
-	.long LDIFF_SYM3466
+LDIFF_SYM3464=LTDIE_148 - Ldebug_info_start
+	.long LDIFF_SYM3464
 	.byte 2
 	.asciz "System.Array/EmptyInternalEnumerator`1<System.Collections.Generic.KeyValuePair`2<OpenTK.ContextHandle,_System.WeakReference>>:Dispose"
 	.asciz "System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_Dispose"
 
-	.byte 24,154,2
+	.byte 24,155,2
 	.quad System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_Dispose
-	.quad Lme_2a6
+	.quad Lme_2a5
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3467=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3467
+LDIFF_SYM3465=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3465
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3468=Lfde517_end - Lfde517_start
-	.long LDIFF_SYM3468
-Lfde517_start:
+LDIFF_SYM3466=Lfde516_end - Lfde516_start
+	.long LDIFF_SYM3466
+Lfde516_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_Dispose
 
-LDIFF_SYM3469=Lme_2a6 - System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_Dispose
+LDIFF_SYM3467=Lme_2a5 - System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_Dispose
+	.long LDIFF_SYM3467
+	.long 0
+	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
+	.align 3
+Lfde516_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Array/EmptyInternalEnumerator`1<System.Collections.Generic.KeyValuePair`2<OpenTK.ContextHandle,_System.WeakReference>>:MoveNext"
+	.asciz "System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_MoveNext"
+
+	.byte 24,160,2
+	.quad System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_MoveNext
+	.quad Lme_2a6
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM3468=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3468
+	.byte 0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM3469=Lfde517_end - Lfde517_start
 	.long LDIFF_SYM3469
+Lfde517_start:
+
+	.long 0
+	.align 3
+	.quad System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_MoveNext
+
+LDIFF_SYM3470=Lme_2a6 - System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_MoveNext
+	.long LDIFF_SYM3470
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -65245,66 +65100,66 @@ Lfde517_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "System.Array/EmptyInternalEnumerator`1<System.Collections.Generic.KeyValuePair`2<OpenTK.ContextHandle,_System.WeakReference>>:MoveNext"
-	.asciz "System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_MoveNext"
+	.asciz "System.Array/EmptyInternalEnumerator`1<System.Collections.Generic.KeyValuePair`2<OpenTK.ContextHandle,_System.WeakReference>>:get_Current"
+	.asciz "System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_get_Current"
 
-	.byte 24,159,2
-	.quad System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_MoveNext
+	.byte 24,165,2
+	.quad System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_get_Current
 	.quad Lme_2a7
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3470=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3470
+LDIFF_SYM3471=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3471
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3471=Lfde518_end - Lfde518_start
-	.long LDIFF_SYM3471
+LDIFF_SYM3472=Lfde518_end - Lfde518_start
+	.long LDIFF_SYM3472
 Lfde518_start:
 
 	.long 0
 	.align 3
-	.quad System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_MoveNext
+	.quad System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_get_Current
 
-LDIFF_SYM3472=Lme_2a7 - System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_MoveNext
-	.long LDIFF_SYM3472
+LDIFF_SYM3473=Lme_2a7 - System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_get_Current
+	.long LDIFF_SYM3473
 	.long 0
-	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
 Lfde518_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "System.Array/EmptyInternalEnumerator`1<System.Collections.Generic.KeyValuePair`2<OpenTK.ContextHandle,_System.WeakReference>>:get_Current"
-	.asciz "System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_get_Current"
+	.asciz "System.Array/EmptyInternalEnumerator`1<System.Collections.Generic.KeyValuePair`2<OpenTK.ContextHandle,_System.WeakReference>>:System.Collections.IEnumerator.get_Current"
+	.asciz "System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_System_Collections_IEnumerator_get_Current"
 
-	.byte 24,164,2
-	.quad System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_get_Current
+	.byte 24,171,2
+	.quad System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_System_Collections_IEnumerator_get_Current
 	.quad Lme_2a8
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3473=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3473
+LDIFF_SYM3474=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3474
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3474=Lfde519_end - Lfde519_start
-	.long LDIFF_SYM3474
+LDIFF_SYM3475=Lfde519_end - Lfde519_start
+	.long LDIFF_SYM3475
 Lfde519_start:
 
 	.long 0
 	.align 3
-	.quad System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_get_Current
+	.quad System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_System_Collections_IEnumerator_get_Current
 
-LDIFF_SYM3475=Lme_2a8 - System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_get_Current
-	.long LDIFF_SYM3475
+LDIFF_SYM3476=Lme_2a8 - System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_System_Collections_IEnumerator_get_Current
+	.long LDIFF_SYM3476
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -65313,70 +65168,36 @@ Lfde519_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "System.Array/EmptyInternalEnumerator`1<System.Collections.Generic.KeyValuePair`2<OpenTK.ContextHandle,_System.WeakReference>>:System.Collections.IEnumerator.get_Current"
-	.asciz "System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_System_Collections_IEnumerator_get_Current"
+	.asciz "System.Array/EmptyInternalEnumerator`1<System.Collections.Generic.KeyValuePair`2<OpenTK.ContextHandle,_System.WeakReference>>:System.Collections.IEnumerator.Reset"
+	.asciz "System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_System_Collections_IEnumerator_Reset"
 
-	.byte 24,170,2
-	.quad System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_System_Collections_IEnumerator_get_Current
+	.byte 24,177,2
+	.quad System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_System_Collections_IEnumerator_Reset
 	.quad Lme_2a9
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3476=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3476
+LDIFF_SYM3477=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3477
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3477=Lfde520_end - Lfde520_start
-	.long LDIFF_SYM3477
+LDIFF_SYM3478=Lfde520_end - Lfde520_start
+	.long LDIFF_SYM3478
 Lfde520_start:
 
 	.long 0
 	.align 3
-	.quad System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_System_Collections_IEnumerator_get_Current
-
-LDIFF_SYM3478=Lme_2a9 - System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_System_Collections_IEnumerator_get_Current
-	.long LDIFF_SYM3478
-	.long 0
-	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
-	.align 3
-Lfde520_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Array/EmptyInternalEnumerator`1<System.Collections.Generic.KeyValuePair`2<OpenTK.ContextHandle,_System.WeakReference>>:System.Collections.IEnumerator.Reset"
-	.asciz "System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_System_Collections_IEnumerator_Reset"
-
-	.byte 24,176,2
 	.quad System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_System_Collections_IEnumerator_Reset
-	.quad Lme_2aa
 
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM3479=LDIE_I4 - Ldebug_info_start
+LDIFF_SYM3479=Lme_2a9 - System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_System_Collections_IEnumerator_Reset
 	.long LDIFF_SYM3479
-	.byte 0,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM3480=Lfde521_end - Lfde521_start
-	.long LDIFF_SYM3480
-Lfde521_start:
-
-	.long 0
-	.align 3
-	.quad System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_System_Collections_IEnumerator_Reset
-
-LDIFF_SYM3481=Lme_2aa - System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference_System_Collections_IEnumerator_Reset
-	.long LDIFF_SYM3481
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde521_end:
+Lfde520_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -65386,31 +65207,31 @@ Lfde521_end:
 
 	.byte 0,0
 	.quad System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference__ctor
-	.quad Lme_2ab
+	.quad Lme_2aa
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3482=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3482
+LDIFF_SYM3480=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3480
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3483=Lfde522_end - Lfde522_start
-	.long LDIFF_SYM3483
-Lfde522_start:
+LDIFF_SYM3481=Lfde521_end - Lfde521_start
+	.long LDIFF_SYM3481
+Lfde521_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference__ctor
 
-LDIFF_SYM3484=Lme_2ab - System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference__ctor
-	.long LDIFF_SYM3484
+LDIFF_SYM3482=Lme_2aa - System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_OpenTK_ContextHandle_System_WeakReference__ctor
+	.long LDIFF_SYM3482
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde522_end:
+Lfde521_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -65420,31 +65241,31 @@ Lfde522_end:
 
 	.byte 26,133,4
 	.quad System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference_Resize
-	.quad Lme_2ac
+	.quad Lme_2ab
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3485=LTDIE_132_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3485
+LDIFF_SYM3483=LTDIE_132_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3483
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3486=Lfde523_end - Lfde523_start
-	.long LDIFF_SYM3486
-Lfde523_start:
+LDIFF_SYM3484=Lfde522_end - Lfde522_start
+	.long LDIFF_SYM3484
+Lfde522_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference_Resize
 
-LDIFF_SYM3487=Lme_2ac - System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference_Resize
-	.long LDIFF_SYM3487
+LDIFF_SYM3485=Lme_2ab - System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference_Resize
+	.long LDIFF_SYM3485
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde523_end:
+Lfde522_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -65454,51 +65275,51 @@ Lfde523_end:
 
 	.byte 26,129,3
 	.quad System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference_Initialize_int
-	.quad Lme_2ad
+	.quad Lme_2ac
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3488=LTDIE_132_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3488
+LDIFF_SYM3486=LTDIE_132_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3486
 	.byte 1,105,3
 	.asciz "capacity"
 
-LDIFF_SYM3489=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3489
+LDIFF_SYM3487=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3487
 	.byte 1,106,11
 	.asciz "size"
 
-LDIFF_SYM3490=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3490
+LDIFF_SYM3488=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3488
 	.byte 1,106,11
 	.asciz "buckets"
 
-LDIFF_SYM3491=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM3491
+LDIFF_SYM3489=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM3489
 	.byte 1,104,11
 	.asciz "i"
 
-LDIFF_SYM3492=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3492
+LDIFF_SYM3490=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3490
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3493=Lfde524_end - Lfde524_start
-	.long LDIFF_SYM3493
-Lfde524_start:
+LDIFF_SYM3491=Lfde523_end - Lfde523_start
+	.long LDIFF_SYM3491
+Lfde523_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference_Initialize_int
 
-LDIFF_SYM3494=Lme_2ad - System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference_Initialize_int
-	.long LDIFF_SYM3494
+LDIFF_SYM3492=Lme_2ac - System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference_Initialize_int
+	.long LDIFF_SYM3492
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,151,4,152,3,68,153,2,154,1
 	.align 3
-Lfde524_end:
+Lfde523_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_149:
@@ -65507,54 +65328,54 @@ LTDIE_149:
 	.asciz "System_Collections_Generic_EqualityComparer`1"
 
 	.byte 16,16
-LDIFF_SYM3495=LTDIE_2 - Ldebug_info_start
-	.long LDIFF_SYM3495
+LDIFF_SYM3493=LTDIE_2 - Ldebug_info_start
+	.long LDIFF_SYM3493
 	.byte 2,35,0,0,7
 	.asciz "System_Collections_Generic_EqualityComparer`1"
 
-LDIFF_SYM3496=LTDIE_149 - Ldebug_info_start
-	.long LDIFF_SYM3496
+LDIFF_SYM3494=LTDIE_149 - Ldebug_info_start
+	.long LDIFF_SYM3494
 LTDIE_149_POINTER:
 
 	.byte 13
-LDIFF_SYM3497=LTDIE_149 - Ldebug_info_start
-	.long LDIFF_SYM3497
+LDIFF_SYM3495=LTDIE_149 - Ldebug_info_start
+	.long LDIFF_SYM3495
 LTDIE_149_REFERENCE:
 
 	.byte 14
-LDIFF_SYM3498=LTDIE_149 - Ldebug_info_start
-	.long LDIFF_SYM3498
+LDIFF_SYM3496=LTDIE_149 - Ldebug_info_start
+	.long LDIFF_SYM3496
 	.byte 2
 	.asciz "System.Collections.Generic.EqualityComparer`1<OpenTK.ContextHandle>:get_Default"
 	.asciz "System_Collections_Generic_EqualityComparer_1_OpenTK_ContextHandle_get_Default"
 
 	.byte 29,32
 	.quad System_Collections_Generic_EqualityComparer_1_OpenTK_ContextHandle_get_Default
-	.quad Lme_2ae
+	.quad Lme_2ad
 
 	.byte 2,118,16,11
 	.asciz "comparer"
 
-LDIFF_SYM3499=LTDIE_149_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3499
+LDIFF_SYM3497=LTDIE_149_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3497
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3500=Lfde525_end - Lfde525_start
-	.long LDIFF_SYM3500
-Lfde525_start:
+LDIFF_SYM3498=Lfde524_end - Lfde524_start
+	.long LDIFF_SYM3498
+Lfde524_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_EqualityComparer_1_OpenTK_ContextHandle_get_Default
 
-LDIFF_SYM3501=Lme_2ae - System_Collections_Generic_EqualityComparer_1_OpenTK_ContextHandle_get_Default
-	.long LDIFF_SYM3501
+LDIFF_SYM3499=Lme_2ad - System_Collections_Generic_EqualityComparer_1_OpenTK_ContextHandle_get_Default
+	.long LDIFF_SYM3499
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
 	.align 3
-Lfde525_end:
+Lfde524_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_150:
@@ -65563,8 +65384,8 @@ LTDIE_150:
 	.asciz "System_TypeCode"
 
 	.byte 4
-LDIFF_SYM3502=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3502
+LDIFF_SYM3500=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3500
 	.byte 9
 	.asciz "Empty"
 
@@ -65622,59 +65443,59 @@ LDIFF_SYM3502=LDIE_I4 - Ldebug_info_start
 	.byte 18,0,7
 	.asciz "System_TypeCode"
 
-LDIFF_SYM3503=LTDIE_150 - Ldebug_info_start
-	.long LDIFF_SYM3503
+LDIFF_SYM3501=LTDIE_150 - Ldebug_info_start
+	.long LDIFF_SYM3501
 LTDIE_150_POINTER:
 
 	.byte 13
-LDIFF_SYM3504=LTDIE_150 - Ldebug_info_start
-	.long LDIFF_SYM3504
+LDIFF_SYM3502=LTDIE_150 - Ldebug_info_start
+	.long LDIFF_SYM3502
 LTDIE_150_REFERENCE:
 
 	.byte 14
-LDIFF_SYM3505=LTDIE_150 - Ldebug_info_start
-	.long LDIFF_SYM3505
+LDIFF_SYM3503=LTDIE_150 - Ldebug_info_start
+	.long LDIFF_SYM3503
 	.byte 2
 	.asciz "System.Collections.Generic.EqualityComparer`1<OpenTK.ContextHandle>:CreateComparer"
 	.asciz "System_Collections_Generic_EqualityComparer_1_OpenTK_ContextHandle_CreateComparer"
 
 	.byte 29,49
 	.quad System_Collections_Generic_EqualityComparer_1_OpenTK_ContextHandle_CreateComparer
-	.quad Lme_2af
+	.quad Lme_2ae
 
 	.byte 2,118,16,11
 	.asciz "t"
 
-LDIFF_SYM3506=LTDIE_53_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3506
+LDIFF_SYM3504=LTDIE_53_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3504
 	.byte 1,105,11
 	.asciz "u"
 
-LDIFF_SYM3507=LTDIE_53_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3507
+LDIFF_SYM3505=LTDIE_53_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3505
 	.byte 1,104,11
 	.asciz "underlyingTypeCode"
 
-LDIFF_SYM3508=LTDIE_150 - Ldebug_info_start
-	.long LDIFF_SYM3508
+LDIFF_SYM3506=LTDIE_150 - Ldebug_info_start
+	.long LDIFF_SYM3506
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3509=Lfde526_end - Lfde526_start
-	.long LDIFF_SYM3509
-Lfde526_start:
+LDIFF_SYM3507=Lfde525_end - Lfde525_start
+	.long LDIFF_SYM3507
+Lfde525_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_EqualityComparer_1_OpenTK_ContextHandle_CreateComparer
 
-LDIFF_SYM3510=Lme_2af - System_Collections_Generic_EqualityComparer_1_OpenTK_ContextHandle_CreateComparer
-	.long LDIFF_SYM3510
+LDIFF_SYM3508=Lme_2ae - System_Collections_Generic_EqualityComparer_1_OpenTK_ContextHandle_CreateComparer
+	.long LDIFF_SYM3508
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,152,6,153,5,68,154,4
 	.align 3
-Lfde526_end:
+Lfde525_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -65684,61 +65505,61 @@ Lfde526_end:
 
 	.byte 29,129,1
 	.quad System_Collections_Generic_EqualityComparer_1_OpenTK_ContextHandle_IndexOf_OpenTK_ContextHandle___OpenTK_ContextHandle_int_int
-	.quad Lme_2b2
+	.quad Lme_2b1
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3511=LTDIE_149_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3511
+LDIFF_SYM3509=LTDIE_149_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3509
 	.byte 1,103,3
 	.asciz "array"
 
-LDIFF_SYM3512=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM3512
+LDIFF_SYM3510=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM3510
 	.byte 1,104,3
 	.asciz "value"
 
-LDIFF_SYM3513=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3513
+LDIFF_SYM3511=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3511
 	.byte 2,141,48,3
 	.asciz "startIndex"
 
-LDIFF_SYM3514=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3514
+LDIFF_SYM3512=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3512
 	.byte 3,141,192,0,3
 	.asciz "count"
 
-LDIFF_SYM3515=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3515
+LDIFF_SYM3513=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3513
 	.byte 1,106,11
 	.asciz "endIndex"
 
-LDIFF_SYM3516=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3516
+LDIFF_SYM3514=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3514
 	.byte 1,102,11
 	.asciz "i"
 
-LDIFF_SYM3517=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3517
+LDIFF_SYM3515=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3515
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3518=Lfde527_end - Lfde527_start
-	.long LDIFF_SYM3518
-Lfde527_start:
+LDIFF_SYM3516=Lfde526_end - Lfde526_start
+	.long LDIFF_SYM3516
+Lfde526_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_EqualityComparer_1_OpenTK_ContextHandle_IndexOf_OpenTK_ContextHandle___OpenTK_ContextHandle_int_int
 
-LDIFF_SYM3519=Lme_2b2 - System_Collections_Generic_EqualityComparer_1_OpenTK_ContextHandle_IndexOf_OpenTK_ContextHandle___OpenTK_ContextHandle_int_int
-	.long LDIFF_SYM3519
+LDIFF_SYM3517=Lme_2b1 - System_Collections_Generic_EqualityComparer_1_OpenTK_ContextHandle_IndexOf_OpenTK_ContextHandle___OpenTK_ContextHandle_int_int
+	.long LDIFF_SYM3517
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,150,8,151,7,68,152,6,68,154,5
 	.align 3
-Lfde527_end:
+Lfde526_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -65748,61 +65569,61 @@ Lfde527_end:
 
 	.byte 29,137,1
 	.quad System_Collections_Generic_EqualityComparer_1_OpenTK_ContextHandle_LastIndexOf_OpenTK_ContextHandle___OpenTK_ContextHandle_int_int
-	.quad Lme_2b3
+	.quad Lme_2b2
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3520=LTDIE_149_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3520
+LDIFF_SYM3518=LTDIE_149_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3518
 	.byte 1,103,3
 	.asciz "array"
 
-LDIFF_SYM3521=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM3521
+LDIFF_SYM3519=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM3519
 	.byte 1,104,3
 	.asciz "value"
 
-LDIFF_SYM3522=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3522
+LDIFF_SYM3520=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3520
 	.byte 2,141,48,3
 	.asciz "startIndex"
 
-LDIFF_SYM3523=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3523
+LDIFF_SYM3521=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3521
 	.byte 3,141,192,0,3
 	.asciz "count"
 
-LDIFF_SYM3524=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3524
+LDIFF_SYM3522=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3522
 	.byte 1,106,11
 	.asciz "endIndex"
 
-LDIFF_SYM3525=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3525
+LDIFF_SYM3523=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3523
 	.byte 1,106,11
 	.asciz "i"
 
-LDIFF_SYM3526=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3526
+LDIFF_SYM3524=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3524
 	.byte 1,102,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3527=Lfde528_end - Lfde528_start
-	.long LDIFF_SYM3527
-Lfde528_start:
+LDIFF_SYM3525=Lfde527_end - Lfde527_start
+	.long LDIFF_SYM3525
+Lfde527_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_EqualityComparer_1_OpenTK_ContextHandle_LastIndexOf_OpenTK_ContextHandle___OpenTK_ContextHandle_int_int
 
-LDIFF_SYM3528=Lme_2b3 - System_Collections_Generic_EqualityComparer_1_OpenTK_ContextHandle_LastIndexOf_OpenTK_ContextHandle___OpenTK_ContextHandle_int_int
-	.long LDIFF_SYM3528
+LDIFF_SYM3526=Lme_2b2 - System_Collections_Generic_EqualityComparer_1_OpenTK_ContextHandle_LastIndexOf_OpenTK_ContextHandle___OpenTK_ContextHandle_int_int
+	.long LDIFF_SYM3526
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,150,8,151,7,68,152,6,68,154,5
 	.align 3
-Lfde528_end:
+Lfde527_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -65812,36 +65633,36 @@ Lfde528_end:
 
 	.byte 29,145,1
 	.quad System_Collections_Generic_EqualityComparer_1_OpenTK_ContextHandle_System_Collections_IEqualityComparer_GetHashCode_object
-	.quad Lme_2b4
+	.quad Lme_2b3
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3529=LTDIE_149_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3529
+LDIFF_SYM3527=LTDIE_149_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3527
 	.byte 2,141,32,3
 	.asciz "obj"
 
-LDIFF_SYM3530=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM3530
+LDIFF_SYM3528=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM3528
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3531=Lfde529_end - Lfde529_start
-	.long LDIFF_SYM3531
-Lfde529_start:
+LDIFF_SYM3529=Lfde528_end - Lfde528_start
+	.long LDIFF_SYM3529
+Lfde528_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_EqualityComparer_1_OpenTK_ContextHandle_System_Collections_IEqualityComparer_GetHashCode_object
 
-LDIFF_SYM3532=Lme_2b4 - System_Collections_Generic_EqualityComparer_1_OpenTK_ContextHandle_System_Collections_IEqualityComparer_GetHashCode_object
-	.long LDIFF_SYM3532
+LDIFF_SYM3530=Lme_2b3 - System_Collections_Generic_EqualityComparer_1_OpenTK_ContextHandle_System_Collections_IEqualityComparer_GetHashCode_object
+	.long LDIFF_SYM3530
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,152,4,68,154,3
 	.align 3
-Lfde529_end:
+Lfde528_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -65851,41 +65672,41 @@ Lfde529_end:
 
 	.byte 29,152,1
 	.quad System_Collections_Generic_EqualityComparer_1_OpenTK_ContextHandle_System_Collections_IEqualityComparer_Equals_object_object
-	.quad Lme_2b5
+	.quad Lme_2b4
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3533=LTDIE_149_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3533
+LDIFF_SYM3531=LTDIE_149_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3531
 	.byte 2,141,40,3
 	.asciz "x"
 
-LDIFF_SYM3534=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM3534
+LDIFF_SYM3532=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM3532
 	.byte 1,105,3
 	.asciz "y"
 
-LDIFF_SYM3535=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM3535
+LDIFF_SYM3533=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM3533
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3536=Lfde530_end - Lfde530_start
-	.long LDIFF_SYM3536
-Lfde530_start:
+LDIFF_SYM3534=Lfde529_end - Lfde529_start
+	.long LDIFF_SYM3534
+Lfde529_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_EqualityComparer_1_OpenTK_ContextHandle_System_Collections_IEqualityComparer_Equals_object_object
 
-LDIFF_SYM3537=Lme_2b5 - System_Collections_Generic_EqualityComparer_1_OpenTK_ContextHandle_System_Collections_IEqualityComparer_Equals_object_object
-	.long LDIFF_SYM3537
+LDIFF_SYM3535=Lme_2b4 - System_Collections_Generic_EqualityComparer_1_OpenTK_ContextHandle_System_Collections_IEqualityComparer_Equals_object_object
+	.long LDIFF_SYM3535
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,151,6,68,153,5,154,4
 	.align 3
-Lfde530_end:
+Lfde529_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -65895,31 +65716,31 @@ Lfde530_end:
 
 	.byte 0,0
 	.quad System_Collections_Generic_EqualityComparer_1_OpenTK_ContextHandle__ctor
-	.quad Lme_2b6
+	.quad Lme_2b5
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3538=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3538
+LDIFF_SYM3536=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3536
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3539=Lfde531_end - Lfde531_start
-	.long LDIFF_SYM3539
-Lfde531_start:
+LDIFF_SYM3537=Lfde530_end - Lfde530_start
+	.long LDIFF_SYM3537
+Lfde530_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_EqualityComparer_1_OpenTK_ContextHandle__ctor
 
-LDIFF_SYM3540=Lme_2b6 - System_Collections_Generic_EqualityComparer_1_OpenTK_ContextHandle__ctor
-	.long LDIFF_SYM3540
+LDIFF_SYM3538=Lme_2b5 - System_Collections_Generic_EqualityComparer_1_OpenTK_ContextHandle__ctor
+	.long LDIFF_SYM3538
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde531_end:
+Lfde530_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_151:
@@ -65928,64 +65749,64 @@ LTDIE_151:
 	.asciz "System_Collections_Generic_GenericEqualityComparer`1"
 
 	.byte 16,16
-LDIFF_SYM3541=LTDIE_149 - Ldebug_info_start
-	.long LDIFF_SYM3541
+LDIFF_SYM3539=LTDIE_149 - Ldebug_info_start
+	.long LDIFF_SYM3539
 	.byte 2,35,0,0,7
 	.asciz "System_Collections_Generic_GenericEqualityComparer`1"
 
-LDIFF_SYM3542=LTDIE_151 - Ldebug_info_start
-	.long LDIFF_SYM3542
+LDIFF_SYM3540=LTDIE_151 - Ldebug_info_start
+	.long LDIFF_SYM3540
 LTDIE_151_POINTER:
 
 	.byte 13
-LDIFF_SYM3543=LTDIE_151 - Ldebug_info_start
-	.long LDIFF_SYM3543
+LDIFF_SYM3541=LTDIE_151 - Ldebug_info_start
+	.long LDIFF_SYM3541
 LTDIE_151_REFERENCE:
 
 	.byte 14
-LDIFF_SYM3544=LTDIE_151 - Ldebug_info_start
-	.long LDIFF_SYM3544
+LDIFF_SYM3542=LTDIE_151 - Ldebug_info_start
+	.long LDIFF_SYM3542
 	.byte 2
 	.asciz "System.Collections.Generic.GenericEqualityComparer`1<OpenTK.ContextHandle>:Equals"
 	.asciz "System_Collections_Generic_GenericEqualityComparer_1_OpenTK_ContextHandle_Equals_OpenTK_ContextHandle_OpenTK_ContextHandle"
 
 	.byte 29,167,1
 	.quad System_Collections_Generic_GenericEqualityComparer_1_OpenTK_ContextHandle_Equals_OpenTK_ContextHandle_OpenTK_ContextHandle
-	.quad Lme_2b7
+	.quad Lme_2b6
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3545=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3545
+LDIFF_SYM3543=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3543
 	.byte 0,3
 	.asciz "x"
 
-LDIFF_SYM3546=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3546
+LDIFF_SYM3544=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3544
 	.byte 2,141,24,3
 	.asciz "y"
 
-LDIFF_SYM3547=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3547
+LDIFF_SYM3545=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3545
 	.byte 2,141,40,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3548=Lfde532_end - Lfde532_start
-	.long LDIFF_SYM3548
-Lfde532_start:
+LDIFF_SYM3546=Lfde531_end - Lfde531_start
+	.long LDIFF_SYM3546
+Lfde531_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_GenericEqualityComparer_1_OpenTK_ContextHandle_Equals_OpenTK_ContextHandle_OpenTK_ContextHandle
 
-LDIFF_SYM3549=Lme_2b7 - System_Collections_Generic_GenericEqualityComparer_1_OpenTK_ContextHandle_Equals_OpenTK_ContextHandle_OpenTK_ContextHandle
-	.long LDIFF_SYM3549
+LDIFF_SYM3547=Lme_2b6 - System_Collections_Generic_GenericEqualityComparer_1_OpenTK_ContextHandle_Equals_OpenTK_ContextHandle_OpenTK_ContextHandle
+	.long LDIFF_SYM3547
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde532_end:
+Lfde531_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -65995,36 +65816,36 @@ Lfde532_end:
 
 	.byte 29,177,1
 	.quad System_Collections_Generic_GenericEqualityComparer_1_OpenTK_ContextHandle_GetHashCode_OpenTK_ContextHandle
-	.quad Lme_2b8
+	.quad Lme_2b7
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3550=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3550
+LDIFF_SYM3548=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3548
 	.byte 0,3
 	.asciz "obj"
 
-LDIFF_SYM3551=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3551
+LDIFF_SYM3549=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3549
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3552=Lfde533_end - Lfde533_start
-	.long LDIFF_SYM3552
-Lfde533_start:
+LDIFF_SYM3550=Lfde532_end - Lfde532_start
+	.long LDIFF_SYM3550
+Lfde532_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_GenericEqualityComparer_1_OpenTK_ContextHandle_GetHashCode_OpenTK_ContextHandle
 
-LDIFF_SYM3553=Lme_2b8 - System_Collections_Generic_GenericEqualityComparer_1_OpenTK_ContextHandle_GetHashCode_OpenTK_ContextHandle
-	.long LDIFF_SYM3553
+LDIFF_SYM3551=Lme_2b7 - System_Collections_Generic_GenericEqualityComparer_1_OpenTK_ContextHandle_GetHashCode_OpenTK_ContextHandle
+	.long LDIFF_SYM3551
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde533_end:
+Lfde532_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -66034,66 +65855,66 @@ Lfde533_end:
 
 	.byte 29,182,1
 	.quad System_Collections_Generic_GenericEqualityComparer_1_OpenTK_ContextHandle_IndexOf_OpenTK_ContextHandle___OpenTK_ContextHandle_int_int
-	.quad Lme_2b9
+	.quad Lme_2b8
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3554=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3554
+LDIFF_SYM3552=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3552
 	.byte 0,3
 	.asciz "array"
 
-LDIFF_SYM3555=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM3555
+LDIFF_SYM3553=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM3553
 	.byte 1,104,3
 	.asciz "value"
 
-LDIFF_SYM3556=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3556
+LDIFF_SYM3554=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3554
 	.byte 2,141,48,3
 	.asciz "startIndex"
 
-LDIFF_SYM3557=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3557
+LDIFF_SYM3555=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3555
 	.byte 3,141,192,0,3
 	.asciz "count"
+
+LDIFF_SYM3556=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3556
+	.byte 1,106,11
+	.asciz "endIndex"
+
+LDIFF_SYM3557=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3557
+	.byte 1,103,11
+	.asciz "i"
 
 LDIFF_SYM3558=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM3558
 	.byte 1,106,11
-	.asciz "endIndex"
+	.asciz "i"
 
 LDIFF_SYM3559=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM3559
-	.byte 1,103,11
-	.asciz "i"
-
-LDIFF_SYM3560=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3560
-	.byte 1,106,11
-	.asciz "i"
-
-LDIFF_SYM3561=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3561
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3562=Lfde534_end - Lfde534_start
-	.long LDIFF_SYM3562
-Lfde534_start:
+LDIFF_SYM3560=Lfde533_end - Lfde533_start
+	.long LDIFF_SYM3560
+Lfde533_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_GenericEqualityComparer_1_OpenTK_ContextHandle_IndexOf_OpenTK_ContextHandle___OpenTK_ContextHandle_int_int
 
-LDIFF_SYM3563=Lme_2b9 - System_Collections_Generic_GenericEqualityComparer_1_OpenTK_ContextHandle_IndexOf_OpenTK_ContextHandle___OpenTK_ContextHandle_int_int
-	.long LDIFF_SYM3563
+LDIFF_SYM3561=Lme_2b8 - System_Collections_Generic_GenericEqualityComparer_1_OpenTK_ContextHandle_IndexOf_OpenTK_ContextHandle___OpenTK_ContextHandle_int_int
+	.long LDIFF_SYM3561
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,151,10,152,9,68,154,8
 	.align 3
-Lfde534_end:
+Lfde533_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -66103,66 +65924,66 @@ Lfde534_end:
 
 	.byte 29,197,1
 	.quad System_Collections_Generic_GenericEqualityComparer_1_OpenTK_ContextHandle_LastIndexOf_OpenTK_ContextHandle___OpenTK_ContextHandle_int_int
-	.quad Lme_2ba
+	.quad Lme_2b9
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3564=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3564
+LDIFF_SYM3562=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3562
 	.byte 0,3
 	.asciz "array"
 
-LDIFF_SYM3565=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM3565
+LDIFF_SYM3563=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM3563
 	.byte 1,104,3
 	.asciz "value"
 
-LDIFF_SYM3566=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3566
+LDIFF_SYM3564=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3564
 	.byte 2,141,48,3
 	.asciz "startIndex"
 
-LDIFF_SYM3567=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3567
+LDIFF_SYM3565=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3565
 	.byte 3,141,192,0,3
 	.asciz "count"
 
-LDIFF_SYM3568=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3568
+LDIFF_SYM3566=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3566
 	.byte 1,106,11
 	.asciz "endIndex"
 
-LDIFF_SYM3569=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3569
+LDIFF_SYM3567=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3567
 	.byte 1,106,11
 	.asciz "i"
 
-LDIFF_SYM3570=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3570
+LDIFF_SYM3568=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3568
 	.byte 1,103,11
 	.asciz "i"
 
-LDIFF_SYM3571=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3571
+LDIFF_SYM3569=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3569
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3572=Lfde535_end - Lfde535_start
-	.long LDIFF_SYM3572
-Lfde535_start:
+LDIFF_SYM3570=Lfde534_end - Lfde534_start
+	.long LDIFF_SYM3570
+Lfde534_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_GenericEqualityComparer_1_OpenTK_ContextHandle_LastIndexOf_OpenTK_ContextHandle___OpenTK_ContextHandle_int_int
 
-LDIFF_SYM3573=Lme_2ba - System_Collections_Generic_GenericEqualityComparer_1_OpenTK_ContextHandle_LastIndexOf_OpenTK_ContextHandle___OpenTK_ContextHandle_int_int
-	.long LDIFF_SYM3573
+LDIFF_SYM3571=Lme_2b9 - System_Collections_Generic_GenericEqualityComparer_1_OpenTK_ContextHandle_LastIndexOf_OpenTK_ContextHandle___OpenTK_ContextHandle_int_int
+	.long LDIFF_SYM3571
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,151,10,152,9,68,154,8
 	.align 3
-Lfde535_end:
+Lfde534_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -66172,36 +65993,36 @@ Lfde535_end:
 
 	.byte 29,213,1
 	.quad System_Collections_Generic_GenericEqualityComparer_1_OpenTK_ContextHandle_Equals_object
-	.quad Lme_2bb
+	.quad Lme_2ba
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3574=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3574
+LDIFF_SYM3572=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3572
 	.byte 0,3
 	.asciz "obj"
 
-LDIFF_SYM3575=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM3575
+LDIFF_SYM3573=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM3573
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3576=Lfde536_end - Lfde536_start
-	.long LDIFF_SYM3576
-Lfde536_start:
+LDIFF_SYM3574=Lfde535_end - Lfde535_start
+	.long LDIFF_SYM3574
+Lfde535_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_GenericEqualityComparer_1_OpenTK_ContextHandle_Equals_object
 
-LDIFF_SYM3577=Lme_2bb - System_Collections_Generic_GenericEqualityComparer_1_OpenTK_ContextHandle_Equals_object
-	.long LDIFF_SYM3577
+LDIFF_SYM3575=Lme_2ba - System_Collections_Generic_GenericEqualityComparer_1_OpenTK_ContextHandle_Equals_object
+	.long LDIFF_SYM3575
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,153,4
 	.align 3
-Lfde536_end:
+Lfde535_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -66211,31 +66032,31 @@ Lfde536_end:
 
 	.byte 29,218,1
 	.quad System_Collections_Generic_GenericEqualityComparer_1_OpenTK_ContextHandle_GetHashCode
-	.quad Lme_2bc
+	.quad Lme_2bb
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3578=LTDIE_151_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3578
+LDIFF_SYM3576=LTDIE_151_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3576
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3579=Lfde537_end - Lfde537_start
-	.long LDIFF_SYM3579
-Lfde537_start:
+LDIFF_SYM3577=Lfde536_end - Lfde536_start
+	.long LDIFF_SYM3577
+Lfde536_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_GenericEqualityComparer_1_OpenTK_ContextHandle_GetHashCode
 
-LDIFF_SYM3580=Lme_2bc - System_Collections_Generic_GenericEqualityComparer_1_OpenTK_ContextHandle_GetHashCode
-	.long LDIFF_SYM3580
+LDIFF_SYM3578=Lme_2bb - System_Collections_Generic_GenericEqualityComparer_1_OpenTK_ContextHandle_GetHashCode
+	.long LDIFF_SYM3578
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde537_end:
+Lfde536_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -66245,31 +66066,31 @@ Lfde537_end:
 
 	.byte 0,0
 	.quad System_Collections_Generic_GenericEqualityComparer_1_OpenTK_ContextHandle__ctor
-	.quad Lme_2bd
+	.quad Lme_2bc
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3581=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3581
+LDIFF_SYM3579=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3579
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3582=Lfde538_end - Lfde538_start
-	.long LDIFF_SYM3582
-Lfde538_start:
+LDIFF_SYM3580=Lfde537_end - Lfde537_start
+	.long LDIFF_SYM3580
+Lfde537_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_GenericEqualityComparer_1_OpenTK_ContextHandle__ctor
 
-LDIFF_SYM3583=Lme_2bd - System_Collections_Generic_GenericEqualityComparer_1_OpenTK_ContextHandle__ctor
-	.long LDIFF_SYM3583
+LDIFF_SYM3581=Lme_2bc - System_Collections_Generic_GenericEqualityComparer_1_OpenTK_ContextHandle__ctor
+	.long LDIFF_SYM3581
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde538_end:
+Lfde537_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -66279,76 +66100,76 @@ Lfde538_end:
 
 	.byte 26,142,4
 	.quad System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference_Resize_int_bool
-	.quad Lme_2be
+	.quad Lme_2bd
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3584=LTDIE_132_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3584
+LDIFF_SYM3582=LTDIE_132_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3582
 	.byte 1,104,3
 	.asciz "newSize"
 
-LDIFF_SYM3585=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3585
+LDIFF_SYM3583=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3583
 	.byte 1,105,3
 	.asciz "forceNewHashCodes"
 
-LDIFF_SYM3586=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM3586
+LDIFF_SYM3584=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM3584
 	.byte 1,106,11
 	.asciz "buckets"
 
-LDIFF_SYM3587=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM3587
+LDIFF_SYM3585=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM3585
 	.byte 1,103,11
 	.asciz "entries"
 
-LDIFF_SYM3588=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM3588
+LDIFF_SYM3586=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM3586
 	.byte 1,102,11
 	.asciz "count"
 
+LDIFF_SYM3587=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3587
+	.byte 1,101,11
+	.asciz "i"
+
+LDIFF_SYM3588=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3588
+	.byte 1,102,11
+	.asciz "i"
+
 LDIFF_SYM3589=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM3589
-	.byte 1,101,11
+	.byte 1,106,11
 	.asciz "i"
 
 LDIFF_SYM3590=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM3590
-	.byte 1,102,11
-	.asciz "i"
-
-LDIFF_SYM3591=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3591
-	.byte 1,106,11
-	.asciz "i"
-
-LDIFF_SYM3592=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3592
 	.byte 1,106,11
 	.asciz "bucket"
 
-LDIFF_SYM3593=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3593
+LDIFF_SYM3591=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3591
 	.byte 1,100,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3594=Lfde539_end - Lfde539_start
-	.long LDIFF_SYM3594
-Lfde539_start:
+LDIFF_SYM3592=Lfde538_end - Lfde538_start
+	.long LDIFF_SYM3592
+Lfde538_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference_Resize_int_bool
 
-LDIFF_SYM3595=Lme_2be - System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference_Resize_int_bool
-	.long LDIFF_SYM3595
+LDIFF_SYM3593=Lme_2bd - System_Collections_Generic_Dictionary_2_OpenTK_ContextHandle_System_WeakReference_Resize_int_bool
+	.long LDIFF_SYM3593
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,148,10,149,9,68,150,8,151,7,68,152,6,153,5,68,154,4
 	.align 3
-Lfde539_end:
+Lfde538_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_152:
@@ -66357,64 +66178,64 @@ LTDIE_152:
 	.asciz "System_Collections_Generic_ObjectEqualityComparer`1"
 
 	.byte 16,16
-LDIFF_SYM3596=LTDIE_149 - Ldebug_info_start
-	.long LDIFF_SYM3596
+LDIFF_SYM3594=LTDIE_149 - Ldebug_info_start
+	.long LDIFF_SYM3594
 	.byte 2,35,0,0,7
 	.asciz "System_Collections_Generic_ObjectEqualityComparer`1"
 
-LDIFF_SYM3597=LTDIE_152 - Ldebug_info_start
-	.long LDIFF_SYM3597
+LDIFF_SYM3595=LTDIE_152 - Ldebug_info_start
+	.long LDIFF_SYM3595
 LTDIE_152_POINTER:
 
 	.byte 13
-LDIFF_SYM3598=LTDIE_152 - Ldebug_info_start
-	.long LDIFF_SYM3598
+LDIFF_SYM3596=LTDIE_152 - Ldebug_info_start
+	.long LDIFF_SYM3596
 LTDIE_152_REFERENCE:
 
 	.byte 14
-LDIFF_SYM3599=LTDIE_152 - Ldebug_info_start
-	.long LDIFF_SYM3599
+LDIFF_SYM3597=LTDIE_152 - Ldebug_info_start
+	.long LDIFF_SYM3597
 	.byte 2
 	.asciz "System.Collections.Generic.ObjectEqualityComparer`1<OpenTK.ContextHandle>:Equals"
 	.asciz "System_Collections_Generic_ObjectEqualityComparer_1_OpenTK_ContextHandle_Equals_OpenTK_ContextHandle_OpenTK_ContextHandle"
 
 	.byte 29,158,2
 	.quad System_Collections_Generic_ObjectEqualityComparer_1_OpenTK_ContextHandle_Equals_OpenTK_ContextHandle_OpenTK_ContextHandle
-	.quad Lme_2bf
+	.quad Lme_2be
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3600=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3600
+LDIFF_SYM3598=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3598
 	.byte 0,3
 	.asciz "x"
 
-LDIFF_SYM3601=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3601
+LDIFF_SYM3599=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3599
 	.byte 2,141,24,3
 	.asciz "y"
 
-LDIFF_SYM3602=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3602
+LDIFF_SYM3600=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3600
 	.byte 2,141,40,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3603=Lfde540_end - Lfde540_start
-	.long LDIFF_SYM3603
-Lfde540_start:
+LDIFF_SYM3601=Lfde539_end - Lfde539_start
+	.long LDIFF_SYM3601
+Lfde539_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_ObjectEqualityComparer_1_OpenTK_ContextHandle_Equals_OpenTK_ContextHandle_OpenTK_ContextHandle
 
-LDIFF_SYM3604=Lme_2bf - System_Collections_Generic_ObjectEqualityComparer_1_OpenTK_ContextHandle_Equals_OpenTK_ContextHandle_OpenTK_ContextHandle
-	.long LDIFF_SYM3604
+LDIFF_SYM3602=Lme_2be - System_Collections_Generic_ObjectEqualityComparer_1_OpenTK_ContextHandle_Equals_OpenTK_ContextHandle_OpenTK_ContextHandle
+	.long LDIFF_SYM3602
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
-Lfde540_end:
+Lfde539_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -66424,36 +66245,36 @@ Lfde540_end:
 
 	.byte 29,168,2
 	.quad System_Collections_Generic_ObjectEqualityComparer_1_OpenTK_ContextHandle_GetHashCode_OpenTK_ContextHandle
-	.quad Lme_2c0
+	.quad Lme_2bf
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3605=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3605
+LDIFF_SYM3603=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3603
 	.byte 0,3
 	.asciz "obj"
 
-LDIFF_SYM3606=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3606
+LDIFF_SYM3604=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3604
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3607=Lfde541_end - Lfde541_start
-	.long LDIFF_SYM3607
-Lfde541_start:
+LDIFF_SYM3605=Lfde540_end - Lfde540_start
+	.long LDIFF_SYM3605
+Lfde540_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_ObjectEqualityComparer_1_OpenTK_ContextHandle_GetHashCode_OpenTK_ContextHandle
 
-LDIFF_SYM3608=Lme_2c0 - System_Collections_Generic_ObjectEqualityComparer_1_OpenTK_ContextHandle_GetHashCode_OpenTK_ContextHandle
-	.long LDIFF_SYM3608
+LDIFF_SYM3606=Lme_2bf - System_Collections_Generic_ObjectEqualityComparer_1_OpenTK_ContextHandle_GetHashCode_OpenTK_ContextHandle
+	.long LDIFF_SYM3606
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde541_end:
+Lfde540_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -66463,66 +66284,66 @@ Lfde541_end:
 
 	.byte 29,173,2
 	.quad System_Collections_Generic_ObjectEqualityComparer_1_OpenTK_ContextHandle_IndexOf_OpenTK_ContextHandle___OpenTK_ContextHandle_int_int
-	.quad Lme_2c1
+	.quad Lme_2c0
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3609=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3609
+LDIFF_SYM3607=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3607
 	.byte 0,3
 	.asciz "array"
 
-LDIFF_SYM3610=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM3610
+LDIFF_SYM3608=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM3608
 	.byte 1,104,3
 	.asciz "value"
 
-LDIFF_SYM3611=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3611
+LDIFF_SYM3609=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3609
 	.byte 2,141,48,3
 	.asciz "startIndex"
 
-LDIFF_SYM3612=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3612
+LDIFF_SYM3610=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3610
 	.byte 3,141,192,0,3
 	.asciz "count"
+
+LDIFF_SYM3611=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3611
+	.byte 1,106,11
+	.asciz "endIndex"
+
+LDIFF_SYM3612=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3612
+	.byte 1,103,11
+	.asciz "i"
 
 LDIFF_SYM3613=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM3613
 	.byte 1,106,11
-	.asciz "endIndex"
+	.asciz "i"
 
 LDIFF_SYM3614=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM3614
-	.byte 1,103,11
-	.asciz "i"
-
-LDIFF_SYM3615=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3615
-	.byte 1,106,11
-	.asciz "i"
-
-LDIFF_SYM3616=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3616
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3617=Lfde542_end - Lfde542_start
-	.long LDIFF_SYM3617
-Lfde542_start:
+LDIFF_SYM3615=Lfde541_end - Lfde541_start
+	.long LDIFF_SYM3615
+Lfde541_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_ObjectEqualityComparer_1_OpenTK_ContextHandle_IndexOf_OpenTK_ContextHandle___OpenTK_ContextHandle_int_int
 
-LDIFF_SYM3618=Lme_2c1 - System_Collections_Generic_ObjectEqualityComparer_1_OpenTK_ContextHandle_IndexOf_OpenTK_ContextHandle___OpenTK_ContextHandle_int_int
-	.long LDIFF_SYM3618
+LDIFF_SYM3616=Lme_2c0 - System_Collections_Generic_ObjectEqualityComparer_1_OpenTK_ContextHandle_IndexOf_OpenTK_ContextHandle___OpenTK_ContextHandle_int_int
+	.long LDIFF_SYM3616
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,151,12,152,11,68,154,10
 	.align 3
-Lfde542_end:
+Lfde541_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -66532,66 +66353,66 @@ Lfde542_end:
 
 	.byte 29,188,2
 	.quad System_Collections_Generic_ObjectEqualityComparer_1_OpenTK_ContextHandle_LastIndexOf_OpenTK_ContextHandle___OpenTK_ContextHandle_int_int
-	.quad Lme_2c2
+	.quad Lme_2c1
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3619=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3619
+LDIFF_SYM3617=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3617
 	.byte 0,3
 	.asciz "array"
 
-LDIFF_SYM3620=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM3620
+LDIFF_SYM3618=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM3618
 	.byte 1,104,3
 	.asciz "value"
 
-LDIFF_SYM3621=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3621
+LDIFF_SYM3619=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3619
 	.byte 2,141,48,3
 	.asciz "startIndex"
 
-LDIFF_SYM3622=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3622
+LDIFF_SYM3620=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3620
 	.byte 3,141,192,0,3
 	.asciz "count"
 
-LDIFF_SYM3623=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3623
+LDIFF_SYM3621=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3621
 	.byte 1,106,11
 	.asciz "endIndex"
 
-LDIFF_SYM3624=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3624
+LDIFF_SYM3622=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3622
 	.byte 1,106,11
 	.asciz "i"
 
-LDIFF_SYM3625=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3625
+LDIFF_SYM3623=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3623
 	.byte 1,103,11
 	.asciz "i"
 
-LDIFF_SYM3626=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3626
+LDIFF_SYM3624=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3624
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3627=Lfde543_end - Lfde543_start
-	.long LDIFF_SYM3627
-Lfde543_start:
+LDIFF_SYM3625=Lfde542_end - Lfde542_start
+	.long LDIFF_SYM3625
+Lfde542_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_ObjectEqualityComparer_1_OpenTK_ContextHandle_LastIndexOf_OpenTK_ContextHandle___OpenTK_ContextHandle_int_int
 
-LDIFF_SYM3628=Lme_2c2 - System_Collections_Generic_ObjectEqualityComparer_1_OpenTK_ContextHandle_LastIndexOf_OpenTK_ContextHandle___OpenTK_ContextHandle_int_int
-	.long LDIFF_SYM3628
+LDIFF_SYM3626=Lme_2c1 - System_Collections_Generic_ObjectEqualityComparer_1_OpenTK_ContextHandle_LastIndexOf_OpenTK_ContextHandle___OpenTK_ContextHandle_int_int
+	.long LDIFF_SYM3626
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,151,12,152,11,68,154,10
 	.align 3
-Lfde543_end:
+Lfde542_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -66601,36 +66422,36 @@ Lfde543_end:
 
 	.byte 29,204,2
 	.quad System_Collections_Generic_ObjectEqualityComparer_1_OpenTK_ContextHandle_Equals_object
-	.quad Lme_2c3
+	.quad Lme_2c2
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3629=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3629
+LDIFF_SYM3627=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3627
 	.byte 0,3
 	.asciz "obj"
 
-LDIFF_SYM3630=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM3630
+LDIFF_SYM3628=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM3628
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3631=Lfde544_end - Lfde544_start
-	.long LDIFF_SYM3631
-Lfde544_start:
+LDIFF_SYM3629=Lfde543_end - Lfde543_start
+	.long LDIFF_SYM3629
+Lfde543_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_ObjectEqualityComparer_1_OpenTK_ContextHandle_Equals_object
 
-LDIFF_SYM3632=Lme_2c3 - System_Collections_Generic_ObjectEqualityComparer_1_OpenTK_ContextHandle_Equals_object
-	.long LDIFF_SYM3632
+LDIFF_SYM3630=Lme_2c2 - System_Collections_Generic_ObjectEqualityComparer_1_OpenTK_ContextHandle_Equals_object
+	.long LDIFF_SYM3630
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,153,4
 	.align 3
-Lfde544_end:
+Lfde543_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -66640,31 +66461,31 @@ Lfde544_end:
 
 	.byte 29,209,2
 	.quad System_Collections_Generic_ObjectEqualityComparer_1_OpenTK_ContextHandle_GetHashCode
-	.quad Lme_2c4
+	.quad Lme_2c3
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3633=LTDIE_152_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3633
+LDIFF_SYM3631=LTDIE_152_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3631
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3634=Lfde545_end - Lfde545_start
-	.long LDIFF_SYM3634
-Lfde545_start:
+LDIFF_SYM3632=Lfde544_end - Lfde544_start
+	.long LDIFF_SYM3632
+Lfde544_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_ObjectEqualityComparer_1_OpenTK_ContextHandle_GetHashCode
 
-LDIFF_SYM3635=Lme_2c4 - System_Collections_Generic_ObjectEqualityComparer_1_OpenTK_ContextHandle_GetHashCode
-	.long LDIFF_SYM3635
+LDIFF_SYM3633=Lme_2c3 - System_Collections_Generic_ObjectEqualityComparer_1_OpenTK_ContextHandle_GetHashCode
+	.long LDIFF_SYM3633
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde545_end:
+Lfde544_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -66674,31 +66495,31 @@ Lfde545_end:
 
 	.byte 0,0
 	.quad System_Collections_Generic_ObjectEqualityComparer_1_OpenTK_ContextHandle__ctor
-	.quad Lme_2c5
+	.quad Lme_2c4
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3636=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3636
+LDIFF_SYM3634=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3634
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3637=Lfde546_end - Lfde546_start
-	.long LDIFF_SYM3637
-Lfde546_start:
+LDIFF_SYM3635=Lfde545_end - Lfde545_start
+	.long LDIFF_SYM3635
+Lfde545_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_ObjectEqualityComparer_1_OpenTK_ContextHandle__ctor
 
-LDIFF_SYM3638=Lme_2c5 - System_Collections_Generic_ObjectEqualityComparer_1_OpenTK_ContextHandle__ctor
-	.long LDIFF_SYM3638
+LDIFF_SYM3636=Lme_2c4 - System_Collections_Generic_ObjectEqualityComparer_1_OpenTK_ContextHandle__ctor
+	.long LDIFF_SYM3636
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde546_end:
+Lfde545_end:
 
 .section __DWARF, __debug_info,regular,debug
 

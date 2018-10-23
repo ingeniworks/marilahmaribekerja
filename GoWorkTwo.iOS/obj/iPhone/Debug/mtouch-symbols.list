@@ -1,5 +1,4 @@
 _xamarin_find_protocol_wrapper_type
-_xamarin_release_block_on_main_thread
 _xamarin_get_block_descriptor
 _xamarin_IntPtr_objc_msgSend_IntPtr
 _xamarin_IntPtr_objc_msgSendSuper_IntPtr
@@ -11,7 +10,6 @@ _kBITHockeyErrorDomain
 _kBITUpdateErrorDomain
 _mono_pmip
 _xamarin_find_protocol_wrapper_type
-_xamarin_release_block_on_main_thread
 _xamarin_get_block_descriptor
 _xamarin_IntPtr_objc_msgSend_IntPtr
 _xamarin_IntPtr_objc_msgSendSuper_IntPtr

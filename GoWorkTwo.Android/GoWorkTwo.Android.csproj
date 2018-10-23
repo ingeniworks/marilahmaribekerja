@@ -119,12 +119,25 @@
     <Folder Include="Resources\drawable-xhdpi\" />
     <Folder Include="Resources\drawable-xxhdpi\" />
     <Folder Include="Resources\drawable-xxxhdpi\" />
+    <Folder Include="Assets\Fonts\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\GoWorkTwo\GoWorkTwo.csproj">
       <Project>{C38B9E88-3C10-48E8-ADB3-42B7C5D71E4A}</Project>
       <Name>GoWorkTwo</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Fonts\ChakraPetch-Bold.ttf" />
+    <AndroidAsset Include="Assets\Fonts\ChakraPetch-BoldItalic.ttf" />
+    <AndroidAsset Include="Assets\Fonts\ChakraPetch-Italic.ttf" />
+    <AndroidAsset Include="Assets\Fonts\ChakraPetch-Light.ttf" />
+    <AndroidAsset Include="Assets\Fonts\ChakraPetch-LightItalic.ttf" />
+    <AndroidAsset Include="Assets\Fonts\ChakraPetch-Medium.ttf" />
+    <AndroidAsset Include="Assets\Fonts\ChakraPetch-MediumItalic.ttf" />
+    <AndroidAsset Include="Assets\Fonts\ChakraPetch-Regular.ttf" />
+    <AndroidAsset Include="Assets\Fonts\ChakraPetch-SemiBold.ttf" />
+    <AndroidAsset Include="Assets\Fonts\ChakraPetch-SemiBoldItalic.ttf" />
   </ItemGroup>
  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

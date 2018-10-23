@@ -38,7 +38,10 @@ namespace GoWorkTwo
 
             CheckSettings();
 
-            if(Device.RuntimePlatform == Device.Android)
+            MainPage = new V1.MainPage();
+            return;
+
+            if (Device.RuntimePlatform == Device.Android)
             {
                 if(!Current.Properties.ContainsKey("reqPerm"))
                 {

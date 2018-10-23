@@ -1,26 +1,11 @@
-﻿<Properties StartupConfiguration="{17193ABC-9459-4E34-9DAA-06DB974D46FB}|Default">
+﻿<Properties StartupConfiguration="{A4B02708-53E5-401D-A975-3DE27CC74D68}|Default">
   <MonoDevelop.Ide.ItemProperties.GoWorkTwo.Android PreferredExecutionTarget="Android.SelectDevice" AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="GoWorkTwo/MainPage.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="GoWorkTwo/V1/CheckPage.xaml.cs">
     <Files>
-      <File FileName="GoWorkTwo/CheckPage.xaml.cs" Line="8" Column="21" />
-      <File FileName="GoWorkTwo/MainPage.xaml.cs" Line="96" Column="51" />
+      <File FileName="GoWorkTwo/V1/CheckPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="GoWorkTwo/V1/CheckPage.xaml" Line="29" Column="1" />
+      <File FileName="GoWorkTwo/V1/MainPage.xaml" Line="77" Column="1" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="GoWorkTwo" expanded="True">
-            <Node name="GoWorkTwo" expanded="True">
-              <Node name="Classes" expanded="True" />
-              <Node name="CheckPage.xaml" expanded="True" />
-              <Node name="MainPage.xaml" expanded="True">
-                <Node name="MainPage.xaml.cs" selected="True" />
-              </Node>
-            </Node>
-            <Node name="GoWorkTwo.iOS" expanded="True" />
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

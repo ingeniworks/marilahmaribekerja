@@ -21,7 +21,7 @@ Ldebug_info_begin:
 	.short 2
 	.long 0
 	.byte 4,1
-	.asciz "Mono AOT Compiler 5.14.0 (explicit/d31dbe843a5 Tue Aug 14 13:32:50 EDT 2018)"
+	.asciz "Mono AOT Compiler 5.12.0 (tarball Mon Sep 17 21:25:59 EDT 2018)"
 	.asciz "GetiOSModel.dll"
 	.asciz ""
 
@@ -1227,7 +1227,7 @@ bl _p_11
 	.byte 14,16,160,225,0,0,159,229
 bl _p_20
 
-	.byte 253,0,0,0
+	.byte 245,0,0,0
 
 Lme_8:
 .text
@@ -1575,7 +1575,7 @@ _mono_aot_file_info:
 	.long 40,856,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0
-	.byte 7,26,3,66,48,154,254,44,173,215,91,162,137,103,134,54
+	.byte 178,110,148,90,192,123,197,92,91,219,98,123,134,249,102,9
 	.globl _mono_aot_module_GetiOSModel_info
 	.align 2
 _mono_aot_module_GetiOSModel_info:
